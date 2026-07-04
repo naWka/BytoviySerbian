@@ -1,0 +1,88 @@
+{
+  "id": "apoteka",
+  "title_ru": "💊 Аптека",
+  "title_sr": "Апотека",
+  "role_for_ai": "фармацевт в сербской аптеке — деловитый, говорит быстро, задаёт встречные вопросы про симптомы, аллергии, рецепт",
+  "will_hear": [
+    {
+      "sr_cyrillic": "Немамо тај лек, али имамо генерику — исти састав.",
+      "sr_latin": "Nemamo taj lek, ali imamo generiku — isti sastav.",
+      "pronunciation_ru": "нЭмамо тай лек, Али Имамо генЭрику — Исти сАстав",
+      "translation_ru": "Этого лекарства нет, но есть дженерик — тот же состав.",
+      "react_sr": "Може, дајте генерику.",
+      "react_pron": "мОже, дАйте генЭрику",
+      "react_ru": "Давайте дженерик.",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "Овај лек иде само на рецепт.",
+      "sr_latin": "Ovaj lek ide samo na recept.",
+      "pronunciation_ru": "Овай лек Иде сАмо на рЭцепт",
+      "translation_ru": "Это лекарство только по рецепту.",
+      "react_sr": "А имате ли нешто слично без рецепта?",
+      "react_pron": "а Имате ли нЭшто слИчно без рЭцепта",
+      "react_ru": "А есть похожее без рецепта?",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "Узима се после јела, два пута дневно.",
+      "sr_latin": "Uzima se posle jela, dva puta dnevno.",
+      "pronunciation_ru": "Узима се пОсле Ела, два пУта днЭвно",
+      "translation_ru": "Принимать после еды, два раза в день.",
+      "react_sr": "Колико дана?",
+      "react_pron": "кОлико дАна",
+      "react_ru": "Сколько дней?",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "Нема на стање, стиже у среду.",
+      "sr_latin": "Nema na stanje, stiže u sredu.",
+      "pronunciation_ru": "нЭма на стАне, стИже у срЭду",
+      "translation_ru": "Нет в наличии, привезут в среду.",
+      "react_sr": "Можете ли да резервишете за мене?",
+      "react_pron": "мОжете ли да резервИшете за мЭне",
+      "react_ru": "Отложите для меня?",
+      "false_friend_note": "«Нема на стање» — устойчивое «нет в наличии». «Стање» — «состояние/наличие», не «стан»."
+    },
+    {
+      "sr_cyrillic": "Да ли сте алергични на пеницилин?",
+      "sr_latin": "Da li ste alergični na penicilin?",
+      "pronunciation_ru": "да ли сте алергИчни на пеницилИн",
+      "translation_ru": "У вас аллергия на пенициллин?",
+      "react_sr": "Нисам алергичан.",
+      "react_pron": "нИсам алергИчан",
+      "react_ru": "У меня нет аллергии. (женщина: «нисам алергична»)",
+      "false_friend_note": ""
+    }
+  ],
+  "your_phrases": [
+    {
+      "sr_cyrillic": "Да ли се овај лек слаже са леком који већ пијем?",
+      "sr_latin": "Da li se ovaj lek slaže sa lekom koji već pijem?",
+      "pronunciation_ru": "да ли се Овай лек слАже са лЭком кОи веч пИем",
+      "translation_ru": "Это лекарство сочетается с тем, что я уже принимаю?",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "Како се дозира за дете од пет година?",
+      "sr_latin": "Kako se dozira za dete od pet godina?",
+      "pronunciation_ru": "кАко се дозИра за дЭте од пет гОдина",
+      "translation_ru": "Какая дозировка для ребёнка пяти лет?",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "Да ли постоји јача или блажа варијанта?",
+      "sr_latin": "Da li postoji jača ili blaža varijanta?",
+      "pronunciation_ru": "да ли постОи Яча Или блАжа вариЯнта",
+      "translation_ru": "Есть вариант посильнее или помягче?",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "Ово ми не помаже, треба ми нешто јаче.",
+      "sr_latin": "Ovo mi ne pomaže, treba mi nešto jače.",
+      "pronunciation_ru": "Ово ми не помАже, трЭба ми нЭшто Яче",
+      "translation_ru": "Это мне не помогает, нужно что-то посильнее.",
+      "false_friend_note": ""
+    }
+  ]
+}

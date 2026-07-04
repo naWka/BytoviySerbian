@@ -1,0 +1,200 @@
+{
+  "id": "supermarket",
+  "title_ru": "🛒 Супермаркет",
+  "title_sr": "Супермаркет",
+  "role_for_ai": "кассир и сотрудник зала — акции, карта лояльности, возврат",
+  "will_hear": [
+    {
+      "sr_cyrillic": "Да ли имате нашу картицу лојалности?",
+      "sr_latin": "Da li imate našu karticu lojalnosti?",
+      "pronunciation_ru": "да ли Имате нАшу кАртицу лоЯлности",
+      "translation_ru": "У вас есть наша карта лояльности?",
+      "react_sr": "Немам, али бих да је направим.",
+      "react_pron": "нЭмам, Али бих да йе нАправим",
+      "react_ru": "Нет, но хочу оформить.",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "Акција важи само уз картицу.",
+      "sr_latin": "Akcija važi samo uz karticu.",
+      "pronunciation_ru": "Акция вАжи сАмо уз кАртицу",
+      "translation_ru": "Скидка действует только по карте.",
+      "react_sr": "Могу ли одмах да је извадим?",
+      "react_pron": "мОгу ли Одмах да йе Извадим",
+      "react_ru": "Могу оформить прямо сейчас?",
+      "false_friend_note": "«Важи» — «действует / действительно», а не «важно»."
+    },
+    {
+      "sr_cyrillic": "То је на акцији — друго паковање гратис.",
+      "sr_latin": "To je na akciji — drugo pakovanje gratis.",
+      "pronunciation_ru": "то йе на Акции — дрУго пАкованье грАтис",
+      "translation_ru": "Это по акции — вторая упаковка бесплатно.",
+      "react_sr": "А колико кошта једно?",
+      "react_pron": "а кОлико кОшта йЕдно",
+      "react_ru": "А сколько стоит одна?",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "Тренутно немамо то, покушајте у другој радњи.",
+      "sr_latin": "Trenutno nemamo to, pokušajte u drugoj radnji.",
+      "pronunciation_ru": "трЭнутно нЭмамо то, покУшайте у дрУгой рАдньи",
+      "translation_ru": "Сейчас этого нет, попробуйте в другом магазине.",
+      "react_sr": "А кад стиже нова испорука?",
+      "react_pron": "а кад стИже нОва Испорука",
+      "react_ru": "А когда следующая поставка?",
+      "false_friend_note": "«Радња» — «магазин / лавка», а не «работа»."
+    },
+    {
+      "sr_cyrillic": "Млеко је у дну, па лево, поред млечних производа.",
+      "sr_latin": "Mleko je u dnu, pa levo, pored mlečnih proizvoda.",
+      "pronunciation_ru": "млЭко йе у дну, па лЭво, пОред млЭчних прОизвода",
+      "translation_ru": "Молоко в глубине зала, потом налево, рядом с молочкой.",
+      "react_sr": "У ком реду тачно?",
+      "react_pron": "у ком рЭду тАчно",
+      "react_ru": "В каком именно ряду?",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "Рекламације се решавају на шалтеру број два.",
+      "sr_latin": "Reklamacije se rešavaju na šalteru broj dva.",
+      "pronunciation_ru": "рекламАцие се решАваю на шАлтеру брОй два",
+      "translation_ru": "Возвраты оформляют на стойке номер два.",
+      "react_sr": "Хвала, идем тамо.",
+      "react_pron": "хвАла, Идем тАмо",
+      "react_ru": "Спасибо, иду туда.",
+      "false_friend_note": "«Рекламација» — это «возврат / претензия по товару», а не «реклама»."
+    },
+    {
+      "sr_cyrillic": "Без рачуна не могу да примим робу назад.",
+      "sr_latin": "Bez računa ne mogu da primim robu nazad.",
+      "pronunciation_ru": "без рАчуна не мОгу да прИмим рОбу нАзад",
+      "translation_ru": "Без чека вернуть товар не могу.",
+      "react_sr": "Имам рачун у телефону, важи ли то?",
+      "react_pron": "Имам рАчун у телЭфону, вАжи ли то",
+      "react_ru": "Чек есть в телефоне, подойдёт?",
+      "false_friend_note": "«Роба» — «товар», а не «рабочая одежда». «Рачун» — «чек / счёт»."
+    },
+    {
+      "sr_cyrillic": "Роба на снижењу не може да се врати.",
+      "sr_latin": "Roba na sniženju ne može da se vrati.",
+      "pronunciation_ru": "рОба на снИженю не мОже да се врАти",
+      "translation_ru": "Товар со скидкой возврату не подлежит.",
+      "react_sr": "То ми нико није рекао при куповини.",
+      "react_pron": "то ми нИко нИйе рЭкао при кУповини",
+      "react_ru": "Мне об этом не сказали при покупке.",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "Кеса се плаћа — треба ли вам?",
+      "sr_latin": "Kesa se plaća — treba li vam?",
+      "pronunciation_ru": "кЭса се плАча — трЭба ли вам",
+      "translation_ru": "Пакет платный — нужен?",
+      "react_sr": "Не треба, имам своју.",
+      "react_pron": "не трЭба, Имам свОю",
+      "react_ru": "Не надо, у меня своя сумка.",
+      "false_friend_note": "«Кеса» — «пакет / сумка», по звуку легко спутать с «касса»."
+    },
+    {
+      "sr_cyrillic": "Картица вам није активна — морате је регистровати на сајту.",
+      "sr_latin": "Kartica vam nije aktivna — morate je registrovati na sajtu.",
+      "pronunciation_ru": "кАртица вам нИйе актИвна — мОрате йе регистрОвати на сАйту",
+      "translation_ru": "Ваша карта не активна — её нужно зарегистрировать на сайте.",
+      "react_sr": "Може ли то да се уради овде?",
+      "react_pron": "мОже ли то да се Уради Овде",
+      "react_ru": "Это можно сделать здесь?",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "Сачекајте — нестало је папира у каси.",
+      "sr_latin": "Sačekajte — nestalo je papira u kasi.",
+      "pronunciation_ru": "сачЭкайте — нЭстало йе папИра у кАси",
+      "translation_ru": "Подождите — в кассе закончилась лента для чека.",
+      "react_sr": "Нема журбе, сачекаћу.",
+      "react_pron": "нЭма жУрбе, сачЭкачу",
+      "react_ru": "Не спешу, подожду.",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "Цена на полици је стара — важи ова на каси.",
+      "sr_latin": "Cena na polici je stara — važi ova na kasi.",
+      "pronunciation_ru": "цЭна на пОлици йе стАра — вАжи Ова на кАси",
+      "translation_ru": "Цена на полке устарела — действует та, что на кассе.",
+      "react_sr": "Онда одустајем од тога.",
+      "react_pron": "Онда одустАйем од тОга",
+      "react_ru": "Тогда я это не беру.",
+      "false_friend_note": ""
+    }
+  ],
+  "your_phrases": [
+    {
+      "sr_cyrillic": "Да ли акција важи и на ово, или само на истакнуте артикле?",
+      "sr_latin": "Da li akcija važi i na ovo, ili samo na istaknute artikle?",
+      "pronunciation_ru": "да ли Акция вАжи и на Ово, Или сАмо на Истакнуте артИкле",
+      "translation_ru": "Скидка действует и на это, или только на выделенные товары?",
+      "false_friend_note": "«Артикал» — «товар / позиция», а не «артикул (номер)»."
+    },
+    {
+      "sr_cyrillic": "До ког датума траје ова акција?",
+      "sr_latin": "Do kog datuma traje ova akcija?",
+      "pronunciation_ru": "до ког дАтума трАйе Ова Акция",
+      "translation_ru": "До какого числа действует эта акция?",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "Како да скупљам поене на картицу и шта добијам заузврат?",
+      "sr_latin": "Kako da skupljam poene na karticu i šta dobijam zauzvrat?",
+      "pronunciation_ru": "кАко да скУплям пОене на кАртицу и шта дОбиям заУзврат",
+      "translation_ru": "Как копить баллы на карту и что я за них получаю?",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "Можете ли да ми оставите ово са стране док не обиђем радњу?",
+      "sr_latin": "Možete li da mi ostavite ovo sa strane dok ne obiđem radnju?",
+      "pronunciation_ru": "мОжете ли да ми остАвите Ово са стрАне док не обИджем рАдню",
+      "translation_ru": "Можете отложить это в сторону, пока я обойду магазин?",
+      "false_friend_note": "«Радња» — «магазин / лавка», а не «работа»."
+    },
+    {
+      "sr_cyrillic": "На полици је писало ниже — можете ли да ми наплатите ту цену?",
+      "sr_latin": "Na polici je pisalo niže — možete li da mi naplatite tu cenu?",
+      "pronunciation_ru": "на пОлици йе пИсало нИже — мОжете ли да ми наплАтите ту цЭну",
+      "translation_ru": "На полке была цена ниже — можете пробить по ней?",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "У ком року могу да вратим робу ако се предомислим?",
+      "sr_latin": "U kom roku mogu da vratim robu ako se predomislim?",
+      "pronunciation_ru": "у ком рОку мОгу да врАтим рОбу Ако се предОмислим",
+      "translation_ru": "В какой срок я могу вернуть товар, если передумаю?",
+      "false_friend_note": "«Роба» — «товар», а не «рабочая одежда»."
+    },
+    {
+      "sr_cyrillic": "Да ли ми за рекламацију треба рачун и оригинално паковање?",
+      "sr_latin": "Da li mi za reklamaciju treba račun i originalno pakovanje?",
+      "pronunciation_ru": "да ли ми за рекламАцию трЭба рАчун и оригинАлно пАкованье",
+      "translation_ru": "Для возврата нужен чек и оригинальная упаковка?",
+      "false_friend_note": "«Рекламација» — «возврат / претензия», а не «реклама»."
+    },
+    {
+      "sr_cyrillic": "Можете ли да ми напишете назив производа да га потражим?",
+      "sr_latin": "Možete li da mi napišete naziv proizvoda da ga potražim?",
+      "pronunciation_ru": "мОжете ли да ми напИшете нАзив прОизвода да га потрАжим",
+      "translation_ru": "Можете написать мне название товара, чтобы я его нашёл?",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "Који је рок трајања на овом производу?",
+      "sr_latin": "Koji je rok trajanja na ovom proizvodu?",
+      "pronunciation_ru": "кОйи йе рок трАяня на Овом прОизводу",
+      "translation_ru": "Какой срок годности у этого продукта?",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "Можете ли да проверите у магацину има ли још на стању?",
+      "sr_latin": "Možete li da proverite u magacinu ima li još na stanju?",
+      "pronunciation_ru": "мОжете ли да провЭрите у магацИну Има ли йОш на стАню",
+      "translation_ru": "Можете проверить на складе, есть ли ещё в наличии?",
+      "false_friend_note": "«Магацин» — «склад», а не «магазин». «На стању» — «в наличии»."
+    }
+  ]
+}

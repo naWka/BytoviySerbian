@@ -1,0 +1,385 @@
+{
+  "id": "restoran_meni",
+  "title_ru": "🍽 Меню и ресторан",
+  "title_sr": "Мени",
+  "words": [
+    {
+      "sr_cyrillic": "јеловник",
+      "sr_latin": "jelovnik",
+      "pronunciation_ru": "йЭловник",
+      "translation_ru": "меню (список блюд)",
+      "example_sr": "Можете ли да ми донесете јеловник?",
+      "example_ru": "Можете принести мне меню?",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "изволите",
+      "sr_latin": "izvolite",
+      "pronunciation_ru": "извОлите",
+      "translation_ru": "прошу вас; вот, пожалуйста; слушаю вас (частое слово официанта)",
+      "example_sr": "Изволите, шта ћете да наручите?",
+      "example_ru": "Слушаю вас, что будете заказывать?",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "конобар",
+      "sr_latin": "konobar",
+      "pronunciation_ru": "кОнобар",
+      "translation_ru": "официант",
+      "example_sr": "Конобар ће одмах доћи до вашег стола.",
+      "example_ru": "Официант сейчас подойдёт к вашему столу.",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "наруџбина",
+      "sr_latin": "narudžbina",
+      "pronunciation_ru": "нарУджбина",
+      "translation_ru": "заказ",
+      "example_sr": "Ваша наруџбина стиже за десет минута.",
+      "example_ru": "Ваш заказ будет через десять минут.",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "наручити",
+      "sr_latin": "naručiti",
+      "pronunciation_ru": "нарУчити",
+      "translation_ru": "заказать",
+      "example_sr": "Желим да наручим пасту са пилетином.",
+      "example_ru": "Я хочу заказать пасту с курицей.",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "предјело",
+      "sr_latin": "predjelo",
+      "pronunciation_ru": "прЭдйело",
+      "translation_ru": "закуска (перед основным блюдом)",
+      "example_sr": "За предјело ћу узети салату.",
+      "example_ru": "На закуску возьму салат.",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "главно јело",
+      "sr_latin": "glavno jelo",
+      "pronunciation_ru": "глАвно йЭло",
+      "translation_ru": "главное (основное) блюдо",
+      "example_sr": "Које главно јело препоручујете?",
+      "example_ru": "Какое основное блюдо посоветуете?",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "прилог",
+      "sr_latin": "prilog",
+      "pronunciation_ru": "прИлог",
+      "translation_ru": "гарнир",
+      "example_sr": "Уз месо иде прилог по избору.",
+      "example_ru": "К мясу идёт гарнир на выбор.",
+      "false_friend_note": "«Прилог» — это гарнир, а не «приложение» или «дополнение к документу»."
+    },
+    {
+      "sr_cyrillic": "порција",
+      "sr_latin": "porcija",
+      "pronunciation_ru": "пОрција",
+      "translation_ru": "порция",
+      "example_sr": "Порција је прилично велика, довољна за двоје.",
+      "example_ru": "Порция довольно большая, хватит на двоих.",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "рачун",
+      "sr_latin": "račun",
+      "pronunciation_ru": "рАчун",
+      "translation_ru": "счёт (к оплате)",
+      "example_sr": "Молим вас рачун.",
+      "example_ru": "Счёт, пожалуйста.",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "напојница",
+      "sr_latin": "napojnica",
+      "pronunciation_ru": "напОйница",
+      "translation_ru": "чаевые",
+      "example_sr": "Да ли је напојница урачуната у рачун?",
+      "example_ru": "Чаевые уже включены в счёт?",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "препоручујем",
+      "sr_latin": "preporučujem",
+      "pronunciation_ru": "препорУчујем",
+      "translation_ru": "рекомендую, советую",
+      "example_sr": "Препоручујем вам домаћу супу.",
+      "example_ru": "Рекомендую вам домашний суп.",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "пиће",
+      "sr_latin": "piće",
+      "pronunciation_ru": "пИче",
+      "translation_ru": "напиток",
+      "example_sr": "Шта желите за пиће?",
+      "example_ru": "Что будете пить?",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "точено пиво",
+      "sr_latin": "točeno pivo",
+      "pronunciation_ru": "тОчено пИво",
+      "translation_ru": "разливное пиво",
+      "example_sr": "Једно точено пиво, молим.",
+      "example_ru": "Одно разливное пиво, пожалуйста.",
+      "false_friend_note": "«Точено» — значит разливное (налитое из крана), а не «точёное»."
+    },
+    {
+      "sr_cyrillic": "кисела вода",
+      "sr_latin": "kisela voda",
+      "pronunciation_ru": "кИсела вОда",
+      "translation_ru": "газированная (минеральная) вода",
+      "example_sr": "Донесите ми једну киселу воду.",
+      "example_ru": "Принесите мне газированную воду.",
+      "false_friend_note": "«Кисела вода» — это газированная минералка, а не «кислая вода»."
+    },
+    {
+      "sr_cyrillic": "негазирана",
+      "sr_latin": "negazirana",
+      "pronunciation_ru": "негазИрана",
+      "translation_ru": "негазированная (о воде)",
+      "example_sr": "Имате ли негазирану воду?",
+      "example_ru": "У вас есть негазированная вода?",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "сок",
+      "sr_latin": "sok",
+      "pronunciation_ru": "сОк",
+      "translation_ru": "сок",
+      "example_sr": "Наручио бих сок од јабуке.",
+      "example_ru": "Я бы заказал яблочный сок.",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "кафа",
+      "sr_latin": "kafa",
+      "pronunciation_ru": "кАфа",
+      "translation_ru": "кофе",
+      "example_sr": "Једну кафу после ручка, молим.",
+      "example_ru": "Один кофе после обеда, пожалуйста.",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "чорба",
+      "sr_latin": "čorba",
+      "pronunciation_ru": "чОрба",
+      "translation_ru": "суп (густой, заправочный)",
+      "example_sr": "Дајте ми рибљу чорбу за почетак.",
+      "example_ru": "Дайте мне для начала густой рыбный суп.",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "супа",
+      "sr_latin": "supa",
+      "pronunciation_ru": "сУпа",
+      "translation_ru": "суп (лёгкий, прозрачный бульон)",
+      "example_sr": "За почетак бих једну пилећу супу.",
+      "example_ru": "Для начала я бы взял куриный бульон.",
+      "false_friend_note": "В Сербии «супа» — это прозрачный бульон, а густой суп называют «чорба»."
+    },
+    {
+      "sr_cyrillic": "печење",
+      "sr_latin": "pečenje",
+      "pronunciation_ru": "пЭченье",
+      "translation_ru": "жаркое, жареное (обычно на вертеле) мясо",
+      "example_sr": "За славу спремамо свињско печење.",
+      "example_ru": "На праздник готовим жареную свинину.",
+      "false_friend_note": "Похоже на «печенье», но «печење» — это жареное мясо."
+    },
+    {
+      "sr_cyrillic": "роштиљ",
+      "sr_latin": "roštilj",
+      "pronunciation_ru": "рОштиль",
+      "translation_ru": "гриль; мясо на гриле, барбекю",
+      "example_sr": "Вечерас идемо на роштиљ.",
+      "example_ru": "Сегодня вечером идём на барбекю.",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "љуто",
+      "sr_latin": "ljuto",
+      "pronunciation_ru": "лЮто",
+      "translation_ru": "остро (по вкусу)",
+      "example_sr": "Да ли је ово јело љуто?",
+      "example_ru": "Это блюдо острое?",
+      "false_friend_note": "Звучит как «люто», но значит «остро» на вкус, а не «жестоко»."
+    },
+    {
+      "sr_cyrillic": "поврће",
+      "sr_latin": "povrće",
+      "pronunciation_ru": "пОврче",
+      "translation_ru": "овощи",
+      "example_sr": "Волим јела са пуно поврћа.",
+      "example_ru": "Люблю блюда с большим количеством овощей.",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "кромпир",
+      "sr_latin": "krompir",
+      "pronunciation_ru": "крОмпир",
+      "translation_ru": "картофель",
+      "example_sr": "Као прилог, печени кромпир.",
+      "example_ru": "На гарнир — запечённый картофель.",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "помфрит",
+      "sr_latin": "pomfrit",
+      "pronunciation_ru": "пОмфрит",
+      "translation_ru": "картофель фри",
+      "example_sr": "Деца увек траже помфрит.",
+      "example_ru": "Дети всегда просят картошку фри.",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "пире",
+      "sr_latin": "pire",
+      "pronunciation_ru": "пИре",
+      "translation_ru": "пюре",
+      "example_sr": "Уз пилетину најбоље иде пире.",
+      "example_ru": "К курице лучше всего идёт пюре.",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "салата",
+      "sr_latin": "salata",
+      "pronunciation_ru": "салАта",
+      "translation_ru": "салат",
+      "example_sr": "Која салата иде уз ово јело?",
+      "example_ru": "Какой салат идёт к этому блюду?",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "готовина или картица",
+      "sr_latin": "gotovina ili kartica",
+      "pronunciation_ru": "готОвина Или кАртица",
+      "translation_ru": "наличными или картой? (вопрос при оплате)",
+      "example_sr": "Плаћате готовином или картицом?",
+      "example_ru": "Платите наличными или картой?",
+      "false_friend_note": "«Готовина» — это наличные деньги, а не «готовность» и не «наличие товара»."
+    },
+    {
+      "sr_cyrillic": "пилетина",
+      "sr_latin": "piletina",
+      "pronunciation_ru": "пилЭтина",
+      "translation_ru": "курятина, курица (как мясо)",
+      "example_sr": "Пилетина са роштиља, молим.",
+      "example_ru": "Курица на гриле, пожалуйста.",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "свињетина",
+      "sr_latin": "svinjetina",
+      "pronunciation_ru": "свиньЭтина",
+      "translation_ru": "свинина",
+      "example_sr": "Ја не једем свињетину.",
+      "example_ru": "Я не ем свинину.",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "риба",
+      "sr_latin": "riba",
+      "pronunciation_ru": "рИба",
+      "translation_ru": "рыба",
+      "example_sr": "Данас имамо свежу рибу.",
+      "example_ru": "Сегодня у нас свежая рыба.",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "хлеб",
+      "sr_latin": "hleb",
+      "pronunciation_ru": "хлЭб",
+      "translation_ru": "хлеб",
+      "example_sr": "Донесите још мало хлеба, молим.",
+      "example_ru": "Принесите ещё немного хлеба, пожалуйста.",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "со",
+      "sr_latin": "so",
+      "pronunciation_ru": "сО",
+      "translation_ru": "соль",
+      "example_sr": "Можете ли ми додати со?",
+      "example_ru": "Можете передать мне соль?",
+      "false_friend_note": "«Со» — это соль, а не русский предлог «со»."
+    },
+    {
+      "sr_cyrillic": "кашика",
+      "sr_latin": "kašika",
+      "pronunciation_ru": "кАшика",
+      "translation_ru": "ложка",
+      "example_sr": "Недостаје ми кашика.",
+      "example_ru": "Мне не хватает ложки.",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "виљушка",
+      "sr_latin": "viljuška",
+      "pronunciation_ru": "вИльюшка",
+      "translation_ru": "вилка",
+      "example_sr": "Можете ли донети још једну виљушку?",
+      "example_ru": "Можете принести ещё одну вилку?",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "чаша",
+      "sr_latin": "čaša",
+      "pronunciation_ru": "чАша",
+      "translation_ru": "стакан",
+      "example_sr": "Донесите ми чашу воде.",
+      "example_ru": "Принесите мне стакан воды.",
+      "false_friend_note": "По-сербски «чаша» — это обычный стакан, а не большая чаша или кубок."
+    },
+    {
+      "sr_cyrillic": "тањир",
+      "sr_latin": "tanjir",
+      "pronunciation_ru": "тАнир",
+      "translation_ru": "тарелка",
+      "example_sr": "Можете ли донети још један тањир?",
+      "example_ru": "Можете принести ещё одну тарелку?",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "салвета",
+      "sr_latin": "salveta",
+      "pronunciation_ru": "салвЭта",
+      "translation_ru": "салфетка",
+      "example_sr": "Могу ли да добијем салвету?",
+      "example_ru": "Можно мне салфетку?",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "сладолед",
+      "sr_latin": "sladoled",
+      "pronunciation_ru": "слАдолед",
+      "translation_ru": "мороженое",
+      "example_sr": "За десерт бих сладолед од чоколаде.",
+      "example_ru": "На десерт я бы взял шоколадное мороженое.",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "колач",
+      "sr_latin": "kolač",
+      "pronunciation_ru": "колАч",
+      "translation_ru": "пирожное, кусок торта, сладкая выпечка",
+      "example_sr": "Имате ли неки колач уз кафу?",
+      "example_ru": "Есть ли у вас какое-нибудь пирожное к кофе?",
+      "false_friend_note": "«Колач» — это сладкая выпечка/пирожное, а не «калач»."
+    },
+    {
+      "sr_cyrillic": "ручак",
+      "sr_latin": "ručak",
+      "pronunciation_ru": "рУчак",
+      "translation_ru": "обед",
+      "example_sr": "Долазимо на ручак око подне.",
+      "example_ru": "Мы придём на обед около полудня.",
+      "false_friend_note": "«Ручак» — это обед, ничего общего с «ручкой»."
+    }
+  ]
+}

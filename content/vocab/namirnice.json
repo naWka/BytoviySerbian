@@ -1,0 +1,385 @@
+{
+  "id": "namirnice",
+  "title_ru": "🛍 Продукты (бакалея)",
+  "title_sr": "Намирнице",
+  "words": [
+    {
+      "sr_cyrillic": "брашно",
+      "sr_latin": "brašno",
+      "pronunciation_ru": "брАшно",
+      "translation_ru": "мука",
+      "example_sr": "Треба ми кило брашна за колаче.",
+      "example_ru": "Мне нужен килограмм муки для выпечки.",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "пиринач",
+      "sr_latin": "pirinač",
+      "pronunciation_ru": "пИринач",
+      "translation_ru": "рис",
+      "example_sr": "Пиринач је у трећем реду, поред тестенине.",
+      "example_ru": "Рис в третьем ряду, рядом с макаронами.",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "гриз",
+      "sr_latin": "griz",
+      "pronunciation_ru": "грИз",
+      "translation_ru": "манная крупа, манка",
+      "example_sr": "Од гриза се прави фина каша за децу.",
+      "example_ru": "Из манки получается нежная каша для детей.",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "хељда",
+      "sr_latin": "heljda",
+      "pronunciation_ru": "хЭльда",
+      "translation_ru": "гречка",
+      "example_sr": "Хељда нам је распродата, стиже сутра.",
+      "example_ru": "Гречка распродана, привезут завтра.",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "овсене пахуљице",
+      "sr_latin": "ovsene pahuljice",
+      "pronunciation_ru": "Овсэнэ пАхульицэ",
+      "translation_ru": "овсяные хлопья",
+      "example_sr": "Овсене пахуљице су здрав доручак.",
+      "example_ru": "Овсяные хлопья — полезный завтрак.",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "пасуљ",
+      "sr_latin": "pasulj",
+      "pronunciation_ru": "пАсуль",
+      "translation_ru": "фасоль",
+      "example_sr": "Куваћу пасуљ за ручак.",
+      "example_ru": "Сварю фасоль на обед.",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "сочиво",
+      "sr_latin": "sočivo",
+      "pronunciation_ru": "сОчиво",
+      "translation_ru": "чечевица",
+      "example_sr": "Црвено сочиво се брзо кува.",
+      "example_ru": "Красная чечевица варится быстро.",
+      "false_friend_note": "«Сочиво» — это чечевица, а не сочиво (кутья), как в русском."
+    },
+    {
+      "sr_cyrillic": "кукурузно брашно",
+      "sr_latin": "kukuruzno brašno",
+      "pronunciation_ru": "кукурУзно брАшно",
+      "translation_ru": "кукурузная мука",
+      "example_sr": "За проју ми треба кукурузно брашно.",
+      "example_ru": "Для кукурузного хлеба мне нужна кукурузная мука.",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "наут",
+      "sr_latin": "naut",
+      "pronunciation_ru": "нАут",
+      "translation_ru": "нут (турецкий горох)",
+      "example_sr": "Наут можете наћи поред пасуља.",
+      "example_ru": "Нут найдёте рядом с фасолью.",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "тестенина",
+      "sr_latin": "testenina",
+      "pronunciation_ru": "тэстэнИна",
+      "translation_ru": "макаронные изделия",
+      "example_sr": "Која тестенина вам треба, шпагете или макароне?",
+      "example_ru": "Какие макароны вам нужны, спагетти или рожки?",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "шпагете",
+      "sr_latin": "špagete",
+      "pronunciation_ru": "шпагЭтэ",
+      "translation_ru": "спагетти",
+      "example_sr": "Шпагете кувајте око осам минута.",
+      "example_ru": "Спагетти варите около восьми минут.",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "макароне",
+      "sr_latin": "makarone",
+      "pronunciation_ru": "макарОнэ",
+      "translation_ru": "макароны (рожки)",
+      "example_sr": "Деца воле макароне са сиром.",
+      "example_ru": "Дети любят макароны с сыром.",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "резанци",
+      "sr_latin": "rezanci",
+      "pronunciation_ru": "рЭзанци",
+      "translation_ru": "лапша, вермишель",
+      "example_sr": "Ставите резанце у супу.",
+      "example_ru": "Добавьте лапшу в суп.",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "уље",
+      "sr_latin": "ulje",
+      "pronunciation_ru": "Улье",
+      "translation_ru": "растительное масло",
+      "example_sr": "Које уље желите, сунцокретово или маслиново?",
+      "example_ru": "Какое масло хотите, подсолнечное или оливковое?",
+      "false_friend_note": "«Уље» — это растительное масло; сливочное — «маслац» или «путер», а не «уље»."
+    },
+    {
+      "sr_cyrillic": "сунцокретово уље",
+      "sr_latin": "suncokretovo ulje",
+      "pronunciation_ru": "сунцокрЭтово Улье",
+      "translation_ru": "подсолнечное масло",
+      "example_sr": "Сунцокретово уље је на акцији ове недеље.",
+      "example_ru": "Подсолнечное масло на этой неделе по скидке.",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "маслиново уље",
+      "sr_latin": "maslinovo ulje",
+      "pronunciation_ru": "маслИново Улье",
+      "translation_ru": "оливковое масло",
+      "example_sr": "Маслиново уље је скупље, али здравије.",
+      "example_ru": "Оливковое масло дороже, но полезнее.",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "маслац",
+      "sr_latin": "maslac",
+      "pronunciation_ru": "мАслац",
+      "translation_ru": "сливочное масло",
+      "example_sr": "Намажи маслац на хлеб.",
+      "example_ru": "Намажь сливочное масло на хлеб.",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "маст",
+      "sr_latin": "mast",
+      "pronunciation_ru": "мАст",
+      "translation_ru": "смалец, топлёный свиной жир",
+      "example_sr": "Бака пече колаче на масти.",
+      "example_ru": "Бабушка печёт выпечку на свином жире.",
+      "false_friend_note": "«Маст» — это жир/сало (а иногда и мазь), а не «масть»."
+    },
+    {
+      "sr_cyrillic": "шећер",
+      "sr_latin": "šećer",
+      "pronunciation_ru": "шЭчер",
+      "translation_ru": "сахар",
+      "example_sr": "Колико шећера ставите у кафу?",
+      "example_ru": "Сколько сахара кладёте в кофе?",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "шећер у праху",
+      "sr_latin": "šećer u prahu",
+      "pronunciation_ru": "шЭчер у прАху",
+      "translation_ru": "сахарная пудра",
+      "example_sr": "Поспите колач шећером у праху.",
+      "example_ru": "Посыпьте пирог сахарной пудрой.",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "со",
+      "sr_latin": "so",
+      "pronunciation_ru": "сО",
+      "translation_ru": "соль",
+      "example_sr": "Немој да заборавиш со.",
+      "example_ru": "Не забудь соль.",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "крупна со",
+      "sr_latin": "krupna so",
+      "pronunciation_ru": "крУпна сО",
+      "translation_ru": "крупная (каменная) соль",
+      "example_sr": "Крупна со је за роштиљ и за зимницу.",
+      "example_ru": "Крупная соль — для гриля и для заготовок.",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "бибер",
+      "sr_latin": "biber",
+      "pronunciation_ru": "бИбер",
+      "translation_ru": "чёрный перец",
+      "example_sr": "Додајте мало бибера.",
+      "example_ru": "Добавьте немного чёрного перца.",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "зачин",
+      "sr_latin": "začin",
+      "pronunciation_ru": "зАчин",
+      "translation_ru": "приправа, специя",
+      "example_sr": "Овај зачин иде уз месо.",
+      "example_ru": "Эта приправа подходит к мясу.",
+      "false_friend_note": "«Зачин» — это приправа/специя, а не зачин (вступление)."
+    },
+    {
+      "sr_cyrillic": "алева паприка",
+      "sr_latin": "aleva paprika",
+      "pronunciation_ru": "Алэва пАприка",
+      "translation_ru": "молотая паприка (красный перец)",
+      "example_sr": "Алева паприка може бити слатка или љута.",
+      "example_ru": "Молотая паприка бывает сладкой или острой.",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "ловоров лист",
+      "sr_latin": "lovorov list",
+      "pronunciation_ru": "лОворов лИст",
+      "translation_ru": "лавровый лист",
+      "example_sr": "Ставите два ловорова листа у чорбу.",
+      "example_ru": "Положите два лавровых листа в суп.",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "конзерва",
+      "sr_latin": "konzerva",
+      "pronunciation_ru": "конзЭрва",
+      "translation_ru": "консервная банка, консервы",
+      "example_sr": "Отвори конзерву, унутра је туњевина.",
+      "example_ru": "Открой банку, внутри тунец.",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "туњевина",
+      "sr_latin": "tunjevina",
+      "pronunciation_ru": "тУньевина",
+      "translation_ru": "тунец (обычно консервированный)",
+      "example_sr": "Туњевина у уљу је боља за салату.",
+      "example_ru": "Тунец в масле лучше для салата.",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "сардине",
+      "sr_latin": "sardine",
+      "pronunciation_ru": "сардИнэ",
+      "translation_ru": "сардины",
+      "example_sr": "Сардине држим за брзу вечеру.",
+      "example_ru": "Сардины держу на случай быстрого ужина.",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "паштета",
+      "sr_latin": "pašteta",
+      "pronunciation_ru": "паштЭта",
+      "translation_ru": "паштет (обычно в банке)",
+      "example_sr": "Кобасица нам је нестала, узми паштету.",
+      "example_ru": "Колбаса закончилась, возьми паштет.",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "ајвар",
+      "sr_latin": "ajvar",
+      "pronunciation_ru": "Айвар",
+      "translation_ru": "айвар (закуска из печёного перца)",
+      "example_sr": "Ајвар се једе уз хлеб и месо.",
+      "example_ru": "Айвар едят с хлебом и мясом.",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "пасирани парадајз",
+      "sr_latin": "pasirani paradajz",
+      "pronunciation_ru": "пасИрани парАдайз",
+      "translation_ru": "протёртые томаты, пассата",
+      "example_sr": "За сос ми треба пасирани парадајз.",
+      "example_ru": "Для соуса мне нужны протёртые томаты.",
+      "false_friend_note": "«Парадајз» — это помидор, ничего общего с «парадизом/раем»."
+    },
+    {
+      "sr_cyrillic": "сирће",
+      "sr_latin": "sirće",
+      "pronunciation_ru": "сИрче",
+      "translation_ru": "уксус",
+      "example_sr": "Прелиј салату сирћетом.",
+      "example_ru": "Полей салат уксусом.",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "квасац",
+      "sr_latin": "kvasac",
+      "pronunciation_ru": "квАсац",
+      "translation_ru": "дрожжи",
+      "example_sr": "Без квасца тесто неће нарасти.",
+      "example_ru": "Без дрожжей тесто не поднимется.",
+      "false_friend_note": "«Квасац» — это дрожжи, а не квас."
+    },
+    {
+      "sr_cyrillic": "прашак за пециво",
+      "sr_latin": "prašak za pecivo",
+      "pronunciation_ru": "прАшак за пЭциво",
+      "translation_ru": "разрыхлитель (пекарский порошок)",
+      "example_sr": "Додај кесицу прашка за пециво.",
+      "example_ru": "Добавь пакетик разрыхлителя.",
+      "false_friend_note": "«Пециво» — это выпечка/сдоба; всё выражение значит «разрыхлитель для теста»."
+    },
+    {
+      "sr_cyrillic": "кекс",
+      "sr_latin": "keks",
+      "pronunciation_ru": "кЭкс",
+      "translation_ru": "печенье",
+      "example_sr": "Купи кекс за децу.",
+      "example_ru": "Купи печенье для детей.",
+      "false_friend_note": "«Кекс» по-сербски — это печенье, а не кекс/сдобная булочка."
+    },
+    {
+      "sr_cyrillic": "рок трајања",
+      "sr_latin": "rok trajanja",
+      "pronunciation_ru": "рОк трАяня",
+      "translation_ru": "срок годности",
+      "example_sr": "Проверите рок трајања на паковању.",
+      "example_ru": "Проверьте срок годности на упаковке.",
+      "false_friend_note": "«Рок» — это срок, а не судьба или рок-музыка; «трајање» — длительность."
+    },
+    {
+      "sr_cyrillic": "истекао рок",
+      "sr_latin": "istekao rok",
+      "pronunciation_ru": "истЭкао рОк",
+      "translation_ru": "срок истёк, просрочено",
+      "example_sr": "Овом млеку је истекао рок.",
+      "example_ru": "У этого молока истёк срок годности.",
+      "false_friend_note": "«Рок» здесь — срок (годности), а не «рок» как судьба или музыка."
+    },
+    {
+      "sr_cyrillic": "на акцији",
+      "sr_latin": "na akciji",
+      "pronunciation_ru": "на Акцийи",
+      "translation_ru": "по акции, со скидкой",
+      "example_sr": "Кафа је данас на акцији.",
+      "example_ru": "Кофе сегодня по акции.",
+      "false_friend_note": "«Акција» в магазине — это скидка/распродажа, а не ценная бумага."
+    },
+    {
+      "sr_cyrillic": "нема на стању",
+      "sr_latin": "nema na stanju",
+      "pronunciation_ru": "нЭма на стАню",
+      "translation_ru": "нет в наличии, закончилось",
+      "example_sr": "Тог брашна тренутно нема на стању.",
+      "example_ru": "Этой муки сейчас нет в наличии.",
+      "false_friend_note": "«Стање» — это наличие/остаток на складе; не путать со «стан» (квартира)."
+    },
+    {
+      "sr_cyrillic": "кеса",
+      "sr_latin": "kesa",
+      "pronunciation_ru": "кЭса",
+      "translation_ru": "пакет (пластиковый)",
+      "example_sr": "Треба ли вам кеса?",
+      "example_ru": "Вам нужен пакет?",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "на меру",
+      "sr_latin": "na meru",
+      "pronunciation_ru": "на мЭру",
+      "translation_ru": "на развес, по весу",
+      "example_sr": "Ораси се продају на меру.",
+      "example_ru": "Орехи продаются на развес.",
+      "false_friend_note": ""
+    }
+  ]
+}

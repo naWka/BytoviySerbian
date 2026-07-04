@@ -1,0 +1,200 @@
+{
+  "id": "restoran",
+  "title_ru": "🍽 Ресторан / кафе",
+  "title_sr": "Ресторан",
+  "role_for_ai": "официант — рекомендует, уточняет заказ, приносит счёт",
+  "will_hear": [
+    {
+      "sr_cyrillic": "Изволите, шта ћете да поручите?",
+      "sr_latin": "Izvolite, šta ćete da poručite?",
+      "pronunciation_ru": "извОлите, штА чЕте да порУчите",
+      "translation_ru": "Пожалуйста, что будете заказывать?",
+      "react_sr": "Дајте ми још минут, молим вас.",
+      "react_pron": "дАйте ми йош мИнут, мОлим вас",
+      "react_ru": "Дайте мне ещё минутку, пожалуйста.",
+      "false_friend_note": "поручити = заказать, а не «поручить»"
+    },
+    {
+      "sr_cyrillic": "Јесте ли се одлучили или да свратим касније?",
+      "sr_latin": "Jeste li se odlučili ili da svratim kasnije?",
+      "pronunciation_ru": "йЭсте ли се одлУчили Или да сврАтим кАснийе",
+      "translation_ru": "Вы уже определились или мне подойти позже?",
+      "react_sr": "Одлучили смо, хвала.",
+      "react_pron": "одлУчили смо, хвАла",
+      "react_ru": "Мы определились, спасибо.",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "Препоручујем вам данашњи специјалитет, свеж је.",
+      "sr_latin": "Preporučujem vam današnji specijalitet, svež je.",
+      "pronunciation_ru": "препорУчуйем вам дАнашньи специйалИтет, свЭж йе",
+      "translation_ru": "Советую вам сегодняшнее фирменное блюдо, оно свежее.",
+      "react_sr": "А шта тачно иде уз то?",
+      "react_pron": "а штА тАчно Иде уз то",
+      "react_ru": "А что именно к нему подаётся?",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "Нажалост, тога данас немамо, понестало нам је.",
+      "sr_latin": "Nažalost, toga danas nemamo, ponestalo nam je.",
+      "pronunciation_ru": "нАжалост, тОга дАнас нЭмамо, понЭстало нам йе",
+      "translation_ru": "К сожалению, этого сегодня нет, у нас закончилось.",
+      "react_sr": "У реду, шта онда предлажете?",
+      "react_pron": "у рЭду, штА Онда предлАжете",
+      "react_ru": "Хорошо, что тогда посоветуете?",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "Колико љуто желите — благо, средње или јако?",
+      "sr_latin": "Koliko ljuto želite — blago, srednje ili jako?",
+      "pronunciation_ru": "кОлико льУто жЭлите — блАго, срЭднье Или йАко",
+      "translation_ru": "Насколько острым хотите — слабо, средне или сильно?",
+      "react_sr": "Благо, молим вас, не превише.",
+      "react_pron": "блАго, мОлим вас, не прЭвише",
+      "react_ru": "Не очень остро, пожалуйста.",
+      "false_friend_note": "благо = мягко/слабо (о вкусе), а не «благо»; јако = сильно/очень, а не «яко»"
+    },
+    {
+      "sr_cyrillic": "Уз то иде прилог — помфрит или печен кромпир?",
+      "sr_latin": "Uz to ide prilog — pomfrit ili pečen krompir?",
+      "pronunciation_ru": "уз то Иде прИлог — пОмфрит Или пЭчен крОмпир",
+      "translation_ru": "К этому идёт гарнир — картофель фри или запечённая картошка?",
+      "react_sr": "Нека буде печен кромпир.",
+      "react_pron": "нЭка бУде пЭчен крОмпир",
+      "react_ru": "Пусть будет запечённая картошка.",
+      "false_friend_note": "прилог = гарнир/приложение, а не «пролог»"
+    },
+    {
+      "sr_cyrillic": "Да ли сте алергични на нешто?",
+      "sr_latin": "Da li ste alergični na nešto?",
+      "pronunciation_ru": "да ли сте алЭргични на нЭшто",
+      "translation_ru": "У вас есть на что-нибудь аллергия?",
+      "react_sr": "Да, не једем орахе.",
+      "react_pron": "да, не йЭдем Орахе",
+      "react_ru": "Да, я не ем орехи.",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "Хоћете ли одмах и пиће или касније?",
+      "sr_latin": "Hoćete li odmah i piće ili kasnije?",
+      "pronunciation_ru": "хОчете ли Одмах и пИче Или кАснийе",
+      "translation_ru": "Напитки принести сразу или позже?",
+      "react_sr": "Одмах, молим — воду и кафу.",
+      "react_pron": "Одмах, мОлим — вОду и кАфу",
+      "react_ru": "Сразу, пожалуйста — воду и кофе.",
+      "false_friend_note": "одмах = сразу/немедленно, а не «отмах»"
+    },
+    {
+      "sr_cyrillic": "Је ли све било у реду? Да вам донесем рачун?",
+      "sr_latin": "Je li sve bilo u redu? Da vam donesem račun?",
+      "pronunciation_ru": "йе ли свЭ бИло у рЭду? да вам донЭсем рАчун",
+      "translation_ru": "Всё было в порядке? Принести вам счёт?",
+      "react_sr": "Све је било одлично, донесите рачун.",
+      "react_pron": "свЭ йе бИло Одлично, донЭсите рАчун",
+      "react_ru": "Всё было отлично, принесите счёт.",
+      "false_friend_note": "рачун = счёт, а не «расчёт» в русском смысле"
+    },
+    {
+      "sr_cyrillic": "Заједно или одвојено да куцам?",
+      "sr_latin": "Zajedno ili odvojeno da kucam?",
+      "pronunciation_ru": "зАйедно Или одвОйено да кУцам",
+      "translation_ru": "Пробить вместе или раздельно?",
+      "react_sr": "Заједно, платићу све.",
+      "react_pron": "зАйедно, плАтичу свЭ",
+      "react_ru": "Вместе, я оплачу всё.",
+      "false_friend_note": "куцати = пробить/набрать на кассе, а не «кушать»"
+    },
+    {
+      "sr_cyrillic": "Извините, картица нам тренутно не ради, може ли готовина?",
+      "sr_latin": "Izvinite, kartica nam trenutno ne radi, može li gotovina?",
+      "pronunciation_ru": "извИните, кАртица нам трЭнутно не рАди, мОже ли готОвина",
+      "translation_ru": "Извините, терминал сейчас не работает, можно наличными?",
+      "react_sr": "Немам готовину, има ли банкомат близу?",
+      "react_pron": "нЭмам готОвину, Има ли банкОмат блИзу",
+      "react_ru": "У меня нет наличных, есть ли банкомат рядом?",
+      "false_friend_note": "готовина = наличные деньги, а не «готовое/готовка»"
+    },
+    {
+      "sr_cyrillic": "Задржите кусур или да вам вратим?",
+      "sr_latin": "Zadržite kusur ili da vam vratim?",
+      "pronunciation_ru": "задржИте кУсур Или да вам врАтим",
+      "translation_ru": "Сдачу оставите или вернуть вам?",
+      "react_sr": "Задржите, то је за вас.",
+      "react_pron": "задржИте, тО йе за вас",
+      "react_ru": "Оставьте, это вам.",
+      "false_friend_note": "кусур = сдача, а не «кусок»"
+    }
+  ],
+  "your_phrases": [
+    {
+      "sr_cyrillic": "Има ли у овоме меса или је посно?",
+      "sr_latin": "Ima li u ovome mesa ili je posno?",
+      "pronunciation_ru": "Има ли у Овоме мЭса Или йе пОсно",
+      "translation_ru": "В этом есть мясо или блюдо постное?",
+      "false_friend_note": "посно = постное/без мяса, а не «поздно»"
+    },
+    {
+      "sr_cyrillic": "Колико дуго се то спрема? Журим мало.",
+      "sr_latin": "Koliko dugo se to sprema? Žurim malo.",
+      "pronunciation_ru": "кОлико дУго се тО спрЭма? жУрим мАло",
+      "translation_ru": "Сколько времени это готовится? Я немного тороплюсь.",
+      "false_friend_note": "спремати = готовить, а не «спрятать»"
+    },
+    {
+      "sr_cyrillic": "Да ли је напојница већ урачуната у рачун?",
+      "sr_latin": "Da li je napojnica već uračunata u račun?",
+      "pronunciation_ru": "да ли йе напОйница вЭч урачУната у рАчун",
+      "translation_ru": "Чаевые уже включены в счёт?",
+      "false_friend_note": "напојница = чаевые, а не «напиток»"
+    },
+    {
+      "sr_cyrillic": "Можете ли ми издати фискални рачун?",
+      "sr_latin": "Možete li mi izdati fiskalni račun?",
+      "pronunciation_ru": "мОжете ли ми Издати фИскални рАчун",
+      "translation_ru": "Можете выдать мне фискальный чек?",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "Мислим да је овде грешка, ово нисам наручио.",
+      "sr_latin": "Mislim da je ovde greška, ovo nisam naručio.",
+      "pronunciation_ru": "мИслим да йе Овде грЭшка, Ово нИсам нарУчио",
+      "translation_ru": "Мне кажется, тут ошибка, я это не заказывал.",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "Ово јело је хладно, можете ли да га подгрејете?",
+      "sr_latin": "Ovo jelo je hladno, možete li da ga podgrejete?",
+      "pronunciation_ru": "Ово йЭло йе хлАдно, мОжете ли да га подгрЭйете",
+      "translation_ru": "Это блюдо холодное, можете его подогреть?",
+      "false_friend_note": "јело = блюдо/еда, а не «ел»"
+    },
+    {
+      "sr_cyrillic": "Наручио сам без лука, а овде га има.",
+      "sr_latin": "Naručio sam bez luka, a ovde ga ima.",
+      "pronunciation_ru": "нарУчио сам бэз лУка, а Овде га Има",
+      "translation_ru": "Я заказывал без лука, а здесь он есть.",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "Може ли да ми запишете шта све улази у цену?",
+      "sr_latin": "Može li da mi zapišete šta sve ulazi u cenu?",
+      "pronunciation_ru": "мОже ли да ми запИшете штА свЭ Улази у цЭну",
+      "translation_ru": "Можете мне записать, что входит в цену?",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "Хтео бих да се пожалим на послугу, предуго чекамо.",
+      "sr_latin": "Hteo bih da se požalim na poslugu, predugo čekamo.",
+      "pronunciation_ru": "хтЭо бих да се пОжалим на пОслугу, прэдУго чЭкамо",
+      "translation_ru": "Хочу пожаловаться на обслуживание, мы ждём слишком долго.",
+      "false_friend_note": "послуга = обслуживание, а не «прислуга/послушание»"
+    },
+    {
+      "sr_cyrillic": "Можете ли ми спаковати остатак за понети?",
+      "sr_latin": "Možete li mi spakovati ostatak za poneti?",
+      "pronunciation_ru": "мОжете ли ми спакОвати Остатак за понЭти",
+      "translation_ru": "Можете упаковать остаток с собой?",
+      "false_friend_note": "за понети = с собой (навынос), а не «понять»"
+    }
+  ]
+}

@@ -1,0 +1,385 @@
+{
+  "id": "ciscenje",
+  "title_ru": "🧹 Уборка и чистота",
+  "title_sr": "Чишћење",
+  "words": [
+    {
+      "sr_cyrillic": "чистити",
+      "sr_latin": "čistiti",
+      "pronunciation_ru": "чИстити",
+      "translation_ru": "убирать, чистить",
+      "example_sr": "Данас чистим цео стан.",
+      "example_ru": "Сегодня убираю всю квартиру.",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "очистити",
+      "sr_latin": "očistiti",
+      "pronunciation_ru": "очИстити",
+      "translation_ru": "почистить, убрать (до конца)",
+      "example_sr": "Треба да очистим шпорет од масноће.",
+      "example_ru": "Нужно отчистить плиту от жира.",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "прати",
+      "sr_latin": "prati",
+      "pronunciation_ru": "прАти",
+      "translation_ru": "мыть, стирать",
+      "example_sr": "Перем веш два пута недељно.",
+      "example_ru": "Стираю бельё два раза в неделю.",
+      "false_friend_note": "Не путай с «пратити» (pratiti) — это «следить, сопровождать». «Прати» — мыть или стирать."
+    },
+    {
+      "sr_cyrillic": "опрати",
+      "sr_latin": "oprati",
+      "pronunciation_ru": "Опрати",
+      "translation_ru": "вымыть, постирать",
+      "example_sr": "Мораш прво да опереш руке.",
+      "example_ru": "Сначала надо помыть руки.",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "усисавати",
+      "sr_latin": "usisavati",
+      "pronunciation_ru": "усисАвати",
+      "translation_ru": "пылесосить",
+      "example_sr": "Не волим да усисавам, али мора.",
+      "example_ru": "Не люблю пылесосить, но надо.",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "усисивач",
+      "sr_latin": "usisivač",
+      "pronunciation_ru": "усИсивач",
+      "translation_ru": "пылесос",
+      "example_sr": "Усисивач ми се покварио.",
+      "example_ru": "У меня сломался пылесос.",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "мести",
+      "sr_latin": "mesti",
+      "pronunciation_ru": "мЕсти",
+      "translation_ru": "подметать",
+      "example_sr": "Метем двориште сваког јутра.",
+      "example_ru": "Подметаю двор каждое утро.",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "метла",
+      "sr_latin": "metla",
+      "pronunciation_ru": "мЕтла",
+      "translation_ru": "веник, метла",
+      "example_sr": "Где ти стоји метла?",
+      "example_ru": "Где у тебя стоит веник?",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "брисати",
+      "sr_latin": "brisati",
+      "pronunciation_ru": "брИсати",
+      "translation_ru": "вытирать, протирать",
+      "example_sr": "Бришем прашину са полица.",
+      "example_ru": "Вытираю пыль с полок.",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "крпа",
+      "sr_latin": "krpa",
+      "pronunciation_ru": "кЭрпа",
+      "translation_ru": "тряпка",
+      "example_sr": "Дај ми ону влажну крпу.",
+      "example_ru": "Дай мне ту влажную тряпку.",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "прашина",
+      "sr_latin": "prašina",
+      "pronunciation_ru": "прАшина",
+      "translation_ru": "пыль",
+      "example_sr": "Свуда је прашина, морам да обришем.",
+      "example_ru": "Везде пыль, надо протереть.",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "смеће",
+      "sr_latin": "smeće",
+      "pronunciation_ru": "смЕче",
+      "translation_ru": "мусор",
+      "example_sr": "Јеси ли избацио смеће?",
+      "example_ru": "Ты вынес мусор?",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "канта за смеће",
+      "sr_latin": "kanta za smeće",
+      "pronunciation_ru": "кАнта за смЕче",
+      "translation_ru": "мусорное ведро, бак",
+      "example_sr": "Канта за смеће је пуна.",
+      "example_ru": "Мусорное ведро полное.",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "ђубре",
+      "sr_latin": "đubre",
+      "pronunciation_ru": "джУбре",
+      "translation_ru": "мусор, дрянь",
+      "example_sr": "Не бацај ђубре на под!",
+      "example_ru": "Не бросай мусор на пол!",
+      "false_friend_note": "Рядом коварное «ђубриво» (đubrivo) — это удобрение, а «ђубре» — мусор, отбросы."
+    },
+    {
+      "sr_cyrillic": "кеса за смеће",
+      "sr_latin": "kesa za smeće",
+      "pronunciation_ru": "кЕса за смЕче",
+      "translation_ru": "мусорный пакет",
+      "example_sr": "Нестало нам је кеса за смеће.",
+      "example_ru": "У нас закончились мусорные пакеты.",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "средство за чишћење",
+      "sr_latin": "sredstvo za čišćenje",
+      "pronunciation_ru": "срЕдство за чИшченье",
+      "translation_ru": "чистящее средство",
+      "example_sr": "Којим средством за чишћење переш плочице?",
+      "example_ru": "Каким средством ты моешь плитку?",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "детерџент",
+      "sr_latin": "deterdžent",
+      "pronunciation_ru": "детерджЕнт",
+      "translation_ru": "моющее средство, стиральный порошок",
+      "example_sr": "Сипај мало детерџента у машину.",
+      "example_ru": "Насыпь немного порошка в машину.",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "сапун",
+      "sr_latin": "sapun",
+      "pronunciation_ru": "сАпун",
+      "translation_ru": "мыло",
+      "example_sr": "Немам више течног сапуна.",
+      "example_ru": "У меня закончилось жидкое мыло.",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "сунђер",
+      "sr_latin": "sunđer",
+      "pronunciation_ru": "сУнджер",
+      "translation_ru": "губка",
+      "example_sr": "Овај сунђер је стар, баци га.",
+      "example_ru": "Эта губка старая, выброси её.",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "четка",
+      "sr_latin": "četka",
+      "pronunciation_ru": "чЕтка",
+      "translation_ru": "щётка",
+      "example_sr": "Треба ми нова четка за WC шољу.",
+      "example_ru": "Мне нужна новая щётка для унитаза.",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "кофа",
+      "sr_latin": "kofa",
+      "pronunciation_ru": "кОфа",
+      "translation_ru": "ведро",
+      "example_sr": "Напуни кофу топлом водом.",
+      "example_ru": "Набери ведро тёплой воды.",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "рукавице",
+      "sr_latin": "rukavice",
+      "pronunciation_ru": "рукАвице",
+      "translation_ru": "перчатки",
+      "example_sr": "Стави гумене рукавице пре него што почнеш.",
+      "example_ru": "Надень резиновые перчатки, прежде чем начать.",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "под",
+      "sr_latin": "pod",
+      "pronunciation_ru": "пОд",
+      "translation_ru": "пол",
+      "example_sr": "Немој да ходаш, под је још мокар.",
+      "example_ru": "Не ходи, пол ещё мокрый.",
+      "false_friend_note": "Здесь «под» — это ПОЛ, а не предлог «под». «На поду» = на полу."
+    },
+    {
+      "sr_cyrillic": "рибати",
+      "sr_latin": "ribati",
+      "pronunciation_ru": "рИбати",
+      "translation_ru": "драить, оттирать с силой",
+      "example_sr": "Морам да рибам под у купатилу.",
+      "example_ru": "Надо оттереть пол в ванной.",
+      "false_friend_note": "Слышится «риба» (рыба), но «рибати» — это тереть, драить щёткой."
+    },
+    {
+      "sr_cyrillic": "мрља",
+      "sr_latin": "mrlja",
+      "pronunciation_ru": "мЭрля",
+      "translation_ru": "пятно",
+      "example_sr": "Остала је мрља од кафе на столњаку.",
+      "example_ru": "На скатерти осталось пятно от кофе.",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "флека",
+      "sr_latin": "fleka",
+      "pronunciation_ru": "флЕка",
+      "translation_ru": "пятно (разговорное)",
+      "example_sr": "Имаш флеку на кошуљи.",
+      "example_ru": "У тебя пятно на рубашке.",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "плесан",
+      "sr_latin": "plesan",
+      "pronunciation_ru": "плЕсан",
+      "translation_ru": "плесень",
+      "example_sr": "Појавила се плесан у ћошку.",
+      "example_ru": "В углу появилась плесень.",
+      "false_friend_note": "Не путай с «плес» (ples) — это танец. «Плесан» — плесень."
+    },
+    {
+      "sr_cyrillic": "каменац",
+      "sr_latin": "kamenac",
+      "pronunciation_ru": "камЕнац",
+      "translation_ru": "накипь, известковый налёт",
+      "example_sr": "Славина је пуна каменца.",
+      "example_ru": "Кран весь в известковом налёте.",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "прљав",
+      "sr_latin": "prljav",
+      "pronunciation_ru": "пЭрляв",
+      "translation_ru": "грязный",
+      "example_sr": "Под је прљав, треба опрати.",
+      "example_ru": "Пол грязный, надо помыть.",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "чист",
+      "sr_latin": "čist",
+      "pronunciation_ru": "чИст",
+      "translation_ru": "чистый",
+      "example_sr": "Стан је сада чист и уредан.",
+      "example_ru": "Квартира теперь чистая и убранная.",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "прљавштина",
+      "sr_latin": "prljavština",
+      "pronunciation_ru": "пЭрлявштина",
+      "translation_ru": "грязь, грязища",
+      "example_sr": "Иза шпорета се накупила прљавштина.",
+      "example_ru": "За плитой накопилась грязь.",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "пеглати",
+      "sr_latin": "peglati",
+      "pronunciation_ru": "пЕглати",
+      "translation_ru": "гладить (утюгом)",
+      "example_sr": "Мрзим да пеглам кошуље.",
+      "example_ru": "Ненавижу гладить рубашки.",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "пегла",
+      "sr_latin": "pegla",
+      "pronunciation_ru": "пЕгла",
+      "translation_ru": "утюг",
+      "example_sr": "Пази, пегла је врућа!",
+      "example_ru": "Осторожно, утюг горячий!",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "веш",
+      "sr_latin": "veš",
+      "pronunciation_ru": "вЕш",
+      "translation_ru": "бельё (для стирки), нижнее бельё",
+      "example_sr": "Стави прљав веш у корпу.",
+      "example_ru": "Положи грязное бельё в корзину.",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "веш машина",
+      "sr_latin": "veš mašina",
+      "pronunciation_ru": "вЕш машИна",
+      "translation_ru": "стиральная машина",
+      "example_sr": "Веш машина је завршила прање.",
+      "example_ru": "Стиральная машина закончила стирку.",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "сушити",
+      "sr_latin": "sušiti",
+      "pronunciation_ru": "сУшити",
+      "translation_ru": "сушить",
+      "example_sr": "Веш се брже суши напољу.",
+      "example_ru": "Бельё быстрее сохнет на улице.",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "посуђе",
+      "sr_latin": "posuđe",
+      "pronunciation_ru": "посУдже",
+      "translation_ru": "посуда",
+      "example_sr": "Ко ће да опере посуђе?",
+      "example_ru": "Кто помоет посуду?",
+      "false_friend_note": "От слова «суд» (sud), а оно значит и «суд», и «сосуд». «Посуђе» — это посуда."
+    },
+    {
+      "sr_cyrillic": "прати судове",
+      "sr_latin": "prati sudove",
+      "pronunciation_ru": "прАти сУдове",
+      "translation_ru": "мыть посуду",
+      "example_sr": "Ја ћу да перем судове после ручка.",
+      "example_ru": "Я помою посуду после обеда.",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "проветрити",
+      "sr_latin": "provetriti",
+      "pronunciation_ru": "провЕтрити",
+      "translation_ru": "проветрить",
+      "example_sr": "Отвори прозор да проветримо собу.",
+      "example_ru": "Открой окно, чтобы проветрить комнату.",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "поспремити",
+      "sr_latin": "pospremiti",
+      "pronunciation_ru": "поспрЕмити",
+      "translation_ru": "прибрать, навести порядок",
+      "example_sr": "Поспреми своју собу пре гостију.",
+      "example_ru": "Приберись в своей комнате перед гостями.",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "убрус",
+      "sr_latin": "ubrus",
+      "pronunciation_ru": "Убрус",
+      "translation_ru": "бумажное полотенце, салфетка",
+      "example_sr": "Обриши руке убрусом.",
+      "example_ru": "Вытри руки бумажным полотенцем.",
+      "false_friend_note": "В сербском «убрус» — это бумажное полотенце или салфетка, а не тканевый платок, как в старом русском."
+    },
+    {
+      "sr_cyrillic": "ђубровник",
+      "sr_latin": "đubrovnik",
+      "pronunciation_ru": "джубрОвник",
+      "translation_ru": "совок для мусора (разговорное)",
+      "example_sr": "Држи ђубровник док ја метем.",
+      "example_ru": "Держи совок, пока я подметаю.",
+      "false_friend_note": "Звучит как город Дубровник, но в быту «ђубровник» — это совок для мусора."
+    }
+  ]
+}

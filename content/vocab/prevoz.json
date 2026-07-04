@@ -1,0 +1,385 @@
+{
+  "id": "prevoz",
+  "title_ru": "🚍 Транспорт",
+  "title_sr": "Превоз",
+  "words": [
+    {
+      "sr_cyrillic": "аутобус",
+      "sr_latin": "autobus",
+      "pronunciation_ru": "аутОбус",
+      "translation_ru": "автобус",
+      "example_sr": "Аутобус касни десет минута.",
+      "example_ru": "Автобус опаздывает на десять минут.",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "тролејбус",
+      "sr_latin": "trolejbus",
+      "pronunciation_ru": "тролЭјбус",
+      "translation_ru": "троллейбус",
+      "example_sr": "Тролејбус вози до центра.",
+      "example_ru": "Троллейбус идёт до центра.",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "трамвај",
+      "sr_latin": "tramvaj",
+      "pronunciation_ru": "трАмвај",
+      "translation_ru": "трамвай",
+      "example_sr": "Узмите трамвај број два.",
+      "example_ru": "Садитесь на трамвай номер два.",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "воз",
+      "sr_latin": "voz",
+      "pronunciation_ru": "вОз",
+      "translation_ru": "поезд",
+      "example_sr": "Воз полази у осам сати.",
+      "example_ru": "Поезд отправляется в восемь.",
+      "false_friend_note": "По-русски «воз» — телега с грузом. По-сербски «воз» — это поезд."
+    },
+    {
+      "sr_cyrillic": "кола",
+      "sr_latin": "kola",
+      "pronunciation_ru": "кОла",
+      "translation_ru": "машина, легковой автомобиль",
+      "example_sr": "Оставио сам кола на паркингу.",
+      "example_ru": "Я оставил машину на парковке.",
+      "false_friend_note": "По-русски «кола» — напиток. По-сербски «кола» — легковая машина."
+    },
+    {
+      "sr_cyrillic": "такси",
+      "sr_latin": "taksi",
+      "pronunciation_ru": "тАкси",
+      "translation_ru": "такси",
+      "example_sr": "Позваћу такси до аеродрома.",
+      "example_ru": "Я вызову такси до аэропорта.",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "стајалиште",
+      "sr_latin": "stajalište",
+      "pronunciation_ru": "стАјалиште",
+      "translation_ru": "остановка",
+      "example_sr": "Чекам на стајалишту већ петнаест минута.",
+      "example_ru": "Жду на остановке уже пятнадцать минут.",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "станица",
+      "sr_latin": "stanica",
+      "pronunciation_ru": "стАница",
+      "translation_ru": "станция, вокзал",
+      "example_sr": "Аутобуска станица је одмах иза угла.",
+      "example_ru": "Автовокзал сразу за углом.",
+      "false_friend_note": "По-русски «станица» — казачье село. По-сербски «станица» — станция, вокзал, остановка."
+    },
+    {
+      "sr_cyrillic": "карта",
+      "sr_latin": "karta",
+      "pronunciation_ru": "кАрта",
+      "translation_ru": "билет",
+      "example_sr": "Купио сам карту код возача.",
+      "example_ru": "Я купил билет у водителя.",
+      "false_friend_note": "По-русски «карта» — карта местности или игральная. По-сербски «карта» — прежде всего билет."
+    },
+    {
+      "sr_cyrillic": "месечна карта",
+      "sr_latin": "mesečna karta",
+      "pronunciation_ru": "мЭсечна кАрта",
+      "translation_ru": "проездной (на месяц)",
+      "example_sr": "Имате ли месечну карту?",
+      "example_ru": "У вас есть проездной?",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "пресести",
+      "sr_latin": "presesti",
+      "pronunciation_ru": "прЭсести",
+      "translation_ru": "пересесть, сделать пересадку",
+      "example_sr": "Морате да преседнете на другу линију.",
+      "example_ru": "Вам нужно пересесть на другой маршрут.",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "ред вожње",
+      "sr_latin": "red vožnje",
+      "pronunciation_ru": "рЭд вОжње",
+      "translation_ru": "расписание (движения)",
+      "example_sr": "Погледај ред вожње на станици.",
+      "example_ru": "Посмотри расписание на станции.",
+      "false_friend_note": "«Ред» само по себе — не «ряд», а очередь или порядок: «стати у ред» — встать в очередь."
+    },
+    {
+      "sr_cyrillic": "линија",
+      "sr_latin": "linija",
+      "pronunciation_ru": "лИнија",
+      "translation_ru": "маршрут (номер линии)",
+      "example_sr": "Која линија иде до центра?",
+      "example_ru": "Какой маршрут идёт до центра?",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "правац",
+      "sr_latin": "pravac",
+      "pronunciation_ru": "прАвац",
+      "translation_ru": "направление",
+      "example_sr": "У ком правцу иде овај аутобус?",
+      "example_ru": "В какую сторону идёт этот автобус?",
+      "false_friend_note": "Похоже на «правый», но «правац» — это направление, сторона движения."
+    },
+    {
+      "sr_cyrillic": "кашњење",
+      "sr_latin": "kašnjenje",
+      "pronunciation_ru": "кАшњење",
+      "translation_ru": "опоздание, задержка",
+      "example_sr": "Извините због кашњења.",
+      "example_ru": "Извините за опоздание.",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "касни",
+      "sr_latin": "kasni",
+      "pronunciation_ru": "кАсни",
+      "translation_ru": "опаздывает",
+      "example_sr": "Воз касни пола сата.",
+      "example_ru": "Поезд опаздывает на полчаса.",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "полази",
+      "sr_latin": "polazi",
+      "pronunciation_ru": "пОлази",
+      "translation_ru": "отправляется",
+      "example_sr": "Када полази следећи аутобус?",
+      "example_ru": "Когда отправляется следующий автобус?",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "стиже",
+      "sr_latin": "stiže",
+      "pronunciation_ru": "стИже",
+      "translation_ru": "прибывает, приезжает",
+      "example_sr": "Воз стиже на перон број три.",
+      "example_ru": "Поезд прибывает на третью платформу.",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "следећа станица",
+      "sr_latin": "sledeća stanica",
+      "pronunciation_ru": "слЭдећа стАница",
+      "translation_ru": "следующая остановка",
+      "example_sr": "Следећа станица је Главна пошта.",
+      "example_ru": "Следующая остановка — Главпочтамт.",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "сићи",
+      "sr_latin": "sići",
+      "pronunciation_ru": "сИћи",
+      "translation_ru": "сойти, выйти (из транспорта)",
+      "example_sr": "Где да сиђем за центар?",
+      "example_ru": "Где мне выйти, чтобы попасть в центр?",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "сести",
+      "sr_latin": "sesti",
+      "pronunciation_ru": "сЭсти",
+      "translation_ru": "сесть (в транспорт)",
+      "example_sr": "Сео сам у погрешан аутобус.",
+      "example_ru": "Я сел не в тот автобус.",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "улаз",
+      "sr_latin": "ulaz",
+      "pronunciation_ru": "Улаз",
+      "translation_ru": "вход",
+      "example_sr": "Улаз је на предња врата.",
+      "example_ru": "Вход через передние двери.",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "излаз",
+      "sr_latin": "izlaz",
+      "pronunciation_ru": "Излаз",
+      "translation_ru": "выход",
+      "example_sr": "Излаз је позади.",
+      "example_ru": "Выход сзади.",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "врата",
+      "sr_latin": "vrata",
+      "pronunciation_ru": "врАта",
+      "translation_ru": "двери",
+      "example_sr": "Пази, врата се затварају!",
+      "example_ru": "Осторожно, двери закрываются!",
+      "false_friend_note": "По-русски «врата» звучит торжественно (ворота). По-сербски «врата» — обычная дверь."
+    },
+    {
+      "sr_cyrillic": "пут",
+      "sr_latin": "put",
+      "pronunciation_ru": "пУт",
+      "translation_ru": "дорога, путь",
+      "example_sr": "Пут до посла траје пола сата.",
+      "example_ru": "Дорога до работы занимает полчаса.",
+      "false_friend_note": "«Пут» — это не только путь/дорога, но и «раз»: «два пута» — два раза."
+    },
+    {
+      "sr_cyrillic": "право",
+      "sr_latin": "pravo",
+      "pronunciation_ru": "прАво",
+      "translation_ru": "прямо",
+      "example_sr": "Идите право до семафора.",
+      "example_ru": "Идите прямо до светофора.",
+      "false_friend_note": "Коварное слово: по-сербски «право» — не «направо» и не «закон», а «прямо»."
+    },
+    {
+      "sr_cyrillic": "лево",
+      "sr_latin": "levo",
+      "pronunciation_ru": "лЭво",
+      "translation_ru": "налево, слева",
+      "example_sr": "Скрените лево код парка.",
+      "example_ru": "Поверните налево у парка.",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "десно",
+      "sr_latin": "desno",
+      "pronunciation_ru": "дЭсно",
+      "translation_ru": "направо, справа",
+      "example_sr": "Станица је десно, преко пута.",
+      "example_ru": "Остановка справа, через дорогу.",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "скретање",
+      "sr_latin": "skretanje",
+      "pronunciation_ru": "скрЭтање",
+      "translation_ru": "поворот",
+      "example_sr": "После скретања је стајалиште.",
+      "example_ru": "После поворота есть остановка.",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "раскрсница",
+      "sr_latin": "raskrsnica",
+      "pronunciation_ru": "рАскрсница",
+      "translation_ru": "перекрёсток",
+      "example_sr": "Стани на следећој раскрсници.",
+      "example_ru": "Остановись на следующем перекрёстке.",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "семафор",
+      "sr_latin": "semafor",
+      "pronunciation_ru": "семАфор",
+      "translation_ru": "светофор",
+      "example_sr": "Чекај зелено на семафору.",
+      "example_ru": "Жди зелёного на светофоре.",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "пешак",
+      "sr_latin": "pešak",
+      "pronunciation_ru": "пЭшак",
+      "translation_ru": "пешеход",
+      "example_sr": "Пешак има предност на прелазу.",
+      "example_ru": "У пешехода приоритет на переходе.",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "пешачки прелаз",
+      "sr_latin": "pešački prelaz",
+      "pronunciation_ru": "пЭшачки прЭлаз",
+      "translation_ru": "пешеходный переход",
+      "example_sr": "Пређи улицу на пешачком прелазу.",
+      "example_ru": "Переходи улицу по пешеходному переходу.",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "гужва",
+      "sr_latin": "gužva",
+      "pronunciation_ru": "гУжва",
+      "translation_ru": "давка, толчея, пробка",
+      "example_sr": "У аутобусу је велика гужва ујутру.",
+      "example_ru": "По утрам в автобусе большая давка.",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "саобраћај",
+      "sr_latin": "saobraćaj",
+      "pronunciation_ru": "саобрАћај",
+      "translation_ru": "дорожное движение",
+      "example_sr": "Данас је густ саобраћај у граду.",
+      "example_ru": "Сегодня в городе плотное движение.",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "гориво",
+      "sr_latin": "gorivo",
+      "pronunciation_ru": "гОриво",
+      "translation_ru": "топливо, горючее",
+      "example_sr": "Нестало ми је горива.",
+      "example_ru": "У меня закончился бензин.",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "бензинска пумпа",
+      "sr_latin": "benzinska pumpa",
+      "pronunciation_ru": "бЭнзинска пУмпа",
+      "translation_ru": "заправка, АЗС",
+      "example_sr": "Стани на бензинској пумпи.",
+      "example_ru": "Остановись на заправке.",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "паркинг",
+      "sr_latin": "parking",
+      "pronunciation_ru": "пАркинг",
+      "translation_ru": "парковка, стоянка",
+      "example_sr": "Нема слободног паркинга.",
+      "example_ru": "Нет свободных мест на парковке.",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "казна",
+      "sr_latin": "kazna",
+      "pronunciation_ru": "кАзна",
+      "translation_ru": "штраф, наказание",
+      "example_sr": "Добио сам казну због брзине.",
+      "example_ru": "Я получил штраф за превышение скорости.",
+      "false_friend_note": "По-русски «казна» — государственные деньги. По-сербски «казна» — штраф, наказание."
+    },
+    {
+      "sr_cyrillic": "контролор",
+      "sr_latin": "kontrolor",
+      "pronunciation_ru": "контрОлор",
+      "translation_ru": "контролёр",
+      "example_sr": "Контролор тражи карте.",
+      "example_ru": "Контролёр проверяет билеты.",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "путник",
+      "sr_latin": "putnik",
+      "pronunciation_ru": "пУтник",
+      "translation_ru": "пассажир",
+      "example_sr": "Сви путници морају да имају карту.",
+      "example_ru": "Все пассажиры должны иметь билет.",
+      "false_friend_note": "По-русски «путник» — странник, идущий пешком. По-сербски «путник» — пассажир транспорта."
+    },
+    {
+      "sr_cyrillic": "возач",
+      "sr_latin": "vozač",
+      "pronunciation_ru": "вОзач",
+      "translation_ru": "водитель",
+      "example_sr": "Питај возача где да сиђеш.",
+      "example_ru": "Спроси у водителя, где выходить.",
+      "false_friend_note": ""
+    }
+  ]
+}

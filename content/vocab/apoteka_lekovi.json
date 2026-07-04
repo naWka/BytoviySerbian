@@ -1,0 +1,385 @@
+{
+  "id": "apoteka_lekovi",
+  "title_ru": "💊 Аптека и лекарства",
+  "title_sr": "Апотека",
+  "words": [
+    {
+      "sr_cyrillic": "апотека",
+      "sr_latin": "apoteka",
+      "pronunciation_ru": "апотЭка",
+      "translation_ru": "аптека",
+      "example_sr": "Дежурна апотека ради целу ноћ.",
+      "example_ru": "Дежурная аптека работает всю ночь.",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "лек",
+      "sr_latin": "lek",
+      "pronunciation_ru": "лЭк",
+      "translation_ru": "лекарство",
+      "example_sr": "Овај лек се пије три пута дневно.",
+      "example_ru": "Это лекарство принимают три раза в день.",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "таблета",
+      "sr_latin": "tableta",
+      "pronunciation_ru": "таблЭта",
+      "translation_ru": "таблетка",
+      "example_sr": "Попијте једну таблету ујутру.",
+      "example_ru": "Выпейте одну таблетку утром.",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "капсула",
+      "sr_latin": "kapsula",
+      "pronunciation_ru": "кАпсула",
+      "translation_ru": "капсула",
+      "example_sr": "Ове капсуле се гутају целе.",
+      "example_ru": "Эти капсулы глотают целиком.",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "сируп",
+      "sr_latin": "sirup",
+      "pronunciation_ru": "сИруп",
+      "translation_ru": "сироп (жидкое лекарство)",
+      "example_sr": "Дајте ми сируп против кашља за децу.",
+      "example_ru": "Дайте мне сироп от кашля для детей.",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "маст",
+      "sr_latin": "mast",
+      "pronunciation_ru": "мАст",
+      "translation_ru": "мазь",
+      "example_sr": "Намажите маст на кожу два пута дневно.",
+      "example_ru": "Наносите мазь на кожу два раза в день.",
+      "false_friend_note": "«Маст» — это мазь, а не «масть» или «масло», хотя звучит похоже."
+    },
+    {
+      "sr_cyrillic": "крема",
+      "sr_latin": "krema",
+      "pronunciation_ru": "крЭма",
+      "translation_ru": "крем",
+      "example_sr": "Имате ли крему за опекотине?",
+      "example_ru": "Есть у вас крем от ожогов?",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "капи",
+      "sr_latin": "kapi",
+      "pronunciation_ru": "кАпи",
+      "translation_ru": "капли",
+      "example_sr": "Капи за нос узимајте по потреби.",
+      "example_ru": "Капли для носа используйте по необходимости.",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "прашак",
+      "sr_latin": "prašak",
+      "pronunciation_ru": "прАшак",
+      "translation_ru": "порошок (лекарство в пакетике)",
+      "example_sr": "Растворите прашак у чаши воде.",
+      "example_ru": "Растворите порошок в стакане воды.",
+      "false_friend_note": "«Прашак» — порошок (лекарственный или стиральный). «Прах/пыль» по-сербски — прашина."
+    },
+    {
+      "sr_cyrillic": "лековити чај",
+      "sr_latin": "lekoviti čaj",
+      "pronunciation_ru": "лЭковити чАй",
+      "translation_ru": "лечебный (травяной) чай",
+      "example_sr": "За грло вам препоручујем лековити чај.",
+      "example_ru": "Для горла советую вам лечебный чай.",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "рецепт",
+      "sr_latin": "recept",
+      "pronunciation_ru": "рЭцэпт",
+      "translation_ru": "рецепт (от врача)",
+      "example_sr": "За овај лек вам треба рецепт.",
+      "example_ru": "Для этого лекарства вам нужен рецепт.",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "без рецепта",
+      "sr_latin": "bez recepta",
+      "pronunciation_ru": "бэз рЭцэпта",
+      "translation_ru": "без рецепта (безрецептурно)",
+      "example_sr": "Ово можете купити без рецепта.",
+      "example_ru": "Это можно купить без рецепта.",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "доза",
+      "sr_latin": "doza",
+      "pronunciation_ru": "дОза",
+      "translation_ru": "доза",
+      "example_sr": "Немојте прећи прописану дозу.",
+      "example_ru": "Не превышайте назначенную дозу.",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "дозирање",
+      "sr_latin": "doziranje",
+      "pronunciation_ru": "дозИранье",
+      "translation_ru": "дозировка",
+      "example_sr": "Дозирање зависи од телесне тежине.",
+      "example_ru": "Дозировка зависит от массы тела.",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "три пута дневно",
+      "sr_latin": "tri puta dnevno",
+      "pronunciation_ru": "трИ пУта днЭвно",
+      "translation_ru": "три раза в день",
+      "example_sr": "Узимајте таблету три пута дневно.",
+      "example_ru": "Принимайте таблетку три раза в день.",
+      "false_friend_note": "«Пут» здесь — «раз» (три пута = три раза), а не «путь»."
+    },
+    {
+      "sr_cyrillic": "пре јела",
+      "sr_latin": "pre jela",
+      "pronunciation_ru": "прЭ йЭла",
+      "translation_ru": "перед едой",
+      "example_sr": "Овај лек се пије пре јела.",
+      "example_ru": "Это лекарство принимают перед едой.",
+      "false_friend_note": "«Јело» — это еда/блюдо, а не глагол «ел»; «пре» — «перед/до»."
+    },
+    {
+      "sr_cyrillic": "после јела",
+      "sr_latin": "posle jela",
+      "pronunciation_ru": "пОсле йЭла",
+      "translation_ru": "после еды",
+      "example_sr": "Ове таблете се узимају после јела.",
+      "example_ru": "Эти таблетки принимают после еды.",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "на празан стомак",
+      "sr_latin": "na prazan stomak",
+      "pronunciation_ru": "на прАзан стОмак",
+      "translation_ru": "натощак (на пустой желудок)",
+      "example_sr": "Овај лек се пије на празан стомак.",
+      "example_ru": "Это лекарство принимают натощак.",
+      "false_friend_note": "«Празан» — «пустой», а не «праздный». Праздник по-сербски — празник."
+    },
+    {
+      "sr_cyrillic": "кашичица",
+      "sr_latin": "kašičica",
+      "pronunciation_ru": "кашИчица",
+      "translation_ru": "чайная ложка (мерная)",
+      "example_sr": "Дајте детету једну кашичицу сирупа.",
+      "example_ru": "Дайте ребёнку одну чайную ложку сиропа.",
+      "false_friend_note": "«Кашичица» — чайная ложка (кашика — ложка), с «кашей» не связано."
+    },
+    {
+      "sr_cyrillic": "упутство",
+      "sr_latin": "uputstvo",
+      "pronunciation_ru": "Упутство",
+      "translation_ru": "инструкция (вкладыш)",
+      "example_sr": "Прочитајте упутство пре употребе.",
+      "example_ru": "Прочитайте инструкцию перед применением.",
+      "false_friend_note": "«Упутство» — это инструкция/указания, а не «упущение»."
+    },
+    {
+      "sr_cyrillic": "рок трајања",
+      "sr_latin": "rok trajanja",
+      "pronunciation_ru": "рОк трАянья",
+      "translation_ru": "срок годности",
+      "example_sr": "Проверите рок трајања на кутији.",
+      "example_ru": "Проверьте срок годности на упаковке.",
+      "false_friend_note": "«Рок» — это «срок», а не музыка или судьба; «трајање» — длительность."
+    },
+    {
+      "sr_cyrillic": "кашаљ",
+      "sr_latin": "kašalj",
+      "pronunciation_ru": "кАшаль",
+      "translation_ru": "кашель",
+      "example_sr": "Имам јак кашаљ већ недељу дана.",
+      "example_ru": "У меня сильный кашель уже неделю.",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "прехлада",
+      "sr_latin": "prehlada",
+      "pronunciation_ru": "прЭхлада",
+      "translation_ru": "простуда",
+      "example_sr": "Имам прехладу, боли ме глава.",
+      "example_ru": "У меня простуда, болит голова.",
+      "false_friend_note": "«Прехлада» — простуда, а не «прохлада». Свежесть по-сербски — свежина."
+    },
+    {
+      "sr_cyrillic": "грип",
+      "sr_latin": "grip",
+      "pronunciation_ru": "грИп",
+      "translation_ru": "грипп",
+      "example_sr": "Сваке зиме добијем грип.",
+      "example_ru": "Каждую зиму заболеваю гриппом.",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "температура",
+      "sr_latin": "temperatura",
+      "pronunciation_ru": "тэмпэратУра",
+      "translation_ru": "температура (жар)",
+      "example_sr": "Дете има температуру, треба ми нешто.",
+      "example_ru": "У ребёнка температура, мне нужно что-нибудь.",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "главобоља",
+      "sr_latin": "glavobolja",
+      "pronunciation_ru": "главобОля",
+      "translation_ru": "головная боль",
+      "example_sr": "Имам главобољу цео дан.",
+      "example_ru": "У меня голова болит весь день.",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "упала",
+      "sr_latin": "upala",
+      "pronunciation_ru": "Упала",
+      "translation_ru": "воспаление",
+      "example_sr": "Лекар је рекао да је то упала грла.",
+      "example_ru": "Врач сказал, что это воспаление горла.",
+      "false_friend_note": "«Упала» — это воспаление, а не глагол «упала». «Упала грла» — воспаление горла."
+    },
+    {
+      "sr_cyrillic": "алергија",
+      "sr_latin": "alergija",
+      "pronunciation_ru": "алЭргия",
+      "translation_ru": "аллергия",
+      "example_sr": "Имам алергију на пеницилин.",
+      "example_ru": "У меня аллергия на пенициллин.",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "бол",
+      "sr_latin": "bol",
+      "pronunciation_ru": "бОл",
+      "translation_ru": "боль",
+      "example_sr": "Имате ли нешто против болова?",
+      "example_ru": "Есть у вас что-нибудь от боли?",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "мучнина",
+      "sr_latin": "mučnina",
+      "pronunciation_ru": "мУчнина",
+      "translation_ru": "тошнота",
+      "example_sr": "Осећам мучнину после лека.",
+      "example_ru": "Меня подташнивает после лекарства.",
+      "false_friend_note": "«Мучнина» — это тошнота, а не «мучение», хотя корень похож."
+    },
+    {
+      "sr_cyrillic": "лек против болова",
+      "sr_latin": "lek protiv bolova",
+      "pronunciation_ru": "лЭк прОтив бОлова",
+      "translation_ru": "обезболивающее",
+      "example_sr": "Дајте ми неки лек против болова.",
+      "example_ru": "Дайте мне какое-нибудь обезболивающее.",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "антибиотик",
+      "sr_latin": "antibiotik",
+      "pronunciation_ru": "антибиОтик",
+      "translation_ru": "антибиотик",
+      "example_sr": "Антибиотик се не даје без рецепта.",
+      "example_ru": "Антибиотик не отпускают без рецепта.",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "витамини",
+      "sr_latin": "vitamini",
+      "pronunciation_ru": "витамИни",
+      "translation_ru": "витамины",
+      "example_sr": "Зими пијем витамине за имунитет.",
+      "example_ru": "Зимой пью витамины для иммунитета.",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "генерика",
+      "sr_latin": "generika",
+      "pronunciation_ru": "генЭрика",
+      "translation_ru": "дженерик (аналог лекарства)",
+      "example_sr": "Немамо тај лек, али имамо генерику.",
+      "example_ru": "У нас нет этого лекарства, но есть дженерик.",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "фластер",
+      "sr_latin": "flaster",
+      "pronunciation_ru": "флАстэр",
+      "translation_ru": "пластырь",
+      "example_sr": "Ставите фластер на посекотину.",
+      "example_ru": "Наклейте пластырь на порез.",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "завој",
+      "sr_latin": "zavoj",
+      "pronunciation_ru": "зАвой",
+      "translation_ru": "бинт (повязка)",
+      "example_sr": "Треба ми завој за рану на руци.",
+      "example_ru": "Мне нужен бинт для раны на руке.",
+      "false_friend_note": "«Завој» — бинт/повязка (ещё «поворот дороги»), а не «вой» или «завой»."
+    },
+    {
+      "sr_cyrillic": "вата",
+      "sr_latin": "vata",
+      "pronunciation_ru": "вАта",
+      "translation_ru": "вата",
+      "example_sr": "Дајте ми једно паковање вате.",
+      "example_ru": "Дайте мне одну упаковку ваты.",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "штрцаљка",
+      "sr_latin": "štrcaljka",
+      "pronunciation_ru": "штырцАлька",
+      "translation_ru": "шприц",
+      "example_sr": "Треба ми штрцаљка од пет милилитара.",
+      "example_ru": "Мне нужен шприц на пять миллилитров.",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "крвни притисак",
+      "sr_latin": "krvni pritisak",
+      "pronunciation_ru": "кЫрвни прИтисак",
+      "translation_ru": "кровяное давление",
+      "example_sr": "Имам висок крвни притисак.",
+      "example_ru": "У меня высокое давление.",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "трудноћа",
+      "sr_latin": "trudnoća",
+      "pronunciation_ru": "труднОча",
+      "translation_ru": "беременность",
+      "example_sr": "У трудноћи не смете да пијете све лекове.",
+      "example_ru": "Во время беременности нельзя принимать любые лекарства.",
+      "false_friend_note": "«Трудноћа» — беременность, а не «трудность». «Трудна жена» — беременная женщина."
+    },
+    {
+      "sr_cyrillic": "нежељено дејство",
+      "sr_latin": "neželjeno dejstvo",
+      "pronunciation_ru": "нэжЭльено дЭйство",
+      "translation_ru": "побочное действие",
+      "example_sr": "Овај лек има нежељена дејства.",
+      "example_ru": "У этого лекарства есть побочные действия.",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "грло",
+      "sr_latin": "grlo",
+      "pronunciation_ru": "гЫрло",
+      "translation_ru": "горло",
+      "example_sr": "Боли ме грло кад гутам.",
+      "example_ru": "Болит горло, когда глотаю.",
+      "false_friend_note": "«Грло» — это горло (буквы переставлены местами)."
+    }
+  ]
+}

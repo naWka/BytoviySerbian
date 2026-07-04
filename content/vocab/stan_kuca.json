@@ -1,0 +1,385 @@
+{
+  "id": "stan_kuca",
+  "title_ru": "🏠 Квартира и дом",
+  "title_sr": "Стан и кућа",
+  "words": [
+    {
+      "sr_cyrillic": "стан",
+      "sr_latin": "stan",
+      "pronunciation_ru": "стАн",
+      "translation_ru": "квартира",
+      "example_sr": "Издајем стан на другом спрату.",
+      "example_ru": "Сдаю квартиру на втором этаже.",
+      "false_friend_note": "Рус. «стан» — это лагерь/стоянка, а серб. „стан“ = квартира."
+    },
+    {
+      "sr_cyrillic": "кућа",
+      "sr_latin": "kuća",
+      "pronunciation_ru": "кУча",
+      "translation_ru": "дом (частный)",
+      "example_sr": "Живимо у кући са двориштем.",
+      "example_ru": "Мы живём в доме со двором.",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "соба",
+      "sr_latin": "soba",
+      "pronunciation_ru": "сОба",
+      "translation_ru": "комната",
+      "example_sr": "Стан има две собе и кухињу.",
+      "example_ru": "В квартире две комнаты и кухня.",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "спрат",
+      "sr_latin": "sprat",
+      "pronunciation_ru": "спрАт",
+      "translation_ru": "этаж",
+      "example_sr": "Лифт не ради, а ја сам на четвртом спрату.",
+      "example_ru": "Лифт не работает, а я на четвёртом этаже.",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "приземље",
+      "sr_latin": "prizemlje",
+      "pronunciation_ru": "прИземлье",
+      "translation_ru": "первый (нулевой) этаж",
+      "example_sr": "Стан је у приземљу, без степеница.",
+      "example_ru": "Квартира на первом этаже, без лестницы.",
+      "false_friend_note": "Ловушка: „приземље“ — это нулевой этаж, а «први спрат» — уже следующий (по-нашему второй)."
+    },
+    {
+      "sr_cyrillic": "лифт",
+      "sr_latin": "lift",
+      "pronunciation_ru": "лИфт",
+      "translation_ru": "лифт",
+      "example_sr": "Лифт је покварен, идемо степеницама.",
+      "example_ru": "Лифт сломан, идём по лестнице.",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "степениште",
+      "sr_latin": "stepenište",
+      "pronunciation_ru": "степенИште",
+      "translation_ru": "лестница, лестничная клетка",
+      "example_sr": "Немојте остављати ствари на степеништу.",
+      "example_ru": "Не оставляйте вещи на лестничной клетке.",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "ходник",
+      "sr_latin": "hodnik",
+      "pronunciation_ru": "хОдник",
+      "translation_ru": "коридор, прихожая",
+      "example_sr": "Ципеле остави у ходнику.",
+      "example_ru": "Обувь оставь в прихожей.",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "улаз",
+      "sr_latin": "ulaz",
+      "pronunciation_ru": "Улаз",
+      "translation_ru": "вход, подъезд",
+      "example_sr": "Улаз је са задње стране зграде.",
+      "example_ru": "Вход с задней стороны здания.",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "врата",
+      "sr_latin": "vrata",
+      "pronunciation_ru": "врАта",
+      "translation_ru": "дверь",
+      "example_sr": "Затвори врата, промаја је.",
+      "example_ru": "Закрой дверь, сквозняк.",
+      "false_friend_note": "Серб. „врата“ = дверь, а не «ворота», хотя звучит как устар. рус. «врата»."
+    },
+    {
+      "sr_cyrillic": "кључ",
+      "sr_latin": "ključ",
+      "pronunciation_ru": "клЮч",
+      "translation_ru": "ключ",
+      "example_sr": "Оставио сам кључ унутра, а врата су се залупила.",
+      "example_ru": "Я оставил ключ внутри, а дверь захлопнулась.",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "брава",
+      "sr_latin": "brava",
+      "pronunciation_ru": "брАва",
+      "translation_ru": "(дверной) замок",
+      "example_sr": "Брава се заглавила, не могу да откључам.",
+      "example_ru": "Замок заклинило, не могу открыть.",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "прозор",
+      "sr_latin": "prozor",
+      "pronunciation_ru": "прОзор",
+      "translation_ru": "окно",
+      "example_sr": "Отвори прозор да се проветри.",
+      "example_ru": "Открой окно, чтобы проветрить.",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "под",
+      "sr_latin": "pod",
+      "pronunciation_ru": "пОд",
+      "translation_ru": "пол",
+      "example_sr": "Пази, под је мокар.",
+      "example_ru": "Осторожно, пол мокрый.",
+      "false_friend_note": "Серб. „под“ = пол, а не русский предлог «под»."
+    },
+    {
+      "sr_cyrillic": "зид",
+      "sr_latin": "zid",
+      "pronunciation_ru": "зИд",
+      "translation_ru": "стена",
+      "example_sr": "Не буши зид, ту иду каблови.",
+      "example_ru": "Не сверли стену, тут идут провода.",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "плафон",
+      "sr_latin": "plafon",
+      "pronunciation_ru": "плАфон",
+      "translation_ru": "потолок",
+      "example_sr": "Комшија одозго ми је поплавио плафон.",
+      "example_ru": "Сосед сверху затопил мне потолок.",
+      "false_friend_note": "Серб. „плафон“ = потолок, а не «плафон/абажур», как в русском."
+    },
+    {
+      "sr_cyrillic": "кров",
+      "sr_latin": "krov",
+      "pronunciation_ru": "крОв",
+      "translation_ru": "крыша",
+      "example_sr": "Кров прокишњава кад пада киша.",
+      "example_ru": "Крыша протекает, когда идёт дождь.",
+      "false_friend_note": "Серб. „кров“ = крыша, а рус. «кров» — это приют/убежище."
+    },
+    {
+      "sr_cyrillic": "балкон",
+      "sr_latin": "balkon",
+      "pronunciation_ru": "бАлкон",
+      "translation_ru": "балкон",
+      "example_sr": "Веш сушим на балкону.",
+      "example_ru": "Бельё сушу на балконе.",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "тераса",
+      "sr_latin": "terasa",
+      "pronunciation_ru": "терАса",
+      "translation_ru": "терраса",
+      "example_sr": "Изашли смо на терасу на кафу.",
+      "example_ru": "Мы вышли на террасу выпить кофе.",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "кирија",
+      "sr_latin": "kirija",
+      "pronunciation_ru": "кИрия",
+      "translation_ru": "квартплата, аренда (ежемесячно)",
+      "example_sr": "Колика је кирија месечно?",
+      "example_ru": "Сколько аренда в месяц?",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "изнајмити",
+      "sr_latin": "iznajmiti",
+      "pronunciation_ru": "изнАймити",
+      "translation_ru": "снять (арендовать)",
+      "example_sr": "Хоћу да изнајмим стан на годину дана.",
+      "example_ru": "Хочу снять квартиру на год.",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "издати",
+      "sr_latin": "izdati",
+      "pronunciation_ru": "Издати",
+      "translation_ru": "сдать (в аренду)",
+      "example_sr": "Власник издаје стан странцима.",
+      "example_ru": "Владелец сдаёт квартиру иностранцам.",
+      "false_friend_note": "Серб. „издати/издавати“ = сдавать в аренду, а рус. «издать» = опубликовать (ещё „издати“ значит предать)."
+    },
+    {
+      "sr_cyrillic": "газда",
+      "sr_latin": "gazda",
+      "pronunciation_ru": "гАзда",
+      "translation_ru": "хозяин, арендодатель",
+      "example_sr": "Газда тражи депозит унапред.",
+      "example_ru": "Хозяин требует депозит заранее.",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "станар",
+      "sr_latin": "stanar",
+      "pronunciation_ru": "стАнар",
+      "translation_ru": "жилец, квартиросъёмщик",
+      "example_sr": "Ми смо мирни станари, без буке.",
+      "example_ru": "Мы тихие жильцы, без шума.",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "уговор",
+      "sr_latin": "ugovor",
+      "pronunciation_ru": "Уговор",
+      "translation_ru": "договор, контракт",
+      "example_sr": "Потпишите уговор о закупу.",
+      "example_ru": "Подпишите договор аренды.",
+      "false_friend_note": "Серб. „уговор“ = официальный договор/контракт, а рус. «уговор» — это устная договорённость."
+    },
+    {
+      "sr_cyrillic": "депозит",
+      "sr_latin": "depozit",
+      "pronunciation_ru": "депОзит",
+      "translation_ru": "депозит, залог",
+      "example_sr": "Депозит се враћа кад се иселиш.",
+      "example_ru": "Депозит возвращается, когда съезжаешь.",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "подрум",
+      "sr_latin": "podrum",
+      "pronunciation_ru": "пОдрум",
+      "translation_ru": "подвал, погреб",
+      "example_sr": "Огрев држимо у подруму.",
+      "example_ru": "Дрова держим в подвале.",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "рачун",
+      "sr_latin": "račun",
+      "pronunciation_ru": "рАчун",
+      "translation_ru": "счёт (за услуги), квитанция",
+      "example_sr": "Стигао је рачун за струју.",
+      "example_ru": "Пришёл счёт за электричество.",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "струја",
+      "sr_latin": "struja",
+      "pronunciation_ru": "стрУя",
+      "translation_ru": "электричество, ток",
+      "example_sr": "Нема струје у целој згради.",
+      "example_ru": "Нет электричества во всём доме.",
+      "false_friend_note": "Серб. „струја“ = электричество/ток, а рус. «струя» — это поток воды."
+    },
+    {
+      "sr_cyrillic": "бројило",
+      "sr_latin": "brojilo",
+      "pronunciation_ru": "брОйило",
+      "translation_ru": "счётчик (электро/воды)",
+      "example_sr": "Молим вас, очитајте бројило.",
+      "example_ru": "Пожалуйста, снимите показания счётчика.",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "грејање",
+      "sr_latin": "grejanje",
+      "pronunciation_ru": "грЕйанье",
+      "translation_ru": "отопление",
+      "example_sr": "Грејање се пали у октобру.",
+      "example_ru": "Отопление включают в октябре.",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "клима",
+      "sr_latin": "klima",
+      "pronunciation_ru": "клИма",
+      "translation_ru": "кондиционер",
+      "example_sr": "Клима не хлади, само дува.",
+      "example_ru": "Кондиционер не холодит, только дует.",
+      "false_friend_note": "Серб. „клима“ (уређај) = кондиционер, а не «климат»."
+    },
+    {
+      "sr_cyrillic": "бојлер",
+      "sr_latin": "bojler",
+      "pronunciation_ru": "бОйлер",
+      "translation_ru": "водонагреватель (бойлер)",
+      "example_sr": "Бојлер не греје воду.",
+      "example_ru": "Бойлер не греет воду.",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "славина",
+      "sr_latin": "slavina",
+      "pronunciation_ru": "слАвина",
+      "translation_ru": "кран (водопроводный)",
+      "example_sr": "Славина у купатилу цури.",
+      "example_ru": "Кран в ванной течёт.",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "сијалица",
+      "sr_latin": "sijalica",
+      "pronunciation_ru": "сиЯлица",
+      "translation_ru": "лампочка",
+      "example_sr": "Прегорела је сијалица у ходнику.",
+      "example_ru": "Перегорела лампочка в коридоре.",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "утичница",
+      "sr_latin": "utičnica",
+      "pronunciation_ru": "утИчница",
+      "translation_ru": "розетка",
+      "example_sr": "Ова утичница не ради.",
+      "example_ru": "Эта розетка не работает.",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "прекидач",
+      "sr_latin": "prekidač",
+      "pronunciation_ru": "прекИдач",
+      "translation_ru": "выключатель",
+      "example_sr": "Прекидач за светло је десно од врата.",
+      "example_ru": "Выключатель света справа от двери.",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "намештај",
+      "sr_latin": "nameštaj",
+      "pronunciation_ru": "нАмештай",
+      "translation_ru": "мебель",
+      "example_sr": "Стан се издаје без намештаја.",
+      "example_ru": "Квартира сдаётся без мебели.",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "намештен",
+      "sr_latin": "namešten",
+      "pronunciation_ru": "нАмештен",
+      "translation_ru": "меблированный",
+      "example_sr": "Тражим намештен стан, одмах усељив.",
+      "example_ru": "Ищу меблированную квартиру, готовую к заселению.",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "комшија",
+      "sr_latin": "komšija",
+      "pronunciation_ru": "кОмшия",
+      "translation_ru": "сосед",
+      "example_sr": "Комшије су љубазне и тихе.",
+      "example_ru": "Соседи любезные и тихие.",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "квар",
+      "sr_latin": "kvar",
+      "pronunciation_ru": "квАр",
+      "translation_ru": "поломка, неисправность",
+      "example_sr": "Пријавили смо квар на грејању.",
+      "example_ru": "Мы сообщили о поломке отопления.",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "селидба",
+      "sr_latin": "selidba",
+      "pronunciation_ru": "сЕлидба",
+      "translation_ru": "переезд (смена жилья)",
+      "example_sr": "Селидба је заказана за суботу.",
+      "example_ru": "Переезд назначен на субботу.",
+      "false_friend_note": "Серб. „селидба“ = переезд, хотя корень напоминает «село/поселиться»."
+    }
+  ]
+}

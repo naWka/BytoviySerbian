@@ -1,0 +1,385 @@
+{
+  "id": "brojevi",
+  "title_ru": "🔢 Числа",
+  "title_sr": "Бројеви",
+  "words": [
+    {
+      "sr_cyrillic": "број",
+      "sr_latin": "broj",
+      "pronunciation_ru": "брОј",
+      "translation_ru": "число, номер",
+      "example_sr": "Узмите број и сачекајте.",
+      "example_ru": "Возьмите талончик с номером и подождите.",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "нула",
+      "sr_latin": "nula",
+      "pronunciation_ru": "нУла",
+      "translation_ru": "ноль",
+      "example_sr": "Стање на рачуну је нула.",
+      "example_ru": "Баланс на счёте — ноль.",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "један",
+      "sr_latin": "jedan",
+      "pronunciation_ru": "йЕдан",
+      "translation_ru": "один",
+      "example_sr": "Дајте ми један, молим вас.",
+      "example_ru": "Дайте мне один, пожалуйста.",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "два",
+      "sr_latin": "dva",
+      "pronunciation_ru": "двА",
+      "translation_ru": "два",
+      "example_sr": "Купила сам два хлеба.",
+      "example_ru": "Я купила два хлеба.",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "пет",
+      "sr_latin": "pet",
+      "pronunciation_ru": "пЭт",
+      "translation_ru": "пять",
+      "example_sr": "Кошта пет евра.",
+      "example_ru": "Стоит пять евро.",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "дванаест",
+      "sr_latin": "dvanaest",
+      "pronunciation_ru": "двАнаест",
+      "translation_ru": "двенадцать",
+      "example_sr": "Отворено је до дванаест.",
+      "example_ru": "Открыто до двенадцати.",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "четрнаест",
+      "sr_latin": "četrnaest",
+      "pronunciation_ru": "чЭтрнаест",
+      "translation_ru": "четырнадцать",
+      "example_sr": "Има четрнаест година.",
+      "example_ru": "Ему четырнадцать лет.",
+      "false_friend_note": "Легко спутать с «четрдесет» (40); слушайте окончание -наест = ...надцать."
+    },
+    {
+      "sr_cyrillic": "четрдесет",
+      "sr_latin": "četrdeset",
+      "pronunciation_ru": "чЭтрдесет",
+      "translation_ru": "сорок",
+      "example_sr": "То је четрдесет динара.",
+      "example_ru": "Это сорок динаров.",
+      "false_friend_note": "Легко спутать с «четрнаест» (14); «четрдесет» — это 40."
+    },
+    {
+      "sr_cyrillic": "двадесет",
+      "sr_latin": "dvadeset",
+      "pronunciation_ru": "двАдесет",
+      "translation_ru": "двадцать",
+      "example_sr": "Аутобус креће за двадесет минута.",
+      "example_ru": "Автобус отходит через двадцать минут.",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "педесет",
+      "sr_latin": "pedeset",
+      "pronunciation_ru": "пЭдесет",
+      "translation_ru": "пятьдесят",
+      "example_sr": "Дајте ми педесет грама.",
+      "example_ru": "Дайте пятьдесят граммов.",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "сто",
+      "sr_latin": "sto",
+      "pronunciation_ru": "стО",
+      "translation_ru": "сто",
+      "example_sr": "Кошта сто динара.",
+      "example_ru": "Стоит сто динаров.",
+      "false_friend_note": "В сербском «сто» — это и «100», и «стол»; смысл понятен по контексту."
+    },
+    {
+      "sr_cyrillic": "двеста",
+      "sr_latin": "dvesta",
+      "pronunciation_ru": "двЭста",
+      "translation_ru": "двести",
+      "example_sr": "То је двеста педесет динара.",
+      "example_ru": "Это двести пятьдесят динаров.",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "петсто",
+      "sr_latin": "petsto",
+      "pronunciation_ru": "пЭтсто",
+      "translation_ru": "пятьсот",
+      "example_sr": "Немам ситно, само петсто.",
+      "example_ru": "У меня нет мелочи, только пятьсот.",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "хиљаду",
+      "sr_latin": "hiljadu",
+      "pronunciation_ru": "хИляду",
+      "translation_ru": "тысяча",
+      "example_sr": "То кошта хиљаду динара.",
+      "example_ru": "Это стоит тысячу динаров.",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "пет хиљада",
+      "sr_latin": "pet hiljada",
+      "pronunciation_ru": "пэт хИљада",
+      "translation_ru": "пять тысяч",
+      "example_sr": "Рачун је пет хиљада динара.",
+      "example_ru": "Счёт на пять тысяч динаров.",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "милион",
+      "sr_latin": "milion",
+      "pronunciation_ru": "милиОн",
+      "translation_ru": "миллион",
+      "example_sr": "Стан кошта сто хиљада евра, не милион.",
+      "example_ru": "Квартира стоит сто тысяч евро, а не миллион.",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "први",
+      "sr_latin": "prvi",
+      "pronunciation_ru": "пРви",
+      "translation_ru": "первый",
+      "example_sr": "Ја сам први у реду.",
+      "example_ru": "Я первый в очереди.",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "други",
+      "sr_latin": "drugi",
+      "pronunciation_ru": "дрУги",
+      "translation_ru": "второй",
+      "example_sr": "Продавница је на другом спрату.",
+      "example_ru": "Магазин на втором этаже.",
+      "false_friend_note": "«други» звучит как «другой», но в счёте это «второй» (значит и «другой» тоже)."
+    },
+    {
+      "sr_cyrillic": "трећи",
+      "sr_latin": "treći",
+      "pronunciation_ru": "трЭчи",
+      "translation_ru": "третий",
+      "example_sr": "Идемо на трећи спрат.",
+      "example_ru": "Едем на третий этаж.",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "четврти",
+      "sr_latin": "četvrti",
+      "pronunciation_ru": "чЭтврти",
+      "translation_ru": "четвёртый",
+      "example_sr": "Ово је четврти пут.",
+      "example_ru": "Это уже четвёртый раз.",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "пети",
+      "sr_latin": "peti",
+      "pronunciation_ru": "пЭти",
+      "translation_ru": "пятый",
+      "example_sr": "Живим на петом спрату.",
+      "example_ru": "Живу на пятом этаже.",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "десети",
+      "sr_latin": "deseti",
+      "pronunciation_ru": "дЭсети",
+      "translation_ru": "десятый",
+      "example_sr": "Данас је десети јун.",
+      "example_ru": "Сегодня десятое июня.",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "последњи",
+      "sr_latin": "poslednji",
+      "pronunciation_ru": "послЭдньи",
+      "translation_ru": "последний",
+      "example_sr": "Јесте ли ви последњи?",
+      "example_ru": "Вы последний (в очереди)?",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "неколико",
+      "sr_latin": "nekoliko",
+      "pronunciation_ru": "нЭколико",
+      "translation_ru": "несколько",
+      "example_sr": "Сачекајте неколико минута.",
+      "example_ru": "Подождите несколько минут.",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "пар",
+      "sr_latin": "par",
+      "pronunciation_ru": "пАр",
+      "translation_ru": "пара, несколько",
+      "example_sr": "Дајте ми пар јабука.",
+      "example_ru": "Дайте пару яблок.",
+      "false_friend_note": "«пар» — это «пара/несколько», а не русский «пар» (испарение)."
+    },
+    {
+      "sr_cyrillic": "око",
+      "sr_latin": "oko",
+      "pronunciation_ru": "Око",
+      "translation_ru": "около, примерно",
+      "example_sr": "Кошта око хиљаду динара.",
+      "example_ru": "Стоит около тысячи динаров.",
+      "false_friend_note": "Здесь «око» — «около/примерно», хотя звучит как «око» (глаз)."
+    },
+    {
+      "sr_cyrillic": "отприлике",
+      "sr_latin": "otprilike",
+      "pronunciation_ru": "отпрИлике",
+      "translation_ru": "приблизительно",
+      "example_sr": "Треба ми отприлике пола кила.",
+      "example_ru": "Мне нужно примерно полкило.",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "десетак",
+      "sr_latin": "desetak",
+      "pronunciation_ru": "дэсЭтак",
+      "translation_ru": "около десяти, десяток",
+      "example_sr": "Има их десетак.",
+      "example_ru": "Их около десяти.",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "стотинак",
+      "sr_latin": "stotinak",
+      "pronunciation_ru": "стотИнак",
+      "translation_ru": "около ста",
+      "example_sr": "Остало је стотинак динара.",
+      "example_ru": "Осталось около ста динаров.",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "више",
+      "sr_latin": "više",
+      "pronunciation_ru": "вИше",
+      "translation_ru": "больше",
+      "example_sr": "Треба ми више.",
+      "example_ru": "Мне нужно больше.",
+      "false_friend_note": "«више» значит «больше», хотя звучит как русское «выше» (о высоте)."
+    },
+    {
+      "sr_cyrillic": "мање",
+      "sr_latin": "manje",
+      "pronunciation_ru": "мАнье",
+      "translation_ru": "меньше",
+      "example_sr": "Може ли мање?",
+      "example_ru": "Можно поменьше?",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "укупно",
+      "sr_latin": "ukupno",
+      "pronunciation_ru": "Укупно",
+      "translation_ru": "всего, итого",
+      "example_sr": "Укупно је две хиљаде динара.",
+      "example_ru": "Итого две тысячи динаров.",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "количина",
+      "sr_latin": "količina",
+      "pronunciation_ru": "количИна",
+      "translation_ru": "количество",
+      "example_sr": "Која количина вам треба?",
+      "example_ru": "Какое количество вам нужно?",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "пола",
+      "sr_latin": "pola",
+      "pronunciation_ru": "пОла",
+      "translation_ru": "половина, пол-",
+      "example_sr": "Дајте ми пола кила сира.",
+      "example_ru": "Дайте полкило сыра.",
+      "false_friend_note": "«пола» — это «половина», не путать с русским «пол» (пол в комнате)."
+    },
+    {
+      "sr_cyrillic": "трећина",
+      "sr_latin": "trećina",
+      "pronunciation_ru": "трэчИна",
+      "translation_ru": "треть",
+      "example_sr": "Остала је само трећина.",
+      "example_ru": "Осталась только треть.",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "четвртина",
+      "sr_latin": "četvrtina",
+      "pronunciation_ru": "четвртИна",
+      "translation_ru": "четверть",
+      "example_sr": "Узмите четвртину хлеба.",
+      "example_ru": "Возьмите четверть буханки.",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "и по",
+      "sr_latin": "i po",
+      "pronunciation_ru": "и пО",
+      "translation_ru": "с половиной",
+      "example_sr": "Дајте ми кило и по парадајза.",
+      "example_ru": "Дайте полтора кило помидоров.",
+      "false_friend_note": "«и по» = «с половиной»: кило и по — это полтора кило."
+    },
+    {
+      "sr_cyrillic": "цео",
+      "sr_latin": "ceo",
+      "pronunciation_ru": "цЭо",
+      "translation_ru": "целый, весь",
+      "example_sr": "Треба ми цео хлеб, не пола.",
+      "example_ru": "Мне нужна целая буханка, не половина.",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "дупло",
+      "sr_latin": "duplo",
+      "pronunciation_ru": "дУпло",
+      "translation_ru": "вдвое, двойной",
+      "example_sr": "Ово је дупло скупље.",
+      "example_ru": "Это вдвое дороже.",
+      "false_friend_note": "«дупло» — это «вдвое/двойной», а не русское «дупло» (дырка в дереве)."
+    },
+    {
+      "sr_cyrillic": "пута",
+      "sr_latin": "puta",
+      "pronunciation_ru": "пУта",
+      "translation_ru": "раза (при счёте повторов)",
+      "example_sr": "Узимајте лек два пута дневно.",
+      "example_ru": "Принимайте лекарство два раза в день.",
+      "false_friend_note": "«пута» — это «раза» (два пута = два раза); «пут» ещё значит «дорога», созвучно русскому «путь»."
+    },
+    {
+      "sr_cyrillic": "проценат",
+      "sr_latin": "procenat",
+      "pronunciation_ru": "процЭнат",
+      "translation_ru": "процент",
+      "example_sr": "Камата је пет процената.",
+      "example_ru": "Процент по кредиту — пять процентов.",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "посто",
+      "sr_latin": "posto",
+      "pronunciation_ru": "пОсто",
+      "translation_ru": "процентов (разговорно)",
+      "example_sr": "Имамо двадесет посто попуста.",
+      "example_ru": "У нас скидка двадцать процентов.",
+      "false_friend_note": "«посто» в речи — это «процентов» (двадесет посто = 20%), а не «по сто»."
+    }
+  ]
+}

@@ -1,0 +1,385 @@
+{
+  "id": "meso_riba",
+  "title_ru": "🍖 Мясо и рыба",
+  "title_sr": "Месо и риба",
+  "words": [
+    {
+      "sr_cyrillic": "месо",
+      "sr_latin": "meso",
+      "pronunciation_ru": "мЭсо",
+      "translation_ru": "мясо",
+      "example_sr": "Ово месо је сасвим свеже.",
+      "example_ru": "Это мясо совсем свежее.",
+      "false_friend_note": "Похоже на «место», но месо — это мясо."
+    },
+    {
+      "sr_cyrillic": "риба",
+      "sr_latin": "riba",
+      "pronunciation_ru": "рИба",
+      "translation_ru": "рыба",
+      "example_sr": "Волим рибу са роштиља.",
+      "example_ru": "Люблю рыбу с гриля.",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "пилетина",
+      "sr_latin": "piletina",
+      "pronunciation_ru": "пилЕтина",
+      "translation_ru": "курятина, куриное мясо",
+      "example_sr": "Данас имамо свежу пилетину.",
+      "example_ru": "Сегодня у нас есть свежая курятина.",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "говедина",
+      "sr_latin": "govedina",
+      "pronunciation_ru": "говЕдина",
+      "translation_ru": "говядина",
+      "example_sr": "Говедина је скупља од свињетине.",
+      "example_ru": "Говядина дороже свинины.",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "свињетина",
+      "sr_latin": "svinjetina",
+      "pronunciation_ru": "свиньЕтина",
+      "translation_ru": "свинина",
+      "example_sr": "Свињетина за роштиљ, молим вас.",
+      "example_ru": "Свинину для гриля, пожалуйста.",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "телетина",
+      "sr_latin": "teletina",
+      "pronunciation_ru": "телЕтина",
+      "translation_ru": "телятина",
+      "example_sr": "Телетина је мекша од говедине.",
+      "example_ru": "Телятина мягче говядины.",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "јагњетина",
+      "sr_latin": "jagnjetina",
+      "pronunciation_ru": "ягньЕтина",
+      "translation_ru": "ягнятина, молодая баранина",
+      "example_sr": "За славу купујемо јагњетину.",
+      "example_ru": "На праздник покупаем ягнятину.",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "ћуретина",
+      "sr_latin": "ćuretina",
+      "pronunciation_ru": "чурЕтина",
+      "translation_ru": "индюшатина, мясо индейки",
+      "example_sr": "Ћуретина је немасно месо.",
+      "example_ru": "Индюшатина — нежирное мясо.",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "млевено месо",
+      "sr_latin": "mleveno meso",
+      "pronunciation_ru": "млЕвено мЭсо",
+      "translation_ru": "фарш, молотое мясо",
+      "example_sr": "Дајте ми пола кила млевеног меса.",
+      "example_ru": "Дайте полкило фарша.",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "филе",
+      "sr_latin": "file",
+      "pronunciation_ru": "фИле",
+      "translation_ru": "филе",
+      "example_sr": "Пилеће филе без костију.",
+      "example_ru": "Куриное филе без костей.",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "шницла",
+      "sr_latin": "šnicla",
+      "pronunciation_ru": "шнИцла",
+      "translation_ru": "порционный кусок мяса, отбивная, шницель",
+      "example_sr": "Две телеће шницле, молим.",
+      "example_ru": "Два куска телятины на отбивные, пожалуйста.",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "крменадла",
+      "sr_latin": "krmenadla",
+      "pronunciation_ru": "крменАдла",
+      "translation_ru": "свиная котлета на кости, корейка",
+      "example_sr": "Крменадле су одличне на роштиљу.",
+      "example_ru": "Свиные котлеты на кости отлично идут на гриле.",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "ребра",
+      "sr_latin": "rebra",
+      "pronunciation_ru": "рЕбра",
+      "translation_ru": "рёбрышки",
+      "example_sr": "Свињска ребра за роштиљ.",
+      "example_ru": "Свиные рёбрышки для гриля.",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "бут",
+      "sr_latin": "but",
+      "pronunciation_ru": "бУт",
+      "translation_ru": "окорок, задняя нога (бедро)",
+      "example_sr": "Пилећи бут или батак?",
+      "example_ru": "Куриный окорочок или голень?",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "батак",
+      "sr_latin": "batak",
+      "pronunciation_ru": "бАтак",
+      "translation_ru": "голень (нижняя часть куриной ножки)",
+      "example_sr": "Деца воле пилеће батаке.",
+      "example_ru": "Дети любят куриные голени.",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "бело месо",
+      "sr_latin": "belo meso",
+      "pronunciation_ru": "бЭло мЭсо",
+      "translation_ru": "белое мясо, грудка",
+      "example_sr": "Бело месо је најздравије.",
+      "example_ru": "Белое мясо (грудка) самое полезное.",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "крилца",
+      "sr_latin": "krilca",
+      "pronunciation_ru": "крИлца",
+      "translation_ru": "крылышки",
+      "example_sr": "Пржена пилећа крилца.",
+      "example_ru": "Жареные куриные крылышки.",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "врат",
+      "sr_latin": "vrat",
+      "pronunciation_ru": "врАт",
+      "translation_ru": "шея, шейная часть (ошеек)",
+      "example_sr": "Свињски врат је сочан за роштиљ.",
+      "example_ru": "Свиной ошеек сочный для гриля.",
+      "false_friend_note": "Врат — это шея. Не путайте с «врата» — по-сербски это дверь."
+    },
+    {
+      "sr_cyrillic": "џигерица",
+      "sr_latin": "džigerica",
+      "pronunciation_ru": "джигЕрица",
+      "translation_ru": "печёнка, ливер",
+      "example_sr": "Пилећа џигерица на луку.",
+      "example_ru": "Куриная печёнка с луком.",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "сланина",
+      "sr_latin": "slanina",
+      "pronunciation_ru": "слАнина",
+      "translation_ru": "сало, бекон, шпик",
+      "example_sr": "Димљена сланина за доручак.",
+      "example_ru": "Копчёное сало на завтрак.",
+      "false_friend_note": "Не «солонина». Сланина — это сало или бекон."
+    },
+    {
+      "sr_cyrillic": "шунка",
+      "sr_latin": "šunka",
+      "pronunciation_ru": "шУнка",
+      "translation_ru": "ветчина",
+      "example_sr": "Сто грама шунке, молим.",
+      "example_ru": "Сто граммов ветчины, пожалуйста.",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "кобасица",
+      "sr_latin": "kobasica",
+      "pronunciation_ru": "кобАсица",
+      "translation_ru": "колбаса, колбаска",
+      "example_sr": "Домаћа кобасица са роштиља.",
+      "example_ru": "Домашняя колбаска с гриля.",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "виршле",
+      "sr_latin": "viršle",
+      "pronunciation_ru": "вИршле",
+      "translation_ru": "сосиски, венские сосиски",
+      "example_sr": "Виршле са сенфом за децу.",
+      "example_ru": "Сосиски с горчицей для детей.",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "сухомеснато",
+      "sr_latin": "suhomesnato",
+      "pronunciation_ru": "сухомЭснато",
+      "translation_ru": "копчёности, сыровяленые мясные изделия",
+      "example_sr": "Сухомеснати производи су на акцији.",
+      "example_ru": "Копчёности сейчас по акции.",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "димљено",
+      "sr_latin": "dimljeno",
+      "pronunciation_ru": "дИмльено",
+      "translation_ru": "копчёное",
+      "example_sr": "Волите ли димљено месо?",
+      "example_ru": "Любите копчёное мясо?",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "печење",
+      "sr_latin": "pečenje",
+      "pronunciation_ru": "печЭнье",
+      "translation_ru": "жаркое, запечённое мясо",
+      "example_sr": "За ручак имамо свињско печење.",
+      "example_ru": "На обед у нас запечённая свинина.",
+      "false_friend_note": "Не «печенье»! Печење — это жаркое, запечённое мясо. Печенье по-сербски — кекс, колачићи."
+    },
+    {
+      "sr_cyrillic": "кости",
+      "sr_latin": "kosti",
+      "pronunciation_ru": "кОсти",
+      "translation_ru": "кости",
+      "example_sr": "Замолите месара да извади кости.",
+      "example_ru": "Попросите мясника вынуть кости.",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "без костију",
+      "sr_latin": "bez kostiju",
+      "pronunciation_ru": "бэз кОстию",
+      "translation_ru": "без костей",
+      "example_sr": "Филе без костију и без коже.",
+      "example_ru": "Филе без костей и без кожи.",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "маст",
+      "sr_latin": "mast",
+      "pronunciation_ru": "мАст",
+      "translation_ru": "жир, смалец, топлёное сало",
+      "example_sr": "Пржим на масти, не на уљу.",
+      "example_ru": "Жарю на смальце, не на масле.",
+      "false_friend_note": "Не «масть». Маст — это жир, смалец."
+    },
+    {
+      "sr_cyrillic": "свеже",
+      "sr_latin": "sveže",
+      "pronunciation_ru": "свЭже",
+      "translation_ru": "свежее, свежий",
+      "example_sr": "Тражим нешто свеже, не смрзнуто.",
+      "example_ru": "Ищу что-то свежее, не замороженное.",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "смрзнуто",
+      "sr_latin": "smrznuto",
+      "pronunciation_ru": "смРзнуто",
+      "translation_ru": "замороженное",
+      "example_sr": "Смрзнута риба је јефтинија од свеже.",
+      "example_ru": "Замороженная рыба дешевле свежей.",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "речна риба",
+      "sr_latin": "rečna riba",
+      "pronunciation_ru": "рЭчна рИба",
+      "translation_ru": "речная рыба",
+      "example_sr": "Речна риба има више ситних костију.",
+      "example_ru": "У речной рыбы больше мелких костей.",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "морска риба",
+      "sr_latin": "morska riba",
+      "pronunciation_ru": "мОрска рИба",
+      "translation_ru": "морская рыба",
+      "example_sr": "Морска риба је богата јодом.",
+      "example_ru": "Морская рыба богата йодом.",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "пастрмка",
+      "sr_latin": "pastrmka",
+      "pronunciation_ru": "пАстрмка",
+      "translation_ru": "форель",
+      "example_sr": "Пастрмка са жара и лимун.",
+      "example_ru": "Форель на гриле и лимон.",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "шаран",
+      "sr_latin": "šaran",
+      "pronunciation_ru": "шАран",
+      "translation_ru": "карп",
+      "example_sr": "Пуњени шаран за славу.",
+      "example_ru": "Фаршированный карп на праздник.",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "ослић",
+      "sr_latin": "oslić",
+      "pronunciation_ru": "Ослич",
+      "translation_ru": "хек",
+      "example_sr": "Смрзнути ослић је погодан за децу.",
+      "example_ru": "Замороженный хек подходит для детей.",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "скуша",
+      "sr_latin": "skuša",
+      "pronunciation_ru": "скУша",
+      "translation_ru": "скумбрия, макрель",
+      "example_sr": "Димљена скуша је укусна.",
+      "example_ru": "Копчёная скумбрия вкусная.",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "лосос",
+      "sr_latin": "losos",
+      "pronunciation_ru": "лОсос",
+      "translation_ru": "лосось, сёмга",
+      "example_sr": "Филе лососа на пари.",
+      "example_ru": "Филе лосося на пару.",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "туна",
+      "sr_latin": "tuna",
+      "pronunciation_ru": "тУна",
+      "translation_ru": "тунец",
+      "example_sr": "Конзерва туне у уљу.",
+      "example_ru": "Банка тунца в масле.",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "лигње",
+      "sr_latin": "lignje",
+      "pronunciation_ru": "лИгнье",
+      "translation_ru": "кальмары",
+      "example_sr": "Пржене лигње са помфритом.",
+      "example_ru": "Жареные кальмары с картошкой фри.",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "шкампи",
+      "sr_latin": "škampi",
+      "pronunciation_ru": "шкАмпи",
+      "translation_ru": "креветки, скампи",
+      "example_sr": "Шкампи на жару са лимуном.",
+      "example_ru": "Креветки на гриле с лимоном.",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "рибарница",
+      "sr_latin": "ribarnica",
+      "pronunciation_ru": "рибАрница",
+      "translation_ru": "рыбный магазин, рыбная лавка",
+      "example_sr": "Свежу туну наћи ћеш у рибарници.",
+      "example_ru": "Свежего тунца найдёшь в рыбной лавке.",
+      "false_friend_note": ""
+    }
+  ]
+}

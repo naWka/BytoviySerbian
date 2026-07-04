@@ -1,0 +1,88 @@
+{
+  "id": "uprava",
+  "title_ru": "🏛 Управа (ВНЖ)",
+  "title_sr": "Управа за странце",
+  "role_for_ai": "чиновник за окошком в управе за странце — формальный, слегка нетерпеливый, сыплет названиями документов",
+  "will_hear": [
+    {
+      "sr_cyrillic": "Фали вам оверена копија пасоша.",
+      "sr_latin": "Fali vam overena kopija pasoša.",
+      "pronunciation_ru": "фАли вам Оверена кОпия пАсоша",
+      "translation_ru": "У вас не хватает заверенной копии паспорта.",
+      "react_sr": "Где могу то да оверим?",
+      "react_pron": "где мОгу то да Оверим",
+      "react_ru": "Где я могу это заверить?",
+      "false_friend_note": "«Фали» — «не хватает», ключевое слово всех походов в управу."
+    },
+    {
+      "sr_cyrillic": "Морате прво да закажете термин онлајн.",
+      "sr_latin": "Morate prvo da zakažete termin onlajn.",
+      "pronunciation_ru": "мОрате прво да закАжете тЭрмин онлАйн",
+      "translation_ru": "Сначала нужно записаться на приём онлайн.",
+      "react_sr": "Да ли има слободних термина ове недеље?",
+      "react_pron": "да ли Има слОбодних тЭрмина Ове нЭделе",
+      "react_ru": "Есть свободные слоты на этой неделе?",
+      "false_friend_note": "«Заказати» — «записаться», не «заказать». «Термин» — «запись на приём»."
+    },
+    {
+      "sr_cyrillic": "Такса се плаћа у пошти, донесите уплатницу.",
+      "sr_latin": "Taksa se plaća u pošti, donesite uplatnicu.",
+      "pronunciation_ru": "тАкса се плАча у пОшти, донЭсите уплАтницу",
+      "translation_ru": "Пошлина оплачивается на почте, принесите квитанцию.",
+      "react_sr": "Колика је такса?",
+      "react_pron": "колИка е тАкса",
+      "react_ru": "Какая сумма?",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "Решење ће бити готово за месец дана.",
+      "sr_latin": "Rešenje će biti gotovo za mesec dana.",
+      "pronunciation_ru": "решЭне че бИти гОтово за мЭсец дАна",
+      "translation_ru": "Решение (по заявлению) будет готово через месяц.",
+      "react_sr": "Да ли ће ме неко обавестити?",
+      "react_pron": "да ли че ме нЭко обавЭстити",
+      "react_ru": "Меня кто-то уведомит?",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "Ова потврда не важи, треба нова, не старија од шест месеци.",
+      "sr_latin": "Ova potvrda ne važi, treba nova, ne starija od šest meseci.",
+      "pronunciation_ru": "Ова пОтврда не вАжи, трЭба нОва, не стАрия од шест мЭсеци",
+      "translation_ru": "Эта справка недействительна, нужна новая, не старше шести месяцев.",
+      "react_sr": "Шта тачно треба да пише у потврди?",
+      "react_pron": "шта тАчно трЭба да пИше у пОтврди",
+      "react_ru": "Что именно должно быть написано в справке?",
+      "false_friend_note": ""
+    }
+  ],
+  "your_phrases": [
+    {
+      "sr_cyrillic": "Који су ми тачно документи потребни за продужење боравка?",
+      "sr_latin": "Koji su mi tačno dokumenti potrebni za produženje boravka?",
+      "pronunciation_ru": "кОи су ми тАчно докумЭнти пОтребни за продУжене бОравка",
+      "translation_ru": "Какие именно документы нужны для продления ВНЖ?",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "Да ли могу овај папир да доставим накнадно?",
+      "sr_latin": "Da li mogu ovaj papir da dostavim naknadno?",
+      "pronunciation_ru": "да ли мОгу Овай пАпир да дОставим нАкнадно",
+      "translation_ru": "Могу я донести эту бумагу позже?",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "Можете ли да ми напишете шта фали?",
+      "sr_latin": "Možete li da mi napišete šta fali?",
+      "pronunciation_ru": "мОжете ли да ми напИшете шта фАли",
+      "translation_ru": "Можете написать мне, чего не хватает?",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "У ком статусу је мој предмет?",
+      "sr_latin": "U kom statusu je moj predmet?",
+      "pronunciation_ru": "у ком стАтусу е мой прЭдмет",
+      "translation_ru": "В каком статусе моё дело?",
+      "false_friend_note": "«Предмет» в управе — «дело/заявление», не вещь."
+    }
+  ]
+}

@@ -1,0 +1,385 @@
+{
+  "id": "kupatilo",
+  "title_ru": "🚿 Ванная",
+  "title_sr": "Купатило",
+  "words": [
+    {
+      "sr_cyrillic": "купатило",
+      "sr_latin": "kupatilo",
+      "pronunciation_ru": "купАтило",
+      "translation_ru": "ванная комната",
+      "example_sr": "Купатило ми је мало, али светло.",
+      "example_ru": "Ванная у меня маленькая, но светлая.",
+      "false_friend_note": "«Купатило» — это помещение (ванная комната), а не действие. Не путай с «купаться»."
+    },
+    {
+      "sr_cyrillic": "туш",
+      "sr_latin": "tuš",
+      "pronunciation_ru": "тУш",
+      "translation_ru": "душ",
+      "example_sr": "Волим топао туш ујутру.",
+      "example_ru": "Люблю горячий душ по утрам.",
+      "false_friend_note": "«Туш» — это душ, а не тушь для ресниц. Русское ухо слышит «тушь», но серб говорит про душ."
+    },
+    {
+      "sr_cyrillic": "туш кабина",
+      "sr_latin": "tuš kabina",
+      "pronunciation_ru": "тУш кабИна",
+      "translation_ru": "душевая кабина",
+      "example_sr": "Стакло на туш кабини је прљаво.",
+      "example_ru": "Стекло на душевой кабине грязное.",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "туширати се",
+      "sr_latin": "tuširati se",
+      "pronunciation_ru": "тушИрати сэ",
+      "translation_ru": "принимать душ",
+      "example_sr": "Туширам се свако јутро пре посла.",
+      "example_ru": "Принимаю душ каждое утро перед работой.",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "када",
+      "sr_latin": "kada",
+      "pronunciation_ru": "кАда",
+      "translation_ru": "ванна",
+      "example_sr": "Напуни каду топлом водом.",
+      "example_ru": "Набери ванну горячей водой.",
+      "false_friend_note": "«Када» звучит как русское «когда», но это ванна. «Напуни каду» = набери ванну."
+    },
+    {
+      "sr_cyrillic": "славина",
+      "sr_latin": "slavina",
+      "pronunciation_ru": "слАвина",
+      "translation_ru": "кран (водопроводный)",
+      "example_sr": "Славина у купатилу цури целу ноћ.",
+      "example_ru": "Кран в ванной течёт всю ночь.",
+      "false_friend_note": "Водопроводный кран серб называет «славина». А «кран» по-сербски — это подъёмный кран на стройке."
+    },
+    {
+      "sr_cyrillic": "лавабо",
+      "sr_latin": "lavabo",
+      "pronunciation_ru": "лавАбо",
+      "translation_ru": "раковина, умывальник",
+      "example_sr": "Опери руке на лавабоу.",
+      "example_ru": "Помой руки в раковине.",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "огледало",
+      "sr_latin": "ogledalo",
+      "pronunciation_ru": "оглЭдало",
+      "translation_ru": "зеркало",
+      "example_sr": "Огледало се замаглило од паре.",
+      "example_ru": "Зеркало запотело от пара.",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "пешкир",
+      "sr_latin": "peškir",
+      "pronunciation_ru": "пЭшкир",
+      "translation_ru": "полотенце",
+      "example_sr": "Додај ми чист пешкир, молим те.",
+      "example_ru": "Подай мне чистое полотенце, пожалуйста.",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "сапун",
+      "sr_latin": "sapun",
+      "pronunciation_ru": "сАпун",
+      "translation_ru": "мыло",
+      "example_sr": "Нема сапуна поред лавабоа.",
+      "example_ru": "Возле раковины нет мыла.",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "под",
+      "sr_latin": "pod",
+      "pronunciation_ru": "пОд",
+      "translation_ru": "пол",
+      "example_sr": "Под у купатилу је мокар, пази да не паднеш.",
+      "example_ru": "Пол в ванной мокрый, осторожно, не упади.",
+      "false_friend_note": "«Под» — это пол (то, по чему ходишь), а не русский предлог «под». «Под је мокар» = пол мокрый."
+    },
+    {
+      "sr_cyrillic": "шампон",
+      "sr_latin": "šampon",
+      "pronunciation_ru": "шампОн",
+      "translation_ru": "шампунь",
+      "example_sr": "Овај шампон је за масну косу.",
+      "example_ru": "Этот шампунь для жирных волос.",
+      "false_friend_note": "«Коса» здесь — волосы, а не заплетённая коса. «За масну косу» = для жирных волос."
+    },
+    {
+      "sr_cyrillic": "гел за туширање",
+      "sr_latin": "gel za tuširanje",
+      "pronunciation_ru": "гЭл за тушИрање",
+      "translation_ru": "гель для душа",
+      "example_sr": "Потрошио се гел за туширање.",
+      "example_ru": "Гель для душа закончился.",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "пена",
+      "sr_latin": "pena",
+      "pronunciation_ru": "пЭна",
+      "translation_ru": "пена",
+      "example_sr": "Сапун прави пуно пене.",
+      "example_ru": "Мыло даёт много пены.",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "сунђер",
+      "sr_latin": "sunđer",
+      "pronunciation_ru": "сУнђер",
+      "translation_ru": "губка",
+      "example_sr": "Оперем леђа сунђером.",
+      "example_ru": "Мою спину губкой.",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "крпа",
+      "sr_latin": "krpa",
+      "pronunciation_ru": "кРпа",
+      "translation_ru": "тряпка",
+      "example_sr": "Обриши воду око каде крпом.",
+      "example_ru": "Вытри воду вокруг ванны тряпкой.",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "четкица за зубе",
+      "sr_latin": "četkica za zube",
+      "pronunciation_ru": "чЭткица за зУбе",
+      "translation_ru": "зубная щётка",
+      "example_sr": "Где ти је четкица за зубе?",
+      "example_ru": "Где твоя зубная щётка?",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "паста за зубе",
+      "sr_latin": "pasta za zube",
+      "pronunciation_ru": "пАста за зУбе",
+      "translation_ru": "зубная паста",
+      "example_sr": "Истисни мало пасте за зубе.",
+      "example_ru": "Выдави немного зубной пасты.",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "дезодоранс",
+      "sr_latin": "dezodorans",
+      "pronunciation_ru": "дэзодОранс",
+      "translation_ru": "дезодорант",
+      "example_sr": "Заборавио сам дезодоранс код куће.",
+      "example_ru": "Забыл дезодорант дома.",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "фен",
+      "sr_latin": "fen",
+      "pronunciation_ru": "фЭн",
+      "translation_ru": "фен",
+      "example_sr": "Осуши косу феном.",
+      "example_ru": "Высуши волосы феном.",
+      "false_friend_note": "«Коса» — это волосы; «осуши косу феном» = высуши волосы феном."
+    },
+    {
+      "sr_cyrillic": "бријач",
+      "sr_latin": "brijač",
+      "pronunciation_ru": "брИяч",
+      "translation_ru": "бритва, станок",
+      "example_sr": "Треба ми нов бријач, овај не сече добро.",
+      "example_ru": "Нужна новая бритва, эта плохо бреет.",
+      "false_friend_note": "«Бријач» — это и бритва/станок, и брадобрей (мужской парикмахер)."
+    },
+    {
+      "sr_cyrillic": "вешалица",
+      "sr_latin": "vešalica",
+      "pronunciation_ru": "вЭшалица",
+      "translation_ru": "вешалка",
+      "example_sr": "Окачи пешкир на вешалицу.",
+      "example_ru": "Повесь полотенце на вешалку.",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "полица",
+      "sr_latin": "polica",
+      "pronunciation_ru": "пОлица",
+      "translation_ru": "полка",
+      "example_sr": "Стави шампон на полицу изнад лавабоа.",
+      "example_ru": "Поставь шампунь на полку над раковиной.",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "плочице",
+      "sr_latin": "pločice",
+      "pronunciation_ru": "плОчице",
+      "translation_ru": "плитка, кафель",
+      "example_sr": "Плочице у купатилу су клизаве кад су мокре.",
+      "example_ru": "Плитка в ванной скользкая, когда мокрая.",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "простирка",
+      "sr_latin": "prostirka",
+      "pronunciation_ru": "прОстирка",
+      "translation_ru": "коврик (в ванной)",
+      "example_sr": "Стани на простирку да се не поквасиш.",
+      "example_ru": "Встань на коврик, чтобы не намокнуть.",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "корпа за веш",
+      "sr_latin": "korpa za veš",
+      "pronunciation_ru": "кОрпа за вЭш",
+      "translation_ru": "корзина для белья",
+      "example_sr": "Баци прљаве пешкире у корпу за веш.",
+      "example_ru": "Кинь грязные полотенца в корзину для белья.",
+      "false_friend_note": "«Веш» — это бельё (для стирки), а не русская «вещь». «Корпа за веш» = корзина для белья."
+    },
+    {
+      "sr_cyrillic": "веш машина",
+      "sr_latin": "veš mašina",
+      "pronunciation_ru": "вЭш машИна",
+      "translation_ru": "стиральная машина",
+      "example_sr": "Веш машина је стала, готово је прање.",
+      "example_ru": "Стиральная машина остановилась, стирка закончилась.",
+      "false_friend_note": "Дословно «машина для белья». «Веш» — бельё, а не русская «вещь»."
+    },
+    {
+      "sr_cyrillic": "прати веш",
+      "sr_latin": "prati veš",
+      "pronunciation_ru": "прАти вЭш",
+      "translation_ru": "стирать бельё",
+      "example_sr": "Данас морам да перем веш.",
+      "example_ru": "Сегодня мне надо стирать бельё.",
+      "false_friend_note": "«Прати» — это стирать или мыть. Не путай с похожим «пратити» (сопровождать, следить)."
+    },
+    {
+      "sr_cyrillic": "детерџент",
+      "sr_latin": "deterdžent",
+      "pronunciation_ru": "детэрджЭнт",
+      "translation_ru": "стиральный порошок, моющее средство",
+      "example_sr": "Сипај детерџент у фиоку веш машине.",
+      "example_ru": "Насыпь порошок в лоток стиральной машины.",
+      "false_friend_note": "«Детерџент» — любое стиральное/моющее средство: и порошок, и гель."
+    },
+    {
+      "sr_cyrillic": "омекшивач",
+      "sr_latin": "omekšivač",
+      "pronunciation_ru": "омэкшИвач",
+      "translation_ru": "кондиционер для белья",
+      "example_sr": "Додај омекшивач да веш буде мекан.",
+      "example_ru": "Добавь кондиционер, чтобы бельё было мягким.",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "центрифуга",
+      "sr_latin": "centrifuga",
+      "pronunciation_ru": "цэнтрифУга",
+      "translation_ru": "отжим",
+      "example_sr": "Стави јаку центрифугу за пешкире.",
+      "example_ru": "Поставь сильный отжим для полотенец.",
+      "false_friend_note": "У стиральной машины «центрифуга» — это режим отжима."
+    },
+    {
+      "sr_cyrillic": "тоалет",
+      "sr_latin": "toalet",
+      "pronunciation_ru": "тоалЭт",
+      "translation_ru": "туалет",
+      "example_sr": "Где је тоалет, молим вас?",
+      "example_ru": "Где туалет, пожалуйста?",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "шоља",
+      "sr_latin": "šolja",
+      "pronunciation_ru": "шОля",
+      "translation_ru": "унитаз",
+      "example_sr": "ВЦ шоља се запушила.",
+      "example_ru": "Унитаз засорился.",
+      "false_friend_note": "«Шоља» обычно значит «чашка» (шоља кафе — чашка кофе), но в ванной «(ВЦ) шоља» — это унитаз."
+    },
+    {
+      "sr_cyrillic": "вц даска",
+      "sr_latin": "vc daska",
+      "pronunciation_ru": "вэ-цэ дАска",
+      "translation_ru": "сиденье (крышка) унитаза",
+      "example_sr": "Спусти вц даску кад завршиш.",
+      "example_ru": "Опусти сиденье унитаза, когда закончишь.",
+      "false_friend_note": "«Даска» вообще-то «доска», а «вц даска» — это сиденье (крышка) унитаза."
+    },
+    {
+      "sr_cyrillic": "водокотлић",
+      "sr_latin": "vodokotlić",
+      "pronunciation_ru": "водокОтлич",
+      "translation_ru": "сливной бачок",
+      "example_sr": "Водокотлић непрекидно пропушта воду.",
+      "example_ru": "Сливной бачок постоянно подтекает.",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "тоалет папир",
+      "sr_latin": "toalet papir",
+      "pronunciation_ru": "тоалЭт папИр",
+      "translation_ru": "туалетная бумага",
+      "example_sr": "Нема тоалет папира, донеси нову ролну.",
+      "example_ru": "Туалетной бумаги нет, принеси новый рулон.",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "одвод",
+      "sr_latin": "odvod",
+      "pronunciation_ru": "Одвод",
+      "translation_ru": "слив, сток",
+      "example_sr": "Вода не пролази кроз одвод.",
+      "example_ru": "Вода не проходит через слив.",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "запушен",
+      "sr_latin": "zapušen",
+      "pronunciation_ru": "запУшен",
+      "translation_ru": "засорён, забит",
+      "example_sr": "Одвод је запушен, вода не отиче.",
+      "example_ru": "Слив засорён, вода не уходит.",
+      "false_friend_note": "«Запушен» — засорён/забит. То же слово о носе: «запушен нос» = заложенный нос."
+    },
+    {
+      "sr_cyrillic": "цури",
+      "sr_latin": "curi",
+      "pronunciation_ru": "цУри",
+      "translation_ru": "течёт, подтекает",
+      "example_sr": "Славина цури, капље цео дан.",
+      "example_ru": "Кран течёт, капает весь день.",
+      "false_friend_note": "«Цури» — «течёт/подтекает». Славину которая «цури» надо чинить."
+    },
+    {
+      "sr_cyrillic": "водоинсталатер",
+      "sr_latin": "vodoinstalater",
+      "pronunciation_ru": "водоинсталАтэр",
+      "translation_ru": "сантехник",
+      "example_sr": "Позвао сам водоинсталатера да поправи цев.",
+      "example_ru": "Я вызвал сантехника починить трубу.",
+      "false_friend_note": "«Водоинсталатер» — это сантехник (мастер по трубам и кранам)."
+    },
+    {
+      "sr_cyrillic": "бојлер",
+      "sr_latin": "bojler",
+      "pronunciation_ru": "бОйлер",
+      "translation_ru": "бойлер, водонагреватель",
+      "example_sr": "Бојлер не греје, немамо топлу воду.",
+      "example_ru": "Бойлер не греет, у нас нет горячей воды.",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "топла вода",
+      "sr_latin": "topla voda",
+      "pronunciation_ru": "тОпла вОда",
+      "translation_ru": "горячая вода",
+      "example_sr": "Из славине иде само хладна, нема топле воде.",
+      "example_ru": "Из крана идёт только холодная, горячей воды нет.",
+      "false_friend_note": "«Топла вода» — это ГОРЯЧАЯ вода (из горячего крана), хотя на слух похоже на «тёплую». Совсем горячая — «врућа вода»."
+    }
+  ]
+}

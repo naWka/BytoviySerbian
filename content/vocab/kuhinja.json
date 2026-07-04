@@ -1,0 +1,385 @@
+{
+  "id": "kuhinja",
+  "title_ru": "🍳 Кухня и посуда",
+  "title_sr": "Кухиња",
+  "words": [
+    {
+      "sr_cyrillic": "шпорет",
+      "sr_latin": "šporet",
+      "pronunciation_ru": "шпОрет",
+      "translation_ru": "плита (кухонная)",
+      "example_sr": "Пази, шпорет је још врућ.",
+      "example_ru": "Осторожно, плита ещё горячая.",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "рерна",
+      "sr_latin": "rerna",
+      "pronunciation_ru": "рЭрна",
+      "translation_ru": "духовка",
+      "example_sr": "Ставила сам питу у рерну.",
+      "example_ru": "Я поставила пирог в духовку.",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "рингла",
+      "sr_latin": "ringla",
+      "pronunciation_ru": "рИнгла",
+      "translation_ru": "конфорка",
+      "example_sr": "Која рингла ради?",
+      "example_ru": "Какая конфорка работает?",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "микроталасна",
+      "sr_latin": "mikrotalasna",
+      "pronunciation_ru": "микроталАсна",
+      "translation_ru": "микроволновка",
+      "example_sr": "Загреј супу у микроталасној.",
+      "example_ru": "Разогрей суп в микроволновке.",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "фрижидер",
+      "sr_latin": "frižider",
+      "pronunciation_ru": "фрижИдер",
+      "translation_ru": "холодильник",
+      "example_sr": "Млеко је у фрижидеру.",
+      "example_ru": "Молоко в холодильнике.",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "замрзивач",
+      "sr_latin": "zamrzivač",
+      "pronunciation_ru": "замрзИвач",
+      "translation_ru": "морозилка",
+      "example_sr": "Месо држим у замрзивачу.",
+      "example_ru": "Мясо держу в морозилке.",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "шерпа",
+      "sr_latin": "šerpa",
+      "pronunciation_ru": "шЭрпа",
+      "translation_ru": "кастрюля (широкая, сотейник)",
+      "example_sr": "Вода у шерпи је прокључала.",
+      "example_ru": "Вода в кастрюле закипела.",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "лонац",
+      "sr_latin": "lonac",
+      "pronunciation_ru": "лОнац",
+      "translation_ru": "большая кастрюля, горшок",
+      "example_sr": "Донеси велики лонац за пасуљ.",
+      "example_ru": "Принеси большую кастрюлю для фасоли.",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "тигањ",
+      "sr_latin": "tiganj",
+      "pronunciation_ru": "тИгань",
+      "translation_ru": "сковорода",
+      "example_sr": "Јаја пржим на тигању.",
+      "example_ru": "Яйца жарю на сковороде.",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "тепсија",
+      "sr_latin": "tepsija",
+      "pronunciation_ru": "тЭпсия",
+      "translation_ru": "противень, форма для запекания",
+      "example_sr": "Ставио сам месо у тепсију.",
+      "example_ru": "Я поставил мясо в противень.",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "поклопац",
+      "sr_latin": "poklopac",
+      "pronunciation_ru": "поклОпац",
+      "translation_ru": "крышка",
+      "example_sr": "Стави поклопац да не прска.",
+      "example_ru": "Накрой крышкой, чтобы не брызгало.",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "нож",
+      "sr_latin": "nož",
+      "pronunciation_ru": "нОж",
+      "translation_ru": "нож",
+      "example_sr": "Овај нож не сече добро.",
+      "example_ru": "Этот нож плохо режет.",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "виљушка",
+      "sr_latin": "viljuška",
+      "pronunciation_ru": "вИльушка",
+      "translation_ru": "вилка",
+      "example_sr": "Дај ми виљушку и нож, молим те.",
+      "example_ru": "Дай мне вилку и нож, пожалуйста.",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "кашика",
+      "sr_latin": "kašika",
+      "pronunciation_ru": "кАшика",
+      "translation_ru": "ложка (столовая)",
+      "example_sr": "Промешај супу кашиком.",
+      "example_ru": "Помешай суп ложкой.",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "кашичица",
+      "sr_latin": "kašičica",
+      "pronunciation_ru": "кАшичица",
+      "translation_ru": "чайная ложка",
+      "example_sr": "Додај кашичицу шећера.",
+      "example_ru": "Добавь чайную ложку сахара.",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "тањир",
+      "sr_latin": "tanjir",
+      "pronunciation_ru": "тАњир",
+      "translation_ru": "тарелка",
+      "example_sr": "Стави тањире на сто.",
+      "example_ru": "Поставь тарелки на стол.",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "чинија",
+      "sr_latin": "činija",
+      "pronunciation_ru": "чИния",
+      "translation_ru": "миска, глубокая тарелка",
+      "example_sr": "Салата је у великој чинији.",
+      "example_ru": "Салат в большой миске.",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "чаша",
+      "sr_latin": "čaša",
+      "pronunciation_ru": "чАша",
+      "translation_ru": "стакан (для питья)",
+      "example_sr": "Хоћеш чашу воде?",
+      "example_ru": "Хочешь стакан воды?",
+      "false_friend_note": "По-русски «чаша» — большая ёмкость или кубок, а сербское «чаша» — обычный стакан для питья."
+    },
+    {
+      "sr_cyrillic": "шоља",
+      "sr_latin": "šolja",
+      "pronunciation_ru": "шОля",
+      "translation_ru": "чашка, кружка",
+      "example_sr": "Направићу ти шољу кафе.",
+      "example_ru": "Сделаю тебе чашку кофе.",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "со",
+      "sr_latin": "so",
+      "pronunciation_ru": "сО",
+      "translation_ru": "соль",
+      "example_sr": "Мало је слано, немој више соли.",
+      "example_ru": "Немного солёно, больше соли не надо.",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "шећер",
+      "sr_latin": "šećer",
+      "pronunciation_ru": "шЭчер",
+      "translation_ru": "сахар",
+      "example_sr": "Пијем кафу без шећера.",
+      "example_ru": "Пью кофе без сахара.",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "уље",
+      "sr_latin": "ulje",
+      "pronunciation_ru": "Улье",
+      "translation_ru": "масло (растительное)",
+      "example_sr": "Сипај мало уља у тигањ.",
+      "example_ru": "Налей немного масла на сковороду.",
+      "false_friend_note": "Звучит похоже на русское «улей», но значит «масло» (растительное)."
+    },
+    {
+      "sr_cyrillic": "суд",
+      "sr_latin": "sud",
+      "pronunciation_ru": "сУд",
+      "translation_ru": "посудина, сосуд (мн. судови — посуда)",
+      "example_sr": "Остави прљаве судове у судоперу.",
+      "example_ru": "Оставь грязную посуду в мойке.",
+      "false_friend_note": "Ложный друг: на кухне «суд» — это сосуд/посуда (мн. судови), а не «суд» как инстанция."
+    },
+    {
+      "sr_cyrillic": "посуђе",
+      "sr_latin": "posuđe",
+      "pronunciation_ru": "пОсудже",
+      "translation_ru": "посуда (собирательно)",
+      "example_sr": "Још нисам опрала посуђе.",
+      "example_ru": "Я ещё не помыла посуду.",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "кувати",
+      "sr_latin": "kuvati",
+      "pronunciation_ru": "кУвати",
+      "translation_ru": "готовить, варить",
+      "example_sr": "Шта куваш за ручак?",
+      "example_ru": "Что готовишь на обед?",
+      "false_friend_note": "Похоже на русское «ковать», но значит «готовить/варить»."
+    },
+    {
+      "sr_cyrillic": "сећи",
+      "sr_latin": "seći",
+      "pronunciation_ru": "сЭчи",
+      "translation_ru": "резать",
+      "example_sr": "Пази како сечеш лук.",
+      "example_ru": "Осторожно режь лук.",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "врућ",
+      "sr_latin": "vruć",
+      "pronunciation_ru": "врУч",
+      "translation_ru": "горячий",
+      "example_sr": "Тањир је врућ, немој га дирати.",
+      "example_ru": "Тарелка горячая, не трогай её.",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "кутлача",
+      "sr_latin": "kutlača",
+      "pronunciation_ru": "кУтлача",
+      "translation_ru": "половник",
+      "example_sr": "Сипај супу кутлачом.",
+      "example_ru": "Налей суп половником.",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "варјача",
+      "sr_latin": "varjača",
+      "pronunciation_ru": "вАрьяча",
+      "translation_ru": "деревянная ложка (для помешивания)",
+      "example_sr": "Мешај сос дрвеном варјачом.",
+      "example_ru": "Мешай соус деревянной ложкой.",
+      "false_friend_note": "Не от русского «варить»: это деревянная ложка-мешалка."
+    },
+    {
+      "sr_cyrillic": "ренде",
+      "sr_latin": "rende",
+      "pronunciation_ru": "рЭнде",
+      "translation_ru": "тёрка",
+      "example_sr": "Изрендај сир на рендету.",
+      "example_ru": "Натри сыр на тёрке.",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "цедиљка",
+      "sr_latin": "cediljka",
+      "pronunciation_ru": "цЭдилька",
+      "translation_ru": "дуршлаг, ситечко",
+      "example_sr": "Процеди тестенину кроз цедиљку.",
+      "example_ru": "Слей макароны через дуршлаг.",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "даска за сечење",
+      "sr_latin": "daska za sečenje",
+      "pronunciation_ru": "дАска за сЭченье",
+      "translation_ru": "разделочная доска",
+      "example_sr": "Сеци поврће на дасци за сечење.",
+      "example_ru": "Режь овощи на разделочной доске.",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "отварач",
+      "sr_latin": "otvarač",
+      "pronunciation_ru": "отвАрач",
+      "translation_ru": "открывалка (для бутылок, банок)",
+      "example_sr": "Где је отварач за флаше?",
+      "example_ru": "Где открывалка для бутылок?",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "флаша",
+      "sr_latin": "flaša",
+      "pronunciation_ru": "флАша",
+      "translation_ru": "бутылка",
+      "example_sr": "Донеси флашу воде.",
+      "example_ru": "Принеси бутылку воды.",
+      "false_friend_note": "Русская «фляга» — походная ёмкость, а сербская «флаша» — любая бутылка."
+    },
+    {
+      "sr_cyrillic": "џезва",
+      "sr_latin": "džezva",
+      "pronunciation_ru": "джЭзва",
+      "translation_ru": "турка, джезва (для кофе)",
+      "example_sr": "Кафу кувам у џезви.",
+      "example_ru": "Кофе варю в турке.",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "кувало",
+      "sr_latin": "kuvalo",
+      "pronunciation_ru": "кУвало",
+      "translation_ru": "электрочайник",
+      "example_sr": "Укључи кувало за чај.",
+      "example_ru": "Включи чайник для чая.",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "судопера",
+      "sr_latin": "sudopera",
+      "pronunciation_ru": "судОпера",
+      "translation_ru": "мойка, кухонная раковина",
+      "example_sr": "Судови су у судопери.",
+      "example_ru": "Посуда в мойке.",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "славина",
+      "sr_latin": "slavina",
+      "pronunciation_ru": "слАвина",
+      "translation_ru": "кран (водопроводный)",
+      "example_sr": "Затвори славину, тече вода.",
+      "example_ru": "Закрой кран, вода течёт.",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "сунђер",
+      "sr_latin": "sunđer",
+      "pronunciation_ru": "сУнджер",
+      "translation_ru": "губка",
+      "example_sr": "Опери тањир сунђером.",
+      "example_ru": "Помой тарелку губкой.",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "детерџент",
+      "sr_latin": "deterdžent",
+      "pronunciation_ru": "детЭрджент",
+      "translation_ru": "моющее средство",
+      "example_sr": "Немамо више детерџента за судове.",
+      "example_ru": "У нас закончилось средство для мытья посуды.",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "крпа",
+      "sr_latin": "krpa",
+      "pronunciation_ru": "кЫрпа",
+      "translation_ru": "тряпка, кухонное полотенце",
+      "example_sr": "Обриши сто крпом.",
+      "example_ru": "Вытри стол тряпкой.",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "кецеља",
+      "sr_latin": "kecelja",
+      "pronunciation_ru": "кЭцеля",
+      "translation_ru": "фартук",
+      "example_sr": "Стави кецељу да се не упрскаш.",
+      "example_ru": "Надень фартук, чтобы не забрызгаться.",
+      "false_friend_note": ""
+    }
+  ]
+}

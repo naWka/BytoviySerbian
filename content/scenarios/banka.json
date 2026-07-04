@@ -1,0 +1,200 @@
+{
+  "id": "banka",
+  "title_ru": "🏦 Банк",
+  "title_sr": "Банка",
+  "role_for_ai": "банковский работник — формальный, документы, комиссии",
+  "will_hear": [
+    {
+      "sr_cyrillic": "За отварање текућег рачуна треба ми ваш пасош и боравишна дозвола.",
+      "sr_latin": "Za otvaranje tekućeg računa treba mi vaš pasoš i boravišna dozvola.",
+      "pronunciation_ru": "за отвАране тЭкучег рАчуна трЭба ми ваш пАсош и борАвишна дОзвола",
+      "translation_ru": "Чтобы открыть текущий счёт, мне нужен ваш паспорт и вид на жительство.",
+      "react_sr": "Изволите, ту су.",
+      "react_pron": "извОлите, ту су",
+      "react_ru": "Вот, пожалуйста.",
+      "false_friend_note": "«Рачун» — это и «банковский счёт», и «счёт к оплате». Здесь — счёт в банке."
+    },
+    {
+      "sr_cyrillic": "Попуните овај формулар и потпишите се доле.",
+      "sr_latin": "Popunite ovaj formular i potpišite se dole.",
+      "pronunciation_ru": "попУните Овай формулАр и потпИшите се дОле",
+      "translation_ru": "Заполните этот бланк и распишитесь внизу.",
+      "react_sr": "Може, само тренутак.",
+      "react_pron": "мОже, сАмо трЭнутак",
+      "react_ru": "Хорошо, минутку.",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "Одржавање рачуна је триста динара месечно.",
+      "sr_latin": "Održavanje računa je trista dinara mesečno.",
+      "pronunciation_ru": "одржАване рАчуна е трИста дИнара мЭсечно",
+      "translation_ru": "Обслуживание счёта — триста динаров в месяц.",
+      "react_sr": "Има ли рачун без месечне накнаде?",
+      "react_pron": "Има ли рАчун без мЭсечне нАкнаде",
+      "react_ru": "Есть счёт без ежемесячной платы?",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "Картица стиже на адресу за седам до десет радних дана.",
+      "sr_latin": "Kartica stiže na adresu za sedam do deset radnih dana.",
+      "pronunciation_ru": "кАртица стИже на Адресу за сЭдам до дЭсет рАдних дАна",
+      "translation_ru": "Карта придёт на адрес за семь-десять рабочих дней.",
+      "react_sr": "А ПИН, како га добијам?",
+      "react_pron": "а пин, кАко га добИям",
+      "react_ru": "А PIN как я получу?",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "ПИН стиже у посебној коверти, немојте га чувати уз картицу.",
+      "sr_latin": "PIN stiže u posebnoj koverti, nemojte ga čuvati uz karticu.",
+      "pronunciation_ru": "пин стИже у посЭбной кОверти, нЭмойте га чУвати уз кАртицу",
+      "translation_ru": "PIN придёт в отдельном конверте, не храните его вместе с картой.",
+      "react_sr": "Разумем, хвала на упозорењу.",
+      "react_pron": "разУмем, хвАла на упозОрену",
+      "react_ru": "Понятно, спасибо за предупреждение.",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "На девизни пренос иде провизија од један посто, минимум петсто динара.",
+      "sr_latin": "Na devizni prenos ide provizija od jedan posto, minimum petsto dinara.",
+      "pronunciation_ru": "на дЭвизни прЭнос Иде провИзия од Едан пОсто, мИнимум пЭтсто дИнара",
+      "translation_ru": "За валютный перевод берётся комиссия один процент, минимум пятьсот динаров.",
+      "react_sr": "Колико то испада на овај износ?",
+      "react_pron": "кОлико то Испада на Овай Износ",
+      "react_ru": "Сколько это выйдет с этой суммы?",
+      "false_friend_note": "«Провизија» — это КОМИССИЯ банка, а не «провизия/еда»."
+    },
+    {
+      "sr_cyrillic": "То не радимо на шалтеру, морате преко апликације или е-банкинга.",
+      "sr_latin": "To ne radimo na šalteru, morate preko aplikacije ili e-bankinga.",
+      "pronunciation_ru": "то не рАдимо на шАлтеру, мОрате прЭко апликАцие Или е-бАнкинга",
+      "translation_ru": "Это мы на кассе не делаем, нужно через приложение или интернет-банк.",
+      "react_sr": "Можете ли да ми покажете како?",
+      "react_pron": "мОжете ли да ми покАжете кАко",
+      "react_ru": "Можете показать, как?",
+      "false_friend_note": "«Шалтер» — окошко/касса в банке, а не «выключатель»."
+    },
+    {
+      "sr_cyrillic": "Фали нам потврда о адреси, рачун за струју или уговор о закупу.",
+      "sr_latin": "Fali nam potvrda o adresi, račun za struju ili ugovor o zakupu.",
+      "pronunciation_ru": "фАли нам пОтврда о Адреси, рАчун за стрУю Или Уговор о зАкупу",
+      "translation_ru": "Нам не хватает подтверждения адреса — счёта за электричество или договора аренды.",
+      "react_sr": "Може ли рачун за интернет?",
+      "react_pron": "мОже ли рАчун за интернЭт",
+      "react_ru": "Счёт за интернет подойдёт?",
+      "false_friend_note": "«Фали» — «не хватает». «Струја» — электричество/ток, а не русская «струя»."
+    },
+    {
+      "sr_cyrillic": "Ваша картица је привремено блокирана због сумњиве трансакције.",
+      "sr_latin": "Vaša kartica je privremeno blokirana zbog sumnjive transakcije.",
+      "pronunciation_ru": "вАша кАртица е прИвремено блокИрана због сУмниве трансАкцие",
+      "translation_ru": "Ваша карта временно заблокирована из-за подозрительной операции.",
+      "react_sr": "Ништа нисам приметио, шта да радим?",
+      "react_pron": "нИшта нИсам примЭтио, шта да рАдим",
+      "react_ru": "Я ничего не заметил, что делать? (женщина: «нисам приметила»)",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "Пренос у иностранство траје један до два радна дана.",
+      "sr_latin": "Prenos u inostranstvo traje jedan do dva radna dana.",
+      "pronunciation_ru": "прЭнос у инострАнство трАе Едан до два рАдна дАна",
+      "translation_ru": "Перевод за границу идёт один-два рабочих дня.",
+      "react_sr": "Да ли постоји бржа опција?",
+      "react_pron": "да ли постОи бржа Опция",
+      "react_ru": "Есть вариант побыстрее?",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "Не могу то сада да завршим, систем нам је тренутно у прекиду.",
+      "sr_latin": "Ne mogu to sada da završim, sistem nam je trenutno u prekidu.",
+      "pronunciation_ru": "не мОгу то сАда да зАвршим, сИстем нам е трЭнутно у прЭкиду",
+      "translation_ru": "Сейчас не могу это завершить — у нас сбой в системе.",
+      "react_sr": "Кад да навратим поново?",
+      "react_pron": "кад да наврАтим пОново",
+      "react_ru": "Когда мне подойти снова?",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "За кредит или дозвољени минус морате да закажете термин са саветником.",
+      "sr_latin": "Za kredit ili dozvoljeni minus morate da zakažete termin sa savetnikom.",
+      "pronunciation_ru": "за крЭдит Или дозвОлени мИнус мОрате да закАжете тЭрмин са савЭтником",
+      "translation_ru": "Для кредита или разрешённого овердрафта нужно записаться к консультанту.",
+      "react_sr": "Може, кад има слободан термин?",
+      "react_pron": "мОже, кад Има слОбодан тЭрмин",
+      "react_ru": "Хорошо, когда есть свободное окно для записи?",
+      "false_friend_note": "«Закажете термин» — «записаться на приём», не «заказать». «Дозвољени минус» — овердрафт."
+    }
+  ],
+  "your_phrases": [
+    {
+      "sr_cyrillic": "Колико тачно износи месечно одржавање и има ли скривених трошкова?",
+      "sr_latin": "Koliko tačno iznosi mesečno održavanje i ima li skrivenih troškova?",
+      "pronunciation_ru": "кОлико тАчно Износи мЭсечно одржАване и Има ли скрИвених трОшкова",
+      "translation_ru": "Сколько именно стоит месячное обслуживание и есть ли скрытые расходы?",
+      "false_friend_note": "«Износи» — составляет (о сумме); не путать с русским «износ» (изношенность)."
+    },
+    {
+      "sr_cyrillic": "Да ли постоји рачун без месечне накнаде за одржавање?",
+      "sr_latin": "Da li postoji račun bez mesečne naknade za održavanje?",
+      "pronunciation_ru": "да ли постОи рАчун без мЭсечне нАкнаде за одржАване",
+      "translation_ru": "Есть ли счёт без ежемесячной платы за обслуживание?",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "Колика је провизија ако шаљем новац у Русију?",
+      "sr_latin": "Kolika je provizija ako šaljem novac u Rusiju?",
+      "pronunciation_ru": "кОлика е провИзия Ако шАлем нОвац у рУсию",
+      "translation_ru": "Какая комиссия, если я отправляю деньги в Россию?",
+      "false_friend_note": "«Провизија» — комиссия банка, а не еда."
+    },
+    {
+      "sr_cyrillic": "Можете ли да ми напишете тачан списак докумената који фале?",
+      "sr_latin": "Možete li da mi napišete tačan spisak dokumenata koji fale?",
+      "pronunciation_ru": "мОжете ли да ми напИшете тАчан спИсак докумЭната кОи фАле",
+      "translation_ru": "Можете написать мне точный список недостающих документов?",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "За колико дана тачно стиже картица и могу ли да је подигнем овде?",
+      "sr_latin": "Za koliko dana tačno stiže kartica i mogu li da je podignem ovde?",
+      "pronunciation_ru": "за кОлико дАна тАчно стИже кАртица и мОгу ли да е подИгнем Овде",
+      "translation_ru": "За сколько дней точно придёт карта и могу ли я забрать её здесь?",
+      "false_friend_note": "«Подигнути» — забрать/снять (карту, деньги), не «поднять»."
+    },
+    {
+      "sr_cyrillic": "Ако изгубим картицу, како да је одмах блокирам ван радног времена?",
+      "sr_latin": "Ako izgubim karticu, kako da je odmah blokiram van radnog vremena?",
+      "pronunciation_ru": "Ако изгУбим кАртицу, кАко да е Одмах блокИрам ван рАдног врЭмена",
+      "translation_ru": "Если я потеряю карту, как её сразу заблокировать в нерабочее время?",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "Има ли неки лимит на дневно подизање новца са картице?",
+      "sr_latin": "Ima li neki limit na dnevno podizanje novca sa kartice?",
+      "pronunciation_ru": "Има ли нЭки лИмит на днЭвно подИзане нОвца са кАртице",
+      "translation_ru": "Есть ли лимит на дневное снятие денег с карты?",
+      "false_friend_note": "«Подизање новца» — снятие денег, не «поднятие»."
+    },
+    {
+      "sr_cyrillic": "Извините, ово ми делује скупо — има ли повољнија опција?",
+      "sr_latin": "Izvinite, ovo mi deluje skupo — ima li povoljnija opcija?",
+      "pronunciation_ru": "извИните, Ово ми дЭлуе скУпо — Има ли повОлния Опция",
+      "translation_ru": "Извините, это кажется дорого — есть ли вариант повыгоднее?",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "Да ли ми за ово треба потпис лично или може преко пуномоћја?",
+      "sr_latin": "Da li mi za ovo treba potpis lično ili može preko punomoćja?",
+      "pronunciation_ru": "да ли ми за Ово трЭба пОтпис лИчно Или мОже прЭко пуномОчя",
+      "translation_ru": "Для этого нужна личная подпись или можно по доверенности?",
+      "false_friend_note": "«Пуномоћје» — доверенность, а не «полномочие»."
+    },
+    {
+      "sr_cyrillic": "Да ли могу да добијем потврду о стању на рачуну на папиру?",
+      "sr_latin": "Da li mogu da dobijem potvrdu o stanju na računu na papiru?",
+      "pronunciation_ru": "да ли мОгу да добИем пОтврду о стАну на рАчуну на пАпиру",
+      "translation_ru": "Могу я получить справку об остатке на счёте на бумаге?",
+      "false_friend_note": "«Стање на рачуну» — остаток/состояние счёта. «Стање» — не «стан» (квартира)."
+    }
+  ]
+}

@@ -1,0 +1,385 @@
+{
+  "id": "telo",
+  "title_ru": "🫀 Части тела",
+  "title_sr": "Делови тела",
+  "words": [
+    {
+      "sr_cyrillic": "глава",
+      "sr_latin": "glava",
+      "pronunciation_ru": "глАва",
+      "translation_ru": "голова",
+      "example_sr": "Боли ме глава од јутрос.",
+      "example_ru": "Голова болит с самого утра.",
+      "false_friend_note": "«Глава» — это голова (часть тела). Для русского уха звучит как «глава книги» или «руководитель», но у сербов первое значение — про тело."
+    },
+    {
+      "sr_cyrillic": "коса",
+      "sr_latin": "kosa",
+      "pronunciation_ru": "кОса",
+      "translation_ru": "волосы",
+      "example_sr": "Опада ми коса после болести.",
+      "example_ru": "После болезни у меня выпадают волосы.",
+      "false_friend_note": "«Коса» — это волосы, а не заплетённая коса и не инструмент. «Опада коса» = выпадают волосы."
+    },
+    {
+      "sr_cyrillic": "чело",
+      "sr_latin": "čelo",
+      "pronunciation_ru": "чЭло",
+      "translation_ru": "лоб",
+      "example_sr": "Стави хладну облогу на чело.",
+      "example_ru": "Приложи холодный компресс на лоб.",
+      "false_friend_note": "«Чело» — это обычное, повседневное слово «лоб», а не высокопарное, как в русском."
+    },
+    {
+      "sr_cyrillic": "око",
+      "sr_latin": "oko",
+      "pronunciation_ru": "Око",
+      "translation_ru": "глаз",
+      "example_sr": "Упало ми је нешто у око.",
+      "example_ru": "Мне что-то попало в глаз.",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "очи",
+      "sr_latin": "oči",
+      "pronunciation_ru": "Очи",
+      "translation_ru": "глаза",
+      "example_sr": "Пеку ме очи од екрана.",
+      "example_ru": "Глаза щиплет от экрана.",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "нос",
+      "sr_latin": "nos",
+      "pronunciation_ru": "нОс",
+      "translation_ru": "нос",
+      "example_sr": "Цури ми нос цео дан.",
+      "example_ru": "Из носа течёт весь день.",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "уво",
+      "sr_latin": "uvo",
+      "pronunciation_ru": "Уво",
+      "translation_ru": "ухо",
+      "example_sr": "Боли ме уво од промаје.",
+      "example_ru": "Ухо болит от сквозняка.",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "уста",
+      "sr_latin": "usta",
+      "pronunciation_ru": "Уста",
+      "translation_ru": "рот",
+      "example_sr": "Отворите уста, молим вас.",
+      "example_ru": "Откройте рот, пожалуйста.",
+      "false_friend_note": "«Уста» у сербов — это обычное повседневное слово «рот», а не книжное, как в русском."
+    },
+    {
+      "sr_cyrillic": "усне",
+      "sr_latin": "usne",
+      "pronunciation_ru": "Усне",
+      "translation_ru": "губы",
+      "example_sr": "Испуцале су ми усне на хладноћи.",
+      "example_ru": "Губы потрескались на холоде.",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "зуб",
+      "sr_latin": "zub",
+      "pronunciation_ru": "зУб",
+      "translation_ru": "зуб",
+      "example_sr": "Пробада ме зуб кад једем слатко.",
+      "example_ru": "Зуб простреливает, когда ем сладкое.",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "зуби",
+      "sr_latin": "zubi",
+      "pronunciation_ru": "зУби",
+      "translation_ru": "зубы",
+      "example_sr": "Морам да оперем зубе пре спавања.",
+      "example_ru": "Мне нужно почистить зубы перед сном.",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "језик",
+      "sr_latin": "jezik",
+      "pronunciation_ru": "йЭзик",
+      "translation_ru": "язык",
+      "example_sr": "Опекао сам језик врелим чајем.",
+      "example_ru": "Я обжёг язык горячим чаем.",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "образ",
+      "sr_latin": "obraz",
+      "pronunciation_ru": "Образ",
+      "translation_ru": "щека",
+      "example_sr": "Пољубила га је у образ.",
+      "example_ru": "Она поцеловала его в щёку.",
+      "false_friend_note": "«Образ» — это щека, а не «образ/облик». В щёку целуют — «у образ»."
+    },
+    {
+      "sr_cyrillic": "брада",
+      "sr_latin": "brada",
+      "pronunciation_ru": "брАда",
+      "translation_ru": "подбородок",
+      "example_sr": "Ударио сам се у браду.",
+      "example_ru": "Я ударился подбородком.",
+      "false_friend_note": "«Брада» — это подбородок. Тем же словом называют и бороду, так что по контексту чаще именно подбородок."
+    },
+    {
+      "sr_cyrillic": "вилица",
+      "sr_latin": "vilica",
+      "pronunciation_ru": "вИлица",
+      "translation_ru": "челюсть",
+      "example_sr": "Шкљоца ми вилица кад жваћем.",
+      "example_ru": "Челюсть щёлкает, когда жую.",
+      "false_friend_note": "«Вилица» — это челюсть. А вилка по-сербски — «виљушка»."
+    },
+    {
+      "sr_cyrillic": "врат",
+      "sr_latin": "vrat",
+      "pronunciation_ru": "врАт",
+      "translation_ru": "шея",
+      "example_sr": "Укочио ми се врат.",
+      "example_ru": "Мне заклинило шею.",
+      "false_friend_note": "«Врат» — это шея. Не путать с русским «врата/ворота»."
+    },
+    {
+      "sr_cyrillic": "грло",
+      "sr_latin": "grlo",
+      "pronunciation_ru": "гРло",
+      "translation_ru": "горло",
+      "example_sr": "Гребе ме грло, можда сам прехлађен.",
+      "example_ru": "Горло дерёт, может, я простыл.",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "раме",
+      "sr_latin": "rame",
+      "pronunciation_ru": "рАме",
+      "translation_ru": "плечо",
+      "example_sr": "Не могу да дигнем руку, боли ме раме.",
+      "example_ru": "Не могу поднять руку, болит плечо.",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "рука",
+      "sr_latin": "ruka",
+      "pronunciation_ru": "рУка",
+      "translation_ru": "рука",
+      "example_sr": "Сломио сам руку на леду.",
+      "example_ru": "Я сломал руку на льду.",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "лакат",
+      "sr_latin": "lakat",
+      "pronunciation_ru": "лАкат",
+      "translation_ru": "локоть",
+      "example_sr": "Ударио сам лакат о сто.",
+      "example_ru": "Я ударился локтем о стол.",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "шака",
+      "sr_latin": "šaka",
+      "pronunciation_ru": "шАка",
+      "translation_ru": "кисть руки (кулак)",
+      "example_sr": "Стисните шаку да вам узмем крв.",
+      "example_ru": "Сожмите кулак, я возьму кровь.",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "длан",
+      "sr_latin": "dlan",
+      "pronunciation_ru": "длАн",
+      "translation_ru": "ладонь",
+      "example_sr": "Свраби ме длан.",
+      "example_ru": "У меня чешется ладонь.",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "прст",
+      "sr_latin": "prst",
+      "pronunciation_ru": "пРст",
+      "translation_ru": "палец",
+      "example_sr": "Посекао сам прст ножем.",
+      "example_ru": "Я порезал палец ножом.",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "нокат",
+      "sr_latin": "nokat",
+      "pronunciation_ru": "нОкат",
+      "translation_ru": "ноготь",
+      "example_sr": "Сломио ми се нокат.",
+      "example_ru": "У меня сломался ноготь.",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "груди",
+      "sr_latin": "grudi",
+      "pronunciation_ru": "грУди",
+      "translation_ru": "грудь",
+      "example_sr": "Стеже ме у грудима.",
+      "example_ru": "У меня сдавливает в груди.",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "срце",
+      "sr_latin": "srce",
+      "pronunciation_ru": "сРце",
+      "translation_ru": "сердце",
+      "example_sr": "Срце ми лупа као луђак.",
+      "example_ru": "Сердце колотится как сумасшедшее.",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "стомак",
+      "sr_latin": "stomak",
+      "pronunciation_ru": "стОмак",
+      "translation_ru": "живот",
+      "example_sr": "Боли ме стомак после ручка.",
+      "example_ru": "Живот болит после обеда.",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "трбух",
+      "sr_latin": "trbuh",
+      "pronunciation_ru": "тРбух",
+      "translation_ru": "живот, брюхо",
+      "example_sr": "Најрадије спавам на трбуху.",
+      "example_ru": "Мне больше всего нравится спать на животе.",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "леђа",
+      "sr_latin": "leđa",
+      "pronunciation_ru": "лЕджа",
+      "translation_ru": "спина",
+      "example_sr": "Пробада ме у леђима.",
+      "example_ru": "У меня простреливает в спине.",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "крста",
+      "sr_latin": "krsta",
+      "pronunciation_ru": "кРста",
+      "translation_ru": "поясница",
+      "example_sr": "Заболела су ме крста од дизања.",
+      "example_ru": "Поясница разболелась от поднятия тяжестей.",
+      "false_friend_note": "«Крста» — это поясница (низ спины), а не «крест». «Боле ме крста» = болит поясница."
+    },
+    {
+      "sr_cyrillic": "кичма",
+      "sr_latin": "kičma",
+      "pronunciation_ru": "кИчма",
+      "translation_ru": "позвоночник",
+      "example_sr": "Држи кичму право док седиш.",
+      "example_ru": "Держи позвоночник прямо, когда сидишь.",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "кук",
+      "sr_latin": "kuk",
+      "pronunciation_ru": "кУк",
+      "translation_ru": "бедро (тазобедренная область)",
+      "example_sr": "Пукао јој је кук при паду.",
+      "example_ru": "При падении она сломала шейку бедра.",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "нога",
+      "sr_latin": "noga",
+      "pronunciation_ru": "нОга",
+      "translation_ru": "нога",
+      "example_sr": "Утрнула ми је нога.",
+      "example_ru": "У меня затекла нога.",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "колено",
+      "sr_latin": "koleno",
+      "pronunciation_ru": "кОлено",
+      "translation_ru": "колено",
+      "example_sr": "Отекло ми је колено после трчања.",
+      "example_ru": "У меня отекло колено после бега.",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "лист",
+      "sr_latin": "list",
+      "pronunciation_ru": "лИст",
+      "translation_ru": "икра (ноги)",
+      "example_sr": "Ухватио ме грч у листу.",
+      "example_ru": "Мне свело икру судорогой.",
+      "false_friend_note": "«Лист» здесь — икра ноги, а не лист дерева или бумаги."
+    },
+    {
+      "sr_cyrillic": "чланак",
+      "sr_latin": "članak",
+      "pronunciation_ru": "члАнак",
+      "translation_ru": "лодыжка (щиколотка)",
+      "example_sr": "Угануо сам чланак на степеницама.",
+      "example_ru": "Я подвернул лодыжку на лестнице.",
+      "false_friend_note": "«Чланак» — это лодыжка. Но то же слово означает и «статью» (в газете, в законе)."
+    },
+    {
+      "sr_cyrillic": "стопало",
+      "sr_latin": "stopalo",
+      "pronunciation_ru": "стОпало",
+      "translation_ru": "ступня, стопа",
+      "example_sr": "Хладна су ми стопала.",
+      "example_ru": "У меня холодные ступни.",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "пета",
+      "sr_latin": "peta",
+      "pronunciation_ru": "пЭта",
+      "translation_ru": "пятка",
+      "example_sr": "Жуља ме пета у новим ципелама.",
+      "example_ru": "Пятку натирает в новой обуви.",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "кожа",
+      "sr_latin": "koža",
+      "pronunciation_ru": "кОжа",
+      "translation_ru": "кожа",
+      "example_sr": "Сува ми је кожа зими.",
+      "example_ru": "Зимой у меня сухая кожа.",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "кост",
+      "sr_latin": "kost",
+      "pronunciation_ru": "кОст",
+      "translation_ru": "кость",
+      "example_sr": "На рендгену се види да кост није пукла.",
+      "example_ru": "На рентгене видно, что кость не сломана.",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "крв",
+      "sr_latin": "krv",
+      "pronunciation_ru": "кРв",
+      "translation_ru": "кровь",
+      "example_sr": "Ваде ми крв на празан стомак.",
+      "example_ru": "У меня берут кровь натощак.",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "плућа",
+      "sr_latin": "pluća",
+      "pronunciation_ru": "плУча",
+      "translation_ru": "лёгкие",
+      "example_sr": "Доктор ми је прегледао плућа.",
+      "example_ru": "Врач осмотрел мне лёгкие.",
+      "false_friend_note": ""
+    }
+  ]
+}

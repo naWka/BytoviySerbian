@@ -1,0 +1,385 @@
+{
+  "id": "mleko_pekara",
+  "title_ru": "🥖 Молочное и выпечка",
+  "title_sr": "Млеко и пекара",
+  "words": [
+    {
+      "sr_cyrillic": "млеко",
+      "sr_latin": "mleko",
+      "pronunciation_ru": "млЭко",
+      "translation_ru": "молоко",
+      "example_sr": "Млеко је данас стигло, потпуно свеже.",
+      "example_ru": "Молоко привезли сегодня, совсем свежее.",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "сир",
+      "sr_latin": "sir",
+      "pronunciation_ru": "сИр",
+      "translation_ru": "сыр (в Сербии по умолчанию — белый рассольный, типа брынзы)",
+      "example_sr": "Овај бели сир је домаћи.",
+      "example_ru": "Этот белый сыр домашний.",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "јогурт",
+      "sr_latin": "jogurt",
+      "pronunciation_ru": "йОгурт",
+      "translation_ru": "йогурт (питьевой, жидкий)",
+      "example_sr": "Јогурт овде можеш и да пијеш из чаше.",
+      "example_ru": "Йогурт здесь можно пить прямо из стакана.",
+      "false_friend_note": "Сербский јогурт жидкий, питьевой — ближе к кефиру, а не густой, как русский йогурт."
+    },
+    {
+      "sr_cyrillic": "кајмак",
+      "sr_latin": "kajmak",
+      "pronunciation_ru": "кАймак",
+      "translation_ru": "каймак (сливочный молочный деликатес)",
+      "example_sr": "Пробајте кајмак уз топао хлеб.",
+      "example_ru": "Попробуйте каймак с тёплым хлебом.",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "хлеб",
+      "sr_latin": "hleb",
+      "pronunciation_ru": "хлЭб",
+      "translation_ru": "хлеб",
+      "example_sr": "Дајте ми један бели хлеб.",
+      "example_ru": "Дайте мне один белый хлеб.",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "бурек",
+      "sr_latin": "burek",
+      "pronunciation_ru": "бУрек",
+      "translation_ru": "бурек (слоёный пирог; классически с мясом)",
+      "example_sr": "Бурек са месом или са сиром?",
+      "example_ru": "Бурек с мясом или с сыром?",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "пекара",
+      "sr_latin": "pekara",
+      "pronunciation_ru": "пЭкара",
+      "translation_ru": "пекарня",
+      "example_sr": "Пекара ради од шест ујутру.",
+      "example_ru": "Пекарня работает с шести утра.",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "свеже",
+      "sr_latin": "sveže",
+      "pronunciation_ru": "свЭже",
+      "translation_ru": "свежее, свежий",
+      "example_sr": "Све је свеже, јутрос печено.",
+      "example_ru": "Всё свежее, испечено сегодня утром.",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "павлака",
+      "sr_latin": "pavlaka",
+      "pronunciation_ru": "пАвлака",
+      "translation_ru": "сметана (кислая); также общее слово для сливок",
+      "example_sr": "Додајте кашику павлаке.",
+      "example_ru": "Добавьте ложку сметаны.",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "слатка павлака",
+      "sr_latin": "slatka pavlaka",
+      "pronunciation_ru": "слАтка пАвлака",
+      "translation_ru": "сливки (обычные, некислые)",
+      "example_sr": "За колач ми треба слатка павлака.",
+      "example_ru": "Для торта мне нужны сливки.",
+      "false_friend_note": "Слово ‘слатка’ (сладкая) тут лишь противопоставляет сливки кислой сметане — сам продукт не сладкий десерт."
+    },
+    {
+      "sr_cyrillic": "маслац",
+      "sr_latin": "maslac",
+      "pronunciation_ru": "мАслац",
+      "translation_ru": "сливочное масло",
+      "example_sr": "Намажи мало маслаца на хлеб.",
+      "example_ru": "Намажь немного масла на хлеб.",
+      "false_friend_note": "‘Маслац’ — только сливочное масло; растительное масло по-сербски ‘уље’, а не ‘масло’."
+    },
+    {
+      "sr_cyrillic": "уље",
+      "sr_latin": "ulje",
+      "pronunciation_ru": "Улье",
+      "translation_ru": "растительное масло",
+      "example_sr": "Треба ми уље за колаче.",
+      "example_ru": "Мне нужно масло для выпечки.",
+      "false_friend_note": "‘Уље’ = растительное масло; на слово ‘масло’ не похоже, легко перепутать со сливочным (маслац)."
+    },
+    {
+      "sr_cyrillic": "јаја",
+      "sr_latin": "jaja",
+      "pronunciation_ru": "йАйа",
+      "translation_ru": "яйца (ед. ‘јаје’)",
+      "example_sr": "Колико вам јаја треба?",
+      "example_ru": "Сколько вам нужно яиц?",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "кифла",
+      "sr_latin": "kifla",
+      "pronunciation_ru": "кИфла",
+      "translation_ru": "булочка-рогалик, кифла",
+      "example_sr": "Дајте две кифле, молим вас.",
+      "example_ru": "Дайте две кифлы, пожалуйста.",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "пециво",
+      "sr_latin": "pecivo",
+      "pronunciation_ru": "пЭциво",
+      "translation_ru": "выпечка (булочки, пирожки)",
+      "example_sr": "Које пециво је најсвежије?",
+      "example_ru": "Какая выпечка самая свежая?",
+      "false_friend_note": "Похоже на ‘печенье’, но ‘пециво’ — это выпечка вообще (булки, слойки), а печенье — ‘кекс/колачићи’."
+    },
+    {
+      "sr_cyrillic": "печење",
+      "sr_latin": "pečenje",
+      "pronunciation_ru": "пЭчење",
+      "translation_ru": "жаркое, запечённое мясо",
+      "example_sr": "Данас имамо свињско печење.",
+      "example_ru": "Сегодня у нас запечённая свинина.",
+      "false_friend_note": "Звучит как ‘печенье’, но ‘печење’ — это ЖАРЕНОЕ/запечённое МЯСО, а не сладость!"
+    },
+    {
+      "sr_cyrillic": "колач",
+      "sr_latin": "kolač",
+      "pronunciation_ru": "кОлач",
+      "translation_ru": "пирожное, торт, сладкая выпечка",
+      "example_sr": "Узми парче колача.",
+      "example_ru": "Возьми кусок торта.",
+      "false_friend_note": "Не ‘калач’ (хлебное кольцо)! ‘Колач’ — сладкий пирог, торт, пирожное."
+    },
+    {
+      "sr_cyrillic": "крофна",
+      "sr_latin": "krofna",
+      "pronunciation_ru": "крОфна",
+      "translation_ru": "пончик",
+      "example_sr": "Крофне су још топле.",
+      "example_ru": "Пончики ещё тёплые.",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "векна",
+      "sr_latin": "vekna",
+      "pronunciation_ru": "вЭкна",
+      "translation_ru": "буханка, батон",
+      "example_sr": "Једну векну црног хлеба.",
+      "example_ru": "Одну буханку чёрного хлеба.",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "кришка",
+      "sr_latin": "kriška",
+      "pronunciation_ru": "крИшка",
+      "translation_ru": "ломтик, кусок (хлеба)",
+      "example_sr": "Исеците на танке кришке.",
+      "example_ru": "Нарежьте тонкими ломтиками.",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "кора",
+      "sr_latin": "kora",
+      "pronunciation_ru": "кОра",
+      "translation_ru": "корочка (хлеба); тонкое тесто фило для пирогов",
+      "example_sr": "Кора је лепо хрскава.",
+      "example_ru": "Корочка приятно хрустит.",
+      "false_friend_note": "‘Кора’ = корка хлеба или листы теста фило (‘коре за питу’), а не кора дерева."
+    },
+    {
+      "sr_cyrillic": "брашно",
+      "sr_latin": "brašno",
+      "pronunciation_ru": "брАшно",
+      "translation_ru": "мука",
+      "example_sr": "Треба ми кило брашна.",
+      "example_ru": "Мне нужен килограмм муки.",
+      "false_friend_note": "‘Брашно’ = МУКА, а не еда! (в русском ‘брашно’ устар. — ‘пища’)."
+    },
+    {
+      "sr_cyrillic": "квасац",
+      "sr_latin": "kvasac",
+      "pronunciation_ru": "квАсац",
+      "translation_ru": "дрожжи",
+      "example_sr": "Купи квасац за хлеб.",
+      "example_ru": "Купи дрожжи для хлеба.",
+      "false_friend_note": "‘Квасац’ = дрожжи, а не квас! Напиток тут ни при чём."
+    },
+    {
+      "sr_cyrillic": "шећер",
+      "sr_latin": "šećer",
+      "pronunciation_ru": "шЭчер",
+      "translation_ru": "сахар",
+      "example_sr": "Кафа без шећера, молим.",
+      "example_ru": "Кофе без сахара, пожалуйста.",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "со",
+      "sr_latin": "so",
+      "pronunciation_ru": "сО",
+      "translation_ru": "соль",
+      "example_sr": "Имате ли хлеб без соли?",
+      "example_ru": "У вас есть хлеб без соли?",
+      "false_friend_note": "‘Со’ = соль, а не предлог ‘со’! Родительный падеж — ‘соли’."
+    },
+    {
+      "sr_cyrillic": "трајно млеко",
+      "sr_latin": "trajno mleko",
+      "pronunciation_ru": "трАйно млЭко",
+      "translation_ru": "молоко длительного хранения (UHT)",
+      "example_sr": "Узми трајно млеко, дуже траје.",
+      "example_ru": "Возьми молоко длительного хранения, дольше стоит.",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "кисело млеко",
+      "sr_latin": "kiselo mleko",
+      "pronunciation_ru": "кИсело млЭко",
+      "translation_ru": "кисломолочный напиток (гуще кефира)",
+      "example_sr": "Кисело млеко иде уз питу.",
+      "example_ru": "Кисело млеко подают к пирогу.",
+      "false_friend_note": "Это НЕ скисшее/испорченное молоко, а специальный кисломолочный продукт."
+    },
+    {
+      "sr_cyrillic": "рок трајања",
+      "sr_latin": "rok trajanja",
+      "pronunciation_ru": "рОк трАйања",
+      "translation_ru": "срок годности",
+      "example_sr": "Рок трајања је до петка.",
+      "example_ru": "Срок годности до пятницы.",
+      "false_friend_note": "‘Рок’ = срок (не музыка и не судьба). ‘Рок трајања’ — срок годности."
+    },
+    {
+      "sr_cyrillic": "врућ",
+      "sr_latin": "vruć",
+      "pronunciation_ru": "врУч",
+      "translation_ru": "горячий",
+      "example_sr": "Пази, бурек је врућ!",
+      "example_ru": "Осторожно, бурек горячий!",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "бајат",
+      "sr_latin": "bajat",
+      "pronunciation_ru": "бАйат",
+      "translation_ru": "чёрствый, несвежий",
+      "example_sr": "Овај хлеб је бајат, узмите свеж.",
+      "example_ru": "Этот хлеб чёрствый, возьмите свежий.",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "мек",
+      "sr_latin": "mek",
+      "pronunciation_ru": "мЭк",
+      "translation_ru": "мягкий",
+      "example_sr": "Хлеб је још мек.",
+      "example_ru": "Хлеб ещё мягкий.",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "хрскав",
+      "sr_latin": "hrskav",
+      "pronunciation_ru": "хРскав",
+      "translation_ru": "хрустящий",
+      "example_sr": "Корица је лепо хрскава.",
+      "example_ru": "Корочка красиво хрустит.",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "домаћи",
+      "sr_latin": "domaći",
+      "pronunciation_ru": "домАчи",
+      "translation_ru": "домашний, местного изготовления",
+      "example_sr": "Имамо домаћи сир и кајмак.",
+      "example_ru": "У нас есть домашний сыр и каймак.",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "качкаваљ",
+      "sr_latin": "kačkavalj",
+      "pronunciation_ru": "кАчкаваль",
+      "translation_ru": "качкаваль — жёлтый твёрдый сыр",
+      "example_sr": "Дајте сто грама качкаваља.",
+      "example_ru": "Дайте сто грамм качкаваля.",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "гибаница",
+      "sr_latin": "gibanica",
+      "pronunciation_ru": "гИбаница",
+      "translation_ru": "гибаница — слоёный пирог с сыром",
+      "example_sr": "Гибаница са сиром је још топла.",
+      "example_ru": "Гибаница с сыром ещё тёплая.",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "зељаница",
+      "sr_latin": "zeljanica",
+      "pronunciation_ru": "зЭльаница",
+      "translation_ru": "пирог со шпинатом/зеленью",
+      "example_sr": "Волим зељаницу са спанаћем.",
+      "example_ru": "Люблю зеляницу со шпинатом.",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "проја",
+      "sr_latin": "proja",
+      "pronunciation_ru": "прОйа",
+      "translation_ru": "кукурузный хлеб (лепёшка)",
+      "example_sr": "Проја иде уз кисело млеко.",
+      "example_ru": "Проя хорошо идёт с кисломолочкой.",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "переца",
+      "sr_latin": "pereca",
+      "pronunciation_ru": "пЭреца",
+      "translation_ru": "крендель, солёная плетёнка",
+      "example_sr": "За децу узми перецу.",
+      "example_ru": "Детям возьми крендель.",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "укус",
+      "sr_latin": "ukus",
+      "pronunciation_ru": "Укус",
+      "translation_ru": "вкус",
+      "example_sr": "Овај сир има благ укус.",
+      "example_ru": "У этого сыра мягкий вкус.",
+      "false_friend_note": "‘Укус’ = ВКУС, а не ‘укус’ (в русском — от глагола ‘кусать’)!"
+    },
+    {
+      "sr_cyrillic": "покварено",
+      "sr_latin": "pokvareno",
+      "pronunciation_ru": "пОкварено",
+      "translation_ru": "испорченное, прокисшее",
+      "example_sr": "Немојте то, покварено је.",
+      "example_ru": "Не берите это, оно испортилось.",
+      "false_friend_note": "Глагол ‘покварити’ значит и ‘испортить’, и ‘сломать’ — шире, чем кажется."
+    },
+    {
+      "sr_cyrillic": "на комад",
+      "sr_latin": "na komad",
+      "pronunciation_ru": "на кОмад",
+      "translation_ru": "поштучно, на штуку",
+      "example_sr": "Продајете ли на комад?",
+      "example_ru": "Продаёте поштучно?",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "упаковано",
+      "sr_latin": "upakovano",
+      "pronunciation_ru": "упАковано",
+      "translation_ru": "упакованное, фасованное",
+      "example_sr": "Хоћете упаковано или свеже са пулта?",
+      "example_ru": "Хотите упакованное или свежее с прилавка?",
+      "false_friend_note": ""
+    }
+  ]
+}

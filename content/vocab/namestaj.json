@@ -1,0 +1,385 @@
+{
+  "id": "namestaj",
+  "title_ru": "🛋 Мебель",
+  "title_sr": "Намештај",
+  "words": [
+    {
+      "sr_cyrillic": "намештај",
+      "sr_latin": "nameštaj",
+      "pronunciation_ru": "нАмэштай",
+      "translation_ru": "мебель",
+      "example_sr": "Стан издајемо са комплетним намештајем.",
+      "example_ru": "Квартиру сдаём с полной мебелью.",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "сто",
+      "sr_latin": "sto",
+      "pronunciation_ru": "стО",
+      "translation_ru": "стол",
+      "example_sr": "Овај сто се може продужити за још двоје.",
+      "example_ru": "Этот стол можно разложить ещё на двоих.",
+      "false_friend_note": "«Сто» — это и «стол», и «100». Понятно по контексту: «трпезаријски сто» — обеденный стол, «сто динара» — 100 динаров."
+    },
+    {
+      "sr_cyrillic": "столица",
+      "sr_latin": "stolica",
+      "pronunciation_ru": "стОлица",
+      "translation_ru": "стул",
+      "example_sr": "Столице су од масивног дрвета, издрже све.",
+      "example_ru": "Стулья из массива дерева, выдержат всё.",
+      "false_friend_note": "Осторожно: «столица» = стул, а НЕ столица (главный город). Столица по-сербски — «престоница» или «главни град»."
+    },
+    {
+      "sr_cyrillic": "кревет",
+      "sr_latin": "krevet",
+      "pronunciation_ru": "крЭвэт",
+      "translation_ru": "кровать",
+      "example_sr": "Кревет испоручујемо и монтирамо бесплатно.",
+      "example_ru": "Кровать доставим и соберём бесплатно.",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "кауч",
+      "sr_latin": "kauč",
+      "pronunciation_ru": "кАуч",
+      "translation_ru": "диван",
+      "example_sr": "Кауч има и сандук за постељину испод.",
+      "example_ru": "У дивана снизу есть ящик для белья.",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "тросед",
+      "sr_latin": "trosed",
+      "pronunciation_ru": "трОсэд",
+      "translation_ru": "трёхместный диван",
+      "example_sr": "Тросед је распродат, стиже нова тура за две недеље.",
+      "example_ru": "Трёхместный диван распродан, новая партия через две недели.",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "двосед",
+      "sr_latin": "dvosed",
+      "pronunciation_ru": "двОсэд",
+      "translation_ru": "двухместный диван",
+      "example_sr": "За вашу собу двосед је таман, тросед је превелик.",
+      "example_ru": "Для вашей комнаты двухместный диван в самый раз, трёхместный великоват.",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "фотеља",
+      "sr_latin": "fotelja",
+      "pronunciation_ru": "фотЭля",
+      "translation_ru": "кресло",
+      "example_sr": "Фотеља се њише, ако вам смета можемо да је фиксирамо.",
+      "example_ru": "Кресло качается, если мешает — можем зафиксировать.",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "орман",
+      "sr_latin": "orman",
+      "pronunciation_ru": "Орман",
+      "translation_ru": "шкаф (платяной, для вещей)",
+      "example_sr": "Орман има три крила и фиоке доле.",
+      "example_ru": "У шкафа три створки и ящики внизу.",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "плакар",
+      "sr_latin": "plakar",
+      "pronunciation_ru": "плАкар",
+      "translation_ru": "встроенный шкаф",
+      "example_sr": "У ходнику је уграђен плакар до плафона.",
+      "example_ru": "В коридоре встроенный шкаф до потолка.",
+      "false_friend_note": "Звучит похоже на «плакать», но связи нет: «плакар» — это встроенный шкаф."
+    },
+    {
+      "sr_cyrillic": "гардеробер",
+      "sr_latin": "garderober",
+      "pronunciation_ru": "гардэрОбэр",
+      "translation_ru": "шкаф для одежды, гардероб",
+      "example_sr": "Гардеробер не улази у лифт, носимо степеницама.",
+      "example_ru": "Гардероб не влезает в лифт, понесём по лестнице.",
+      "false_friend_note": "В русском «гардеробер/гардеробщик» — часто человек; в сербском «гардеробер» — сам шкаф для одежды."
+    },
+    {
+      "sr_cyrillic": "комода",
+      "sr_latin": "komoda",
+      "pronunciation_ru": "кОмода",
+      "translation_ru": "комод",
+      "example_sr": "На комоду можете да ставите телевизор.",
+      "example_ru": "На комод можно поставить телевизор.",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "полица",
+      "sr_latin": "polica",
+      "pronunciation_ru": "пОлица",
+      "translation_ru": "полка",
+      "example_sr": "Ставите књиге на горњу полицу.",
+      "example_ru": "Поставьте книги на верхнюю полку.",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "регал",
+      "sr_latin": "regal",
+      "pronunciation_ru": "рЭгал",
+      "translation_ru": "корпусная стенка, модульный стеллаж",
+      "example_sr": "Регал заузима цео зид, има места за све.",
+      "example_ru": "Стенка занимает всю стену, места хватит на всё.",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "огледало",
+      "sr_latin": "ogledalo",
+      "pronunciation_ru": "оглЭдало",
+      "translation_ru": "зеркало",
+      "example_sr": "Огледало причврстите за зид, тешко је.",
+      "example_ru": "Зеркало прикрепите к стене, оно тяжёлое.",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "ноћни сточић",
+      "sr_latin": "noćni stočić",
+      "pronunciation_ru": "нОчни стОчич",
+      "translation_ru": "прикроватная тумбочка",
+      "example_sr": "Уз кревет иду два ноћна сточића.",
+      "example_ru": "К кровати идут две прикроватные тумбочки.",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "сточић",
+      "sr_latin": "stočić",
+      "pronunciation_ru": "стОчич",
+      "translation_ru": "журнальный столик",
+      "example_sr": "Сточић за кафу ставите испред кауча.",
+      "example_ru": "Журнальный столик поставьте перед диваном.",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "радни сто",
+      "sr_latin": "radni sto",
+      "pronunciation_ru": "рАдни стО",
+      "translation_ru": "письменный (рабочий) стол",
+      "example_sr": "Радни сто има рупу за каблове позади.",
+      "example_ru": "У рабочего стола сзади отверстие для кабелей.",
+      "false_friend_note": "«Радни» = рабочий (от «рад» = работа, труд). «Рад» — это НЕ русское «рад» (доволен)."
+    },
+    {
+      "sr_cyrillic": "трпезаријски сто",
+      "sr_latin": "trpezarijski sto",
+      "pronunciation_ru": "трпэзАрийски стО",
+      "translation_ru": "обеденный стол",
+      "example_sr": "Трпезаријски сто и шест столица иду у комплету.",
+      "example_ru": "Обеденный стол и шесть стульев идут в комплекте.",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "фиока",
+      "sr_latin": "fioka",
+      "pronunciation_ru": "фИока",
+      "translation_ru": "выдвижной ящик",
+      "example_sr": "Доња фиока се мало заглављује, само гурните јаче.",
+      "example_ru": "Нижний ящик немного заедает, просто толкните посильнее.",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "душек",
+      "sr_latin": "dušek",
+      "pronunciation_ru": "дУшэк",
+      "translation_ru": "матрас",
+      "example_sr": "Душек је ортопедски, доста чврст.",
+      "example_ru": "Матрас ортопедический, довольно жёсткий.",
+      "false_friend_note": "Не «душ» (по-сербски «туширање»). «Душек» — это матрас."
+    },
+    {
+      "sr_cyrillic": "јастук",
+      "sr_latin": "jastuk",
+      "pronunciation_ru": "йАстук",
+      "translation_ru": "подушка",
+      "example_sr": "Јастук и јорган нису укључени у цену.",
+      "example_ru": "Подушка и одеяло в цену не входят.",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "јорган",
+      "sr_latin": "jorgan",
+      "pronunciation_ru": "йОрган",
+      "translation_ru": "стёганое одеяло",
+      "example_sr": "Зими вам треба дебљи јорган.",
+      "example_ru": "Зимой вам нужно одеяло потолще.",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "ћебе",
+      "sr_latin": "ćebe",
+      "pronunciation_ru": "чЭбэ",
+      "translation_ru": "плед, лёгкое одеяло",
+      "example_sr": "Дајте деци још једно ћебе, хладно је.",
+      "example_ru": "Дайте детям ещё один плед, холодно.",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "постељина",
+      "sr_latin": "posteljina",
+      "pronunciation_ru": "постЭлина",
+      "translation_ru": "постельное бельё",
+      "example_sr": "Постељину мењамо сваке недеље.",
+      "example_ru": "Постельное бельё меняем каждую неделю.",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "чаршав",
+      "sr_latin": "čaršav",
+      "pronunciation_ru": "чАршав",
+      "translation_ru": "простыня",
+      "example_sr": "Овај чаршав је премали за душек.",
+      "example_ru": "Эта простыня маловата для матраса.",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "навлака",
+      "sr_latin": "navlaka",
+      "pronunciation_ru": "нАвлака",
+      "translation_ru": "чехол (наволочка, пододеяльник)",
+      "example_sr": "Навлаку скинете и оперете на тридесет.",
+      "example_ru": "Чехол снимаете и стираете при тридцати.",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "вешалица",
+      "sr_latin": "vešalica",
+      "pronunciation_ru": "вЭшалица",
+      "translation_ru": "вешалка, плечики",
+      "example_sr": "Окачите капут на вешалицу поред врата.",
+      "example_ru": "Повесьте пальто на вешалку у двери.",
+      "false_friend_note": "В меню «вешалица» — это мясо на гриле; в быту как предмет — вешалка/плечики для одежды."
+    },
+    {
+      "sr_cyrillic": "чивилук",
+      "sr_latin": "čiviluk",
+      "pronunciation_ru": "чИвилук",
+      "translation_ru": "вешалка (напольная или настенная)",
+      "example_sr": "Иза врата је чивилук за јакне.",
+      "example_ru": "За дверью вешалка для курток.",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "табуре",
+      "sr_latin": "tabure",
+      "pronunciation_ru": "табУрэ",
+      "translation_ru": "табурет, пуф",
+      "example_sr": "Узмите табуре ако фали столица.",
+      "example_ru": "Возьмите табурет, если не хватает стула.",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "клупа",
+      "sr_latin": "klupa",
+      "pronunciation_ru": "клУпа",
+      "translation_ru": "скамья, банкетка",
+      "example_sr": "У предсобљу је клупа да седнете док се обувате.",
+      "example_ru": "В прихожей скамья, чтобы сесть, пока обуваетесь.",
+      "false_friend_note": "«Клупа» — скамейка, а в школе — парта. Не путать с «клуб» или «клумба»."
+    },
+    {
+      "sr_cyrillic": "столњак",
+      "sr_latin": "stolnjak",
+      "pronunciation_ru": "стОлняк",
+      "translation_ru": "скатерть",
+      "example_sr": "Ставите столњак пре ручка.",
+      "example_ru": "Постелите скатерть перед обедом.",
+      "false_friend_note": "Похоже на «сто/стол», но «столњак» — это скатерть, а не сам стол."
+    },
+    {
+      "sr_cyrillic": "тепих",
+      "sr_latin": "tepih",
+      "pronunciation_ru": "тЭпих",
+      "translation_ru": "ковёр",
+      "example_sr": "Тепих усисавамо, не перемо водом.",
+      "example_ru": "Ковёр пылесосим, водой не моем.",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "завеса",
+      "sr_latin": "zavesa",
+      "pronunciation_ru": "зАвэса",
+      "translation_ru": "штора, занавеска",
+      "example_sr": "Завесе су нове, немојте их прати у машини.",
+      "example_ru": "Шторы новые, не стирайте их в машинке.",
+      "false_friend_note": "В русском «завеса» звучит книжно (дымовая завеса); в сербском «завеса» — обычная бытовая штора."
+    },
+    {
+      "sr_cyrillic": "ролетне",
+      "sr_latin": "roletne",
+      "pronunciation_ru": "ролЭтнэ",
+      "translation_ru": "рольставни, роллеты",
+      "example_sr": "Спустите ролетне да не улази сунце.",
+      "example_ru": "Опустите роллеты, чтобы не попадало солнце.",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "лустер",
+      "sr_latin": "luster",
+      "pronunciation_ru": "лУстэр",
+      "translation_ru": "люстра",
+      "example_sr": "Лустер је укључен у продају стана.",
+      "example_ru": "Люстра входит в продажу квартиры.",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "подна лампа",
+      "sr_latin": "podna lampa",
+      "pronunciation_ru": "пОдна лАмпа",
+      "translation_ru": "торшер, напольная лампа",
+      "example_sr": "Подну лампу ставите у ћошак поред фотеље.",
+      "example_ru": "Торшер поставьте в угол рядом с креслом.",
+      "false_friend_note": "«Под» по-сербски = пол (то, по чему ходят), а не предлог «под». «Подна лампа» = напольная лампа, торшер."
+    },
+    {
+      "sr_cyrillic": "кухињски елементи",
+      "sr_latin": "kuhinjski elementi",
+      "pronunciation_ru": "кУхиньски элЭмэнти",
+      "translation_ru": "кухонный гарнитур (модули, шкафчики)",
+      "example_sr": "Кухињски елементи остају, шпорет носимо.",
+      "example_ru": "Кухонный гарнитур остаётся, плиту забираем.",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "радна плоча",
+      "sr_latin": "radna ploča",
+      "pronunciation_ru": "рАдна плОча",
+      "translation_ru": "столешница",
+      "example_sr": "Радна плоча је од камена, не сеците директно по њој.",
+      "example_ru": "Столешница каменная, не режьте прямо на ней.",
+      "false_friend_note": "«Плоча» — плита/панель (здесь столешница); то же слово значит грампластинку и плитку (кафель)."
+    },
+    {
+      "sr_cyrillic": "судопера",
+      "sr_latin": "sudopera",
+      "pronunciation_ru": "судОпэра",
+      "translation_ru": "кухонная мойка (тумба с раковиной)",
+      "example_sr": "Испод судопере је простор за канту.",
+      "example_ru": "Под мойкой место для мусорного ведра.",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "кревет на расклапање",
+      "sr_latin": "krevet na rasklapanje",
+      "pronunciation_ru": "крЭвэт на расклАпанье",
+      "translation_ru": "раскладной диван-кровать",
+      "example_sr": "У гостинској соби је кревет на расклапање.",
+      "example_ru": "В гостевой комнате раскладной диван-кровать.",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "полован намештај",
+      "sr_latin": "polovan nameštaj",
+      "pronunciation_ru": "пОлован нАмэштай",
+      "translation_ru": "подержанная, б/у мебель",
+      "example_sr": "Продајем полован намештај, све је очувано.",
+      "example_ru": "Продаю б/у мебель, всё в хорошем состоянии.",
+      "false_friend_note": "«Полован/половно» = подержанный, б/у — не «половина» и не «половой». В объявлениях «половно» = second-hand."
+    }
+  ]
+}

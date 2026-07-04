@@ -1,0 +1,385 @@
+{
+  "id": "prodavnice_usluge",
+  "title_ru": "🏪 Магазины и услуги",
+  "title_sr": "Продавнице и услуге",
+  "words": [
+    {
+      "sr_cyrillic": "продавница",
+      "sr_latin": "prodavnica",
+      "pronunciation_ru": "продАвница",
+      "translation_ru": "магазин",
+      "example_sr": "Најближа продавница је иза угла.",
+      "example_ru": "Ближайший магазин за углом.",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "радња",
+      "sr_latin": "radnja",
+      "pronunciation_ru": "рАдња",
+      "translation_ru": "лавка, небольшой магазин",
+      "example_sr": "Радња ради само до подне суботом.",
+      "example_ru": "Лавка по субботам работает только до полудня.",
+      "false_friend_note": "«Радња» это и магазинчик, и действие/сюжет (радња филма = сюжет фильма). В быту чаще про магазин."
+    },
+    {
+      "sr_cyrillic": "роба",
+      "sr_latin": "roba",
+      "pronunciation_ru": "рОба",
+      "translation_ru": "товар",
+      "example_sr": "Ова роба је на акцији.",
+      "example_ru": "Этот товар по акции.",
+      "false_friend_note": "Не «роба/рабочая одежда» — «роба» это товар в магазине."
+    },
+    {
+      "sr_cyrillic": "продавац",
+      "sr_latin": "prodavac",
+      "pronunciation_ru": "продАвац",
+      "translation_ru": "продавец",
+      "example_sr": "Питајте продавца где су квасац и брашно.",
+      "example_ru": "Спросите у продавца, где дрожжи и мука.",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "купац",
+      "sr_latin": "kupac",
+      "pronunciation_ru": "кУпац",
+      "translation_ru": "покупатель",
+      "example_sr": "Купац увек има право на рачун.",
+      "example_ru": "Покупатель всегда имеет право на чек.",
+      "false_friend_note": "Не «купец/продавец» — «купац» это покупатель, тот кто покупает."
+    },
+    {
+      "sr_cyrillic": "каса",
+      "sr_latin": "kasa",
+      "pronunciation_ru": "кАса",
+      "translation_ru": "касса",
+      "example_sr": "Платите на каси код излаза.",
+      "example_ru": "Оплатите на кассе у выхода.",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "рачун",
+      "sr_latin": "račun",
+      "pronunciation_ru": "рАчун",
+      "translation_ru": "чек, счёт",
+      "example_sr": "Да ли вам треба рачун?",
+      "example_ru": "Вам нужен чек?",
+      "false_friend_note": "«Рачун» это и чек в магазине, и счёт в банке, и счёт в ресторане — одно слово на всё."
+    },
+    {
+      "sr_cyrillic": "кусур",
+      "sr_latin": "kusur",
+      "pronunciation_ru": "кУсур",
+      "translation_ru": "сдача",
+      "example_sr": "Извините, немам да вам вратим кусур.",
+      "example_ru": "Извините, мне нечем дать вам сдачу.",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "попуст",
+      "sr_latin": "popust",
+      "pronunciation_ru": "пОпуст",
+      "translation_ru": "скидка",
+      "example_sr": "Имате ли попуст за пензионере?",
+      "example_ru": "Есть ли скидка для пенсионеров?",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "акција",
+      "sr_latin": "akcija",
+      "pronunciation_ru": "Акција",
+      "translation_ru": "акция, распродажа",
+      "example_sr": "Кафа је на акцији ове недеље.",
+      "example_ru": "Кофе по акции на этой неделе.",
+      "false_friend_note": "Не «акция-протест» и не ценные бумаги — в магазине «акција» это скидка/распродажа."
+    },
+    {
+      "sr_cyrillic": "снижење",
+      "sr_latin": "sniženje",
+      "pronunciation_ru": "снИжење",
+      "translation_ru": "распродажа, снижение цен",
+      "example_sr": "Зимска гардероба је на снижењу.",
+      "example_ru": "Зимняя одежда на распродаже.",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "ред",
+      "sr_latin": "red",
+      "pronunciation_ru": "рЕд",
+      "translation_ru": "очередь",
+      "example_sr": "Станите у ред, молим вас.",
+      "example_ru": "Встаньте в очередь, пожалуйста.",
+      "false_friend_note": "«Ред» это очередь или порядок (у реду = в порядке), а не «ряд» мебели."
+    },
+    {
+      "sr_cyrillic": "радно време",
+      "sr_latin": "radno vreme",
+      "pronunciation_ru": "рАдно врЕме",
+      "translation_ru": "часы работы, режим работы",
+      "example_sr": "Радно време је од осам до двадесет.",
+      "example_ru": "Часы работы с 8 до 20.",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "отворено",
+      "sr_latin": "otvoreno",
+      "pronunciation_ru": "отвОрено",
+      "translation_ru": "открыто",
+      "example_sr": "Отворено је и недељом.",
+      "example_ru": "Открыто и по воскресеньям.",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "затворено",
+      "sr_latin": "zatvoreno",
+      "pronunciation_ru": "затвОрено",
+      "translation_ru": "закрыто",
+      "example_sr": "Данас је затворено због празника.",
+      "example_ru": "Сегодня закрыто из-за праздника.",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "не ради",
+      "sr_latin": "ne radi",
+      "pronunciation_ru": "не рАди",
+      "translation_ru": "не работает, закрыто/сломано",
+      "example_sr": "Каса не ради, платите картицом на другој.",
+      "example_ru": "Касса не работает, платите картой на другой.",
+      "false_friend_note": "«Ради» это «работает/функционирует», а не русское «ради (кого-то)». «Не ради» — не работает."
+    },
+    {
+      "sr_cyrillic": "важи",
+      "sr_latin": "važi",
+      "pronunciation_ru": "вАжи",
+      "translation_ru": "действует, действителен",
+      "example_sr": "Акција важи до краја месеца.",
+      "example_ru": "Акция действует до конца месяца.",
+      "false_friend_note": "Не «важный» — «важи» значит «действует/действителен». А ещё «важи!» в ответе = «договорились!»."
+    },
+    {
+      "sr_cyrillic": "рок",
+      "sr_latin": "rok",
+      "pronunciation_ru": "рОк",
+      "translation_ru": "срок",
+      "example_sr": "Проверите рок трајања на паковању.",
+      "example_ru": "Проверьте срок годности на упаковке.",
+      "false_friend_note": "Не «рок-музыка» — «рок» это срок; «рок трајања» = срок годности."
+    },
+    {
+      "sr_cyrillic": "пауза",
+      "sr_latin": "pauza",
+      "pronunciation_ru": "пАуза",
+      "translation_ru": "перерыв",
+      "example_sr": "Продавац је на паузи, вратиће се за десет минута.",
+      "example_ru": "Продавец на перерыве, вернётся через десять минут.",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "нерадни дан",
+      "sr_latin": "neradni dan",
+      "pronunciation_ru": "нЕрадни дАн",
+      "translation_ru": "нерабочий/выходной день",
+      "example_sr": "Недеља је нерадни дан за банке.",
+      "example_ru": "Воскресенье — нерабочий день для банков.",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "апотека",
+      "sr_latin": "apoteka",
+      "pronunciation_ru": "апотЕка",
+      "translation_ru": "аптека",
+      "example_sr": "Где је најближа апотека?",
+      "example_ru": "Где ближайшая аптека?",
+      "false_friend_note": "По-сербски именно «апотЕка» (через «о»), а не «аптека»."
+    },
+    {
+      "sr_cyrillic": "дежурна апотека",
+      "sr_latin": "dežurna apoteka",
+      "pronunciation_ru": "дЕжурна апотЕка",
+      "translation_ru": "дежурная (круглосуточная) аптека",
+      "example_sr": "Ноћу ради само дежурна апотека.",
+      "example_ru": "Ночью работает только дежурная аптека.",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "банка",
+      "sr_latin": "banka",
+      "pronunciation_ru": "бАнка",
+      "translation_ru": "банк",
+      "example_sr": "Морам да одем у банку по извод.",
+      "example_ru": "Мне надо в банк за выпиской.",
+      "false_friend_note": "Не «банка/ёмкость» — «банка» это банк (учреждение)."
+    },
+    {
+      "sr_cyrillic": "банкомат",
+      "sr_latin": "bankomat",
+      "pronunciation_ru": "банкОмат",
+      "translation_ru": "банкомат",
+      "example_sr": "Банкомат тренутно не издаје новац.",
+      "example_ru": "Банкомат сейчас не выдаёт деньги.",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "шалтер",
+      "sr_latin": "šalter",
+      "pronunciation_ru": "шАлтер",
+      "translation_ru": "окошко (в банке, на почте)",
+      "example_sr": "Идите на шалтер број три.",
+      "example_ru": "Идите к окошку номер три.",
+      "false_friend_note": "«Шалтер» это окошко обслуживания; но то же слово значит и выключатель света."
+    },
+    {
+      "sr_cyrillic": "подићи новац",
+      "sr_latin": "podići novac",
+      "pronunciation_ru": "подИћи нОвац",
+      "translation_ru": "снять деньги",
+      "example_sr": "Хоћу да подигнем новац са рачуна.",
+      "example_ru": "Хочу снять деньги со счёта.",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "уплата",
+      "sr_latin": "uplata",
+      "pronunciation_ru": "Уплата",
+      "translation_ru": "внесение денег, платёж на счёт",
+      "example_sr": "Уплата на рачун стиже за један радни дан.",
+      "example_ru": "Платёж на счёт приходит за один рабочий день.",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "провизија",
+      "sr_latin": "provizija",
+      "pronunciation_ru": "провИзија",
+      "translation_ru": "комиссия (сбор банка)",
+      "example_sr": "Колика је провизија за ову трансакцију?",
+      "example_ru": "Какая комиссия за эту операцию?",
+      "false_friend_note": "Не «провизия/еда» — «провизија» это комиссия, сбор за услугу."
+    },
+    {
+      "sr_cyrillic": "девизе",
+      "sr_latin": "devize",
+      "pronunciation_ru": "дЕвизе",
+      "translation_ru": "иностранная валюта",
+      "example_sr": "Мењам девизе у мењачници.",
+      "example_ru": "Меняю валюту в обменнике.",
+      "false_friend_note": "Не «девиз/лозунг» — «девизе» это валюта (доллары, евро)."
+    },
+    {
+      "sr_cyrillic": "мењачница",
+      "sr_latin": "menjačnica",
+      "pronunciation_ru": "мЕњачница",
+      "translation_ru": "обменный пункт",
+      "example_sr": "Курс је бољи у мењачници него у банци.",
+      "example_ru": "Курс лучше в обменнике, чем в банке.",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "курс",
+      "sr_latin": "kurs",
+      "pronunciation_ru": "кУрс",
+      "translation_ru": "курс (обмена валют)",
+      "example_sr": "Који је данас курс евра?",
+      "example_ru": "Какой сегодня курс евро?",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "готовина",
+      "sr_latin": "gotovina",
+      "pronunciation_ru": "готОвина",
+      "translation_ru": "наличные",
+      "example_sr": "Плаћам готовином, немам картицу код себе.",
+      "example_ru": "Плачу наличными, карты нет с собой.",
+      "false_friend_note": "Не от «готовый» — «готовина» это наличные деньги."
+    },
+    {
+      "sr_cyrillic": "платити картицом",
+      "sr_latin": "platiti karticom",
+      "pronunciation_ru": "платИти кАртицом",
+      "translation_ru": "оплатить картой",
+      "example_sr": "Може ли да се плати картицом?",
+      "example_ru": "Можно оплатить картой?",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "пошта",
+      "sr_latin": "pošta",
+      "pronunciation_ru": "пОшта",
+      "translation_ru": "почта",
+      "example_sr": "Пошта ради до седам увече.",
+      "example_ru": "Почта работает до семи вечера.",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "пошиљка",
+      "sr_latin": "pošiljka",
+      "pronunciation_ru": "пОшиљка",
+      "translation_ru": "посылка, отправление",
+      "example_sr": "Стигла вам је пошиљка, дођите по њу.",
+      "example_ru": "Вам пришла посылка, придите за ней.",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "препоручено писмо",
+      "sr_latin": "preporučeno pismo",
+      "pronunciation_ru": "препОручено пИсмо",
+      "translation_ru": "заказное письмо",
+      "example_sr": "Послаћу ово као препоручено писмо.",
+      "example_ru": "Отправлю это заказным письмом.",
+      "false_friend_note": "Не «рекомендованное» на словах — «препоручено писмо» это заказное письмо (под роспись)."
+    },
+    {
+      "sr_cyrillic": "поштански број",
+      "sr_latin": "poštanski broj",
+      "pronunciation_ru": "пОштански брОј",
+      "translation_ru": "почтовый индекс",
+      "example_sr": "Упишите поштански број града.",
+      "example_ru": "Впишите почтовый индекс города.",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "поштар",
+      "sr_latin": "poštar",
+      "pronunciation_ru": "пОштар",
+      "translation_ru": "почтальон",
+      "example_sr": "Поштар доноси рачуне ујутру.",
+      "example_ru": "Почтальон приносит квитанции по утрам.",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "услуга",
+      "sr_latin": "usluga",
+      "pronunciation_ru": "Услуга",
+      "translation_ru": "услуга",
+      "example_sr": "Ова услуга се додатно наплаћује.",
+      "example_ru": "Эта услуга оплачивается отдельно.",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "заказати",
+      "sr_latin": "zakazati",
+      "pronunciation_ru": "закАзати",
+      "translation_ru": "записаться, назначить (приём)",
+      "example_sr": "Морам да закажем термин код лекара.",
+      "example_ru": "Мне надо записаться на приём к врачу.",
+      "false_friend_note": "Не «заказать (товар)» — «заказати» значит записаться/назначить встречу."
+    },
+    {
+      "sr_cyrillic": "термин",
+      "sr_latin": "termin",
+      "pronunciation_ru": "тЕрмин",
+      "translation_ru": "время приёма, запись",
+      "example_sr": "Имам заказан термин у десет.",
+      "example_ru": "У меня назначен приём на десять.",
+      "false_friend_note": "Не «термин/понятие» — «термин» это назначенное время приёма или встречи."
+    },
+    {
+      "sr_cyrillic": "хитно",
+      "sr_latin": "hitno",
+      "pronunciation_ru": "хИтно",
+      "translation_ru": "срочно",
+      "example_sr": "Треба ми хитно, може ли данас?",
+      "example_ru": "Мне срочно нужно, можно сегодня?",
+      "false_friend_note": "Не про «хитрость» — «хитно» значит срочно."
+    }
+  ]
+}

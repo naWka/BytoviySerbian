@@ -1,0 +1,385 @@
+{
+  "id": "alat_popravke",
+  "title_ru": "🛠 Инструменты и ремонт",
+  "title_sr": "Алат и поправке",
+  "words": [
+    {
+      "sr_cyrillic": "чекић",
+      "sr_latin": "čekić",
+      "pronunciation_ru": "ЧЭкич",
+      "translation_ru": "молоток",
+      "example_sr": "Додај ми чекић, молим те.",
+      "example_ru": "Подай мне молоток, пожалуйста.",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "одвијач",
+      "sr_latin": "odvijač",
+      "pronunciation_ru": "Одвияч",
+      "translation_ru": "отвёртка",
+      "example_sr": "Треба ми одвијач да притегнем шраф.",
+      "example_ru": "Мне нужна отвёртка, чтобы подтянуть шуруп.",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "бушилица",
+      "sr_latin": "bušilica",
+      "pronunciation_ru": "бУшилица",
+      "translation_ru": "дрель",
+      "example_sr": "Бушилица ми се покварила.",
+      "example_ru": "У меня сломалась дрель.",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "ексер",
+      "sr_latin": "ekser",
+      "pronunciation_ru": "Эксэр",
+      "translation_ru": "гвоздь",
+      "example_sr": "Закуцај ексер у зид.",
+      "example_ru": "Забей гвоздь в стену.",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "шраф",
+      "sr_latin": "šraf",
+      "pronunciation_ru": "шрАф",
+      "translation_ru": "шуруп, болт",
+      "example_sr": "Овај шраф се олабавио.",
+      "example_ru": "Этот шуруп разболтался.",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "клешта",
+      "sr_latin": "klešta",
+      "pronunciation_ru": "клЭшта",
+      "translation_ru": "плоскогубцы, клещи",
+      "example_sr": "Додај ми клешта да извучем ексер.",
+      "example_ru": "Подай клещи, чтобы вытащить гвоздь.",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "кључ",
+      "sr_latin": "ključ",
+      "pronunciation_ru": "кљУч",
+      "translation_ru": "гаечный ключ",
+      "example_sr": "Треба ми кључ број тринаест.",
+      "example_ru": "Мне нужен ключ на тринадцать.",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "тестера",
+      "sr_latin": "testera",
+      "pronunciation_ru": "тЭстэра",
+      "translation_ru": "пила, ножовка",
+      "example_sr": "Пресеци даску тестером.",
+      "example_ru": "Распили доску пилой.",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "секира",
+      "sr_latin": "sekira",
+      "pronunciation_ru": "сЭкира",
+      "translation_ru": "топор",
+      "example_sr": "Исцепао сам дрва секиром.",
+      "example_ru": "Я наколол дров топором.",
+      "false_friend_note": "Русское «секира» звучит устаревше (боевой топор), а сербское «секира» — это самый обычный топор."
+    },
+    {
+      "sr_cyrillic": "ватерпас",
+      "sr_latin": "vaterpas",
+      "pronunciation_ru": "вАтэрпас",
+      "translation_ru": "строительный уровень",
+      "example_sr": "Провери ватерпасом да ли је полица равна.",
+      "example_ru": "Проверь уровнем, ровная ли полка.",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "метар",
+      "sr_latin": "metar",
+      "pronunciation_ru": "мЭтар",
+      "translation_ru": "рулетка, метр",
+      "example_sr": "Измери метром колико је широко.",
+      "example_ru": "Измерь рулеткой, какая ширина.",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "мердевине",
+      "sr_latin": "merdevine",
+      "pronunciation_ru": "мэрдЭвинэ",
+      "translation_ru": "стремянка, лестница",
+      "example_sr": "Попни се на мердевине да замениш сијалицу.",
+      "example_ru": "Залезь на стремянку, чтобы поменять лампочку.",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "шмиргла",
+      "sr_latin": "šmirgla",
+      "pronunciation_ru": "шмИргла",
+      "translation_ru": "наждачка",
+      "example_sr": "Пребруси ивицу шмирглом.",
+      "example_ru": "Зачисти край наждачкой.",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "фарба",
+      "sr_latin": "farba",
+      "pronunciation_ru": "фАрба",
+      "translation_ru": "краска",
+      "example_sr": "Купио сам белу фарбу за зид.",
+      "example_ru": "Я купил белую краску для стены.",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "ваљак",
+      "sr_latin": "valjak",
+      "pronunciation_ru": "вАляк",
+      "translation_ru": "малярный валик",
+      "example_sr": "Ваљком иде брже него четком.",
+      "example_ru": "Валиком получается быстрее, чем кистью.",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "четка",
+      "sr_latin": "četka",
+      "pronunciation_ru": "чЭтка",
+      "translation_ru": "кисть, щётка",
+      "example_sr": "Узми четку и премажи ивице.",
+      "example_ru": "Возьми кисть и прокрась края.",
+      "false_friend_note": "Не «чётки» и не «чётко»: «четка» по-сербски — это кисть или щётка."
+    },
+    {
+      "sr_cyrillic": "лепак",
+      "sr_latin": "lepak",
+      "pronunciation_ru": "лЭпак",
+      "translation_ru": "клей",
+      "example_sr": "Залепи то јаким лепком.",
+      "example_ru": "Приклей это сильным клеем.",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "силикон",
+      "sr_latin": "silikon",
+      "pronunciation_ru": "силикОн",
+      "translation_ru": "силикон, герметик",
+      "example_sr": "Стави силикон око каде.",
+      "example_ru": "Нанеси силикон вокруг ванны.",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "заптивка",
+      "sr_latin": "zaptivka",
+      "pronunciation_ru": "заптИвка",
+      "translation_ru": "прокладка, уплотнитель",
+      "example_sr": "Славина цури, треба заменити заптивку.",
+      "example_ru": "Кран течёт, надо поменять прокладку.",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "изолир трака",
+      "sr_latin": "izolir traka",
+      "pronunciation_ru": "изолИр трАка",
+      "translation_ru": "изолента",
+      "example_sr": "Обмотај жицу изолир траком.",
+      "example_ru": "Обмотай провод изолентой.",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "цев",
+      "sr_latin": "cev",
+      "pronunciation_ru": "цЭв",
+      "translation_ru": "труба",
+      "example_sr": "Пукла је цев у купатилу.",
+      "example_ru": "В ванной лопнула труба.",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "славина",
+      "sr_latin": "slavina",
+      "pronunciation_ru": "слАвина",
+      "translation_ru": "кран (водопроводный)",
+      "example_sr": "Славина у кухињи стално капље.",
+      "example_ru": "Кран на кухне постоянно капает.",
+      "false_friend_note": "Водопроводный кран — это «славина». А «кран» по-сербски — это строительный подъёмный кран."
+    },
+    {
+      "sr_cyrillic": "црево",
+      "sr_latin": "crevo",
+      "pronunciation_ru": "црЭво",
+      "translation_ru": "шланг",
+      "example_sr": "Прикачи црево на славину.",
+      "example_ru": "Присоедини шланг к крану.",
+      "false_friend_note": "Звучит как русское «чрево» (живот), но «црево» — это шланг (а ещё кишка)."
+    },
+    {
+      "sr_cyrillic": "цурење",
+      "sr_latin": "curenje",
+      "pronunciation_ru": "цУрэњэ",
+      "translation_ru": "течь, протечка",
+      "example_sr": "Мајстор је зауставио цурење воде.",
+      "example_ru": "Мастер остановил течь воды.",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "запушен",
+      "sr_latin": "zapušen",
+      "pronunciation_ru": "запУшэн",
+      "translation_ru": "засорён, забит",
+      "example_sr": "Славина слабо тече, можда је нешто запушено.",
+      "example_ru": "Кран слабо течёт, наверное, что-то забилось.",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "одвод",
+      "sr_latin": "odvod",
+      "pronunciation_ru": "Одвод",
+      "translation_ru": "слив, сток",
+      "example_sr": "Вода споро отиче кроз одвод.",
+      "example_ru": "Вода медленно уходит через слив.",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "водоинсталатер",
+      "sr_latin": "vodoinstalater",
+      "pronunciation_ru": "водоинсталАтэр",
+      "translation_ru": "сантехник",
+      "example_sr": "Позови водоинсталатера, цури испод судопере.",
+      "example_ru": "Вызови сантехника, течёт под мойкой.",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "кабл",
+      "sr_latin": "kabl",
+      "pronunciation_ru": "кАбл",
+      "translation_ru": "кабель",
+      "example_sr": "Кабл од фрижидера је оштећен.",
+      "example_ru": "Кабель от холодильника повреждён.",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "утичница",
+      "sr_latin": "utičnica",
+      "pronunciation_ru": "Утичница",
+      "translation_ru": "розетка",
+      "example_sr": "Ова утичница не ради.",
+      "example_ru": "Эта розетка не работает.",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "утикач",
+      "sr_latin": "utikač",
+      "pronunciation_ru": "Утикач",
+      "translation_ru": "вилка (электрическая)",
+      "example_sr": "Извади утикач из утичнице.",
+      "example_ru": "Вынь вилку из розетки.",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "струја",
+      "sr_latin": "struja",
+      "pronunciation_ru": "стрУя",
+      "translation_ru": "ток, электричество",
+      "example_sr": "Нема струје у целој згради.",
+      "example_ru": "Нет электричества во всём доме.",
+      "false_friend_note": "Русское «струя» — это поток жидкости; сербское «струја» — это электрический ток. «Нема струје» = нет света."
+    },
+    {
+      "sr_cyrillic": "осигурач",
+      "sr_latin": "osigurač",
+      "pronunciation_ru": "Осигурач",
+      "translation_ru": "предохранитель, пробки",
+      "example_sr": "Искочио је осигурач.",
+      "example_ru": "Выбило пробки.",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "сијалица",
+      "sr_latin": "sijalica",
+      "pronunciation_ru": "сиЯлица",
+      "translation_ru": "лампочка",
+      "example_sr": "Прегорела је сијалица у ходнику.",
+      "example_ru": "Перегорела лампочка в коридоре.",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "прекидач",
+      "sr_latin": "prekidač",
+      "pronunciation_ru": "прЭкидач",
+      "translation_ru": "выключатель",
+      "example_sr": "Притисни прекидач поред врата.",
+      "example_ru": "Нажми выключатель у двери.",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "електричар",
+      "sr_latin": "električar",
+      "pronunciation_ru": "элэктрИчар",
+      "translation_ru": "электрик",
+      "example_sr": "Електричар долази сутра ујутру.",
+      "example_ru": "Электрик придёт завтра утром.",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "малтер",
+      "sr_latin": "malter",
+      "pronunciation_ru": "мАлтэр",
+      "translation_ru": "штукатурка, раствор",
+      "example_sr": "Са зида отпада малтер.",
+      "example_ru": "Со стены осыпается штукатурка.",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "плочице",
+      "sr_latin": "pločice",
+      "pronunciation_ru": "плОчицэ",
+      "translation_ru": "плитка, кафель",
+      "example_sr": "Плочице у купатилу су се одлепиле.",
+      "example_ru": "Плитка в ванной отклеилась.",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "плафон",
+      "sr_latin": "plafon",
+      "pronunciation_ru": "плафОн",
+      "translation_ru": "потолок",
+      "example_sr": "На плафону се појавила флека од влаге.",
+      "example_ru": "На потолке появилось пятно от сырости.",
+      "false_friend_note": "Русское «плафон» — это абажур или светильник; сербское «плафон» — это потолок."
+    },
+    {
+      "sr_cyrillic": "под",
+      "sr_latin": "pod",
+      "pronunciation_ru": "пОд",
+      "translation_ru": "пол",
+      "example_sr": "Пази, под је још мокар.",
+      "example_ru": "Осторожно, пол ещё мокрый.",
+      "false_friend_note": "Русское «под» — это предлог; сербское «под» — это пол (то, по чему ходишь)."
+    },
+    {
+      "sr_cyrillic": "квар",
+      "sr_latin": "kvar",
+      "pronunciation_ru": "квАр",
+      "translation_ru": "поломка, неисправность",
+      "example_sr": "У чему је квар?",
+      "example_ru": "В чём поломка?",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "мајстор",
+      "sr_latin": "majstor",
+      "pronunciation_ru": "мАйстор",
+      "translation_ru": "мастер, работник",
+      "example_sr": "Мајстор ће доћи да погледа бојлер.",
+      "example_ru": "Мастер придёт посмотреть бойлер.",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "поправка",
+      "sr_latin": "popravka",
+      "pronunciation_ru": "попрАвка",
+      "translation_ru": "ремонт, починка",
+      "example_sr": "Поправка ће бити готова до петка.",
+      "example_ru": "Ремонт будет готов к пятнице.",
+      "false_friend_note": ""
+    }
+  ]
+}

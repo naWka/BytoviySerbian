@@ -1,0 +1,385 @@
+{
+  "id": "boje",
+  "title_ru": "🎨 Цвета",
+  "title_sr": "Боје",
+  "words": [
+    {
+      "sr_cyrillic": "боја",
+      "sr_latin": "boja",
+      "pronunciation_ru": "бОя",
+      "translation_ru": "цвет",
+      "example_sr": "Која вам боја највише одговара?",
+      "example_ru": "Какой цвет вам больше всего подходит?",
+      "false_friend_note": "«Боја» — это и «цвет», и «краска»: «боја за косу» = краска для волос."
+    },
+    {
+      "sr_cyrillic": "бела",
+      "sr_latin": "bela",
+      "pronunciation_ru": "бЭла",
+      "translation_ru": "белый",
+      "example_sr": "Имамо само у белој.",
+      "example_ru": "Есть только в белом.",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "црна",
+      "sr_latin": "crna",
+      "pronunciation_ru": "цРна",
+      "translation_ru": "чёрный",
+      "example_sr": "Црне немамо, само тегет.",
+      "example_ru": "Чёрных нет, только тёмно-синие.",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "црвена",
+      "sr_latin": "crvena",
+      "pronunciation_ru": "цРвена",
+      "translation_ru": "красный",
+      "example_sr": "Ова црвена је јача, ова светлија.",
+      "example_ru": "Этот красный ярче, этот светлее.",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "плава",
+      "sr_latin": "plava",
+      "pronunciation_ru": "плАва",
+      "translation_ru": "синий, голубой",
+      "example_sr": "Она има плаву косу.",
+      "example_ru": "У неё светлые волосы.",
+      "false_friend_note": "«Плав» — не только «синий/голубой»: «плава коса» = светлые (белокурые) волосы, а не синие."
+    },
+    {
+      "sr_cyrillic": "зелена",
+      "sr_latin": "zelena",
+      "pronunciation_ru": "зЭлена",
+      "translation_ru": "зелёный",
+      "example_sr": "Има и у зеленој боји.",
+      "example_ru": "Есть и в зелёном.",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "жута",
+      "sr_latin": "žuta",
+      "pronunciation_ru": "жУта",
+      "translation_ru": "жёлтый",
+      "example_sr": "Немамо жуту, само наранџасту.",
+      "example_ru": "Жёлтого нет, только оранжевый.",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "наранџаста",
+      "sr_latin": "narandžasta",
+      "pronunciation_ru": "нарАнджаста",
+      "translation_ru": "оранжевый",
+      "example_sr": "Наранџаста је сад у моди.",
+      "example_ru": "Оранжевый сейчас в моде.",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "љубичаста",
+      "sr_latin": "ljubičasta",
+      "pronunciation_ru": "любИчаста",
+      "translation_ru": "фиолетовый",
+      "example_sr": "Љубичаста ми се баш свиђа.",
+      "example_ru": "Фиолетовый мне очень нравится.",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "розе",
+      "sr_latin": "roze",
+      "pronunciation_ru": "рОзе",
+      "translation_ru": "розовый",
+      "example_sr": "За девојчицу, узмите розе.",
+      "example_ru": "Для девочки возьмите розовый.",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "браон",
+      "sr_latin": "braon",
+      "pronunciation_ru": "брАон",
+      "translation_ru": "коричневый",
+      "example_sr": "Ципеле имам у браон боји.",
+      "example_ru": "Туфли есть в коричневом.",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "смеђа",
+      "sr_latin": "smeđa",
+      "pronunciation_ru": "смЭджа",
+      "translation_ru": "каштановый, карий (о волосах, глазах)",
+      "example_sr": "Смеђа коса, смеђе очи.",
+      "example_ru": "Каштановые волосы, карие глаза.",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "сива",
+      "sr_latin": "siva",
+      "pronunciation_ru": "сИва",
+      "translation_ru": "серый",
+      "example_sr": "Сива јакна је класика.",
+      "example_ru": "Серая куртка — классика.",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "беж",
+      "sr_latin": "bež",
+      "pronunciation_ru": "бЭж",
+      "translation_ru": "бежевый",
+      "example_sr": "Беж иде уз све.",
+      "example_ru": "Бежевый идёт ко всему.",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "тегет",
+      "sr_latin": "teget",
+      "pronunciation_ru": "тЭгет",
+      "translation_ru": "тёмно-синий",
+      "example_sr": "Тегет је тамноплава, готово црна.",
+      "example_ru": "Тёмно-синий — почти чёрный.",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "бордо",
+      "sr_latin": "bordo",
+      "pronunciation_ru": "бОрдо",
+      "translation_ru": "бордовый",
+      "example_sr": "Бордо је тамноцрвена нијанса.",
+      "example_ru": "Бордовый — тёмно-красный оттенок.",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "тиркизна",
+      "sr_latin": "tirkizna",
+      "pronunciation_ru": "тиркИзна",
+      "translation_ru": "бирюзовый",
+      "example_sr": "Тиркизна је између плаве и зелене.",
+      "example_ru": "Бирюзовый — между синим и зелёным.",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "златна",
+      "sr_latin": "zlatna",
+      "pronunciation_ru": "злАтна",
+      "translation_ru": "золотой",
+      "example_sr": "Имате ли у златној боји?",
+      "example_ru": "Есть в золотом цвете?",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "сребрна",
+      "sr_latin": "srebrna",
+      "pronunciation_ru": "срЭбрна",
+      "translation_ru": "серебряный",
+      "example_sr": "Ова је сребрна, не златна.",
+      "example_ru": "Эта серебряная, не золотая.",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "маслинаста",
+      "sr_latin": "maslinasta",
+      "pronunciation_ru": "маслИнаста",
+      "translation_ru": "оливковый",
+      "example_sr": "Маслинаста зелена, као војничка.",
+      "example_ru": "Оливково-зелёный, как военный.",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "окер",
+      "sr_latin": "oker",
+      "pronunciation_ru": "Окер",
+      "translation_ru": "охра, горчичный",
+      "example_sr": "Окер је нешто између жуте и браон.",
+      "example_ru": "Охра — что-то между жёлтым и коричневым.",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "крем",
+      "sr_latin": "krem",
+      "pronunciation_ru": "крЭм",
+      "translation_ru": "кремовый",
+      "example_sr": "Није чисто бела, него крем.",
+      "example_ru": "Не чисто белый, а кремовый.",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "пастелна",
+      "sr_latin": "pastelna",
+      "pronunciation_ru": "пастЭлна",
+      "translation_ru": "пастельный",
+      "example_sr": "Пастелне боје за пролеће.",
+      "example_ru": "Пастельные цвета на весну.",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "неонска",
+      "sr_latin": "neonska",
+      "pronunciation_ru": "неОнска",
+      "translation_ru": "неоновый, кислотный",
+      "example_sr": "Неонска жута се далеко види.",
+      "example_ru": "Неоновый жёлтый видно издалека.",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "светла",
+      "sr_latin": "svetla",
+      "pronunciation_ru": "свЭтла",
+      "translation_ru": "светлый",
+      "example_sr": "Имате ли светлију нијансу?",
+      "example_ru": "Есть оттенок посветлее?",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "тамна",
+      "sr_latin": "tamna",
+      "pronunciation_ru": "тАмна",
+      "translation_ru": "тёмный",
+      "example_sr": "Више волим тамне боје.",
+      "example_ru": "Больше люблю тёмные цвета.",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "отворена",
+      "sr_latin": "otvorena",
+      "pronunciation_ru": "отвОрена",
+      "translation_ru": "светлый (об оттенке)",
+      "example_sr": "Ово је отворено плава.",
+      "example_ru": "Это светло-голубой.",
+      "false_friend_note": "«Отворен» = открытый, но про цвет «отворена боја» = светлый оттенок, а не «открытый цвет»."
+    },
+    {
+      "sr_cyrillic": "затворена",
+      "sr_latin": "zatvorena",
+      "pronunciation_ru": "затвОрена",
+      "translation_ru": "тёмный (об оттенке)",
+      "example_sr": "Затворено зелена, скоро маслинаста.",
+      "example_ru": "Тёмно-зелёный, почти оливковый.",
+      "false_friend_note": "«Затворен» = закрытый (а «затвор» — тюрьма/запор); но про цвет «затворена боја» = тёмный оттенок."
+    },
+    {
+      "sr_cyrillic": "јарка",
+      "sr_latin": "jarka",
+      "pronunciation_ru": "йАрка",
+      "translation_ru": "яркий",
+      "example_sr": "Јарко црвена привлачи пажњу.",
+      "example_ru": "Ярко-красный привлекает внимание.",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "бледа",
+      "sr_latin": "bleda",
+      "pronunciation_ru": "блЭда",
+      "translation_ru": "бледный",
+      "example_sr": "Бледо розе, једва се види.",
+      "example_ru": "Бледно-розовый, еле заметен.",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "нијанса",
+      "sr_latin": "nijansa",
+      "pronunciation_ru": "ниЯнса",
+      "translation_ru": "оттенок",
+      "example_sr": "Иста боја, друга нијанса.",
+      "example_ru": "Тот же цвет, другой оттенок.",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "шарена",
+      "sr_latin": "šarena",
+      "pronunciation_ru": "шАрена",
+      "translation_ru": "пёстрый, разноцветный",
+      "example_sr": "Не желим шарено, него једнобојно.",
+      "example_ru": "Не хочу пёстрое, а однотонное.",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "једнобојна",
+      "sr_latin": "jednobojna",
+      "pronunciation_ru": "еднобОйна",
+      "translation_ru": "однотонный",
+      "example_sr": "Имате ли ово једнобојно?",
+      "example_ru": "Есть это однотонное (без рисунка)?",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "пругаста",
+      "sr_latin": "prugasta",
+      "pronunciation_ru": "прУгаста",
+      "translation_ru": "полосатый",
+      "example_sr": "Пругаста мајица, плаво-бела.",
+      "example_ru": "Полосатая футболка, сине-белая.",
+      "false_friend_note": "Однокоренное «пруга» — это и полоса, и железная дорога (рельсы)."
+    },
+    {
+      "sr_cyrillic": "карирана",
+      "sr_latin": "karirana",
+      "pronunciation_ru": "карИрана",
+      "translation_ru": "клетчатый, в клетку",
+      "example_sr": "Карирана кошуља, као фланел.",
+      "example_ru": "Клетчатая рубашка, как фланель.",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "туфнаста",
+      "sr_latin": "tufnasta",
+      "pronunciation_ru": "тУфнаста",
+      "translation_ru": "в горошек",
+      "example_sr": "Хаљина на беле туфне.",
+      "example_ru": "Платье в белый горошек.",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "прозирна",
+      "sr_latin": "prozirna",
+      "pronunciation_ru": "прозИрна",
+      "translation_ru": "прозрачный",
+      "example_sr": "Материјал је мало прозиран.",
+      "example_ru": "Ткань немного прозрачная.",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "мат",
+      "sr_latin": "mat",
+      "pronunciation_ru": "мАт",
+      "translation_ru": "матовый",
+      "example_sr": "Хоћете сјајно или мат?",
+      "example_ru": "Хотите глянцевое или матовое?",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "сјајна",
+      "sr_latin": "sjajna",
+      "pronunciation_ru": "сйАйна",
+      "translation_ru": "блестящий, глянцевый",
+      "example_sr": "Сјајна површина се лако запрља.",
+      "example_ru": "Блестящая поверхность легко пачкается.",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "офарбати",
+      "sr_latin": "ofarbati",
+      "pronunciation_ru": "офАрбати",
+      "translation_ru": "покрасить",
+      "example_sr": "Офарбала сам косу у црно.",
+      "example_ru": "Покрасила волосы в чёрный.",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "боји",
+      "sr_latin": "boji",
+      "pronunciation_ru": "бОйи",
+      "translation_ru": "линяет, красится (о ткани)",
+      "example_sr": "Пази, ова мајица боји.",
+      "example_ru": "Осторожно, эта футболка линяет.",
+      "false_friend_note": "«Боји» звучит как «боится»: «боји се» = боится (бојати се); а «боји (се)» о ткани = линяет/красится."
+    },
+    {
+      "sr_cyrillic": "избледело",
+      "sr_latin": "izbledelo",
+      "pronunciation_ru": "изблЭдело",
+      "translation_ru": "выцвело, полиняло",
+      "example_sr": "Од сунца је све избледело.",
+      "example_ru": "От солнца всё выцвело.",
+      "false_friend_note": ""
+    }
+  ]
+}

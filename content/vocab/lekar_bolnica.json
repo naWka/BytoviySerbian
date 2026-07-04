@@ -1,0 +1,385 @@
+{
+  "id": "lekar_bolnica",
+  "title_ru": "🏥 Врач и больница",
+  "title_sr": "Лекар и болница",
+  "words": [
+    {
+      "sr_cyrillic": "лекар",
+      "sr_latin": "lekar",
+      "pronunciation_ru": "лЕкар",
+      "translation_ru": "врач",
+      "example_sr": "Морам код лекара.",
+      "example_ru": "Мне нужно к врачу.",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "доктор",
+      "sr_latin": "doktor",
+      "pronunciation_ru": "дОктор",
+      "translation_ru": "доктор (обращение к врачу)",
+      "example_sr": "Докторе, боли ме овде.",
+      "example_ru": "Доктор, у меня болит здесь.",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "болница",
+      "sr_latin": "bolnica",
+      "pronunciation_ru": "бОлница",
+      "translation_ru": "больница",
+      "example_sr": "Одвезли су га у болницу.",
+      "example_ru": "Его увезли в больницу.",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "дом здравља",
+      "sr_latin": "dom zdravlja",
+      "pronunciation_ru": "дОм здрАвља",
+      "translation_ru": "районная поликлиника",
+      "example_sr": "Изабрани лекар је у дому здравља.",
+      "example_ru": "Мой участковый врач в поликлинике.",
+      "false_friend_note": "«Дом» тут не жильё: дом здравља — государственная поликлиника, куда ходят по страховке."
+    },
+    {
+      "sr_cyrillic": "хитна помоћ",
+      "sr_latin": "hitna pomoć",
+      "pronunciation_ru": "хИтна пОмоћ",
+      "translation_ru": "скорая помощь",
+      "example_sr": "Зовите хитну помоћ!",
+      "example_ru": "Вызовите скорую!",
+      "false_friend_note": "«Хитна» звучит как «хитрая», но значит «срочная, неотложная»."
+    },
+    {
+      "sr_cyrillic": "преглед",
+      "sr_latin": "pregled",
+      "pronunciation_ru": "прЕглед",
+      "translation_ru": "осмотр, приём у врача",
+      "example_sr": "Дошао сам на преглед.",
+      "example_ru": "Я пришёл на приём.",
+      "false_friend_note": "Похоже на «просмотр/обзор», но у врача это осмотр, приём."
+    },
+    {
+      "sr_cyrillic": "заказати",
+      "sr_latin": "zakazati",
+      "pronunciation_ru": "закАзати",
+      "translation_ru": "записаться (на приём)",
+      "example_sr": "Треба да закажете преглед унапред.",
+      "example_ru": "Вам нужно записаться на приём заранее.",
+      "false_friend_note": "Звучит как «заказать товар», но здесь — записаться, забронировать время."
+    },
+    {
+      "sr_cyrillic": "термин",
+      "sr_latin": "termin",
+      "pronunciation_ru": "тЕрмин",
+      "translation_ru": "время приёма, запись",
+      "example_sr": "Имате ли заказан термин?",
+      "example_ru": "У вас есть запись (назначенное время)?",
+      "false_friend_note": "Не «термин/понятие»: термин — это назначенное время визита."
+    },
+    {
+      "sr_cyrillic": "чекаоница",
+      "sr_latin": "čekaonica",
+      "pronunciation_ru": "чекАоница",
+      "translation_ru": "зал ожидания",
+      "example_sr": "Сачекајте у чекаоници.",
+      "example_ru": "Подождите в зале ожидания.",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "упутница",
+      "sr_latin": "uputnica",
+      "pronunciation_ru": "упУтница",
+      "translation_ru": "направление (к специалисту)",
+      "example_sr": "Дала сам вам упутницу за специјалисту.",
+      "example_ru": "Я дала вам направление к специалисту.",
+      "false_friend_note": "Не «путёвка/напутствие»: упутница — бумажное направление к врачу или на анализ."
+    },
+    {
+      "sr_cyrillic": "специјалиста",
+      "sr_latin": "specijalista",
+      "pronunciation_ru": "специјАлиста",
+      "translation_ru": "врач-специалист",
+      "example_sr": "Морате код специјалисте.",
+      "example_ru": "Вам нужно к специалисту.",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "ординација",
+      "sr_latin": "ordinacija",
+      "pronunciation_ru": "ординАција",
+      "translation_ru": "кабинет врача (частный)",
+      "example_sr": "Ординација ради до три.",
+      "example_ru": "Кабинет работает до трёх.",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "сестра",
+      "sr_latin": "sestra",
+      "pronunciation_ru": "сЕстра",
+      "translation_ru": "медсестра",
+      "example_sr": "Сестра ће вам дати терапију.",
+      "example_ru": "Медсестра даст вам лекарство.",
+      "false_friend_note": "В больнице «сестра» — это медсестра; так к ней и обращаются: «сестро!»."
+    },
+    {
+      "sr_cyrillic": "здравствена књижица",
+      "sr_latin": "zdravstvena knjižica",
+      "pronunciation_ru": "здрАвствена књИжица",
+      "translation_ru": "медицинская книжка (по страховке)",
+      "example_sr": "Понесите здравствену књижицу.",
+      "example_ru": "Возьмите с собой медкнижку.",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "осигурање",
+      "sr_latin": "osiguranje",
+      "pronunciation_ru": "осигУрање",
+      "translation_ru": "страховка (медицинская)",
+      "example_sr": "Да ли имате здравствено осигурање?",
+      "example_ru": "У вас есть медицинская страховка?",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "симптоми",
+      "sr_latin": "simptomi",
+      "pronunciation_ru": "симптОми",
+      "translation_ru": "симптомы, жалобы",
+      "example_sr": "Опишите ми симптоме.",
+      "example_ru": "Опишите ваши симптомы.",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "боли",
+      "sr_latin": "boli",
+      "pronunciation_ru": "бОли",
+      "translation_ru": "болит",
+      "example_sr": "Боли ме стомак.",
+      "example_ru": "У меня болит живот.",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "бол",
+      "sr_latin": "bol",
+      "pronunciation_ru": "бОл",
+      "translation_ru": "боль",
+      "example_sr": "Имам јак бол у леђима.",
+      "example_ru": "У меня сильная боль в спине.",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "температура",
+      "sr_latin": "temperatura",
+      "pronunciation_ru": "температУра",
+      "translation_ru": "температура",
+      "example_sr": "Имам високу температуру.",
+      "example_ru": "У меня высокая температура.",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "грозница",
+      "sr_latin": "groznica",
+      "pronunciation_ru": "грОзница",
+      "translation_ru": "жар, лихорадка",
+      "example_sr": "Ноћас сам имао грозницу.",
+      "example_ru": "Ночью меня лихорадило.",
+      "false_friend_note": "Не «гроза»: грозница — это жар, озноб, лихорадка."
+    },
+    {
+      "sr_cyrillic": "прехлада",
+      "sr_latin": "prehlada",
+      "pronunciation_ru": "прЕхлада",
+      "translation_ru": "простуда",
+      "example_sr": "То је обична прехлада.",
+      "example_ru": "Это обычная простуда.",
+      "false_friend_note": "Звучит как «прохлада», но значит «простуда»."
+    },
+    {
+      "sr_cyrillic": "кашаљ",
+      "sr_latin": "kašalj",
+      "pronunciation_ru": "кАшаљ",
+      "translation_ru": "кашель",
+      "example_sr": "Имам сув кашаљ већ недељу дана.",
+      "example_ru": "У меня сухой кашель уже неделю.",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "главобоља",
+      "sr_latin": "glavobolja",
+      "pronunciation_ru": "главобОља",
+      "translation_ru": "головная боль",
+      "example_sr": "Мучи ме јака главобоља.",
+      "example_ru": "Меня мучает сильная головная боль.",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "мучнина",
+      "sr_latin": "mučnina",
+      "pronunciation_ru": "мучнИна",
+      "translation_ru": "тошнота",
+      "example_sr": "Осећам мучнину и вртоглавицу.",
+      "example_ru": "Меня тошнит и кружится голова.",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "притисак",
+      "sr_latin": "pritisak",
+      "pronunciation_ru": "прИтисак",
+      "translation_ru": "давление (кровяное)",
+      "example_sr": "Измерићемо вам притисак.",
+      "example_ru": "Мы измерим вам давление.",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "анализа крви",
+      "sr_latin": "analiza krvi",
+      "pronunciation_ru": "анАлиза крви",
+      "translation_ru": "анализ крови",
+      "example_sr": "Резултати анализе крви су добри.",
+      "example_ru": "Результаты анализа крови хорошие.",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "вађење крви",
+      "sr_latin": "vađenje krvi",
+      "pronunciation_ru": "вАђење крви",
+      "translation_ru": "забор крови (взятие крови)",
+      "example_sr": "Вађење крви је од седам до девет.",
+      "example_ru": "Забор крови с семи до девяти.",
+      "false_friend_note": "«Вадити» — вынимать, брать; вађење крви — это взятие (забор) крови."
+    },
+    {
+      "sr_cyrillic": "налаз",
+      "sr_latin": "nalaz",
+      "pronunciation_ru": "нАлаз",
+      "translation_ru": "результат анализа, обследования",
+      "example_sr": "Понесите старе налазе.",
+      "example_ru": "Возьмите старые результаты анализов.",
+      "false_friend_note": "Не «налёт»: налаз — это бланк с результатами анализов или обследования."
+    },
+    {
+      "sr_cyrillic": "узорак",
+      "sr_latin": "uzorak",
+      "pronunciation_ru": "Узорак",
+      "translation_ru": "образец, проба (мочи, крови)",
+      "example_sr": "Донесите узорак урина.",
+      "example_ru": "Принесите пробу мочи.",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "наташте",
+      "sr_latin": "natašte",
+      "pronunciation_ru": "натАште",
+      "translation_ru": "натощак",
+      "example_sr": "Дођите наташте, немојте да једете.",
+      "example_ru": "Приходите натощак, ничего не ешьте.",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "инјекција",
+      "sr_latin": "injekcija",
+      "pronunciation_ru": "инјЕкција",
+      "translation_ru": "укол, инъекция",
+      "example_sr": "Даћу вам инјекцију против болова.",
+      "example_ru": "Я сделаю вам обезболивающий укол.",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "вакцина",
+      "sr_latin": "vakcina",
+      "pronunciation_ru": "вакцИна",
+      "translation_ru": "прививка, вакцина",
+      "example_sr": "Дете треба да прими вакцину.",
+      "example_ru": "Ребёнку нужно сделать прививку.",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "рецепт",
+      "sr_latin": "recept",
+      "pronunciation_ru": "рЕцепт",
+      "translation_ru": "рецепт (на лекарство)",
+      "example_sr": "Написаћу вам рецепт за антибиотик.",
+      "example_ru": "Я выпишу вам рецепт на антибиотик.",
+      "false_friend_note": "«Рецепт» бывает и кулинарный, и на лекарство; у врача — рецепт на лекарство."
+    },
+    {
+      "sr_cyrillic": "преписати",
+      "sr_latin": "prepisati",
+      "pronunciation_ru": "преписАти",
+      "translation_ru": "прописать, назначить (лекарство)",
+      "example_sr": "Лекар ми је преписао терапију.",
+      "example_ru": "Врач прописал мне лечение.",
+      "false_friend_note": "Не «переписать»: преписати лек — прописать, назначить лекарство."
+    },
+    {
+      "sr_cyrillic": "терапија",
+      "sr_latin": "terapija",
+      "pronunciation_ru": "терАпија",
+      "translation_ru": "лечение, курс лекарств",
+      "example_sr": "Пијте терапију пет дана.",
+      "example_ru": "Принимайте лекарства (курс) пять дней.",
+      "false_friend_note": "«Терапија» — это назначенное лечение, курс лекарств, а не только физиотерапия."
+    },
+    {
+      "sr_cyrillic": "таблете",
+      "sr_latin": "tablete",
+      "pronunciation_ru": "таблЕте",
+      "translation_ru": "таблетки",
+      "example_sr": "Пијте таблете после јела.",
+      "example_ru": "Принимайте таблетки после еды.",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "маст",
+      "sr_latin": "mast",
+      "pronunciation_ru": "мАст",
+      "translation_ru": "мазь",
+      "example_sr": "Мажите рану овом машћу.",
+      "example_ru": "Мажьте рану этой мазью.",
+      "false_friend_note": "Звучит как «масть», но значит «мазь» (а также жир, сало)."
+    },
+    {
+      "sr_cyrillic": "боловање",
+      "sr_latin": "bolovanje",
+      "pronunciation_ru": "болОвање",
+      "translation_ru": "больничный (лист)",
+      "example_sr": "Отворићу вам боловање на три дана.",
+      "example_ru": "Я открою вам больничный на три дня.",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "болничка соба",
+      "sr_latin": "bolnička soba",
+      "pronunciation_ru": "бОлничка сОба",
+      "translation_ru": "больничная палата",
+      "example_sr": "Пацијент је у соби број пет.",
+      "example_ru": "Пациент в палате номер пять.",
+      "false_friend_note": "«Палата» по-сербски — это дворец (Палата правде); больничная палата — «болничка соба»."
+    },
+    {
+      "sr_cyrillic": "операција",
+      "sr_latin": "operacija",
+      "pronunciation_ru": "операцИја",
+      "translation_ru": "операция (хирургическая)",
+      "example_sr": "Операција је прошла добро.",
+      "example_ru": "Операция прошла хорошо.",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "прелом",
+      "sr_latin": "prelom",
+      "pronunciation_ru": "прЕлом",
+      "translation_ru": "перелом",
+      "example_sr": "Снимак показује прелом руке.",
+      "example_ru": "Снимок показывает перелом руки.",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "плућа",
+      "sr_latin": "pluća",
+      "pronunciation_ru": "плУћа",
+      "translation_ru": "лёгкие",
+      "example_sr": "Треба да снимите плућа.",
+      "example_ru": "Вам нужно сделать снимок лёгких.",
+      "false_friend_note": "Не «плечи»: плућа — это лёгкие."
+    }
+  ]
+}

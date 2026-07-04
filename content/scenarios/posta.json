@@ -1,0 +1,200 @@
+{
+  "id": "posta",
+  "title_ru": "📮 Почта",
+  "title_sr": "Пошта",
+  "role_for_ai": "работница почты — очередь, платежи по квитанциям",
+  "will_hear": [
+    {
+      "sr_cyrillic": "Изволите, шта ће вам требати?",
+      "sr_latin": "Izvolite, šta će vam trebati?",
+      "pronunciation_ru": "ИзвОлите, шта че вам трЭбати?",
+      "translation_ru": "Слушаю вас, что вам нужно?",
+      "react_sr": "Треба да пошаљем пакет.",
+      "react_pron": "ТрЭба да пОшальем пАкет.",
+      "react_ru": "Мне нужно отправить посылку.",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "Имате ли уплатницу код себе?",
+      "sr_latin": "Imate li uplatnicu kod sebe?",
+      "pronunciation_ru": "Имате ли Уплатницу код сЭбе?",
+      "translation_ru": "Квитанция об оплате у вас с собой есть?",
+      "react_sr": "Да, ево је.",
+      "react_pron": "Да, Эво йе.",
+      "react_ru": "Да, вот она.",
+      "false_friend_note": "уплатница — это платёжная квитанция (бланк для оплаты), а не «уплата» как факт"
+    },
+    {
+      "sr_cyrillic": "Ово можете платити и картицом и готовином.",
+      "sr_latin": "Ovo možete platiti i karticom i gotovinom.",
+      "pronunciation_ru": "Ово мОжете плАтити и кАртицом и готОвином.",
+      "translation_ru": "Это можно оплатить и картой, и наличными.",
+      "react_sr": "Платићу картицом.",
+      "react_pron": "ПлАтичу кАртицом.",
+      "react_ru": "Оплачу картой.",
+      "false_friend_note": "готовина — наличные деньги, а не «что-то готовое»"
+    },
+    {
+      "sr_cyrillic": "Нажалост, за ову уплатницу иде и провизија.",
+      "sr_latin": "Nažalost, za ovu uplatnicu ide i provizija.",
+      "pronunciation_ru": "НажАлост, за Ову Уплатницу Иде и провИзия.",
+      "translation_ru": "К сожалению, за эту квитанцию берётся ещё и комиссия.",
+      "react_sr": "Колика је провизија?",
+      "react_pron": "КолИка йе провИзия?",
+      "react_ru": "Какая комиссия?",
+      "false_friend_note": "провизија — это комиссия/сбор, а не «провизия/еда»"
+    },
+    {
+      "sr_cyrillic": "Пошиљка вам је стигла, само треба да доплатите царину.",
+      "sr_latin": "Pošiljka vam je stigla, samo treba da doplatite carinu.",
+      "pronunciation_ru": "ПОшилька вам йе стИгла, сАмо трЭба да дОплатите цАрину.",
+      "translation_ru": "Ваша посылка пришла, только надо доплатить таможенный сбор.",
+      "react_sr": "Колико износи доплата?",
+      "react_pron": "КолИко Износи дОплата?",
+      "react_ru": "Сколько составляет доплата?",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "Требаће ми ваша лична карта или пасош.",
+      "sr_latin": "Trebaće mi vaša lična karta ili pasoš.",
+      "pronunciation_ru": "ТрЭбаче ми вАша лИчна кАрта Или пАсош.",
+      "translation_ru": "Мне понадобится ваше удостоверение личности или паспорт.",
+      "react_sr": "Може пасош?",
+      "react_pron": "МОже пАсош?",
+      "react_ru": "Паспорт подойдёт?",
+      "false_friend_note": "лична карта — удостоверение личности (ID), а не «личная карточка/визитка»"
+    },
+    {
+      "sr_cyrillic": "Немамо тренутно образац, нема папира, сачекајте мало.",
+      "sr_latin": "Nemamo trenutno obrazac, nema papira, sačekajte malo.",
+      "pronunciation_ru": "НЭмамо трЭнутно Образац, нЭма пАпира, сачЭкайте мАло.",
+      "translation_ru": "Сейчас у нас нет бланка, бумага закончилась, подождите немного.",
+      "react_sr": "У реду, сачекаћу.",
+      "react_pron": "У рЭду, сачЭкачу.",
+      "react_ru": "Хорошо, подожду.",
+      "false_friend_note": "образац — это бланк/образец формы, а не «образ/картина»"
+    },
+    {
+      "sr_cyrillic": "Тог обрасца тренутно нема, попуните овај други.",
+      "sr_latin": "Tog obrasca trenutno nema, popunite ovaj drugi.",
+      "pronunciation_ru": "Тог Обрасца трЭнутно нЭма, попУните Овай дрУги.",
+      "translation_ru": "Такого бланка сейчас нет, заполните вот этот другой.",
+      "react_sr": "Можете ли ми показати како?",
+      "react_pron": "МОжете ли ми покАзати кАко?",
+      "react_ru": "Можете показать, как?",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "Морате прво да узмете број и сачекате ред.",
+      "sr_latin": "Morate prvo da uzmete broj i sačekate red.",
+      "pronunciation_ru": "МОрате прво да Узмете брОй и сачЭкате рЭд.",
+      "translation_ru": "Сначала надо взять номерок и дождаться очереди.",
+      "react_sr": "Где узимам број?",
+      "react_pron": "ГдЭ Узимам брОй?",
+      "react_ru": "Где взять номерок?",
+      "false_friend_note": "ред — здесь «очередь/порядок», а не «ряд» в смысле шеренги"
+    },
+    {
+      "sr_cyrillic": "Ово није за наш шалтер, идите на шалтер три.",
+      "sr_latin": "Ovo nije za naš šalter, idite na šalter tri.",
+      "pronunciation_ru": "Ово нИйе за наш шАлтер, Идите на шАлтер трИ.",
+      "translation_ru": "Это не к нашему окну, идите к окну номер три.",
+      "react_sr": "Извините, нисам знао.",
+      "react_pron": "ИзвИните, нИсам знАо.",
+      "react_ru": "Извините, я не знал.",
+      "false_friend_note": "шалтер — это окно/окошко обслуживания, а не «шалтер/выключатель»"
+    },
+    {
+      "sr_cyrillic": "Препоручено писмо или обично?",
+      "sr_latin": "Preporučeno pismo ili obično?",
+      "pronunciation_ru": "ПрепорУчено пИсмо Или Обично?",
+      "translation_ru": "Письмо заказное или обычное?",
+      "react_sr": "Препоручено, молим.",
+      "react_pron": "ПрепорУчено, мОлим.",
+      "react_ru": "Заказное, пожалуйста.",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "Уплата још није евидентирана, вратите се сутра.",
+      "sr_latin": "Uplata još nije evidentirana, vratite se sutra.",
+      "pronunciation_ru": "Уплата йОш нИйе евидентИрана, врАтите се сУтра.",
+      "translation_ru": "Платёж ещё не проведён по системе, приходите завтра.",
+      "react_sr": "А има ли неки други начин?",
+      "react_pron": "А Има ли нЭки дрУги нАчин?",
+      "react_ru": "А есть какой-то другой способ?",
+      "false_friend_note": "сутра — это «завтра», а не «с утра» как в русском"
+    }
+  ],
+  "your_phrases": [
+    {
+      "sr_cyrillic": "Да ли пошиљка може да се прати преко броја за праћење?",
+      "sr_latin": "Da li pošiljka može da se prati preko broja za praćenje?",
+      "pronunciation_ru": "Да ли пОшилька мОже да се прАти прЭко брОйа за прАченье?",
+      "translation_ru": "Посылку можно отследить по трек-номеру?",
+      "false_friend_note": "прати — здесь «отслеживать/следить», не путать с «прати» = стирать (бельё)"
+    },
+    {
+      "sr_cyrillic": "За колико дана стиже препоручена пошиљка до Русије?",
+      "sr_latin": "Za koliko dana stiže preporučena pošiljka do Rusije?",
+      "pronunciation_ru": "За колИко дАна стИже препорУчена пОшилька до рУсийе?",
+      "translation_ru": "За сколько дней доходит заказная посылка до России?",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "Да ли постоји осигурање ако се пакет оштети?",
+      "sr_latin": "Da li postoji osiguranje ako se paket ošteti?",
+      "pronunciation_ru": "Да ли пОстойи осигУранье Ако се пАкет Оштети?",
+      "translation_ru": "Есть ли страховка на случай повреждения посылки?",
+      "false_friend_note": "осигурање — это страхование, а не «обеспечение» в общем смысле"
+    },
+    {
+      "sr_cyrillic": "Извините, мислим да сте ми наплатили провизију два пута.",
+      "sr_latin": "Izvinite, mislim da ste mi naplatili proviziju dva puta.",
+      "pronunciation_ru": "ИзвИните, мИслим да сте ми наплАтили провИзию два пУта.",
+      "translation_ru": "Извините, кажется, вы взяли с меня комиссию дважды.",
+      "false_friend_note": "наплатити — это «взять плату/начислить», а не «наплатить/переплатить»"
+    },
+    {
+      "sr_cyrillic": "Можете ли ми издати потврду да сам платио?",
+      "sr_latin": "Možete li mi izdati potvrdu da sam platio?",
+      "pronunciation_ru": "МОжете ли ми Издати пОтврду да сам плАтио?",
+      "translation_ru": "Можете выдать мне подтверждение, что я оплатил?",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "Да ли морам ја лично да преузмем пакет или може неко други?",
+      "sr_latin": "Da li moram ja lično da preuzmem paket ili može neko drugi?",
+      "pronunciation_ru": "Да ли мОрам я лИчно да прЭузмем пАкет Или мОже нЭко дрУги?",
+      "translation_ru": "Мне обязательно забирать посылку лично или может кто-то другой?",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "Ако не стигнем данас, докле пакет чека овде?",
+      "sr_latin": "Ako ne stignem danas, dokle paket čeka ovde?",
+      "pronunciation_ru": "Ако не стИгнем дАнас, дОкле пАкет чЭка Овде?",
+      "translation_ru": "Если я не успею сегодня, до какого числа посылка тут хранится?",
+      "false_friend_note": "чекати — это «ждать/храниться», а не «чекать/проверять»"
+    },
+    {
+      "sr_cyrillic": "Можете ли да ми напишете колика је тачно доплата?",
+      "sr_latin": "Možete li da mi napišete kolika je tačno doplata?",
+      "pronunciation_ru": "МОжете ли да ми напИшете колИка йе тАчно дОплата?",
+      "translation_ru": "Можете написать мне, сколько именно составляет доплата?",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "Да ли се ова уплатница може платити и у другој пошти?",
+      "sr_latin": "Da li se ova uplatnica može platiti i u drugoj pošti?",
+      "pronunciation_ru": "Да ли се Ова Уплатница мОже плАтити и у дрУгой пОшти?",
+      "translation_ru": "Эту квитанцию можно оплатить и в другом почтовом отделении?",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "Извините, али платио сам на време, имам потврду.",
+      "sr_latin": "Izvinite, ali platio sam na vreme, imam potvrdu.",
+      "pronunciation_ru": "ИзвИните, Али плАтио сам на врЭме, Имам пОтврду.",
+      "translation_ru": "Извините, но я заплатил вовремя, у меня есть подтверждение.",
+      "false_friend_note": "време — здесь «время», не путать с «време» = погода в другом контексте"
+    }
+  ]
+}

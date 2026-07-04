@@ -1,0 +1,385 @@
+{
+  "id": "simptomi",
+  "title_ru": "🤒 Симптомы и болезни",
+  "title_sr": "Симптоми",
+  "words": [
+    {
+      "sr_cyrillic": "бол",
+      "sr_latin": "bol",
+      "pronunciation_ru": "бОл",
+      "translation_ru": "боль",
+      "example_sr": "Осећам јак бол у стомаку.",
+      "example_ru": "Чувствую сильную боль в животе.",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "боли ме",
+      "sr_latin": "boli me",
+      "pronunciation_ru": "бОли ме",
+      "translation_ru": "у меня болит",
+      "example_sr": "Боли ме глава од јутрос.",
+      "example_ru": "У меня с утра болит голова.",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "температура",
+      "sr_latin": "temperatura",
+      "pronunciation_ru": "температУра",
+      "translation_ru": "температура, жар",
+      "example_sr": "Имате ли температуру?",
+      "example_ru": "У вас есть температура (жар)?",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "грозница",
+      "sr_latin": "groznica",
+      "pronunciation_ru": "грОзница",
+      "translation_ru": "жар, лихорадка",
+      "example_sr": "Ухватила ме грозница, тресем се.",
+      "example_ru": "Меня схватила лихорадка, всего трясёт.",
+      "false_friend_note": "Похоже на «гроза/грозный», но грозница — это жар, лихорадка."
+    },
+    {
+      "sr_cyrillic": "висока температура",
+      "sr_latin": "visoka temperatura",
+      "pronunciation_ru": "висОка температУра",
+      "translation_ru": "высокая температура",
+      "example_sr": "Дете има високу температуру, преко тридесет девет.",
+      "example_ru": "У ребёнка высокая температура, выше тридцати девяти.",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "кашаљ",
+      "sr_latin": "kašalj",
+      "pronunciation_ru": "кАшаљ",
+      "translation_ru": "кашель",
+      "example_sr": "Имам јак кашаљ већ недељу дана.",
+      "example_ru": "У меня сильный кашель уже неделю.",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "сув кашаљ",
+      "sr_latin": "suv kašalj",
+      "pronunciation_ru": "сУв кАшаљ",
+      "translation_ru": "сухой кашель",
+      "example_sr": "Овај сируп је за сув кашаљ.",
+      "example_ru": "Этот сироп от сухого кашля.",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "кијавица",
+      "sr_latin": "kijavica",
+      "pronunciation_ru": "кийАвица",
+      "translation_ru": "насморк",
+      "example_sr": "Имам кијавицу и цури ми нос.",
+      "example_ru": "У меня насморк и течёт из носа.",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "кијање",
+      "sr_latin": "kijanje",
+      "pronunciation_ru": "кИйанье",
+      "translation_ru": "чихание",
+      "example_sr": "Од полена ме хвата кијање.",
+      "example_ru": "От пыльцы меня одолевает чихание.",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "запушен нос",
+      "sr_latin": "zapušen nos",
+      "pronunciation_ru": "зАпушен нОс",
+      "translation_ru": "заложенный нос",
+      "example_sr": "Ноћу ми је нос потпуно запушен.",
+      "example_ru": "Ночью нос полностью заложен.",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "цури нос",
+      "sr_latin": "curi nos",
+      "pronunciation_ru": "цУри нОс",
+      "translation_ru": "течёт из носа",
+      "example_sr": "Цури ми нос цео дан.",
+      "example_ru": "У меня весь день течёт из носа.",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "грло",
+      "sr_latin": "grlo",
+      "pronunciation_ru": "гЫрло",
+      "translation_ru": "горло",
+      "example_sr": "Боли ме грло кад гутам.",
+      "example_ru": "Горло болит, когда глотаю.",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "промукао",
+      "sr_latin": "promukao",
+      "pronunciation_ru": "прОмукао",
+      "translation_ru": "охрип, голос сел",
+      "example_sr": "Промукао сам, једва говорим.",
+      "example_ru": "Я охрип, еле говорю.",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "прехлада",
+      "sr_latin": "prehlada",
+      "pronunciation_ru": "прЭхлада",
+      "translation_ru": "простуда",
+      "example_sr": "Само обична прехлада, ништа страшно.",
+      "example_ru": "Обычная простуда, ничего страшного.",
+      "false_friend_note": "Звучит как «прохлада», но прехлада — это простуда."
+    },
+    {
+      "sr_cyrillic": "назеб",
+      "sr_latin": "nazeb",
+      "pronunciation_ru": "нАзеб",
+      "translation_ru": "простуда (простыл)",
+      "example_sr": "Мислим да сам добио назеб на промаји.",
+      "example_ru": "Кажется, я простыл на сквозняке.",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "грип",
+      "sr_latin": "grip",
+      "pronunciation_ru": "грИп",
+      "translation_ru": "грипп",
+      "example_sr": "Овај грип обара све редом.",
+      "example_ru": "Этот грипп косит всех подряд.",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "мучнина",
+      "sr_latin": "mučnina",
+      "pronunciation_ru": "мучнИна",
+      "translation_ru": "тошнота",
+      "example_sr": "Осећам мучнину после јела.",
+      "example_ru": "Меня подташнивает после еды.",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "мука ми је",
+      "sr_latin": "muka mi je",
+      "pronunciation_ru": "мУка ми йе",
+      "translation_ru": "меня тошнит, мне дурно",
+      "example_sr": "Мука ми је, могло би да ме поврати.",
+      "example_ru": "Меня мутит, может стошнить.",
+      "false_friend_note": "По-русски «мука» — мучение или мука́ (продукт), а «мука ми је» = меня тошнит."
+    },
+    {
+      "sr_cyrillic": "повраћање",
+      "sr_latin": "povraćanje",
+      "pronunciation_ru": "поврАчанье",
+      "translation_ru": "рвота",
+      "example_sr": "Имао сам повраћање целу ноћ.",
+      "example_ru": "Меня всю ночь рвало.",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "пролив",
+      "sr_latin": "proliv",
+      "pronunciation_ru": "прОлив",
+      "translation_ru": "понос, диарея",
+      "example_sr": "Од нечега сам добио пролив.",
+      "example_ru": "От чего-то у меня начался понос.",
+      "false_friend_note": "По-русски пролив — узкий проход в море. По-сербски пролив — понос."
+    },
+    {
+      "sr_cyrillic": "затвор",
+      "sr_latin": "zatvor",
+      "pronunciation_ru": "зАтвор",
+      "translation_ru": "запор",
+      "example_sr": "Имам затвор већ три дана.",
+      "example_ru": "У меня запор уже три дня.",
+      "false_friend_note": "Затвор — это запор (а ещё «тюрьма»), а не «задвижка/затвор»."
+    },
+    {
+      "sr_cyrillic": "вртоглавица",
+      "sr_latin": "vrtoglavica",
+      "pronunciation_ru": "выртоглАвица",
+      "translation_ru": "головокружение",
+      "example_sr": "Кад устанем нагло, ухвати ме вртоглавица.",
+      "example_ru": "Когда резко встаю, начинается головокружение.",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "главобоља",
+      "sr_latin": "glavobolja",
+      "pronunciation_ru": "главобОља",
+      "translation_ru": "головная боль",
+      "example_sr": "Имам ужасну главобољу.",
+      "example_ru": "У меня ужасная головная боль.",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "слабост",
+      "sr_latin": "slabost",
+      "pronunciation_ru": "слАбост",
+      "translation_ru": "слабость",
+      "example_sr": "Осећам слабост и немам снаге.",
+      "example_ru": "Чувствую слабость, нет сил.",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "умор",
+      "sr_latin": "umor",
+      "pronunciation_ru": "Умор",
+      "translation_ru": "усталость",
+      "example_sr": "Стално ме прати неки умор.",
+      "example_ru": "Меня постоянно преследует усталость.",
+      "false_friend_note": "Умор — это усталость, а не «умора» (что-то смешное) и не про смерть."
+    },
+    {
+      "sr_cyrillic": "дрхтавица",
+      "sr_latin": "drhtavica",
+      "pronunciation_ru": "дырхтАвица",
+      "translation_ru": "озноб, дрожь",
+      "example_sr": "Хвата ме дрхтавица, покриј ме.",
+      "example_ru": "Меня знобит, накрой меня.",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "знојење",
+      "sr_latin": "znojenje",
+      "pronunciation_ru": "знОйенье",
+      "translation_ru": "потливость, потоотделение",
+      "example_sr": "Ноћу имам јако знојење.",
+      "example_ru": "По ночам сильно потею.",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "алергија",
+      "sr_latin": "alergija",
+      "pronunciation_ru": "алЭргија",
+      "translation_ru": "аллергия",
+      "example_sr": "Имам алергију на полен и прашину.",
+      "example_ru": "У меня аллергия на пыльцу и пыль.",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "осип",
+      "sr_latin": "osip",
+      "pronunciation_ru": "Осип",
+      "translation_ru": "сыпь",
+      "example_sr": "Појавио ми се осип по рукама.",
+      "example_ru": "У меня на руках появилась сыпь.",
+      "false_friend_note": "Осип — это сыпь, а не мужское имя Осип."
+    },
+    {
+      "sr_cyrillic": "свраб",
+      "sr_latin": "svrab",
+      "pronunciation_ru": "сврАб",
+      "translation_ru": "зуд",
+      "example_sr": "Осип ме много сврби, ужасан свраб.",
+      "example_ru": "Сыпь сильно чешется, жуткий зуд.",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "оток",
+      "sr_latin": "otok",
+      "pronunciation_ru": "Оток",
+      "translation_ru": "отёк, опухоль",
+      "example_sr": "Имам оток на нози после уједа.",
+      "example_ru": "У меня отёк на ноге после укуса.",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "упала",
+      "sr_latin": "upala",
+      "pronunciation_ru": "Упала",
+      "translation_ru": "воспаление",
+      "example_sr": "Лекар каже да је то упала грла.",
+      "example_ru": "Врач говорит, что это воспаление горла.",
+      "false_friend_note": "Упала — это воспаление, а не глагол «упала» (упасть)."
+    },
+    {
+      "sr_cyrillic": "упаљено грло",
+      "sr_latin": "upaljeno grlo",
+      "pronunciation_ru": "Упаљено гЫрло",
+      "translation_ru": "воспалённое (красное) горло",
+      "example_sr": "Грло ми је упаљено и црвено.",
+      "example_ru": "Горло воспалено и красное.",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "болест",
+      "sr_latin": "bolest",
+      "pronunciation_ru": "бОлест",
+      "translation_ru": "болезнь",
+      "example_sr": "То није опасна болест.",
+      "example_ru": "Это не опасная болезнь.",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "болестан",
+      "sr_latin": "bolestan",
+      "pronunciation_ru": "бОлестан",
+      "translation_ru": "больной (о человеке)",
+      "example_sr": "Данас сам болестан, остајем код куће.",
+      "example_ru": "Сегодня я болен, остаюсь дома.",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "заразно",
+      "sr_latin": "zarazno",
+      "pronunciation_ru": "зАразно",
+      "translation_ru": "заразно, заразный",
+      "example_sr": "Да ли је ово заразно?",
+      "example_ru": "Это заразно?",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "пече",
+      "sr_latin": "peče",
+      "pronunciation_ru": "пЭче",
+      "translation_ru": "жжёт, щиплет",
+      "example_sr": "Пече ме грло кад пијем.",
+      "example_ru": "Горло жжёт, когда пью.",
+      "false_friend_note": "«Пече» — это жжёт/щиплет (и «печёт»), а не печь как предмет."
+    },
+    {
+      "sr_cyrillic": "пробада",
+      "sr_latin": "probada",
+      "pronunciation_ru": "прОбада",
+      "translation_ru": "колет, простреливает (о боли)",
+      "example_sr": "Пробада ме у грудима кад удахнем.",
+      "example_ru": "Колет в груди, когда вдыхаю.",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "отежано дисање",
+      "sr_latin": "otežano disanje",
+      "pronunciation_ru": "отЭжано дИсанье",
+      "translation_ru": "затруднённое дыхание, одышка",
+      "example_sr": "Имам отежано дисање уз кашаљ.",
+      "example_ru": "У меня затруднённое дыхание вместе с кашлем.",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "недостаје ми ваздух",
+      "sr_latin": "nedostaje mi vazduh",
+      "pronunciation_ru": "недОстаје ми вАздух",
+      "translation_ru": "мне не хватает воздуха, нечем дышать",
+      "example_sr": "Понекад ми недостаје ваздух.",
+      "example_ru": "Иногда мне не хватает воздуха.",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "штуцање",
+      "sr_latin": "štucanje",
+      "pronunciation_ru": "штУцанье",
+      "translation_ru": "икота",
+      "example_sr": "Не могу да зауставим штуцање.",
+      "example_ru": "Не могу остановить икоту.",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "рана",
+      "sr_latin": "rana",
+      "pronunciation_ru": "рАна",
+      "translation_ru": "рана",
+      "example_sr": "Рану треба очистити и превити.",
+      "example_ru": "Рану нужно промыть и перевязать.",
+      "false_friend_note": ""
+    }
+  ]
+}

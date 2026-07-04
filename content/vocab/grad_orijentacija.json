@@ -1,0 +1,385 @@
+{
+  "id": "grad_orijentacija",
+  "title_ru": "🧭 Город и ориентиры",
+  "title_sr": "Град и оријентација",
+  "words": [
+    {
+      "sr_cyrillic": "улица",
+      "sr_latin": "ulica",
+      "pronunciation_ru": "Улица",
+      "translation_ru": "улица",
+      "example_sr": "Идите овом улицом право.",
+      "example_ru": "Идите прямо по этой улице.",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "трг",
+      "sr_latin": "trg",
+      "pronunciation_ru": "трг",
+      "translation_ru": "площадь",
+      "example_sr": "Наћи ћемо се на тргу.",
+      "example_ru": "Встретимся на площади.",
+      "false_friend_note": "Похоже на русское «торг», но значит «площадь»."
+    },
+    {
+      "sr_cyrillic": "раскрсница",
+      "sr_latin": "raskrsnica",
+      "pronunciation_ru": "рАскрсница",
+      "translation_ru": "перекрёсток",
+      "example_sr": "На раскрсници скрените десно.",
+      "example_ru": "На перекрёстке поверните направо.",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "ћошак",
+      "sr_latin": "ćošak",
+      "pronunciation_ru": "чОшак",
+      "translation_ru": "угол (дома, улицы)",
+      "example_sr": "Продавница је одмах на ћошку.",
+      "example_ru": "Магазин прямо на углу.",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "лево",
+      "sr_latin": "levo",
+      "pronunciation_ru": "лЭво",
+      "translation_ru": "налево, слева",
+      "example_sr": "Скрените лево код банке.",
+      "example_ru": "Поверните налево у банка.",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "десно",
+      "sr_latin": "desno",
+      "pronunciation_ru": "дЭсно",
+      "translation_ru": "направо, справа",
+      "example_sr": "Прва улица десно.",
+      "example_ru": "Первая улица направо.",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "право",
+      "sr_latin": "pravo",
+      "pronunciation_ru": "прАво",
+      "translation_ru": "прямо (о направлении)",
+      "example_sr": "Само идите право, па ћете видети.",
+      "example_ru": "Просто идите прямо и увидите.",
+      "false_friend_note": "Ловушка: «право» — это «прямо», а не «направо». «Направо» — «десно»."
+    },
+    {
+      "sr_cyrillic": "скрените",
+      "sr_latin": "skrenite",
+      "pronunciation_ru": "скрЭните",
+      "translation_ru": "поверните, сверните",
+      "example_sr": "Скрените на другом семафору.",
+      "example_ru": "Поверните на втором светофоре.",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "скретање",
+      "sr_latin": "skretanje",
+      "pronunciation_ru": "скрЭтанье",
+      "translation_ru": "поворот",
+      "example_sr": "После скретања је одмах ту.",
+      "example_ru": "Сразу после поворота — там.",
+      "false_friend_note": "От «скренути» (свернуть); со «скрыть/скрытный» не связано."
+    },
+    {
+      "sr_cyrillic": "близу",
+      "sr_latin": "blizu",
+      "pronunciation_ru": "блИзу",
+      "translation_ru": "близко, рядом",
+      "example_sr": "То је сасвим близу, пар корака.",
+      "example_ru": "Это совсем близко, пара шагов.",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "далеко",
+      "sr_latin": "daleko",
+      "pronunciation_ru": "дАлеко",
+      "translation_ru": "далеко",
+      "example_sr": "Је ли то далеко одавде?",
+      "example_ru": "Это далеко отсюда?",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "поред",
+      "sr_latin": "pored",
+      "pronunciation_ru": "пОред",
+      "translation_ru": "рядом с, около",
+      "example_sr": "Апотека је поред пекаре.",
+      "example_ru": "Аптека рядом с пекарней.",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "преко пута",
+      "sr_latin": "preko puta",
+      "pronunciation_ru": "прЭко пУта",
+      "translation_ru": "напротив",
+      "example_sr": "Станица је преко пута парка.",
+      "example_ru": "Остановка напротив парка.",
+      "false_friend_note": "Не «через путь», а «напротив». «Пут» тут — дорога."
+    },
+    {
+      "sr_cyrillic": "иза",
+      "sr_latin": "iza",
+      "pronunciation_ru": "Иза",
+      "translation_ru": "за, позади",
+      "example_sr": "Паркинг је иза зграде.",
+      "example_ru": "Парковка за зданием.",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "испред",
+      "sr_latin": "ispred",
+      "pronunciation_ru": "Испред",
+      "translation_ru": "перед, впереди",
+      "example_sr": "Чекам вас испред улаза.",
+      "example_ru": "Жду вас перед входом.",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "код",
+      "sr_latin": "kod",
+      "pronunciation_ru": "код",
+      "translation_ru": "у, возле (предлог)",
+      "example_sr": "Нађимо се код фонтане.",
+      "example_ru": "Встретимся у фонтана.",
+      "false_friend_note": "Не «код/шифр», а предлог «у, возле»: «код банке» — «у банка»."
+    },
+    {
+      "sr_cyrillic": "семафор",
+      "sr_latin": "semafor",
+      "pronunciation_ru": "семАфор",
+      "translation_ru": "светофор",
+      "example_sr": "Пређите код семафора.",
+      "example_ru": "Перейдите у светофора.",
+      "false_friend_note": "В сербском «семафор» — обычный светофор, не только железнодорожный."
+    },
+    {
+      "sr_cyrillic": "пешачки прелаз",
+      "sr_latin": "pešački prelaz",
+      "pronunciation_ru": "пЭшачки прЭлаз",
+      "translation_ru": "пешеходный переход",
+      "example_sr": "Има пешачки прелаз мало даље.",
+      "example_ru": "Чуть дальше есть пешеходный переход.",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "тротоар",
+      "sr_latin": "trotoar",
+      "pronunciation_ru": "тротоАр",
+      "translation_ru": "тротуар",
+      "example_sr": "Идите тротоаром до угла.",
+      "example_ru": "Идите по тротуару до угла.",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "мост",
+      "sr_latin": "most",
+      "pronunciation_ru": "мост",
+      "translation_ru": "мост",
+      "example_sr": "Пређите преко моста.",
+      "example_ru": "Перейдите через мост.",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "зграда",
+      "sr_latin": "zgrada",
+      "pronunciation_ru": "згрАда",
+      "translation_ru": "здание, дом",
+      "example_sr": "То је она жута зграда.",
+      "example_ru": "Это вон то жёлтое здание.",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "спрат",
+      "sr_latin": "sprat",
+      "pronunciation_ru": "спрат",
+      "translation_ru": "этаж",
+      "example_sr": "Ординација је на трећем спрату.",
+      "example_ru": "Кабинет на третьем этаже.",
+      "false_friend_note": "Счёт этажей другой: «први спрат» — это наш второй этаж."
+    },
+    {
+      "sr_cyrillic": "приземље",
+      "sr_latin": "prizemlje",
+      "pronunciation_ru": "прИземлье",
+      "translation_ru": "первый (наземный) этаж",
+      "example_sr": "Пошта је у приземљу.",
+      "example_ru": "Почта на первом этаже.",
+      "false_friend_note": "«Приземље» — нижний, наземный этаж (наш «первый»), не подвал."
+    },
+    {
+      "sr_cyrillic": "крај",
+      "sr_latin": "kraj",
+      "pronunciation_ru": "край",
+      "translation_ru": "район (города); конец",
+      "example_sr": "Живим у овом крају већ годину дана.",
+      "example_ru": "Живу в этом районе уже год.",
+      "false_friend_note": "Не «край/область». В городе — «район», а ещё значит «конец»."
+    },
+    {
+      "sr_cyrillic": "насеље",
+      "sr_latin": "naselje",
+      "pronunciation_ru": "нАселье",
+      "translation_ru": "жилой массив, посёлок",
+      "example_sr": "Ново насеље је ван центра.",
+      "example_ru": "Новый жилой район за центром.",
+      "false_friend_note": "Похоже на «население», но это «жилой массив, посёлок»."
+    },
+    {
+      "sr_cyrillic": "центар",
+      "sr_latin": "centar",
+      "pronunciation_ru": "цЭнтар",
+      "translation_ru": "центр (города)",
+      "example_sr": "Аутобус иде до центра.",
+      "example_ru": "Автобус идёт до центра.",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "кружни ток",
+      "sr_latin": "kružni tok",
+      "pronunciation_ru": "крУжни ток",
+      "translation_ru": "кольцевая развязка, кольцо",
+      "example_sr": "На кружном току идите право.",
+      "example_ru": "На кольце езжайте прямо.",
+      "false_friend_note": "«Ток» здесь — «движение»; «кружни ток» — круговая развязка, кольцо."
+    },
+    {
+      "sr_cyrillic": "станица",
+      "sr_latin": "stanica",
+      "pronunciation_ru": "стАница",
+      "translation_ru": "станция, остановка",
+      "example_sr": "Сиђите на следећој станици.",
+      "example_ru": "Выходите на следующей остановке.",
+      "false_friend_note": "Не «казачья станица», а «станция, остановка»."
+    },
+    {
+      "sr_cyrillic": "стајалиште",
+      "sr_latin": "stajalište",
+      "pronunciation_ru": "стАялиште",
+      "translation_ru": "остановка (автобусная)",
+      "example_sr": "Аутобуско стајалиште је ту.",
+      "example_ru": "Автобусная остановка здесь.",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "пијаца",
+      "sr_latin": "pijaca",
+      "pronunciation_ru": "пИяца",
+      "translation_ru": "рынок",
+      "example_sr": "Идем на пијацу по воће.",
+      "example_ru": "Иду на рынок за фруктами.",
+      "false_friend_note": "Звучит как «пьяница», но это «рынок»."
+    },
+    {
+      "sr_cyrillic": "парк",
+      "sr_latin": "park",
+      "pronunciation_ru": "парк",
+      "translation_ru": "парк",
+      "example_sr": "Прошетајмо кроз парк.",
+      "example_ru": "Пройдёмся через парк.",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "сокак",
+      "sr_latin": "sokak",
+      "pronunciation_ru": "сОкак",
+      "translation_ru": "переулок, узкая улочка",
+      "example_sr": "Скрените у онај уски сокак.",
+      "example_ru": "Сверните в тот узкий переулок.",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "пут",
+      "sr_latin": "put",
+      "pronunciation_ru": "пут",
+      "translation_ru": "дорога, путь",
+      "example_sr": "Пут је затворен због радова.",
+      "example_ru": "Дорога закрыта из-за ремонта.",
+      "false_friend_note": "Это «дорога/путь», но ещё и «раз»: «три пута» — «три раза»."
+    },
+    {
+      "sr_cyrillic": "пешке",
+      "sr_latin": "peške",
+      "pronunciation_ru": "пЭшке",
+      "translation_ru": "пешком",
+      "example_sr": "Одавде је пет минута пешке.",
+      "example_ru": "Отсюда пять минут пешком.",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "одмах",
+      "sr_latin": "odmah",
+      "pronunciation_ru": "Одмах",
+      "translation_ru": "сразу, тут же",
+      "example_sr": "То је одмах ту, иза угла.",
+      "example_ru": "Это прямо тут, за углом.",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "следећа",
+      "sr_latin": "sledeća",
+      "pronunciation_ru": "слЭдеча",
+      "translation_ru": "следующая",
+      "example_sr": "Следећа улица лево.",
+      "example_ru": "Следующая улица налево.",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "прва",
+      "sr_latin": "prva",
+      "pronunciation_ru": "прва",
+      "translation_ru": "первая",
+      "example_sr": "Прва десно, па друга лево.",
+      "example_ru": "Первая направо, потом вторая налево.",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "наставите",
+      "sr_latin": "nastavite",
+      "pronunciation_ru": "нАставите",
+      "translation_ru": "продолжайте (идти)",
+      "example_sr": "Наставите право још мало.",
+      "example_ru": "Идите прямо ещё немного.",
+      "false_friend_note": "«Наставите» — «продолжайте (путь)», а не «наставлять/поучать»."
+    },
+    {
+      "sr_cyrillic": "вратите се",
+      "sr_latin": "vratite se",
+      "pronunciation_ru": "врАтите се",
+      "translation_ru": "вернитесь",
+      "example_sr": "Мало сте прошли, вратите се.",
+      "example_ru": "Вы немного прошли мимо, вернитесь.",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "ено",
+      "sr_latin": "eno",
+      "pronunciation_ru": "Эно",
+      "translation_ru": "вон там (указывая вдаль)",
+      "example_sr": "Ено га, на крају улице.",
+      "example_ru": "Вон он, в конце улицы.",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "ево",
+      "sr_latin": "evo",
+      "pronunciation_ru": "Эво",
+      "translation_ru": "вот (тут, рядом)",
+      "example_sr": "Ево, ту је, стигли смо.",
+      "example_ru": "Вот, здесь, пришли.",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "адреса",
+      "sr_latin": "adresa",
+      "pronunciation_ru": "адрЭса",
+      "translation_ru": "адрес",
+      "example_sr": "Дајте ми тачну адресу.",
+      "example_ru": "Дайте мне точный адрес.",
+      "false_friend_note": ""
+    }
+  ]
+}

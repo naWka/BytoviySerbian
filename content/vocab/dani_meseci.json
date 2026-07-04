@@ -1,0 +1,385 @@
+{
+  "id": "dani_meseci",
+  "title_ru": "📅 Дни и месяцы",
+  "title_sr": "Дани и месеци",
+  "words": [
+    {
+      "sr_cyrillic": "понедељак",
+      "sr_latin": "ponedeljak",
+      "pronunciation_ru": "понЭдэляк",
+      "translation_ru": "понедельник",
+      "example_sr": "Видимо се у понедељак.",
+      "example_ru": "Увидимся в понедельник.",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "уторак",
+      "sr_latin": "utorak",
+      "pronunciation_ru": "Уторак",
+      "translation_ru": "вторник",
+      "example_sr": "Радимо од уторка до петка.",
+      "example_ru": "Работаем со вторника по пятницу.",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "среда",
+      "sr_latin": "sreda",
+      "pronunciation_ru": "срЭда",
+      "translation_ru": "среда",
+      "example_sr": "Пијаца ради средом.",
+      "example_ru": "Рынок работает по средам.",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "четвртак",
+      "sr_latin": "četvrtak",
+      "pronunciation_ru": "чЭтвртак",
+      "translation_ru": "четверг",
+      "example_sr": "Пакет стиже у четвртак.",
+      "example_ru": "Посылка придёт в четверг.",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "петак",
+      "sr_latin": "petak",
+      "pronunciation_ru": "пЭтак",
+      "translation_ru": "пятница",
+      "example_sr": "У петак затварамо раније.",
+      "example_ru": "В пятницу закрываемся раньше.",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "субота",
+      "sr_latin": "subota",
+      "pronunciation_ru": "сУбота",
+      "translation_ru": "суббота",
+      "example_sr": "Суботом смо отворени до подне.",
+      "example_ru": "По субботам мы открыты до полудня.",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "недеља",
+      "sr_latin": "nedelja",
+      "pronunciation_ru": "нЭдэља",
+      "translation_ru": "воскресенье; неделя",
+      "example_sr": "Недељом не радимо.",
+      "example_ru": "По воскресеньям мы не работаем.",
+      "false_friend_note": "В сербском «недеља» — это и воскресенье, и неделя (7 дней). Русское «неделя» = только семь дней. Если серб говорит «у недељу», это чаще «в воскресенье»."
+    },
+    {
+      "sr_cyrillic": "јануар",
+      "sr_latin": "januar",
+      "pronunciation_ru": "Януар",
+      "translation_ru": "январь",
+      "example_sr": "Рачун плаћате до краја јануара.",
+      "example_ru": "Счёт оплачиваете до конца января.",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "фебруар",
+      "sr_latin": "februar",
+      "pronunciation_ru": "фЭбруар",
+      "translation_ru": "февраль",
+      "example_sr": "Фебруар има двадесет осам дана.",
+      "example_ru": "В феврале двадцать восемь дней.",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "март",
+      "sr_latin": "mart",
+      "pronunciation_ru": "мАрт",
+      "translation_ru": "март",
+      "example_sr": "Од марта мењамо радно време.",
+      "example_ru": "С марта меняем режим работы.",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "април",
+      "sr_latin": "april",
+      "pronunciation_ru": "Април",
+      "translation_ru": "апрель",
+      "example_sr": "Пролеће почиње у априлу.",
+      "example_ru": "Весна начинается в апреле.",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "мај",
+      "sr_latin": "maj",
+      "pronunciation_ru": "мАй",
+      "translation_ru": "май",
+      "example_sr": "Први мај је празник.",
+      "example_ru": "Первое мая — праздник.",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "јун",
+      "sr_latin": "jun",
+      "pronunciation_ru": "Юн",
+      "translation_ru": "июнь",
+      "example_sr": "Школа траје до јуна.",
+      "example_ru": "Школа длится до июня.",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "јул",
+      "sr_latin": "jul",
+      "pronunciation_ru": "Юл",
+      "translation_ru": "июль",
+      "example_sr": "У јулу је највећа врућина.",
+      "example_ru": "В июле самая большая жара.",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "август",
+      "sr_latin": "avgust",
+      "pronunciation_ru": "Август",
+      "translation_ru": "август",
+      "example_sr": "Годишњи одмор користим у августу.",
+      "example_ru": "Отпуск беру в августе.",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "септембар",
+      "sr_latin": "septembar",
+      "pronunciation_ru": "сэптЭмбар",
+      "translation_ru": "сентябрь",
+      "example_sr": "Школа почиње у септембру.",
+      "example_ru": "Школа начинается в сентябре.",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "октобар",
+      "sr_latin": "oktobar",
+      "pronunciation_ru": "октОбар",
+      "translation_ru": "октябрь",
+      "example_sr": "У октобру често пада киша.",
+      "example_ru": "В октябре часто идёт дождь.",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "новембар",
+      "sr_latin": "novembar",
+      "pronunciation_ru": "новЭмбар",
+      "translation_ru": "ноябрь",
+      "example_sr": "Новембар је хладан месец.",
+      "example_ru": "Ноябрь — холодный месяц.",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "децембар",
+      "sr_latin": "decembar",
+      "pronunciation_ru": "дэцЭмбар",
+      "translation_ru": "декабрь",
+      "example_sr": "Децембра купујемо поклоне.",
+      "example_ru": "В декабре покупаем подарки.",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "данас",
+      "sr_latin": "danas",
+      "pronunciation_ru": "дАнас",
+      "translation_ru": "сегодня",
+      "example_sr": "Данас смо затворени.",
+      "example_ru": "Сегодня мы закрыты.",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "јуче",
+      "sr_latin": "juče",
+      "pronunciation_ru": "Юче",
+      "translation_ru": "вчера",
+      "example_sr": "Јуче сам био код лекара.",
+      "example_ru": "Вчера я был у врача.",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "сутра",
+      "sr_latin": "sutra",
+      "pronunciation_ru": "сУтра",
+      "translation_ru": "завтра",
+      "example_sr": "Дођите сутра ујутру.",
+      "example_ru": "Приходите завтра утром.",
+      "false_friend_note": "Звучит как русское «с утра», но значит «завтра». «С утра» по-сербски — «ујутру»."
+    },
+    {
+      "sr_cyrillic": "прекјуче",
+      "sr_latin": "prekjuče",
+      "pronunciation_ru": "прЭкюче",
+      "translation_ru": "позавчера",
+      "example_sr": "Пакет је стигао прекјуче.",
+      "example_ru": "Посылка пришла позавчера.",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "прекосутра",
+      "sr_latin": "prekosutra",
+      "pronunciation_ru": "прэкОсутра",
+      "translation_ru": "послезавтра",
+      "example_sr": "Видимо се прекосутра.",
+      "example_ru": "Увидимся послезавтра.",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "синоћ",
+      "sr_latin": "sinoć",
+      "pronunciation_ru": "сИночь",
+      "translation_ru": "вчера вечером",
+      "example_sr": "Синоћ је падала киша.",
+      "example_ru": "Вчера вечером шёл дождь.",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "вечерас",
+      "sr_latin": "večeras",
+      "pronunciation_ru": "вэчЭрас",
+      "translation_ru": "сегодня вечером",
+      "example_sr": "Вечерас идемо у позориште.",
+      "example_ru": "Сегодня вечером идём в театр.",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "јутрос",
+      "sr_latin": "jutros",
+      "pronunciation_ru": "Ютрос",
+      "translation_ru": "сегодня утром",
+      "example_sr": "Јутрос сам попио кафу.",
+      "example_ru": "Сегодня утром я выпил кофе.",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "дан",
+      "sr_latin": "dan",
+      "pronunciation_ru": "дАн",
+      "translation_ru": "день",
+      "example_sr": "Отворено сваки дан.",
+      "example_ru": "Открыто каждый день.",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "седмица",
+      "sr_latin": "sedmica",
+      "pronunciation_ru": "сЭдмица",
+      "translation_ru": "неделя (7 дней)",
+      "example_sr": "Видимо се за седмицу дана.",
+      "example_ru": "Увидимся через неделю.",
+      "false_friend_note": "Однозначно «неделя, 7 дней». Удобно, когда «недеља» можно спутать с воскресеньем."
+    },
+    {
+      "sr_cyrillic": "месец",
+      "sr_latin": "mesec",
+      "pronunciation_ru": "мЭсэц",
+      "translation_ru": "месяц",
+      "example_sr": "Кирију плаћам сваког месеца.",
+      "example_ru": "Аренду плачу каждый месяц.",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "година",
+      "sr_latin": "godina",
+      "pronunciation_ru": "гОдина",
+      "translation_ru": "год",
+      "example_sr": "Уговор важи годину дана.",
+      "example_ru": "Договор действует один год.",
+      "false_friend_note": "Сербское «година» = год. В русском «година» — книжное «тяжёлое время», а в украинском «година» = час. В сербском это именно год."
+    },
+    {
+      "sr_cyrillic": "викенд",
+      "sr_latin": "vikend",
+      "pronunciation_ru": "вИкэнд",
+      "translation_ru": "выходные",
+      "example_sr": "За викенд путујемо на море.",
+      "example_ru": "На выходные едем на море.",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "радни дан",
+      "sr_latin": "radni dan",
+      "pronunciation_ru": "рАдни дАн",
+      "translation_ru": "будний день",
+      "example_sr": "Испорука само радним даном.",
+      "example_ru": "Доставка только по будням.",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "празник",
+      "sr_latin": "praznik",
+      "pronunciation_ru": "прАзник",
+      "translation_ru": "праздник",
+      "example_sr": "Сутра је државни празник.",
+      "example_ru": "Завтра государственный праздник.",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "датум",
+      "sr_latin": "datum",
+      "pronunciation_ru": "дАтум",
+      "translation_ru": "дата, число",
+      "example_sr": "Који је данас датум?",
+      "example_ru": "Какое сегодня число?",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "прошле недеље",
+      "sr_latin": "prošle nedelje",
+      "pronunciation_ru": "прОшле нЭдэље",
+      "translation_ru": "на прошлой неделе",
+      "example_sr": "Био сам тамо прошле недеље.",
+      "example_ru": "Я был там на прошлой неделе.",
+      "false_friend_note": "Обычно значит «на прошлой неделе». Но «недеља» = ещё и воскресенье, поэтому по контексту иногда «в прошлое воскресенье»."
+    },
+    {
+      "sr_cyrillic": "следеће недеље",
+      "sr_latin": "sledeće nedelje",
+      "pronunciation_ru": "слЭдэче нЭдэље",
+      "translation_ru": "на следующей неделе",
+      "example_sr": "Јавићу вам се следеће недеље.",
+      "example_ru": "Свяжусь с вами на следующей неделе.",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "ове недеље",
+      "sr_latin": "ove nedelje",
+      "pronunciation_ru": "Ове нЭдэље",
+      "translation_ru": "на этой неделе",
+      "example_sr": "Ове недеље радим од куће.",
+      "example_ru": "На этой неделе работаю из дома.",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "прошлог месеца",
+      "sr_latin": "prošlog meseca",
+      "pronunciation_ru": "прОшлог мЭсэца",
+      "translation_ru": "в прошлом месяце",
+      "example_sr": "Купио сам то прошлог месеца.",
+      "example_ru": "Я купил это в прошлом месяце.",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "следећег месеца",
+      "sr_latin": "sledećeg meseca",
+      "pronunciation_ru": "слЭдэчег мЭсэца",
+      "translation_ru": "в следующем месяце",
+      "example_sr": "Плаћање доспева следећег месеца.",
+      "example_ru": "Платёж наступает в следующем месяце.",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "ујутру",
+      "sr_latin": "ujutru",
+      "pronunciation_ru": "Ујутру",
+      "translation_ru": "утром",
+      "example_sr": "Апотека се отвара ујутру у седам.",
+      "example_ru": "Аптека открывается утром в семь.",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "увече",
+      "sr_latin": "uveče",
+      "pronunciation_ru": "увЭче",
+      "translation_ru": "вечером",
+      "example_sr": "Продавница ради до девет увече.",
+      "example_ru": "Магазин работает до девяти вечера.",
+      "false_friend_note": ""
+    }
+  ]
+}

@@ -1,0 +1,385 @@
+{
+  "id": "auto_voznja",
+  "title_ru": "🚗 Авто и вождение",
+  "title_sr": "Ауто и вожња",
+  "words": [
+    {
+      "sr_cyrillic": "бензин",
+      "sr_latin": "benzin",
+      "pronunciation_ru": "бЕнзин",
+      "translation_ru": "бензин",
+      "example_sr": "Колико кошта литар бензина?",
+      "example_ru": "Сколько стоит литр бензина?",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "дизел",
+      "sr_latin": "dizel",
+      "pronunciation_ru": "дИзел",
+      "translation_ru": "дизель, дизельное топливо",
+      "example_sr": "Овај ауто троши мало дизела.",
+      "example_ru": "Эта машина мало ест дизеля.",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "гориво",
+      "sr_latin": "gorivo",
+      "pronunciation_ru": "гОриво",
+      "translation_ru": "топливо",
+      "example_sr": "Гориво је опет поскупело.",
+      "example_ru": "Топливо снова подорожало.",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "бензинска пумпа",
+      "sr_latin": "benzinska pumpa",
+      "pronunciation_ru": "бензИнска пУмпа",
+      "translation_ru": "заправка, АЗС",
+      "example_sr": "Стани на првој бензинској пумпи.",
+      "example_ru": "Остановись на первой заправке.",
+      "false_friend_note": "«Пумпа» — это не только «насос»: на дороге пумпа значит заправку (АЗС)."
+    },
+    {
+      "sr_cyrillic": "точити",
+      "sr_latin": "točiti",
+      "pronunciation_ru": "тОчити",
+      "translation_ru": "наливать (топливо)",
+      "example_sr": "Колико да Вам точим?",
+      "example_ru": "Сколько вам налить?",
+      "false_friend_note": "Похоже на «точить», но точити значит «наливать» (жидкость)."
+    },
+    {
+      "sr_cyrillic": "резервоар",
+      "sr_latin": "rezervoar",
+      "pronunciation_ru": "резЕрвоар",
+      "translation_ru": "бак (топливный)",
+      "example_sr": "Резервоар је скоро празан.",
+      "example_ru": "Бак почти пустой.",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "до пуног",
+      "sr_latin": "do punog",
+      "pronunciation_ru": "до пУног",
+      "translation_ru": "до полного (полный бак)",
+      "example_sr": "Напуните до пуног, молим Вас.",
+      "example_ru": "Залейте полный бак, пожалуйста.",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "паркинг",
+      "sr_latin": "parking",
+      "pronunciation_ru": "пАркинг",
+      "translation_ru": "парковка, стоянка",
+      "example_sr": "Где је најближи паркинг?",
+      "example_ru": "Где ближайшая парковка?",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "паркирати се",
+      "sr_latin": "parkirati se",
+      "pronunciation_ru": "паркИрати се",
+      "translation_ru": "парковаться, припарковаться",
+      "example_sr": "Овде не смеш да се паркираш.",
+      "example_ru": "Здесь нельзя парковаться.",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "паркинг место",
+      "sr_latin": "parking mesto",
+      "pronunciation_ru": "пАркинг мЕсто",
+      "translation_ru": "парковочное место",
+      "example_sr": "Нема слободног паркинг места.",
+      "example_ru": "Нет свободного парковочного места.",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "паук",
+      "sr_latin": "pauk",
+      "pronunciation_ru": "пАук",
+      "translation_ru": "эвакуатор (для машин)",
+      "example_sr": "Пази, однеће ти паук ауто.",
+      "example_ru": "Осторожно, эвакуатор увезёт твою машину.",
+      "false_friend_note": "Буквально «паук», но в дорожном контексте это эвакуатор."
+    },
+    {
+      "sr_cyrillic": "забрањено",
+      "sr_latin": "zabranjeno",
+      "pronunciation_ru": "забрАњено",
+      "translation_ru": "запрещено",
+      "example_sr": "Овде је паркирање строго забрањено.",
+      "example_ru": "Здесь парковка строго запрещена.",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "возачка дозвола",
+      "sr_latin": "vozačka dozvola",
+      "pronunciation_ru": "вОзачка дОзвола",
+      "translation_ru": "водительские права",
+      "example_sr": "Полиција тражи возачку дозволу.",
+      "example_ru": "Полиция требует водительские права.",
+      "false_friend_note": "«Дозвола» значит «разрешение/документ»; возачка дозвола — это права."
+    },
+    {
+      "sr_cyrillic": "саобраћајна дозвола",
+      "sr_latin": "saobraćajna dozvola",
+      "pronunciation_ru": "саобрАћајна дОзвола",
+      "translation_ru": "техпаспорт (документ на машину, СТС)",
+      "example_sr": "Саобраћајну дозволу држим у колима.",
+      "example_ru": "Техпаспорт держу в машине.",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "таблице",
+      "sr_latin": "tablice",
+      "pronunciation_ru": "тАблице",
+      "translation_ru": "номера (гос. номерные знаки)",
+      "example_sr": "Записао сам му таблице.",
+      "example_ru": "Я записал его номера.",
+      "false_friend_note": "Не «таблетки» и не «таблицы» — таблице это номерные знаки."
+    },
+    {
+      "sr_cyrillic": "регистрација",
+      "sr_latin": "registracija",
+      "pronunciation_ru": "регистрАција",
+      "translation_ru": "регистрация авто (ежегодная постановка на учёт)",
+      "example_sr": "Регистрација ми истиче овог месеца.",
+      "example_ru": "У меня регистрация заканчивается в этом месяце.",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "казна",
+      "sr_latin": "kazna",
+      "pronunciation_ru": "кАзна",
+      "translation_ru": "штраф",
+      "example_sr": "Стигла ми је казна за брзу вожњу.",
+      "example_ru": "Мне пришёл штраф за превышение скорости.",
+      "false_friend_note": "Похоже на «казнь», но казна значит «штраф/наказание»."
+    },
+    {
+      "sr_cyrillic": "прекршај",
+      "sr_latin": "prekršaj",
+      "pronunciation_ru": "прЕкршай",
+      "translation_ru": "нарушение (правил)",
+      "example_sr": "Направили сте саобраћајни прекршај.",
+      "example_ru": "Вы совершили нарушение ПДД.",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "саобраћајац",
+      "sr_latin": "saobraćajac",
+      "pronunciation_ru": "саобраћАјац",
+      "translation_ru": "дорожный полицейский, гаишник",
+      "example_sr": "Зауставио нас је саобраћајац.",
+      "example_ru": "Нас остановил дорожный полицейский.",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "гума",
+      "sr_latin": "guma",
+      "pronunciation_ru": "гУма",
+      "translation_ru": "шина, покрышка",
+      "example_sr": "Морам да заменим летње гуме.",
+      "example_ru": "Надо поменять летнюю резину.",
+      "false_friend_note": "Гума — это ещё и «резина/ластик»; в контексте авто это шина."
+    },
+    {
+      "sr_cyrillic": "зимске гуме",
+      "sr_latin": "zimske gume",
+      "pronunciation_ru": "зИмске гУме",
+      "translation_ru": "зимняя резина",
+      "example_sr": "Зими су обавезне зимске гуме.",
+      "example_ru": "Зимой обязательна зимняя резина.",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "пукла гума",
+      "sr_latin": "pukla guma",
+      "pronunciation_ru": "пУкла гУма",
+      "translation_ru": "пробитое колесо, спустило шину",
+      "example_sr": "Пукла ми је гума на аутопуту.",
+      "example_ru": "У меня спустило колесо на трассе.",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "резервна гума",
+      "sr_latin": "rezervna guma",
+      "pronunciation_ru": "рЕзервна гУма",
+      "translation_ru": "запасное колесо, запаска",
+      "example_sr": "Имаш ли резервну гуму у гепеку?",
+      "example_ru": "У тебя есть запаска в багажнике?",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "точак",
+      "sr_latin": "točak",
+      "pronunciation_ru": "тОчак",
+      "translation_ru": "колесо",
+      "example_sr": "Предњи леви точак је оштећен.",
+      "example_ru": "Переднее левое колесо повреждено.",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "притисак",
+      "sr_latin": "pritisak",
+      "pronunciation_ru": "прИтисак",
+      "translation_ru": "давление (в шинах)",
+      "example_sr": "Проверите притисак у гумама.",
+      "example_ru": "Проверьте давление в шинах.",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "незгода",
+      "sr_latin": "nezgoda",
+      "pronunciation_ru": "нЕзгода",
+      "translation_ru": "авария, ДТП",
+      "example_sr": "Десила се незгода код семафора.",
+      "example_ru": "У светофора произошло ДТП.",
+      "false_friend_note": "Не «неудобство» — незгода значит «авария/ДТП, несчастный случай»."
+    },
+    {
+      "sr_cyrillic": "судар",
+      "sr_latin": "sudar",
+      "pronunciation_ru": "сУдар",
+      "translation_ru": "столкновение",
+      "example_sr": "Био је лакши судар, нема повређених.",
+      "example_ru": "Было лёгкое столкновение, пострадавших нет.",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "штета",
+      "sr_latin": "šteta",
+      "pronunciation_ru": "штЕта",
+      "translation_ru": "ущерб, повреждение",
+      "example_sr": "Штета на аутомобилу је мала.",
+      "example_ru": "Ущерб машине небольшой.",
+      "false_friend_note": "Штета значит и «ущерб», и «жаль»: «Штета!» = «Жаль!»."
+    },
+    {
+      "sr_cyrillic": "осигурање",
+      "sr_latin": "osiguranje",
+      "pronunciation_ru": "осигурАње",
+      "translation_ru": "страховка",
+      "example_sr": "Да ли имате обавезно осигурање?",
+      "example_ru": "У вас есть обязательная страховка (ОСАГО)?",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "технички преглед",
+      "sr_latin": "tehnički pregled",
+      "pronunciation_ru": "тЕхнички прЕглед",
+      "translation_ru": "техосмотр",
+      "example_sr": "Ауто мора на технички преглед сваке године.",
+      "example_ru": "Машина каждый год должна проходить техосмотр.",
+      "false_friend_note": "«Преглед» — это осмотр/проверка, а не «пригляд»."
+    },
+    {
+      "sr_cyrillic": "сервис",
+      "sr_latin": "servis",
+      "pronunciation_ru": "сЕрвис",
+      "translation_ru": "автосервис, СТО",
+      "example_sr": "Ауто ми је још увек у сервису.",
+      "example_ru": "Машина всё ещё в сервисе.",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "механичар",
+      "sr_latin": "mehaničar",
+      "pronunciation_ru": "мехАничар",
+      "translation_ru": "автомеханик",
+      "example_sr": "Механичар каже да је квар мали.",
+      "example_ru": "Механик говорит, поломка небольшая.",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "квар",
+      "sr_latin": "kvar",
+      "pronunciation_ru": "квАр",
+      "translation_ru": "поломка, неисправность",
+      "example_sr": "Појавио се квар на мотору.",
+      "example_ru": "Появилась неисправность двигателя.",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "шлеп",
+      "sr_latin": "šlep",
+      "pronunciation_ru": "шлЕп",
+      "translation_ru": "эвакуатор, буксировка",
+      "example_sr": "Морам да позовем шлеп службу.",
+      "example_ru": "Надо вызвать эвакуатор.",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "акумулатор",
+      "sr_latin": "akumulator",
+      "pronunciation_ru": "акумулАтор",
+      "translation_ru": "аккумулятор",
+      "example_sr": "Акумулатор се испразнио преко ноћи.",
+      "example_ru": "Аккумулятор разрядился за ночь.",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "мотор",
+      "sr_latin": "motor",
+      "pronunciation_ru": "мОтор",
+      "translation_ru": "двигатель, мотор",
+      "example_sr": "Мотор се прегрејао на сунцу.",
+      "example_ru": "Двигатель перегрелся на солнце.",
+      "false_friend_note": "«Мотор» в Сербии часто значит и «мотоцикл», не только двигатель."
+    },
+    {
+      "sr_cyrillic": "кочнице",
+      "sr_latin": "kočnice",
+      "pronunciation_ru": "кОчнице",
+      "translation_ru": "тормоза",
+      "example_sr": "Кочнице почињу да шкрипе.",
+      "example_ru": "Тормоза начинают скрипеть.",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "мигавац",
+      "sr_latin": "migavac",
+      "pronunciation_ru": "мИгавац",
+      "translation_ru": "поворотник (указатель поворота)",
+      "example_sr": "Укључи мигавац пре скретања.",
+      "example_ru": "Включи поворотник перед поворотом.",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "путарина",
+      "sr_latin": "putarina",
+      "pronunciation_ru": "пУтарина",
+      "translation_ru": "плата за проезд (по платной дороге)",
+      "example_sr": "Колика је путарина до Новог Сада?",
+      "example_ru": "Сколько стоит проезд до Нови-Сада?",
+      "false_friend_note": "«Пут» значит «дорога/путь» (и «раз»); путарина — плата за проезд по дороге."
+    },
+    {
+      "sr_cyrillic": "семафор",
+      "sr_latin": "semafor",
+      "pronunciation_ru": "сЕмафор",
+      "translation_ru": "светофор",
+      "example_sr": "Скрени десно на семафору.",
+      "example_ru": "Поверни направо на светофоре.",
+      "false_friend_note": "В русском «семафор» чаще про железную дорогу; сербский семафор — обычный светофор."
+    },
+    {
+      "sr_cyrillic": "право",
+      "sr_latin": "pravo",
+      "pronunciation_ru": "прАво",
+      "translation_ru": "прямо (направление движения)",
+      "example_sr": "Идите право, па онда лево.",
+      "example_ru": "Езжайте прямо, потом налево.",
+      "false_friend_note": "Классика: право = «прямо» (направление). «Направо» будет «десно»."
+    },
+    {
+      "sr_cyrillic": "брзина",
+      "sr_latin": "brzina",
+      "pronunciation_ru": "брзИна",
+      "translation_ru": "скорость; передача (в коробке)",
+      "example_sr": "Смањи брзину, улазимо у насеље.",
+      "example_ru": "Сбавь скорость, въезжаем в населённый пункт.",
+      "false_friend_note": "Брзина — это «скорость», а «у првој брзини» = «на первой передаче»."
+    }
+  ]
+}

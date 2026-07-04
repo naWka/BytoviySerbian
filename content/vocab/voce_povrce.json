@@ -1,0 +1,385 @@
+{
+  "id": "voce_povrce",
+  "title_ru": "🍎 Фрукты и овощи",
+  "title_sr": "Воће и поврће",
+  "words": [
+    {
+      "sr_cyrillic": "воће",
+      "sr_latin": "voće",
+      "pronunciation_ru": "вОче",
+      "translation_ru": "фрукты (собирательно)",
+      "example_sr": "Свеже воће је код улаза.",
+      "example_ru": "Свежие фрукты у входа.",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "поврће",
+      "sr_latin": "povrće",
+      "pronunciation_ru": "пОврче",
+      "translation_ru": "овощи (собирательно)",
+      "example_sr": "Поврће је позади, поред ваге.",
+      "example_ru": "Овощи сзади, рядом с весами.",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "јабука",
+      "sr_latin": "jabuka",
+      "pronunciation_ru": "йАбука",
+      "translation_ru": "яблоко",
+      "example_sr": "Ове јабуке су слатке, домаће.",
+      "example_ru": "Эти яблоки сладкие, местные.",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "крушка",
+      "sr_latin": "kruška",
+      "pronunciation_ru": "крУшка",
+      "translation_ru": "груша",
+      "example_sr": "Крушке су мало мекше данас.",
+      "example_ru": "Груши сегодня чуть мягче.",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "банана",
+      "sr_latin": "banana",
+      "pronunciation_ru": "банАна",
+      "translation_ru": "банан",
+      "example_sr": "Банане су зелене, сазреће за два дана.",
+      "example_ru": "Бананы зелёные, дозреют за пару дней.",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "поморанџа",
+      "sr_latin": "pomorandža",
+      "pronunciation_ru": "помОранджа",
+      "translation_ru": "апельсин",
+      "example_sr": "Поморанџе су сочне, за цеђење.",
+      "example_ru": "Апельсины сочные, для сока.",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "лимун",
+      "sr_latin": "limun",
+      "pronunciation_ru": "лИмун",
+      "translation_ru": "лимон",
+      "example_sr": "Дајте ми два лимуна.",
+      "example_ru": "Дайте мне два лимона.",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "грожђе",
+      "sr_latin": "grožđe",
+      "pronunciation_ru": "грОжде",
+      "translation_ru": "виноград",
+      "example_sr": "Ово грожђе је без коштица.",
+      "example_ru": "Этот виноград без косточек.",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "јагода",
+      "sr_latin": "jagoda",
+      "pronunciation_ru": "йАгода",
+      "translation_ru": "клубника",
+      "example_sr": "Јагоде су стигле јутрос.",
+      "example_ru": "Клубника поступила сегодня утром.",
+      "false_friend_note": "По-русски «ягода» — любая ягода, а сербское јагода — это именно клубника."
+    },
+    {
+      "sr_cyrillic": "малина",
+      "sr_latin": "malina",
+      "pronunciation_ru": "мАлина",
+      "translation_ru": "малина",
+      "example_sr": "Малине држим у фрижидеру.",
+      "example_ru": "Малину держу в холодильнике.",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "боровница",
+      "sr_latin": "borovnica",
+      "pronunciation_ru": "борОвница",
+      "translation_ru": "черника",
+      "example_sr": "Боровнице су скупље од јагода.",
+      "example_ru": "Черника дороже клубники.",
+      "false_friend_note": "Созвучно с «боровик» (гриб), но боровница — это черника."
+    },
+    {
+      "sr_cyrillic": "бресква",
+      "sr_latin": "breskva",
+      "pronunciation_ru": "брЭсква",
+      "translation_ru": "персик",
+      "example_sr": "Ове брескве су баш зреле.",
+      "example_ru": "Эти персики совсем спелые.",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "кајсија",
+      "sr_latin": "kajsija",
+      "pronunciation_ru": "кАйсия",
+      "translation_ru": "абрикос",
+      "example_sr": "Кајсије су одличне за слатко.",
+      "example_ru": "Абрикосы отличные для варенья.",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "шљива",
+      "sr_latin": "šljiva",
+      "pronunciation_ru": "шлИва",
+      "translation_ru": "слива",
+      "example_sr": "Од ових шљива се прави ракија.",
+      "example_ru": "Из этих слив делают ракию.",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "трешња",
+      "sr_latin": "trešnja",
+      "pronunciation_ru": "трЭшня",
+      "translation_ru": "черешня",
+      "example_sr": "Трешње су слатке, вишње киселе.",
+      "example_ru": "Черешня сладкая, а вишня кислая.",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "вишња",
+      "sr_latin": "višnja",
+      "pronunciation_ru": "вИшня",
+      "translation_ru": "вишня",
+      "example_sr": "Вишње су добре за колаче.",
+      "example_ru": "Вишня хороша для пирогов.",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "лубеница",
+      "sr_latin": "lubenica",
+      "pronunciation_ru": "лубЭница",
+      "translation_ru": "арбуз",
+      "example_sr": "Да вам исечем лубеницу да пробате?",
+      "example_ru": "Разрезать вам арбуз попробовать?",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "диња",
+      "sr_latin": "dinja",
+      "pronunciation_ru": "дИня",
+      "translation_ru": "дыня",
+      "example_sr": "Диња је слађа од лубенице.",
+      "example_ru": "Дыня слаще арбуза.",
+      "false_friend_note": "Означает именно дыню, но легко перепутать с дуња (айва) — они почти одинаково звучат."
+    },
+    {
+      "sr_cyrillic": "дуња",
+      "sr_latin": "dunja",
+      "pronunciation_ru": "дУня",
+      "translation_ru": "айва",
+      "example_sr": "Од дуње правим слатко зими.",
+      "example_ru": "Из айвы делаю варенье зимой.",
+      "false_friend_note": "Звучит как русское «дыня», но дуња — это айва. Дыня по-сербски — диња."
+    },
+    {
+      "sr_cyrillic": "смоква",
+      "sr_latin": "smokva",
+      "pronunciation_ru": "смОква",
+      "translation_ru": "инжир",
+      "example_sr": "Свеже смокве брзо се кваре.",
+      "example_ru": "Свежий инжир быстро портится.",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "кромпир",
+      "sr_latin": "krompir",
+      "pronunciation_ru": "крОмпир",
+      "translation_ru": "картофель",
+      "example_sr": "Колико кила кромпира желите?",
+      "example_ru": "Сколько кило картошки желаете?",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "парадајз",
+      "sr_latin": "paradajz",
+      "pronunciation_ru": "парАдайз",
+      "translation_ru": "помидор",
+      "example_sr": "Парадајз за салату или за кување?",
+      "example_ru": "Помидоры для салата или для готовки?",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "краставац",
+      "sr_latin": "krastavac",
+      "pronunciation_ru": "крАставац",
+      "translation_ru": "огурец",
+      "example_sr": "Ови краставци су за киселење.",
+      "example_ru": "Эти огурцы для засолки.",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "паприка",
+      "sr_latin": "paprika",
+      "pronunciation_ru": "пАприка",
+      "translation_ru": "перец (сладкий или острый)",
+      "example_sr": "Ова паприка је љута, пазите.",
+      "example_ru": "Этот перец острый, осторожно.",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "шаргарепа",
+      "sr_latin": "šargarepa",
+      "pronunciation_ru": "шаргарЭпа",
+      "translation_ru": "морковь",
+      "example_sr": "Дајте једну везицу шаргарепе.",
+      "example_ru": "Дайте один пучок моркови.",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "црни лук",
+      "sr_latin": "crni luk",
+      "pronunciation_ru": "црни лУк",
+      "translation_ru": "лук репчатый",
+      "example_sr": "Црни лук је по кили, не по комаду.",
+      "example_ru": "Репчатый лук на вес, не поштучно.",
+      "false_friend_note": "Одно «лук» может значить и репчатый, и чеснок — уточняйте: црни (репчатый) или бели (чеснок)."
+    },
+    {
+      "sr_cyrillic": "бели лук",
+      "sr_latin": "beli luk",
+      "pronunciation_ru": "бЭли лУк",
+      "translation_ru": "чеснок",
+      "example_sr": "Бели лук је домаћи, јак.",
+      "example_ru": "Чеснок местный, ядрёный.",
+      "false_friend_note": "Дословно «белый лук», но означает чеснок, а не лук."
+    },
+    {
+      "sr_cyrillic": "купус",
+      "sr_latin": "kupus",
+      "pronunciation_ru": "кУпус",
+      "translation_ru": "капуста",
+      "example_sr": "Дајте ми једну главицу купуса.",
+      "example_ru": "Дайте мне один кочан капусты.",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "цвекла",
+      "sr_latin": "cvekla",
+      "pronunciation_ru": "цвЭкла",
+      "translation_ru": "свёкла",
+      "example_sr": "Цвекла је већ скувана.",
+      "example_ru": "Свёкла уже отварена.",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "пасуљ",
+      "sr_latin": "pasulj",
+      "pronunciation_ru": "пАсуль",
+      "translation_ru": "фасоль",
+      "example_sr": "Овај пасуљ се брзо кува.",
+      "example_ru": "Эта фасоль быстро варится.",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "грашак",
+      "sr_latin": "grašak",
+      "pronunciation_ru": "грАшак",
+      "translation_ru": "горох, горошек",
+      "example_sr": "Грашак је свеж, управо обран.",
+      "example_ru": "Горошек свежий, только что собран.",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "тиквица",
+      "sr_latin": "tikvica",
+      "pronunciation_ru": "тИквица",
+      "translation_ru": "кабачок",
+      "example_sr": "Тиквице су младе, нежне.",
+      "example_ru": "Кабачки молодые, нежные.",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "плави патлиџан",
+      "sr_latin": "plavi patlidžan",
+      "pronunciation_ru": "плАви патлИджан",
+      "translation_ru": "баклажан",
+      "example_sr": "Плави патлиџан је одличан за мусаку.",
+      "example_ru": "Баклажан отлично идёт в мусаку.",
+      "false_friend_note": "Дословно «синий патлиджан»: плави здесь значит тёмно-фиолетовый — это баклажан."
+    },
+    {
+      "sr_cyrillic": "спанаћ",
+      "sr_latin": "spanać",
+      "pronunciation_ru": "спАнач",
+      "translation_ru": "шпинат",
+      "example_sr": "Спанаћ је опран, можете одмах да кувате.",
+      "example_ru": "Шпинат помыт, можно сразу готовить.",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "першун",
+      "sr_latin": "peršun",
+      "pronunciation_ru": "пЭршун",
+      "translation_ru": "петрушка",
+      "example_sr": "Дам вам струк першуна гратис.",
+      "example_ru": "Дам вам веточку петрушки бесплатно.",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "зрео",
+      "sr_latin": "zreo",
+      "pronunciation_ru": "зрЭо",
+      "translation_ru": "спелый, зрелый",
+      "example_sr": "Хоћете зреле или тврђе банане?",
+      "example_ru": "Хотите спелые или потвёрже бананы?",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "свеж",
+      "sr_latin": "svež",
+      "pronunciation_ru": "свЭж",
+      "translation_ru": "свежий",
+      "example_sr": "Све је свеже, јутрос са пијаце.",
+      "example_ru": "Всё свежее, сегодня утром с рынка.",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "килограм",
+      "sr_latin": "kilogram",
+      "pronunciation_ru": "кИлограм",
+      "translation_ru": "килограмм (в речи часто «кило»)",
+      "example_sr": "Килограм и по, може?",
+      "example_ru": "Полтора килограмма, пойдёт?",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "везица",
+      "sr_latin": "vezica",
+      "pronunciation_ru": "вЭзица",
+      "translation_ru": "пучок (зелени, редиса)",
+      "example_sr": "Везица першуна је сто динара.",
+      "example_ru": "Пучок петрушки — сто динаров.",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "струк",
+      "sr_latin": "struk",
+      "pronunciation_ru": "стрУк",
+      "translation_ru": "стебель, веточка (штука зелени)",
+      "example_sr": "Дајте ми пар струкова младог лука.",
+      "example_ru": "Дайте мне пару стеблей зелёного лука.",
+      "false_friend_note": "Струк — это стебель/веточка, но то же слово значит «талия»."
+    },
+    {
+      "sr_cyrillic": "пијаца",
+      "sr_latin": "pijaca",
+      "pronunciation_ru": "пИяца",
+      "translation_ru": "рынок",
+      "example_sr": "На пијаци је јефтиније него у продавници.",
+      "example_ru": "На рынке дешевле, чем в магазине.",
+      "false_friend_note": "Похоже на «пьяница», но пијаца — это рынок."
+    },
+    {
+      "sr_cyrillic": "вага",
+      "sr_latin": "vaga",
+      "pronunciation_ru": "вАга",
+      "translation_ru": "весы",
+      "example_sr": "Ставите на вагу да измерим.",
+      "example_ru": "Положите на весы, я взвешу.",
+      "false_friend_note": ""
+    }
+  ]
+}

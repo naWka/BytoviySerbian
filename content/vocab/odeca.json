@@ -1,0 +1,385 @@
+{
+  "id": "odeca",
+  "title_ru": "👕 Одежда и обувь",
+  "title_sr": "Одећа и обућа",
+  "words": [
+    {
+      "sr_cyrillic": "одећа",
+      "sr_latin": "odeća",
+      "pronunciation_ru": "Одэћа",
+      "translation_ru": "одежда",
+      "example_sr": "Мушка одећа је десно од улаза.",
+      "example_ru": "Мужская одежда справа от входа.",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "обућа",
+      "sr_latin": "obuća",
+      "pronunciation_ru": "обУћа",
+      "translation_ru": "обувь",
+      "example_sr": "Обућа се мења у року од седам дана.",
+      "example_ru": "Обувь можно поменять в течение семи дней.",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "кошуља",
+      "sr_latin": "košulja",
+      "pronunciation_ru": "кОшуля",
+      "translation_ru": "рубашка",
+      "example_sr": "Ова кошуља вам је можда уска у раменима.",
+      "example_ru": "Эта рубашка вам, возможно, узковата в плечах.",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "мајица",
+      "sr_latin": "majica",
+      "pronunciation_ru": "мАйица",
+      "translation_ru": "футболка",
+      "example_sr": "Мајицу имамо и у већем броју.",
+      "example_ru": "Футболка есть и в большем размере.",
+      "false_friend_note": "«Мајица» — это любая футболка, а не только «майка»-безрукавка."
+    },
+    {
+      "sr_cyrillic": "панталоне",
+      "sr_latin": "pantalone",
+      "pronunciation_ru": "панталОнэ",
+      "translation_ru": "брюки",
+      "example_sr": "Панталоне су вам предугачке, скратићемо их.",
+      "example_ru": "Брюки вам длинноваты, мы их укоротим.",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "фармерке",
+      "sr_latin": "farmerke",
+      "pronunciation_ru": "фАрмэркэ",
+      "translation_ru": "джинсы",
+      "example_sr": "Ове фармерке се сужавају према дну.",
+      "example_ru": "Эти джинсы сужаются книзу.",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "јакна",
+      "sr_latin": "jakna",
+      "pronunciation_ru": "йАкна",
+      "translation_ru": "куртка",
+      "example_sr": "Јакна је водоотпорна, али није за велику зиму.",
+      "example_ru": "Куртка водостойкая, но не для сильных холодов.",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "капут",
+      "sr_latin": "kaput",
+      "pronunciation_ru": "кАпут",
+      "translation_ru": "пальто",
+      "example_sr": "Овај капут је од вуне, зато је топлији.",
+      "example_ru": "Это пальто из шерсти, поэтому теплее.",
+      "false_friend_note": "«Капут» — это пальто, а не «капут/конец», как в русском разговорном."
+    },
+    {
+      "sr_cyrillic": "џемпер",
+      "sr_latin": "džemper",
+      "pronunciation_ru": "джЭмпэр",
+      "translation_ru": "свитер",
+      "example_sr": "Џемпер перите ручно да се не скупи.",
+      "example_ru": "Свитер стирайте вручную, чтобы он не сел.",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "дуксерица",
+      "sr_latin": "dukserica",
+      "pronunciation_ru": "дуксЭрица",
+      "translation_ru": "худи, толстовка",
+      "example_sr": "Дуксерица са капуљачом је распродата у сивој.",
+      "example_ru": "Худи с капюшоном распродано в сером цвете.",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "хаљина",
+      "sr_latin": "haljina",
+      "pronunciation_ru": "хАлина",
+      "translation_ru": "платье",
+      "example_sr": "Ова хаљина се копча позади.",
+      "example_ru": "Это платье застёгивается сзади.",
+      "false_friend_note": "«Хаљина» — это платье, а не «халат». Домашний халат по-сербски — «кућни мантил»."
+    },
+    {
+      "sr_cyrillic": "сукња",
+      "sr_latin": "suknja",
+      "pronunciation_ru": "сУкня",
+      "translation_ru": "юбка",
+      "example_sr": "Сукњу можете да пробате у кабини десно.",
+      "example_ru": "Юбку можете примерить в кабинке справа.",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "хеланке",
+      "sr_latin": "helanke",
+      "pronunciation_ru": "хэлАнкэ",
+      "translation_ru": "легинсы",
+      "example_sr": "Хеланке су еластичне, одговарају за више величина.",
+      "example_ru": "Легинсы эластичные, подходят на несколько размеров.",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "прслук",
+      "sr_latin": "prsluk",
+      "pronunciation_ru": "прслУк",
+      "translation_ru": "жилет, безрукавка",
+      "example_sr": "Прслук се носи преко кошуље.",
+      "example_ru": "Жилет носят поверх рубашки.",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "доњи веш",
+      "sr_latin": "donji veš",
+      "pronunciation_ru": "дОньи вЭш",
+      "translation_ru": "нижнее бельё",
+      "example_sr": "Доњи веш не може да се врати ни замени.",
+      "example_ru": "Нижнее бельё нельзя вернуть или обменять.",
+      "false_friend_note": "«Веш» звучит как «вещь», но значит «бельё» и «стирку»; «доњи веш» — нижнее бельё."
+    },
+    {
+      "sr_cyrillic": "чарапе",
+      "sr_latin": "čarape",
+      "pronunciation_ru": "чАрапэ",
+      "translation_ru": "носки",
+      "example_sr": "Чарапе су на попусту ако узмете три пара.",
+      "example_ru": "Носки со скидкой, если возьмёте три пары.",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "ципеле",
+      "sr_latin": "cipele",
+      "pronunciation_ru": "цИпэлэ",
+      "translation_ru": "туфли, ботинки",
+      "example_sr": "Ове ципеле имамо само у црној боји.",
+      "example_ru": "Эти туфли есть только в чёрном цвете.",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "патике",
+      "sr_latin": "patike",
+      "pronunciation_ru": "пАтикэ",
+      "translation_ru": "кроссовки, кеды",
+      "example_sr": "Патике за трчање су у другом делу радње.",
+      "example_ru": "Кроссовки для бега в другой части магазина.",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "чизме",
+      "sr_latin": "čizme",
+      "pronunciation_ru": "чИзмэ",
+      "translation_ru": "сапоги",
+      "example_sr": "Чизме имају рајсфершлус са стране.",
+      "example_ru": "Сапоги на молнии сбоку.",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "сандале",
+      "sr_latin": "sandale",
+      "pronunciation_ru": "сАндалэ",
+      "translation_ru": "сандалии, босоножки",
+      "example_sr": "Сандале су вам мало широке, пробајте број мање.",
+      "example_ru": "Сандалии вам великоваты, примерьте на размер меньше.",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "папуче",
+      "sr_latin": "papuče",
+      "pronunciation_ru": "пАпучэ",
+      "translation_ru": "тапочки",
+      "example_sr": "Папуче са гуменим ђоном не клизе.",
+      "example_ru": "Тапочки на резиновой подошве не скользят.",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "пертле",
+      "sr_latin": "pertle",
+      "pronunciation_ru": "пЭртлэ",
+      "translation_ru": "шнурки",
+      "example_sr": "Резервне пертле се продају код касе.",
+      "example_ru": "Запасные шнурки продаются у кассы.",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "каиш",
+      "sr_latin": "kaiš",
+      "pronunciation_ru": "кАиш",
+      "translation_ru": "ремень",
+      "example_sr": "Уз панталоне добијате каиш на поклон.",
+      "example_ru": "К брюкам ремень идёт в подарок.",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "шал",
+      "sr_latin": "šal",
+      "pronunciation_ru": "шАл",
+      "translation_ru": "шарф",
+      "example_sr": "Шал и капа су комплет, не продају се одвојено.",
+      "example_ru": "Шарф и шапка — комплект, отдельно не продаются.",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "капа",
+      "sr_latin": "kapa",
+      "pronunciation_ru": "кАпа",
+      "translation_ru": "шапка",
+      "example_sr": "Капа је од вуне, може мало да гребе.",
+      "example_ru": "Шапка из шерсти, может немного колоться.",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "качкет",
+      "sr_latin": "kačket",
+      "pronunciation_ru": "кАчкэт",
+      "translation_ru": "кепка",
+      "example_sr": "Качкет има подесиву величину позади.",
+      "example_ru": "У кепки регулируемый размер сзади.",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "рукавице",
+      "sr_latin": "rukavice",
+      "pronunciation_ru": "рукавИцэ",
+      "translation_ru": "перчатки",
+      "example_sr": "Рукавице на додир раде са екраном телефона.",
+      "example_ru": "Сенсорные перчатки работают с экраном телефона.",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "ташна",
+      "sr_latin": "tašna",
+      "pronunciation_ru": "тАшна",
+      "translation_ru": "сумка",
+      "example_sr": "Ташна има дугачак каиш који се скида.",
+      "example_ru": "У сумки длинный съёмный ремешок.",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "замена",
+      "sr_latin": "zamena",
+      "pronunciation_ru": "замЭна",
+      "translation_ru": "обмен (товара)",
+      "example_sr": "Замена важи само уз рачун.",
+      "example_ru": "Обмен только при наличии чека.",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "број",
+      "sr_latin": "broj",
+      "pronunciation_ru": "брОй",
+      "translation_ru": "размер (одежды, обуви)",
+      "example_sr": "Који број носите?",
+      "example_ru": "Какой у вас размер?",
+      "false_friend_note": "«Број» — это число или номер вообще; в магазине одежды и обуви так называют размер."
+    },
+    {
+      "sr_cyrillic": "величина",
+      "sr_latin": "veličina",
+      "pronunciation_ru": "вэличИна",
+      "translation_ru": "размер",
+      "example_sr": "Ова величина вам савршено стоји.",
+      "example_ru": "Этот размер сидит на вас идеально.",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "кабина",
+      "sr_latin": "kabina",
+      "pronunciation_ru": "кабИна",
+      "translation_ru": "примерочная",
+      "example_sr": "Кабина за пробу је заузета, сачекајте минут.",
+      "example_ru": "Примерочная занята, подождите минуту.",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "пробати",
+      "sr_latin": "probati",
+      "pronunciation_ru": "прОбати",
+      "translation_ru": "примерить, попробовать",
+      "example_sr": "Слободно пробајте, кабина је слободна.",
+      "example_ru": "Меряйте спокойно, примерочная свободна.",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "огледало",
+      "sr_latin": "ogledalo",
+      "pronunciation_ru": "оглЭдало",
+      "translation_ru": "зеркало",
+      "example_sr": "Веће огледало имате на крају ходника.",
+      "example_ru": "Зеркало побольше в конце коридора.",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "боја",
+      "sr_latin": "boja",
+      "pronunciation_ru": "бОйа",
+      "translation_ru": "цвет",
+      "example_sr": "У овој боји немамо ваш број.",
+      "example_ru": "В этом цвете вашего размера нет.",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "памук",
+      "sr_latin": "pamuk",
+      "pronunciation_ru": "пАмук",
+      "translation_ru": "хлопок",
+      "example_sr": "Мајица је од стопостотног памука.",
+      "example_ru": "Футболка из стопроцентного хлопка.",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "кожа",
+      "sr_latin": "koža",
+      "pronunciation_ru": "кОжа",
+      "translation_ru": "кожа (материал)",
+      "example_sr": "Ова ташна је од праве коже.",
+      "example_ru": "Эта сумка из натуральной кожи.",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "попуст",
+      "sr_latin": "popust",
+      "pronunciation_ru": "пОпуст",
+      "translation_ru": "скидка",
+      "example_sr": "На ову јакну имате попуст од двадесет посто.",
+      "example_ru": "На эту куртку у вас скидка двадцать процентов.",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "снижење",
+      "sr_latin": "sniženje",
+      "pronunciation_ru": "снижЭнье",
+      "translation_ru": "уценка, сезонное снижение цен",
+      "example_sr": "Снижење важи до краја недеље.",
+      "example_ru": "Сниженные цены действуют до конца недели.",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "распродаја",
+      "sr_latin": "rasprodaja",
+      "pronunciation_ru": "распродАйа",
+      "translation_ru": "распродажа",
+      "example_sr": "На распродаји нема замене ни повраћаја новца.",
+      "example_ru": "На распродаже нет обмена и возврата денег.",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "рачун",
+      "sr_latin": "račun",
+      "pronunciation_ru": "рАчун",
+      "translation_ru": "чек, счёт",
+      "example_sr": "Чувајте рачун ако будете нешто мењали.",
+      "example_ru": "Сохраните чек, если будете что-то менять.",
+      "false_friend_note": "«Рачун» — это чек или счёт (в том числе банковский), а не «расчёт»."
+    },
+    {
+      "sr_cyrillic": "стоји",
+      "sr_latin": "stoji",
+      "pronunciation_ru": "стОйи",
+      "translation_ru": "идёт, сидит (об одежде)",
+      "example_sr": "Одлично вам стоји, баш је ваша величина.",
+      "example_ru": "Отлично на вас смотрится, как раз ваш размер.",
+      "false_friend_note": "«Стоји» значит и «стоит» (о цене), и «идёт/сидит» (об одежде): «добро ти стоји» — тебе идёт."
+    }
+  ]
+}
