@@ -1,8 +1,8 @@
 import { Alert, View } from 'react-native';
 
 import { StatTile } from '@/components/lists';
-import { Button, ProgressBar, Screen, Surface, Txt } from '@/components/ui';
-import { Spacing } from '@/constants/theme';
+import { Button, Ring, Screen, Surface, Txt } from '@/components/ui';
+import { Font, Radius, Spacing } from '@/constants/theme';
 import { useTheme } from '@/hooks/use-theme';
 import { content } from '@/lib/content';
 import { summarize } from '@/lib/srs';
@@ -44,19 +44,18 @@ export default function ProgressScreen() {
     <Screen scroll>
       <Txt variant="title">Прогресс</Txt>
 
-      <Surface style={{ marginTop: Spacing.lg }}>
-        <View style={{ flexDirection: 'row', justifyContent: 'space-between', alignItems: 'baseline' }}>
-          <Txt variant="h3">Выучено</Txt>
-          <Txt variant="h3" color={c.gradeGood}>
+      <Surface elevated style={{ marginTop: Spacing.lg, flexDirection: 'row', alignItems: 'center', gap: Spacing.xl }}>
+        <Ring value={mastPct} size={104} stroke={11} color={c.gradeGood}>
+          <Txt style={{ fontFamily: Font.black, fontSize: 26, color: c.gradeGood, letterSpacing: -0.5 }}>
             {Math.round(mastPct * 100)}%
           </Txt>
+        </Ring>
+        <View style={{ flex: 1, gap: 4 }}>
+          <Txt variant="h2">Выучено</Txt>
+          <Txt variant="small" muted>
+            {sum.review + sum.mastered} из {sum.total} карточек в работе
+          </Txt>
         </View>
-        <View style={{ marginTop: Spacing.sm }}>
-          <ProgressBar value={mastPct} color={c.gradeGood} height={10} />
-        </View>
-        <Txt variant="small" muted style={{ marginTop: Spacing.sm }}>
-          {sum.review + sum.mastered} из {sum.total} карточек в работе
-        </Txt>
       </Surface>
 
       <View style={{ flexDirection: 'row', gap: Spacing.sm, marginTop: Spacing.lg }}>
@@ -65,29 +64,35 @@ export default function ProgressScreen() {
       </View>
       <View style={{ flexDirection: 'row', gap: Spacing.sm, marginTop: Spacing.sm }}>
         <StatTile value={sum.mastered} label="Выучено" color={c.gradeGood} icon="checkmark-done" />
-        <StatTile value={sum.new} label="Новые" color={c.textSecondary} icon="add-circle" />
+        <StatTile value={sum.new} label="Новые" color={c.hear} icon="add-circle" />
       </View>
 
       <Txt variant="label" muted style={{ marginTop: Spacing.xl, marginBottom: Spacing.sm }}>
         Активность за неделю
       </Txt>
-      <Surface>
-        <View style={{ flexDirection: 'row', alignItems: 'flex-end', justifyContent: 'space-between', height: 100 }}>
-          {days.map((d) => (
-            <View key={d.key} style={{ alignItems: 'center', flex: 1, gap: 6 }}>
-              <View
-                style={{
-                  width: 18,
-                  height: Math.max(4, (d.count / maxCount) * 76),
-                  borderRadius: 6,
-                  backgroundColor: d.count > 0 ? c.primary : c.surfaceAlt,
-                }}
-              />
-              <Txt variant="small" muted>
-                {d.label}
-              </Txt>
-            </View>
-          ))}
+      <Surface elevated>
+        <View style={{ flexDirection: 'row', alignItems: 'flex-end', justifyContent: 'space-between', height: 116 }}>
+          {days.map((d) => {
+            const active = d.count > 0;
+            return (
+              <View key={d.key} style={{ alignItems: 'center', flex: 1, gap: 6 }}>
+                {active ? (
+                  <Txt style={{ fontFamily: Font.extrabold, fontSize: 12, color: c.primary }}>{d.count}</Txt>
+                ) : null}
+                <View
+                  style={{
+                    width: 20,
+                    height: Math.max(6, (d.count / maxCount) * 80),
+                    borderRadius: Radius.sm,
+                    backgroundColor: active ? c.primary : c.surfaceAlt,
+                  }}
+                />
+                <Txt variant="small" muted>
+                  {d.label}
+                </Txt>
+              </View>
+            );
+          })}
         </View>
       </Surface>
 

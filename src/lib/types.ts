@@ -1,35 +1,6 @@
 // Типы контента и прогресса.
-// Контент лежит в content/*.json (черновики, сгенерированы+вычитаны AI).
-
-/** Одна реплика собеседника («что услышишь») + как на неё среагировать. */
-export interface RawWillHear {
-  sr_cyrillic: string;
-  sr_latin: string;
-  pronunciation_ru: string;
-  translation_ru: string;
-  react_sr: string;
-  react_pron: string;
-  react_ru: string;
-  false_friend_note: string;
-}
-
-/** Фраза пользователя «второго слоя» («чем ответить»). */
-export interface RawYourPhrase {
-  sr_cyrillic: string;
-  sr_latin: string;
-  pronunciation_ru: string;
-  translation_ru: string;
-  false_friend_note: string;
-}
-
-export interface RawScenario {
-  id: string;
-  title_ru: string;
-  title_sr: string;
-  role_for_ai: string;
-  will_hear: RawWillHear[];
-  your_phrases: RawYourPhrase[];
-}
+// Контент лежит в content/vocab/*.json — колоды слов (черновики, сгенерированы+вычитаны AI).
+// Ситуации и SOS убраны из продукта (BS-19): продукт про запоминание слов.
 
 /** Пример употребления глагола + короткое «когда так говорят» (BS-16). */
 export interface RawVerbExample {
@@ -59,44 +30,28 @@ export interface RawDeck {
   words: RawWord[];
 }
 
-export type RawSosPhrase = RawYourPhrase;
-
 // --- Нормализованная модель для UI и SRS ---
 
-export type CardKind = 'hear' | 'say' | 'word' | 'sos';
+export type CardKind = 'word';
 
-/** Единая карточка: всё, что можно показать флэшкартой и учить через SRS. */
+/** Единая карточка слова: то, что показывается флэшкартой и учится через SRS. */
 export interface Card {
-  id: string; // стабильный: "sc:<scenario>:h:<i>" | "sc:<scenario>:s:<i>" | "vo:<deck>:<i>" | "sos:<i>"
+  id: string; // стабильный, выводится из текста слова: "vo:<deck>:w:<hash>"
   kind: CardKind;
-  groupId: string; // id сценария/колоды, или 'sos'
-  groupKind: 'scenario' | 'deck' | 'sos';
+  groupId: string; // id колоды
+  groupKind: 'deck';
   groupTitleRu: string;
   sr: string;
   srLatin: string;
   pron: string;
   ru: string;
   note: string; // «ложный друг», может быть ''
-  // только для kind === 'hear':
-  reactSr?: string;
-  reactPron?: string;
-  reactRu?: string;
-  // только для kind === 'word':
   exampleSr?: string;
   exampleRu?: string;
   // только для глаголов (BS-16):
   present?: string[]; // 6 форм наст. времени
   past?: string[]; // 4 формы прош. времени
   examples?: { sr: string; ru: string; when: string }[];
-}
-
-export interface ScenarioView {
-  id: string;
-  titleRu: string;
-  titleSr: string;
-  role: string;
-  hear: Card[];
-  say: Card[];
 }
 
 export interface DeckView {

@@ -140,7 +140,7 @@ export function isDue(p: CardProgress | undefined, now: number): boolean {
 /**
  * Очередь на повторение: сначала просроченные (самые давние сверху),
  * затем — новые карточки, но не больше newLimit за сессию.
- * Используется экраном тренировки темы/сценария/сохранённого (review/[mode]).
+ * Используется экраном тренировки темы/сохранённого (review/[mode]).
  */
 export function buildQueue(
   cards: Card[],

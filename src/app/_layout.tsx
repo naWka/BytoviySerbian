@@ -1,3 +1,12 @@
+import {
+  Nunito_400Regular,
+  Nunito_500Medium,
+  Nunito_600SemiBold,
+  Nunito_700Bold,
+  Nunito_800ExtraBold,
+  Nunito_900Black,
+  useFonts,
+} from '@expo-google-fonts/nunito';
 import { DarkTheme, DefaultTheme, Stack, ThemeProvider } from 'expo-router';
 import { StatusBar } from 'expo-status-bar';
 import { ActivityIndicator, useColorScheme, View } from 'react-native';
@@ -12,13 +21,22 @@ export default function RootLayout() {
   const dark = scheme === 'dark';
   const colors = dark ? Colors.dark : Colors.light;
   const hydrated = useStore((s) => s._hydrated);
+  const [fontsLoaded] = useFonts({
+    Nunito_400Regular,
+    Nunito_500Medium,
+    Nunito_600SemiBold,
+    Nunito_700Bold,
+    Nunito_800ExtraBold,
+    Nunito_900Black,
+  });
+  const ready = hydrated && fontsLoaded;
 
   return (
     <GestureHandlerRootView style={{ flex: 1 }}>
       <SafeAreaProvider>
         <ThemeProvider value={dark ? DarkTheme : DefaultTheme}>
           <StatusBar style={dark ? 'light' : 'dark'} />
-          {!hydrated ? (
+          {!ready ? (
             <View style={{ flex: 1, alignItems: 'center', justifyContent: 'center', backgroundColor: colors.background }}>
               <ActivityIndicator color={colors.primary} />
             </View>
@@ -33,12 +51,10 @@ export default function RootLayout() {
                 headerBackTitle: 'Назад',
               }}>
               <Stack.Screen name="(tabs)" options={{ headerShown: false }} />
-              <Stack.Screen name="scenario/[id]" options={{ title: '' }} />
               <Stack.Screen name="deck/[id]" options={{ title: '' }} />
               <Stack.Screen name="review/[mode]" options={{ title: 'Повторение' }} />
               <Stack.Screen name="session" options={{ title: 'Занятие' }} />
               <Stack.Screen name="suspended" options={{ title: 'Убранные' }} />
-              <Stack.Screen name="sos" options={{ title: '🆘 SOS-фразы' }} />
             </Stack>
           )}
         </ThemeProvider>

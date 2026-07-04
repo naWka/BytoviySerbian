@@ -15,8 +15,6 @@ import type { Card, CardProgress, Grade } from '@/lib/types';
 
 function poolFor(mode: string, id?: string): Card[] {
   switch (mode) {
-    case 'scenario':
-      return id ? content.cardsOf('scenario', id) : [];
     case 'deck':
       return id ? content.cardsOf('deck', id) : [];
     case 'saved':
@@ -30,7 +28,7 @@ function poolFor(mode: string, id?: string): Card[] {
   }
 }
 
-// «due»: только просроченные + немного новых. Явная тренировка темы/сценария/сохранённого — все карточки, просроченные первыми.
+// «due»: только просроченные + немного новых. Явная тренировка темы/сохранённого — все карточки, просроченные первыми.
 function initialQueue(mode: string, id: string | undefined, progress: Record<string, CardProgress | undefined>): string[] {
   const now = Date.now();
   const pool = poolFor(mode, id);

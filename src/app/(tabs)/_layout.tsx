@@ -2,10 +2,13 @@ import { Ionicons } from '@expo/vector-icons';
 import { Tabs } from 'expo-router';
 import type { ColorValue } from 'react-native';
 
-import { Colors } from '@/constants/theme';
+import { Colors, Font } from '@/constants/theme';
 import { useColorScheme } from '@/hooks/use-color-scheme';
 
 type IoniconName = keyof typeof Ionicons.glyphMap;
+
+// Стартовая вкладка — «Учить» (BS-19: вкладка «Ситуации» убрана).
+export const unstable_settings = { initialRouteName: 'learn' };
 
 function tabIcon(base: IoniconName, filled: IoniconName) {
   return ({ color, size, focused }: { color: ColorValue; size: number; focused: boolean }) => (
@@ -21,16 +24,13 @@ export default function TabsLayout() {
     <Tabs
       screenOptions={{
         headerStyle: { backgroundColor: c.background },
-        headerTitleStyle: { color: c.text, fontWeight: '800' },
+        headerTitleStyle: { color: c.text, fontFamily: Font.extrabold, fontSize: 18 },
         headerShadowVisible: false,
         tabBarActiveTintColor: c.primary,
         tabBarInactiveTintColor: c.textMuted,
+        tabBarLabelStyle: { fontFamily: Font.bold, fontSize: 11 },
         tabBarStyle: { backgroundColor: c.surface, borderTopColor: c.border },
       }}>
-      <Tabs.Screen
-        name="index"
-        options={{ title: 'Ситуации', tabBarIcon: tabIcon('chatbubbles-outline', 'chatbubbles') }}
-      />
       <Tabs.Screen
         name="learn"
         options={{ title: 'Учить', tabBarIcon: tabIcon('flash-outline', 'flash') }}

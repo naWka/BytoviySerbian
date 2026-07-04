@@ -1,8 +1,7 @@
 // Загрузка контента из content/ и нормализация в единые карточки (Card).
-import { decks as rawDecks, scenarios as rawScenarios, sosPhrases as rawSos } from '../../content';
-import type { Card, DeckView, ScenarioView } from './types';
-
-const SOS_TITLE = '🆘 SOS-фразы';
+// BS-19: только колоды слов — ситуации и SOS убраны из продукта.
+import { decks as rawDecks } from '../../content';
+import type { Card, DeckView } from './types';
 
 // BS-14: стабильный id карточки выводится из САМОГО текста (сербской фразы),
 // а не из позиции в файле. Правка/вставка/перестановка слов в JSON не сдвигает id,
@@ -21,40 +20,6 @@ function stableId(prefix: string, groupId: string, kind: string, sr: string): st
   seen.add(id);
   return id;
 }
-
-const scenarioViews: ScenarioView[] = rawScenarios.map((s) => ({
-  id: s.id,
-  titleRu: s.title_ru,
-  titleSr: s.title_sr,
-  role: s.role_for_ai,
-  hear: s.will_hear.map((w) => ({
-    id: stableId('sc', s.id, 'h', w.sr_cyrillic),
-    kind: 'hear',
-    groupId: s.id,
-    groupKind: 'scenario',
-    groupTitleRu: s.title_ru,
-    sr: w.sr_cyrillic,
-    srLatin: w.sr_latin,
-    pron: w.pronunciation_ru,
-    ru: w.translation_ru,
-    note: w.false_friend_note ?? '',
-    reactSr: w.react_sr,
-    reactPron: w.react_pron,
-    reactRu: w.react_ru,
-  })),
-  say: s.your_phrases.map((p) => ({
-    id: stableId('sc', s.id, 's', p.sr_cyrillic),
-    kind: 'say',
-    groupId: s.id,
-    groupKind: 'scenario',
-    groupTitleRu: s.title_ru,
-    sr: p.sr_cyrillic,
-    srLatin: p.sr_latin,
-    pron: p.pronunciation_ru,
-    ru: p.translation_ru,
-    note: p.false_friend_note ?? '',
-  })),
-}));
 
 const deckViews: DeckView[] = rawDecks.map((d) => ({
   id: d.id,
@@ -81,53 +46,24 @@ const deckViews: DeckView[] = rawDecks.map((d) => ({
   })),
 }));
 
-const sosCards: Card[] = rawSos.map((p) => ({
-  id: stableId('sos', 'sos', 'x', p.sr_cyrillic),
-  kind: 'sos',
-  groupId: 'sos',
-  groupKind: 'sos',
-  groupTitleRu: SOS_TITLE,
-  sr: p.sr_cyrillic,
-  srLatin: p.sr_latin,
-  pron: p.pronunciation_ru,
-  ru: p.translation_ru,
-  note: p.false_friend_note ?? '',
-}));
-
-// Только слова из колод — очередь вкладки «Учить» работает с ними (BS-17).
+// Все карточки — это слова из колод (BS-19: продукт только про слова).
 const wordCards: Card[] = deckViews.flatMap((d) => d.cards);
 
-const allCards: Card[] = [
-  ...scenarioViews.flatMap((s) => [...s.hear, ...s.say]),
-  ...wordCards,
-  ...sosCards,
-];
-
-const cardById = new Map<string, Card>(allCards.map((c) => [c.id, c]));
-const scenarioById = new Map<string, ScenarioView>(scenarioViews.map((s) => [s.id, s]));
+const cardById = new Map<string, Card>(wordCards.map((c) => [c.id, c]));
 const deckById = new Map<string, DeckView>(deckViews.map((d) => [d.id, d]));
 
 export const content = {
-  scenarios: scenarioViews,
   decks: deckViews,
-  sos: sosCards,
-  all: allCards,
+  all: wordCards,
   words: wordCards,
   getCard: (id: string) => cardById.get(id),
-  getScenario: (id: string) => scenarioById.get(id),
   getDeck: (id: string) => deckById.get(id),
-  cardsOf: (groupKind: 'scenario' | 'deck' | 'sos', id: string): Card[] => {
-    if (groupKind === 'sos') return sosCards;
-    if (groupKind === 'scenario') {
-      const s = scenarioById.get(id);
-      return s ? [...s.hear, ...s.say] : [];
-    }
+  cardsOf: (_groupKind: 'deck', id: string): Card[] => {
     const d = deckById.get(id);
     return d ? d.cards : [];
   },
   totals: {
-    scenarios: scenarioViews.length,
     decks: deckViews.length,
-    cards: allCards.length,
+    cards: wordCards.length,
   },
 };

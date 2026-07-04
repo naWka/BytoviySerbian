@@ -1,5 +1,6 @@
-// Базовые UI-примитивы: экран, типографика, кнопки, прогресс-бар, сегменты.
+// Базовые UI-примитивы: экран, типографика, кнопки, прогресс, кольцо, сегменты, чипы.
 import { Ionicons } from '@expo/vector-icons';
+import { LinearGradient } from 'expo-linear-gradient';
 import type { ReactNode } from 'react';
 import {
   Pressable,
@@ -11,9 +12,10 @@ import {
   type ViewStyle,
 } from 'react-native';
 import { SafeAreaView, type Edge } from 'react-native-safe-area-context';
+import Svg, { Circle } from 'react-native-svg';
 
-import { Fonts, MaxContentWidth, Radius, Spacing } from '@/constants/theme';
-import { useTheme } from '@/hooks/use-theme';
+import { elevation, Font, Fonts, MaxContentWidth, Radius, Spacing } from '@/constants/theme';
+import { useGradients, useTheme } from '@/hooks/use-theme';
 import { useStore } from '@/lib/store';
 
 // --- Экран ---
@@ -54,17 +56,17 @@ export function Screen({
   );
 }
 
-// --- Типографика ---
+// --- Типографика (Nunito, вес несёт иерархию) ---
 
 type TxtVariant = 'title' | 'h2' | 'h3' | 'body' | 'small' | 'label';
 
 const VARIANT: Record<TxtVariant, TextStyle> = {
-  title: { fontSize: 28, fontWeight: '800', letterSpacing: -0.5 },
-  h2: { fontSize: 20, fontWeight: '700', letterSpacing: -0.3 },
-  h3: { fontSize: 17, fontWeight: '600' },
-  body: { fontSize: 16, fontWeight: '400', lineHeight: 22 },
-  small: { fontSize: 13, fontWeight: '400' },
-  label: { fontSize: 12, fontWeight: '700', letterSpacing: 0.4, textTransform: 'uppercase' },
+  title: { fontFamily: Font.black, fontSize: 30, letterSpacing: -0.5 },
+  h2: { fontFamily: Font.extrabold, fontSize: 21, letterSpacing: -0.3 },
+  h3: { fontFamily: Font.bold, fontSize: 17 },
+  body: { fontFamily: Font.regular, fontSize: 16, lineHeight: 23 },
+  small: { fontFamily: Font.medium, fontSize: 13, lineHeight: 18 },
+  label: { fontFamily: Font.extrabold, fontSize: 12, letterSpacing: 0.6, textTransform: 'uppercase' },
 };
 
 export function Txt({
@@ -111,11 +113,13 @@ export function Surface({
   style,
   onPress,
   accent,
+  elevated,
 }: {
   children: ReactNode;
   style?: ViewStyle;
   onPress?: () => void;
   accent?: string;
+  elevated?: boolean;
 }) {
   const c = useTheme();
   const base: ViewStyle = {
@@ -124,11 +128,12 @@ export function Surface({
     borderWidth: StyleSheet.hairlineWidth,
     borderColor: accent ?? c.border,
     padding: Spacing.lg,
+    ...(elevated ? elevation(c.shadow, 1) : null),
     ...style,
   };
   if (onPress) {
     return (
-      <Pressable onPress={onPress} style={({ pressed }) => [base, pressed && { opacity: 0.75 }]}>
+      <Pressable onPress={onPress} style={({ pressed }) => [base, pressed && { opacity: 0.85, transform: [{ scale: 0.995 }] }]}>
         {children}
       </Pressable>
     );
@@ -144,17 +149,37 @@ export function Button({
   variant = 'primary',
   icon,
   color,
+  gradient,
   style,
 }: {
   label: string;
   onPress: () => void;
-  variant?: 'primary' | 'soft' | 'ghost';
+  variant?: 'primary' | 'soft' | 'ghost' | 'gradient';
   icon?: keyof typeof Ionicons.glyphMap;
   color?: string;
+  gradient?: readonly [string, string];
   style?: ViewStyle;
 }) {
   const c = useTheme();
+  const g = useGradients();
   const accent = color ?? c.primary;
+
+  if (variant === 'gradient') {
+    const cols = gradient ?? g.primary;
+    return (
+      <Pressable onPress={onPress} style={({ pressed }) => [pressed && { opacity: 0.9, transform: [{ scale: 0.99 }] }, style]}>
+        <LinearGradient
+          colors={cols}
+          start={{ x: 0, y: 0 }}
+          end={{ x: 1, y: 1 }}
+          style={[styles.btn, elevation(accent, 1)]}>
+          {icon ? <Ionicons name={icon} size={19} color={c.onPrimary} /> : null}
+          <Text style={{ color: c.onPrimary, fontSize: 16, fontFamily: Font.extrabold }}>{label}</Text>
+        </LinearGradient>
+      </Pressable>
+    );
+  }
+
   const bg = variant === 'primary' ? accent : variant === 'soft' ? c.surfaceAlt : 'transparent';
   const fg = variant === 'primary' ? c.onPrimary : accent;
   return (
@@ -164,11 +189,11 @@ export function Button({
         styles.btn,
         { backgroundColor: bg },
         variant === 'ghost' && { paddingHorizontal: Spacing.sm },
-        pressed && { opacity: 0.8 },
+        pressed && { opacity: 0.82, transform: [{ scale: 0.99 }] },
         style,
       ]}>
-      {icon ? <Ionicons name={icon} size={18} color={fg} /> : null}
-      <Text style={{ color: fg, fontSize: 16, fontWeight: '700' }}>{label}</Text>
+      {icon ? <Ionicons name={icon} size={19} color={fg} /> : null}
+      <Text style={{ color: fg, fontSize: 16, fontFamily: Font.bold }}>{label}</Text>
     </Pressable>
   );
 }
@@ -180,7 +205,51 @@ export function ProgressBar({ value, color, height = 8 }: { value: number; color
   const pct = Math.max(0, Math.min(1, value));
   return (
     <View style={{ height, backgroundColor: c.surfaceAlt, borderRadius: Radius.pill, overflow: 'hidden' }}>
-      <View style={{ width: `${pct * 100}%`, height: '100%', backgroundColor: color ?? c.primary }} />
+      <View style={{ width: `${pct * 100}%`, height: '100%', backgroundColor: color ?? c.primary, borderRadius: Radius.pill }} />
+    </View>
+  );
+}
+
+// --- Кольцо прогресса (дневная цель / выучено) ---
+
+export function Ring({
+  value,
+  size = 92,
+  stroke = 9,
+  color,
+  track,
+  children,
+}: {
+  value: number;
+  size?: number;
+  stroke?: number;
+  color?: string;
+  track?: string;
+  children?: ReactNode;
+}) {
+  const c = useTheme();
+  const pct = Math.max(0, Math.min(1, value));
+  const r = (size - stroke) / 2;
+  const circ = 2 * Math.PI * r;
+  const half = size / 2;
+  return (
+    <View style={{ width: size, height: size, alignItems: 'center', justifyContent: 'center' }}>
+      <Svg width={size} height={size} style={StyleSheet.absoluteFill}>
+        <Circle cx={half} cy={half} r={r} stroke={track ?? c.surfaceAlt} strokeWidth={stroke} fill="none" />
+        <Circle
+          cx={half}
+          cy={half}
+          r={r}
+          stroke={color ?? c.primary}
+          strokeWidth={stroke}
+          fill="none"
+          strokeLinecap="round"
+          strokeDasharray={circ}
+          strokeDashoffset={circ * (1 - pct)}
+          transform={`rotate(-90 ${half} ${half})`}
+        />
+      </Svg>
+      {children}
     </View>
   );
 }
@@ -189,8 +258,28 @@ export function ProgressBar({ value, color, height = 8 }: { value: number; color
 
 export function Pill({ text, color, bg }: { text: string; color: string; bg: string }) {
   return (
-    <View style={{ backgroundColor: bg, borderRadius: Radius.pill, paddingHorizontal: 10, paddingVertical: 3, alignSelf: 'flex-start' }}>
-      <Text style={{ color, fontSize: 12, fontWeight: '700' }}>{text}</Text>
+    <View style={{ backgroundColor: bg, borderRadius: Radius.pill, paddingHorizontal: 11, paddingVertical: 4, alignSelf: 'flex-start' }}>
+      <Text style={{ color, fontSize: 12, fontFamily: Font.extrabold, letterSpacing: 0.2 }}>{text}</Text>
+    </View>
+  );
+}
+
+// --- Цветной чип-иконка (заливка + иконка) ---
+
+export function IconChip({
+  icon,
+  color,
+  bg,
+  size = 46,
+}: {
+  icon: keyof typeof Ionicons.glyphMap;
+  color: string;
+  bg: string;
+  size?: number;
+}) {
+  return (
+    <View style={{ width: size, height: size, borderRadius: size / 3, backgroundColor: bg, alignItems: 'center', justifyContent: 'center' }}>
+      <Ionicons name={icon} size={size * 0.5} color={color} />
     </View>
   );
 }
@@ -221,11 +310,11 @@ export function SegmentedControl({
           <Pressable
             key={s.key}
             onPress={() => onChange(s.key)}
-            style={[styles.seg, active && { backgroundColor: c.surface }]}>
+            style={[styles.seg, active && { backgroundColor: c.surface }, active && elevation(c.shadow, 1)]}>
             <Text
               style={{
                 color: active ? (s.color ?? c.text) : c.textSecondary,
-                fontWeight: active ? '700' : '500',
+                fontFamily: active ? Font.extrabold : Font.semibold,
                 fontSize: 14,
               }}>
               {s.label}
@@ -264,12 +353,14 @@ export function EmptyState({
   const c = useTheme();
   return (
     <View style={styles.empty}>
-      <Ionicons name={icon} size={44} color={c.textMuted} />
-      <Txt variant="h3" center style={{ marginTop: Spacing.md }}>
+      <View style={{ width: 88, height: 88, borderRadius: 44, backgroundColor: c.primarySoft, alignItems: 'center', justifyContent: 'center' }}>
+        <Ionicons name={icon} size={40} color={c.primary} />
+      </View>
+      <Txt variant="h2" center style={{ marginTop: Spacing.lg }}>
         {title}
       </Txt>
       {subtitle ? (
-        <Txt variant="small" muted center style={{ marginTop: Spacing.xs }}>
+        <Txt variant="small" muted center style={{ marginTop: Spacing.xs, maxWidth: 300 }}>
           {subtitle}
         </Txt>
       ) : null}
@@ -284,7 +375,7 @@ const styles = StyleSheet.create({
     alignItems: 'center',
     justifyContent: 'center',
     gap: Spacing.sm,
-    paddingVertical: 14,
+    paddingVertical: 15,
     paddingHorizontal: Spacing.lg,
     borderRadius: Radius.md,
   },

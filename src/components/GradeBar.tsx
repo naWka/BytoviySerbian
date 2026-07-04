@@ -2,7 +2,7 @@
 import * as Haptics from 'expo-haptics';
 import { Platform, Pressable, StyleSheet, Text, View } from 'react-native';
 
-import { Radius, Spacing } from '@/constants/theme';
+import { Font, Radius, Spacing } from '@/constants/theme';
 import { useTheme } from '@/hooks/use-theme';
 import { previewLabel } from '@/lib/srs';
 import type { CardProgress, Grade } from '@/lib/types';
@@ -53,6 +53,6 @@ const styles = StyleSheet.create({
     alignItems: 'center',
     gap: 2,
   },
-  label: { color: '#fff', fontSize: 14, fontWeight: '700' },
-  hint: { color: 'rgba(255,255,255,0.85)', fontSize: 11, fontWeight: '600' },
+  label: { color: '#fff', fontSize: 14, fontFamily: Font.extrabold },
+  hint: { color: 'rgba(255,255,255,0.9)', fontSize: 11, fontFamily: Font.semibold },
 });

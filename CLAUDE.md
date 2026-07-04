@@ -27,7 +27,7 @@
 
 ## Стек
 
-Expo SDK 57, React Native 0.86, expo-router (файловые табы), TypeScript. Состояние — zustand + AsyncStorage (прогресс SRS, сохранённое). Контент — JSON в `content/` (сценарии + колоды слов), собирается в `content/index.ts` скриптом. Без бэкенда и авторизации. Задел под AI-репетитора (BS-13) — на будущее.
+Expo SDK 57, React Native 0.86, expo-router (файловые табы), TypeScript. Состояние — zustand + AsyncStorage (прогресс SRS, сохранённое). Контент — JSON в `content/vocab/` (колоды слов), собирается в `content/index.ts` скриптом. Без бэкенда и авторизации. Задел под AI-репетитора (BS-13) — на будущее.
 
 ## Команды
 

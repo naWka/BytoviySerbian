@@ -3,7 +3,7 @@ import { View } from 'react-native';
 
 import { ListRow } from '@/components/lists';
 import { EmptyState, Screen, Txt } from '@/components/ui';
-import { Spacing } from '@/constants/theme';
+import { categoryColors, Spacing } from '@/constants/theme';
 import { useTheme } from '@/hooks/use-theme';
 import { content } from '@/lib/content';
 import { summarize } from '@/lib/srs';
@@ -31,15 +31,17 @@ export default function VocabScreen() {
             {content.totals.decks} тем
           </Txt>
           <View style={{ gap: Spacing.sm }}>
-            {content.decks.map((d) => {
+            {content.decks.map((d, i) => {
               const sum = summarize(d.cards, progress, now);
               const learned = (sum.review + sum.mastered) / Math.max(1, sum.total);
+              const palette = categoryColors(c);
               return (
                 <ListRow
                   key={d.id}
                   title={d.titleRu}
                   subtitle={`${d.cards.length} слов`}
-                  accent={c.primary}
+                  accent={palette[i % palette.length]}
+                  icon="book"
                   progress={learned}
                   dueBadge={sum.due}
                   onPress={() => router.push({ pathname: '/deck/[id]', params: { id: d.id } })}
