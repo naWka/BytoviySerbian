@@ -1,4 +1,4 @@
-// Логика вкладки «Учить» (BS-17): отбор новых слов, очередь сессии, счётчики.
+// Логика вкладки «Учить» (BS-18): единый поток занятия и счётчики.
 // Работает только со словами из колод (content.words). Чистые функции.
 import { content } from './content';
 import { statusOf } from './srs';
@@ -7,19 +7,15 @@ import type { Card, CardProgress } from './types';
 type Progress = Record<string, CardProgress | undefined>;
 type IdSet = Record<string, true | undefined>;
 
-const BATCH = 10; // размер пачки разбора
+export const NEW_PER_DAY = 10; // дневной лимит новых слов
 
-/** Слово «новое для разбора»: нет прогресса и не отложено. */
-function isNew(id: string, progress: Progress, buried: IdSet): boolean {
-  return !progress[id] && !buried[id];
+/** Слово «новое»: нет прогресса и не убрано из учёбы. */
+function isNewCandidate(id: string, progress: Progress, suspended: IdSet): boolean {
+  return !progress[id] && !suspended[id];
 }
 
-/**
- * Пачка новых слов для разбора: перемешиваем темы (round-robin по колодам),
- * чтобы за раз шли слова из разных тем, а не одна колода подряд.
- */
-export function newWordQueue(progress: Progress, buried: IdSet, limit = BATCH): Card[] {
-  const byDeck = content.decks.map((d) => d.cards.filter((card) => isNew(card.id, progress, buried)));
+/** Round-robin по колодам: берём по одному слову из каждой темы по кругу, пока не наберём limit. */
+function roundRobin(byDeck: Card[][], limit: number): Card[] {
   const out: Card[] = [];
   let added = true;
   for (let i = 0; added && out.length < limit; i++) {
@@ -35,48 +31,118 @@ export function newWordQueue(progress: Progress, buried: IdSet, limit = BATCH): 
   return out;
 }
 
-/** Очередь учебной сессии: слова, которым пора повтор (без новых). Самые давние — первыми. */
-export function dueWordQueue(progress: Progress, now: number): Card[] {
+/** Перемешать карточки по темам (round-robin по groupId), сохраняя порядок внутри темы. */
+function interleaveByGroup(cards: Card[]): Card[] {
+  const groups = new Map<string, Card[]>();
+  const order: string[] = [];
+  for (const c of cards) {
+    let arr = groups.get(c.groupId);
+    if (!arr) {
+      arr = [];
+      groups.set(c.groupId, arr);
+      order.push(c.groupId);
+    }
+    arr.push(c);
+  }
+  const out: Card[] = [];
+  let remaining = true;
+  while (remaining) {
+    remaining = false;
+    for (const g of order) {
+      const arr = groups.get(g)!;
+      const next = arr.shift();
+      if (next) {
+        out.push(next);
+        remaining = true;
+      }
+    }
+  }
+  return out;
+}
+
+/**
+ * Единая очередь занятия (BS-18): просроченные (due) + новые слова
+ * (не больше остатка дневного лимита), перемешанные по темам.
+ */
+export function sessionQueue(
+  progress: Progress,
+  suspended: IdSet,
+  newDoneToday: number,
+  now: number,
+  newLimit = NEW_PER_DAY,
+): Card[] {
+  const newAllowed = Math.max(0, newLimit - newDoneToday);
+
+  // Новые: round-robin по колодам, в пределах остатка лимита.
+  const newByDeck = content.decks.map((d) => d.cards.filter((card) => isNewCandidate(card.id, progress, suspended)));
+  const fresh = roundRobin(newByDeck, newAllowed);
+
+  // Просроченные (без убранных), самые давние первыми.
   const due: { card: Card; due: number }[] = [];
   for (const card of content.words) {
+    if (suspended[card.id]) continue;
     const p = progress[card.id];
     if (p && p.due <= now) due.push({ card, due: p.due });
   }
   due.sort((a, b) => a.due - b.due);
-  return due.map((d) => d.card);
+
+  // Внутри темы сперва идёт повторение, затем новые; всё перемешиваем по темам.
+  return interleaveByGroup([...due.map((d) => d.card), ...fresh]);
 }
 
-/** Отложенные слова («позже»). */
-export function buriedWords(buried: IdSet): Card[] {
-  return content.words.filter((card) => buried[card.id]);
+/** Убранные из учёбы слова (BS-18). */
+export function suspendedWords(suspended: IdSet): Card[] {
+  return content.words.filter((card) => suspended[card.id]);
 }
 
 export interface LearnCounts {
   totalWords: number;
-  toTriage: number; // новых, ждут разбора
   due: number; // пора повторить
+  newAvailable: number; // новых можно взять сегодня (с учётом лимита)
+  newDoneToday: number; // уже начато сегодня
+  newLimit: number; // дневной лимит
+  sessionSize: number; // сколько будет в занятии сейчас (due + newAvailable)
   learning: number; // в работе (не выучено)
   mastered: number; // выучено
-  buried: number; // отложено
+  suspended: number; // убрано из учёбы
 }
 
 /** Сводка вкладки «Учить». */
-export function learnCounts(progress: Progress, buried: IdSet, now: number): LearnCounts {
-  const counts: LearnCounts = { totalWords: content.words.length, toTriage: 0, due: 0, learning: 0, mastered: 0, buried: 0 };
+export function learnCounts(progress: Progress, suspended: IdSet, newDoneToday: number, now: number): LearnCounts {
+  let due = 0;
+  let learning = 0;
+  let mastered = 0;
+  let suspendedCount = 0;
+  let totalNew = 0;
+
   for (const card of content.words) {
-    if (buried[card.id]) {
-      counts.buried += 1;
+    if (suspended[card.id]) {
+      suspendedCount += 1;
       continue;
     }
     const p = progress[card.id];
     if (!p) {
-      counts.toTriage += 1;
+      totalNew += 1;
       continue;
     }
     const st = statusOf(p);
-    if (st === 'mastered') counts.mastered += 1;
-    else counts.learning += 1;
-    if (p.due <= now) counts.due += 1;
+    if (st === 'mastered') mastered += 1;
+    else learning += 1;
+    if (p.due <= now) due += 1;
   }
-  return counts;
+
+  const newRemaining = Math.max(0, NEW_PER_DAY - newDoneToday);
+  const newAvailable = Math.min(totalNew, newRemaining);
+
+  return {
+    totalWords: content.words.length,
+    due,
+    newAvailable,
+    newDoneToday,
+    newLimit: NEW_PER_DAY,
+    sessionSize: due + newAvailable,
+    learning,
+    mastered,
+    suspended: suspendedCount,
+  };
 }

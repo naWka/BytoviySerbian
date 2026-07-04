@@ -1,4 +1,7 @@
-// Карточка сессии с 3D-переворотом (BS-17): лицо — сербское слово, оборот — перевод.
+// Карточка занятия с 3D-переворотом (BS-17/BS-18): лицо — вопрос, оборот — ответ.
+// Две стороны (BS-18):
+//   recognize (узнавание): вопрос = серб. слово → ответ = перевод;
+//   produce   (говорение):  вопрос = русский → ответ = серб. слово + произношение.
 // Управляется извне через `revealed`; тап по лицу — просьба показать ответ (onFlip).
 import { Ionicons } from '@expo/vector-icons';
 import { useEffect } from 'react';
@@ -13,14 +16,25 @@ import Animated, {
 
 import { Radius, Spacing } from '@/constants/theme';
 import { useTheme } from '@/hooks/use-theme';
-import type { Card } from '@/lib/types';
+import type { Card, CardSide } from '@/lib/types';
 
 import { Mono, SaveButton, Txt } from './ui';
 
-export function FlipWordCard({ card, revealed, onFlip }: { card: Card; revealed: boolean; onFlip: () => void }) {
+export function FlipWordCard({
+  card,
+  revealed,
+  onFlip,
+  side = 'recognize',
+}: {
+  card: Card;
+  revealed: boolean;
+  onFlip: () => void;
+  side?: CardSide;
+}) {
   const c = useTheme();
   const reduced = useReducedMotion();
   const flip = useSharedValue(revealed ? 1 : 0);
+  const produce = side === 'produce';
 
   useEffect(() => {
     flip.value = withTiming(revealed ? 1 : 0, { duration: reduced ? 0 : 360 });
@@ -37,34 +51,65 @@ export function FlipWordCard({ card, revealed, onFlip }: { card: Card; revealed:
 
   const face: any = [styles.face, { backgroundColor: c.surface, borderColor: c.border, shadowColor: '#000' }];
 
+  const PronChip = () => (
+    <View style={[styles.pron, { backgroundColor: c.surfaceAlt }]}>
+      <Ionicons name="volume-medium-outline" size={16} color={c.primary} />
+      <Mono color={c.text}>{card.pron}</Mono>
+    </View>
+  );
+
   return (
     <View style={styles.wrap}>
+      {/* Лицо: вопрос */}
       <Animated.View style={[face, front]} pointerEvents={revealed ? 'none' : 'auto'}>
         <Pressable onPress={onFlip} style={styles.press}>
           <View style={styles.header}>
+            {produce ? (
+              <View style={[styles.tag, { backgroundColor: c.primarySoft }]}>
+                <Ionicons name="mic-outline" size={13} color={c.primary} />
+                <Txt variant="small" style={{ color: c.primary, fontWeight: '700' }}>Скажи по-сербски</Txt>
+              </View>
+            ) : (
+              <View />
+            )}
             <SaveButton cardId={card.id} />
           </View>
           <View style={styles.center}>
-            <Txt center style={styles.sr}>{card.sr}</Txt>
-            <View style={[styles.pron, { backgroundColor: c.surfaceAlt }]}>
-              <Ionicons name="volume-medium-outline" size={16} color={c.primary} />
-              <Mono color={c.text}>{card.pron}</Mono>
-            </View>
+            {produce ? (
+              <Txt center style={styles.ru}>{card.ru}</Txt>
+            ) : (
+              <>
+                <Txt center style={styles.sr}>{card.sr}</Txt>
+                <PronChip />
+              </>
+            )}
           </View>
           <View style={styles.hint}>
             <Ionicons name="sync-outline" size={16} color={c.textMuted} />
-            <Txt variant="small" muted>Тапни — покажу перевод</Txt>
+            <Txt variant="small" muted>{produce ? 'Тапни — покажу ответ' : 'Тапни — покажу перевод'}</Txt>
           </View>
         </Pressable>
       </Animated.View>
 
+      {/* Оборот: ответ */}
       <Animated.View style={[face, styles.absolute, back]} pointerEvents={revealed ? 'auto' : 'none'}>
         <View style={styles.header}>
+          <View />
           <SaveButton cardId={card.id} />
         </View>
         <View style={styles.center}>
-          <Txt variant="small" muted center>{card.sr}</Txt>
-          <Txt center style={styles.ru}>{card.ru}</Txt>
+          {produce ? (
+            <>
+              <Txt variant="small" muted center>{card.ru}</Txt>
+              <Txt center style={styles.sr}>{card.sr}</Txt>
+              <PronChip />
+            </>
+          ) : (
+            <>
+              <Txt variant="small" muted center>{card.sr}</Txt>
+              <Txt center style={styles.ru}>{card.ru}</Txt>
+            </>
+          )}
           {card.exampleSr ? (
             <View style={[styles.sub, { backgroundColor: c.surfaceAlt }]}>
               <Txt center style={{ fontStyle: 'italic' }}>{card.exampleSr}</Txt>
@@ -97,10 +142,18 @@ const styles = StyleSheet.create({
     elevation: 4,
   },
   absolute: { position: 'absolute', top: 0, left: 0, right: 0, bottom: 0 },
-  header: { flexDirection: 'row', justifyContent: 'flex-end' },
+  header: { flexDirection: 'row', justifyContent: 'space-between', alignItems: 'center' },
+  tag: {
+    flexDirection: 'row',
+    alignItems: 'center',
+    gap: 4,
+    paddingHorizontal: 10,
+    paddingVertical: 4,
+    borderRadius: Radius.pill,
+  },
   press: { flex: 1 },
   center: { flex: 1, justifyContent: 'center', alignItems: 'center', gap: Spacing.md },
-  sr: { fontSize: 42, fontWeight: '800', lineHeight: 48, letterSpacing: -0.5 },
+  sr: { fontSize: 40, fontWeight: '800', lineHeight: 46, letterSpacing: -0.5 },
   ru: { fontSize: 28, fontWeight: '800', letterSpacing: -0.4 },
   pron: {
     flexDirection: 'row',

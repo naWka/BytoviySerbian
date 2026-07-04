@@ -36,9 +36,8 @@ export default function RootLayout() {
               <Stack.Screen name="scenario/[id]" options={{ title: '' }} />
               <Stack.Screen name="deck/[id]" options={{ title: '' }} />
               <Stack.Screen name="review/[mode]" options={{ title: 'Повторение' }} />
-              <Stack.Screen name="triage" options={{ title: 'Разбор слов' }} />
-              <Stack.Screen name="session" options={{ title: 'Повторение' }} />
-              <Stack.Screen name="later" options={{ title: 'Отложенные' }} />
+              <Stack.Screen name="session" options={{ title: 'Занятие' }} />
+              <Stack.Screen name="suspended" options={{ title: 'Убранные' }} />
               <Stack.Screen name="sos" options={{ title: '🆘 SOS-фразы' }} />
             </Stack>
           )}

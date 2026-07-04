@@ -111,7 +111,7 @@ export interface DeckView {
 /** Оценка ответа: чем выше, тем лучше знаешь. */
 export type Grade = 'again' | 'hard' | 'good' | 'easy';
 
-/** Состояние интервального повторения для одной карточки (SM-2-lite). */
+/** Состояние интервального повторения для одной карточки (SM-2-lite + учебные шаги, BS-18). */
 export interface CardProgress {
   ease: number; // фактор лёгкости (>= 1.3)
   intervalDays: number; // текущий интервал
@@ -119,7 +119,15 @@ export interface CardProgress {
   reps: number; // число успешных повторов подряд
   lapses: number; // сколько раз забыл
   last: number; // timestamp последнего ответа
+  // BS-18: учебные шаги (Anki learning steps).
+  // 'learning' — слово в коротких шагах (≈1 мин / 10 мин), ещё не вышло на дни;
+  // 'review' — слово уже на днях. Старые записи без phase выводятся из intervalDays.
+  phase?: 'learning' | 'review';
+  step?: number; // индекс текущего учебного шага (когда phase === 'learning')
 }
 
 /** Статус карточки для отображения прогресса. */
 export type CardStatus = 'new' | 'learning' | 'review' | 'mastered';
+
+/** Сторона тренировки карточки (BS-18): узнавание (серб→рус) или говорение (рус→серб). */
+export type CardSide = 'recognize' | 'produce';

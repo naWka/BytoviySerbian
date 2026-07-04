@@ -4,12 +4,12 @@ import AsyncStorage from '@react-native-async-storage/async-storage';
 import { create } from 'zustand';
 import { createJSONStorage, persist } from 'zustand/middleware';
 
-import { gradeCard, makeKnown, makeLearning } from './srs';
+import { gradeCard, makeKnown } from './srs';
 import type { CardProgress, Grade } from './types';
 
 const DAY = 24 * 60 * 60 * 1000;
 
-function dayKey(ts: number): string {
+export function dayKey(ts: number): string {
   const d = new Date(ts);
   const m = `${d.getMonth() + 1}`.padStart(2, '0');
   const day = `${d.getDate()}`.padStart(2, '0');
@@ -20,23 +20,28 @@ interface Stats {
   streak: number;
   lastDay: string;
   reviewsByDay: Record<string, number>;
+  newByDay: Record<string, number>; // BS-18: сколько новых слов начато в этот день (дневной лимит)
   totalReviews: number;
 }
 
-const emptyStats: Stats = { streak: 0, lastDay: '', reviewsByDay: {}, totalReviews: 0 };
+const emptyStats: Stats = { streak: 0, lastDay: '', reviewsByDay: {}, newByDay: {}, totalReviews: 0 };
+
+/** Сколько новых слов уже начато сегодня (для дневного лимита). */
+export function newToday(stats: Stats, now = Date.now()): number {
+  return stats.newByDay?.[dayKey(now)] ?? 0;
+}
 
 interface AppState {
   progress: Record<string, CardProgress>;
   saved: Record<string, true>;
-  buried: Record<string, true>; // «позже»: отложенные при разборе слова
+  suspended: Record<string, true>; // BS-18: слова, убранные из учёбы (можно вернуть)
   stats: Stats;
   _hydrated: boolean;
   grade: (cardId: string, g: Grade) => void;
   markKnown: (cardId: string) => void;
   unmarkKnown: (cardId: string) => void;
-  startLearning: (cardId: string) => void; // «учить»: взять слово в работу
-  bury: (cardId: string) => void; // «позже»
-  unbury: (cardId: string) => void; // вернуть из отложенных
+  suspend: (cardId: string) => void; // «убрать слово» из учёбы
+  unsuspend: (cardId: string) => void; // вернуть в учёбу
   toggleSaved: (cardId: string) => void;
   savedIds: () => string[];
   resetProgress: () => void;
@@ -48,19 +53,25 @@ export const useStore = create<AppState>()(
     (set, get) => ({
       progress: {},
       saved: {},
-      buried: {},
+      suspended: {},
       stats: emptyStats,
       _hydrated: false,
 
       grade: (cardId, g) => {
         const now = Date.now();
         const state = get();
+        const wasNew = !state.progress[cardId]; // первое касание слова = «новое сегодня»
         const next = gradeCard(state.progress[cardId], g, now);
 
         const today = dayKey(now);
-        const stats = { ...state.stats, reviewsByDay: { ...state.stats.reviewsByDay } };
+        const stats: Stats = {
+          ...state.stats,
+          reviewsByDay: { ...state.stats.reviewsByDay },
+          newByDay: { ...state.stats.newByDay },
+        };
         stats.reviewsByDay[today] = (stats.reviewsByDay[today] ?? 0) + 1;
         stats.totalReviews += 1;
+        if (wasNew) stats.newByDay[today] = (stats.newByDay[today] ?? 0) + 1;
         if (stats.lastDay !== today) {
           const yesterday = dayKey(now - DAY);
           stats.streak = stats.lastDay === yesterday ? stats.streak + 1 : 1;
@@ -72,9 +83,9 @@ export const useStore = create<AppState>()(
 
       markKnown: (cardId) =>
         set((s) => {
-          const buried = { ...s.buried };
-          delete buried[cardId];
-          return { progress: { ...s.progress, [cardId]: makeKnown(Date.now()) }, buried };
+          const suspended = { ...s.suspended };
+          delete suspended[cardId];
+          return { progress: { ...s.progress, [cardId]: makeKnown(Date.now()) }, suspended };
         }),
 
       unmarkKnown: (cardId) =>
@@ -84,21 +95,13 @@ export const useStore = create<AppState>()(
           return { progress };
         }),
 
-      startLearning: (cardId) =>
-        set((s) => {
-          const buried = { ...s.buried };
-          delete buried[cardId];
-          return { progress: { ...s.progress, [cardId]: makeLearning(Date.now()) }, buried };
-        }),
+      suspend: (cardId) => set((s) => ({ suspended: { ...s.suspended, [cardId]: true } })),
 
-      bury: (cardId) =>
-        set((s) => ({ buried: { ...s.buried, [cardId]: true } })),
-
-      unbury: (cardId) =>
+      unsuspend: (cardId) =>
         set((s) => {
-          const buried = { ...s.buried };
-          delete buried[cardId];
-          return { buried };
+          const suspended = { ...s.suspended };
+          delete suspended[cardId];
+          return { suspended };
         }),
 
       toggleSaved: (cardId) =>
@@ -111,14 +114,14 @@ export const useStore = create<AppState>()(
 
       savedIds: () => Object.keys(get().saved),
 
-      resetProgress: () => set({ progress: {}, buried: {}, stats: emptyStats }),
+      resetProgress: () => set({ progress: {}, suspended: {}, stats: emptyStats }),
 
       setHydrated: (v) => set({ _hydrated: v }),
     }),
     {
       name: 'bs-store-v1',
       storage: createJSONStorage(() => AsyncStorage),
-      partialize: (s) => ({ progress: s.progress, saved: s.saved, buried: s.buried, stats: s.stats }),
+      partialize: (s) => ({ progress: s.progress, saved: s.saved, suspended: s.suspended, stats: s.stats }),
       onRehydrateStorage: () => (state) => state?.setHydrated(true),
     },
   ),
