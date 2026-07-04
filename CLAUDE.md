@@ -31,7 +31,13 @@ Python 3.11+, aiogram 3.x (long polling), Anthropic API (ролевые диал
 
 ## Команды
 
-Кода ещё нет. После BS-1 впиши сюда установку, запуск, тесты.
+```bash
+python3 -m venv .venv                        # один раз
+.venv/bin/pip install -r requirements.txt    # один раз и при смене зависимостей
+.venv/bin/python -m bot.main                 # запуск бота (Ctrl+C — остановка)
+```
+
+Секреты: скопировать `.env.example` в `.env`, вписать токены. Бот: @Bytoviy_Serbian_bot.
 
 ## Структура кода
 
