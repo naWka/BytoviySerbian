@@ -1,0 +1,44 @@
+[
+  {
+    "sr_cyrillic": "Извините, можете ли мало спорије?",
+    "sr_latin": "Izvinite, možete li malo sporije?",
+    "pronunciation_ru": "извИните, мОжете ли мАло спОрие",
+    "translation_ru": "Извините, можно чуть помедленнее?",
+    "false_friend_note": ""
+  },
+  {
+    "sr_cyrillic": "Нисам разумео. Поновите, молим вас.",
+    "sr_latin": "Nisam razumeo. Ponovite, molim vas.",
+    "pronunciation_ru": "нИсам разУмео. понОвите, мОлим вас",
+    "translation_ru": "Я не понял. Повторите, пожалуйста. (женщина говорит: «нисам разумела»)",
+    "false_friend_note": ""
+  },
+  {
+    "sr_cyrillic": "Шта значи та реч?",
+    "sr_latin": "Šta znači ta reč?",
+    "pronunciation_ru": "шта знАчи та реч",
+    "translation_ru": "Что значит это слово?",
+    "false_friend_note": ""
+  },
+  {
+    "sr_cyrillic": "Можете ли да ми напишете?",
+    "sr_latin": "Možete li da mi napišete?",
+    "pronunciation_ru": "мОжете ли да ми напИшете",
+    "translation_ru": "Можете мне написать? (цифры, адрес, название лекарства)",
+    "false_friend_note": ""
+  },
+  {
+    "sr_cyrillic": "Само тренутак, да проверим у телефону.",
+    "sr_latin": "Samo trenutak, da proverim u telefonu.",
+    "pronunciation_ru": "сАмо тренУтак, да провЭрим у телефОну",
+    "translation_ru": "Секунду, проверю в телефоне. (легальный тайм-аут на перевод)",
+    "false_friend_note": ""
+  },
+  {
+    "sr_cyrillic": "Да ли сам добро разумео: …?",
+    "sr_latin": "Da li sam dobro razumeo: …?",
+    "pronunciation_ru": "да ли сам дОбро разУмео",
+    "translation_ru": "Я правильно понял, что …? (повтори услышанное своими словами — лучший приём против «поплыл»)",
+    "false_friend_note": ""
+  }
+]

@@ -3,169 +3,232 @@
     "id": "apoteka",
     "title_ru": "💊 Аптека",
     "title_sr": "Апотека",
-    "role_for_ai": "фармацевт в сербской аптеке",
-    "phrases": [
+    "role_for_ai": "фармацевт в сербской аптеке — деловитый, говорит быстро, задаёт встречные вопросы про симптомы, аллергии, рецепт",
+    "will_hear": [
       {
-        "sr_cyrillic": "Добар дан, треба ми нешто против болова.",
-        "sr_latin": "Dobar dan, treba mi nešto protiv bolova.",
-        "pronunciation_ru": "дОбар дан, трЭба ми нЭшто прОтив бОлова",
-        "translation_ru": "Добрый день, мне нужно что-то обезболивающее.",
+        "sr_cyrillic": "Немамо тај лек, али имамо генерику — исти састав.",
+        "sr_latin": "Nemamo taj lek, ali imamo generiku — isti sastav.",
+        "pronunciation_ru": "нЭмамо тай лек, Али Имамо генЭрику — Исти сАстав",
+        "translation_ru": "Этого лекарства нет, но есть дженерик — тот же состав.",
+        "how_to_react": "«Може, дајте генерику» (мОже, дАйте генЭрику) — давайте дженерик",
         "false_friend_note": ""
       },
       {
-        "sr_cyrillic": "Боли ме глава.",
-        "sr_latin": "Boli me glava.",
-        "pronunciation_ru": "бОли ме глАва",
-        "translation_ru": "У меня болит голова.",
+        "sr_cyrillic": "Овај лек иде само на рецепт.",
+        "sr_latin": "Ovaj lek ide samo na recept.",
+        "pronunciation_ru": "Овай лек Иде сАмо на рЭцепт",
+        "translation_ru": "Это лекарство только по рецепту.",
+        "how_to_react": "«А имате ли нешто слично без рецепта?» (а Имате ли нЭшто слИчно без рЭцепта) — а есть похожее без рецепта?",
         "false_friend_note": ""
       },
       {
-        "sr_cyrillic": "Боли ме стомак.",
-        "sr_latin": "Boli me stomak.",
-        "pronunciation_ru": "бОли ме стОмак",
-        "translation_ru": "У меня болит живот.",
-        "false_friend_note": "Хочется сказать «живот», но по-сербски «живот» — это «жизнь». Живот как часть тела — «стомак»."
-      },
-      {
-        "sr_cyrillic": "Имате ли нешто против температуре?",
-        "sr_latin": "Imate li nešto protiv temperature?",
-        "pronunciation_ru": "имАте ли нЭшто прОтив температУре",
-        "translation_ru": "Есть что-нибудь от температуры?",
+        "sr_cyrillic": "Узима се после јела, два пута дневно.",
+        "sr_latin": "Uzima se posle jela, dva puta dnevno.",
+        "pronunciation_ru": "Узима се пОсле Ела, два пУта днЭвно",
+        "translation_ru": "Принимать после еды, два раза в день.",
+        "how_to_react": "«Колико дана?» (кОлико дАна) — сколько дней?",
         "false_friend_note": ""
       },
       {
-        "sr_cyrillic": "Да ли ми треба рецепт?",
-        "sr_latin": "Da li mi treba recept?",
-        "pronunciation_ru": "да ли ми трЭба рЭцепт",
-        "translation_ru": "Мне нужен рецепт?",
+        "sr_cyrillic": "Нема на стање, стиже у среду.",
+        "sr_latin": "Nema na stanje, stiže u sredu.",
+        "pronunciation_ru": "нЭма на стАне, стИже у срЭду",
+        "translation_ru": "Нет в наличии, привезут в среду.",
+        "how_to_react": "«Можете ли да резервишете за мене?» (мОжете ли да резервИшете за мЭне) — отложите для меня?",
+        "false_friend_note": "«Нема на стање» — устойчивое «нет в наличии», слышно в каждом втором магазине. «Стање» — не «стан», а «состояние/наличие»."
+      },
+      {
+        "sr_cyrillic": "Да ли сте алергични на пеницилин?",
+        "sr_latin": "Da li ste alergični na penicilin?",
+        "pronunciation_ru": "да ли сте алергИчни на пеницилИн",
+        "translation_ru": "У вас аллергия на пенициллин?",
+        "how_to_react": "«Нисам алергичан» / «Нисам алергична» (нИсам алергИчан/алергИчна) — аллергии нет",
+        "false_friend_note": ""
+      }
+    ],
+    "your_phrases": [
+      {
+        "sr_cyrillic": "Да ли се овај лек слаже са леком који већ пијем?",
+        "sr_latin": "Da li se ovaj lek slaže sa lekom koji već pijem?",
+        "pronunciation_ru": "да ли се Овай лек слАже са лЭком кОи веч пИем",
+        "translation_ru": "Это лекарство сочетается с тем, что я уже принимаю?",
         "false_friend_note": ""
       },
       {
-        "sr_cyrillic": "Колико пута дневно да узимам?",
-        "sr_latin": "Koliko puta dnevno da uzimam?",
-        "pronunciation_ru": "кОлико пУта днЭвно да Узимам",
-        "translation_ru": "Сколько раз в день принимать?",
+        "sr_cyrillic": "Како се дозира за дете од пет година?",
+        "sr_latin": "Kako se dozira za dete od pet godina?",
+        "pronunciation_ru": "кАко се дозИра за дЭте од пет гОдина",
+        "translation_ru": "Какая дозировка для ребёнка пяти лет?",
         "false_friend_note": ""
       },
       {
-        "sr_cyrillic": "Колико кошта?",
-        "sr_latin": "Koliko košta?",
-        "pronunciation_ru": "кОлико кОшта",
-        "translation_ru": "Сколько стоит?",
+        "sr_cyrillic": "Да ли постоји јача или блажа варијанта?",
+        "sr_latin": "Da li postoji jača ili blaža varijanta?",
+        "pronunciation_ru": "да ли постОи Яча Или блАжа вариЯнта",
+        "translation_ru": "Есть вариант посильнее или помягче?",
+        "false_friend_note": ""
+      },
+      {
+        "sr_cyrillic": "Ово ми не помаже, треба ми нешто јаче.",
+        "sr_latin": "Ovo mi ne pomaže, treba mi nešto jače.",
+        "pronunciation_ru": "Ово ми не помАже, трЭба ми нЭшто Яче",
+        "translation_ru": "Это мне не помогает, нужно что-то посильнее.",
         "false_friend_note": ""
       }
     ]
   },
   {
-    "id": "taksi",
-    "title_ru": "🚕 Такси",
-    "title_sr": "Такси",
-    "role_for_ai": "сербский таксист",
-    "phrases": [
+    "id": "uprava",
+    "title_ru": "🏛 Управа (ВНЖ)",
+    "title_sr": "Управа за странце",
+    "role_for_ai": "чиновник за окошком в управе за странце — формальный, слегка нетерпеливый, сыплет названиями документов",
+    "will_hear": [
       {
-        "sr_cyrillic": "Добар дан, до центра, молим вас.",
-        "sr_latin": "Dobar dan, do centra, molim vas.",
-        "pronunciation_ru": "дОбар дан, до цЭнтра, мОлим вас",
-        "translation_ru": "Добрый день, до центра, пожалуйста.",
+        "sr_cyrillic": "Фали вам оверена копија пасоша.",
+        "sr_latin": "Fali vam overena kopija pasoša.",
+        "pronunciation_ru": "фАли вам Оверена кОпия пАсоша",
+        "translation_ru": "У вас не хватает заверенной копии паспорта.",
+        "how_to_react": "«Где могу то да оверим?» (где мОгу то да Оверим) — где я могу это заверить?",
+        "false_friend_note": "«Фали» — «не хватает», ключевое слово всех походов в управу. Не путать с «хвали» (хвалит)."
+      },
+      {
+        "sr_cyrillic": "Морате прво да закажете термин онлајн.",
+        "sr_latin": "Morate prvo da zakažete termin onlajn.",
+        "pronunciation_ru": "мОрате прво да закАжете тЭрмин онлАйн",
+        "translation_ru": "Сначала нужно записаться на приём онлайн.",
+        "how_to_react": "«Да ли има слободних термина ове недеље?» (да ли Има слОбодних тЭрмина Ове нЭделе) — есть свободные слоты на этой неделе?",
+        "false_friend_note": "«Заказати» — «записаться/назначить», а не «заказать товар». «Термин» — «запись на приём», не «термин»."
+      },
+      {
+        "sr_cyrillic": "Такса се плаћа у пошти, донесите уплатницу.",
+        "sr_latin": "Taksa se plaća u pošti, donesite uplatnicu.",
+        "pronunciation_ru": "тАкса се плАча у пОшти, донЭсите уплАтницу",
+        "translation_ru": "Пошлина оплачивается на почте, принесите квитанцию.",
+        "how_to_react": "«Колика је такса?» (колИка е тАкса) — какая сумма?",
         "false_friend_note": ""
       },
       {
-        "sr_cyrillic": "Колико ће коштати до аеродрома?",
-        "sr_latin": "Koliko će koštati do aerodroma?",
-        "pronunciation_ru": "кОлико че кОштати до аэродрОма",
-        "translation_ru": "Сколько будет стоить до аэропорта?",
+        "sr_cyrillic": "Решење ће бити готово за месец дана.",
+        "sr_latin": "Rešenje će biti gotovo za mesec dana.",
+        "pronunciation_ru": "решЭне че бИти гОтово за мЭсец дАна",
+        "translation_ru": "Решение (по заявлению) будет готово через месяц.",
+        "how_to_react": "«Да ли ће ме неко обавестити?» (да ли че ме нЭко обавЭстити) — меня кто-то уведомит?",
         "false_friend_note": ""
       },
       {
-        "sr_cyrillic": "Идите право.",
-        "sr_latin": "Idite pravo.",
-        "pronunciation_ru": "Идите прАво",
-        "translation_ru": "Езжайте прямо.",
-        "false_friend_note": "«Право» по-сербски — «прямо», а не «направо»! Направо — «десно»."
-      },
+        "sr_cyrillic": "Ова потврда не важи, треба нова, не старија од шест месеци.",
+        "sr_latin": "Ova potvrda ne važi, treba nova, ne starija od šest meseci.",
+        "pronunciation_ru": "Ова пОтврда не вАжи, трЭба нОва, не стАрия од шест мЭсеци",
+        "translation_ru": "Эта справка недействительна, нужна новая, не старше шести месяцев.",
+        "how_to_react": "«Шта тачно треба да пише у потврди?» (шта тАчно трЭба да пИше у пОтврди) — что именно должно быть написано в справке?",
+        "false_friend_note": ""
+      }
+    ],
+    "your_phrases": [
       {
-        "sr_cyrillic": "Скрените лево.",
-        "sr_latin": "Skrenite levo.",
-        "pronunciation_ru": "скрЭните лЭво",
-        "translation_ru": "Поверните налево.",
+        "sr_cyrillic": "Који су ми тачно документи потребни за продужење боравка?",
+        "sr_latin": "Koji su mi tačno dokumenti potrebni za produženje boravka?",
+        "pronunciation_ru": "кОи су ми тАчно докумЭнти пОтребни за продУжене бОравка",
+        "translation_ru": "Какие именно документы нужны для продления ВНЖ?",
         "false_friend_note": ""
       },
       {
-        "sr_cyrillic": "Скрените десно.",
-        "sr_latin": "Skrenite desno.",
-        "pronunciation_ru": "скрЭните дЭсно",
-        "translation_ru": "Поверните направо.",
+        "sr_cyrillic": "Да ли могу овај папир да доставим накнадно?",
+        "sr_latin": "Da li mogu ovaj papir da dostavim naknadno?",
+        "pronunciation_ru": "да ли мОгу Овай пАпир да дОставим нАкнадно",
+        "translation_ru": "Могу я донести эту бумагу позже?",
         "false_friend_note": ""
       },
       {
-        "sr_cyrillic": "Станите овде, молим.",
-        "sr_latin": "Stanite ovde, molim.",
-        "pronunciation_ru": "стАните Овде, мОлим",
-        "translation_ru": "Остановите здесь, пожалуйста.",
+        "sr_cyrillic": "Можете ли да ми напишете шта фали?",
+        "sr_latin": "Možete li da mi napišete šta fali?",
+        "pronunciation_ru": "мОжете ли да ми напИшете шта фАли",
+        "translation_ru": "Можете написать мне, чего не хватает?",
         "false_friend_note": ""
       },
       {
-        "sr_cyrillic": "Може ли картицом?",
-        "sr_latin": "Može li karticom?",
-        "pronunciation_ru": "мОже ли кАртицом",
-        "translation_ru": "Можно оплатить картой?",
-        "false_friend_note": ""
+        "sr_cyrillic": "У ком статусу је мој предмет?",
+        "sr_latin": "U kom statusu je moj predmet?",
+        "pronunciation_ru": "у ком стАтусу е мой прЭдмет",
+        "translation_ru": "В каком статусе моё дело?",
+        "false_friend_note": "«Предмет» в управе — «дело/заявление», а не вещь и не школьный предмет."
       }
     ]
   },
   {
-    "id": "kafic",
-    "title_ru": "☕ Кафе",
-    "title_sr": "Кафић",
-    "role_for_ai": "официант в сербском кафе",
-    "phrases": [
+    "id": "majstor",
+    "title_ru": "🔧 Мастер на дом",
+    "title_sr": "Мајстор",
+    "role_for_ai": "сербский мастер-сантехник — разговорчивый, говорит быстро и разговорно, любит объяснять, что «это не он сломал», торгуется по срокам",
+    "will_hear": [
       {
-        "sr_cyrillic": "Добар дан, сто за двоје, молим.",
-        "sr_latin": "Dobar dan, sto za dvoje, molim.",
-        "pronunciation_ru": "дОбар дан, сто за двОе, мОлим",
-        "translation_ru": "Добрый день, столик на двоих, пожалуйста.",
+        "sr_cyrillic": "Могу да дођем тек у понедељак, пре подне.",
+        "sr_latin": "Mogu da dođem tek u ponedeljak, pre podne.",
+        "pronunciation_ru": "мОгу да дОджем тек у понЭделяк, пре пОдне",
+        "translation_ru": "Смогу прийти только в понедельник, в первой половине дня.",
+        "how_to_react": "«Може, у колико сати отприлике?» (мОже, у кОлико сАти отпрИлике) — во сколько примерно?",
         "false_friend_note": ""
       },
       {
-        "sr_cyrillic": "Мени, молим вас.",
-        "sr_latin": "Meni, molim vas.",
-        "pronunciation_ru": "мЭни, мОлим вас",
-        "translation_ru": "Меню, пожалуйста.",
+        "sr_cyrillic": "То није до инсталације, то је до бојлера.",
+        "sr_latin": "To nije do instalacije, to je do bojlera.",
+        "pronunciation_ru": "то нИе до инсталАцие, то е до бОйлера",
+        "translation_ru": "Дело не в трубах/проводке, дело в бойлере.",
+        "how_to_react": "«Шта предлажете — поправку или нови?» (шта предлАжете — попрАвку Или нОви) — чинить или брать новый?",
+        "false_friend_note": "«До + чего-то» здесь значит «дело в …/из-за …», а не «до». «Инсталација» — трубы/проводка, не установка программ."
+      },
+      {
+        "sr_cyrillic": "Требаће ми део, наручујем га, стиже за два-три дана.",
+        "sr_latin": "Trebaće mi deo, naručujem ga, stiže za dva-tri dana.",
+        "pronunciation_ru": "трЭбаче ми дЭо, нарУчуем га, стИже за два-три дАна",
+        "translation_ru": "Понадобится деталь, закажу — придёт через два-три дня.",
+        "how_to_react": "«Јавите ми кад стигне, молим вас» (Явите ми кад стИгне, мОлим вас) — сообщите, когда придёт",
         "false_friend_note": ""
       },
       {
-        "sr_cyrillic": "Ја ћу једну кафу са млеком.",
-        "sr_latin": "Ja ću jednu kafu sa mlekom.",
-        "pronunciation_ru": "я чу Едну кАфу са млЭком",
-        "translation_ru": "Я буду кофе с молоком.",
+        "sr_cyrillic": "Биће око пет хиљада, с делом и радом.",
+        "sr_latin": "Biće oko pet hiljada, s delom i radom.",
+        "pronunciation_ru": "бИче Око пет хИляда, с дЭлом и рАдом",
+        "translation_ru": "Выйдет около пяти тысяч, с деталью и работой.",
+        "how_to_react": "«Да ли је то коначна цена?» (да ли е то кОначна цЭна) — это окончательная цена?",
         "false_friend_note": ""
       },
       {
-        "sr_cyrillic": "Шта нам препоручујете?",
-        "sr_latin": "Šta nam preporučujete?",
-        "pronunciation_ru": "шта нам препорУчуете",
-        "translation_ru": "Что нам посоветуете?",
+        "sr_cyrillic": "Мораћу да искључим воду на сат времена.",
+        "sr_latin": "Moraću da isključim vodu na sat vremena.",
+        "pronunciation_ru": "мОрачу да исклЮчим вОду на сат врЭмена",
+        "translation_ru": "Придётся отключить воду на час.",
+        "how_to_react": "«Нема проблема, само реците кад завршите» (нЭма проблЭма, сАмо рЭците кад завршИте) — скажите, когда закончите",
+        "false_friend_note": ""
+      }
+    ],
+    "your_phrases": [
+      {
+        "sr_cyrillic": "Цури вода испод судопере.",
+        "sr_latin": "Curi voda ispod sudopere.",
+        "pronunciation_ru": "цУри вОда Испод судопЭре",
+        "translation_ru": "Течёт вода под мойкой.",
         "false_friend_note": ""
       },
       {
-        "sr_cyrillic": "Да ли имате печење?",
-        "sr_latin": "Da li imate pečenje?",
-        "pronunciation_ru": "да ли Имате пЭченье",
-        "translation_ru": "У вас есть жаркое (запечённое мясо)?",
-        "false_friend_note": "«Печење» — не печенье! Это запечённое мясо. Печенье — «кекс» или «колачићи»."
-      },
-      {
-        "sr_cyrillic": "Рачун, молим.",
-        "sr_latin": "Račun, molim.",
-        "pronunciation_ru": "рАчун, мОлим",
-        "translation_ru": "Счёт, пожалуйста.",
+        "sr_cyrillic": "Кад можете да дођете и колико ће отприлике коштати?",
+        "sr_latin": "Kad možete da dođete i koliko će otprilike koštati?",
+        "pronunciation_ru": "кад мОжете да дОджете и кОлико че отпрИлике кОштати",
+        "translation_ru": "Когда сможете прийти и сколько примерно будет стоить?",
         "false_friend_note": ""
       },
       {
-        "sr_cyrillic": "Да ли примате картице?",
-        "sr_latin": "Da li primate kartice?",
-        "pronunciation_ru": "да ли прИмате кАртице",
-        "translation_ru": "Вы принимаете карты?",
+        "sr_cyrillic": "Ако треба нови део, прво ми јавите цену.",
+        "sr_latin": "Ako treba novi deo, prvo mi javite cenu.",
+        "pronunciation_ru": "Ако трЭба нОви дЭо, прво ми Явите цЭну",
+        "translation_ru": "Если нужна новая деталь, сначала сообщите цену.",
+        "false_friend_note": ""
+      },
+      {
+        "sr_cyrillic": "Да ли дајете гаранцију на поправку?",
+        "sr_latin": "Da li dajete garanciju na popravku?",
+        "pronunciation_ru": "да ли дАете гарАнцию на попрАвку",
+        "translation_ru": "Даёте гарантию на ремонт?",
         "false_friend_note": ""
       }
     ]
