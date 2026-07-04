@@ -88,10 +88,17 @@ export function Txt({
 }) {
   const c = useTheme();
   const resolved = color ?? (muted ? c.textSecondary : c.text);
+  // Если снаружи задан свой fontSize без lineHeight — снимаем lineHeight варианта,
+  // иначе крупный глиф режется в маленькой строке (баг «U» вместо «0»).
+  const override = StyleSheet.flatten(style) as TextStyle | undefined;
+  const base: TextStyle =
+    override?.fontSize != null && override.lineHeight == null
+      ? { ...VARIANT[variant], lineHeight: undefined }
+      : VARIANT[variant];
   return (
     <Text
       numberOfLines={numberOfLines}
-      style={[VARIANT[variant], { color: resolved }, center && { textAlign: 'center' }, style]}>
+      style={[base, { color: resolved }, center && { textAlign: 'center' }, style]}>
       {children}
     </Text>
   );
