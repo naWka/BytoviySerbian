@@ -71,8 +71,13 @@ const deckViews: DeckView[] = rawDecks.map((d) => ({
     pron: w.pronunciation_ru,
     ru: w.translation_ru,
     note: w.false_friend_note ?? '',
-    exampleSr: w.example_sr,
-    exampleRu: w.example_ru,
+    // У глаголов пример живёт в examples[]; берём первый как основной,
+    // чтобы карточка сессии/повторения (FlipWordCard) тоже показывала пример.
+    exampleSr: w.example_sr ?? w.examples?.[0]?.sr,
+    exampleRu: w.example_ru ?? w.examples?.[0]?.ru,
+    present: w.present,
+    past: w.past,
+    examples: w.examples,
   })),
 }));
 

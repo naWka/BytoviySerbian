@@ -15,8 +15,8 @@ const SCENARIO_ORDER = [
   'supermarket', 'kupovina_tehnike', 'restoran', 'gradski_prevoz', 'taksi',
 ];
 const DECK_ORDER = [
-  'uctivost', 'brojevi', 'vreme_sati', 'dani_meseci', 'pitanja_reci', 'glagoli_1',
-  'glagoli_2', 'predlozi_veznici', 'novac_cene', 'namirnice', 'voce_povrce', 'meso_riba',
+  'uctivost', 'glagoli', 'brojevi', 'vreme_sati', 'dani_meseci', 'pitanja_reci',
+  'predlozi_veznici', 'novac_cene', 'namirnice', 'voce_povrce', 'meso_riba',
   'mleko_pekara', 'restoran_meni', 'prodavnice_usluge', 'odeca', 'boje', 'telo',
   'simptomi', 'apoteka_lekovi', 'lekar_bolnica', 'dokumenti', 'stan_kuca', 'namestaj',
   'kuhinja', 'kupatilo', 'ciscenje', 'alat_popravke', 'prevoz', 'auto_voznja',

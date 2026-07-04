@@ -12,6 +12,41 @@ import type { Card } from '@/lib/types';
 
 import { Mono, SaveButton, Txt } from './ui';
 
+// Подписи форм спряжения (BS-16). Порядок совпадает с массивами present/past в JSON.
+const PRESENT_LABELS = ['ја', 'ти', 'он/она', 'ми', 'ви', 'они'];
+const PAST_LABELS = ['он', 'она', 'они (м)', 'они (ж)'];
+
+// Мини-таблица спряжения: слева подпись (лицо/род), справа форма «кириллица · latin».
+function ConjTable({
+  title,
+  labels,
+  forms,
+  bg,
+  labelColor,
+}: {
+  title: string;
+  labels: string[];
+  forms: string[];
+  bg: string;
+  labelColor: string;
+}) {
+  return (
+    <View style={[styles.table, { backgroundColor: bg }]}>
+      <Txt variant="small" muted style={{ marginBottom: Spacing.sm }}>
+        {title}
+      </Txt>
+      {forms.map((form, i) => (
+        <View key={i} style={styles.trow}>
+          <Txt variant="small" style={{ width: 68, color: labelColor }}>
+            {labels[i]}
+          </Txt>
+          <Txt style={{ flex: 1, fontWeight: '600' }}>{form}</Txt>
+        </View>
+      ))}
+    </View>
+  );
+}
+
 export function WordRow({ card }: { card: Card }) {
   const c = useTheme();
   const [open, setOpen] = useState(false);
@@ -59,16 +94,53 @@ export function WordRow({ card }: { card: Card }) {
           <Txt variant="small" muted>
             {card.srLatin}
           </Txt>
-          {card.exampleSr ? (
-            <View style={[styles.example, { backgroundColor: c.surfaceAlt }]}>
-              <Txt style={{ fontStyle: 'italic' }}>{card.exampleSr}</Txt>
-              {card.exampleRu ? (
-                <Txt variant="small" muted style={{ marginTop: 4 }}>
-                  {card.exampleRu}
-                </Txt>
-              ) : null}
-            </View>
+
+          {card.present && card.present.length > 0 ? (
+            <ConjTable
+              title="Настоящее время"
+              labels={PRESENT_LABELS}
+              forms={card.present}
+              bg={c.surfaceAlt}
+              labelColor={c.textMuted}
+            />
           ) : null}
+
+          {card.past && card.past.length > 0 ? (
+            <ConjTable
+              title="Прошедшее время (я делал / я делала)"
+              labels={PAST_LABELS}
+              forms={card.past}
+              bg={c.surfaceAlt}
+              labelColor={c.textMuted}
+            />
+          ) : null}
+
+          {/* Примеры глагола с «когда так говорят» (BS-16) */}
+          {card.examples && card.examples.length > 0
+            ? card.examples.map((ex, i) => (
+                <View key={i} style={[styles.example, { backgroundColor: c.surfaceAlt }]}>
+                  <Txt style={{ fontStyle: 'italic' }}>{ex.sr}</Txt>
+                  <Txt variant="small" muted style={{ marginTop: 4 }}>
+                    {ex.ru}
+                  </Txt>
+                  {ex.when ? (
+                    <Txt variant="small" color={c.primary} style={{ marginTop: 6 }}>
+                      💬 когда: {ex.when}
+                    </Txt>
+                  ) : null}
+                </View>
+              ))
+            : card.exampleSr ? (
+                <View style={[styles.example, { backgroundColor: c.surfaceAlt }]}>
+                  <Txt style={{ fontStyle: 'italic' }}>{card.exampleSr}</Txt>
+                  {card.exampleRu ? (
+                    <Txt variant="small" muted style={{ marginTop: 4 }}>
+                      {card.exampleRu}
+                    </Txt>
+                  ) : null}
+                </View>
+              ) : null}
+
           {card.note ? (
             <View style={[styles.example, { backgroundColor: c.sosSoft }]}>
               <Txt variant="small" style={{ color: c.warning, fontWeight: '700' }}>
@@ -101,4 +173,6 @@ const styles = StyleSheet.create({
     paddingVertical: 5,
   },
   example: { borderRadius: Radius.md, padding: Spacing.md },
+  table: { borderRadius: Radius.md, padding: Spacing.md },
+  trow: { flexDirection: 'row', alignItems: 'baseline', paddingVertical: 3 },
 });

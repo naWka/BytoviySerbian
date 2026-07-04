@@ -31,6 +31,13 @@ export interface RawScenario {
   your_phrases: RawYourPhrase[];
 }
 
+/** Пример употребления глагола + короткое «когда так говорят» (BS-16). */
+export interface RawVerbExample {
+  sr: string;
+  ru: string;
+  when: string;
+}
+
 export interface RawWord {
   sr_cyrillic: string;
   sr_latin: string;
@@ -39,6 +46,10 @@ export interface RawWord {
   example_sr?: string;
   example_ru?: string;
   false_friend_note: string;
+  // BS-16: только у глаголов. Каждая форма — строка "кириллица · latin".
+  present?: string[]; // 6 форм наст. времени: ja / ti / on-ona / mi / vi / oni
+  past?: string[]; // 4 формы прош. времени: он / она / они (м) / они (ж)
+  examples?: RawVerbExample[]; // 1–2 примера с переводом и «когда»
 }
 
 export interface RawDeck {
@@ -73,6 +84,10 @@ export interface Card {
   // только для kind === 'word':
   exampleSr?: string;
   exampleRu?: string;
+  // только для глаголов (BS-16):
+  present?: string[]; // 6 форм наст. времени
+  past?: string[]; // 4 формы прош. времени
+  examples?: { sr: string; ru: string; when: string }[];
 }
 
 export interface ScenarioView {
