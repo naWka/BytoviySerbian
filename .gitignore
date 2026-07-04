@@ -1,0 +1,17 @@
+.DS_Store
+*.log
+
+# secrets
+.env
+
+# python
+__pycache__/
+*.pyc
+.venv/
+
+# local data
+*.db
+*.sqlite3
+
+# claude local overrides
+.claude/settings.local.json
