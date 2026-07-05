@@ -9,10 +9,9 @@ import { Platform, Pressable, StyleSheet, View } from 'react-native';
 import { Font, Radius, Spacing } from '@/constants/theme';
 import { useTheme } from '@/hooks/use-theme';
 import { letterTiles } from '@/lib/exercise';
-import { speak } from '@/lib/speech';
 import type { Card } from '@/lib/types';
 
-import { SpeakButton, Txt } from './ui';
+import { Mono, SpeakButton, Txt } from './ui';
 
 export function AssembleWord({ card, onResult }: { card: Card; onResult: (correct: boolean) => void }) {
   const c = useTheme();
@@ -32,7 +31,6 @@ export function AssembleWord({ card, onResult }: { card: Card; onResult: (correc
       if (correct) Haptics.impactAsync(Haptics.ImpactFeedbackStyle.Light).catch(() => {});
       else Haptics.notificationAsync(Haptics.NotificationFeedbackType.Error).catch(() => {});
     }
-    speak(target, { latin: card.srLatin });
     onResult(correct);
   };
 
@@ -76,7 +74,14 @@ export function AssembleWord({ card, onResult }: { card: Card; onResult: (correc
         <View style={{ flexDirection: 'row', alignItems: 'center', justifyContent: 'center', gap: Spacing.sm }}>
           <Ionicons name="close-circle" size={18} color={c.sos} />
           <Txt variant="small" style={{ color: c.sos, fontWeight: '700' }}>Верно: {target}</Txt>
+        </View>
+      ) : null}
+
+      {/* Транскрипция кириллицей с ударением (как в словаре) — вместо робота-озвучки. */}
+      {checked !== null ? (
+        <View style={[styles.pron, { backgroundColor: c.surfaceAlt }]}>
           <SpeakButton text={target} latin={card.srLatin} size={16} soft={false} />
+          <Mono color={c.text}>{card.pron}</Mono>
         </View>
       ) : null}
 
@@ -113,6 +118,15 @@ const styles = StyleSheet.create({
     justifyContent: 'center',
   },
   tilesRow: { flexDirection: 'row', flexWrap: 'wrap', gap: Spacing.sm, justifyContent: 'center' },
+  pron: {
+    flexDirection: 'row',
+    alignItems: 'center',
+    gap: Spacing.sm,
+    alignSelf: 'center',
+    paddingVertical: 6,
+    paddingHorizontal: Spacing.md,
+    borderRadius: Radius.md,
+  },
   tile: {
     minWidth: 42,
     height: 48,

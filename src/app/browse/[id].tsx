@@ -13,7 +13,6 @@ import { Radius, Spacing } from '@/constants/theme';
 import { useTheme } from '@/hooks/use-theme';
 import { content } from '@/lib/content';
 import { browseCandidates } from '@/lib/learn';
-import { speak } from '@/lib/speech';
 import { useStore } from '@/lib/store';
 
 const POOL = 20;
@@ -63,7 +62,6 @@ export default function BrowseDeckScreen() {
   // «Не знаю» → просто показать перевод (решение «брать/нет» — уже после перевода).
   const onReveal = () => {
     if (!card) return;
-    speak(card.sr, { latin: card.srLatin });
     setRevealed(true);
   };
   // На лице: «Знаю» — не добавляем, помечаем известным (больше не покажем).
@@ -121,7 +119,15 @@ export default function BrowseDeckScreen() {
     <Screen padded={false} edges={['bottom']}>
       <Stack.Screen options={{ title }} />
       <View style={{ paddingHorizontal: Spacing.lg, paddingTop: Spacing.md, gap: 6 }}>
-        <ProgressBar value={i / queue.length} />
+        <View style={{ flexDirection: 'row', alignItems: 'center', gap: Spacing.md }}>
+          <View style={{ flex: 1 }}>
+            <ProgressBar value={i / queue.length} />
+          </View>
+          <Pressable onPress={() => router.back()} hitSlop={8} style={{ flexDirection: 'row', alignItems: 'center', gap: 4 }}>
+            <Ionicons name="close" size={18} color={c.textMuted} />
+            <Txt variant="small" muted>Выйти</Txt>
+          </Pressable>
+        </View>
         <Txt variant="small" muted>Осталось: {queue.length - i}</Txt>
       </View>
 

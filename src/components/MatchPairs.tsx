@@ -9,7 +9,6 @@ import { Platform, Pressable, StyleSheet, View } from 'react-native';
 
 import { Font, Radius, Spacing } from '@/constants/theme';
 import { useTheme } from '@/hooks/use-theme';
-import { speak } from '@/lib/speech';
 import type { Card } from '@/lib/types';
 
 import { Txt } from './ui';
@@ -49,7 +48,6 @@ export function MatchPairs({ cards, onDone }: { cards: Card[]; onDone: (results:
 
   const tap = (it: Item) => {
     if (matched[it.cardId]) return;
-    if (it.kind === 'sr') speak(it.text);
     if (!sel) {
       setSel(it);
       return;

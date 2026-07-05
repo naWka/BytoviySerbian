@@ -4,7 +4,7 @@
 //   produce   (говорение):  вопрос = русский (или фраза с пропуском, BS-26) → ответ = серб.;
 //   listen    (аудирование, BS-25): вопрос = звук (текст скрыт) → ответ = серб. + перевод.
 // Управляется извне через `revealed`; тап по лицу — просьба показать ответ (onFlip).
-// BS-25: на обороте есть кнопка «слушать», и ответ проговаривается автоматически при показе.
+// Звук — только по кнопке 🔊 (авто-озвучка убрана: робот коверкает сербский).
 import { Ionicons } from '@expo/vector-icons';
 import { useEffect } from 'react';
 import { Pressable, StyleSheet, View } from 'react-native';
@@ -49,16 +49,7 @@ export function FlipWordCard({
     flip.value = withTiming(revealed ? 1 : 0, { duration: reduced ? 0 : 360 });
   }, [revealed, reduced, flip]);
 
-  // BS-25: озвучиваем сербское слово, когда показан ответ (на любой стороне он содержит серб.).
-  useEffect(() => {
-    if (revealed) speak(card.sr, { latin: card.srLatin });
-  }, [revealed, card.sr, card.srLatin]);
-
-  // BS-25: на стороне «на слух» проигрываем слово сразу при появлении карточки.
-  useEffect(() => {
-    if (listen && !revealed) speak(card.sr, { latin: card.srLatin });
-    // eslint-disable-next-line react-hooks/exhaustive-deps
-  }, [card.id]);
+  // Авто-озвучки нет: робот коверкает сербский. Звук — только по кнопке 🔊 (ручной).
 
   const front = useAnimatedStyle(() => ({
     transform: [{ perspective: 1000 }, { rotateY: `${interpolate(flip.value, [0, 1], [0, 180])}deg` }],

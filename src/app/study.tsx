@@ -7,7 +7,7 @@
 import { Ionicons } from '@expo/vector-icons';
 import { Stack, router } from 'expo-router';
 import { useMemo, useState } from 'react';
-import { StyleSheet, View } from 'react-native';
+import { Pressable, StyleSheet, View } from 'react-native';
 import Animated, { FadeIn, SlideInRight } from 'react-native-reanimated';
 
 import { AssembleWord } from '@/components/AssembleWord';
@@ -111,6 +111,12 @@ export default function StudyScreen() {
     return (
       <Screen padded={false} edges={['bottom']}>
         <Stack.Screen options={{ title: 'Учу · пары' }} />
+        <View style={{ paddingHorizontal: Spacing.lg, paddingTop: Spacing.md, alignItems: 'flex-end' }}>
+          <Pressable onPress={() => router.back()} hitSlop={8} style={styles.exit}>
+            <Ionicons name="close" size={18} color={c.textMuted} />
+            <Txt variant="small" muted>Выйти</Txt>
+          </Pressable>
+        </View>
         <View style={{ padding: Spacing.lg, flex: 1, justifyContent: 'center' }}>
           <MatchPairs cards={pairCards} onDone={onPairsDone} />
         </View>
@@ -156,18 +162,30 @@ export default function StudyScreen() {
     finalizeGrade(card.id, opt === card.sr ? 'good' : 'again'); // requeue пересчитаем при «Дальше»
     setPicked(opt);
   };
-  const onAssemble = (correct: boolean) => setAssembleResult(correct);
+  const onAssemble = (correct: boolean) => {
+    finalizeGrade(card.id, correct ? 'good' : 'again'); // сборка тоже двигает слово
+    setAssembleResult(correct);
+  };
 
   const onNext = () => {
     const requeue = statusOf(useStore.getState().progress[card.id]) === 'learning';
     advance(card.id, requeue);
   };
+  const exit = () => router.back();
 
   return (
     <Screen padded={false} edges={['bottom']}>
       <Stack.Screen options={{ title: 'Учу' }} />
       <View style={{ paddingHorizontal: Spacing.lg, paddingTop: Spacing.md, gap: 6 }}>
-        <ProgressBar value={i / queue.length} />
+        <View style={{ flexDirection: 'row', alignItems: 'center', gap: Spacing.md }}>
+          <View style={{ flex: 1 }}>
+            <ProgressBar value={i / queue.length} />
+          </View>
+          <Pressable onPress={exit} hitSlop={8} style={styles.exit}>
+            <Ionicons name="close" size={18} color={c.textMuted} />
+            <Txt variant="small" muted>Выйти</Txt>
+          </Pressable>
+        </View>
         <View style={{ flexDirection: 'row', justifyContent: 'space-between', alignItems: 'center' }}>
           <Txt variant="small" muted>Осталось: {queue.length - i}</Txt>
           <LevelBar idx={level.idx} label={level.label} />
@@ -216,4 +234,5 @@ export default function StudyScreen() {
 const styles = StyleSheet.create({
   pron: { flexDirection: 'row', alignItems: 'center', gap: Spacing.sm, paddingVertical: 6, paddingHorizontal: Spacing.md, borderRadius: Radius.md },
   sub: { borderRadius: Radius.md, padding: Spacing.md, marginTop: Spacing.lg, alignItems: 'center' },
+  exit: { flexDirection: 'row', alignItems: 'center', gap: 4 },
 });
