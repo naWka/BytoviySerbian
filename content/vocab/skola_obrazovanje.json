@@ -1,0 +1,638 @@
+{
+  "id": "skola_obrazovanje",
+  "title_ru": "🎓 Школа и учёба",
+  "title_sr": "Школа и образовање",
+  "_note": "Черновик: сгенерировано AI и вычитано AI-корректором «как носитель». Не проверено носителем-человеком.",
+  "words": [
+    {
+      "sr_cyrillic": "школа",
+      "sr_latin": "škola",
+      "pronunciation_ru": "шкОла",
+      "translation_ru": "школа",
+      "example_sr": "Деца иду у школу у осам ујутру.",
+      "example_ru": "Дети идут в школу в восемь утра.",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "вртић",
+      "sr_latin": "vrtić",
+      "pronunciation_ru": "вРтич",
+      "translation_ru": "детский сад",
+      "example_sr": "Водим малог у вртић свако јутро.",
+      "example_ru": "Отвожу малыша в садик каждое утро.",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "обданиште",
+      "sr_latin": "obdanište",
+      "pronunciation_ru": "обдАниште",
+      "translation_ru": "детский сад, ясли (дневного пребывания)",
+      "example_sr": "Уписали смо ћерку у обданиште близу куће.",
+      "example_ru": "Мы записали дочку в детсад рядом с домом.",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "основна школа",
+      "sr_latin": "osnovna škola",
+      "pronunciation_ru": "Основна шкОла",
+      "translation_ru": "начальная и средняя школа (1–8 классы)",
+      "example_sr": "Син ми је у трећем разреду основне школе.",
+      "example_ru": "Мой сын в третьем классе начальной школы.",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "средња школа",
+      "sr_latin": "srednja škola",
+      "pronunciation_ru": "срЭдња шкОла",
+      "translation_ru": "старшие классы, среднее образование",
+      "example_sr": "После основне уписује средњу школу.",
+      "example_ru": "После начальной он поступает в среднюю школу.",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "гимназија",
+      "sr_latin": "gimnazija",
+      "pronunciation_ru": "гимнАзија",
+      "translation_ru": "гимназия",
+      "example_sr": "Ћерка иде у гимназију, друштвени смер.",
+      "example_ru": "Дочь ходит в гимназию, гуманитарное направление.",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "факултет",
+      "sr_latin": "fakultet",
+      "pronunciation_ru": "факултЭт",
+      "translation_ru": "вуз, институт, факультет",
+      "example_sr": "Завршио сам факултет пре две године.",
+      "example_ru": "Я окончил вуз два года назад.",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "универзитет",
+      "sr_latin": "univerzitet",
+      "pronunciation_ru": "универзитЭт",
+      "translation_ru": "университет",
+      "example_sr": "Београдски универзитет је највећи у Србији.",
+      "example_ru": "Белградский университет самый большой в Сербии.",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "учитељ",
+      "sr_latin": "učitelj",
+      "pronunciation_ru": "Учитељ",
+      "translation_ru": "учитель (начальных классов)",
+      "example_sr": "Учитељ је стрпљив са децом.",
+      "example_ru": "Учитель терпелив с детьми.",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "учитељица",
+      "sr_latin": "učiteljica",
+      "pronunciation_ru": "учИтељица",
+      "translation_ru": "учительница (начальных классов)",
+      "example_sr": "Учитељица је задала пуно домаћег.",
+      "example_ru": "Учительница задала много домашки.",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "наставник",
+      "sr_latin": "nastavnik",
+      "pronunciation_ru": "нАставник",
+      "translation_ru": "учитель-предметник, преподаватель",
+      "example_sr": "Наставник математике је данас одсутан.",
+      "example_ru": "Учитель математики сегодня отсутствует.",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "професор",
+      "sr_latin": "profesor",
+      "pronunciation_ru": "профЭсор",
+      "translation_ru": "преподаватель, учитель (старших классов и вуза)",
+      "example_sr": "Професор историје нам је дао одличну оцену.",
+      "example_ru": "Учитель истории поставил нам отличную оценку.",
+      "false_friend_note": "Так называют не только вузовского преподавателя, но и учителя старших классов."
+    },
+    {
+      "sr_cyrillic": "ученик",
+      "sr_latin": "učenik",
+      "pronunciation_ru": "учЭник",
+      "translation_ru": "ученик",
+      "example_sr": "Он је најбољи ученик у одељењу.",
+      "example_ru": "Он лучший ученик в классе.",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "ученица",
+      "sr_latin": "učenica",
+      "pronunciation_ru": "учЭница",
+      "translation_ru": "ученица",
+      "example_sr": "Ученица је подигла руку да одговори.",
+      "example_ru": "Ученица подняла руку, чтобы ответить.",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "студент",
+      "sr_latin": "student",
+      "pronunciation_ru": "студЭнт",
+      "translation_ru": "студент",
+      "example_sr": "Као студент радим и хонорарно.",
+      "example_ru": "Будучи студентом, я ещё подрабатываю.",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "ђак",
+      "sr_latin": "đak",
+      "pronunciation_ru": "джАк",
+      "translation_ru": "школьник, ученик",
+      "example_sr": "Ђаци имају распуст од понедељка.",
+      "example_ru": "У школьников каникулы с понедельника.",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "разред",
+      "sr_latin": "razred",
+      "pronunciation_ru": "рАзред",
+      "translation_ru": "класс (год обучения)",
+      "example_sr": "У који разред иде твоје дете?",
+      "example_ru": "В каком классе учится твой ребёнок?",
+      "false_friend_note": "разред — это год обучения (первый, второй…), а класс-группа учеников — одељење."
+    },
+    {
+      "sr_cyrillic": "одељење",
+      "sr_latin": "odeljenje",
+      "pronunciation_ru": "одЭљење",
+      "translation_ru": "класс (группа учеников)",
+      "example_sr": "У мом одељењу има тридесет ђака.",
+      "example_ru": "В моём классе тридцать учеников.",
+      "false_friend_note": "Это класс-группа детей; год обучения называется разред."
+    },
+    {
+      "sr_cyrillic": "час",
+      "sr_latin": "čas",
+      "pronunciation_ru": "чАс",
+      "translation_ru": "урок",
+      "example_sr": "Први час почиње у осам.",
+      "example_ru": "Первый урок начинается в восемь.",
+      "false_friend_note": "Значит и «урок», и «час/момент времени». В школе час — это урок."
+    },
+    {
+      "sr_cyrillic": "предмет",
+      "sr_latin": "predmet",
+      "pronunciation_ru": "прЭдмет",
+      "translation_ru": "предмет (учебный)",
+      "example_sr": "Који ти је омиљени предмет?",
+      "example_ru": "Какой у тебя любимый предмет?",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "лекција",
+      "sr_latin": "lekcija",
+      "pronunciation_ru": "лЭкција",
+      "translation_ru": "урок, тема (в учебнике)",
+      "example_sr": "За сутра треба научити нову лекцију.",
+      "example_ru": "К завтрашнему дню надо выучить новую тему.",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "градиво",
+      "sr_latin": "gradivo",
+      "pronunciation_ru": "грАдиво",
+      "translation_ru": "учебный материал, пройденное",
+      "example_sr": "Морам да поновим градиво пре испита.",
+      "example_ru": "Мне надо повторить материал перед экзаменом.",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "домаћи задатак",
+      "sr_latin": "domaći zadatak",
+      "pronunciation_ru": "домАчи зАдатак",
+      "translation_ru": "домашнее задание",
+      "example_sr": "Јеси ли урадио домаћи задатак?",
+      "example_ru": "Ты сделал домашнее задание?",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "задатак",
+      "sr_latin": "zadatak",
+      "pronunciation_ru": "зАдатак",
+      "translation_ru": "задание, задача",
+      "example_sr": "Овај задатак из математике је тежак.",
+      "example_ru": "Эта задача по математике сложная.",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "оцена",
+      "sr_latin": "ocena",
+      "pronunciation_ru": "Оцена",
+      "translation_ru": "оценка, отметка",
+      "example_sr": "Добио сам добру оцену из српског.",
+      "example_ru": "Я получил хорошую оценку по сербскому.",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "петица",
+      "sr_latin": "petica",
+      "pronunciation_ru": "пЭтица",
+      "translation_ru": "пятёрка (оценка «5»)",
+      "example_sr": "Добила је петицу из хемије.",
+      "example_ru": "Она получила пятёрку по химии.",
+      "false_friend_note": "Оценка «5» — ЛУЧШАЯ. В Сербии шкала 1–5, где 5 — отлично."
+    },
+    {
+      "sr_cyrillic": "јединица",
+      "sr_latin": "jedinica",
+      "pronunciation_ru": "йЭдиница",
+      "translation_ru": "единица (оценка «1», кол)",
+      "example_sr": "Пао је и добио јединицу.",
+      "example_ru": "Он провалился и получил единицу.",
+      "false_friend_note": "Оценка «1» — САМАЯ ПЛОХАЯ (как русский «кол»/двойка). В Сербии 1 — минимум, 5 — максимум."
+    },
+    {
+      "sr_cyrillic": "испит",
+      "sr_latin": "ispit",
+      "pronunciation_ru": "Испит",
+      "translation_ru": "экзамен",
+      "example_sr": "Сутра имам важан испит.",
+      "example_ru": "Завтра у меня важный экзамен.",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "тест",
+      "sr_latin": "test",
+      "pronunciation_ru": "тЭст",
+      "translation_ru": "тест, контрольная (проверочная)",
+      "example_sr": "Данас пишемо тест из географије.",
+      "example_ru": "Сегодня пишем тест по географии.",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "контролни",
+      "sr_latin": "kontrolni",
+      "pronunciation_ru": "контрОлни",
+      "translation_ru": "контрольная работа",
+      "example_sr": "У петак имамо контролни из математике.",
+      "example_ru": "В пятницу у нас контрольная по математике.",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "писмени",
+      "sr_latin": "pismeni",
+      "pronunciation_ru": "пИсмени",
+      "translation_ru": "письменный (экзамен, часть)",
+      "example_sr": "Положио сам писмени, остаје усмени.",
+      "example_ru": "Письменный я сдал, остался устный.",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "усмени",
+      "sr_latin": "usmeni",
+      "pronunciation_ru": "Усмени",
+      "translation_ru": "устный (экзамен, ответ)",
+      "example_sr": "Усмени испит је следеће недеље.",
+      "example_ru": "Устный экзамен на следующей неделе.",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "свеска",
+      "sr_latin": "sveska",
+      "pronunciation_ru": "свЭска",
+      "translation_ru": "тетрадь",
+      "example_sr": "Заборавио сам свеску код куће.",
+      "example_ru": "Я забыл тетрадь дома.",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "оловка",
+      "sr_latin": "olovka",
+      "pronunciation_ru": "Оловка",
+      "translation_ru": "карандаш",
+      "example_sr": "Позајми ми оловку, молим те.",
+      "example_ru": "Одолжи мне карандаш, пожалуйста.",
+      "false_friend_note": "Это КАРАНДАШ, а не «ручка». Шариковая ручка — хемијска (оловка)."
+    },
+    {
+      "sr_cyrillic": "хемијска",
+      "sr_latin": "hemijska",
+      "pronunciation_ru": "хЭмийска",
+      "translation_ru": "шариковая ручка",
+      "example_sr": "Имаш ли плаву хемијску?",
+      "example_ru": "У тебя есть синяя ручка?",
+      "false_friend_note": "Буквально «химическая», но это шариковая ручка (сокр. от хемијска оловка)."
+    },
+    {
+      "sr_cyrillic": "гумица",
+      "sr_latin": "gumica",
+      "pronunciation_ru": "гУмица",
+      "translation_ru": "ластик, стёрка",
+      "example_sr": "Треба ми гумица да обришем ово.",
+      "example_ru": "Мне нужен ластик, чтобы стереть это.",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "лењир",
+      "sr_latin": "lenjir",
+      "pronunciation_ru": "лЭнир",
+      "translation_ru": "линейка",
+      "example_sr": "Повуци линију лењиром.",
+      "example_ru": "Проведи линию по линейке.",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "торба",
+      "sr_latin": "torba",
+      "pronunciation_ru": "тОрба",
+      "translation_ru": "сумка, портфель",
+      "example_sr": "Школска торба ми је претешка.",
+      "example_ru": "Мой школьный портфель слишком тяжёлый.",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "ранац",
+      "sr_latin": "ranac",
+      "pronunciation_ru": "рАнац",
+      "translation_ru": "рюкзак, ранец",
+      "example_sr": "Стави свеске у ранац.",
+      "example_ru": "Положи тетради в рюкзак.",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "уџбеник",
+      "sr_latin": "udžbenik",
+      "pronunciation_ru": "Уджбеник",
+      "translation_ru": "учебник",
+      "example_sr": "Купили смо уџбенике за нову школску годину.",
+      "example_ru": "Мы купили учебники на новый учебный год.",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "библиотека",
+      "sr_latin": "biblioteka",
+      "pronunciation_ru": "библиотЭка",
+      "translation_ru": "библиотека",
+      "example_sr": "Вратио сам књиге у библиотеку.",
+      "example_ru": "Я вернул книги в библиотеку.",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "распоред",
+      "sr_latin": "raspored",
+      "pronunciation_ru": "рАспоред",
+      "translation_ru": "расписание, распорядок",
+      "example_sr": "Погледај распоред за сутра.",
+      "example_ru": "Посмотри расписание на завтра.",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "распоред часова",
+      "sr_latin": "raspored časova",
+      "pronunciation_ru": "рАспоред чАсова",
+      "translation_ru": "расписание уроков",
+      "example_sr": "Нови распоред часова је окачен на огласну таблу.",
+      "example_ru": "Новое расписание уроков вывешено на доске объявлений.",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "одмор",
+      "sr_latin": "odmor",
+      "pronunciation_ru": "Одмор",
+      "translation_ru": "перемена, отдых, каникулы",
+      "example_sr": "На великом одмору идемо у двориште.",
+      "example_ru": "На большой перемене идём во двор.",
+      "false_friend_note": "Значит и «перемена» (между уроками), и «отдых/каникулы»."
+    },
+    {
+      "sr_cyrillic": "распуст",
+      "sr_latin": "raspust",
+      "pronunciation_ru": "рАспуст",
+      "translation_ru": "школьные каникулы",
+      "example_sr": "Летњи распуст траје три месеца.",
+      "example_ru": "Летние каникулы длятся три месяца.",
+      "false_friend_note": "Похоже на «распущенность», но означает школьные каникулы."
+    },
+    {
+      "sr_cyrillic": "диплома",
+      "sr_latin": "diploma",
+      "pronunciation_ru": "диплОма",
+      "translation_ru": "диплом",
+      "example_sr": "Добио сам диплому са одличним успехом.",
+      "example_ru": "Я получил диплом с отличием.",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "сведочанство",
+      "sr_latin": "svedočanstvo",
+      "pronunciation_ru": "сведочАнство",
+      "translation_ru": "табель, аттестат (за учебный год)",
+      "example_sr": "Подигао сам сведочанство на крају године.",
+      "example_ru": "Я забрал табель в конце года.",
+      "false_friend_note": "Похоже на «свидетельство», но это школьный табель/аттестат."
+    },
+    {
+      "sr_cyrillic": "упис",
+      "sr_latin": "upis",
+      "pronunciation_ru": "Упис",
+      "translation_ru": "запись, зачисление, поступление",
+      "example_sr": "Упис на факултет је у јуну.",
+      "example_ru": "Поступление в вуз в июне.",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "уписати",
+      "sr_latin": "upisati",
+      "pronunciation_ru": "упИсати",
+      "translation_ru": "записать(ся), поступить, зачислить",
+      "example_sr": "Хоћу да упишем дете у ту школу.",
+      "example_ru": "Хочу записать ребёнка в эту школу.",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "пријава",
+      "sr_latin": "prijava",
+      "pronunciation_ru": "прИйава",
+      "translation_ru": "заявка, регистрация, подача документов",
+      "example_sr": "Рок за пријаву је до петка.",
+      "example_ru": "Срок подачи заявки до пятницы.",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "курс",
+      "sr_latin": "kurs",
+      "pronunciation_ru": "кУрс",
+      "translation_ru": "курс (обучения)",
+      "example_sr": "Идем на курс српског језика.",
+      "example_ru": "Я хожу на курс сербского языка.",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "предавање",
+      "sr_latin": "predavanje",
+      "pronunciation_ru": "предавАнье",
+      "translation_ru": "лекция, преподавание",
+      "example_sr": "Предавање из историје је било занимљиво.",
+      "example_ru": "Лекция по истории была интересной.",
+      "false_friend_note": "Означает «лекция/преподавание», а не «предательство» (это издаја)."
+    },
+    {
+      "sr_cyrillic": "вежбе",
+      "sr_latin": "vežbe",
+      "pronunciation_ru": "вЭжбе",
+      "translation_ru": "практические занятия, семинары; упражнения",
+      "example_sr": "После предавања имамо вежбе.",
+      "example_ru": "После лекции у нас практические занятия.",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "семинар",
+      "sr_latin": "seminar",
+      "pronunciation_ru": "семинАр",
+      "translation_ru": "семинар",
+      "example_sr": "Данас имамо семинар из социологије.",
+      "example_ru": "Сегодня у нас семинар по социологии.",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "знање",
+      "sr_latin": "znanje",
+      "pronunciation_ru": "знАнье",
+      "translation_ru": "знание",
+      "example_sr": "Он има солидно знање језика.",
+      "example_ru": "У него хорошее знание языка.",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "учење",
+      "sr_latin": "učenje",
+      "pronunciation_ru": "Ученье",
+      "translation_ru": "учёба, обучение, изучение",
+      "example_sr": "Учење страних језика тражи време.",
+      "example_ru": "Изучение иностранных языков требует времени.",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "учити",
+      "sr_latin": "učiti",
+      "pronunciation_ru": "Учити",
+      "translation_ru": "учить(ся), готовиться",
+      "example_sr": "Морам да учим за испит.",
+      "example_ru": "Мне надо готовиться к экзамену.",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "читати",
+      "sr_latin": "čitati",
+      "pronunciation_ru": "чИтати",
+      "translation_ru": "читать",
+      "example_sr": "Деца уче да читају у првом разреду.",
+      "example_ru": "Дети учатся читать в первом классе.",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "писати",
+      "sr_latin": "pisati",
+      "pronunciation_ru": "пИсати",
+      "translation_ru": "писать",
+      "example_sr": "Научио је да пише штампаним словима.",
+      "example_ru": "Он научился писать печатными буквами.",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "табла",
+      "sr_latin": "tabla",
+      "pronunciation_ru": "тАбла",
+      "translation_ru": "доска (классная)",
+      "example_sr": "Наставник пише задатак на табли.",
+      "example_ru": "Учитель пишет задачу на доске.",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "креда",
+      "sr_latin": "kreda",
+      "pronunciation_ru": "крЭда",
+      "translation_ru": "мел",
+      "example_sr": "Учитељ је узео креду и почео да пише.",
+      "example_ru": "Учитель взял мел и начал писать.",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "клупа",
+      "sr_latin": "klupa",
+      "pronunciation_ru": "клУпа",
+      "translation_ru": "парта; скамейка",
+      "example_sr": "Седим у првој клупи.",
+      "example_ru": "Я сижу за первой партой.",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "учионица",
+      "sr_latin": "učionica",
+      "pronunciation_ru": "учиОница",
+      "translation_ru": "класс, учебный кабинет",
+      "example_sr": "Учионица је на другом спрату.",
+      "example_ru": "Классный кабинет на втором этаже.",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "дневник",
+      "sr_latin": "dnevnik",
+      "pronunciation_ru": "днЭвник",
+      "translation_ru": "классный журнал; дневник",
+      "example_sr": "Наставник је уписао оцену у дневник.",
+      "example_ru": "Учитель записал оценку в журнал.",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "школарина",
+      "sr_latin": "školarina",
+      "pronunciation_ru": "школАрина",
+      "translation_ru": "плата за обучение",
+      "example_sr": "Школарина за приватни факултет је висока.",
+      "example_ru": "Плата за обучение в частном вузе высокая.",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "стипендија",
+      "sr_latin": "stipendija",
+      "pronunciation_ru": "стипЭндија",
+      "translation_ru": "стипендия",
+      "example_sr": "Добио сам стипендију за одличан успех.",
+      "example_ru": "Я получил стипендию за отличную учёбу.",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "матура",
+      "sr_latin": "matura",
+      "pronunciation_ru": "матУра",
+      "translation_ru": "выпускной экзамен (в школе)",
+      "example_sr": "После матуре идем на факултет.",
+      "example_ru": "После выпускных экзаменов иду в вуз.",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "смер",
+      "sr_latin": "smer",
+      "pronunciation_ru": "смЭр",
+      "translation_ru": "направление, профиль, специальность",
+      "example_sr": "Уписао сам природно-математички смер.",
+      "example_ru": "Я поступил на естественно-математическое направление.",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "диктат",
+      "sr_latin": "diktat",
+      "pronunciation_ru": "дИктат",
+      "translation_ru": "диктант",
+      "example_sr": "Данас смо писали диктат из српског.",
+      "example_ru": "Сегодня мы писали диктант по сербскому.",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "изостанак",
+      "sr_latin": "izostanak",
+      "pronunciation_ru": "изОстанак",
+      "translation_ru": "пропуск (занятия), отсутствие",
+      "example_sr": "Треба ми оправдање за изостанак.",
+      "example_ru": "Мне нужна справка за пропуск.",
+      "false_friend_note": ""
+    }
+  ]
+}

@@ -1,0 +1,656 @@
+{
+  "id": "zivotinje_priroda",
+  "title_ru": "🐾 Животные и природа",
+  "title_sr": "Животиње и природа",
+  "_note": "Черновик: сгенерировано AI и вычитано AI-корректором «как носитель». Не проверено носителем-человеком.",
+  "words": [
+    {
+      "sr_cyrillic": "животиња",
+      "sr_latin": "životinja",
+      "pronunciation_ru": "живОтиня",
+      "translation_ru": "животное",
+      "example_sr": "Волим животиње још од детињства.",
+      "example_ru": "Я люблю животных ещё с детства.",
+      "false_friend_note": "Похоже на русское «животина» (разг., неодобр.), но сербское «животиња» — это нейтральное «животное»."
+    },
+    {
+      "sr_cyrillic": "пас",
+      "sr_latin": "pas",
+      "pronunciation_ru": "пАс",
+      "translation_ru": "собака, пёс",
+      "example_sr": "Комшијин пас лаје цело јутро.",
+      "example_ru": "Соседская собака лает всё утро.",
+      "false_friend_note": "Совпадает по звучанию с русским «пас» (мяч, спорт), но здесь значит «пёс/собака». Множ. число — «пси»."
+    },
+    {
+      "sr_cyrillic": "куче",
+      "sr_latin": "kuče",
+      "pronunciation_ru": "кУчэ",
+      "translation_ru": "собачка, пёсик, щенок",
+      "example_sr": "Деца су нашла мало куче на улици.",
+      "example_ru": "Дети нашли на улице маленькую собачку.",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "мачка",
+      "sr_latin": "mačka",
+      "pronunciation_ru": "мАчка",
+      "translation_ru": "кошка, кот",
+      "example_sr": "Наша мачка спава цео дан.",
+      "example_ru": "Наша кошка спит целый день.",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "маче",
+      "sr_latin": "mače",
+      "pronunciation_ru": "мАчэ",
+      "translation_ru": "котёнок",
+      "example_sr": "Маче се игра клупком вуне.",
+      "example_ru": "Котёнок играет клубком шерсти.",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "птица",
+      "sr_latin": "ptica",
+      "pronunciation_ru": "птИца",
+      "translation_ru": "птица",
+      "example_sr": "Птица је свила гнездо на дрвету.",
+      "example_ru": "Птица свила гнездо на дереве.",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "врабац",
+      "sr_latin": "vrabac",
+      "pronunciation_ru": "врАбац",
+      "translation_ru": "воробей",
+      "example_sr": "Врабац скакуће по тераси.",
+      "example_ru": "Воробей скачет по террасе.",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "голуб",
+      "sr_latin": "golub",
+      "pronunciation_ru": "гОлуб",
+      "translation_ru": "голубь",
+      "example_sr": "На тргу има много голубова.",
+      "example_ru": "На площади много голубей.",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "кокошка",
+      "sr_latin": "kokoška",
+      "pronunciation_ru": "кОкошка",
+      "translation_ru": "курица",
+      "example_sr": "Кокошка је снела јаје.",
+      "example_ru": "Курица снесла яйцо.",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "петао",
+      "sr_latin": "petao",
+      "pronunciation_ru": "пЭтао",
+      "translation_ru": "петух",
+      "example_sr": "Петао кукуриче у зору.",
+      "example_ru": "Петух кукарекает на рассвете.",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "патка",
+      "sr_latin": "patka",
+      "pronunciation_ru": "пАтка",
+      "translation_ru": "утка",
+      "example_sr": "Патка плива по језеру са пачићима.",
+      "example_ru": "Утка плавает по озеру с утятами.",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "коњ",
+      "sr_latin": "konj",
+      "pronunciation_ru": "кОнь",
+      "translation_ru": "лошадь, конь",
+      "example_sr": "Коњ трчи преко поља.",
+      "example_ru": "Конь бежит по полю.",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "крава",
+      "sr_latin": "krava",
+      "pronunciation_ru": "крАва",
+      "translation_ru": "корова",
+      "example_sr": "Крава пасе на ливади.",
+      "example_ru": "Корова пасётся на лугу.",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "свиња",
+      "sr_latin": "svinja",
+      "pronunciation_ru": "свИня",
+      "translation_ru": "свинья",
+      "example_sr": "Свиња се ваља у блату.",
+      "example_ru": "Свинья валяется в грязи.",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "овца",
+      "sr_latin": "ovca",
+      "pronunciation_ru": "Овца",
+      "translation_ru": "овца",
+      "example_sr": "Овца даје вуну и млеко.",
+      "example_ru": "Овца даёт шерсть и молоко.",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "коза",
+      "sr_latin": "koza",
+      "pronunciation_ru": "кОза",
+      "translation_ru": "коза",
+      "example_sr": "Коза брсти лишће са грма.",
+      "example_ru": "Коза щиплет листья с куста.",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "магарац",
+      "sr_latin": "magarac",
+      "pronunciation_ru": "мАгарац",
+      "translation_ru": "осёл",
+      "example_sr": "Магарац носи тешке торбе.",
+      "example_ru": "Осёл несёт тяжёлые сумки.",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "зец",
+      "sr_latin": "zec",
+      "pronunciation_ru": "зЭц",
+      "translation_ru": "заяц, кролик",
+      "example_sr": "Зец је побегао у шуму.",
+      "example_ru": "Заяц убежал в лес.",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "медвед",
+      "sr_latin": "medved",
+      "pronunciation_ru": "мЭдвед",
+      "translation_ru": "медведь",
+      "example_sr": "Медвед спава преко зиме.",
+      "example_ru": "Медведь спит всю зиму.",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "лисица",
+      "sr_latin": "lisica",
+      "pronunciation_ru": "лИсица",
+      "translation_ru": "лиса",
+      "example_sr": "Лисица је лукава животиња.",
+      "example_ru": "Лиса — хитрое животное.",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "вук",
+      "sr_latin": "vuk",
+      "pronunciation_ru": "вУк",
+      "translation_ru": "волк",
+      "example_sr": "Вук завија ноћу у планини.",
+      "example_ru": "Волк воет ночью в горах.",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "срна",
+      "sr_latin": "srna",
+      "pronunciation_ru": "сРна",
+      "translation_ru": "косуля, лань",
+      "example_sr": "Срна је истрчала на пут.",
+      "example_ru": "Косуля выбежала на дорогу.",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "веверица",
+      "sr_latin": "veverica",
+      "pronunciation_ru": "вэвЭрица",
+      "translation_ru": "белка",
+      "example_sr": "Веверица скупља лешнике.",
+      "example_ru": "Белка собирает орехи.",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "миш",
+      "sr_latin": "miš",
+      "pronunciation_ru": "мИш",
+      "translation_ru": "мышь",
+      "example_sr": "Миш се сакрио иза ормана.",
+      "example_ru": "Мышь спряталась за шкафом.",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "риба",
+      "sr_latin": "riba",
+      "pronunciation_ru": "рИба",
+      "translation_ru": "рыба",
+      "example_sr": "Риба плива у реци.",
+      "example_ru": "Рыба плавает в реке.",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "жаба",
+      "sr_latin": "žaba",
+      "pronunciation_ru": "жАба",
+      "translation_ru": "лягушка, жаба",
+      "example_sr": "Жаба крекеће поред баре.",
+      "example_ru": "Лягушка квакает у пруда.",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "змија",
+      "sr_latin": "zmija",
+      "pronunciation_ru": "змИя",
+      "translation_ru": "змея",
+      "example_sr": "Пази, у трави има змија.",
+      "example_ru": "Осторожно, в траве есть змея.",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "корњача",
+      "sr_latin": "kornjača",
+      "pronunciation_ru": "кОрняча",
+      "translation_ru": "черепаха",
+      "example_sr": "Корњача се креће веома споро.",
+      "example_ru": "Черепаха движется очень медленно.",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "инсект",
+      "sr_latin": "insekt",
+      "pronunciation_ru": "Инсэкт",
+      "translation_ru": "насекомое",
+      "example_sr": "Овај инсект је сасвим безопасан.",
+      "example_ru": "Это насекомое совсем безобидное.",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "буба",
+      "sr_latin": "buba",
+      "pronunciation_ru": "бУба",
+      "translation_ru": "жук, букашка",
+      "example_sr": "Нека буба ми је слетела на руку.",
+      "example_ru": "Какая-то букашка села мне на руку.",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "мрав",
+      "sr_latin": "mrav",
+      "pronunciation_ru": "мрАв",
+      "translation_ru": "муравей",
+      "example_sr": "Мрави су ушли у кухињу.",
+      "example_ru": "Муравьи забрались на кухню.",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "пчела",
+      "sr_latin": "pčela",
+      "pronunciation_ru": "пчЭла",
+      "translation_ru": "пчела",
+      "example_sr": "Пчела сакупља полен са цвета.",
+      "example_ru": "Пчела собирает пыльцу с цветка.",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "оса",
+      "sr_latin": "osa",
+      "pronunciation_ru": "Оса",
+      "translation_ru": "оса",
+      "example_sr": "Оса ме је убола у прст.",
+      "example_ru": "Оса ужалила меня в палец.",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "комарац",
+      "sr_latin": "komarac",
+      "pronunciation_ru": "кОмарац",
+      "translation_ru": "комар",
+      "example_sr": "Комарци нападају чим падне мрак.",
+      "example_ru": "Комары нападают, как только стемнеет.",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "мува",
+      "sr_latin": "muva",
+      "pronunciation_ru": "мУва",
+      "translation_ru": "муха",
+      "example_sr": "Мува ми зуји око главе.",
+      "example_ru": "Муха жужжит у меня над головой.",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "паук",
+      "sr_latin": "pauk",
+      "pronunciation_ru": "пАук",
+      "translation_ru": "паук",
+      "example_sr": "Паук је исплео мрежу у ћошку.",
+      "example_ru": "Паук сплёл паутину в углу.",
+      "false_friend_note": "«Паук» — это ещё и эвакуатор (машина, что увозит неправильно припаркованные авто). «Однео ме паук» = «мою машину увёз эвакуатор»."
+    },
+    {
+      "sr_cyrillic": "лептир",
+      "sr_latin": "leptir",
+      "pronunciation_ru": "лЭптир",
+      "translation_ru": "бабочка",
+      "example_sr": "Шарен лептир је слетео на цвет.",
+      "example_ru": "Пёстрая бабочка села на цветок.",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "море",
+      "sr_latin": "more",
+      "pronunciation_ru": "мОрэ",
+      "translation_ru": "море",
+      "example_sr": "Летујемо на мору сваке године.",
+      "example_ru": "Мы каждый год отдыхаем на море.",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "река",
+      "sr_latin": "reka",
+      "pronunciation_ru": "рЭка",
+      "translation_ru": "река",
+      "example_sr": "Река тече кроз цео град.",
+      "example_ru": "Река течёт через весь город.",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "језеро",
+      "sr_latin": "jezero",
+      "pronunciation_ru": "Езэро",
+      "translation_ru": "озеро",
+      "example_sr": "Пецамо на језеру викендом.",
+      "example_ru": "По выходным мы рыбачим на озере.",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "поток",
+      "sr_latin": "potok",
+      "pronunciation_ru": "пОток",
+      "translation_ru": "ручей",
+      "example_sr": "Кроз шуму протиче бистар поток.",
+      "example_ru": "Через лес протекает чистый ручей.",
+      "false_friend_note": "«Поток» по-сербски — это маленький «ручей», а не большой «поток». Русский «поток» ближе к «река/струја/бујица»."
+    },
+    {
+      "sr_cyrillic": "планина",
+      "sr_latin": "planina",
+      "pronunciation_ru": "планИна",
+      "translation_ru": "гора",
+      "example_sr": "Идемо на планину да се одморимо.",
+      "example_ru": "Мы едем в горы отдохнуть.",
+      "false_friend_note": "«Планина» — это «гора/горы», а не «равнина». Русская «равнина» = сербское «равница»."
+    },
+    {
+      "sr_cyrillic": "брдо",
+      "sr_latin": "brdo",
+      "pronunciation_ru": "бРдо",
+      "translation_ru": "холм, возвышенность",
+      "example_sr": "Кућа је на брду изнад села.",
+      "example_ru": "Дом стоит на холме над селом.",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "шума",
+      "sr_latin": "šuma",
+      "pronunciation_ru": "шУма",
+      "translation_ru": "лес",
+      "example_sr": "Волим да шетам кроз шуму.",
+      "example_ru": "Я люблю гулять по лесу.",
+      "false_friend_note": "Созвучно русскому «шум», но «шума» — это «лес». Русский «шум» = сербское «бука»."
+    },
+    {
+      "sr_cyrillic": "дрво",
+      "sr_latin": "drvo",
+      "pronunciation_ru": "дРво",
+      "translation_ru": "дерево",
+      "example_sr": "Седимо у хладу под дрветом.",
+      "example_ru": "Мы сидим в тени под деревом.",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "лист",
+      "sr_latin": "list",
+      "pronunciation_ru": "лИст",
+      "translation_ru": "лист (дерева)",
+      "example_sr": "У јесен лишће пожути и опадне.",
+      "example_ru": "Осенью листья желтеют и опадают.",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "грана",
+      "sr_latin": "grana",
+      "pronunciation_ru": "грАна",
+      "translation_ru": "ветка, ветвь",
+      "example_sr": "Птица је слетела на грану.",
+      "example_ru": "Птица села на ветку.",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "цвет",
+      "sr_latin": "cvet",
+      "pronunciation_ru": "цвЭт",
+      "translation_ru": "цветок",
+      "example_sr": "Убрала је један цвет за вазу.",
+      "example_ru": "Она сорвала один цветок для вазы.",
+      "false_friend_note": "Похоже на русское «цвет» (окраска), но сербское «цвет» — это «цветок». Русский «цвет» (окраска) = сербское «боја»."
+    },
+    {
+      "sr_cyrillic": "трава",
+      "sr_latin": "trava",
+      "pronunciation_ru": "трАва",
+      "translation_ru": "трава",
+      "example_sr": "Деца се играју на трави у парку.",
+      "example_ru": "Дети играют на траве в парке.",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "поље",
+      "sr_latin": "polje",
+      "pronunciation_ru": "пОлье",
+      "translation_ru": "поле",
+      "example_sr": "Преко поља пуше хладан ветар.",
+      "example_ru": "Через поле дует холодный ветер.",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "ливада",
+      "sr_latin": "livada",
+      "pronunciation_ru": "лИвада",
+      "translation_ru": "луг",
+      "example_sr": "Ливада је пуна дивљег цвећа.",
+      "example_ru": "Луг полон полевых цветов.",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "небо",
+      "sr_latin": "nebo",
+      "pronunciation_ru": "нЭбо",
+      "translation_ru": "небо",
+      "example_sr": "Небо је вечерас пуно звезда.",
+      "example_ru": "Небо сегодня вечером полно звёзд.",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "сунце",
+      "sr_latin": "sunce",
+      "pronunciation_ru": "сУнцэ",
+      "translation_ru": "солнце",
+      "example_sr": "Сунце греје јако у подне.",
+      "example_ru": "Солнце сильно греет в полдень.",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "месец",
+      "sr_latin": "mesec",
+      "pronunciation_ru": "мЭсэц",
+      "translation_ru": "луна; месяц",
+      "example_sr": "Пун месец сија над градом.",
+      "example_ru": "Полная луна светит над городом.",
+      "false_friend_note": "«Месец» — это и «луна», и «месяц» (календарный). По контексту: «пун месец» = «полная луна»."
+    },
+    {
+      "sr_cyrillic": "звезда",
+      "sr_latin": "zvezda",
+      "pronunciation_ru": "звЭзда",
+      "translation_ru": "звезда",
+      "example_sr": "Видела сам звезду падалицу.",
+      "example_ru": "Я видела падающую звезду.",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "облак",
+      "sr_latin": "oblak",
+      "pronunciation_ru": "Облак",
+      "translation_ru": "облако, туча",
+      "example_sr": "Тамни облак најављује кишу.",
+      "example_ru": "Тёмная туча предвещает дождь.",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "ветар",
+      "sr_latin": "vetar",
+      "pronunciation_ru": "вЭтар",
+      "translation_ru": "ветер",
+      "example_sr": "Дува јак ветар са реке.",
+      "example_ru": "Дует сильный ветер с реки.",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "киша",
+      "sr_latin": "kiša",
+      "pronunciation_ru": "кИша",
+      "translation_ru": "дождь",
+      "example_sr": "Понеси кишобран, пада киша.",
+      "example_ru": "Возьми зонт, идёт дождь.",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "снег",
+      "sr_latin": "sneg",
+      "pronunciation_ru": "снЭг",
+      "translation_ru": "снег",
+      "example_sr": "Ноћас је напао први снег.",
+      "example_ru": "Этой ночью выпал первый снег.",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "камен",
+      "sr_latin": "kamen",
+      "pronunciation_ru": "кАмэн",
+      "translation_ru": "камень",
+      "example_sr": "Дете је бацило камен у воду.",
+      "example_ru": "Ребёнок бросил камень в воду.",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "песак",
+      "sr_latin": "pesak",
+      "pronunciation_ru": "пЭсак",
+      "translation_ru": "песок",
+      "example_sr": "Деца праве куле од песка.",
+      "example_ru": "Дети строят замки из песка.",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "земља",
+      "sr_latin": "zemlja",
+      "pronunciation_ru": "зЭмля",
+      "translation_ru": "земля; страна",
+      "example_sr": "Посадили смо цвеће у земљу.",
+      "example_ru": "Мы посадили цветы в землю.",
+      "false_friend_note": "«Земља» — это и «земля» (почва), и «страна/государство». «Наша земља» часто = «наша страна»."
+    },
+    {
+      "sr_cyrillic": "вода",
+      "sr_latin": "voda",
+      "pronunciation_ru": "вОда",
+      "translation_ru": "вода",
+      "example_sr": "Вода у реци је бистра и хладна.",
+      "example_ru": "Вода в реке чистая и холодная.",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "ватра",
+      "sr_latin": "vatra",
+      "pronunciation_ru": "вАтра",
+      "translation_ru": "огонь, костёр",
+      "example_sr": "Запалили смо ватру на плажи.",
+      "example_ru": "Мы разожгли костёр на пляже.",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "плажа",
+      "sr_latin": "plaža",
+      "pronunciation_ru": "плАжа",
+      "translation_ru": "пляж",
+      "example_sr": "Плажа је пуна купача лети.",
+      "example_ru": "Летом пляж полон купающихся.",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "обала",
+      "sr_latin": "obala",
+      "pronunciation_ru": "Обала",
+      "translation_ru": "берег, побережье",
+      "example_sr": "Шетамо дуж обале реке.",
+      "example_ru": "Мы гуляем вдоль берега реки.",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "талас",
+      "sr_latin": "talas",
+      "pronunciation_ru": "тАлас",
+      "translation_ru": "волна",
+      "example_sr": "Велики талас је залио обалу.",
+      "example_ru": "Большая волна залила берег.",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "острво",
+      "sr_latin": "ostrvo",
+      "pronunciation_ru": "Острво",
+      "translation_ru": "остров",
+      "example_sr": "На острво се стиже бродом.",
+      "example_ru": "На остров добираются на пароме.",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "природа",
+      "sr_latin": "priroda",
+      "pronunciation_ru": "прИрода",
+      "translation_ru": "природа",
+      "example_sr": "Волимо да проводимо време у природи.",
+      "example_ru": "Мы любим проводить время на природе.",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "гнездо",
+      "sr_latin": "gnezdo",
+      "pronunciation_ru": "гнЭздо",
+      "translation_ru": "гнездо",
+      "example_sr": "У гнезду су три мала птића.",
+      "example_ru": "В гнезде три маленьких птенца.",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "реп",
+      "sr_latin": "rep",
+      "pronunciation_ru": "рЭп",
+      "translation_ru": "хвост",
+      "example_sr": "Пас маше репом од среће.",
+      "example_ru": "Собака виляет хвостом от радости.",
+      "false_friend_note": "«Реп» — это «хвост» (у животного). Совпадает по звучанию с русским «рэп» (музыка), но это разные слова."
+    },
+    {
+      "sr_cyrillic": "крило",
+      "sr_latin": "krilo",
+      "pronunciation_ru": "крИло",
+      "translation_ru": "крыло",
+      "example_sr": "Птица је повредила крило.",
+      "example_ru": "Птица повредила крыло.",
+      "false_friend_note": ""
+    }
+  ]
+}

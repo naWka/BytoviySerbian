@@ -1,0 +1,647 @@
+{
+  "id": "biljke_baste",
+  "title_ru": "🌱 Растения и сад",
+  "title_sr": "Биљке и башта",
+  "_note": "Черновик: сгенерировано AI и вычитано AI-корректором «как носитель». Не проверено носителем-человеком.",
+  "words": [
+    {
+      "sr_cyrillic": "биљка",
+      "sr_latin": "biljka",
+      "pronunciation_ru": "бИлька",
+      "translation_ru": "растение",
+      "example_sr": "Ова биљка воли пуно светла.",
+      "example_ru": "Это растение любит много света.",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "цвет",
+      "sr_latin": "cvet",
+      "pronunciation_ru": "цвЭт",
+      "translation_ru": "цветок",
+      "example_sr": "Купила сам један леп цвет за прозор.",
+      "example_ru": "Я купила красивый цветок на окно.",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "цвеће",
+      "sr_latin": "cveće",
+      "pronunciation_ru": "цвЭче",
+      "translation_ru": "цветы (собирательно)",
+      "example_sr": "Донео сам ти цвеће за рођендан.",
+      "example_ru": "Я принёс тебе цветы на день рождения.",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "дрво",
+      "sr_latin": "drvo",
+      "pronunciation_ru": "дЭрво",
+      "translation_ru": "дерево",
+      "example_sr": "У дворишту имамо старо дрво.",
+      "example_ru": "Во дворе у нас старое дерево.",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "трава",
+      "sr_latin": "trava",
+      "pronunciation_ru": "трАва",
+      "translation_ru": "трава",
+      "example_sr": "Трава је порасла, треба је покосити.",
+      "example_ru": "Трава выросла, надо её скосить.",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "лист",
+      "sr_latin": "list",
+      "pronunciation_ru": "лИст",
+      "translation_ru": "лист",
+      "example_sr": "Са дрвета је пао један жут лист.",
+      "example_ru": "С дерева упал жёлтый лист.",
+      "false_friend_note": "Лист — лист растения; также лист бумаги или газета."
+    },
+    {
+      "sr_cyrillic": "лишће",
+      "sr_latin": "lišće",
+      "pronunciation_ru": "лИшче",
+      "translation_ru": "листва",
+      "example_sr": "У јесен лишће пожути и опадне.",
+      "example_ru": "Осенью листва желтеет и опадает.",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "грана",
+      "sr_latin": "grana",
+      "pronunciation_ru": "грАна",
+      "translation_ru": "ветка, ветвь",
+      "example_sr": "Ова грана је сува, треба је одсећи.",
+      "example_ru": "Эта ветка сухая, надо её срезать.",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "корен",
+      "sr_latin": "koren",
+      "pronunciation_ru": "кОрен",
+      "translation_ru": "корень",
+      "example_sr": "Биљка има јак корен.",
+      "example_ru": "У растения крепкий корень.",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "стабло",
+      "sr_latin": "stablo",
+      "pronunciation_ru": "стАбло",
+      "translation_ru": "ствол",
+      "example_sr": "Стабло овог дрвета је веома дебело.",
+      "example_ru": "Ствол этого дерева очень толстый.",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "стабљика",
+      "sr_latin": "stabljika",
+      "pronunciation_ru": "стАблика",
+      "translation_ru": "стебель",
+      "example_sr": "Стабљика цвета се сломила.",
+      "example_ru": "Стебель цветка сломался.",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "жбун",
+      "sr_latin": "žbun",
+      "pronunciation_ru": "жбУн",
+      "translation_ru": "куст",
+      "example_sr": "Иза куће расте жбун рибизле.",
+      "example_ru": "За домом растёт куст смородины.",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "грм",
+      "sr_latin": "grm",
+      "pronunciation_ru": "гЭрм",
+      "translation_ru": "куст, кустарник",
+      "example_sr": "Птица се сакрила у грм.",
+      "example_ru": "Птица спряталась в куст.",
+      "false_friend_note": "Грм — куст. Созвучно русскому «гром», но значение другое."
+    },
+    {
+      "sr_cyrillic": "семе",
+      "sr_latin": "seme",
+      "pronunciation_ru": "сЭме",
+      "translation_ru": "семя, семена",
+      "example_sr": "Посејала сам семе паприке.",
+      "example_ru": "Я посеяла семена перца.",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "семенке",
+      "sr_latin": "semenke",
+      "pronunciation_ru": "сЭменке",
+      "translation_ru": "семена, семечки",
+      "example_sr": "Купи семенке цвећа у радњи.",
+      "example_ru": "Купи семена цветов в магазине.",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "садница",
+      "sr_latin": "sadnica",
+      "pronunciation_ru": "сАдница",
+      "translation_ru": "саженец, рассада",
+      "example_sr": "Засадили смо младу садницу јабуке.",
+      "example_ru": "Мы посадили молодой саженец яблони.",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "саксија",
+      "sr_latin": "saksija",
+      "pronunciation_ru": "сАксия",
+      "translation_ru": "горшок (цветочный)",
+      "example_sr": "Пресади цвет у већу саксију.",
+      "example_ru": "Пересади цветок в горшок побольше.",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "собна биљка",
+      "sr_latin": "sobna biljka",
+      "pronunciation_ru": "сОбна бИлька",
+      "translation_ru": "комнатное растение",
+      "example_sr": "Ова собна биљка не воли директно сунце.",
+      "example_ru": "Это комнатное растение не любит прямое солнце.",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "заливање",
+      "sr_latin": "zalivanje",
+      "pronunciation_ru": "залИвање",
+      "translation_ru": "полив",
+      "example_sr": "Заливање је најбоље увече.",
+      "example_ru": "Полив лучше делать вечером.",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "залити",
+      "sr_latin": "zaliti",
+      "pronunciation_ru": "зАлити",
+      "translation_ru": "полить",
+      "example_sr": "Немој заборавити да залијеш цвеће.",
+      "example_ru": "Не забудь полить цветы.",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "канта за заливање",
+      "sr_latin": "kanta za zalivanje",
+      "pronunciation_ru": "кАнта за залИвање",
+      "translation_ru": "лейка",
+      "example_sr": "Напуни канту за заливање водом.",
+      "example_ru": "Наполни лейку водой.",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "црево",
+      "sr_latin": "crevo",
+      "pronunciation_ru": "црЭво",
+      "translation_ru": "шланг",
+      "example_sr": "Прикључи црево на славину.",
+      "example_ru": "Подключи шланг к крану.",
+      "false_friend_note": "Црево здесь — шланг (для полива); вообще црево — кишка. Не «черево»."
+    },
+    {
+      "sr_cyrillic": "прскалица",
+      "sr_latin": "prskalica",
+      "pronunciation_ru": "прскАлица",
+      "translation_ru": "опрыскиватель, дождеватель",
+      "example_sr": "Прскалицом прскам руже против вашију.",
+      "example_ru": "Опрыскивателем обрабатываю розы от тли.",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "земља",
+      "sr_latin": "zemlja",
+      "pronunciation_ru": "зЭмля",
+      "translation_ru": "земля, почва",
+      "example_sr": "Ова земља је сува, треба је залити.",
+      "example_ru": "Эта земля сухая, надо её полить.",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "земљиште",
+      "sr_latin": "zemljište",
+      "pronunciation_ru": "зЭмлиште",
+      "translation_ru": "участок земли, грунт",
+      "example_sr": "Имамо мало земљиште иза куће.",
+      "example_ru": "У нас небольшой участок земли за домом.",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "ђубриво",
+      "sr_latin": "đubrivo",
+      "pronunciation_ru": "джУбриво",
+      "translation_ru": "удобрение",
+      "example_sr": "Додај мало ђубрива у земљу.",
+      "example_ru": "Добавь немного удобрения в землю.",
+      "false_friend_note": "Ђубриво — удобрение (от ђубре — навоз/мусор), а не «мусор»."
+    },
+    {
+      "sr_cyrillic": "ђубрити",
+      "sr_latin": "đubriti",
+      "pronunciation_ru": "джУбрити",
+      "translation_ru": "удобрять",
+      "example_sr": "На пролеће ђубримо башту.",
+      "example_ru": "Весной удобряем сад.",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "компост",
+      "sr_latin": "kompost",
+      "pronunciation_ru": "кОмпост",
+      "translation_ru": "компост",
+      "example_sr": "Од отпадака правимо компост.",
+      "example_ru": "Из отходов делаем компост.",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "леја",
+      "sr_latin": "leja",
+      "pronunciation_ru": "лЭя",
+      "translation_ru": "грядка",
+      "example_sr": "Направили смо нову леју за парадајз.",
+      "example_ru": "Мы сделали новую грядку для помидоров.",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "башта",
+      "sr_latin": "bašta",
+      "pronunciation_ru": "бАшта",
+      "translation_ru": "сад, огород, двор",
+      "example_sr": "Викендом радимо у башти.",
+      "example_ru": "По выходным работаем в саду.",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "повртњак",
+      "sr_latin": "povrtnjak",
+      "pronunciation_ru": "пОвртняк",
+      "translation_ru": "огород",
+      "example_sr": "У повртњаку гајимо паприку и краставац.",
+      "example_ru": "В огороде выращиваем перец и огурцы.",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "воћњак",
+      "sr_latin": "voćnjak",
+      "pronunciation_ru": "вОчняк",
+      "translation_ru": "фруктовый сад",
+      "example_sr": "Иза куће имамо мали воћњак.",
+      "example_ru": "За домом у нас маленький фруктовый сад.",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "ружа",
+      "sr_latin": "ruža",
+      "pronunciation_ru": "рУжа",
+      "translation_ru": "роза",
+      "example_sr": "Ове руже прелепо миришу.",
+      "example_ru": "Эти розы чудесно пахнут.",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "пупољак",
+      "sr_latin": "pupoljak",
+      "pronunciation_ru": "пУпольак",
+      "translation_ru": "бутон",
+      "example_sr": "Ружа је избацила први пупољак.",
+      "example_ru": "Роза выпустила первый бутон.",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "латица",
+      "sr_latin": "latica",
+      "pronunciation_ru": "лАтица",
+      "translation_ru": "лепесток",
+      "example_sr": "Ветар је однео латице.",
+      "example_ru": "Ветер унёс лепестки.",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "трн",
+      "sr_latin": "trn",
+      "pronunciation_ru": "тЭрн",
+      "translation_ru": "шип, колючка",
+      "example_sr": "Пази, ружа има трнове.",
+      "example_ru": "Осторожно, у розы шипы.",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "травњак",
+      "sr_latin": "travnjak",
+      "pronunciation_ru": "трАвняк",
+      "translation_ru": "газон",
+      "example_sr": "Треба покосити травњак.",
+      "example_ru": "Надо скосить газон.",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "баштенски алат",
+      "sr_latin": "baštenski alat",
+      "pronunciation_ru": "бАштенски Алат",
+      "translation_ru": "садовый инструмент",
+      "example_sr": "Баштенски алат држим у шупи.",
+      "example_ru": "Садовый инструмент держу в сарае.",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "лопата",
+      "sr_latin": "lopata",
+      "pronunciation_ru": "лопАта",
+      "translation_ru": "лопата",
+      "example_sr": "Дај ми лопату да ископам рупу.",
+      "example_ru": "Дай мне лопату выкопать яму.",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "грабуље",
+      "sr_latin": "grabulje",
+      "pronunciation_ru": "грАбуле",
+      "translation_ru": "грабли",
+      "example_sr": "Грабуљама сакупљам лишће.",
+      "example_ru": "Граблями собираю листву.",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "баштенске маказе",
+      "sr_latin": "baštenske makaze",
+      "pronunciation_ru": "бАштенске мАказе",
+      "translation_ru": "секатор, садовые ножницы",
+      "example_sr": "Баштенским маказама орежем жбун.",
+      "example_ru": "Секатором обрезаю куст.",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "колица",
+      "sr_latin": "kolica",
+      "pronunciation_ru": "кОлица",
+      "translation_ru": "тачка (садовая тележка)",
+      "example_sr": "Земљу превозим колицима.",
+      "example_ru": "Землю перевожу в тачке.",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "рукавице",
+      "sr_latin": "rukavice",
+      "pronunciation_ru": "рукАвице",
+      "translation_ru": "перчатки",
+      "example_sr": "Стави рукавице пре рада у башти.",
+      "example_ru": "Надень перчатки перед работой в саду.",
+      "false_friend_note": "Рукавице — перчатки (в т. ч. рабочие), не только «рукавицы-варежки»."
+    },
+    {
+      "sr_cyrillic": "посадити",
+      "sr_latin": "posaditi",
+      "pronunciation_ru": "посАдити",
+      "translation_ru": "посадить",
+      "example_sr": "Хоћу да посадим дрво у дворишту.",
+      "example_ru": "Хочу посадить дерево во дворе.",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "садити",
+      "sr_latin": "saditi",
+      "pronunciation_ru": "сАдити",
+      "translation_ru": "сажать",
+      "example_sr": "На пролеће садимо цвеће.",
+      "example_ru": "Весной сажаем цветы.",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "пресадити",
+      "sr_latin": "presaditi",
+      "pronunciation_ru": "пресАдити",
+      "translation_ru": "пересадить",
+      "example_sr": "Треба пресадити цвет у већу саксију.",
+      "example_ru": "Надо пересадить цветок в горшок побольше.",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "цветати",
+      "sr_latin": "cvetati",
+      "pronunciation_ru": "цвЭтати",
+      "translation_ru": "цвести",
+      "example_sr": "Јабука почиње да цвета.",
+      "example_ru": "Яблоня начинает цвести.",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "процветати",
+      "sr_latin": "procvetati",
+      "pronunciation_ru": "процвЭтати",
+      "translation_ru": "расцвести",
+      "example_sr": "Руже су процветале преко ноћи.",
+      "example_ru": "Розы расцвели за ночь.",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "расти",
+      "sr_latin": "rasti",
+      "pronunciation_ru": "рАсти",
+      "translation_ru": "расти",
+      "example_sr": "Трава брзо расте после кише.",
+      "example_ru": "Трава быстро растёт после дождя.",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "никнути",
+      "sr_latin": "niknuti",
+      "pronunciation_ru": "нИкнути",
+      "translation_ru": "взойти, прорасти",
+      "example_sr": "Семе је никло после недељу дана.",
+      "example_ru": "Семена взошли через неделю.",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "клијати",
+      "sr_latin": "klijati",
+      "pronunciation_ru": "клИяти",
+      "translation_ru": "прорастать",
+      "example_sr": "Семенке су почеле да клијају.",
+      "example_ru": "Семена начали прорастать.",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "коров",
+      "sr_latin": "korov",
+      "pronunciation_ru": "кОров",
+      "translation_ru": "сорняк",
+      "example_sr": "Морам да очистим коров из леје.",
+      "example_ru": "Надо убрать сорняки с грядки.",
+      "false_friend_note": "Коров — сорняк. Не путай с русским «коров» (род. п. от «корова»)."
+    },
+    {
+      "sr_cyrillic": "плевити",
+      "sr_latin": "pleviti",
+      "pronunciation_ru": "плЭвити",
+      "translation_ru": "полоть",
+      "example_sr": "Плевим башту сваке недеље.",
+      "example_ru": "Полю сад каждую неделю.",
+      "false_friend_note": "Плевити — полоть (сорняки), а не «плевать»."
+    },
+    {
+      "sr_cyrillic": "окопавати",
+      "sr_latin": "okopavati",
+      "pronunciation_ru": "окопАвати",
+      "translation_ru": "рыхлить, окучивать",
+      "example_sr": "Окопавам парадајз да земља дише.",
+      "example_ru": "Рыхлю помидоры, чтобы земля дышала.",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "орезати",
+      "sr_latin": "orezati",
+      "pronunciation_ru": "орЭзати",
+      "translation_ru": "обрезать (растение)",
+      "example_sr": "Треба орезати руже пре зиме.",
+      "example_ru": "Надо обрезать розы перед зимой.",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "пластеник",
+      "sr_latin": "plastenik",
+      "pronunciation_ru": "плАстеник",
+      "translation_ru": "теплица",
+      "example_sr": "Парадајз гајимо у пластенику.",
+      "example_ru": "Помидоры выращиваем в теплице.",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "балкон",
+      "sr_latin": "balkon",
+      "pronunciation_ru": "бАлкон",
+      "translation_ru": "балкон",
+      "example_sr": "На балкону држим саксије са цвећем.",
+      "example_ru": "На балконе держу горшки с цветами.",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "двориште",
+      "sr_latin": "dvorište",
+      "pronunciation_ru": "двОриште",
+      "translation_ru": "двор",
+      "example_sr": "Деца се играју у дворишту.",
+      "example_ru": "Дети играют во дворе.",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "викендица",
+      "sr_latin": "vikendica",
+      "pronunciation_ru": "викЭндица",
+      "translation_ru": "дача, загородный дом",
+      "example_sr": "Викенд проводимо на викендици.",
+      "example_ru": "Выходные проводим на даче.",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "ограда",
+      "sr_latin": "ograda",
+      "pronunciation_ru": "Ограда",
+      "translation_ru": "забор, ограда",
+      "example_sr": "Дуж ограде смо посадили руже.",
+      "example_ru": "Вдоль забора мы посадили розы.",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "клупа",
+      "sr_latin": "klupa",
+      "pronunciation_ru": "клУпа",
+      "translation_ru": "скамейка",
+      "example_sr": "У башти имамо дрвену клупу.",
+      "example_ru": "В саду у нас деревянная скамейка.",
+      "false_friend_note": "Клупа — скамейка (иногда парта), а не «клумба». Клумба — цветна леја."
+    },
+    {
+      "sr_cyrillic": "сунце",
+      "sr_latin": "sunce",
+      "pronunciation_ru": "сУнце",
+      "translation_ru": "солнце",
+      "example_sr": "Ова биљка воли пуно сунца.",
+      "example_ru": "Это растение любит много солнца.",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "сенка",
+      "sr_latin": "senka",
+      "pronunciation_ru": "сЭнка",
+      "translation_ru": "тень",
+      "example_sr": "Ову биљку посади у сенку.",
+      "example_ru": "Это растение посади в тень.",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "влага",
+      "sr_latin": "vlaga",
+      "pronunciation_ru": "влАга",
+      "translation_ru": "влага",
+      "example_sr": "Овој биљци треба доста влаге.",
+      "example_ru": "Этому растению нужно много влаги.",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "пчела",
+      "sr_latin": "pčela",
+      "pronunciation_ru": "пчЭла",
+      "translation_ru": "пчела",
+      "example_sr": "Пчеле опрашују цвеће.",
+      "example_ru": "Пчёлы опыляют цветы.",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "буба",
+      "sr_latin": "buba",
+      "pronunciation_ru": "бУба",
+      "translation_ru": "жук, букашка",
+      "example_sr": "На листу је нека буба.",
+      "example_ru": "На листе какой-то жук.",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "пуж",
+      "sr_latin": "puž",
+      "pronunciation_ru": "пУж",
+      "translation_ru": "улитка",
+      "example_sr": "Пужеви су појели салату.",
+      "example_ru": "Улитки съели салат.",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "мирис",
+      "sr_latin": "miris",
+      "pronunciation_ru": "мИрис",
+      "translation_ru": "запах, аромат",
+      "example_sr": "Мирис ружа се шири баштом.",
+      "example_ru": "Аромат роз разносится по саду.",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "букет",
+      "sr_latin": "buket",
+      "pronunciation_ru": "букЭт",
+      "translation_ru": "букет",
+      "example_sr": "Направила сам букет од пољског цвећа.",
+      "example_ru": "Я составила букет из полевых цветов.",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "зачинско биље",
+      "sr_latin": "začinsko bilje",
+      "pronunciation_ru": "зАчинско бИле",
+      "translation_ru": "пряные травы",
+      "example_sr": "На прозору гајим зачинско биље.",
+      "example_ru": "На окне выращиваю пряные травы.",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "јела",
+      "sr_latin": "jela",
+      "pronunciation_ru": "йЭла",
+      "translation_ru": "ель, пихта",
+      "example_sr": "За Нову годину купујемо јелу.",
+      "example_ru": "На Новый год покупаем ель.",
+      "false_friend_note": "Јела — ель. Но јело — блюдо/еда, а јела также «(она) ела» — легко спутать."
+    }
+  ]
+}

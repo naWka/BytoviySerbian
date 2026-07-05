@@ -1,0 +1,638 @@
+{
+  "id": "kafic_izlazak",
+  "title_ru": "☕ Кафе и бар",
+  "title_sr": "Кафић и излазак",
+  "_note": "Черновик: сгенерировано AI и вычитано AI-корректором «как носитель». Не проверено носителем-человеком.",
+  "words": [
+    {
+      "sr_cyrillic": "кафић",
+      "sr_latin": "kafić",
+      "pronunciation_ru": "кАфич",
+      "translation_ru": "кафе, кофейня (небольшая, для кофе и напитков)",
+      "example_sr": "Хајде да седнемо у неки кафић.",
+      "example_ru": "Давай сядем в каком-нибудь кафе.",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "кафа",
+      "sr_latin": "kafa",
+      "pronunciation_ru": "кАфа",
+      "translation_ru": "кофе",
+      "example_sr": "Једну кафу, молим вас.",
+      "example_ru": "Одну кофе, пожалуйста.",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "еспресо",
+      "sr_latin": "espreso",
+      "pronunciation_ru": "эспрЭсо",
+      "translation_ru": "эспрессо",
+      "example_sr": "За мене еспресо, кратак.",
+      "example_ru": "Мне эспрессо, короткий.",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "бела кафа",
+      "sr_latin": "bela kafa",
+      "pronunciation_ru": "бЭла кАфа",
+      "translation_ru": "кофе с молоком (обычно на основе эспрессо)",
+      "example_sr": "Ја бих једну белу кафу.",
+      "example_ru": "Мне, пожалуйста, кофе с молоком.",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "домаћа кафа",
+      "sr_latin": "domaća kafa",
+      "pronunciation_ru": "домАча кАфа",
+      "translation_ru": "домашний (турецкий) кофе, сваренный в джезве",
+      "example_sr": "Волим домаћу кафу из џезве.",
+      "example_ru": "Люблю домашний кофе из джезвы.",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "турска кафа",
+      "sr_latin": "turska kafa",
+      "pronunciation_ru": "тУрска кАфа",
+      "translation_ru": "турецкий кофе (то же, что «домаћа кафа»)",
+      "example_sr": "Турска кафа и домаћа кафа су исто.",
+      "example_ru": "Турецкий кофе и домашний кофе — одно и то же.",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "капућино",
+      "sr_latin": "kapućino",
+      "pronunciation_ru": "капУчино",
+      "translation_ru": "капучино",
+      "example_sr": "Може један капућино са мало пене?",
+      "example_ru": "Можно один капучино с небольшой пенкой?",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "макијато",
+      "sr_latin": "makijato",
+      "pronunciation_ru": "макиЯто",
+      "translation_ru": "макиато (эспрессо с каплей молока)",
+      "example_sr": "Дајте ми макијато, молим вас.",
+      "example_ru": "Дайте мне макиато, пожалуйста.",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "нескафа",
+      "sr_latin": "neskafa",
+      "pronunciation_ru": "нЭскафа",
+      "translation_ru": "растворимый кофе",
+      "example_sr": "Немамо нескафу, само праву кафу.",
+      "example_ru": "Растворимого кофе нет, только настоящий.",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "ледена кафа",
+      "sr_latin": "ledena kafa",
+      "pronunciation_ru": "лЭдена кАфа",
+      "translation_ru": "холодный кофе со льдом",
+      "example_sr": "Лети најчешће наручим ледену кафу.",
+      "example_ru": "Летом чаще всего заказываю холодный кофе.",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "чај",
+      "sr_latin": "čaj",
+      "pronunciation_ru": "чАй",
+      "translation_ru": "чай",
+      "example_sr": "Донесите ми чај са лимуном.",
+      "example_ru": "Принесите мне чай с лимоном.",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "сок",
+      "sr_latin": "sok",
+      "pronunciation_ru": "сОк",
+      "translation_ru": "сок",
+      "example_sr": "Дете би сок од јабуке.",
+      "example_ru": "Ребёнок будет яблочный сок.",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "цеђени сок",
+      "sr_latin": "ceđeni sok",
+      "pronunciation_ru": "цЭджени сОк",
+      "translation_ru": "свежевыжатый сок (фреш)",
+      "example_sr": "Имате ли цеђени сок од поморанџе?",
+      "example_ru": "У вас есть свежевыжатый апельсиновый сок?",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "пиво",
+      "sr_latin": "pivo",
+      "pronunciation_ru": "пИво",
+      "translation_ru": "пиво",
+      "example_sr": "Два пива, молим.",
+      "example_ru": "Два пива, пожалуйста.",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "точено пиво",
+      "sr_latin": "točeno pivo",
+      "pronunciation_ru": "тОчено пИво",
+      "translation_ru": "разливное пиво",
+      "example_sr": "Радије точено пиво него флаширано.",
+      "example_ru": "Лучше разливное пиво, чем бутылочное.",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "вино",
+      "sr_latin": "vino",
+      "pronunciation_ru": "вИно",
+      "translation_ru": "вино",
+      "example_sr": "Чашу вина, молим вас.",
+      "example_ru": "Бокал вина, пожалуйста.",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "црно вино",
+      "sr_latin": "crno vino",
+      "pronunciation_ru": "цЫрно вИно",
+      "translation_ru": "красное вино (дословно «чёрное»)",
+      "example_sr": "Уз месо иде црно вино.",
+      "example_ru": "К мясу подходит красное вино.",
+      "false_friend_note": "В Сербии красное вино называют «црно» (чёрное), а не «црвено» (красное)."
+    },
+    {
+      "sr_cyrillic": "бело вино",
+      "sr_latin": "belo vino",
+      "pronunciation_ru": "бЭло вИно",
+      "translation_ru": "белое вино",
+      "example_sr": "Ја бих чашу белог вина.",
+      "example_ru": "Мне бокал белого вина.",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "ракија",
+      "sr_latin": "rakija",
+      "pronunciation_ru": "рАкия",
+      "translation_ru": "ракия (крепкий фруктовый самогон)",
+      "example_sr": "Домаћин је понудио ракију.",
+      "example_ru": "Хозяин предложил ракию.",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "шљивовица",
+      "sr_latin": "šljivovica",
+      "pronunciation_ru": "шлИвовица",
+      "translation_ru": "сливовая ракия (сливовица)",
+      "example_sr": "Ово је права шљивовица.",
+      "example_ru": "Это настоящая сливовица.",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "лоза",
+      "sr_latin": "loza",
+      "pronunciation_ru": "лОза",
+      "translation_ru": "виноградная ракия (лозовача)",
+      "example_sr": "Дај једну лозу за почетак.",
+      "example_ru": "Дай одну виноградную ракию для начала.",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "вода",
+      "sr_latin": "voda",
+      "pronunciation_ru": "вОда",
+      "translation_ru": "вода",
+      "example_sr": "Може чаша воде, молим?",
+      "example_ru": "Можно стакан воды, пожалуйста?",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "кисела вода",
+      "sr_latin": "kisela voda",
+      "pronunciation_ru": "кИсела вОда",
+      "translation_ru": "минеральная (газированная) вода",
+      "example_sr": "За мене кисела вода.",
+      "example_ru": "Мне минеральную воду.",
+      "false_friend_note": "Дословно «кислая вода», но означает минеральную/газированную воду, а не что-то кислое."
+    },
+    {
+      "sr_cyrillic": "негазирана вода",
+      "sr_latin": "negazirana voda",
+      "pronunciation_ru": "негазИрана вОда",
+      "translation_ru": "вода без газа",
+      "example_sr": "Дајте негазирану воду.",
+      "example_ru": "Дайте воду без газа.",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "газирана вода",
+      "sr_latin": "gazirana voda",
+      "pronunciation_ru": "газИрана вОда",
+      "translation_ru": "газированная вода",
+      "example_sr": "Волим газирану воду.",
+      "example_ru": "Люблю газированную воду.",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "конобар",
+      "sr_latin": "konobar",
+      "pronunciation_ru": "кОнобар",
+      "translation_ru": "официант",
+      "example_sr": "Конобар ће одмах доћи.",
+      "example_ru": "Официант сейчас подойдёт.",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "конобарица",
+      "sr_latin": "konobarica",
+      "pronunciation_ru": "конобАрица",
+      "translation_ru": "официантка",
+      "example_sr": "Питаћу конобарицу за рачун.",
+      "example_ru": "Спрошу у официантки счёт.",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "рачун",
+      "sr_latin": "račun",
+      "pronunciation_ru": "рАчун",
+      "translation_ru": "счёт (в кафе/ресторане)",
+      "example_sr": "Молим вас рачун.",
+      "example_ru": "Счёт, пожалуйста.",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "бакшиш",
+      "sr_latin": "bakšiš",
+      "pronunciation_ru": "бАкшиш",
+      "translation_ru": "чаевые",
+      "example_sr": "Остави бакшиш конобару.",
+      "example_ru": "Оставь чаевые официанту.",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "напојница",
+      "sr_latin": "napojnica",
+      "pronunciation_ru": "напОйница",
+      "translation_ru": "чаевые (более официальное слово)",
+      "example_sr": "Напојница није обавезна, али је лепо оставити.",
+      "example_ru": "Чаевые не обязательны, но приятно оставить.",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "тераса",
+      "sr_latin": "terasa",
+      "pronunciation_ru": "тэрАса",
+      "translation_ru": "терраса, летняя зона кафе",
+      "example_sr": "Има ли слободан сто на тераси?",
+      "example_ru": "Есть ли свободный столик на террасе?",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "башта",
+      "sr_latin": "bašta",
+      "pronunciation_ru": "бАшта",
+      "translation_ru": "сад; летняя (уличная) зона кафе/кафаны",
+      "example_sr": "Лети седимо у башти кафане.",
+      "example_ru": "Летом сидим в летней зоне кафаны.",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "сто",
+      "sr_latin": "sto",
+      "pronunciation_ru": "стО",
+      "translation_ru": "стол, столик",
+      "example_sr": "Резервисао сам сто за четворо.",
+      "example_ru": "Я забронировал столик на четверых.",
+      "false_friend_note": "Ложный друг: «сто» — это «стол», а не число. Русское «сто» (число) по-сербски тоже «сто», понимай по контексту."
+    },
+    {
+      "sr_cyrillic": "столица",
+      "sr_latin": "stolica",
+      "pronunciation_ru": "стОлица",
+      "translation_ru": "стул",
+      "example_sr": "Је ли ова столица слободна?",
+      "example_ru": "Этот стул свободен?",
+      "false_friend_note": "Ложный друг: «столица» по-сербски — это стул, а не главный город."
+    },
+    {
+      "sr_cyrillic": "наручити",
+      "sr_latin": "naručiti",
+      "pronunciation_ru": "нАручити",
+      "translation_ru": "заказать",
+      "example_sr": "Шта ћеш да наручиш?",
+      "example_ru": "Что будешь заказывать?",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "поручити",
+      "sr_latin": "poručiti",
+      "pronunciation_ru": "пОручити",
+      "translation_ru": "заказать (еду/напитки)",
+      "example_sr": "Хајде да поручимо још једну туру.",
+      "example_ru": "Давай закажем ещё один круг.",
+      "false_friend_note": "Ложный друг: значит «заказать», а не русское «поручить». Синоним — «наручити»."
+    },
+    {
+      "sr_cyrillic": "живели",
+      "sr_latin": "živeli",
+      "pronunciation_ru": "жИвели",
+      "translation_ru": "будем здоровы! (тост, «за жизнь»)",
+      "example_sr": "Живели, у здравље!",
+      "example_ru": "Будем здоровы, ваше здоровье!",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "кафана",
+      "sr_latin": "kafana",
+      "pronunciation_ru": "кафАна",
+      "translation_ru": "кафана (традиционный трактир с едой, выпивкой и музыкой)",
+      "example_sr": "Идемо у кафану на вечеру и музику.",
+      "example_ru": "Идём в кафану на ужин и музыку.",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "шанк",
+      "sr_latin": "šank",
+      "pronunciation_ru": "шАнк",
+      "translation_ru": "барная стойка",
+      "example_sr": "Платићу на шанку.",
+      "example_ru": "Заплачу у барной стойки.",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "шоља",
+      "sr_latin": "šolja",
+      "pronunciation_ru": "шОля",
+      "translation_ru": "чашка",
+      "example_sr": "Донеси још једну шољу кафе.",
+      "example_ru": "Принеси ещё одну чашку кофе.",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "чаша",
+      "sr_latin": "čaša",
+      "pronunciation_ru": "чАша",
+      "translation_ru": "стакан, бокал",
+      "example_sr": "Разбио сам чашу, извините.",
+      "example_ru": "Я разбил стакан, извините.",
+      "false_friend_note": "Ложный друг: сербская «чаша» — это стакан/бокал для питья, а не русская «чаша» (сосуд, кубок)."
+    },
+    {
+      "sr_cyrillic": "флаша",
+      "sr_latin": "flaša",
+      "pronunciation_ru": "флАша",
+      "translation_ru": "бутылка",
+      "example_sr": "Наручили смо флашу вина.",
+      "example_ru": "Мы заказали бутылку вина.",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "салвета",
+      "sr_latin": "salveta",
+      "pronunciation_ru": "салвЭта",
+      "translation_ru": "салфетка",
+      "example_sr": "Можете ли ми дати салвету?",
+      "example_ru": "Можете дать мне салфетку?",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "шећер",
+      "sr_latin": "šećer",
+      "pronunciation_ru": "шЭчер",
+      "translation_ru": "сахар",
+      "example_sr": "Пијем кафу без шећера.",
+      "example_ru": "Пью кофе без сахара.",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "млеко",
+      "sr_latin": "mleko",
+      "pronunciation_ru": "млЭко",
+      "translation_ru": "молоко",
+      "example_sr": "Кафу са мало млека, молим.",
+      "example_ru": "Кофе с небольшим количеством молока, пожалуйста.",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "лимун",
+      "sr_latin": "limun",
+      "pronunciation_ru": "лИмун",
+      "translation_ru": "лимон",
+      "example_sr": "Ставите кришку лимуна у чај.",
+      "example_ru": "Положите дольку лимона в чай.",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "лед",
+      "sr_latin": "led",
+      "pronunciation_ru": "лЭд",
+      "translation_ru": "лёд",
+      "example_sr": "Може сок са ледом?",
+      "example_ru": "Можно сок со льдом?",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "сламчица",
+      "sr_latin": "slamčica",
+      "pronunciation_ru": "слАмчица",
+      "translation_ru": "трубочка (для напитков)",
+      "example_sr": "Треба ми сламчица за сок.",
+      "example_ru": "Мне нужна трубочка для сока.",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "кола",
+      "sr_latin": "kola",
+      "pronunciation_ru": "кОла",
+      "translation_ru": "кола (кока-кола и т. п.)",
+      "example_sr": "Једну колу, молим.",
+      "example_ru": "Одну колу, пожалуйста.",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "лимунада",
+      "sr_latin": "limunada",
+      "pronunciation_ru": "лимунАда",
+      "translation_ru": "лимонад",
+      "example_sr": "Домаћа лимунада је освежавајућа.",
+      "example_ru": "Домашний лимонад освежает.",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "топла чоколада",
+      "sr_latin": "topla čokolada",
+      "pronunciation_ru": "тОпла чоколАда",
+      "translation_ru": "горячий шоколад",
+      "example_sr": "Зими наручим топлу чоколаду.",
+      "example_ru": "Зимой заказываю горячий шоколад.",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "коктел",
+      "sr_latin": "koktel",
+      "pronunciation_ru": "кОктел",
+      "translation_ru": "коктейль",
+      "example_sr": "Овде праве добре коктеле.",
+      "example_ru": "Здесь делают хорошие коктейли.",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "пиће",
+      "sr_latin": "piće",
+      "pronunciation_ru": "пИче",
+      "translation_ru": "напиток; выпивка",
+      "example_sr": "Шта ћете за пиће?",
+      "example_ru": "Что будете пить?",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "наздравити",
+      "sr_latin": "nazdraviti",
+      "pronunciation_ru": "нАздравити",
+      "translation_ru": "чокнуться, поднять тост",
+      "example_sr": "Хајде да наздравимо!",
+      "example_ru": "Давай чокнемся (поднимем тост)!",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "дружење",
+      "sr_latin": "druženje",
+      "pronunciation_ru": "дрУжене",
+      "translation_ru": "общение, посиделки в компании",
+      "example_sr": "Ово је фино дружење уз кафу.",
+      "example_ru": "Это приятные посиделки за кофе.",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "излазак",
+      "sr_latin": "izlazak",
+      "pronunciation_ru": "Излазак",
+      "translation_ru": "выход в город, тусовка вечером",
+      "example_sr": "Спремамо се за вечерашњи излазак.",
+      "example_ru": "Собираемся на сегодняшний вечерний выход.",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "договорити се",
+      "sr_latin": "dogovoriti se",
+      "pronunciation_ru": "договОрити се",
+      "translation_ru": "договориться",
+      "example_sr": "Хајде да се договоримо где ћемо се наћи.",
+      "example_ru": "Давай договоримся, где встретимся.",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "наћи се",
+      "sr_latin": "naći se",
+      "pronunciation_ru": "нАчи се",
+      "translation_ru": "встретиться",
+      "example_sr": "Нашћемо се испред кафића у осам.",
+      "example_ru": "Встретимся перед кафе в восемь.",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "седети",
+      "sr_latin": "sedeti",
+      "pronunciation_ru": "сЭдети",
+      "translation_ru": "сидеть (посидеть в кафе)",
+      "example_sr": "Можемо да седимо напољу?",
+      "example_ru": "Можем сидеть снаружи?",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "попити",
+      "sr_latin": "popiti",
+      "pronunciation_ru": "пОпити",
+      "translation_ru": "выпить (что-нибудь)",
+      "example_sr": "Хоћеш да попијемо нешто?",
+      "example_ru": "Хочешь что-нибудь выпить?",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "частити",
+      "sr_latin": "častiti",
+      "pronunciation_ru": "чАстити",
+      "translation_ru": "угощать, платить за других",
+      "example_sr": "Данас ја частим!",
+      "example_ru": "Сегодня я угощаю!",
+      "false_friend_note": "Значит «угощать / платить за других», не путать с русским «чистить»."
+    },
+    {
+      "sr_cyrillic": "рунда",
+      "sr_latin": "runda",
+      "pronunciation_ru": "рУнда",
+      "translation_ru": "круг (напитков на всю компанию)",
+      "example_sr": "Ова рунда је на мене.",
+      "example_ru": "Этот круг за мой счёт.",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "пепељара",
+      "sr_latin": "pepeljara",
+      "pronunciation_ru": "пепелЯра",
+      "translation_ru": "пепельница",
+      "example_sr": "Можете ли донети пепељару?",
+      "example_ru": "Можете принести пепельницу?",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "ценовник",
+      "sr_latin": "cenovnik",
+      "pronunciation_ru": "цЭновник",
+      "translation_ru": "прайс-лист, меню с ценами",
+      "example_sr": "Погледај ценовник пре него што наручиш.",
+      "example_ru": "Посмотри прайс перед тем, как заказать.",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "кафа за понети",
+      "sr_latin": "kafa za poneti",
+      "pronunciation_ru": "кАфа за пОнети",
+      "translation_ru": "кофе с собой (навынос)",
+      "example_sr": "Једна кафа за понети, молим.",
+      "example_ru": "Один кофе с собой, пожалуйста.",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "гужва",
+      "sr_latin": "gužva",
+      "pronunciation_ru": "гУжва",
+      "translation_ru": "толкучка, много народа",
+      "example_sr": "Викендом је велика гужва у кафићу.",
+      "example_ru": "По выходным в кафе много народа.",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "слободан сто",
+      "sr_latin": "slobodan sto",
+      "pronunciation_ru": "слОбодан стО",
+      "translation_ru": "свободный столик",
+      "example_sr": "Има ли слободан сто за двоје?",
+      "example_ru": "Есть свободный столик на двоих?",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "резервација",
+      "sr_latin": "rezervacija",
+      "pronunciation_ru": "резервАция",
+      "translation_ru": "бронь, резерв столика",
+      "example_sr": "Имамо резервацију на име Марко.",
+      "example_ru": "У нас бронь на имя Марко.",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "пена",
+      "sr_latin": "pena",
+      "pronunciation_ru": "пЭна",
+      "translation_ru": "пена (на кофе или пиве)",
+      "example_sr": "Волим капућино са пуно пене.",
+      "example_ru": "Люблю капучино с большим количеством пены.",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "жестоко пиће",
+      "sr_latin": "žestoko piće",
+      "pronunciation_ru": "жЭстоко пИче",
+      "translation_ru": "крепкий алкоголь",
+      "example_sr": "Не пијем жестока пића, само пиво.",
+      "example_ru": "Не пью крепкий алкоголь, только пиво.",
+      "false_friend_note": ""
+    }
+  ]
+}

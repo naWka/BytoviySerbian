@@ -2,6 +2,7 @@
   "id": "lekar_bolnica",
   "title_ru": "🏥 Врач и больница",
   "title_sr": "Лекар и болница",
+  "_note": "Черновик: сгенерировано AI и вычитано AI-корректором «как носитель». Не проверено носителем-человеком.",
   "words": [
     {
       "sr_cyrillic": "лекар",
@@ -380,6 +381,258 @@
       "example_sr": "Треба да снимите плућа.",
       "example_ru": "Вам нужно сделать снимок лёгких.",
       "false_friend_note": "Не «плечи»: плућа — это лёгкие."
+    },
+    {
+      "sr_cyrillic": "лек",
+      "sr_latin": "lek",
+      "pronunciation_ru": "лЕк",
+      "translation_ru": "лекарство",
+      "example_sr": "Овај лек се пије три пута дневно.",
+      "example_ru": "Это лекарство принимают три раза в день.",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "апотека",
+      "sr_latin": "apoteka",
+      "pronunciation_ru": "апОтека",
+      "translation_ru": "аптека",
+      "example_sr": "Овај лек можете купити у апотеци.",
+      "example_ru": "Это лекарство можно купить в аптеке.",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "педијатар",
+      "sr_latin": "pedijatar",
+      "pronunciation_ru": "педијАтар",
+      "translation_ru": "педиатр (детский врач)",
+      "example_sr": "Водим дете код педијатра.",
+      "example_ru": "Веду ребёнка к педиатру.",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "зубар",
+      "sr_latin": "zubar",
+      "pronunciation_ru": "зУбар",
+      "translation_ru": "стоматолог, зубной врач",
+      "example_sr": "Морам код зубара, боли ме зуб.",
+      "example_ru": "Мне нужно к стоматологу, болит зуб.",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "гинеколог",
+      "sr_latin": "ginekolog",
+      "pronunciation_ru": "гинекОлог",
+      "translation_ru": "гинеколог",
+      "example_sr": "Заказала сам преглед код гинеколога.",
+      "example_ru": "Я записалась на приём к гинекологу.",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "кардиолог",
+      "sr_latin": "kardiolog",
+      "pronunciation_ru": "кардиОлог",
+      "translation_ru": "кардиолог",
+      "example_sr": "Кардиолог ми је урадио ЕКГ.",
+      "example_ru": "Кардиолог сделал мне ЭКГ.",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "хирург",
+      "sr_latin": "hirurg",
+      "pronunciation_ru": "хирУрг",
+      "translation_ru": "хирург",
+      "example_sr": "Хирург ће одлучити о операцији.",
+      "example_ru": "Хирург решит насчёт операции.",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "очни лекар",
+      "sr_latin": "očni lekar",
+      "pronunciation_ru": "Очни лЕкар",
+      "translation_ru": "окулист, глазной врач",
+      "example_sr": "Идем код очног лекара по наочаре.",
+      "example_ru": "Иду к окулисту за очками.",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "одељење",
+      "sr_latin": "odeljenje",
+      "pronunciation_ru": "одЕљење",
+      "translation_ru": "отделение (больницы)",
+      "example_sr": "Пацијент лежи на кардиолошком одељењу.",
+      "example_ru": "Пациент лежит в кардиологическом отделении.",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "ургентни центар",
+      "sr_latin": "urgentni centar",
+      "pronunciation_ru": "ургЕнтни цЕнтар",
+      "translation_ru": "неотложка, приёмное отделение",
+      "example_sr": "Ноћу ради само ургентни центар.",
+      "example_ru": "Ночью работает только неотложка.",
+      "false_friend_note": "«Ургентни» значит «неотложный, срочный»."
+    },
+    {
+      "sr_cyrillic": "пријем",
+      "sr_latin": "prijem",
+      "pronunciation_ru": "прИјем",
+      "translation_ru": "приёмное, оформление (в больницу)",
+      "example_sr": "Јавите се прво на пријем.",
+      "example_ru": "Сначала обратитесь в приёмное (на оформление).",
+      "false_friend_note": "«Пријем» — это оформление и приём в больнице, а также регистратура."
+    },
+    {
+      "sr_cyrillic": "шалтер",
+      "sr_latin": "šalter",
+      "pronunciation_ru": "шАлтер",
+      "translation_ru": "окошко, стойка (регистратуры)",
+      "example_sr": "Књижицу покажите на шалтеру.",
+      "example_ru": "Медкнижку покажите в окошке.",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "лабораторија",
+      "sr_latin": "laboratorija",
+      "pronunciation_ru": "лаборатОрија",
+      "translation_ru": "лаборатория",
+      "example_sr": "Однесите узорак у лабораторију.",
+      "example_ru": "Отнесите пробу в лабораторию.",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "снимак",
+      "sr_latin": "snimak",
+      "pronunciation_ru": "снИмак",
+      "translation_ru": "снимок (рентгеновский)",
+      "example_sr": "Понесите снимак плућа са собом.",
+      "example_ru": "Возьмите снимок лёгких с собой.",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "рендген",
+      "sr_latin": "rendgen",
+      "pronunciation_ru": "рЕндген",
+      "translation_ru": "рентген",
+      "example_sr": "Упутио вас је на рендген.",
+      "example_ru": "Он направил вас на рентген.",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "ултразвук",
+      "sr_latin": "ultrazvuk",
+      "pronunciation_ru": "ултразвУк",
+      "translation_ru": "УЗИ (ультразвук)",
+      "example_sr": "Заказан ми је ултразвук стомака.",
+      "example_ru": "Мне назначено УЗИ живота.",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "дијагноза",
+      "sr_latin": "dijagnoza",
+      "pronunciation_ru": "дијагнОза",
+      "translation_ru": "диагноз",
+      "example_sr": "Још немамо коначну дијагнозу.",
+      "example_ru": "Окончательного диагноза пока нет.",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "упала",
+      "sr_latin": "upala",
+      "pronunciation_ru": "Упала",
+      "translation_ru": "воспаление",
+      "example_sr": "Имате упалу грла.",
+      "example_ru": "У вас воспаление горла.",
+      "false_friend_note": "Звучит как русское «упала», но значит «воспаление»."
+    },
+    {
+      "sr_cyrillic": "грип",
+      "sr_latin": "grip",
+      "pronunciation_ru": "грИп",
+      "translation_ru": "грипп",
+      "example_sr": "Лежао сам код куће због грипа.",
+      "example_ru": "Я лежал дома из-за гриппа.",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "алергија",
+      "sr_latin": "alergija",
+      "pronunciation_ru": "алЕргија",
+      "translation_ru": "аллергия",
+      "example_sr": "Имам алергију на полен.",
+      "example_ru": "У меня аллергия на пыльцу.",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "осип",
+      "sr_latin": "osip",
+      "pronunciation_ru": "Осип",
+      "translation_ru": "сыпь",
+      "example_sr": "Појавио ми се осип по кожи.",
+      "example_ru": "У меня появилась сыпь на коже.",
+      "false_friend_note": "Не имя «Осип»: осип — это сыпь на коже."
+    },
+    {
+      "sr_cyrillic": "вртоглавица",
+      "sr_latin": "vrtoglavica",
+      "pronunciation_ru": "вртоглАвица",
+      "translation_ru": "головокружение",
+      "example_sr": "Хватају ме вртоглавице ујутру.",
+      "example_ru": "По утрам у меня кружится голова.",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "повраћање",
+      "sr_latin": "povraćanje",
+      "pronunciation_ru": "поврАћање",
+      "translation_ru": "рвота",
+      "example_sr": "Имао је мучнину и повраћање.",
+      "example_ru": "У него была тошнота и рвота.",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "пролив",
+      "sr_latin": "proliv",
+      "pronunciation_ru": "прОлив",
+      "translation_ru": "понос, диарея",
+      "example_sr": "Дете има пролив већ два дана.",
+      "example_ru": "У ребёнка понос уже два дня.",
+      "false_friend_note": "Не «пролив» (в море): пролив — это понос, диарея."
+    },
+    {
+      "sr_cyrillic": "рана",
+      "sr_latin": "rana",
+      "pronunciation_ru": "рАна",
+      "translation_ru": "рана",
+      "example_sr": "Рану треба очистити и превити.",
+      "example_ru": "Рану нужно очистить и перевязать.",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "завој",
+      "sr_latin": "zavoj",
+      "pronunciation_ru": "зАвој",
+      "translation_ru": "бинт, повязка",
+      "example_sr": "Ставили су ми завој на руку.",
+      "example_ru": "Мне наложили повязку на руку.",
+      "false_friend_note": "Не «завой»: завој — это бинт, повязка (а ещё поворот дороги)."
+    },
+    {
+      "sr_cyrillic": "гипс",
+      "sr_latin": "gips",
+      "pronunciation_ru": "гИпс",
+      "translation_ru": "гипс",
+      "example_sr": "Ставили су му гипс на ногу.",
+      "example_ru": "Ему наложили гипс на ногу.",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "антибиотик",
+      "sr_latin": "antibiotik",
+      "pronunciation_ru": "антибиОтик",
+      "translation_ru": "антибиотик",
+      "example_sr": "Прописали су ми антибиотик на седам дана.",
+      "example_ru": "Мне выписали антибиотик на семь дней.",
+      "false_friend_note": ""
     }
   ]
 }

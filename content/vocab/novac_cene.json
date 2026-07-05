@@ -2,6 +2,7 @@
   "id": "novac_cene",
   "title_ru": "💰 Деньги и цены",
   "title_sr": "Новац и цене",
+  "_note": "Черновик: сгенерировано AI и вычитано AI-корректором «как носитель». Не проверено носителем-человеком.",
   "words": [
     {
       "sr_cyrillic": "новац",
@@ -379,6 +380,258 @@
       "translation_ru": "задаток, предоплата",
       "example_sr": "Морате оставити капару за резервацију.",
       "example_ru": "Нужно оставить задаток за бронь.",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "евро",
+      "sr_latin": "evro",
+      "pronunciation_ru": "Эвро",
+      "translation_ru": "евро",
+      "example_sr": "Стан се плаћа у еврима, не у динарима.",
+      "example_ru": "Аренда квартиры платится в евро, а не в динарах.",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "валута",
+      "sr_latin": "valuta",
+      "pronunciation_ru": "валУта",
+      "translation_ru": "валюта",
+      "example_sr": "У којој валути желите да платите?",
+      "example_ru": "В какой валюте хотите заплатить?",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "банка",
+      "sr_latin": "banka",
+      "pronunciation_ru": "бАнка",
+      "translation_ru": "банк",
+      "example_sr": "Морам да свратим до банке пре подне.",
+      "example_ru": "Мне нужно зайти в банк до обеда.",
+      "false_friend_note": "По-русски «банка» — стеклянная тара, а по-сербски банка — это банк (финансовый)."
+    },
+    {
+      "sr_cyrillic": "кредит",
+      "sr_latin": "kredit",
+      "pronunciation_ru": "крЭдит",
+      "translation_ru": "кредит",
+      "example_sr": "Узео сам стан на кредит.",
+      "example_ru": "Я взял квартиру в кредит.",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "камата",
+      "sr_latin": "kamata",
+      "pronunciation_ru": "кАмата",
+      "translation_ru": "проценты (по кредиту)",
+      "example_sr": "Камата на овај кредит је прилично висока.",
+      "example_ru": "Проценты по этому кредиту довольно высокие.",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "рата",
+      "sr_latin": "rata",
+      "pronunciation_ru": "рАта",
+      "translation_ru": "платёж по рассрочке, взнос",
+      "example_sr": "Прва рата стиже следећег месеца.",
+      "example_ru": "Первый платёж придёт в следующем месяце.",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "штедња",
+      "sr_latin": "štednja",
+      "pronunciation_ru": "штЭдня",
+      "translation_ru": "сбережения, накопление",
+      "example_sr": "Држим нешто пара на штедњи.",
+      "example_ru": "Держу немного денег на сбережениях.",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "уштедети",
+      "sr_latin": "uštedeti",
+      "pronunciation_ru": "уштЭдети",
+      "translation_ru": "сэкономить, накопить",
+      "example_sr": "Овако ћеш уштедети доста пара.",
+      "example_ru": "Так ты сэкономишь немало денег.",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "порез",
+      "sr_latin": "porez",
+      "pronunciation_ru": "пОрез",
+      "translation_ru": "налог",
+      "example_sr": "На то се плаћа и порез.",
+      "example_ru": "На это платится ещё и налог.",
+      "false_friend_note": "По-русски «порез» — рана, а по-сербски порез — это налог."
+    },
+    {
+      "sr_cyrillic": "такса",
+      "sr_latin": "taksa",
+      "pronunciation_ru": "тАкса",
+      "translation_ru": "сбор, пошлина",
+      "example_sr": "Административна такса је триста динара.",
+      "example_ru": "Административный сбор — триста динаров.",
+      "false_friend_note": "По-русски «такса» — ещё и порода собак; по-сербски такса — сбор, пошлина."
+    },
+    {
+      "sr_cyrillic": "накнада",
+      "sr_latin": "naknada",
+      "pronunciation_ru": "нАкнада",
+      "translation_ru": "плата, сбор, компенсация",
+      "example_sr": "Наплаћују накнаду за доставу.",
+      "example_ru": "Берут плату за доставку.",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "зарада",
+      "sr_latin": "zarada",
+      "pronunciation_ru": "зАрада",
+      "translation_ru": "заработок",
+      "example_sr": "Зарада ми је мања него лане.",
+      "example_ru": "Заработок у меня меньше, чем в прошлом году.",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "приход",
+      "sr_latin": "prihod",
+      "pronunciation_ru": "прИход",
+      "translation_ru": "доход",
+      "example_sr": "Немам стални приход тренутно.",
+      "example_ru": "Сейчас у меня нет постоянного дохода.",
+      "false_friend_note": "По-русски «приход» — приход/поступление вообще; по-сербски приход — доход (деньги)."
+    },
+    {
+      "sr_cyrillic": "буџет",
+      "sr_latin": "budžet",
+      "pronunciation_ru": "бУджэт",
+      "translation_ru": "бюджет",
+      "example_sr": "То ми је ван буџета за овај месец.",
+      "example_ru": "Это мне не по бюджету на этот месяц.",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "купити",
+      "sr_latin": "kupiti",
+      "pronunciation_ru": "кУпити",
+      "translation_ru": "купить",
+      "example_sr": "Где могу да купим воду овде близу?",
+      "example_ru": "Где здесь поблизости купить воду?",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "продати",
+      "sr_latin": "prodati",
+      "pronunciation_ru": "прОдати",
+      "translation_ru": "продать",
+      "example_sr": "Продајете ли ово и на комад?",
+      "example_ru": "Вы это и поштучно продаёте?",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "купац",
+      "sr_latin": "kupac",
+      "pronunciation_ru": "кУпац",
+      "translation_ru": "покупатель",
+      "example_sr": "Купац увек тражи мали попуст.",
+      "example_ru": "Покупатель всегда просит небольшую скидку.",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "продавац",
+      "sr_latin": "prodavac",
+      "pronunciation_ru": "продАвац",
+      "translation_ru": "продавец",
+      "example_sr": "Питајте продавца колико кошта.",
+      "example_ru": "Спросите у продавца, сколько стоит.",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "роба",
+      "sr_latin": "roba",
+      "pronunciation_ru": "рОба",
+      "translation_ru": "товар",
+      "example_sr": "Ова роба је управо стигла.",
+      "example_ru": "Этот товар только что поступил.",
+      "false_friend_note": "По-русски «роба» — рабочая одежда, а по-сербски роба — товар."
+    },
+    {
+      "sr_cyrillic": "комад",
+      "sr_latin": "komad",
+      "pronunciation_ru": "кОмад",
+      "translation_ru": "штука, кусок",
+      "example_sr": "Колико кошта један комад?",
+      "example_ru": "Сколько стоит одна штука?",
+      "false_friend_note": "Похоже на «комод», но комад — это штука, кусок."
+    },
+    {
+      "sr_cyrillic": "ценкати се",
+      "sr_latin": "cenkati se",
+      "pronunciation_ru": "цЭнкати се",
+      "translation_ru": "торговаться",
+      "example_sr": "На пијаци можете и да се ценкате.",
+      "example_ru": "На рынке можно и поторговаться.",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "погодити се",
+      "sr_latin": "pogoditi se",
+      "pronunciation_ru": "погОдити се",
+      "translation_ru": "сойтись в цене, договориться",
+      "example_sr": "Хајде да се погодимо око цене.",
+      "example_ru": "Давайте договоримся о цене.",
+      "false_friend_note": "Не «погодить/подождать»: погодити се око цене — сойтись в цене."
+    },
+    {
+      "sr_cyrillic": "повољно",
+      "sr_latin": "povoljno",
+      "pronunciation_ru": "пОвольно",
+      "translation_ru": "выгодно, по хорошей цене",
+      "example_sr": "Купила сам то врло повољно.",
+      "example_ru": "Я купила это очень выгодно.",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "скупоћа",
+      "sr_latin": "skupoća",
+      "pronunciation_ru": "скупОча",
+      "translation_ru": "дороговизна",
+      "example_sr": "Ова скупоћа је постала неиздржива.",
+      "example_ru": "Эта дороговизна стала невыносимой.",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "ситниш",
+      "sr_latin": "sitniš",
+      "pronunciation_ru": "сИтниш",
+      "translation_ru": "мелочь, мелкие монеты",
+      "example_sr": "Дала сам му сав ситниш из новчаника.",
+      "example_ru": "Я отдала ему всю мелочь из кошелька.",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "хиљадарка",
+      "sr_latin": "hiljadarka",
+      "pronunciation_ru": "хильАдарка",
+      "translation_ru": "тысячная купюра",
+      "example_sr": "Платио сам једном хиљадарком.",
+      "example_ru": "Я заплатил одной тысячной купюрой.",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "повраћај",
+      "sr_latin": "povraćaj",
+      "pronunciation_ru": "пОврачай",
+      "translation_ru": "возврат (денег)",
+      "example_sr": "Тражим повраћај новца за ово.",
+      "example_ru": "Я прошу возврат денег за это.",
+      "false_friend_note": "«Повраћај новца» — возврат денег; глагол «повраћати» может значить и «тошнить», но здесь речь о деньгах."
+    },
+    {
+      "sr_cyrillic": "дужан",
+      "sr_latin": "dužan",
+      "pronunciation_ru": "дУжан",
+      "translation_ru": "должен (по деньгам)",
+      "example_sr": "Колико сам вам дужан?",
+      "example_ru": "Сколько я вам должен?",
       "false_friend_note": ""
     }
   ]

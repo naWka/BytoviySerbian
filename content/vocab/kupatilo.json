@@ -2,6 +2,7 @@
   "id": "kupatilo",
   "title_ru": "🚿 Ванная",
   "title_sr": "Купатило",
+  "_note": "Черновик: сгенерировано AI и вычитано AI-корректором «как носитель». Не проверено носителем-человеком.",
   "words": [
     {
       "sr_cyrillic": "купатило",
@@ -380,6 +381,258 @@
       "example_sr": "Из славине иде само хладна, нема топле воде.",
       "example_ru": "Из крана идёт только холодная, горячей воды нет.",
       "false_friend_note": "«Топла вода» — это ГОРЯЧАЯ вода (из горячего крана), хотя на слух похоже на «тёплую». Совсем горячая — «врућа вода»."
+    },
+    {
+      "sr_cyrillic": "чешаљ",
+      "sr_latin": "češalj",
+      "pronunciation_ru": "чЭшаль",
+      "translation_ru": "расчёска, гребень",
+      "example_sr": "Где ми је чешаљ, не могу да се очешљам.",
+      "example_ru": "Где моя расчёска, не могу причесаться.",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "четка за косу",
+      "sr_latin": "četka za kosu",
+      "pronunciation_ru": "чЭтка за кОсу",
+      "translation_ru": "щётка для волос",
+      "example_sr": "Купила сам нову четку за косу.",
+      "example_ru": "Я купила новую щётку для волос.",
+      "false_friend_note": "«Коса» здесь — волосы, а не заплетённая коса."
+    },
+    {
+      "sr_cyrillic": "маказице за нокте",
+      "sr_latin": "makazice za nokte",
+      "pronunciation_ru": "макАзице за нОктэ",
+      "translation_ru": "маникюрные ножницы",
+      "example_sr": "Позајми ми маказице за нокте.",
+      "example_ru": "Одолжи мне ножницы для ногтей.",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "турпија за нокте",
+      "sr_latin": "turpija za nokte",
+      "pronunciation_ru": "тУрпия за нОктэ",
+      "translation_ru": "пилочка для ногтей",
+      "example_sr": "Треба ми турпија да испилим нокат.",
+      "example_ru": "Мне нужна пилочка, чтобы подпилить ноготь.",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "пинцета",
+      "sr_latin": "pinceta",
+      "pronunciation_ru": "пинцЭта",
+      "translation_ru": "пинцет",
+      "example_sr": "Дај ми пинцету да извадим ивер.",
+      "example_ru": "Дай пинцет, вытащу занозу.",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "штапићи за уши",
+      "sr_latin": "štapići za uši",
+      "pronunciation_ru": "штапИчи за Уши",
+      "translation_ru": "ватные палочки",
+      "example_sr": "Немој дубоко да гураш штапиће за уши.",
+      "example_ru": "Не суй глубоко ватные палочки.",
+      "false_friend_note": "Буквально «палочки для ушей» — так называют ватные палочки."
+    },
+    {
+      "sr_cyrillic": "влажне марамице",
+      "sr_latin": "vlažne maramice",
+      "pronunciation_ru": "влАжнэ марАмице",
+      "translation_ru": "влажные салфетки",
+      "example_sr": "Обриши руке влажним марамицама.",
+      "example_ru": "Вытри руки влажными салфетками.",
+      "false_friend_note": "«Марамица» — салфетка/платочек; «марама» — платок (на голову)."
+    },
+    {
+      "sr_cyrillic": "крема за лице",
+      "sr_latin": "krema za lice",
+      "pronunciation_ru": "крЭма за лИце",
+      "translation_ru": "крем для лица",
+      "example_sr": "Ујутру ставим крему за лице.",
+      "example_ru": "Утром наношу крем для лица.",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "пена за бријање",
+      "sr_latin": "pena za brijanje",
+      "pronunciation_ru": "пЭна за брИяње",
+      "translation_ru": "пена для бритья",
+      "example_sr": "Нанеси пену за бријање пре бријања.",
+      "example_ru": "Нанеси пену для бритья перед бритьём.",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "парфем",
+      "sr_latin": "parfem",
+      "pronunciation_ru": "пАрфэм",
+      "translation_ru": "парфюм, духи",
+      "example_sr": "Прскам мало парфема пре изласка.",
+      "example_ru": "Брызгаю немного парфюма перед выходом.",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "шминка",
+      "sr_latin": "šminka",
+      "pronunciation_ru": "шмИнка",
+      "translation_ru": "макияж, косметика",
+      "example_sr": "Скини шминку пре спавања.",
+      "example_ru": "Смой макияж перед сном.",
+      "false_friend_note": "«Шминка» — это макияж/косметика, а «шминкати се» — краситься."
+    },
+    {
+      "sr_cyrillic": "несесер",
+      "sr_latin": "neseser",
+      "pronunciation_ru": "нэсэсЭр",
+      "translation_ru": "косметичка, несессер",
+      "example_sr": "Спакуј четкицу и пасту у несесер.",
+      "example_ru": "Сложи щётку и пасту в косметичку.",
+      "false_friend_note": "«Несесер» — сумочка-косметичка для гигиены (например, в дорогу)."
+    },
+    {
+      "sr_cyrillic": "хигијенски улошци",
+      "sr_latin": "higijenski ulošci",
+      "pronunciation_ru": "хигИйенски улОшци",
+      "translation_ru": "гигиенические прокладки",
+      "example_sr": "Купи ми хигијенске улошке у апотеци.",
+      "example_ru": "Купи мне прокладки в аптеке.",
+      "false_friend_note": "«Уложак» здесь — прокладка; то же слово значит и стельку для обуви."
+    },
+    {
+      "sr_cyrillic": "завеса за туширање",
+      "sr_latin": "zavesa za tuširanje",
+      "pronunciation_ru": "завЭса за тушИрање",
+      "translation_ru": "шторка для душа",
+      "example_sr": "Навуци завесу за туширање да не прскаш под.",
+      "example_ru": "Задёрни шторку для душа, чтобы не забрызгать пол.",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "вц четка",
+      "sr_latin": "vc četka",
+      "pronunciation_ru": "вэ-цэ чЭтка",
+      "translation_ru": "ёршик для унитаза",
+      "example_sr": "Опери шољу вц четком.",
+      "example_ru": "Почисти унитаз ёршиком.",
+      "false_friend_note": "«ВЦ четка» — это ёршик для унитаза, а не обычная щётка."
+    },
+    {
+      "sr_cyrillic": "канта за смеће",
+      "sr_latin": "kanta za smeće",
+      "pronunciation_ru": "кАнта за смЭче",
+      "translation_ru": "мусорное ведро",
+      "example_sr": "Избаци смеће, канта је пуна.",
+      "example_ru": "Вынеси мусор, ведро полное.",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "освеживач",
+      "sr_latin": "osveživač",
+      "pronunciation_ru": "освэжИвач",
+      "translation_ru": "освежитель воздуха",
+      "example_sr": "Прскни освеживач, непријатно мирише.",
+      "example_ru": "Брызни освежитель, неприятно пахнет.",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "кука",
+      "sr_latin": "kuka",
+      "pronunciation_ru": "кУка",
+      "translation_ru": "крючок",
+      "example_sr": "Окачи баде мантил на куку иза врата.",
+      "example_ru": "Повесь халат на крючок за дверью.",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "туш батерија",
+      "sr_latin": "tuš baterija",
+      "pronunciation_ru": "тУш батЭрия",
+      "translation_ru": "смеситель (кран) для душа",
+      "example_sr": "Туш батерија је почела да капље.",
+      "example_ru": "Смеситель в душе начал капать.",
+      "false_friend_note": "«Батерија» в ванной — это смеситель (кран), хотя дословно «батарея». Аккумулятор тоже «батерија», но не радиатор отопления."
+    },
+    {
+      "sr_cyrillic": "сифон",
+      "sr_latin": "sifon",
+      "pronunciation_ru": "сифОн",
+      "translation_ru": "сифон (под раковиной)",
+      "example_sr": "Сифон испод лавабоа је зачепљен.",
+      "example_ru": "Сифон под раковиной засорён.",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "цев",
+      "sr_latin": "cev",
+      "pronunciation_ru": "цЭв",
+      "translation_ru": "труба",
+      "example_sr": "Испод каде је пукла цев.",
+      "example_ru": "Под ванной лопнула труба.",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "чеп",
+      "sr_latin": "čep",
+      "pronunciation_ru": "чЭп",
+      "translation_ru": "пробка, затычка",
+      "example_sr": "Стави чеп да напуниш каду.",
+      "example_ru": "Вставь пробку, чтобы набрать ванну.",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "буђ",
+      "sr_latin": "buđ",
+      "pronunciation_ru": "бУдж",
+      "translation_ru": "плесень",
+      "example_sr": "По угловима купатила се хвата буђ.",
+      "example_ru": "По углам ванной появляется плесень.",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "пара",
+      "sr_latin": "para",
+      "pronunciation_ru": "пАра",
+      "translation_ru": "пар",
+      "example_sr": "Од вруће воде се купатило напуни паром.",
+      "example_ru": "От горячей воды ванная наполняется паром.",
+      "false_friend_note": "«Пара» — это пар. А «паре» (мн. ч.) в разговорном сербском значит «деньги»."
+    },
+    {
+      "sr_cyrillic": "папуче",
+      "sr_latin": "papuče",
+      "pronunciation_ru": "пАпуче",
+      "translation_ru": "тапочки",
+      "example_sr": "Обуј папуче, под је хладан.",
+      "example_ru": "Надень тапочки, пол холодный.",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "баде мантил",
+      "sr_latin": "bade mantil",
+      "pronunciation_ru": "бАдэ мАнтил",
+      "translation_ru": "банный халат",
+      "example_sr": "После купања обучем баде мантил.",
+      "example_ru": "После купания надеваю халат.",
+      "false_friend_note": "«Мантил» само по себе — пальто/плащ; «баде мантил» — именно банный халат."
+    },
+    {
+      "sr_cyrillic": "умити се",
+      "sr_latin": "umiti se",
+      "pronunciation_ru": "Умити сэ",
+      "translation_ru": "умыться (умыть лицо)",
+      "example_sr": "Умиј се хладном водом да се разбудиш.",
+      "example_ru": "Умойся холодной водой, чтобы проснуться.",
+      "false_friend_note": "«Умити се» — умыть лицо; помыться целиком — «истуширати се» или «окупати се»."
+    },
+    {
+      "sr_cyrillic": "повући воду",
+      "sr_latin": "povući vodu",
+      "pronunciation_ru": "повУчи вОду",
+      "translation_ru": "смыть (спустить воду в туалете)",
+      "example_sr": "Не заборави да повучеш воду.",
+      "example_ru": "Не забудь смыть за собой.",
+      "false_friend_note": "«Повући воду» — дословно «потянуть воду», значит смыть в туалете."
     }
   ]
 }

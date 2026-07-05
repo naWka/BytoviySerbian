@@ -2,6 +2,7 @@
   "id": "namirnice",
   "title_ru": "🛍 Продукты (бакалея)",
   "title_sr": "Намирнице",
+  "_note": "Черновик: сгенерировано AI и вычитано AI-корректором «как носитель». Не проверено носителем-человеком.",
   "words": [
     {
       "sr_cyrillic": "брашно",
@@ -380,6 +381,258 @@
       "example_sr": "Ораси се продају на меру.",
       "example_ru": "Орехи продаются на развес.",
       "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "хлеб",
+      "sr_latin": "hleb",
+      "pronunciation_ru": "хлЭб",
+      "translation_ru": "хлеб",
+      "example_sr": "Дајте ми један хлеб, молим вас.",
+      "example_ru": "Дайте мне один хлеб, пожалуйста.",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "пециво",
+      "sr_latin": "pecivo",
+      "pronunciation_ru": "пЭциво",
+      "translation_ru": "выпечка, сдоба (булочки)",
+      "example_sr": "Ујутру купујем свеже пециво у пекари.",
+      "example_ru": "По утрам покупаю свежую выпечку в пекарне.",
+      "false_friend_note": "«Пециво» — это выпечка/сдоба (булочки, кифле), а не печенье (печенье — «кекс»)."
+    },
+    {
+      "sr_cyrillic": "кукурузне пахуљице",
+      "sr_latin": "kukuruzne pahuljice",
+      "pronunciation_ru": "кукурУзнэ пАхульицэ",
+      "translation_ru": "кукурузные хлопья",
+      "example_sr": "Деца доручкују кукурузне пахуљице са млеком.",
+      "example_ru": "Дети завтракают кукурузными хлопьями с молоком.",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "мусли",
+      "sr_latin": "musli",
+      "pronunciation_ru": "мУсли",
+      "translation_ru": "мюсли",
+      "example_sr": "Мусли са воћем су ми омиљени доручак.",
+      "example_ru": "Мюсли с фруктами — мой любимый завтрак.",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "интегрално брашно",
+      "sr_latin": "integralno brašno",
+      "pronunciation_ru": "интэгрАлно брАшно",
+      "translation_ru": "цельнозерновая мука",
+      "example_sr": "Пробај да умесиш хлеб од интегралног брашна.",
+      "example_ru": "Попробуй замесить хлеб из цельнозерновой муки.",
+      "false_friend_note": "«Интегрални» значит цельнозерновой (из цельного зерна), а не «интегральный»."
+    },
+    {
+      "sr_cyrillic": "пудинг",
+      "sr_latin": "puding",
+      "pronunciation_ru": "пУдинг",
+      "translation_ru": "пудинг (порошок для десерта)",
+      "example_sr": "За пудинг ти треба само млеко и кесица праха.",
+      "example_ru": "Для пудинга нужно только молоко и пакетик порошка.",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "мед",
+      "sr_latin": "med",
+      "pronunciation_ru": "мЭд",
+      "translation_ru": "мёд",
+      "example_sr": "Стави кашичицу меда у чај.",
+      "example_ru": "Положи ложечку мёда в чай.",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "џем",
+      "sr_latin": "džem",
+      "pronunciation_ru": "джЭм",
+      "translation_ru": "джем",
+      "example_sr": "Најдраже ми је пециво са џемом од кајсије.",
+      "example_ru": "Больше всего люблю булочку с абрикосовым джемом.",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "мармелада",
+      "sr_latin": "marmelada",
+      "pronunciation_ru": "мармэлАда",
+      "translation_ru": "фруктовый джем, повидло",
+      "example_sr": "Ова мармелада је од шљива.",
+      "example_ru": "Этот джем из слив.",
+      "false_friend_note": "«Мармелада» в Сербии — это фруктовый джем/повидло, а не жевательный мармелад."
+    },
+    {
+      "sr_cyrillic": "чоколада",
+      "sr_latin": "čokolada",
+      "pronunciation_ru": "чоколАда",
+      "translation_ru": "шоколад",
+      "example_sr": "Купи ми таблу чоколаде.",
+      "example_ru": "Купи мне плитку шоколада.",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "бомбоне",
+      "sr_latin": "bombone",
+      "pronunciation_ru": "бомбОнэ",
+      "translation_ru": "конфеты",
+      "example_sr": "Немој деци давати превише бомбона.",
+      "example_ru": "Не давай детям слишком много конфет.",
+      "false_friend_note": "«Бомбона» — это конфета, а не «бомба»."
+    },
+    {
+      "sr_cyrillic": "ванилин шећер",
+      "sr_latin": "vanilin šećer",
+      "pronunciation_ru": "ванИлин шЭчер",
+      "translation_ru": "ванильный сахар",
+      "example_sr": "Додај једну кесицу ванилин шећера у тесто.",
+      "example_ru": "Добавь один пакетик ванильного сахара в тесто.",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "кафа",
+      "sr_latin": "kafa",
+      "pronunciation_ru": "кАфа",
+      "translation_ru": "кофе",
+      "example_sr": "Која кафа вам треба, млевена или у зрну?",
+      "example_ru": "Какой кофе вам нужен, молотый или в зёрнах?",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "чај",
+      "sr_latin": "čaj",
+      "pronunciation_ru": "чАй",
+      "translation_ru": "чай",
+      "example_sr": "Имате ли чај од нане?",
+      "example_ru": "У вас есть мятный чай?",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "какао",
+      "sr_latin": "kakao",
+      "pronunciation_ru": "кАкао",
+      "translation_ru": "какао",
+      "example_sr": "Деца воле топло млеко са какаом.",
+      "example_ru": "Дети любят тёплое молоко с какао.",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "сок",
+      "sr_latin": "sok",
+      "pronunciation_ru": "сОк",
+      "translation_ru": "сок",
+      "example_sr": "Деци сам купила сок од јабуке.",
+      "example_ru": "Детям я купила яблочный сок.",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "чипс",
+      "sr_latin": "čips",
+      "pronunciation_ru": "чИпс",
+      "translation_ru": "чипсы",
+      "example_sr": "Немој да купујеш чипс сваки дан.",
+      "example_ru": "Не покупай чипсы каждый день.",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "кикирики",
+      "sr_latin": "kikiriki",
+      "pronunciation_ru": "кИкирики",
+      "translation_ru": "арахис",
+      "example_sr": "Слани кикирики иде уз пиво.",
+      "example_ru": "Солёный арахис хорош к пиву.",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "бадем",
+      "sr_latin": "badem",
+      "pronunciation_ru": "бАдэм",
+      "translation_ru": "миндаль",
+      "example_sr": "Бадем је скуп, али је здрав.",
+      "example_ru": "Миндаль дорогой, но полезный.",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "ораси",
+      "sr_latin": "orasi",
+      "pronunciation_ru": "Ораси",
+      "translation_ru": "грецкие орехи",
+      "example_sr": "За колаче ми требају млевени ораси.",
+      "example_ru": "Для выпечки мне нужны молотые грецкие орехи.",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "грожђице",
+      "sr_latin": "grožđice",
+      "pronunciation_ru": "грОждицэ",
+      "translation_ru": "изюм",
+      "example_sr": "Ставите грожђице у колач.",
+      "example_ru": "Добавьте изюм в пирог.",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "слани штапићи",
+      "sr_latin": "slani štapići",
+      "pronunciation_ru": "слАни штапИчи",
+      "translation_ru": "солёные палочки, соломка",
+      "example_sr": "Купи слане штапиће за госте.",
+      "example_ru": "Купи солёные палочки для гостей.",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "сенф",
+      "sr_latin": "senf",
+      "pronunciation_ru": "сЭнф",
+      "translation_ru": "горчица",
+      "example_sr": "Хоћеш ли сенф уз виршле?",
+      "example_ru": "Хочешь горчицу к сосискам?",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "кечап",
+      "sr_latin": "kečap",
+      "pronunciation_ru": "кЭчап",
+      "translation_ru": "кетчуп",
+      "example_sr": "Деца све једу са кечапом.",
+      "example_ru": "Дети всё едят с кетчупом.",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "мајонез",
+      "sr_latin": "majonez",
+      "pronunciation_ru": "майонЭз",
+      "translation_ru": "майонез",
+      "example_sr": "Мајонез стоји у фрижидеру после отварања.",
+      "example_ru": "Майонез хранится в холодильнике после вскрытия.",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "вегета",
+      "sr_latin": "vegeta",
+      "pronunciation_ru": "вЭгэта",
+      "translation_ru": "вегета (универсальная приправа-смесь)",
+      "example_sr": "Мало вегете и супа је готова.",
+      "example_ru": "Немного вегеты — и суп готов.",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "цимет",
+      "sr_latin": "cimet",
+      "pronunciation_ru": "цИмэт",
+      "translation_ru": "корица",
+      "example_sr": "Помешај цимет и шећер за палачинке.",
+      "example_ru": "Смешай корицу с сахаром для блинчиков.",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "супена коцка",
+      "sr_latin": "supena kocka",
+      "pronunciation_ru": "сУпэна кОцка",
+      "translation_ru": "бульонный кубик",
+      "example_sr": "Додај једну супену коцку у воду.",
+      "example_ru": "Добавь один бульонный кубик в воду.",
+      "false_friend_note": "«Коцка» — это кубик, а не игральная кость в этом контексте."
     }
   ]
 }

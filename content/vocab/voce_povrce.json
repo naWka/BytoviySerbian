@@ -2,6 +2,7 @@
   "id": "voce_povrce",
   "title_ru": "🍎 Фрукты и овощи",
   "title_sr": "Воће и поврће",
+  "_note": "Черновик: сгенерировано AI и вычитано AI-корректором «как носитель». Не проверено носителем-человеком.",
   "words": [
     {
       "sr_cyrillic": "воће",
@@ -380,6 +381,258 @@
       "example_sr": "Ставите на вагу да измерим.",
       "example_ru": "Положите на весы, я взвешу.",
       "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "ананас",
+      "sr_latin": "ananas",
+      "pronunciation_ru": "Ананас",
+      "translation_ru": "ананас",
+      "example_sr": "Овај ананас је баш зрео, лепо мирише.",
+      "example_ru": "Этот ананас совсем спелый, приятно пахнет.",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "мандарина",
+      "sr_latin": "mandarina",
+      "pronunciation_ru": "мандАрина",
+      "translation_ru": "мандарин",
+      "example_sr": "Мандарине су слатке, узмите кило.",
+      "example_ru": "Мандарины сладкие, возьмите кило.",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "киви",
+      "sr_latin": "kivi",
+      "pronunciation_ru": "кИви",
+      "translation_ru": "киви",
+      "example_sr": "Киви је богат витамином Ц.",
+      "example_ru": "Киви богат витамином С.",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "нар",
+      "sr_latin": "nar",
+      "pronunciation_ru": "нАр",
+      "translation_ru": "гранат",
+      "example_sr": "Нар је одличан за цеђење сока.",
+      "example_ru": "Гранат отлично идёт на сок.",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "купина",
+      "sr_latin": "kupina",
+      "pronunciation_ru": "кУпина",
+      "translation_ru": "ежевика",
+      "example_sr": "Купине су зреле, беру се у јулу.",
+      "example_ru": "Ежевика спелая, её собирают в июле.",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "рибизла",
+      "sr_latin": "ribizla",
+      "pronunciation_ru": "рибИзла",
+      "translation_ru": "смородина",
+      "example_sr": "Црвена рибизла је киселкаста.",
+      "example_ru": "Красная смородина кисловатая.",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "нектарина",
+      "sr_latin": "nektarina",
+      "pronunciation_ru": "нектАрина",
+      "translation_ru": "нектарин",
+      "example_sr": "Нектарине немају длачице као брескве.",
+      "example_ru": "У нектаринов нет ворсинок, как у персиков.",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "манго",
+      "sr_latin": "mango",
+      "pronunciation_ru": "мАнго",
+      "translation_ru": "манго",
+      "example_sr": "Манго је још тврд, сачекајте дан-два.",
+      "example_ru": "Манго ещё твёрдый, подождите день-два.",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "орах",
+      "sr_latin": "orah",
+      "pronunciation_ru": "Орах",
+      "translation_ru": "грецкий орех",
+      "example_sr": "Домаћи ораси су за колаче.",
+      "example_ru": "Местные грецкие орехи — для выпечки.",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "лешник",
+      "sr_latin": "lešnik",
+      "pronunciation_ru": "лЭшник",
+      "translation_ru": "фундук, лесной орех",
+      "example_sr": "Лешници иду уз чоколаду.",
+      "example_ru": "Фундук хорошо идёт с шоколадом.",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "бадем",
+      "sr_latin": "badem",
+      "pronunciation_ru": "бАдем",
+      "translation_ru": "миндаль",
+      "example_sr": "Бадем купујем неољуштен.",
+      "example_ru": "Миндаль покупаю неочищенный.",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "кикирики",
+      "sr_latin": "kikiriki",
+      "pronunciation_ru": "кикирИки",
+      "translation_ru": "арахис",
+      "example_sr": "Дајте кесицу кикирикија, молим.",
+      "example_ru": "Дайте пакетик арахиса, пожалуйста.",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "печурка",
+      "sr_latin": "pečurka",
+      "pronunciation_ru": "печУрка",
+      "translation_ru": "гриб (шампиньон)",
+      "example_sr": "Ове печурке су свеже, за ризото.",
+      "example_ru": "Эти грибы свежие, для ризотто.",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "вргањ",
+      "sr_latin": "vrganj",
+      "pronunciation_ru": "вРгань",
+      "translation_ru": "белый гриб, боровик",
+      "example_sr": "Вргањ је најбоља печурка за јело.",
+      "example_ru": "Белый гриб — лучший гриб для еды.",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "карфиол",
+      "sr_latin": "karfiol",
+      "pronunciation_ru": "карфиОл",
+      "translation_ru": "цветная капуста",
+      "example_sr": "Карфиол може на пари или у супи.",
+      "example_ru": "Цветную капусту можно на пару или в суп.",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "броколи",
+      "sr_latin": "brokoli",
+      "pronunciation_ru": "брОколи",
+      "translation_ru": "брокколи",
+      "example_sr": "Броколи не кувајте предуго.",
+      "example_ru": "Брокколи не варите слишком долго.",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "тиква",
+      "sr_latin": "tikva",
+      "pronunciation_ru": "тИква",
+      "translation_ru": "тыква",
+      "example_sr": "Од тикве правим питу.",
+      "example_ru": "Из тыквы делаю пирог.",
+      "false_friend_note": "Тиква — тыква, а уменьшительное тиквица — это кабачок."
+    },
+    {
+      "sr_cyrillic": "кукуруз",
+      "sr_latin": "kukuruz",
+      "pronunciation_ru": "кУкуруз",
+      "translation_ru": "кукуруза",
+      "example_sr": "Кукуруз шећерац је најслађи.",
+      "example_ru": "Сахарная кукуруза самая сладкая.",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "ротквица",
+      "sr_latin": "rotkvica",
+      "pronunciation_ru": "рОтквица",
+      "translation_ru": "редис",
+      "example_sr": "Дајте везицу ротквица за салату.",
+      "example_ru": "Дайте пучок редиса на салат.",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "празилук",
+      "sr_latin": "praziluk",
+      "pronunciation_ru": "прАзилук",
+      "translation_ru": "лук-порей",
+      "example_sr": "Празилук иде у чорбу уместо лука.",
+      "example_ru": "Лук-порей идёт в суп вместо репчатого.",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "боранија",
+      "sr_latin": "boranija",
+      "pronunciation_ru": "борАния",
+      "translation_ru": "стручковая фасоль",
+      "example_sr": "Боранија је млада и мека.",
+      "example_ru": "Стручковая фасоль молодая и нежная.",
+      "false_friend_note": "Боранија — молодая фасоль в стручках, а пасуљ — сушёные зёрна фасоли."
+    },
+    {
+      "sr_cyrillic": "целер",
+      "sr_latin": "celer",
+      "pronunciation_ru": "цЭлер",
+      "translation_ru": "сельдерей",
+      "example_sr": "Целер даје супи леп мирис.",
+      "example_ru": "Сельдерей придаёт супу приятный аромат.",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "мирођија",
+      "sr_latin": "mirođija",
+      "pronunciation_ru": "мирОджия",
+      "translation_ru": "укроп",
+      "example_sr": "Ставите мало мирођије у чорбу.",
+      "example_ru": "Добавьте немного укропа в суп.",
+      "false_friend_note": "Укроп по-сербски — мирођија (реже: копар)."
+    },
+    {
+      "sr_cyrillic": "босиљак",
+      "sr_latin": "bosiljak",
+      "pronunciation_ru": "бОсиляк",
+      "translation_ru": "базилик",
+      "example_sr": "Босиљак иде уз парадајз.",
+      "example_ru": "Базилик хорошо идёт к помидорам.",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "зелена салата",
+      "sr_latin": "zelena salata",
+      "pronunciation_ru": "зелЭна салАта",
+      "translation_ru": "листовой салат (латук)",
+      "example_sr": "Дајте једну главицу зелене салате.",
+      "example_ru": "Дайте один кочан листового салата.",
+      "false_friend_note": "Зелена салата — это салат-растение (латук), а не салат-блюдо."
+    },
+    {
+      "sr_cyrillic": "домаћи",
+      "sr_latin": "domaći",
+      "pronunciation_ru": "дОмачи",
+      "translation_ru": "местный, со своего огорода",
+      "example_sr": "Имате ли домаћи парадајз?",
+      "example_ru": "У вас есть местные помидоры?",
+      "false_friend_note": "На рынке «домаћи» значит местный, свой, не привозной — а не «домашний» про питомца."
+    },
+    {
+      "sr_cyrillic": "коштица",
+      "sr_latin": "koštica",
+      "pronunciation_ru": "кОштица",
+      "translation_ru": "косточка (у плода)",
+      "example_sr": "Пазите, бресква има велику коштицу.",
+      "example_ru": "Осторожно, у персика крупная косточка.",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "кеса",
+      "sr_latin": "kesa",
+      "pronunciation_ru": "кЭса",
+      "translation_ru": "пакет (пластиковый)",
+      "example_sr": "Треба ли вам кеса?",
+      "example_ru": "Пакет нужен?",
+      "false_friend_note": "Кеса — это пакет; не путать с каса — это касса."
     }
   ]
 }

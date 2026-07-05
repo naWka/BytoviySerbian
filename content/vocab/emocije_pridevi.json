@@ -1,0 +1,638 @@
+{
+  "id": "emocije_pridevi",
+  "title_ru": "😊 Эмоции и характер",
+  "title_sr": "Емоције и особине",
+  "_note": "Черновик: сгенерировано AI и вычитано AI-корректором «как носитель». Не проверено носителем-человеком.",
+  "words": [
+    {
+      "sr_cyrillic": "осећај",
+      "sr_latin": "osećaj",
+      "pronunciation_ru": "Осэчай",
+      "translation_ru": "чувство, ощущение",
+      "example_sr": "Имам добар осећај у вези с тим.",
+      "example_ru": "У меня хорошее предчувствие насчёт этого.",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "срећан",
+      "sr_latin": "srećan",
+      "pronunciation_ru": "срЭчан",
+      "translation_ru": "счастливый, радостный",
+      "example_sr": "Данас сам баш срећан.",
+      "example_ru": "Сегодня я по-настоящему счастлив.",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "срећа",
+      "sr_latin": "sreća",
+      "pronunciation_ru": "срЭча",
+      "translation_ru": "счастье; удача",
+      "example_sr": "Срећно! Све најбоље.",
+      "example_ru": "Удачи! Всего наилучшего.",
+      "false_friend_note": "«Срећа» — это и «счастье», и «удача». «Срећно!» = «Удачи!»"
+    },
+    {
+      "sr_cyrillic": "радостан",
+      "sr_latin": "radostan",
+      "pronunciation_ru": "рАдостан",
+      "translation_ru": "радостный",
+      "example_sr": "Радостан сам због добрих вести.",
+      "example_ru": "Я рад хорошим новостям.",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "радост",
+      "sr_latin": "radost",
+      "pronunciation_ru": "рАдост",
+      "translation_ru": "радость",
+      "example_sr": "Каква радост да те видим!",
+      "example_ru": "Какая радость тебя видеть!",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "тужан",
+      "sr_latin": "tužan",
+      "pronunciation_ru": "тУжан",
+      "translation_ru": "грустный, печальный",
+      "example_sr": "Нешто сам тужан данас.",
+      "example_ru": "Что-то мне грустно сегодня.",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "туга",
+      "sr_latin": "tuga",
+      "pronunciation_ru": "тУга",
+      "translation_ru": "грусть, печаль",
+      "example_sr": "Обузела ме туга.",
+      "example_ru": "Меня охватила грусть.",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "љут",
+      "sr_latin": "ljut",
+      "pronunciation_ru": "льУт",
+      "translation_ru": "злой, сердитый; острый (о еде)",
+      "example_sr": "Јеси ли љут на мене?",
+      "example_ru": "Ты злишься на меня?",
+      "false_friend_note": "«Љут» — это и «злой», и «острый»: «љута паприка» = острый перец."
+    },
+    {
+      "sr_cyrillic": "бес",
+      "sr_latin": "bes",
+      "pronunciation_ru": "бЭс",
+      "translation_ru": "ярость, гнев, бешенство",
+      "example_sr": "Обузео га је бес.",
+      "example_ru": "Его охватила ярость.",
+      "false_friend_note": "«Бес» = «ярость, бешенство». Рус. «бес» (нечистая сила) по-сербски «ђаво»."
+    },
+    {
+      "sr_cyrillic": "бесан",
+      "sr_latin": "besan",
+      "pronunciation_ru": "бЭсан",
+      "translation_ru": "разъярённый, в бешенстве",
+      "example_sr": "Био је бесан кад је чуо.",
+      "example_ru": "Он был в бешенстве, когда услышал.",
+      "false_friend_note": "«Бесан» = «в ярости, злой»; о животном — «бешеный». Созвучно рус. «бешеный»."
+    },
+    {
+      "sr_cyrillic": "уморан",
+      "sr_latin": "umoran",
+      "pronunciation_ru": "Уморан",
+      "translation_ru": "усталый",
+      "example_sr": "Уморан сам после посла.",
+      "example_ru": "Я устал после работы.",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "умор",
+      "sr_latin": "umor",
+      "pronunciation_ru": "Умор",
+      "translation_ru": "усталость, утомление",
+      "example_sr": "Осећам умор у ногама.",
+      "example_ru": "Чувствую усталость в ногах.",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "уплашен",
+      "sr_latin": "uplašen",
+      "pronunciation_ru": "уплАшен",
+      "translation_ru": "испуганный, напуганный",
+      "example_sr": "Дете је уплашено од пса.",
+      "example_ru": "Ребёнок испугался собаки.",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "страх",
+      "sr_latin": "strah",
+      "pronunciation_ru": "стрАх",
+      "translation_ru": "страх",
+      "example_sr": "Имам страх од висине.",
+      "example_ru": "У меня страх высоты.",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "досадан",
+      "sr_latin": "dosadan",
+      "pronunciation_ru": "дОсадан",
+      "translation_ru": "скучный, надоедливый",
+      "example_sr": "Филм је био досадан.",
+      "example_ru": "Фильм был скучный.",
+      "false_friend_note": "«Досадан» = «скучный»; а рус. «досадно» (жаль) по-сербски «штета»."
+    },
+    {
+      "sr_cyrillic": "досада",
+      "sr_latin": "dosada",
+      "pronunciation_ru": "дОсада",
+      "translation_ru": "скука",
+      "example_sr": "Умирем од досаде.",
+      "example_ru": "Умираю от скуки.",
+      "false_friend_note": "«Досада» = «скука», а не «досада/обида» как в русском."
+    },
+    {
+      "sr_cyrillic": "досадно",
+      "sr_latin": "dosadno",
+      "pronunciation_ru": "дОсадно",
+      "translation_ru": "скучно",
+      "example_sr": "Досадно ми је, хајде да изађемо.",
+      "example_ru": "Мне скучно, давай выйдем.",
+      "false_friend_note": "«Досадно ми је» = «мне скучно», а не «обидно»."
+    },
+    {
+      "sr_cyrillic": "заљубљен",
+      "sr_latin": "zaljubljen",
+      "pronunciation_ru": "заљУбльен",
+      "translation_ru": "влюблённый",
+      "example_sr": "Заљубљен сам у њу.",
+      "example_ru": "Я влюблён в неё.",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "љубав",
+      "sr_latin": "ljubav",
+      "pronunciation_ru": "льУбав",
+      "translation_ru": "любовь",
+      "example_sr": "То је љубав на први поглед.",
+      "example_ru": "Это любовь с первого взгляда.",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "миран",
+      "sr_latin": "miran",
+      "pronunciation_ru": "мИран",
+      "translation_ru": "спокойный, тихий",
+      "example_sr": "Буди миран, све је у реду.",
+      "example_ru": "Будь спокоен, всё в порядке.",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "мир",
+      "sr_latin": "mir",
+      "pronunciation_ru": "мИр",
+      "translation_ru": "покой, тишина; мир (не война)",
+      "example_sr": "Треба ми мало мира и тишине.",
+      "example_ru": "Мне нужно немного покоя и тишины.",
+      "false_friend_note": "«Мир» = «покой, тишина». «Мир» как планета/люди по-сербски «свет»."
+    },
+    {
+      "sr_cyrillic": "нервозан",
+      "sr_latin": "nervozan",
+      "pronunciation_ru": "нервОзан",
+      "translation_ru": "нервный, взвинченный",
+      "example_sr": "Нервозан сам пред испит.",
+      "example_ru": "Я нервничаю перед экзаменом.",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "напет",
+      "sr_latin": "napet",
+      "pronunciation_ru": "нАпет",
+      "translation_ru": "напряжённый",
+      "example_sr": "Атмосфера је била напета.",
+      "example_ru": "Атмосфера была напряжённой.",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "смирен",
+      "sr_latin": "smiren",
+      "pronunciation_ru": "смИрен",
+      "translation_ru": "спокойный, невозмутимый",
+      "example_sr": "Остао је смирен у свакој ситуацији.",
+      "example_ru": "Он оставался спокойным в любой ситуации.",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "забринут",
+      "sr_latin": "zabrinut",
+      "pronunciation_ru": "забрИнут",
+      "translation_ru": "обеспокоенный, встревоженный",
+      "example_sr": "Забринут сам за њега.",
+      "example_ru": "Я беспокоюсь за него.",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "брига",
+      "sr_latin": "briga",
+      "pronunciation_ru": "брИга",
+      "translation_ru": "забота, беспокойство",
+      "example_sr": "Не брини, то није твоја брига.",
+      "example_ru": "Не волнуйся, это не твоя забота.",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "изненађен",
+      "sr_latin": "iznenađen",
+      "pronunciation_ru": "изненАджен",
+      "translation_ru": "удивлённый",
+      "example_sr": "Био сам пријатно изненађен.",
+      "example_ru": "Я был приятно удивлён.",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "изненађење",
+      "sr_latin": "iznenađenje",
+      "pronunciation_ru": "изненАдженье",
+      "translation_ru": "сюрприз, неожиданность",
+      "example_sr": "Имам изненађење за тебе.",
+      "example_ru": "У меня для тебя сюрприз.",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "поносан",
+      "sr_latin": "ponosan",
+      "pronunciation_ru": "пОносан",
+      "translation_ru": "гордый",
+      "example_sr": "Поносан сам на тебе.",
+      "example_ru": "Я горжусь тобой.",
+      "false_friend_note": "От «понос» = гордость. «Поносан» = «гордый», ничего общего с рус. «понос»."
+    },
+    {
+      "sr_cyrillic": "понос",
+      "sr_latin": "ponos",
+      "pronunciation_ru": "пОнос",
+      "translation_ru": "гордость",
+      "example_sr": "То је наш понос.",
+      "example_ru": "Это наша гордость.",
+      "false_friend_note": "Осторожно: «понос» = «гордость»! Рус. «понос» по-сербски «пролив»."
+    },
+    {
+      "sr_cyrillic": "разочаран",
+      "sr_latin": "razočaran",
+      "pronunciation_ru": "разочАран",
+      "translation_ru": "разочарованный",
+      "example_sr": "Разочаран сам резултатом.",
+      "example_ru": "Я разочарован результатом.",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "збуњен",
+      "sr_latin": "zbunjen",
+      "pronunciation_ru": "збУнен",
+      "translation_ru": "растерянный, сбитый с толку",
+      "example_sr": "Мало сам збуњен, објасни ми поново.",
+      "example_ru": "Я немного растерян, объясни мне ещё раз.",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "усамљен",
+      "sr_latin": "usamljen",
+      "pronunciation_ru": "усАмльен",
+      "translation_ru": "одинокий",
+      "example_sr": "Понекад се осећам усамљено.",
+      "example_ru": "Иногда я чувствую себя одиноко.",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "задовољан",
+      "sr_latin": "zadovoljan",
+      "pronunciation_ru": "задовОльан",
+      "translation_ru": "довольный, удовлетворённый",
+      "example_sr": "Задовољан сам услугом.",
+      "example_ru": "Я доволен обслуживанием.",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "незадовољан",
+      "sr_latin": "nezadovoljan",
+      "pronunciation_ru": "незадовОльан",
+      "translation_ru": "недовольный",
+      "example_sr": "Купци су незадовољни ценама.",
+      "example_ru": "Покупатели недовольны ценами.",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "срамота",
+      "sr_latin": "sramota",
+      "pronunciation_ru": "срамОта",
+      "translation_ru": "стыд, позор",
+      "example_sr": "Каква срамота!",
+      "example_ru": "Какой позор!",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "постиђен",
+      "sr_latin": "postiđen",
+      "pronunciation_ru": "постИджен",
+      "translation_ru": "смущённый, пристыжённый",
+      "example_sr": "Осећао се постиђено због грешке.",
+      "example_ru": "Ему было стыдно из-за ошибки.",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "весео",
+      "sr_latin": "veseo",
+      "pronunciation_ru": "вЭсео",
+      "translation_ru": "весёлый",
+      "example_sr": "Он је увек весео и насмејан.",
+      "example_ru": "Он всегда весёлый и улыбчивый.",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "очајан",
+      "sr_latin": "očajan",
+      "pronunciation_ru": "Очаян",
+      "translation_ru": "отчаявшийся; ужасный",
+      "example_sr": "Не буди очајан, наћи ћемо решење.",
+      "example_ru": "Не отчаивайся, мы найдём решение.",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "расположење",
+      "sr_latin": "raspoloženje",
+      "pronunciation_ru": "располОженье",
+      "translation_ru": "настроение",
+      "example_sr": "Данас сам лошег расположења.",
+      "example_ru": "Сегодня у меня плохое настроение.",
+      "false_friend_note": "«Расположење» = «настроение», не «расположение/местоположение»."
+    },
+    {
+      "sr_cyrillic": "добар",
+      "sr_latin": "dobar",
+      "pronunciation_ru": "дОбар",
+      "translation_ru": "хороший, добрый",
+      "example_sr": "Он је добар човек.",
+      "example_ru": "Он хороший человек.",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "лош",
+      "sr_latin": "loš",
+      "pronunciation_ru": "лОш",
+      "translation_ru": "плохой",
+      "example_sr": "Имам лош дан.",
+      "example_ru": "У меня плохой день.",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "велик",
+      "sr_latin": "velik",
+      "pronunciation_ru": "вЭлик",
+      "translation_ru": "большой, крупный",
+      "example_sr": "То је велики проблем.",
+      "example_ru": "Это большая проблема.",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "мали",
+      "sr_latin": "mali",
+      "pronunciation_ru": "мАли",
+      "translation_ru": "маленький, небольшой",
+      "example_sr": "Дај ми мали комад.",
+      "example_ru": "Дай мне маленький кусок.",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "леп",
+      "sr_latin": "lep",
+      "pronunciation_ru": "лЭп",
+      "translation_ru": "красивый, хороший",
+      "example_sr": "Каква лепа хаљина!",
+      "example_ru": "Какое красивое платье!",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "ружан",
+      "sr_latin": "ružan",
+      "pronunciation_ru": "рУжан",
+      "translation_ru": "некрасивый, уродливый",
+      "example_sr": "Ова слика ми је ружна.",
+      "example_ru": "Эта картина мне кажется некрасивой.",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "паметан",
+      "sr_latin": "pametan",
+      "pronunciation_ru": "пАметан",
+      "translation_ru": "умный, сообразительный",
+      "example_sr": "Он је веома паметан дечак.",
+      "example_ru": "Он очень умный мальчик.",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "глуп",
+      "sr_latin": "glup",
+      "pronunciation_ru": "глУп",
+      "translation_ru": "глупый",
+      "example_sr": "То је била глупа грешка.",
+      "example_ru": "Это была глупая ошибка.",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "љубазан",
+      "sr_latin": "ljubazan",
+      "pronunciation_ru": "льубАзан",
+      "translation_ru": "любезный, вежливый, добрый",
+      "example_sr": "Продавачица је била веома љубазна.",
+      "example_ru": "Продавщица была очень любезна.",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "строг",
+      "sr_latin": "strog",
+      "pronunciation_ru": "стрОг",
+      "translation_ru": "строгий",
+      "example_sr": "Наш професор је строг.",
+      "example_ru": "Наш преподаватель строгий.",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "лењ",
+      "sr_latin": "lenj",
+      "pronunciation_ru": "лЭнь",
+      "translation_ru": "ленивый",
+      "example_sr": "Немој да будеш лењ, устани!",
+      "example_ru": "Не будь ленивым, вставай!",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "вредан",
+      "sr_latin": "vredan",
+      "pronunciation_ru": "врЭдан",
+      "translation_ru": "трудолюбивый, старательный; ценный",
+      "example_sr": "Он је вредан радник.",
+      "example_ru": "Он трудолюбивый работник.",
+      "false_friend_note": "Ложный друг: «вредан» = «трудолюбивый, ценный», а НЕ «вредный». Вредный по-сербски «штетан»."
+    },
+    {
+      "sr_cyrillic": "брз",
+      "sr_latin": "brz",
+      "pronunciation_ru": "бРз",
+      "translation_ru": "быстрый",
+      "example_sr": "Треба ми брз одговор.",
+      "example_ru": "Мне нужен быстрый ответ.",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "спор",
+      "sr_latin": "spor",
+      "pronunciation_ru": "спОр",
+      "translation_ru": "медленный",
+      "example_sr": "Интернет је данас спор.",
+      "example_ru": "Интернет сегодня медленный.",
+      "false_friend_note": "«Спор» = «медленный». Рус. «спор» (ссора) по-сербски «свађа»."
+    },
+    {
+      "sr_cyrillic": "скуп",
+      "sr_latin": "skup",
+      "pronunciation_ru": "скУп",
+      "translation_ru": "дорогой (по цене)",
+      "example_sr": "Овај телефон је сувише скуп.",
+      "example_ru": "Этот телефон слишком дорогой.",
+      "false_friend_note": "Ложный друг: «скуп» = «дорогой» (по цене), а не «скупой». Скупой по-сербски «тврдица, шкрт»."
+    },
+    {
+      "sr_cyrillic": "јефтин",
+      "sr_latin": "jeftin",
+      "pronunciation_ru": "йЭфтин",
+      "translation_ru": "дешёвый",
+      "example_sr": "Има нешто јефтиније?",
+      "example_ru": "Есть что-нибудь подешевле?",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "нов",
+      "sr_latin": "nov",
+      "pronunciation_ru": "нОв",
+      "translation_ru": "новый",
+      "example_sr": "Купио сам нов ауто.",
+      "example_ru": "Я купил новую машину.",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "стар",
+      "sr_latin": "star",
+      "pronunciation_ru": "стАр",
+      "translation_ru": "старый",
+      "example_sr": "Ова зграда је веома стара.",
+      "example_ru": "Это здание очень старое.",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "млад",
+      "sr_latin": "mlad",
+      "pronunciation_ru": "млАд",
+      "translation_ru": "молодой",
+      "example_sr": "Још си млад, имаш времена.",
+      "example_ru": "Ты ещё молод, у тебя есть время.",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "јак",
+      "sr_latin": "jak",
+      "pronunciation_ru": "йАк",
+      "translation_ru": "сильный, крепкий",
+      "example_sr": "Треба ми јака кафа.",
+      "example_ru": "Мне нужен крепкий кофе.",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "слаб",
+      "sr_latin": "slab",
+      "pronunciation_ru": "слАб",
+      "translation_ru": "слабый",
+      "example_sr": "Сигнал је овде слаб.",
+      "example_ru": "Сигнал здесь слабый.",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "тежак",
+      "sr_latin": "težak",
+      "pronunciation_ru": "тЭжак",
+      "translation_ru": "тяжёлый; трудный",
+      "example_sr": "Овај кофер је тежак.",
+      "example_ru": "Этот чемодан тяжёлый.",
+      "false_friend_note": "«Тежак» — и «тяжёлый», и «трудный»."
+    },
+    {
+      "sr_cyrillic": "лак",
+      "sr_latin": "lak",
+      "pronunciation_ru": "лАк",
+      "translation_ru": "лёгкий, простой",
+      "example_sr": "То је лак задатак.",
+      "example_ru": "Это лёгкая задача.",
+      "false_friend_note": "«Лак» = «лёгкий, простой». Есть омоним «лак» — лак/краска (нанести лак)."
+    },
+    {
+      "sr_cyrillic": "занимљив",
+      "sr_latin": "zanimljiv",
+      "pronunciation_ru": "занИмльив",
+      "translation_ru": "интересный",
+      "example_sr": "Књига је баш занимљива.",
+      "example_ru": "Книга очень интересная.",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "важан",
+      "sr_latin": "važan",
+      "pronunciation_ru": "вАжан",
+      "translation_ru": "важный",
+      "example_sr": "Ово је важан састанак.",
+      "example_ru": "Это важная встреча.",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "смешан",
+      "sr_latin": "smešan",
+      "pronunciation_ru": "смЭшан",
+      "translation_ru": "смешной, забавный",
+      "example_sr": "Виц је био баш смешан.",
+      "example_ru": "Шутка была очень смешная.",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "озбиљан",
+      "sr_latin": "ozbiljan",
+      "pronunciation_ru": "озбИльан",
+      "translation_ru": "серьёзный",
+      "example_sr": "Буди озбиљан, молим те.",
+      "example_ru": "Будь серьёзным, пожалуйста.",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "пријатан",
+      "sr_latin": "prijatan",
+      "pronunciation_ru": "прИятан",
+      "translation_ru": "приятный",
+      "example_sr": "Пријатан дан вам желим!",
+      "example_ru": "Приятного дня!",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "добро",
+      "sr_latin": "dobro",
+      "pronunciation_ru": "дОбро",
+      "translation_ru": "хорошо",
+      "example_sr": "Осећам се добро, хвала.",
+      "example_ru": "Я чувствую себя хорошо, спасибо.",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "лоше",
+      "sr_latin": "loše",
+      "pronunciation_ru": "лОше",
+      "translation_ru": "плохо",
+      "example_sr": "Осећам се лоше, боли ме глава.",
+      "example_ru": "Я чувствую себя плохо, болит голова.",
+      "false_friend_note": ""
+    }
+  ]
+}

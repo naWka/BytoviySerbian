@@ -2,6 +2,7 @@
   "id": "auto_voznja",
   "title_ru": "🚗 Авто и вождение",
   "title_sr": "Ауто и вожња",
+  "_note": "Черновик: сгенерировано AI и вычитано AI-корректором «как носитель». Не проверено носителем-человеком.",
   "words": [
     {
       "sr_cyrillic": "бензин",
@@ -380,6 +381,258 @@
       "example_sr": "Смањи брзину, улазимо у насеље.",
       "example_ru": "Сбавь скорость, въезжаем в населённый пункт.",
       "false_friend_note": "Брзина — это «скорость», а «у првој брзини» = «на первой передаче»."
+    },
+    {
+      "sr_cyrillic": "кола",
+      "sr_latin": "kola",
+      "pronunciation_ru": "кОла",
+      "translation_ru": "машина, тачка (разг.)",
+      "example_sr": "Купио сам нова кола.",
+      "example_ru": "Я купил новую машину.",
+      "false_friend_note": "«Кола» значит «машина» (разговорное), а не напиток и не «колёса»; слово среднего рода, мн. ч."
+    },
+    {
+      "sr_cyrillic": "возач",
+      "sr_latin": "vozač",
+      "pronunciation_ru": "вОзач",
+      "translation_ru": "водитель",
+      "example_sr": "Возач другог аута је крив за судар.",
+      "example_ru": "Виноват в столкновении водитель другой машины.",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "возити",
+      "sr_latin": "voziti",
+      "pronunciation_ru": "вОзити",
+      "translation_ru": "водить (машину), ехать за рулём",
+      "example_sr": "Не волим да возим ноћу.",
+      "example_ru": "Не люблю водить ночью.",
+      "false_friend_note": "Похоже на «возить», но чаще значит «вести машину, ехать за рулём»."
+    },
+    {
+      "sr_cyrillic": "волан",
+      "sr_latin": "volan",
+      "pronunciation_ru": "вОлан",
+      "translation_ru": "руль",
+      "example_sr": "Држи обе руке на волану.",
+      "example_ru": "Держи обе руки на руле.",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "мењач",
+      "sr_latin": "menjač",
+      "pronunciation_ru": "мЕњач",
+      "translation_ru": "коробка передач",
+      "example_sr": "Аутоматски мењач је удобнији у граду.",
+      "example_ru": "Автоматическая коробка удобнее в городе.",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "квачило",
+      "sr_latin": "kvačilo",
+      "pronunciation_ru": "квАчило",
+      "translation_ru": "сцепление",
+      "example_sr": "Квачило је почело да проклизава.",
+      "example_ru": "Сцепление начало пробуксовывать.",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "гас",
+      "sr_latin": "gas",
+      "pronunciation_ru": "гАс",
+      "translation_ru": "газ (педаль газа)",
+      "example_sr": "Дај мало гаса, стижемо касно.",
+      "example_ru": "Прибавь газу, мы опаздываем.",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "гепек",
+      "sr_latin": "gepek",
+      "pronunciation_ru": "гЕпек",
+      "translation_ru": "багажник",
+      "example_sr": "Стави кофере у гепек.",
+      "example_ru": "Положи чемоданы в багажник.",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "хауба",
+      "sr_latin": "hauba",
+      "pronunciation_ru": "хАуба",
+      "translation_ru": "капот",
+      "example_sr": "Отвори хаубу да проверим уље.",
+      "example_ru": "Открой капот, проверю масло.",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "брисачи",
+      "sr_latin": "brisači",
+      "pronunciation_ru": "брИсачи",
+      "translation_ru": "дворники (стеклоочистители)",
+      "example_sr": "Упали брисаче, почела је киша.",
+      "example_ru": "Включи дворники, начался дождь.",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "фарови",
+      "sr_latin": "farovi",
+      "pronunciation_ru": "фАрови",
+      "translation_ru": "фары",
+      "example_sr": "Ноћу обавезно упали фарове.",
+      "example_ru": "Ночью обязательно включай фары.",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "ретровизор",
+      "sr_latin": "retrovizor",
+      "pronunciation_ru": "ретровИзор",
+      "translation_ru": "зеркало заднего вида",
+      "example_sr": "Погледај у ретровизор пре скретања.",
+      "example_ru": "Посмотри в зеркало заднего вида перед поворотом.",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "сигурносни појас",
+      "sr_latin": "sigurnosni pojas",
+      "pronunciation_ru": "сИгурносни пОјас",
+      "translation_ru": "ремень безопасности",
+      "example_sr": "Вежи сигурносни појас пре поласка.",
+      "example_ru": "Пристегни ремень безопасности перед выездом.",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "уље",
+      "sr_latin": "ulje",
+      "pronunciation_ru": "Уље",
+      "translation_ru": "масло (моторное)",
+      "example_sr": "Време је да се промени уље.",
+      "example_ru": "Пора менять масло.",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "ауспух",
+      "sr_latin": "auspuh",
+      "pronunciation_ru": "Ауспух",
+      "translation_ru": "выхлопная труба, глушитель",
+      "example_sr": "Ауспух прави велику буку.",
+      "example_ru": "Выхлопная труба сильно шумит.",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "рикверц",
+      "sr_latin": "rikverc",
+      "pronunciation_ru": "рИкверц",
+      "translation_ru": "задний ход, задняя передача",
+      "example_sr": "Убаци у рикверц и полако назад.",
+      "example_ru": "Включи заднюю и медленно назад.",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "саобраћај",
+      "sr_latin": "saobraćaj",
+      "pronunciation_ru": "сАобраћај",
+      "translation_ru": "дорожное движение, трафик",
+      "example_sr": "Ујутру је саобраћај најгушћи.",
+      "example_ru": "Утром движение самое плотное.",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "гужва",
+      "sr_latin": "gužva",
+      "pronunciation_ru": "гУжва",
+      "translation_ru": "пробка, толкучка, давка",
+      "example_sr": "Ушли смо у велику гужву на мосту.",
+      "example_ru": "Мы попали в большую пробку на мосту.",
+      "false_friend_note": "Гужва значит «пробка/толкучка, суета», а не что-то похожее по звучанию в русском."
+    },
+    {
+      "sr_cyrillic": "аутопут",
+      "sr_latin": "autoput",
+      "pronunciation_ru": "Аутопут",
+      "translation_ru": "автомагистраль, трасса",
+      "example_sr": "На аутопуту важи ограничење од 130.",
+      "example_ru": "На автомагистрали ограничение 130.",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "раскрсница",
+      "sr_latin": "raskrsnica",
+      "pronunciation_ru": "рАскрсница",
+      "translation_ru": "перекрёсток",
+      "example_sr": "На следећој раскрсници скрени лево.",
+      "example_ru": "На следующем перекрёстке поверни налево.",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "кружни ток",
+      "sr_latin": "kružni tok",
+      "pronunciation_ru": "крУжни тОк",
+      "translation_ru": "кольцо, круговое движение",
+      "example_sr": "У кружном току предност има онај у кругу.",
+      "example_ru": "На кольце приоритет у того, кто в круге.",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "трака",
+      "sr_latin": "traka",
+      "pronunciation_ru": "трАка",
+      "translation_ru": "полоса (движения)",
+      "example_sr": "Пређи у десну траку.",
+      "example_ru": "Перестройся в правую полосу.",
+      "false_friend_note": "Трака — это «полоса/лента»; на дороге — полоса движения."
+    },
+    {
+      "sr_cyrillic": "пешак",
+      "sr_latin": "pešak",
+      "pronunciation_ru": "пЕшак",
+      "translation_ru": "пешеход",
+      "example_sr": "Пропусти пешака на прелазу.",
+      "example_ru": "Пропусти пешехода на переходе.",
+      "false_friend_note": "Пешак значит «пешеход» (а в шахматах — «пешка»)."
+    },
+    {
+      "sr_cyrillic": "пешачки прелаз",
+      "sr_latin": "pešački prelaz",
+      "pronunciation_ru": "пЕшачки прЕлаз",
+      "translation_ru": "пешеходный переход, «зебра»",
+      "example_sr": "Пређи улицу на пешачком прелазу.",
+      "example_ru": "Переходи улицу по пешеходному переходу.",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "знак",
+      "sr_latin": "znak",
+      "pronunciation_ru": "знАк",
+      "translation_ru": "(дорожный) знак",
+      "example_sr": "Ниси поштовао саобраћајни знак.",
+      "example_ru": "Ты не соблюл дорожный знак.",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "ограничење брзине",
+      "sr_latin": "ograničenje brzine",
+      "pronunciation_ru": "огранИчење брзИне",
+      "translation_ru": "ограничение скорости",
+      "example_sr": "Овде је ограничење брзине педесет.",
+      "example_ru": "Здесь ограничение скорости пятьдесят.",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "радар",
+      "sr_latin": "radar",
+      "pronunciation_ru": "рАдар",
+      "translation_ru": "радар (камера контроля скорости)",
+      "example_sr": "Успори, ту често има радар.",
+      "example_ru": "Притормози, тут часто стоит радар.",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "претицање",
+      "sr_latin": "preticanje",
+      "pronunciation_ru": "претицАње",
+      "translation_ru": "обгон",
+      "example_sr": "Забрањено је претицање на пуној линији.",
+      "example_ru": "Обгон через сплошную запрещён.",
+      "false_friend_note": ""
     }
   ]
 }

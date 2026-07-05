@@ -1,0 +1,656 @@
+{
+  "id": "muzika_zabava",
+  "title_ru": "🎬 Музыка и развлечения",
+  "title_sr": "Музика и забава",
+  "_note": "Черновик: сгенерировано AI и вычитано AI-корректором «как носитель». Не проверено носителем-человеком.",
+  "words": [
+    {
+      "sr_cyrillic": "музика",
+      "sr_latin": "muzika",
+      "pronunciation_ru": "мУзика",
+      "translation_ru": "музыка",
+      "example_sr": "Можеш ли да утишаш музику?",
+      "example_ru": "Можешь сделать музыку потише?",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "песма",
+      "sr_latin": "pesma",
+      "pronunciation_ru": "пЭсма",
+      "translation_ru": "песня; стихотворение",
+      "example_sr": "Обожавам ову песму!",
+      "example_ru": "Обожаю эту песню!",
+      "false_friend_note": "«Песма» — это и «песня», и «стихотворение» (стих). А ещё созвучно русскому «песня» — тут совпадает."
+    },
+    {
+      "sr_cyrillic": "концерт",
+      "sr_latin": "koncert",
+      "pronunciation_ru": "кОнцерт",
+      "translation_ru": "концерт",
+      "example_sr": "Идемо на концерт у суботу.",
+      "example_ru": "Идём на концерт в субботу.",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "филм",
+      "sr_latin": "film",
+      "pronunciation_ru": "фИлм",
+      "translation_ru": "фильм, кино",
+      "example_sr": "Јеси гледао тај нови филм?",
+      "example_ru": "Ты смотрел тот новый фильм?",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "биоскоп",
+      "sr_latin": "bioskop",
+      "pronunciation_ru": "бИоскоп",
+      "translation_ru": "кинотеатр, кино (место)",
+      "example_sr": "Хајде да одемо у биоскоп вечерас.",
+      "example_ru": "Давай сходим в кино сегодня вечером.",
+      "false_friend_note": "В Сербии кинотеатр — «биоскоп», а не «кино». «Кино» скорее сам фильм/жанр."
+    },
+    {
+      "sr_cyrillic": "позориште",
+      "sr_latin": "pozorište",
+      "pronunciation_ru": "позОриште",
+      "translation_ru": "театр",
+      "example_sr": "Синоћ смо били у позоришту.",
+      "example_ru": "Вчера вечером мы были в театре.",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "представа",
+      "sr_latin": "predstava",
+      "pronunciation_ru": "прЭдстава",
+      "translation_ru": "спектакль, представление",
+      "example_sr": "Представа почиње у осам.",
+      "example_ru": "Спектакль начинается в восемь.",
+      "false_friend_note": "«Представа» — это спектакль/представление, а не «представление» как «понятие/мнение» (это «представа» тоже, но чаще спектакль)."
+    },
+    {
+      "sr_cyrillic": "карта",
+      "sr_latin": "karta",
+      "pronunciation_ru": "кАрта",
+      "translation_ru": "билет",
+      "example_sr": "Купио сам две карте за концерт.",
+      "example_ru": "Я купил два билета на концерт.",
+      "false_friend_note": "«Карта» тут — билет (на концерт, в театр, транспорт). Игральная карта — тоже «карта», а географическая — «мапа»."
+    },
+    {
+      "sr_cyrillic": "улазница",
+      "sr_latin": "ulaznica",
+      "pronunciation_ru": "улАзница",
+      "translation_ru": "входной билет",
+      "example_sr": "Улазница кошта хиљаду динара.",
+      "example_ru": "Входной билет стоит тысячу динаров.",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "серија",
+      "sr_latin": "serija",
+      "pronunciation_ru": "сЭрия",
+      "translation_ru": "сериал",
+      "example_sr": "Гледам једну одличну серију ових дана.",
+      "example_ru": "Смотрю один отличный сериал в эти дни.",
+      "false_friend_note": "«Серија» — это весь сериал целиком, а не одна серия. Одна серия — «епизода»."
+    },
+    {
+      "sr_cyrillic": "епизода",
+      "sr_latin": "epizoda",
+      "pronunciation_ru": "епизОда",
+      "translation_ru": "серия, эпизод",
+      "example_sr": "Остала ми је још једна епизода.",
+      "example_ru": "У меня осталась ещё одна серия.",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "књига",
+      "sr_latin": "knjiga",
+      "pronunciation_ru": "кНЬига",
+      "translation_ru": "книга",
+      "example_sr": "Читам занимљиву књигу.",
+      "example_ru": "Читаю интересную книгу.",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "игра",
+      "sr_latin": "igra",
+      "pronunciation_ru": "Игра",
+      "translation_ru": "игра; танец",
+      "example_sr": "Ова игра је стварно забавна.",
+      "example_ru": "Эта игра действительно увлекательная.",
+      "false_friend_note": "«Игра» — это и «игра», и «танец» (в народном контексте «коло» — это игра/пляска)."
+    },
+    {
+      "sr_cyrillic": "певач",
+      "sr_latin": "pevač",
+      "pronunciation_ru": "пЭвач",
+      "translation_ru": "певец",
+      "example_sr": "Ко је твој омиљени певач?",
+      "example_ru": "Кто твой любимый певец?",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "певачица",
+      "sr_latin": "pevačica",
+      "pronunciation_ru": "пЭвачица",
+      "translation_ru": "певица",
+      "example_sr": "Та певачица има диван глас.",
+      "example_ru": "У той певицы прекрасный голос.",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "оркестар",
+      "sr_latin": "orkestar",
+      "pronunciation_ru": "Оркестар",
+      "translation_ru": "оркестр",
+      "example_sr": "Оркестар свира уживо.",
+      "example_ru": "Оркестр играет вживую.",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "бенд",
+      "sr_latin": "bend",
+      "pronunciation_ru": "бЭнд",
+      "translation_ru": "группа (музыкальная)",
+      "example_sr": "Њихов бенд свира вечерас у клубу.",
+      "example_ru": "Их группа играет сегодня вечером в клубе.",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "плес",
+      "sr_latin": "ples",
+      "pronunciation_ru": "плЭс",
+      "translation_ru": "танец, танцы",
+      "example_sr": "Волим плес уз народну музику.",
+      "example_ru": "Люблю танцевать под народную музыку.",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "журка",
+      "sr_latin": "žurka",
+      "pronunciation_ru": "жУрка",
+      "translation_ru": "вечеринка, тусовка",
+      "example_sr": "Правимо журку за рођендан.",
+      "example_ru": "Устраиваем вечеринку на день рождения.",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "прослава",
+      "sr_latin": "proslava",
+      "pronunciation_ru": "прОслава",
+      "translation_ru": "празднование, торжество",
+      "example_sr": "Прослава је трајала до зоре.",
+      "example_ru": "Празднование продлилось до рассвета.",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "фестивал",
+      "sr_latin": "festival",
+      "pronunciation_ru": "фестивАл",
+      "translation_ru": "фестиваль",
+      "example_sr": "Егзит је најпознатији фестивал у Србији.",
+      "example_ru": "Exit — самый известный фестиваль в Сербии.",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "изложба",
+      "sr_latin": "izložba",
+      "pronunciation_ru": "Изложба",
+      "translation_ru": "выставка",
+      "example_sr": "Отворена је нова изложба у музеју.",
+      "example_ru": "В музее открылась новая выставка.",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "музеј",
+      "sr_latin": "muzej",
+      "pronunciation_ru": "мУзей",
+      "translation_ru": "музей",
+      "example_sr": "Музеј ради до пет.",
+      "example_ru": "Музей работает до пяти.",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "галерија",
+      "sr_latin": "galerija",
+      "pronunciation_ru": "галЭрия",
+      "translation_ru": "галерея",
+      "example_sr": "Волим да обилазим галерије.",
+      "example_ru": "Люблю ходить по галереям.",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "слушати",
+      "sr_latin": "slušati",
+      "pronunciation_ru": "слУшати",
+      "translation_ru": "слушать",
+      "example_sr": "Волим да слушам музику док возим.",
+      "example_ru": "Люблю слушать музыку за рулём.",
+      "false_friend_note": "«Слушати» — слушать. А «слушати» кого-то в смысле «повиноваться» тоже есть: «слушај маму»."
+    },
+    {
+      "sr_cyrillic": "гледати",
+      "sr_latin": "gledati",
+      "pronunciation_ru": "глЭдати",
+      "translation_ru": "смотреть, глядеть",
+      "example_sr": "Шта гледаш на телевизији?",
+      "example_ru": "Что ты смотришь по телевизору?",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "певати",
+      "sr_latin": "pevati",
+      "pronunciation_ru": "пЭвати",
+      "translation_ru": "петь",
+      "example_sr": "Сви су певали углас.",
+      "example_ru": "Все пели хором.",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "играти",
+      "sr_latin": "igrati",
+      "pronunciation_ru": "Играти",
+      "translation_ru": "играть; танцевать",
+      "example_sr": "Ајмо да играмо целу ноћ!",
+      "example_ru": "Давай танцевать всю ночь!",
+      "false_friend_note": "«Играти» — это и «играть», и «танцевать». «Играти коло» = танцевать хоро."
+    },
+    {
+      "sr_cyrillic": "плесати",
+      "sr_latin": "plesati",
+      "pronunciation_ru": "плЭсати",
+      "translation_ru": "танцевать",
+      "example_sr": "Она одлично плеше.",
+      "example_ru": "Она отлично танцует.",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "забава",
+      "sr_latin": "zabava",
+      "pronunciation_ru": "зАбава",
+      "translation_ru": "развлечение, веселье; вечеринка",
+      "example_sr": "Било је пуно забаве синоћ.",
+      "example_ru": "Вчера было много веселья.",
+      "false_friend_note": "«Забава» — развлечение/веселье, а не «забава» как «милая пустячная игрушка». Значение шире: и вечеринка."
+    },
+    {
+      "sr_cyrillic": "разонода",
+      "sr_latin": "razonoda",
+      "pronunciation_ru": "разОнода",
+      "translation_ru": "досуг, отдых, развлечение",
+      "example_sr": "Читање је његова омиљена разонода.",
+      "example_ru": "Чтение — его любимый досуг.",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "хоби",
+      "sr_latin": "hobi",
+      "pronunciation_ru": "хОби",
+      "translation_ru": "хобби, увлечение",
+      "example_sr": "Који је твој хоби?",
+      "example_ru": "Какое у тебя хобби?",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "уживо",
+      "sr_latin": "uživo",
+      "pronunciation_ru": "Уживо",
+      "translation_ru": "вживую, вживую (в прямом эфире)",
+      "example_sr": "Наступ је био уживо.",
+      "example_ru": "Выступление было вживую.",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "наступ",
+      "sr_latin": "nastup",
+      "pronunciation_ru": "нАступ",
+      "translation_ru": "выступление",
+      "example_sr": "Њихов наступ је трајао два сата.",
+      "example_ru": "Их выступление длилось два часа.",
+      "false_friend_note": "«Наступ» — выступление артиста, а не «наступление» (атака). Атака — «напад/офанзива»."
+    },
+    {
+      "sr_cyrillic": "бина",
+      "sr_latin": "bina",
+      "pronunciation_ru": "бИна",
+      "translation_ru": "сцена (подмостки)",
+      "example_sr": "Певач је изашао на бину.",
+      "example_ru": "Певец вышел на сцену.",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "сцена",
+      "sr_latin": "scena",
+      "pronunciation_ru": "сцЭна",
+      "translation_ru": "сцена (эпизод, действие)",
+      "example_sr": "Ова сцена у филму ме је расплакала.",
+      "example_ru": "Эта сцена в фильме меня растрогала до слёз.",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "публика",
+      "sr_latin": "publika",
+      "pronunciation_ru": "пУблика",
+      "translation_ru": "публика, зрители",
+      "example_sr": "Публика је бурно аплаудирала.",
+      "example_ru": "Публика бурно аплодировала.",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "аплауз",
+      "sr_latin": "aplauz",
+      "pronunciation_ru": "аплАуз",
+      "translation_ru": "аплодисменты",
+      "example_sr": "Заслужио је велики аплауз.",
+      "example_ru": "Он заслужил бурные аплодисменты.",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "глумац",
+      "sr_latin": "glumac",
+      "pronunciation_ru": "глУмац",
+      "translation_ru": "актёр",
+      "example_sr": "Он је познат глумац.",
+      "example_ru": "Он известный актёр.",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "глумица",
+      "sr_latin": "glumica",
+      "pronunciation_ru": "глУмица",
+      "translation_ru": "актриса",
+      "example_sr": "Та глумица је добила награду.",
+      "example_ru": "Та актриса получила награду.",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "улога",
+      "sr_latin": "uloga",
+      "pronunciation_ru": "Улога",
+      "translation_ru": "роль",
+      "example_sr": "Одиграо је главну улогу.",
+      "example_ru": "Он сыграл главную роль.",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "гитара",
+      "sr_latin": "gitara",
+      "pronunciation_ru": "гитАра",
+      "translation_ru": "гитара",
+      "example_sr": "Свира гитару од детињства.",
+      "example_ru": "Он играет на гитаре с детства.",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "клавир",
+      "sr_latin": "klavir",
+      "pronunciation_ru": "клавИр",
+      "translation_ru": "пианино, рояль",
+      "example_sr": "Учи да свира клавир.",
+      "example_ru": "Он учится играть на пианино.",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "бубњеви",
+      "sr_latin": "bubnjevi",
+      "pronunciation_ru": "бУбньеви",
+      "translation_ru": "барабаны, ударные",
+      "example_sr": "Он свира бубњеве у бенду.",
+      "example_ru": "Он играет на барабанах в группе.",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "виолина",
+      "sr_latin": "violina",
+      "pronunciation_ru": "виолИна",
+      "translation_ru": "скрипка",
+      "example_sr": "Звук виолине је прелеп.",
+      "example_ru": "Звук скрипки прекрасен.",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "инструмент",
+      "sr_latin": "instrument",
+      "pronunciation_ru": "инструмЭнт",
+      "translation_ru": "инструмент (музыкальный)",
+      "example_sr": "Који инструмент свираш?",
+      "example_ru": "На каком инструменте ты играешь?",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "глас",
+      "sr_latin": "glas",
+      "pronunciation_ru": "глАс",
+      "translation_ru": "голос",
+      "example_sr": "Има невероватан глас.",
+      "example_ru": "У неё невероятный голос.",
+      "false_friend_note": "«Глас» — это «голос», а не «глас» (устаревшее). А «голос» на выборах — тоже «глас»."
+    },
+    {
+      "sr_cyrillic": "ритам",
+      "sr_latin": "ritam",
+      "pronunciation_ru": "рИтам",
+      "translation_ru": "ритм",
+      "example_sr": "Ова песма има добар ритам.",
+      "example_ru": "У этой песни хороший ритм.",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "мелодија",
+      "sr_latin": "melodija",
+      "pronunciation_ru": "мелОдия",
+      "translation_ru": "мелодия",
+      "example_sr": "Мелодија ми се врти по глави.",
+      "example_ru": "Мелодия крутится у меня в голове.",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "албум",
+      "sr_latin": "album",
+      "pronunciation_ru": "Албум",
+      "translation_ru": "альбом",
+      "example_sr": "Изашао им је нови албум.",
+      "example_ru": "У них вышел новый альбом.",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "нумера",
+      "sr_latin": "numera",
+      "pronunciation_ru": "нУмера",
+      "translation_ru": "трек, композиция",
+      "example_sr": "Ова нумера ми је најдража на албуму.",
+      "example_ru": "Этот трек мне больше всего нравится на альбоме.",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "звучник",
+      "sr_latin": "zvučnik",
+      "pronunciation_ru": "звУчник",
+      "translation_ru": "колонка, динамик",
+      "example_sr": "Појачај звучник, не чујем.",
+      "example_ru": "Сделай колонку погромче, не слышу.",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "слушалице",
+      "sr_latin": "slušalice",
+      "pronunciation_ru": "слУшалице",
+      "translation_ru": "наушники",
+      "example_sr": "Заборавио сам слушалице код куће.",
+      "example_ru": "Я забыл наушники дома.",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "телевизија",
+      "sr_latin": "televizija",
+      "pronunciation_ru": "телевИзия",
+      "translation_ru": "телевидение, телевизор",
+      "example_sr": "На телевизији нема ништа занимљиво.",
+      "example_ru": "По телевизору нет ничего интересного.",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "емисија",
+      "sr_latin": "emisija",
+      "pronunciation_ru": "емИсия",
+      "translation_ru": "передача, программа (ТВ/радио)",
+      "example_sr": "Гледам ту емисију сваке недеље.",
+      "example_ru": "Смотрю эту передачу каждое воскресенье.",
+      "false_friend_note": "«Емисија» — телепередача, а не «эмиссия» (выпуск денег/газов). Хотя финансовое значение тоже есть."
+    },
+    {
+      "sr_cyrillic": "цртани",
+      "sr_latin": "crtani",
+      "pronunciation_ru": "цРтани",
+      "translation_ru": "мультфильм",
+      "example_sr": "Деца гледају цртани.",
+      "example_ru": "Дети смотрят мультик.",
+      "false_friend_note": "Полностью «цртани филм», но в разговоре часто просто «цртани»."
+    },
+    {
+      "sr_cyrillic": "документарац",
+      "sr_latin": "dokumentarac",
+      "pronunciation_ru": "документАрац",
+      "translation_ru": "документальный фильм",
+      "example_sr": "Синоћ сам гледао одличан документарац.",
+      "example_ru": "Вчера вечером я смотрел отличный документальный фильм.",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "комедија",
+      "sr_latin": "komedija",
+      "pronunciation_ru": "комЭдия",
+      "translation_ru": "комедия",
+      "example_sr": "Хоћу да гледам неку комедију вечерас.",
+      "example_ru": "Хочу посмотреть какую-нибудь комедию сегодня вечером.",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "хорор",
+      "sr_latin": "horor",
+      "pronunciation_ru": "хОрор",
+      "translation_ru": "фильм ужасов, хоррор",
+      "example_sr": "Не волим хороре, превише се плашим.",
+      "example_ru": "Не люблю ужастики, слишком боюсь.",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "жанр",
+      "sr_latin": "žanr",
+      "pronunciation_ru": "жАнр",
+      "translation_ru": "жанр",
+      "example_sr": "Који жанр филмова волиш?",
+      "example_ru": "Какой жанр фильмов ты любишь?",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "редитељ",
+      "sr_latin": "reditelj",
+      "pronunciation_ru": "рЭдитель",
+      "translation_ru": "режиссёр",
+      "example_sr": "Ко је редитељ овог филма?",
+      "example_ru": "Кто режиссёр этого фильма?",
+      "false_friend_note": "«Редитељ» — режиссёр. Не путать с «уредник» (редактор)."
+    },
+    {
+      "sr_cyrillic": "титлови",
+      "sr_latin": "titlovi",
+      "pronunciation_ru": "тИтлови",
+      "translation_ru": "субтитры",
+      "example_sr": "Гледам са српским титловима.",
+      "example_ru": "Смотрю с сербскими субтитрами.",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "улазница за биоскоп",
+      "sr_latin": "ulaznica za bioskop",
+      "pronunciation_ru": "улАзница за бИоскоп",
+      "translation_ru": "билет в кино",
+      "example_sr": "Колико кошта улазница за биоскоп?",
+      "example_ru": "Сколько стоит билет в кино?",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "ред",
+      "sr_latin": "red",
+      "pronunciation_ru": "рЭд",
+      "translation_ru": "ряд; очередь",
+      "example_sr": "Наша места су у трећем реду.",
+      "example_ru": "Наши места в третьем ряду.",
+      "false_friend_note": "«Ред» — это и «ряд», и «очередь», и «порядок». «Чекати у реду» = стоять в очереди."
+    },
+    {
+      "sr_cyrillic": "место",
+      "sr_latin": "mesto",
+      "pronunciation_ru": "мЭсто",
+      "translation_ru": "место (сидячее)",
+      "example_sr": "Извините, ово је моје место.",
+      "example_ru": "Извините, это моё место.",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "пауза",
+      "sr_latin": "pauza",
+      "pronunciation_ru": "пАуза",
+      "translation_ru": "антракт, перерыв, пауза",
+      "example_sr": "Идемо по кафу за време паузе.",
+      "example_ru": "Сходим за кофе в антракте.",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "клуб",
+      "sr_latin": "klub",
+      "pronunciation_ru": "клУб",
+      "translation_ru": "клуб",
+      "example_sr": "Излазимо у клуб вечерас.",
+      "example_ru": "Идём тусоваться в клуб сегодня вечером.",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "сплав",
+      "sr_latin": "splav",
+      "pronunciation_ru": "сплАв",
+      "translation_ru": "плавучий клуб (на реке)",
+      "example_sr": "Београдски сплавови су познати по журкама.",
+      "example_ru": "Белградские плавучие клубы известны своими вечеринками.",
+      "false_friend_note": "«Сплав» в Белграде — это плавучий ресторан/клуб на барже. Дословно «плот», но в городе значит клуб на воде."
+    },
+    {
+      "sr_cyrillic": "кафана",
+      "sr_latin": "kafana",
+      "pronunciation_ru": "кАфана",
+      "translation_ru": "кафана (традиционное кафе-ресторан)",
+      "example_sr": "У кафани свира уживо музика.",
+      "example_ru": "В кафане играет живая музыка.",
+      "false_friend_note": "«Кафана» — не просто кафе, а традиционное заведение с едой, ракией и живой музыкой. Культовое место."
+    },
+    {
+      "sr_cyrillic": "провод",
+      "sr_latin": "provod",
+      "pronunciation_ru": "прОвод",
+      "translation_ru": "хорошее времяпрепровождение, отрыв",
+      "example_sr": "Био је добар провод синоћ!",
+      "example_ru": "Вчера классно оторвались!",
+      "false_friend_note": "«Провод» — это классно проведённое время, тусовка. Не «провод» как «проволока/кабель» (это «жица/кабл»)."
+    },
+    {
+      "sr_cyrillic": "караоке",
+      "sr_latin": "karaoke",
+      "pronunciation_ru": "карАоке",
+      "translation_ru": "караоке",
+      "example_sr": "Хајде да певамо на караокама!",
+      "example_ru": "Давай споём в караоке!",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "видео-игра",
+      "sr_latin": "video-igra",
+      "pronunciation_ru": "вИдео-Игра",
+      "translation_ru": "видеоигра",
+      "example_sr": "Деца по цео дан играју видео-игре.",
+      "example_ru": "Дети целыми днями играют в видеоигры.",
+      "false_friend_note": ""
+    }
+  ]
+}

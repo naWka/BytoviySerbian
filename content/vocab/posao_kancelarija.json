@@ -1,0 +1,638 @@
+{
+  "id": "posao_kancelarija",
+  "title_ru": "💼 Работа и офис",
+  "title_sr": "Посао и канцеларија",
+  "_note": "Черновик: сгенерировано AI и вычитано AI-корректором «как носитель». Не проверено носителем-человеком.",
+  "words": [
+    {
+      "sr_cyrillic": "посао",
+      "sr_latin": "posao",
+      "pronunciation_ru": "пОсао",
+      "translation_ru": "работа, дело",
+      "example_sr": "Идем на посао у осам.",
+      "example_ru": "Иду на работу в восемь.",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "радно место",
+      "sr_latin": "radno mesto",
+      "pronunciation_ru": "рАдно мЭсто",
+      "translation_ru": "рабочее место",
+      "example_sr": "Ово је моје радно место.",
+      "example_ru": "Это моё рабочее место.",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "колега",
+      "sr_latin": "kolega",
+      "pronunciation_ru": "колЭга",
+      "translation_ru": "коллега (мужчина)",
+      "example_sr": "Мој колега данас не ради.",
+      "example_ru": "Мой коллега сегодня не работает.",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "колегиница",
+      "sr_latin": "koleginica",
+      "pronunciation_ru": "колегИница",
+      "translation_ru": "коллега (женщина)",
+      "example_sr": "Питај колегиницу да ти помогне.",
+      "example_ru": "Попроси коллегу тебе помочь.",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "шеф",
+      "sr_latin": "šef",
+      "pronunciation_ru": "шЭф",
+      "translation_ru": "начальник, шеф",
+      "example_sr": "Шеф ме је звао на састанак.",
+      "example_ru": "Начальник вызвал меня на совещание.",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "директор",
+      "sr_latin": "direktor",
+      "pronunciation_ru": "дирЭктор",
+      "translation_ru": "директор",
+      "example_sr": "Директор долази у понедељак.",
+      "example_ru": "Директор придёт в понедельник.",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "запослени",
+      "sr_latin": "zaposleni",
+      "pronunciation_ru": "запОслени",
+      "translation_ru": "сотрудник, работник (в штате)",
+      "example_sr": "Сви запослени имају право на боловање.",
+      "example_ru": "Все сотрудники имеют право на больничный.",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "руководилац",
+      "sr_latin": "rukovodilac",
+      "pronunciation_ru": "руковОдилац",
+      "translation_ru": "руководитель",
+      "example_sr": "Он је руководилац одељења.",
+      "example_ru": "Он руководитель отдела.",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "надређени",
+      "sr_latin": "nadređeni",
+      "pronunciation_ru": "надрЭджени",
+      "translation_ru": "начальник, вышестоящий",
+      "example_sr": "Јави то свом надређеном.",
+      "example_ru": "Сообщи об этом своему начальнику.",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "подређени",
+      "sr_latin": "podređeni",
+      "pronunciation_ru": "подрЭджени",
+      "translation_ru": "подчинённый",
+      "example_sr": "Има десет подређених.",
+      "example_ru": "У него десять подчинённых.",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "састанак",
+      "sr_latin": "sastanak",
+      "pronunciation_ru": "сАстанак",
+      "translation_ru": "встреча, совещание",
+      "example_sr": "Састанак почиње у десет.",
+      "example_ru": "Совещание начинается в десять.",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "уговор",
+      "sr_latin": "ugovor",
+      "pronunciation_ru": "Уговор",
+      "translation_ru": "договор, контракт",
+      "example_sr": "Потпиши уговор пре почетка рада.",
+      "example_ru": "Подпиши договор до начала работы.",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "плата",
+      "sr_latin": "plata",
+      "pronunciation_ru": "плАта",
+      "translation_ru": "зарплата",
+      "example_sr": "Плата стиже петог у месецу.",
+      "example_ru": "Зарплата приходит пятого числа.",
+      "false_friend_note": "Похоже на русское «плата» (оплата вообще), но у сербов плата — это именно зарплата."
+    },
+    {
+      "sr_cyrillic": "зарада",
+      "sr_latin": "zarada",
+      "pronunciation_ru": "зАрада",
+      "translation_ru": "заработок, доход",
+      "example_sr": "Зарада је мала, али посао је сигуран.",
+      "example_ru": "Заработок небольшой, но работа стабильная.",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "годишњи одмор",
+      "sr_latin": "godišnji odmor",
+      "pronunciation_ru": "годИшњи Одмор",
+      "translation_ru": "ежегодный (оплачиваемый) отпуск",
+      "example_sr": "Идем на годишњи одмор у јулу.",
+      "example_ru": "Иду в отпуск в июле.",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "одмор",
+      "sr_latin": "odmor",
+      "pronunciation_ru": "Одмор",
+      "translation_ru": "отдых, перерыв, отпуск",
+      "example_sr": "Заслужио си мало одмора.",
+      "example_ru": "Ты заслужил немного отдыха.",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "боловање",
+      "sr_latin": "bolovanje",
+      "pronunciation_ru": "болОвање",
+      "translation_ru": "больничный",
+      "example_sr": "Отворила сам боловање због грипа.",
+      "example_ru": "Я открыла больничный из-за гриппа.",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "разговор за посао",
+      "sr_latin": "razgovor za posao",
+      "pronunciation_ru": "рАзговор за пОсао",
+      "translation_ru": "собеседование",
+      "example_sr": "Сутра имам разговор за посао.",
+      "example_ru": "Завтра у меня собеседование.",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "биографија",
+      "sr_latin": "biografija",
+      "pronunciation_ru": "биогрАфија",
+      "translation_ru": "резюме (CV), биография",
+      "example_sr": "Пошаљите биографију на мејл.",
+      "example_ru": "Отправьте резюме на почту.",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "задатак",
+      "sr_latin": "zadatak",
+      "pronunciation_ru": "задАтак",
+      "translation_ru": "задача, задание",
+      "example_sr": "Овај задатак мора бити готов данас.",
+      "example_ru": "Эта задача должна быть готова сегодня.",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "рок",
+      "sr_latin": "rok",
+      "pronunciation_ru": "рОк",
+      "translation_ru": "срок, дедлайн",
+      "example_sr": "Рок за пројекат је петак.",
+      "example_ru": "Срок сдачи проекта — пятница.",
+      "false_friend_note": "Не «рок-музыка» и не судьба: рок по-сербски — это срок, крайняя дата."
+    },
+    {
+      "sr_cyrillic": "службено путовање",
+      "sr_latin": "službeno putovanje",
+      "pronunciation_ru": "слУжбено путОвање",
+      "translation_ru": "командировка",
+      "example_sr": "Идем на службено путовање у Нови Сад.",
+      "example_ru": "Еду в командировку в Нови-Сад.",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "фирма",
+      "sr_latin": "firma",
+      "pronunciation_ru": "фИрма",
+      "translation_ru": "фирма, компания",
+      "example_sr": "Радим у малој фирми.",
+      "example_ru": "Работаю в небольшой фирме.",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "предузеће",
+      "sr_latin": "preduzeće",
+      "pronunciation_ru": "предузЭче",
+      "translation_ru": "предприятие, компания",
+      "example_sr": "Предузеће запошљава нове раднике.",
+      "example_ru": "Предприятие нанимает новых работников.",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "канцеларија",
+      "sr_latin": "kancelarija",
+      "pronunciation_ru": "канцелАрија",
+      "translation_ru": "офис, кабинет",
+      "example_sr": "Дођи у моју канцеларију.",
+      "example_ru": "Зайди в мой кабинет.",
+      "false_friend_note": "Похоже на «канцелярию», но значит просто офис/кабинет, где сидят и работают."
+    },
+    {
+      "sr_cyrillic": "радно време",
+      "sr_latin": "radno vreme",
+      "pronunciation_ru": "рАдно врЭме",
+      "translation_ru": "рабочее время, часы работы",
+      "example_sr": "Радно време је од девет до пет.",
+      "example_ru": "Рабочее время с девяти до пяти.",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "смена",
+      "sr_latin": "smena",
+      "pronunciation_ru": "смЭна",
+      "translation_ru": "смена (рабочая)",
+      "example_sr": "Радим прву смену ове недеље.",
+      "example_ru": "Работаю в первую смену на этой неделе.",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "прековремени рад",
+      "sr_latin": "prekovremeni rad",
+      "pronunciation_ru": "прековрЭмени рАд",
+      "translation_ru": "сверхурочная работа",
+      "example_sr": "Да ли се плаћа прековремени рад?",
+      "example_ru": "Оплачивается ли сверхурочная работа?",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "пауза",
+      "sr_latin": "pauza",
+      "pronunciation_ru": "пАуза",
+      "translation_ru": "перерыв, пауза",
+      "example_sr": "Идемо на паузу за кафу.",
+      "example_ru": "Идём на кофе-брейк.",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "канцеларијски материјал",
+      "sr_latin": "kancelarijski materijal",
+      "pronunciation_ru": "канцелАријски матерИјал",
+      "translation_ru": "канцтовары",
+      "example_sr": "Наручи нови канцеларијски материјал.",
+      "example_ru": "Закажи новые канцтовары.",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "оловка",
+      "sr_latin": "olovka",
+      "pronunciation_ru": "Оловка",
+      "translation_ru": "карандаш",
+      "example_sr": "Позајми ми оловку, молим те.",
+      "example_ru": "Одолжи мне карандаш, пожалуйста.",
+      "false_friend_note": "оловка — это карандаш; шариковую ручку сербы называют хемијска оловка."
+    },
+    {
+      "sr_cyrillic": "хемијска оловка",
+      "sr_latin": "hemijska olovka",
+      "pronunciation_ru": "хЭмијска Оловка",
+      "translation_ru": "шариковая ручка",
+      "example_sr": "Потпиши плавом хемијском оловком.",
+      "example_ru": "Подпиши синей шариковой ручкой.",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "свеска",
+      "sr_latin": "sveska",
+      "pronunciation_ru": "свЭска",
+      "translation_ru": "тетрадь",
+      "example_sr": "Записао сам све у свеску.",
+      "example_ru": "Я записал всё в тетрадь.",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "фасцикла",
+      "sr_latin": "fascikla",
+      "pronunciation_ru": "фАсцикла",
+      "translation_ru": "папка (для бумаг)",
+      "example_sr": "Стави документе у фасциклу.",
+      "example_ru": "Положи документы в папку.",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "штампач",
+      "sr_latin": "štampač",
+      "pronunciation_ru": "штАмпач",
+      "translation_ru": "принтер",
+      "example_sr": "Штампач опет не ради.",
+      "example_ru": "Принтер опять не работает.",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "рачунар",
+      "sr_latin": "računar",
+      "pronunciation_ru": "рачУнар",
+      "translation_ru": "компьютер",
+      "example_sr": "Упали рачунар и почни са радом.",
+      "example_ru": "Включи компьютер и начинай работать.",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "лаптоп",
+      "sr_latin": "laptop",
+      "pronunciation_ru": "лАптоп",
+      "translation_ru": "ноутбук",
+      "example_sr": "Понеси лаптоп на састанак.",
+      "example_ru": "Возьми ноутбук на совещание.",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "тастатура",
+      "sr_latin": "tastatura",
+      "pronunciation_ru": "тастатУра",
+      "translation_ru": "клавиатура",
+      "example_sr": "Тастатура ми је прљава.",
+      "example_ru": "У меня грязная клавиатура.",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "екран",
+      "sr_latin": "ekran",
+      "pronunciation_ru": "Экран",
+      "translation_ru": "экран, монитор",
+      "example_sr": "Гледам у екран цео дан.",
+      "example_ru": "Смотрю в экран весь день.",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "имејл",
+      "sr_latin": "imejl",
+      "pronunciation_ru": "Имејл",
+      "translation_ru": "электронная почта, письмо (email)",
+      "example_sr": "Послаћу ти имејл вечерас.",
+      "example_ru": "Отправлю тебе имейл вечером.",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "порука",
+      "sr_latin": "poruka",
+      "pronunciation_ru": "пОрука",
+      "translation_ru": "сообщение (СМС, месседж)",
+      "example_sr": "Остави ми поруку ако не будем ту.",
+      "example_ru": "Оставь мне сообщение, если меня не будет.",
+      "false_friend_note": "Не «порука» (как в круговой поруке), а обычное сообщение — СМС, письмо, месседж."
+    },
+    {
+      "sr_cyrillic": "позив",
+      "sr_latin": "poziv",
+      "pronunciation_ru": "пОзив",
+      "translation_ru": "звонок, вызов, приглашение",
+      "example_sr": "Пропустио сам твој позив.",
+      "example_ru": "Я пропустил твой звонок.",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "молба",
+      "sr_latin": "molba",
+      "pronunciation_ru": "мОлба",
+      "translation_ru": "заявление, просьба",
+      "example_sr": "Написао сам молбу за одмор.",
+      "example_ru": "Я написал заявление на отпуск.",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "захтев",
+      "sr_latin": "zahtev",
+      "pronunciation_ru": "зАхтев",
+      "translation_ru": "запрос, требование, заявка",
+      "example_sr": "Одбили су мој захтев.",
+      "example_ru": "Мой запрос отклонили.",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "извештај",
+      "sr_latin": "izveštaj",
+      "pronunciation_ru": "извЭштај",
+      "translation_ru": "отчёт, доклад",
+      "example_sr": "Пошаљи извештај до краја дана.",
+      "example_ru": "Отправь отчёт до конца дня.",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "пројекат",
+      "sr_latin": "projekat",
+      "pronunciation_ru": "прОјекат",
+      "translation_ru": "проект",
+      "example_sr": "Радимо на новом пројекту.",
+      "example_ru": "Работаем над новым проектом.",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "клијент",
+      "sr_latin": "klijent",
+      "pronunciation_ru": "клИјент",
+      "translation_ru": "клиент",
+      "example_sr": "Клијент долази у три.",
+      "example_ru": "Клиент придёт в три.",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "муштерија",
+      "sr_latin": "mušterija",
+      "pronunciation_ru": "муштерИја",
+      "translation_ru": "клиент, покупатель",
+      "example_sr": "Муштерија увек има право.",
+      "example_ru": "Клиент всегда прав.",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "договор",
+      "sr_latin": "dogovor",
+      "pronunciation_ru": "дОговор",
+      "translation_ru": "договорённость, соглашение",
+      "example_sr": "Имамо усмени договор.",
+      "example_ru": "У нас устная договорённость.",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "отказ",
+      "sr_latin": "otkaz",
+      "pronunciation_ru": "Отказ",
+      "translation_ru": "увольнение",
+      "example_sr": "Добио је отказ прошле недеље.",
+      "example_ru": "Его уволили на прошлой неделе.",
+      "false_friend_note": "Ложный друг: не «отказ», а увольнение. Добити отказ = быть уволенным."
+    },
+    {
+      "sr_cyrillic": "отпремнина",
+      "sr_latin": "otpremnina",
+      "pronunciation_ru": "отпрЭмнина",
+      "translation_ru": "выходное пособие",
+      "example_sr": "Добићеш отпремнину при отказу.",
+      "example_ru": "Получишь выходное пособие при увольнении.",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "запослење",
+      "sr_latin": "zaposlenje",
+      "pronunciation_ru": "запОслење",
+      "translation_ru": "трудоустройство, работа",
+      "example_sr": "Тражим стално запослење.",
+      "example_ru": "Ищу постоянную работу.",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "незапослен",
+      "sr_latin": "nezaposlen",
+      "pronunciation_ru": "незапОслен",
+      "translation_ru": "безработный",
+      "example_sr": "Тренутно сам незапослен.",
+      "example_ru": "Сейчас я безработный.",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "пензија",
+      "sr_latin": "penzija",
+      "pronunciation_ru": "пЭнзија",
+      "translation_ru": "пенсия",
+      "example_sr": "Отишао је у пензију прошле године.",
+      "example_ru": "Он вышел на пенсию в прошлом году.",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "радна дозвола",
+      "sr_latin": "radna dozvola",
+      "pronunciation_ru": "рАдна дОзвола",
+      "translation_ru": "разрешение на работу",
+      "example_sr": "Треба ми радна дозвола за посао.",
+      "example_ru": "Мне нужно разрешение на работу.",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "радна књижица",
+      "sr_latin": "radna knjižica",
+      "pronunciation_ru": "рАдна књИжица",
+      "translation_ru": "трудовая книжка",
+      "example_sr": "Донеси радну књижицу у кадровску.",
+      "example_ru": "Принеси трудовую книжку в отдел кадров.",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "потпис",
+      "sr_latin": "potpis",
+      "pronunciation_ru": "пОтпис",
+      "translation_ru": "подпись",
+      "example_sr": "Овде иде ваш потпис.",
+      "example_ru": "Здесь ставится ваша подпись.",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "печат",
+      "sr_latin": "pečat",
+      "pronunciation_ru": "пЭчат",
+      "translation_ru": "печать, штамп",
+      "example_sr": "Документ мора имати печат.",
+      "example_ru": "На документе должна быть печать.",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "рачун",
+      "sr_latin": "račun",
+      "pronunciation_ru": "рАчун",
+      "translation_ru": "счёт, фактура",
+      "example_sr": "Пошаљи рачун књиговођи.",
+      "example_ru": "Отправь счёт бухгалтеру.",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "порез",
+      "sr_latin": "porez",
+      "pronunciation_ru": "пОрез",
+      "translation_ru": "налог",
+      "example_sr": "Од плате се одбија порез.",
+      "example_ru": "От зарплаты вычитается налог.",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "звање",
+      "sr_latin": "zvanje",
+      "pronunciation_ru": "звАње",
+      "translation_ru": "должность, звание, профессия",
+      "example_sr": "Које је ваше звање у фирми?",
+      "example_ru": "Какая у вас должность в компании?",
+      "false_friend_note": "Похоже на «звание»; в быту это чаще должность, профессия или учёная степень."
+    },
+    {
+      "sr_cyrillic": "одељење",
+      "sr_latin": "odeljenje",
+      "pronunciation_ru": "одЭљење",
+      "translation_ru": "отдел, отделение",
+      "example_sr": "Радим у финансијском одељењу.",
+      "example_ru": "Работаю в финансовом отделе.",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "тим",
+      "sr_latin": "tim",
+      "pronunciation_ru": "тИм",
+      "translation_ru": "команда",
+      "example_sr": "Наш тим је мали, али вредан.",
+      "example_ru": "Наша команда маленькая, но трудолюбивая.",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "приправник",
+      "sr_latin": "pripravnik",
+      "pronunciation_ru": "прИправник",
+      "translation_ru": "стажёр, практикант",
+      "example_sr": "Он је још приправник.",
+      "example_ru": "Он ещё стажёр.",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "искуство",
+      "sr_latin": "iskustvo",
+      "pronunciation_ru": "Искуство",
+      "translation_ru": "опыт",
+      "example_sr": "Имам пет година искуства.",
+      "example_ru": "У меня пять лет опыта.",
+      "false_friend_note": "Ложный друг: не «искусство», а опыт. Искусство по-сербски — уметност."
+    },
+    {
+      "sr_cyrillic": "диплома",
+      "sr_latin": "diploma",
+      "pronunciation_ru": "диплОма",
+      "translation_ru": "диплом",
+      "example_sr": "Приложите копију дипломе.",
+      "example_ru": "Приложите копию диплома.",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "обука",
+      "sr_latin": "obuka",
+      "pronunciation_ru": "Обука",
+      "translation_ru": "обучение, тренинг",
+      "example_sr": "Нови радници иду на обуку.",
+      "example_ru": "Новые работники идут на обучение.",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "презентација",
+      "sr_latin": "prezentacija",
+      "pronunciation_ru": "презентАција",
+      "translation_ru": "презентация",
+      "example_sr": "Спремам презентацију за клијента.",
+      "example_ru": "Готовлю презентацию для клиента.",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "распоред",
+      "sr_latin": "raspored",
+      "pronunciation_ru": "рАспоред",
+      "translation_ru": "расписание, график",
+      "example_sr": "Погледај распоред за ову недељу.",
+      "example_ru": "Посмотри расписание на эту неделю.",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "унапређење",
+      "sr_latin": "unapređenje",
+      "pronunciation_ru": "унапрЭджење",
+      "translation_ru": "повышение (в должности)",
+      "example_sr": "Добила је унапређење и већу плату.",
+      "example_ru": "Она получила повышение и бóльшую зарплату.",
+      "false_friend_note": ""
+    }
+  ]
+}

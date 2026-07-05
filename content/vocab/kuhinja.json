@@ -2,6 +2,7 @@
   "id": "kuhinja",
   "title_ru": "🍳 Кухня и посуда",
   "title_sr": "Кухиња",
+  "_note": "Черновик: сгенерировано AI и вычитано AI-корректором «как носитель». Не проверено носителем-человеком.",
   "words": [
     {
       "sr_cyrillic": "шпорет",
@@ -380,6 +381,258 @@
       "example_sr": "Стави кецељу да се не упрскаш.",
       "example_ru": "Надень фартук, чтобы не забрызгаться.",
       "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "миксер",
+      "sr_latin": "mikser",
+      "pronunciation_ru": "мИксер",
+      "translation_ru": "миксер",
+      "example_sr": "Умути крем миксером.",
+      "example_ru": "Взбей крем миксером.",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "блендер",
+      "sr_latin": "blender",
+      "pronunciation_ru": "блЭндер",
+      "translation_ru": "блендер",
+      "example_sr": "Направи смути у блендеру.",
+      "example_ru": "Сделай смузи в блендере.",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "тостер",
+      "sr_latin": "toster",
+      "pronunciation_ru": "тОстер",
+      "translation_ru": "тостер",
+      "example_sr": "Стави хлеб у тостер.",
+      "example_ru": "Положи хлеб в тостер.",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "аспиратор",
+      "sr_latin": "aspirator",
+      "pronunciation_ru": "аспирАтор",
+      "translation_ru": "вытяжка (кухонная)",
+      "example_sr": "Укључи аспиратор док пржиш.",
+      "example_ru": "Включи вытяжку, пока жаришь.",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "машина за судове",
+      "sr_latin": "mašina za sudove",
+      "pronunciation_ru": "машИна за судОве",
+      "translation_ru": "посудомоечная машина",
+      "example_sr": "Стави тањире у машину за судове.",
+      "example_ru": "Поставь тарелки в посудомойку.",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "фиока",
+      "sr_latin": "fioka",
+      "pronunciation_ru": "фиОка",
+      "translation_ru": "ящик (выдвижной)",
+      "example_sr": "Прибор је у фиоци.",
+      "example_ru": "Столовые приборы в ящике.",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "полица",
+      "sr_latin": "polica",
+      "pronunciation_ru": "пОлица",
+      "translation_ru": "полка",
+      "example_sr": "Чаше су на горњој полици.",
+      "example_ru": "Стаканы на верхней полке.",
+      "false_friend_note": "Звучит почти как русское «полиция», но значит «полка»."
+    },
+    {
+      "sr_cyrillic": "радна плоча",
+      "sr_latin": "radna ploča",
+      "pronunciation_ru": "рАдна плОча",
+      "translation_ru": "столешница, рабочая поверхность",
+      "example_sr": "Немој да сечеш директно на радној плочи.",
+      "example_ru": "Не режь прямо на столешнице.",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "оклагија",
+      "sr_latin": "oklagija",
+      "pronunciation_ru": "оклАгия",
+      "translation_ru": "скалка",
+      "example_sr": "Развуци тесто оклагијом.",
+      "example_ru": "Раскатай тесто скалкой.",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "калуп",
+      "sr_latin": "kalup",
+      "pronunciation_ru": "кАлуп",
+      "translation_ru": "форма (для выпечки), формочка",
+      "example_sr": "Сипај смесу у калуп за колаче.",
+      "example_ru": "Вылей тесто в форму для кекса.",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "кухињска вага",
+      "sr_latin": "kuhinjska vaga",
+      "pronunciation_ru": "кУхиньска вАга",
+      "translation_ru": "кухонные весы",
+      "example_sr": "Измери брашно на ваги.",
+      "example_ru": "Отмерь муку на весах.",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "лопатица",
+      "sr_latin": "lopatica",
+      "pronunciation_ru": "лопАтица",
+      "translation_ru": "лопатка (кулинарная)",
+      "example_sr": "Окрени палачинку лопатицом.",
+      "example_ru": "Переверни блин лопаткой.",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "мутилица",
+      "sr_latin": "mutilica",
+      "pronunciation_ru": "мУтилица",
+      "translation_ru": "венчик (для взбивания)",
+      "example_sr": "Умути белање мутилицом.",
+      "example_ru": "Взбей белки венчиком.",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "кеса",
+      "sr_latin": "kesa",
+      "pronunciation_ru": "кЭса",
+      "translation_ru": "пакет (пластиковый), кулёк",
+      "example_sr": "Стави воће у кесу.",
+      "example_ru": "Положи фрукты в пакет.",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "фолија",
+      "sr_latin": "folija",
+      "pronunciation_ru": "фОлия",
+      "translation_ru": "фольга; плёнка",
+      "example_sr": "Покриј месо алуминијумском фолијом.",
+      "example_ru": "Накрой мясо алюминиевой фольгой.",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "салвета",
+      "sr_latin": "salveta",
+      "pronunciation_ru": "салвЭта",
+      "translation_ru": "салфетка",
+      "example_sr": "Дај ми једну салвету, молим те.",
+      "example_ru": "Дай мне салфетку, пожалуйста.",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "зачин",
+      "sr_latin": "začin",
+      "pronunciation_ru": "зАчин",
+      "translation_ru": "приправа, специя",
+      "example_sr": "Додај мало зачина у сос.",
+      "example_ru": "Добавь немного приправы в соус.",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "бибер",
+      "sr_latin": "biber",
+      "pronunciation_ru": "бИбер",
+      "translation_ru": "перец (чёрный, молотый)",
+      "example_sr": "Посоли и побибери по укусу.",
+      "example_ru": "Посоли и поперчи по вкусу.",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "брашно",
+      "sr_latin": "brašno",
+      "pronunciation_ru": "брАшно",
+      "translation_ru": "мука",
+      "example_sr": "Треба ми још мало брашна за тесто.",
+      "example_ru": "Мне нужно ещё немного муки для теста.",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "сирће",
+      "sr_latin": "sirće",
+      "pronunciation_ru": "сИрче",
+      "translation_ru": "уксус",
+      "example_sr": "Зачини салату уљем и сирћетом.",
+      "example_ru": "Заправь салат маслом и уксусом.",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "бокал",
+      "sr_latin": "bokal",
+      "pronunciation_ru": "бОкал",
+      "translation_ru": "кувшин, графин",
+      "example_sr": "Донеси бокал воде на сто.",
+      "example_ru": "Принеси кувшин воды на стол.",
+      "false_friend_note": "Ложный друг: русский «бокал» — стакан на ножке, а сербское «бокал» — кувшин/графин."
+    },
+    {
+      "sr_cyrillic": "пржити",
+      "sr_latin": "pržiti",
+      "pronunciation_ru": "пЫржити",
+      "translation_ru": "жарить",
+      "example_sr": "Пржим кромпир на тигању.",
+      "example_ru": "Жарю картошку на сковороде.",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "пећи",
+      "sr_latin": "peći",
+      "pronunciation_ru": "пЭчи",
+      "translation_ru": "печь, запекать",
+      "example_sr": "Колачи се пеку у рерни.",
+      "example_ru": "Пирожные пекутся в духовке.",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "динстати",
+      "sr_latin": "dinstati",
+      "pronunciation_ru": "дИнстати",
+      "translation_ru": "тушить",
+      "example_sr": "Динстај лук док не омекша.",
+      "example_ru": "Туши лук, пока не станет мягким.",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "загрејати",
+      "sr_latin": "zagrejati",
+      "pronunciation_ru": "загрЭяти",
+      "translation_ru": "разогреть, подогреть",
+      "example_sr": "Загреј ручак у микроталасној.",
+      "example_ru": "Разогрей обед в микроволновке.",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "сипати",
+      "sr_latin": "sipati",
+      "pronunciation_ru": "сИпати",
+      "translation_ru": "наливать; насыпать",
+      "example_sr": "Сипај ми мало воде.",
+      "example_ru": "Налей мне немного воды.",
+      "false_friend_note": "Похоже на русское «сыпать», но сербское «сипати» — это и «наливать» (жидкость), и «насыпать»."
+    },
+    {
+      "sr_cyrillic": "прокључати",
+      "sr_latin": "proključati",
+      "pronunciation_ru": "проклУчати",
+      "translation_ru": "закипеть",
+      "example_sr": "Сачекај да вода прокључа.",
+      "example_ru": "Подожди, пока вода закипит.",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "љуто",
+      "sr_latin": "ljuto",
+      "pronunciation_ru": "лЮто",
+      "translation_ru": "остро (на вкус), жгуче",
+      "example_sr": "Ова паприка је превише љута.",
+      "example_ru": "Этот перец слишком острый.",
+      "false_friend_note": "Похоже на русское «люто», но о еде «љуто» значит «остро, жгуче»."
     }
   ]
 }

@@ -1,0 +1,638 @@
+{
+  "id": "predlozi_veznici",
+  "title_ru": "🔗 Предлоги и союзы",
+  "title_sr": "Предлози и везници",
+  "_note": "Черновик: сгенерировано AI и вычитано AI-корректором «как носитель». Не проверено носителем-человеком.",
+  "words": [
+    {
+      "sr_cyrillic": "у",
+      "sr_latin": "u",
+      "pronunciation_ru": "У",
+      "translation_ru": "в (внутри чего-то)",
+      "example_sr": "Живим у Београду.",
+      "example_ru": "Живу в Белграде.",
+      "false_friend_note": "Русское «у» = возле/у кого-то, а сербское «у» = «в» (внутри)."
+    },
+    {
+      "sr_cyrillic": "на",
+      "sr_latin": "na",
+      "pronunciation_ru": "нА",
+      "translation_ru": "на",
+      "example_sr": "Оставио сам кључеве на столу.",
+      "example_ru": "Я оставил ключи на столе.",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "до",
+      "sr_latin": "do",
+      "pronunciation_ru": "дО",
+      "translation_ru": "до",
+      "example_sr": "Идем пешке до пијаце.",
+      "example_ru": "Иду пешком до рынка.",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "од",
+      "sr_latin": "od",
+      "pronunciation_ru": "Од",
+      "translation_ru": "от, с",
+      "example_sr": "Аутобус креће од главне станице.",
+      "example_ru": "Автобус отправляется от главной станции.",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "из",
+      "sr_latin": "iz",
+      "pronunciation_ru": "Из",
+      "translation_ru": "из",
+      "example_sr": "Управо сам изашао из зграде.",
+      "example_ru": "Я только что вышел из здания.",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "за",
+      "sr_latin": "za",
+      "pronunciation_ru": "зА",
+      "translation_ru": "за, для",
+      "example_sr": "Ово је поклон за тебе.",
+      "example_ru": "Это подарок для тебя.",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "код",
+      "sr_latin": "kod",
+      "pronunciation_ru": "кОд",
+      "translation_ru": "у (кого-то), возле",
+      "example_sr": "Вечерас смо код бабе.",
+      "example_ru": "Сегодня вечером мы у бабушки.",
+      "false_friend_note": "Похоже на русское «код», но здесь значит «у/возле кого-то» (как русское «у»)."
+    },
+    {
+      "sr_cyrillic": "пред",
+      "sr_latin": "pred",
+      "pronunciation_ru": "прЭд",
+      "translation_ru": "перед",
+      "example_sr": "Нашли смо се пред улазом.",
+      "example_ru": "Мы встретились перед входом.",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "испред",
+      "sr_latin": "ispred",
+      "pronunciation_ru": "Испрэд",
+      "translation_ru": "перед, впереди",
+      "example_sr": "Кола су паркирана испред зграде.",
+      "example_ru": "Машина припаркована перед зданием.",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "иза",
+      "sr_latin": "iza",
+      "pronunciation_ru": "Иза",
+      "translation_ru": "за, позади",
+      "example_sr": "Апотека је иза угла.",
+      "example_ru": "Аптека за углом.",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "између",
+      "sr_latin": "između",
+      "pronunciation_ru": "измЭджу",
+      "translation_ru": "между",
+      "example_sr": "Продавница је између банке и пекаре.",
+      "example_ru": "Магазин между банком и пекарней.",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "око",
+      "sr_latin": "oko",
+      "pronunciation_ru": "Око",
+      "translation_ru": "около, вокруг",
+      "example_sr": "Наћи ћемо се око подне.",
+      "example_ru": "Встретимся около полудня.",
+      "false_friend_note": "То же слово «око» значит и «глаз». Как предлог — «около/вокруг»."
+    },
+    {
+      "sr_cyrillic": "кроз",
+      "sr_latin": "kroz",
+      "pronunciation_ru": "крОз",
+      "translation_ru": "сквозь, через",
+      "example_sr": "Прошли смо кроз парк.",
+      "example_ru": "Мы прошли через парк.",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "преко",
+      "sr_latin": "preko",
+      "pronunciation_ru": "прЭко",
+      "translation_ru": "через, поверх",
+      "example_sr": "Пребаци новац преко апликације.",
+      "example_ru": "Переведи деньги через приложение.",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "преко пута",
+      "sr_latin": "preko puta",
+      "pronunciation_ru": "прЭко пУта",
+      "translation_ru": "напротив (через дорогу)",
+      "example_sr": "Станица је преко пута школе.",
+      "example_ru": "Остановка напротив школы.",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "без",
+      "sr_latin": "bez",
+      "pronunciation_ru": "бЭз",
+      "translation_ru": "без",
+      "example_sr": "Пијем кафу без шећера.",
+      "example_ru": "Пью кофе без сахара.",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "са",
+      "sr_latin": "sa",
+      "pronunciation_ru": "сА",
+      "translation_ru": "с, со",
+      "example_sr": "Дошао сам са другом.",
+      "example_ru": "Я пришёл с другом.",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "по",
+      "sr_latin": "po",
+      "pronunciation_ru": "пО",
+      "translation_ru": "по; за (чем-то)",
+      "example_sr": "Идем по хлеб.",
+      "example_ru": "Иду за хлебом.",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "поред",
+      "sr_latin": "pored",
+      "pronunciation_ru": "пОрэд",
+      "translation_ru": "рядом с, возле",
+      "example_sr": "Седи поред мене.",
+      "example_ru": "Садись рядом со мной.",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "близу",
+      "sr_latin": "blizu",
+      "pronunciation_ru": "блИзу",
+      "translation_ru": "близко к, рядом",
+      "example_sr": "Станујем близу центра.",
+      "example_ru": "Живу близко к центру.",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "према",
+      "sr_latin": "prema",
+      "pronunciation_ru": "прЭма",
+      "translation_ru": "к, по направлению к",
+      "example_sr": "Идемо према центру.",
+      "example_ru": "Идём к центру.",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "ка",
+      "sr_latin": "ka",
+      "pronunciation_ru": "кА",
+      "translation_ru": "к",
+      "example_sr": "Крени ка излазу.",
+      "example_ru": "Двигайся к выходу.",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "изнад",
+      "sr_latin": "iznad",
+      "pronunciation_ru": "Изнад",
+      "translation_ru": "над, выше",
+      "example_sr": "Стан је изнад пекаре.",
+      "example_ru": "Квартира над пекарней.",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "испод",
+      "sr_latin": "ispod",
+      "pronunciation_ru": "Испод",
+      "translation_ru": "под, ниже",
+      "example_sr": "Кутија је испод кревета.",
+      "example_ru": "Коробка под кроватью.",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "под",
+      "sr_latin": "pod",
+      "pronunciation_ru": "пОд",
+      "translation_ru": "под",
+      "example_sr": "Мачка се сакрила под сто.",
+      "example_ru": "Кошка спряталась под стол.",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "над",
+      "sr_latin": "nad",
+      "pronunciation_ru": "нАд",
+      "translation_ru": "над",
+      "example_sr": "Лампа виси над столом.",
+      "example_ru": "Лампа висит над столом.",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "уз",
+      "sr_latin": "uz",
+      "pronunciation_ru": "Уз",
+      "translation_ru": "вдоль; вверх по; при",
+      "example_sr": "Попео сам се уз степенице.",
+      "example_ru": "Я поднялся вверх по лестнице.",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "низ",
+      "sr_latin": "niz",
+      "pronunciation_ru": "нИз",
+      "translation_ru": "вниз по",
+      "example_sr": "Спустили смо се низ улицу.",
+      "example_ru": "Мы спустились вниз по улице.",
+      "false_friend_note": "Похоже на русское «низ», но это предлог «вниз по»."
+    },
+    {
+      "sr_cyrillic": "насупрот",
+      "sr_latin": "nasuprot",
+      "pronunciation_ru": "нАсупрот",
+      "translation_ru": "напротив",
+      "example_sr": "Седео је насупрот мени.",
+      "example_ru": "Он сидел напротив меня.",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "усред",
+      "sr_latin": "usred",
+      "pronunciation_ru": "Усрэд",
+      "translation_ru": "посреди",
+      "example_sr": "Стао је усред раскрснице.",
+      "example_ru": "Он остановился посреди перекрёстка.",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "дуж",
+      "sr_latin": "duž",
+      "pronunciation_ru": "дУж",
+      "translation_ru": "вдоль",
+      "example_sr": "Шетали смо дуж реке.",
+      "example_ru": "Мы гуляли вдоль реки.",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "унутар",
+      "sr_latin": "unutar",
+      "pronunciation_ru": "Унутар",
+      "translation_ru": "внутри",
+      "example_sr": "Остани унутар зграде.",
+      "example_ru": "Оставайся внутри здания.",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "осим",
+      "sr_latin": "osim",
+      "pronunciation_ru": "Осим",
+      "translation_ru": "кроме",
+      "example_sr": "Ради сваки дан осим недеље.",
+      "example_ru": "Работает каждый день кроме воскресенья.",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "уместо",
+      "sr_latin": "umesto",
+      "pronunciation_ru": "умЭсто",
+      "translation_ru": "вместо",
+      "example_sr": "Узми чај уместо кафе.",
+      "example_ru": "Возьми чай вместо кофе.",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "упркос",
+      "sr_latin": "uprkos",
+      "pronunciation_ru": "Упркос",
+      "translation_ru": "несмотря на",
+      "example_sr": "Изашли смо упркос киши.",
+      "example_ru": "Мы вышли несмотря на дождь.",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "после",
+      "sr_latin": "posle",
+      "pronunciation_ru": "пОслэ",
+      "translation_ru": "после",
+      "example_sr": "Видимо се после посла.",
+      "example_ru": "Увидимся после работы.",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "пре",
+      "sr_latin": "pre",
+      "pronunciation_ru": "прЭ",
+      "translation_ru": "до, раньше",
+      "example_sr": "Дошао сам пре тебе.",
+      "example_ru": "Я пришёл раньше тебя.",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "током",
+      "sr_latin": "tokom",
+      "pronunciation_ru": "тОком",
+      "translation_ru": "в течение, во время",
+      "example_sr": "Радио сам током целог лета.",
+      "example_ru": "Я работал в течение всего лета.",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "крај",
+      "sr_latin": "kraj",
+      "pronunciation_ru": "крАй",
+      "translation_ru": "возле, у",
+      "example_sr": "Кућа је крај реке.",
+      "example_ru": "Дом у реки.",
+      "false_friend_note": "То же слово «крај» значит и «конец». Как предлог — «возле/у»."
+    },
+    {
+      "sr_cyrillic": "и",
+      "sr_latin": "i",
+      "pronunciation_ru": "И",
+      "translation_ru": "и",
+      "example_sr": "Купи хлеб и млеко.",
+      "example_ru": "Купи хлеб и молоко.",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "или",
+      "sr_latin": "ili",
+      "pronunciation_ru": "Или",
+      "translation_ru": "или",
+      "example_sr": "Хоћеш чај или кафу?",
+      "example_ru": "Хочешь чай или кофе?",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "али",
+      "sr_latin": "ali",
+      "pronunciation_ru": "Али",
+      "translation_ru": "но",
+      "example_sr": "Хтео сам да дођем, али нисам стигао.",
+      "example_ru": "Я хотел прийти, но не успел.",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "а",
+      "sr_latin": "a",
+      "pronunciation_ru": "А",
+      "translation_ru": "а",
+      "example_sr": "Ја идем, а ти остани.",
+      "example_ru": "Я иду, а ты оставайся.",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "него",
+      "sr_latin": "nego",
+      "pronunciation_ru": "нЭго",
+      "translation_ru": "чем; а (наоборот)",
+      "example_sr": "Више волим чај него кафу.",
+      "example_ru": "Я больше люблю чай, чем кофе.",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "већ",
+      "sr_latin": "već",
+      "pronunciation_ru": "вЭчь",
+      "translation_ru": "а (напротив); уже",
+      "example_sr": "Није чај, већ кафа.",
+      "example_ru": "Это не чай, а кофе.",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "јер",
+      "sr_latin": "jer",
+      "pronunciation_ru": "йЭр",
+      "translation_ru": "потому что",
+      "example_sr": "Нисам дошао јер сам био болестан.",
+      "example_ru": "Я не пришёл, потому что был болен.",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "зато што",
+      "sr_latin": "zato što",
+      "pronunciation_ru": "зАто штО",
+      "translation_ru": "потому что",
+      "example_sr": "Касним зато што нема аутобуса.",
+      "example_ru": "Опаздываю, потому что нет автобуса.",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "пошто",
+      "sr_latin": "pošto",
+      "pronunciation_ru": "пОшто",
+      "translation_ru": "так как, поскольку",
+      "example_sr": "Пошто пада киша, остаћемо код куће.",
+      "example_ru": "Так как идёт дождь, останемся дома.",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "да",
+      "sr_latin": "da",
+      "pronunciation_ru": "дА",
+      "translation_ru": "что, чтобы",
+      "example_sr": "Морам да идем.",
+      "example_ru": "Мне надо идти.",
+      "false_friend_note": "«Да» значит и «да» (согласие), но как союз — «что/чтобы»."
+    },
+    {
+      "sr_cyrillic": "да би",
+      "sr_latin": "da bi",
+      "pronunciation_ru": "дА би",
+      "translation_ru": "чтобы (с целью)",
+      "example_sr": "Учим српски да бих нашао посао.",
+      "example_ru": "Учу сербский, чтобы найти работу.",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "ако",
+      "sr_latin": "ako",
+      "pronunciation_ru": "Ако",
+      "translation_ru": "если",
+      "example_sr": "Ако будеш имао времена, јави се.",
+      "example_ru": "Если будет время, дай знать.",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "уколико",
+      "sr_latin": "ukoliko",
+      "pronunciation_ru": "укОлико",
+      "translation_ru": "если, в случае если",
+      "example_sr": "Уколико не дођете, отказаћемо термин.",
+      "example_ru": "Если не придёте, отменим запись.",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "када",
+      "sr_latin": "kada",
+      "pronunciation_ru": "кАда",
+      "translation_ru": "когда",
+      "example_sr": "Јави ми када стигнеш.",
+      "example_ru": "Дай знать, когда придёшь.",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "чим",
+      "sr_latin": "čim",
+      "pronunciation_ru": "чИм",
+      "translation_ru": "как только",
+      "example_sr": "Позваћу те чим стигнем.",
+      "example_ru": "Позвоню тебе, как только приеду.",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "док",
+      "sr_latin": "dok",
+      "pronunciation_ru": "дОк",
+      "translation_ru": "пока, в то время как",
+      "example_sr": "Сачекај док се вратим.",
+      "example_ru": "Подожди, пока я вернусь.",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "иако",
+      "sr_latin": "iako",
+      "pronunciation_ru": "Иако",
+      "translation_ru": "хотя",
+      "example_sr": "Изашли смо иако је хладно.",
+      "example_ru": "Мы вышли, хотя холодно.",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "мада",
+      "sr_latin": "mada",
+      "pronunciation_ru": "мАда",
+      "translation_ru": "хотя",
+      "example_sr": "Свиђа ми се, мада је скупо.",
+      "example_ru": "Мне нравится, хотя дорого.",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "пре него што",
+      "sr_latin": "pre nego što",
+      "pronunciation_ru": "прЭ нЭго штО",
+      "translation_ru": "прежде чем",
+      "example_sr": "Опери руке пре него што једеш.",
+      "example_ru": "Помой руки, прежде чем есть.",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "након што",
+      "sr_latin": "nakon što",
+      "pronunciation_ru": "нАкон штО",
+      "translation_ru": "после того как",
+      "example_sr": "Након што заврши посао, иде кући.",
+      "example_ru": "После того как закончит работу, идёт домой.",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "зато",
+      "sr_latin": "zato",
+      "pronunciation_ru": "зАто",
+      "translation_ru": "поэтому",
+      "example_sr": "Пада киша, зато носим кишобран.",
+      "example_ru": "Идёт дождь, поэтому беру зонт.",
+      "false_friend_note": "Русское «зато» = «но/однако», а сербское «зато» = «поэтому»."
+    },
+    {
+      "sr_cyrillic": "тако да",
+      "sr_latin": "tako da",
+      "pronunciation_ru": "тАко дА",
+      "translation_ru": "так что",
+      "example_sr": "Касним, тако да иди без мене.",
+      "example_ru": "Я опаздываю, так что иди без меня.",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "па",
+      "sr_latin": "pa",
+      "pronunciation_ru": "пА",
+      "translation_ru": "и; так; ну",
+      "example_sr": "Дођи, па ћемо се договорити.",
+      "example_ru": "Приходи, и там договоримся.",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "те",
+      "sr_latin": "te",
+      "pronunciation_ru": "тЭ",
+      "translation_ru": "и, так что",
+      "example_sr": "Отишао је на посао те се вратио касно.",
+      "example_ru": "Он ушёл на работу и вернулся поздно.",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "нити",
+      "sr_latin": "niti",
+      "pronunciation_ru": "нИти",
+      "translation_ru": "и не, ни",
+      "example_sr": "Нема ни хлеба нити млека.",
+      "example_ru": "Нет ни хлеба, ни молока.",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "ни",
+      "sr_latin": "ni",
+      "pronunciation_ru": "нИ",
+      "translation_ru": "ни",
+      "example_sr": "Немам ни динара.",
+      "example_ru": "У меня нет ни динара.",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "као",
+      "sr_latin": "kao",
+      "pronunciation_ru": "кАо",
+      "translation_ru": "как",
+      "example_sr": "Висок је као ти.",
+      "example_ru": "Он высокий, как ты.",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "као да",
+      "sr_latin": "kao da",
+      "pronunciation_ru": "кАо дА",
+      "translation_ru": "как будто",
+      "example_sr": "Изгледаш као да ниси спавао.",
+      "example_ru": "Ты выглядишь так, будто не спал.",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "што",
+      "sr_latin": "što",
+      "pronunciation_ru": "штО",
+      "translation_ru": "что; который",
+      "example_sr": "Ово је оно што сам тражио.",
+      "example_ru": "Это то, что я искал.",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "који",
+      "sr_latin": "koji",
+      "pronunciation_ru": "кОйи",
+      "translation_ru": "который",
+      "example_sr": "Ово је аутобус који иде до центра.",
+      "example_ru": "Это автобус, который идёт до центра.",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "међутим",
+      "sr_latin": "međutim",
+      "pronunciation_ru": "мЭджутим",
+      "translation_ru": "однако, тем не менее",
+      "example_sr": "Хтео сам да дођем, међутим нисам могао.",
+      "example_ru": "Я хотел прийти, однако не смог.",
+      "false_friend_note": ""
+    }
+  ]
+}

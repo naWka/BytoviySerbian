@@ -2,6 +2,7 @@
   "id": "stan_kuca",
   "title_ru": "🏠 Квартира и дом",
   "title_sr": "Стан и кућа",
+  "_note": "Черновик: сгенерировано AI и вычитано AI-корректором «как носитель». Не проверено носителем-человеком.",
   "words": [
     {
       "sr_cyrillic": "стан",
@@ -380,6 +381,258 @@
       "example_sr": "Селидба је заказана за суботу.",
       "example_ru": "Переезд назначен на субботу.",
       "false_friend_note": "Серб. „селидба“ = переезд, хотя корень напоминает «село/поселиться»."
+    },
+    {
+      "sr_cyrillic": "кухиња",
+      "sr_latin": "kuhinja",
+      "pronunciation_ru": "кУхиня",
+      "translation_ru": "кухня",
+      "example_sr": "Кухиња је мала, али функционална.",
+      "example_ru": "Кухня маленькая, но функциональная.",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "купатило",
+      "sr_latin": "kupatilo",
+      "pronunciation_ru": "кУпатило",
+      "translation_ru": "ванная (комната)",
+      "example_sr": "Купатило је поплочано до плафона.",
+      "example_ru": "Ванная выложена плиткой до потолка.",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "тоалет",
+      "sr_latin": "toalet",
+      "pronunciation_ru": "тоалЕт",
+      "translation_ru": "туалет",
+      "example_sr": "Тоалет је одвојен од купатила.",
+      "example_ru": "Туалет отдельно от ванной.",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "спаваћа соба",
+      "sr_latin": "spavaća soba",
+      "pronunciation_ru": "спАвача сОба",
+      "translation_ru": "спальня",
+      "example_sr": "Спаваћа соба гледа на двориште.",
+      "example_ru": "Спальня выходит во двор.",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "остава",
+      "sr_latin": "ostava",
+      "pronunciation_ru": "Остава",
+      "translation_ru": "кладовка, кладовая",
+      "example_sr": "Зимницу држимо у остави.",
+      "example_ru": "Заготовки на зиму держим в кладовке.",
+      "false_friend_note": "Серб. „остава“ = кладовка, а не глагол «оставить»."
+    },
+    {
+      "sr_cyrillic": "двориште",
+      "sr_latin": "dvorište",
+      "pronunciation_ru": "дворИште",
+      "translation_ru": "двор",
+      "example_sr": "Деца се играју у дворишту.",
+      "example_ru": "Дети играют во дворе.",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "гаража",
+      "sr_latin": "garaža",
+      "pronunciation_ru": "гарАжа",
+      "translation_ru": "гараж",
+      "example_sr": "Имамо гаражу у дворишту.",
+      "example_ru": "У нас гараж во дворе.",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "кревет",
+      "sr_latin": "krevet",
+      "pronunciation_ru": "крЕвет",
+      "translation_ru": "кровать",
+      "example_sr": "Купили смо нов брачни кревет.",
+      "example_ru": "Мы купили новую двуспальную кровать.",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "орман",
+      "sr_latin": "orman",
+      "pronunciation_ru": "Орман",
+      "translation_ru": "шкаф",
+      "example_sr": "Стави пешкире у орман.",
+      "example_ru": "Положи полотенца в шкаф.",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "фрижидер",
+      "sr_latin": "frižider",
+      "pronunciation_ru": "фрижИдер",
+      "translation_ru": "холодильник",
+      "example_sr": "Фрижидер прави чудан звук.",
+      "example_ru": "Холодильник издаёт странный звук.",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "шпорет",
+      "sr_latin": "šporet",
+      "pronunciation_ru": "шпОрет",
+      "translation_ru": "плита (кухонная)",
+      "example_sr": "Имаш ли струјни или плински шпорет?",
+      "example_ru": "У тебя электрическая или газовая плита?",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "судопера",
+      "sr_latin": "sudopera",
+      "pronunciation_ru": "судопЕра",
+      "translation_ru": "мойка, раковина (на кухне)",
+      "example_sr": "Судопера је запушена.",
+      "example_ru": "Раковина засорилась.",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "веш-машина",
+      "sr_latin": "veš-mašina",
+      "pronunciation_ru": "вЕш-машИна",
+      "translation_ru": "стиральная машина",
+      "example_sr": "Веш-машина је стала на пола програма.",
+      "example_ru": "Стиральная машина остановилась на середине программы.",
+      "false_friend_note": "„Веш“ (бельё) созвучно рус. «вещь», но значит «бельё/стирка», а не «вещи»."
+    },
+    {
+      "sr_cyrillic": "сто",
+      "sr_latin": "sto",
+      "pronunciation_ru": "стО",
+      "translation_ru": "стол",
+      "example_sr": "Седи за сто, ручак је готов.",
+      "example_ru": "Садись за стол, обед готов.",
+      "false_friend_note": "Серб. „сто“ = стол (а заодно и число «сто/100»); рус. «сто» — только число."
+    },
+    {
+      "sr_cyrillic": "столица",
+      "sr_latin": "stolica",
+      "pronunciation_ru": "стОлица",
+      "translation_ru": "стул",
+      "example_sr": "Још једна столица нам фали.",
+      "example_ru": "Нам не хватает ещё одного стула.",
+      "false_friend_note": "Серб. „столица“ = стул, а рус. «столица» — главный город страны."
+    },
+    {
+      "sr_cyrillic": "кауч",
+      "sr_latin": "kauč",
+      "pronunciation_ru": "кАуч",
+      "translation_ru": "диван",
+      "example_sr": "Гост може да спава на каучу.",
+      "example_ru": "Гость может спать на диване.",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "огледало",
+      "sr_latin": "ogledalo",
+      "pronunciation_ru": "оглЕдало",
+      "translation_ru": "зеркало",
+      "example_sr": "Огледало у купатилу се замаглило.",
+      "example_ru": "Зеркало в ванной запотело.",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "завеса",
+      "sr_latin": "zavesa",
+      "pronunciation_ru": "завЕса",
+      "translation_ru": "штора, занавеска",
+      "example_sr": "Навуци завесе, сунце удара.",
+      "example_ru": "Задёрни шторы, солнце бьёт.",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "тепих",
+      "sr_latin": "tepih",
+      "pronunciation_ru": "тЕпих",
+      "translation_ru": "ковёр",
+      "example_sr": "Однео сам тепих на прање.",
+      "example_ru": "Отнёс ковёр в чистку.",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "јастук",
+      "sr_latin": "jastuk",
+      "pronunciation_ru": "Ястук",
+      "translation_ru": "подушка",
+      "example_sr": "Треба ми још један јастук.",
+      "example_ru": "Мне нужна ещё одна подушка.",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "вода",
+      "sr_latin": "voda",
+      "pronunciation_ru": "вОда",
+      "translation_ru": "вода",
+      "example_sr": "Нема топле воде од јутрос.",
+      "example_ru": "Нет горячей воды с самого утра.",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "гас",
+      "sr_latin": "gas",
+      "pronunciation_ru": "гАс",
+      "translation_ru": "газ",
+      "example_sr": "Стан се греје на гас.",
+      "example_ru": "Квартира отапливается газом.",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "смеће",
+      "sr_latin": "smeće",
+      "pronunciation_ru": "смЕче",
+      "translation_ru": "мусор",
+      "example_sr": "Изнеси смеће, контејнер је до угла.",
+      "example_ru": "Вынеси мусор, контейнер за углом.",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "промаја",
+      "sr_latin": "promaja",
+      "pronunciation_ru": "прОмая",
+      "translation_ru": "сквозняк",
+      "example_sr": "Затвори прозор, направићеш промају.",
+      "example_ru": "Закрой окно, устроишь сквозняк.",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "влага",
+      "sr_latin": "vlaga",
+      "pronunciation_ru": "влАга",
+      "translation_ru": "сырость, влага",
+      "example_sr": "У стану има влаге, осећа се на зидовима.",
+      "example_ru": "В квартире сырость, чувствуется на стенах.",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "власник",
+      "sr_latin": "vlasnik",
+      "pronunciation_ru": "влАсник",
+      "translation_ru": "владелец, собственник",
+      "example_sr": "Власник стана живи у иностранству.",
+      "example_ru": "Владелец квартиры живёт за границей.",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "агенција",
+      "sr_latin": "agencija",
+      "pronunciation_ru": "агЕнция",
+      "translation_ru": "агентство (недвижимости)",
+      "example_sr": "Нашли смо стан преко агенције.",
+      "example_ru": "Мы нашли квартиру через агентство.",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "инфостан",
+      "sr_latin": "infostan",
+      "pronunciation_ru": "инфостАн",
+      "translation_ru": "единая квитанция за коммуналку (в Белграде)",
+      "example_sr": "Инфостан ми стиже сваког месеца.",
+      "example_ru": "Единая квитанция за коммуналку приходит мне каждый месяц.",
+      "false_friend_note": ""
     }
   ]
 }

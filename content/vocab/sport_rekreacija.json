@@ -1,0 +1,638 @@
+{
+  "id": "sport_rekreacija",
+  "title_ru": "⚽ Спорт и отдых",
+  "title_sr": "Спорт и рекреација",
+  "_note": "Черновик: сгенерировано AI и вычитано AI-корректором «как носитель». Не проверено носителем-человеком.",
+  "words": [
+    {
+      "sr_cyrillic": "спорт",
+      "sr_latin": "sport",
+      "pronunciation_ru": "спОрт",
+      "translation_ru": "спорт",
+      "example_sr": "Бавим се спортом одмалена.",
+      "example_ru": "Я занимаюсь спортом с детства.",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "рекреација",
+      "sr_latin": "rekreacija",
+      "pronunciation_ru": "рэкрэАција",
+      "translation_ru": "любительский спорт, оздоровительные тренировки, активный отдых",
+      "example_sr": "Идем на рекреацију три пута недељно.",
+      "example_ru": "Хожу на оздоровительные тренировки три раза в неделю.",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "теретана",
+      "sr_latin": "teretana",
+      "pronunciation_ru": "тэрэтАна",
+      "translation_ru": "спортзал, тренажёрный зал",
+      "example_sr": "Уписао сам се у теретану поред куће.",
+      "example_ru": "Я записался в спортзал рядом с домом.",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "тренинг",
+      "sr_latin": "trening",
+      "pronunciation_ru": "трЭнинг",
+      "translation_ru": "тренировка",
+      "example_sr": "Тренинг почиње у шест.",
+      "example_ru": "Тренировка начинается в шесть.",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "вежба",
+      "sr_latin": "vežba",
+      "pronunciation_ru": "вЭжба",
+      "translation_ru": "упражнение",
+      "example_sr": "Ова вежба јача леђа.",
+      "example_ru": "Это упражнение укрепляет спину.",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "вежбати",
+      "sr_latin": "vežbati",
+      "pronunciation_ru": "вЭжбати",
+      "translation_ru": "тренироваться, заниматься (упражнениями)",
+      "example_sr": "Вежбам сваки дан по сат времена.",
+      "example_ru": "Я занимаюсь каждый день по часу.",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "трчање",
+      "sr_latin": "trčanje",
+      "pronunciation_ru": "трчАње",
+      "translation_ru": "бег",
+      "example_sr": "Трчање ми чисти главу.",
+      "example_ru": "Бег проясняет мне голову.",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "трчати",
+      "sr_latin": "trčati",
+      "pronunciation_ru": "трчАти",
+      "translation_ru": "бегать, бежать",
+      "example_sr": "Трчим у парку сваког јутра.",
+      "example_ru": "Я бегаю в парке каждое утро.",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "пливање",
+      "sr_latin": "plivanje",
+      "pronunciation_ru": "плИвање",
+      "translation_ru": "плавание",
+      "example_sr": "Пливање је добро за кичму.",
+      "example_ru": "Плавание полезно для позвоночника.",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "пливати",
+      "sr_latin": "plivati",
+      "pronunciation_ru": "плИвати",
+      "translation_ru": "плавать",
+      "example_sr": "Знаш ли да пливаш?",
+      "example_ru": "Ты умеешь плавать?",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "фудбал",
+      "sr_latin": "fudbal",
+      "pronunciation_ru": "фУдбал",
+      "translation_ru": "футбол",
+      "example_sr": "Синоћ смо гледали фудбал.",
+      "example_ru": "Вчера вечером мы смотрели футбол.",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "кошарка",
+      "sr_latin": "košarka",
+      "pronunciation_ru": "кОшарка",
+      "translation_ru": "баскетбол",
+      "example_sr": "Србија је јака у кошарци.",
+      "example_ru": "Сербия сильна в баскетболе.",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "одбојка",
+      "sr_latin": "odbojka",
+      "pronunciation_ru": "Одбојка",
+      "translation_ru": "волейбол",
+      "example_sr": "Играмо одбојку на плажи.",
+      "example_ru": "Мы играем в волейбол на пляже.",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "рукомет",
+      "sr_latin": "rukomet",
+      "pronunciation_ru": "рУкомэт",
+      "translation_ru": "гандбол",
+      "example_sr": "Рукомет је овде веома популаран.",
+      "example_ru": "Гандбол здесь очень популярен.",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "тенис",
+      "sr_latin": "tenis",
+      "pronunciation_ru": "тЭнис",
+      "translation_ru": "теннис",
+      "example_sr": "Играш ли тенис викендом?",
+      "example_ru": "Играешь в теннис по выходным?",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "бицикл",
+      "sr_latin": "bicikl",
+      "pronunciation_ru": "бИцикл",
+      "translation_ru": "велосипед",
+      "example_sr": "Купио сам нови бицикл.",
+      "example_ru": "Я купил новый велосипед.",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "возити бицикл",
+      "sr_latin": "voziti bicikl",
+      "pronunciation_ru": "вОзити бИцикл",
+      "translation_ru": "ездить на велосипеде, кататься на велосипеде",
+      "example_sr": "Волим да возим бицикл поред реке.",
+      "example_ru": "Люблю кататься на велосипеде вдоль реки.",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "вожња",
+      "sr_latin": "vožnja",
+      "pronunciation_ru": "вОжња",
+      "translation_ru": "езда, поездка, катание",
+      "example_sr": "Вожња бициклом ми прија.",
+      "example_ru": "Езда на велосипеде мне в радость.",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "планинарење",
+      "sr_latin": "planinarenje",
+      "pronunciation_ru": "планинАрење",
+      "translation_ru": "поход в горы, хайкинг",
+      "example_sr": "Идемо на планинарење у суботу.",
+      "example_ru": "В субботу идём в поход в горы.",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "планина",
+      "sr_latin": "planina",
+      "pronunciation_ru": "планИна",
+      "translation_ru": "гора",
+      "example_sr": "Копаоник је најпознатија планина код нас.",
+      "example_ru": "Копаоник — самая известная гора у нас.",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "чланарина",
+      "sr_latin": "članarina",
+      "pronunciation_ru": "членАрина",
+      "translation_ru": "абонемент, членский взнос",
+      "example_sr": "Колико кошта месечна чланарина?",
+      "example_ru": "Сколько стоит месячный абонемент?",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "тренер",
+      "sr_latin": "trener",
+      "pronunciation_ru": "трЭнер",
+      "translation_ru": "тренер",
+      "example_sr": "Тренер нам је дао нови план.",
+      "example_ru": "Тренер дал нам новый план.",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "лопта",
+      "sr_latin": "lopta",
+      "pronunciation_ru": "лОпта",
+      "translation_ru": "мяч",
+      "example_sr": "Додај ми лопту!",
+      "example_ru": "Пасуй мне мяч!",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "базен",
+      "sr_latin": "bazen",
+      "pronunciation_ru": "бАзэн",
+      "translation_ru": "бассейн",
+      "example_sr": "Идемо на базен да се расхладимо.",
+      "example_ru": "Идём в бассейн освежиться.",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "скије",
+      "sr_latin": "skije",
+      "pronunciation_ru": "скИје",
+      "translation_ru": "лыжи",
+      "example_sr": "Изнајмили смо скије на Копаонику.",
+      "example_ru": "Мы взяли лыжи напрокат на Копаонике.",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "скијати се",
+      "sr_latin": "skijati se",
+      "pronunciation_ru": "скИјати сэ",
+      "translation_ru": "кататься на лыжах",
+      "example_sr": "Волим да се скијам зими.",
+      "example_ru": "Люблю кататься на лыжах зимой.",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "шетња",
+      "sr_latin": "šetnja",
+      "pronunciation_ru": "шЭтња",
+      "translation_ru": "прогулка",
+      "example_sr": "Идемо у шетњу после ручка.",
+      "example_ru": "Идём на прогулку после обеда.",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "шетати",
+      "sr_latin": "šetati",
+      "pronunciation_ru": "шЭтати",
+      "translation_ru": "гулять, прогуливаться",
+      "example_sr": "Свако вече шетамо крај реке.",
+      "example_ru": "Каждый вечер мы гуляем у реки.",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "одмор",
+      "sr_latin": "odmor",
+      "pronunciation_ru": "Одмор",
+      "translation_ru": "отдых, перерыв",
+      "example_sr": "Треба ми мало одмора.",
+      "example_ru": "Мне нужно немного отдохнуть.",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "годишњи одмор",
+      "sr_latin": "godišnji odmor",
+      "pronunciation_ru": "гОдишњи Одмор",
+      "translation_ru": "отпуск",
+      "example_sr": "Идем на годишњи одмор у јулу.",
+      "example_ru": "Я иду в отпуск в июле.",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "екскурзија",
+      "sr_latin": "ekskurzija",
+      "pronunciation_ru": "экскУрзија",
+      "translation_ru": "экскурсия, поездка",
+      "example_sr": "Деца су ишла на екскурзију у Нови Сад.",
+      "example_ru": "Дети ездили на экскурсию в Нови-Сад.",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "излет",
+      "sr_latin": "izlet",
+      "pronunciation_ru": "Излэт",
+      "translation_ru": "вылазка на природу, поездка за город",
+      "example_sr": "Викенд смо провели на излету.",
+      "example_ru": "Выходные мы провели на природе.",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "парк",
+      "sr_latin": "park",
+      "pronunciation_ru": "пАрк",
+      "translation_ru": "парк",
+      "example_sr": "Нађемо се у парку код фонтане.",
+      "example_ru": "Встретимся в парке у фонтана.",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "фитнес",
+      "sr_latin": "fitnes",
+      "pronunciation_ru": "фИтнэс",
+      "translation_ru": "фитнес",
+      "example_sr": "Уписала сам фитнес и јогу.",
+      "example_ru": "Я записалась на фитнес и йогу.",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "јога",
+      "sr_latin": "joga",
+      "pronunciation_ru": "јОга",
+      "translation_ru": "йога",
+      "example_sr": "Јога ми помаже да се опустим.",
+      "example_ru": "Йога помогает мне расслабиться.",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "спортиста",
+      "sr_latin": "sportista",
+      "pronunciation_ru": "спортИста",
+      "translation_ru": "спортсмен",
+      "example_sr": "Он је професионални спортиста.",
+      "example_ru": "Он профессиональный спортсмен.",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "утакмица",
+      "sr_latin": "utakmica",
+      "pronunciation_ru": "утАкмица",
+      "translation_ru": "матч, игра",
+      "example_sr": "Утакмица је сутра у осам.",
+      "example_ru": "Матч завтра в восемь.",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "меч",
+      "sr_latin": "meč",
+      "pronunciation_ru": "мЭч",
+      "translation_ru": "матч, поединок",
+      "example_sr": "Тениски меч је трајао три сата.",
+      "example_ru": "Теннисный матч длился три часа.",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "гол",
+      "sr_latin": "gol",
+      "pronunciation_ru": "гОл",
+      "translation_ru": "гол",
+      "example_sr": "Дали смо гол у последњем минуту.",
+      "example_ru": "Мы забили гол на последней минуте.",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "играч",
+      "sr_latin": "igrač",
+      "pronunciation_ru": "игрАч",
+      "translation_ru": "игрок",
+      "example_sr": "Он је најбољи играч у тиму.",
+      "example_ru": "Он лучший игрок в команде.",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "навијач",
+      "sr_latin": "navijač",
+      "pronunciation_ru": "навИјач",
+      "translation_ru": "болельщик, фанат",
+      "example_sr": "Навијачи певају на трибинама.",
+      "example_ru": "Болельщики поют на трибунах.",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "навијати",
+      "sr_latin": "navijati",
+      "pronunciation_ru": "навИјати",
+      "translation_ru": "болеть (за команду)",
+      "example_sr": "За кога навијаш?",
+      "example_ru": "За кого ты болеешь?",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "тим",
+      "sr_latin": "tim",
+      "pronunciation_ru": "тИм",
+      "translation_ru": "команда",
+      "example_sr": "Наш тим је победио.",
+      "example_ru": "Наша команда победила.",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "екипа",
+      "sr_latin": "ekipa",
+      "pronunciation_ru": "экИпа",
+      "translation_ru": "команда, компания (друзей)",
+      "example_sr": "Идемо целом екипом на утакмицу.",
+      "example_ru": "Идём всей компанией на матч.",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "победа",
+      "sr_latin": "pobeda",
+      "pronunciation_ru": "пОбэда",
+      "translation_ru": "победа",
+      "example_sr": "Честитамо на победи!",
+      "example_ru": "Поздравляем с победой!",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "пораз",
+      "sr_latin": "poraz",
+      "pronunciation_ru": "пОраз",
+      "translation_ru": "поражение, проигрыш",
+      "example_sr": "Тежак пораз за домаћи тим.",
+      "example_ru": "Тяжёлое поражение для хозяев поля.",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "резултат",
+      "sr_latin": "rezultat",
+      "pronunciation_ru": "рэзултАт",
+      "translation_ru": "результат, счёт",
+      "example_sr": "Који је резултат утакмице?",
+      "example_ru": "Какой счёт матча?",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "терен",
+      "sr_latin": "teren",
+      "pronunciation_ru": "тЭрэн",
+      "translation_ru": "площадка, поле (спортивное)",
+      "example_sr": "Играмо на отвореном терену.",
+      "example_ru": "Играем на открытой площадке.",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "игралиште",
+      "sr_latin": "igralište",
+      "pronunciation_ru": "игрАлиште",
+      "translation_ru": "игровая (детская) площадка",
+      "example_sr": "Деца се играју на игралишту.",
+      "example_ru": "Дети играют на площадке.",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "стадион",
+      "sr_latin": "stadion",
+      "pronunciation_ru": "стАдион",
+      "translation_ru": "стадион",
+      "example_sr": "Стадион је био пун навијача.",
+      "example_ru": "Стадион был полон болельщиков.",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "сала",
+      "sr_latin": "sala",
+      "pronunciation_ru": "сАла",
+      "translation_ru": "зал",
+      "example_sr": "Имамо тренинг у великој сали.",
+      "example_ru": "У нас тренировка в большом зале.",
+      "false_friend_note": "Звучит как русское «сало», но «сала» по-сербски — это зал."
+    },
+    {
+      "sr_cyrillic": "свлачионица",
+      "sr_latin": "svlačionica",
+      "pronunciation_ru": "свлачиОница",
+      "translation_ru": "раздевалка",
+      "example_sr": "Оставили смо ствари у свлачионици.",
+      "example_ru": "Мы оставили вещи в раздевалке.",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "туш",
+      "sr_latin": "tuš",
+      "pronunciation_ru": "тУш",
+      "translation_ru": "душ",
+      "example_sr": "После тренинга идем под туш.",
+      "example_ru": "После тренировки иду в душ.",
+      "false_friend_note": "Сербское «туш» — это душ. Не путать с русским «туш» (фанфары) или «тушь»."
+    },
+    {
+      "sr_cyrillic": "пешкир",
+      "sr_latin": "peškir",
+      "pronunciation_ru": "пЭшкир",
+      "translation_ru": "полотенце",
+      "example_sr": "Понеси пешкир за базен.",
+      "example_ru": "Возьми полотенце для бассейна.",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "патике",
+      "sr_latin": "patike",
+      "pronunciation_ru": "пАтикэ",
+      "translation_ru": "кроссовки",
+      "example_sr": "Требају ми нове патике за трчање.",
+      "example_ru": "Мне нужны новые кроссовки для бега.",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "дрес",
+      "sr_latin": "dres",
+      "pronunciation_ru": "дрЭс",
+      "translation_ru": "спортивная майка, форма",
+      "example_sr": "Носи дрес омиљеног клуба.",
+      "example_ru": "Он носит форму любимого клуба.",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "тегови",
+      "sr_latin": "tegovi",
+      "pronunciation_ru": "тЭгови",
+      "translation_ru": "гантели, веса (в зале)",
+      "example_sr": "Дижем тегове три пута недељно.",
+      "example_ru": "Я поднимаю веса три раза в неделю.",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "загревање",
+      "sr_latin": "zagrevanje",
+      "pronunciation_ru": "загрЭвање",
+      "translation_ru": "разминка",
+      "example_sr": "Пре трчања обавезно је загревање.",
+      "example_ru": "Перед бегом обязательна разминка.",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "истезање",
+      "sr_latin": "istezanje",
+      "pronunciation_ru": "истЭзање",
+      "translation_ru": "растяжка (стретчинг)",
+      "example_sr": "После вежби радимо истезање.",
+      "example_ru": "После упражнений делаем растяжку.",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "кондиција",
+      "sr_latin": "kondicija",
+      "pronunciation_ru": "кондИција",
+      "translation_ru": "физическая форма, выносливость",
+      "example_sr": "Немам кондицију као раније.",
+      "example_ru": "У меня нет формы, как раньше.",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "мишић",
+      "sr_latin": "mišić",
+      "pronunciation_ru": "мИшич",
+      "translation_ru": "мышца",
+      "example_sr": "Истегао сам мишић на нози.",
+      "example_ru": "Я потянул мышцу на ноге.",
+      "false_friend_note": "«Миш» по-сербски — это мышь, а «мишић» — мышца."
+    },
+    {
+      "sr_cyrillic": "зној",
+      "sr_latin": "znoj",
+      "pronunciation_ru": "знОј",
+      "translation_ru": "пот",
+      "example_sr": "Обрисао је зној са чела.",
+      "example_ru": "Он вытер пот со лба.",
+      "false_friend_note": "Похоже на русское «зной» (жара), но «зној» — это пот."
+    },
+    {
+      "sr_cyrillic": "умор",
+      "sr_latin": "umor",
+      "pronunciation_ru": "Умор",
+      "translation_ru": "усталость",
+      "example_sr": "Осећам умор после посла.",
+      "example_ru": "Чувствую усталость после работы.",
+      "false_friend_note": "Не «умора» (что-то смешное): «умор» по-сербски — это усталость, «уморан» — уставший."
+    },
+    {
+      "sr_cyrillic": "природа",
+      "sr_latin": "priroda",
+      "pronunciation_ru": "прИрода",
+      "translation_ru": "природа",
+      "example_sr": "Волимо да будемо у природи.",
+      "example_ru": "Мы любим быть на природе.",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "река",
+      "sr_latin": "reka",
+      "pronunciation_ru": "рЭка",
+      "translation_ru": "река",
+      "example_sr": "Купамо се у реци лети.",
+      "example_ru": "Летом мы купаемся в реке.",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "језеро",
+      "sr_latin": "jezero",
+      "pronunciation_ru": "јЭзэро",
+      "translation_ru": "озеро",
+      "example_sr": "Провели смо дан на језеру.",
+      "example_ru": "Мы провели день на озере.",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "плажа",
+      "sr_latin": "plaža",
+      "pronunciation_ru": "плАжа",
+      "translation_ru": "пляж",
+      "example_sr": "На плажи има места за све.",
+      "example_ru": "На пляже места хватит всем.",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "сунчање",
+      "sr_latin": "sunčanje",
+      "pronunciation_ru": "сУнчање",
+      "translation_ru": "загорание, приём солнечных ванн",
+      "example_sr": "Идемо на сунчање поред базена.",
+      "example_ru": "Идём загорать у бассейна.",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "ролери",
+      "sr_latin": "roleri",
+      "pronunciation_ru": "рОлери",
+      "translation_ru": "ролики, роликовые коньки",
+      "example_sr": "Деца возе ролере у парку.",
+      "example_ru": "Дети катаются на роликах в парке.",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "клизање",
+      "sr_latin": "klizanje",
+      "pronunciation_ru": "клИзање",
+      "translation_ru": "катание на коньках, скольжение",
+      "example_sr": "Зими идемо на клизање.",
+      "example_ru": "Зимой мы ходим кататься на коньках.",
+      "false_friend_note": ""
+    }
+  ]
+}

@@ -2,6 +2,7 @@
   "id": "vreme_klima",
   "title_ru": "🌦 Погода",
   "title_sr": "Време (клима)",
+  "_note": "Черновик: сгенерировано AI и вычитано AI-корректором «как носитель». Не проверено носителем-человеком.",
   "words": [
     {
       "sr_cyrillic": "време",
@@ -380,6 +381,258 @@
       "example_sr": "Крајем недеље следи отопљење.",
       "example_ru": "К концу недели наступит потепление.",
       "false_friend_note": "«Отопљење» звучит как «отопление», но означает потепление (погоды). Отопление (батареи) по-сербски — «грејање»."
+    },
+    {
+      "sr_cyrillic": "невреме",
+      "sr_latin": "nevreme",
+      "pronunciation_ru": "нЭврэмэ",
+      "translation_ru": "непогода, ненастье",
+      "example_sr": "Стиже невреме, боље да останемо код куће.",
+      "example_ru": "Надвигается непогода, лучше останемся дома.",
+      "false_friend_note": "«Невреме» — буквально «не-погода», то есть ненастье, буря. Не путать с русским «не время»."
+    },
+    {
+      "sr_cyrillic": "олуја",
+      "sr_latin": "oluja",
+      "pronunciation_ru": "Олуя",
+      "translation_ru": "буря, шторм",
+      "example_sr": "Синоћ је била јака олуја са грмљавином.",
+      "example_ru": "Вчера вечером была сильная буря с грозой.",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "промаја",
+      "sr_latin": "promaja",
+      "pronunciation_ru": "прОмая",
+      "translation_ru": "сквозняк",
+      "example_sr": "Затвори прозор, направићеш промају.",
+      "example_ru": "Закрой окно, устроишь сквозняк.",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "поветарац",
+      "sr_latin": "povetarac",
+      "pronunciation_ru": "повЭтарац",
+      "translation_ru": "лёгкий ветерок",
+      "example_sr": "Дува пријатан поветарац са реке.",
+      "example_ru": "С реки дует приятный ветерок.",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "мраз",
+      "sr_latin": "mraz",
+      "pronunciation_ru": "мрАз",
+      "translation_ru": "мороз",
+      "example_sr": "Ноћас се очекује јак мраз.",
+      "example_ru": "Ночью ожидается сильный мороз.",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "иње",
+      "sr_latin": "inje",
+      "pronunciation_ru": "Инье",
+      "translation_ru": "иней",
+      "example_sr": "Дрвеће је ујутру било под ињем.",
+      "example_ru": "Утром деревья были покрыты инеем.",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "пахуља",
+      "sr_latin": "pahulja",
+      "pronunciation_ru": "пАхуља",
+      "translation_ru": "снежинка",
+      "example_sr": "Падају крупне пахуље.",
+      "example_ru": "Падают крупные снежинки.",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "мећава",
+      "sr_latin": "mećava",
+      "pronunciation_ru": "мЭчьава",
+      "translation_ru": "метель, вьюга",
+      "example_sr": "Због мећаве су путеви затворени.",
+      "example_ru": "Из-за метели дороги закрыты.",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "суша",
+      "sr_latin": "suša",
+      "pronunciation_ru": "сУша",
+      "translation_ru": "засуха",
+      "example_sr": "Ово лето је велика суша.",
+      "example_ru": "Этим летом сильная засуха.",
+      "false_friend_note": "Сербское «суша» — это засуха. Русское «суша» (земля, не море) по-сербски — «копно»."
+    },
+    {
+      "sr_cyrillic": "поплава",
+      "sr_latin": "poplava",
+      "pronunciation_ru": "пОплава",
+      "translation_ru": "наводнение",
+      "example_sr": "После јаке кише прети поплава.",
+      "example_ru": "После сильного дождя грозит наводнение.",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "падавине",
+      "sr_latin": "padavine",
+      "pronunciation_ru": "пАдавинэ",
+      "translation_ru": "осадки",
+      "example_sr": "Сутра се не очекују падавине.",
+      "example_ru": "Завтра осадков не ожидается.",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "роса",
+      "sr_latin": "rosa",
+      "pronunciation_ru": "рОса",
+      "translation_ru": "роса",
+      "example_sr": "Трава је мокра од росе.",
+      "example_ru": "Трава мокрая от росы.",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "измаглица",
+      "sr_latin": "izmaglica",
+      "pronunciation_ru": "Измаглица",
+      "translation_ru": "дымка, лёгкий туман",
+      "example_sr": "Над реком је лака измаглица.",
+      "example_ru": "Над рекой лёгкая дымка.",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "притисак",
+      "sr_latin": "pritisak",
+      "pronunciation_ru": "прИтисак",
+      "translation_ru": "давление (атмосферное)",
+      "example_sr": "Боли ме глава због притиска.",
+      "example_ru": "У меня болит голова из-за давления.",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "ваздух",
+      "sr_latin": "vazduh",
+      "pronunciation_ru": "вАздух",
+      "translation_ru": "воздух",
+      "example_sr": "После кише је ваздух свеж.",
+      "example_ru": "После дождя воздух свежий.",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "влажност",
+      "sr_latin": "vlažnost",
+      "pronunciation_ru": "влАжност",
+      "translation_ru": "влажность",
+      "example_sr": "Данас је висока влажност ваздуха.",
+      "example_ru": "Сегодня высокая влажность воздуха.",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "облачност",
+      "sr_latin": "oblačnost",
+      "pronunciation_ru": "Облачност",
+      "translation_ru": "облачность",
+      "example_sr": "Током дана расте облачност.",
+      "example_ru": "В течение дня усиливается облачность.",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "хладноћа",
+      "sr_latin": "hladnoća",
+      "pronunciation_ru": "хладнОчьа",
+      "translation_ru": "холод, стужа",
+      "example_sr": "Ова хладноћа траје већ недељу дана.",
+      "example_ru": "Этот холод длится уже неделю.",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "топлотни талас",
+      "sr_latin": "toplotni talas",
+      "pronunciation_ru": "тОплотни тАлас",
+      "translation_ru": "сильная жара, «тепловая волна»",
+      "example_sr": "Најављују топлотни талас за викенд.",
+      "example_ru": "На выходные обещают сильную жару.",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "спарно",
+      "sr_latin": "sparno",
+      "pronunciation_ru": "спАрно",
+      "translation_ru": "душно (жарко и влажно)",
+      "example_sr": "Пред кишу је обично спарно.",
+      "example_ru": "Перед дождём обычно душно.",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "загушљиво",
+      "sr_latin": "zagušljivo",
+      "pronunciation_ru": "загУшливо",
+      "translation_ru": "душно (нечем дышать)",
+      "example_sr": "Отвори прозор, овде је загушљиво.",
+      "example_ru": "Открой окно, здесь душно.",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "кишно",
+      "sr_latin": "kišno",
+      "pronunciation_ru": "кИшно",
+      "translation_ru": "дождливо",
+      "example_sr": "Данас је облачно и кишно.",
+      "example_ru": "Сегодня облачно и дождливо.",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "магловито",
+      "sr_latin": "maglovito",
+      "pronunciation_ru": "мАгловито",
+      "translation_ru": "туманно",
+      "example_sr": "Ујутру је магловито, вози опрезно.",
+      "example_ru": "Утром туманно, веди машину осторожно.",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "клизаво",
+      "sr_latin": "klizavo",
+      "pronunciation_ru": "клИзаво",
+      "translation_ru": "скользко",
+      "example_sr": "Напољу је клизаво, има леда.",
+      "example_ru": "На улице скользко, есть лёд.",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "хладовина",
+      "sr_latin": "hladovina",
+      "pronunciation_ru": "хладОвина",
+      "translation_ru": "тень (прохлада)",
+      "example_sr": "Седимо у хладовини, много је вруће.",
+      "example_ru": "Сидим в тени, очень жарко.",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "зима",
+      "sr_latin": "zima",
+      "pronunciation_ru": "зИма",
+      "translation_ru": "зима; холод",
+      "example_sr": "Зима ми је, дај ми ћебе.",
+      "example_ru": "Мне холодно, дай мне одеяло.",
+      "false_friend_note": "«Зима» — это зима, но «зима ми је» значит «мне холодно» (знобит), а не «у меня зима»."
+    },
+    {
+      "sr_cyrillic": "лето",
+      "sr_latin": "leto",
+      "pronunciation_ru": "лЭто",
+      "translation_ru": "лето",
+      "example_sr": "Ово лето је веома топло.",
+      "example_ru": "Это лето очень тёплое.",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "годишње доба",
+      "sr_latin": "godišnje doba",
+      "pronunciation_ru": "гОдишнье дОба",
+      "translation_ru": "время года",
+      "example_sr": "Јесен је моје омиљено годишње доба.",
+      "example_ru": "Осень — моё любимое время года.",
+      "false_friend_note": ""
     }
   ]
 }

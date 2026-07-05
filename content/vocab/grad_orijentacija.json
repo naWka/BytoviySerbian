@@ -2,6 +2,7 @@
   "id": "grad_orijentacija",
   "title_ru": "🧭 Город и ориентиры",
   "title_sr": "Град и оријентација",
+  "_note": "Черновик: сгенерировано AI и вычитано AI-корректором «как носитель». Не проверено носителем-человеком.",
   "words": [
     {
       "sr_cyrillic": "улица",
@@ -379,6 +380,258 @@
       "translation_ru": "адрес",
       "example_sr": "Дајте ми тачну адресу.",
       "example_ru": "Дайте мне точный адрес.",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "булевар",
+      "sr_latin": "bulevar",
+      "pronunciation_ru": "булЭвар",
+      "translation_ru": "бульвар, проспект",
+      "example_sr": "Идите булеваром до другог семафора.",
+      "example_ru": "Идите по бульвару до второго светофора.",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "аутопут",
+      "sr_latin": "autoput",
+      "pronunciation_ru": "Аутопут",
+      "translation_ru": "шоссе, автомагистраль",
+      "example_sr": "Аутопут за Ниш је ту близу.",
+      "example_ru": "Шоссе на Ниш совсем рядом.",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "обилазница",
+      "sr_latin": "obilaznica",
+      "pronunciation_ru": "обилАзница",
+      "translation_ru": "объездная, окружная дорога",
+      "example_sr": "Идите обилазницом да избегнете гужву.",
+      "example_ru": "Езжайте по объездной, чтобы объехать пробку.",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "пречица",
+      "sr_latin": "prečica",
+      "pronunciation_ru": "прЭчица",
+      "translation_ru": "короткий путь, срезка",
+      "example_sr": "Има пречица кроз двориште.",
+      "example_ru": "Есть короткий путь через двор.",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "ћорсокак",
+      "sr_latin": "ćorsokak",
+      "pronunciation_ru": "чОрсокак",
+      "translation_ru": "тупик",
+      "example_sr": "Не идите тамо, то је ћорсокак.",
+      "example_ru": "Не ходите туда, это тупик.",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "подземни пролаз",
+      "sr_latin": "podzemni prolaz",
+      "pronunciation_ru": "пОдземни прОлаз",
+      "translation_ru": "подземный переход",
+      "example_sr": "Пређите улицу кроз подземни пролаз.",
+      "example_ru": "Перейдите улицу через подземный переход.",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "угао",
+      "sr_latin": "ugao",
+      "pronunciation_ru": "Угао",
+      "translation_ru": "угол",
+      "example_sr": "Продавница је одмах на углу.",
+      "example_ru": "Магазин сразу на углу.",
+      "false_friend_note": "То же, что «ћошак», но более нейтральное, книжное слово."
+    },
+    {
+      "sr_cyrillic": "улаз",
+      "sr_latin": "ulaz",
+      "pronunciation_ru": "Улаз",
+      "translation_ru": "вход; подъезд",
+      "example_sr": "Чекам вас код улаза у зграду.",
+      "example_ru": "Жду вас у входа в здание.",
+      "false_friend_note": "«Улаз» — это ещё и «подъезд» дома, не только «вход»."
+    },
+    {
+      "sr_cyrillic": "излаз",
+      "sr_latin": "izlaz",
+      "pronunciation_ru": "Излаз",
+      "translation_ru": "выход",
+      "example_sr": "Излаз је на другој страни зграде.",
+      "example_ru": "Выход с другой стороны здания.",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "путоказ",
+      "sr_latin": "putokaz",
+      "pronunciation_ru": "пУтоказ",
+      "translation_ru": "указатель, дорожный знак с направлением",
+      "example_sr": "Прати путоказе за центар.",
+      "example_ru": "Следуй указателям на центр.",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "знак",
+      "sr_latin": "znak",
+      "pronunciation_ru": "знак",
+      "translation_ru": "знак",
+      "example_sr": "Скрените где је знак за болницу.",
+      "example_ru": "Поверните, где знак на больницу.",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "број",
+      "sr_latin": "broj",
+      "pronunciation_ru": "брой",
+      "translation_ru": "номер, число",
+      "example_sr": "Тражим зграду број петнаест.",
+      "example_ru": "Ищу дом номер пятнадцать.",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "четврт",
+      "sr_latin": "četvrt",
+      "pronunciation_ru": "чЭтврт",
+      "translation_ru": "квартал (города); четверть",
+      "example_sr": "Живим у мирној четврти.",
+      "example_ru": "Живу в тихом квартале.",
+      "false_friend_note": "«Четврт» — «квартал» или «четверть», а не «четверг» (то — «четвртак»)."
+    },
+    {
+      "sr_cyrillic": "солитер",
+      "sr_latin": "soliter",
+      "pronunciation_ru": "солитЭр",
+      "translation_ru": "высотка, многоэтажка",
+      "example_sr": "Станујем у оном солитеру.",
+      "example_ru": "Живу вон в той высотке.",
+      "false_friend_note": "«Солитер» — это высотный дом, не пасьянс и не одиночка."
+    },
+    {
+      "sr_cyrillic": "споменик",
+      "sr_latin": "spomenik",
+      "pronunciation_ru": "спОменик",
+      "translation_ru": "памятник",
+      "example_sr": "Нађимо се код споменика на тргу.",
+      "example_ru": "Встретимся у памятника на площади.",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "фонтана",
+      "sr_latin": "fontana",
+      "pronunciation_ru": "фонтАна",
+      "translation_ru": "фонтан",
+      "example_sr": "Деца се играју поред фонтане.",
+      "example_ru": "Дети играют у фонтана.",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "црква",
+      "sr_latin": "crkva",
+      "pronunciation_ru": "цРква",
+      "translation_ru": "церковь",
+      "example_sr": "Скрените лево иза цркве.",
+      "example_ru": "Поверните налево за церковью.",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "капија",
+      "sr_latin": "kapija",
+      "pronunciation_ru": "кАпия",
+      "translation_ru": "ворота, калитка",
+      "example_sr": "Сачекаћу те код капије.",
+      "example_ru": "Подожду тебя у ворот.",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "степенице",
+      "sr_latin": "stepenice",
+      "pronunciation_ru": "стЭпенице",
+      "translation_ru": "лестница, ступени",
+      "example_sr": "Лифт не ради, идите степеницама.",
+      "example_ru": "Лифт не работает, идите по лестнице.",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "лифт",
+      "sr_latin": "lift",
+      "pronunciation_ru": "лифт",
+      "translation_ru": "лифт",
+      "example_sr": "Лифт је покварен.",
+      "example_ru": "Лифт сломан.",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "север",
+      "sr_latin": "sever",
+      "pronunciation_ru": "сЭвер",
+      "translation_ru": "север",
+      "example_sr": "Идите ка северу, ка Дунаву.",
+      "example_ru": "Идите на север, к Дунаю.",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "југ",
+      "sr_latin": "jug",
+      "pronunciation_ru": "юг",
+      "translation_ru": "юг",
+      "example_sr": "Аутопут иде на југ.",
+      "example_ru": "Шоссе идёт на юг.",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "исток",
+      "sr_latin": "istok",
+      "pronunciation_ru": "Исток",
+      "translation_ru": "восток",
+      "example_sr": "Сунце излази на истоку.",
+      "example_ru": "Солнце встаёт на востоке.",
+      "false_friend_note": "«Исток» — это «восток», а не «источник» или «исток реки»."
+    },
+    {
+      "sr_cyrillic": "запад",
+      "sr_latin": "zapad",
+      "pronunciation_ru": "зАпад",
+      "translation_ru": "запад",
+      "example_sr": "Ветар дува са запада.",
+      "example_ru": "Ветер дует с запада.",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "горе",
+      "sr_latin": "gore",
+      "pronunciation_ru": "гОре",
+      "translation_ru": "вверх, наверху",
+      "example_sr": "Станујем горе, на последњем спрату.",
+      "example_ru": "Живу наверху, на последнем этаже.",
+      "false_friend_note": "«Горе» — это «вверх/наверху» (а ещё «хуже»), а не «горе/печаль»."
+    },
+    {
+      "sr_cyrillic": "доле",
+      "sr_latin": "dole",
+      "pronunciation_ru": "дОле",
+      "translation_ru": "вниз, внизу",
+      "example_sr": "Продавница је доле, у приземљу.",
+      "example_ru": "Магазин внизу, на первом этаже.",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "гужва",
+      "sr_latin": "gužva",
+      "pronunciation_ru": "гУжва",
+      "translation_ru": "пробка; толчея, толпа",
+      "example_sr": "У центру је увек гужва.",
+      "example_ru": "В центре всегда толчея и пробки.",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "изгубио сам се",
+      "sr_latin": "izgubio sam se",
+      "pronunciation_ru": "изгУбио сам се",
+      "translation_ru": "я заблудился, я потерялся",
+      "example_sr": "Извините, изгубио сам се, тражим станицу.",
+      "example_ru": "Извините, я заблудился, ищу станцию.",
       "false_friend_note": ""
     }
   ]

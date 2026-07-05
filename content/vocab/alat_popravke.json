@@ -2,6 +2,7 @@
   "id": "alat_popravke",
   "title_ru": "🛠 Инструменты и ремонт",
   "title_sr": "Алат и поправке",
+  "_note": "Черновик: сгенерировано AI и вычитано AI-корректором «как носитель». Не проверено носителем-человеком.",
   "words": [
     {
       "sr_cyrillic": "чекић",
@@ -380,6 +381,258 @@
       "example_sr": "Поправка ће бити готова до петка.",
       "example_ru": "Ремонт будет готов к пятнице.",
       "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "алат",
+      "sr_latin": "alat",
+      "pronunciation_ru": "Алат",
+      "translation_ru": "инструмент, инструменты",
+      "example_sr": "Донеси ми алат из гараже.",
+      "example_ru": "Принеси мне инструмент из гаража.",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "типла",
+      "sr_latin": "tipla",
+      "pronunciation_ru": "тИпла",
+      "translation_ru": "дюбель",
+      "example_sr": "Убаци типлу пре него што завијеш шраф.",
+      "example_ru": "Вставь дюбель, прежде чем закручивать шуруп.",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "матица",
+      "sr_latin": "matica",
+      "pronunciation_ru": "мАтица",
+      "translation_ru": "гайка",
+      "example_sr": "Затегни матицу кључем.",
+      "example_ru": "Затяни гайку ключом.",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "подлошка",
+      "sr_latin": "podloška",
+      "pronunciation_ru": "пОдлошка",
+      "translation_ru": "шайба",
+      "example_sr": "Не заборави подлошку испод матице.",
+      "example_ru": "Не забудь шайбу под гайкой.",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "бургија",
+      "sr_latin": "burgija",
+      "pronunciation_ru": "бУргия",
+      "translation_ru": "сверло",
+      "example_sr": "Стави дебљу бургију за бетон.",
+      "example_ru": "Поставь сверло потолще для бетона.",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "завртањ",
+      "sr_latin": "zavrtanj",
+      "pronunciation_ru": "зАвртань",
+      "translation_ru": "винт, болт",
+      "example_sr": "Овај завртањ је зарђао.",
+      "example_ru": "Этот винт заржавел.",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "гипс",
+      "sr_latin": "gips",
+      "pronunciation_ru": "гИпс",
+      "translation_ru": "гипс",
+      "example_sr": "Закрпи рупу гипсом.",
+      "example_ru": "Заделай дыру гипсом.",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "цемент",
+      "sr_latin": "cement",
+      "pronunciation_ru": "цЭмэнт",
+      "translation_ru": "цемент",
+      "example_sr": "Треба ми врећа цемента.",
+      "example_ru": "Мне нужен мешок цемента.",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "даска",
+      "sr_latin": "daska",
+      "pronunciation_ru": "дАска",
+      "translation_ru": "доска",
+      "example_sr": "Одсеци даску на пола.",
+      "example_ru": "Отрежь доску пополам.",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "летва",
+      "sr_latin": "letva",
+      "pronunciation_ru": "лЭтва",
+      "translation_ru": "рейка, брусок",
+      "example_sr": "Прикуцај летву на зид.",
+      "example_ru": "Прибей рейку к стене.",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "рупа",
+      "sr_latin": "rupa",
+      "pronunciation_ru": "рУпа",
+      "translation_ru": "отверстие, дыра",
+      "example_sr": "Избушио сам рупу за слику.",
+      "example_ru": "Я просверлил отверстие для картины.",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "брусилица",
+      "sr_latin": "brusilica",
+      "pronunciation_ru": "брУсилица",
+      "translation_ru": "болгарка, шлифмашина",
+      "example_sr": "Пресеци шипку брусилицом.",
+      "example_ru": "Разрежь прут болгаркой.",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "шпатула",
+      "sr_latin": "špatula",
+      "pronunciation_ru": "шпАтула",
+      "translation_ru": "шпатель",
+      "example_sr": "Поравнај зид шпатулом.",
+      "example_ru": "Выровняй стену шпателем.",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "лемилица",
+      "sr_latin": "lemilica",
+      "pronunciation_ru": "лЭмилица",
+      "translation_ru": "паяльник",
+      "example_sr": "Залеми жицу лемилицом.",
+      "example_ru": "Припаяй провод паяльником.",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "продужни кабл",
+      "sr_latin": "produžni kabl",
+      "pronunciation_ru": "прОдужни кАбл",
+      "translation_ru": "удлинитель",
+      "example_sr": "Укључи бушилицу преко продужног кабла.",
+      "example_ru": "Подключи дрель через удлинитель.",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "батеријска лампа",
+      "sr_latin": "baterijska lampa",
+      "pronunciation_ru": "батЭрийска лАмпа",
+      "translation_ru": "фонарик",
+      "example_sr": "Узми батеријску лампу, нема струје.",
+      "example_ru": "Возьми фонарик, нет света.",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "брава",
+      "sr_latin": "brava",
+      "pronunciation_ru": "брАва",
+      "translation_ru": "замок (дверной)",
+      "example_sr": "Брава на вратима се заглавила.",
+      "example_ru": "Замок на двери заклинило.",
+      "false_friend_note": "Не путать с «браво»: «брава» по-сербски — это дверной замок."
+    },
+    {
+      "sr_cyrillic": "квака",
+      "sr_latin": "kvaka",
+      "pronunciation_ru": "квАка",
+      "translation_ru": "дверная ручка",
+      "example_sr": "Отпала је квака са врата.",
+      "example_ru": "С двери отвалилась ручка.",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "шарка",
+      "sr_latin": "šarka",
+      "pronunciation_ru": "шАрка",
+      "translation_ru": "петля (дверная)",
+      "example_sr": "Шарке на вратима шкрипе.",
+      "example_ru": "Дверные петли скрипят.",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "реза",
+      "sr_latin": "reza",
+      "pronunciation_ru": "рЭза",
+      "translation_ru": "задвижка, засов",
+      "example_sr": "Затвори резу на капији.",
+      "example_ru": "Закрой задвижку на калитке.",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "бојлер",
+      "sr_latin": "bojler",
+      "pronunciation_ru": "бОйлэр",
+      "translation_ru": "бойлер, водонагреватель",
+      "example_sr": "Бојлер не греје воду.",
+      "example_ru": "Бойлер не греет воду.",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "вентил",
+      "sr_latin": "ventil",
+      "pronunciation_ru": "вЭнтил",
+      "translation_ru": "вентиль, клапан",
+      "example_sr": "Затвори вентил за воду пре поправке.",
+      "example_ru": "Перекрой вентиль воды перед ремонтом.",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "сифон",
+      "sr_latin": "sifon",
+      "pronunciation_ru": "сИфон",
+      "translation_ru": "сифон (под раковиной)",
+      "example_sr": "Сифон испод лавабоа цури.",
+      "example_ru": "Сифон под раковиной течёт.",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "покварен",
+      "sr_latin": "pokvaren",
+      "pronunciation_ru": "пОкварэн",
+      "translation_ru": "сломанный, неисправный",
+      "example_sr": "Фрижидер је покварен.",
+      "example_ru": "Холодильник сломан.",
+      "false_friend_note": "«Покварен» — это сломанный (о технике), но так же говорят про испорченную еду и про шкодливого ребёнка."
+    },
+    {
+      "sr_cyrillic": "не ради",
+      "sr_latin": "ne radi",
+      "pronunciation_ru": "нэ рАди",
+      "translation_ru": "не работает",
+      "example_sr": "Прекидач не ради.",
+      "example_ru": "Выключатель не работает.",
+      "false_friend_note": "«Ради» здесь не «ради (кого-то)», а «работает». «Не ради» = не работает."
+    },
+    {
+      "sr_cyrillic": "бушити",
+      "sr_latin": "bušiti",
+      "pronunciation_ru": "бУшити",
+      "translation_ru": "сверлить",
+      "example_sr": "Немој да бушиш ту, туда иде струја.",
+      "example_ru": "Не сверли тут, здесь проходит проводка.",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "заменити",
+      "sr_latin": "zameniti",
+      "pronunciation_ru": "зАмэнити",
+      "translation_ru": "заменить, поменять",
+      "example_sr": "Треба заменити стару славину.",
+      "example_ru": "Надо заменить старый кран.",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "поправити",
+      "sr_latin": "popraviti",
+      "pronunciation_ru": "пОправити",
+      "translation_ru": "починить, отремонтировать",
+      "example_sr": "Можеш ли да поправиш ролетну?",
+      "example_ru": "Можешь починить рольставни?",
+      "false_friend_note": "Русское «поправить» — скорее подкорректировать; сербское «поправити» — это починить, отремонтировать."
     }
   ]
 }

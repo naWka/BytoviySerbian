@@ -2,6 +2,7 @@
   "id": "brojevi",
   "title_ru": "🔢 Числа",
   "title_sr": "Бројеви",
+  "_note": "Черновик: сгенерировано AI и вычитано AI-корректором «как носитель». Не проверено носителем-человеком.",
   "words": [
     {
       "sr_cyrillic": "број",
@@ -380,6 +381,276 @@
       "example_sr": "Имамо двадесет посто попуста.",
       "example_ru": "У нас скидка двадцать процентов.",
       "false_friend_note": "«посто» в речи — это «процентов» (двадесет посто = 20%), а не «по сто»."
+    },
+    {
+      "sr_cyrillic": "три",
+      "sr_latin": "tri",
+      "pronunciation_ru": "трИ",
+      "translation_ru": "три",
+      "example_sr": "Дајте ми три кифле.",
+      "example_ru": "Дайте мне три булочки.",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "четири",
+      "sr_latin": "četiri",
+      "pronunciation_ru": "чЭтири",
+      "translation_ru": "четыре",
+      "example_sr": "Купио сам четири јабуке.",
+      "example_ru": "Я купил четыре яблока.",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "шест",
+      "sr_latin": "šest",
+      "pronunciation_ru": "шЭст",
+      "translation_ru": "шесть",
+      "example_sr": "Отворено је од шест ујутру.",
+      "example_ru": "Открыто с шести утра.",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "седам",
+      "sr_latin": "sedam",
+      "pronunciation_ru": "сЭдам",
+      "translation_ru": "семь",
+      "example_sr": "Радимо до седам увече.",
+      "example_ru": "Работаем до семи вечера.",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "осам",
+      "sr_latin": "osam",
+      "pronunciation_ru": "Осам",
+      "translation_ru": "восемь",
+      "example_sr": "Аутобус креће у осам.",
+      "example_ru": "Автобус отходит в восемь.",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "девет",
+      "sr_latin": "devet",
+      "pronunciation_ru": "дЭвет",
+      "translation_ru": "девять",
+      "example_sr": "Сада је девет сати.",
+      "example_ru": "Сейчас девять часов.",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "једанаест",
+      "sr_latin": "jedanaest",
+      "pronunciation_ru": "йЕданаест",
+      "translation_ru": "одиннадцать",
+      "example_sr": "Воз стиже у једанаест.",
+      "example_ru": "Поезд прибывает в одиннадцать.",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "тринаест",
+      "sr_latin": "trinaest",
+      "pronunciation_ru": "трИнаест",
+      "translation_ru": "тринадцать",
+      "example_sr": "Има тринаест година.",
+      "example_ru": "Ему тринадцать лет.",
+      "false_friend_note": "Не путайте с «тридесет» (30); окончание -наест = ...надцать."
+    },
+    {
+      "sr_cyrillic": "петнаест",
+      "sr_latin": "petnaest",
+      "pronunciation_ru": "пЭтнаест",
+      "translation_ru": "пятнадцать",
+      "example_sr": "Сачекајте петнаест минута.",
+      "example_ru": "Подождите пятнадцать минут.",
+      "false_friend_note": "Не путайте с «педесет» (50); -наест = ...надцать."
+    },
+    {
+      "sr_cyrillic": "шеснаест",
+      "sr_latin": "šesnaest",
+      "pronunciation_ru": "шЭснаест",
+      "translation_ru": "шестнадцать",
+      "example_sr": "Аутобус број шеснаест иде до центра.",
+      "example_ru": "Автобус номер шестнадцать идёт до центра.",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "седамнаест",
+      "sr_latin": "sedamnaest",
+      "pronunciation_ru": "сЭдамнаест",
+      "translation_ru": "семнадцать",
+      "example_sr": "Кошта седамнаест евра.",
+      "example_ru": "Стоит семнадцать евро.",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "осамнаест",
+      "sr_latin": "osamnaest",
+      "pronunciation_ru": "Осамнаест",
+      "translation_ru": "восемнадцать",
+      "example_sr": "Пунолетство је са осамнаест година.",
+      "example_ru": "Совершеннолетие наступает в восемнадцать лет.",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "деветнаест",
+      "sr_latin": "devetnaest",
+      "pronunciation_ru": "дЭветнаест",
+      "translation_ru": "девятнадцать",
+      "example_sr": "Има деветнаест степеница.",
+      "example_ru": "Тут девятнадцать ступенек.",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "тридесет",
+      "sr_latin": "trideset",
+      "pronunciation_ru": "трИдесет",
+      "translation_ru": "тридцать",
+      "example_sr": "Има тридесет година.",
+      "example_ru": "Ему тридцать лет.",
+      "false_friend_note": "Не путайте с «тринаест» (13); «тридесет» — это 30."
+    },
+    {
+      "sr_cyrillic": "шездесет",
+      "sr_latin": "šezdeset",
+      "pronunciation_ru": "шЭздесет",
+      "translation_ru": "шестьдесят",
+      "example_sr": "Има шездесет година, у пензији је.",
+      "example_ru": "Ему шестьдесят, он на пенсии.",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "седамдесет",
+      "sr_latin": "sedamdeset",
+      "pronunciation_ru": "сЭдамдесет",
+      "translation_ru": "семьдесят",
+      "example_sr": "То је седамдесет динара.",
+      "example_ru": "Это семьдесят динаров.",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "осамдесет",
+      "sr_latin": "osamdeset",
+      "pronunciation_ru": "Осамдесет",
+      "translation_ru": "восемьдесят",
+      "example_sr": "Баби је осамдесет година.",
+      "example_ru": "Бабушке восемьдесят лет.",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "деведесет",
+      "sr_latin": "devedeset",
+      "pronunciation_ru": "дЭведесет",
+      "translation_ru": "девяносто",
+      "example_sr": "Кошта деведесет динара.",
+      "example_ru": "Стоит девяносто динаров.",
+      "false_friend_note": "«деведесет» — это 90, легко спутать с «деветнаест» (19)."
+    },
+    {
+      "sr_cyrillic": "триста",
+      "sr_latin": "trista",
+      "pronunciation_ru": "трИста",
+      "translation_ru": "триста",
+      "example_sr": "Карта кошта триста динара.",
+      "example_ru": "Билет стоит триста динаров.",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "четиристо",
+      "sr_latin": "četiristo",
+      "pronunciation_ru": "чЭтиристо",
+      "translation_ru": "четыреста",
+      "example_sr": "Дуг је четиристо динара.",
+      "example_ru": "Долг — четыреста динаров.",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "шестсто",
+      "sr_latin": "šeststo",
+      "pronunciation_ru": "шЭстсто",
+      "translation_ru": "шестьсот",
+      "example_sr": "Кирија је шестсто евра.",
+      "example_ru": "Аренда — шестьсот евро.",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "деветсто",
+      "sr_latin": "devetsto",
+      "pronunciation_ru": "дЭветсто",
+      "translation_ru": "девятьсот",
+      "example_sr": "Остало је деветсто динара.",
+      "example_ru": "Осталось девятьсот динаров.",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "шести",
+      "sr_latin": "šesti",
+      "pronunciation_ru": "шЭсти",
+      "translation_ru": "шестой",
+      "example_sr": "Живим на шестом спрату.",
+      "example_ru": "Живу на шестом этаже.",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "седми",
+      "sr_latin": "sedmi",
+      "pronunciation_ru": "сЭдми",
+      "translation_ru": "седьмой",
+      "example_sr": "Данас је седми март.",
+      "example_ru": "Сегодня седьмое марта.",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "осми",
+      "sr_latin": "osmi",
+      "pronunciation_ru": "Осми",
+      "translation_ru": "восьмой",
+      "example_sr": "Осми март је празник.",
+      "example_ru": "Восьмое марта — праздник.",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "девети",
+      "sr_latin": "deveti",
+      "pronunciation_ru": "дЭвети",
+      "translation_ru": "девятый",
+      "example_sr": "Он је девети по реду.",
+      "example_ru": "Он девятый по счёту.",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "колико",
+      "sr_latin": "koliko",
+      "pronunciation_ru": "кОлико",
+      "translation_ru": "сколько",
+      "example_sr": "Колико кошта ово?",
+      "example_ru": "Сколько это стоит?",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "који",
+      "sr_latin": "koji",
+      "pronunciation_ru": "кОйи",
+      "translation_ru": "который, какой",
+      "example_sr": "Који аутобус иде до центра?",
+      "example_ru": "Какой автобус идёт до центра?",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "половина",
+      "sr_latin": "polovina",
+      "pronunciation_ru": "полОвина",
+      "translation_ru": "половина",
+      "example_sr": "Прошла је половина месеца.",
+      "example_ru": "Прошла половина месяца.",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "комад",
+      "sr_latin": "komad",
+      "pronunciation_ru": "кОмад",
+      "translation_ru": "штука, кусок",
+      "example_sr": "Колико кошта комад?",
+      "example_ru": "Сколько стоит штука?",
+      "false_friend_note": ""
     }
   ]
 }

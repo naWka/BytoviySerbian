@@ -10,14 +10,15 @@ const ROOT = join(dirname(fileURLToPath(import.meta.url)), '..');
 const CONTENT = join(ROOT, 'content');
 
 const DECK_ORDER = [
-  'uctivost', 'glagoli', 'brojevi', 'vreme_sati', 'dani_meseci', 'pitanja_reci',
-  'predlozi_veznici', 'novac_cene', 'namirnice', 'voce_povrce', 'meso_riba',
-  'mleko_pekara', 'restoran_meni', 'prodavnice_usluge', 'odeca', 'boje', 'telo',
-  'simptomi', 'apoteka_lekovi', 'lekar_bolnica', 'dokumenti', 'stan_kuca', 'namestaj',
-  'kuhinja', 'kupatilo', 'ciscenje', 'alat_popravke', 'prevoz', 'auto_voznja',
-  'grad_orijentacija', 'vreme_klima', 'banka_finansije', 'telefon_internet',
-  'posao_kancelarija', 'porodica_ljudi', 'emocije_pridevi', 'zivotinje_priroda',
-  'skola_obrazovanje', 'lazni_prijatelji',
+  'uctivost', 'glagoli', 'pitanja_reci', 'predlozi_veznici', 'brojevi', 'vreme_sati',
+  'dani_meseci', 'novac_cene', 'banka_finansije', 'namirnice', 'voce_povrce', 'meso_riba',
+  'mleko_pekara', 'restoran_meni', 'kafic_izlazak', 'prodavnice_usluge', 'posta_dostava',
+  'odeca', 'boje', 'frizer_lepota', 'telo', 'simptomi', 'apoteka_lekovi', 'lekar_bolnica',
+  'hitni_slucajevi', 'dokumenti', 'stan_kuca', 'namestaj', 'kuhinja', 'kupatilo', 'ciscenje',
+  'alat_popravke', 'komsije_zgrada', 'prevoz', 'auto_voznja', 'grad_orijentacija', 'vreme_klima',
+  'telefon_internet', 'racunar_tehnika', 'posao_kancelarija', 'porodica_ljudi', 'deca_bebe',
+  'emocije_pridevi', 'skola_obrazovanje', 'sport_rekreacija', 'muzika_zabava', 'praznici_proslave',
+  'zivotinje_priroda', 'biljke_baste', 'lazni_prijatelji',
 ];
 
 function collect(subdir, order) {

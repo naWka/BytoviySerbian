@@ -1,0 +1,638 @@
+{
+  "id": "telefon_internet",
+  "title_ru": "📱 Телефон и интернет",
+  "title_sr": "Телефон и интернет",
+  "_note": "Черновик: сгенерировано AI и вычитано AI-корректором «как носитель». Не проверено носителем-человеком.",
+  "words": [
+    {
+      "sr_cyrillic": "телефон",
+      "sr_latin": "telefon",
+      "pronunciation_ru": "телЕфон",
+      "translation_ru": "телефон",
+      "example_sr": "Заборавио сам телефон код куће.",
+      "example_ru": "Я забыл телефон дома.",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "мобилни",
+      "sr_latin": "mobilni",
+      "pronunciation_ru": "мОбилни",
+      "translation_ru": "мобильный (телефон)",
+      "example_sr": "Дај ми твој мобилни, мој се угасио.",
+      "example_ru": "Дай мне свой мобильный, мой выключился.",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "паметни телефон",
+      "sr_latin": "pametni telefon",
+      "pronunciation_ru": "пАметни телЕфон",
+      "translation_ru": "смартфон",
+      "example_sr": "Тражим јефтин паметни телефон.",
+      "example_ru": "Ищу недорогой смартфон.",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "екран",
+      "sr_latin": "ekran",
+      "pronunciation_ru": "Экран",
+      "translation_ru": "экран",
+      "example_sr": "Пукао ми је екран на телефону.",
+      "example_ru": "У меня треснул экран на телефоне.",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "пуњач",
+      "sr_latin": "punjač",
+      "pronunciation_ru": "пУњач",
+      "translation_ru": "зарядка, зарядное устройство",
+      "example_sr": "Имате ли пуњач за овај модел?",
+      "example_ru": "У вас есть зарядка для этой модели?",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "батерија",
+      "sr_latin": "baterija",
+      "pronunciation_ru": "батЕрија",
+      "translation_ru": "батарея, аккумулятор",
+      "example_sr": "Батерија се брзо празни.",
+      "example_ru": "Батарея быстро разряжается.",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "напунити",
+      "sr_latin": "napuniti",
+      "pronunciation_ru": "напУнити",
+      "translation_ru": "зарядить, наполнить",
+      "example_sr": "Морам да напуним телефон.",
+      "example_ru": "Мне надо зарядить телефон.",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "кабл",
+      "sr_latin": "kabl",
+      "pronunciation_ru": "кАбл",
+      "translation_ru": "кабель, шнур",
+      "example_sr": "Кабл за пуњење се покварио.",
+      "example_ru": "Кабель для зарядки сломался.",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "утичница",
+      "sr_latin": "utičnica",
+      "pronunciation_ru": "утИчница",
+      "translation_ru": "розетка",
+      "example_sr": "Где је најближа утичница?",
+      "example_ru": "Где ближайшая розетка?",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "СИМ картица",
+      "sr_latin": "SIM kartica",
+      "pronunciation_ru": "сим кАртица",
+      "translation_ru": "сим-карта",
+      "example_sr": "Хтео бих да купим СИМ картицу.",
+      "example_ru": "Я хотел бы купить сим-карту.",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "картица",
+      "sr_latin": "kartica",
+      "pronunciation_ru": "кАртица",
+      "translation_ru": "карта, карточка",
+      "example_sr": "Убаците картицу у телефон.",
+      "example_ru": "Вставьте карту в телефон.",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "број",
+      "sr_latin": "broj",
+      "pronunciation_ru": "брОй",
+      "translation_ru": "номер",
+      "example_sr": "Дајте ми ваш број, молим вас.",
+      "example_ru": "Дайте мне ваш номер, пожалуйста.",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "број телефона",
+      "sr_latin": "broj telefona",
+      "pronunciation_ru": "брОй телЕфона",
+      "translation_ru": "номер телефона",
+      "example_sr": "Који је ваш број телефона?",
+      "example_ru": "Какой у вас номер телефона?",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "позив",
+      "sr_latin": "poziv",
+      "pronunciation_ru": "пОзив",
+      "translation_ru": "звонок, вызов",
+      "example_sr": "Пропустио сам ваш позив.",
+      "example_ru": "Я пропустил ваш звонок.",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "позвати",
+      "sr_latin": "pozvati",
+      "pronunciation_ru": "пОзвати",
+      "translation_ru": "позвонить, вызвать",
+      "example_sr": "Позваћу вас сутра ујутру.",
+      "example_ru": "Я позвоню вам завтра утром.",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "јавити се",
+      "sr_latin": "javiti se",
+      "pronunciation_ru": "йАвити се",
+      "translation_ru": "ответить (на звонок), выйти на связь",
+      "example_sr": "Јави ми се кад стигнеш.",
+      "example_ru": "Позвони мне, когда приедешь.",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "пропуштен позив",
+      "sr_latin": "propušten poziv",
+      "pronunciation_ru": "прОпуштен пОзив",
+      "translation_ru": "пропущенный звонок",
+      "example_sr": "Имам три пропуштена позива.",
+      "example_ru": "У меня три пропущенных звонка.",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "видео позив",
+      "sr_latin": "video poziv",
+      "pronunciation_ru": "вИдео пОзив",
+      "translation_ru": "видеозвонок",
+      "example_sr": "Хајде да се чујемо преко видео позива.",
+      "example_ru": "Давай созвонимся по видео.",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "порука",
+      "sr_latin": "poruka",
+      "pronunciation_ru": "пОрука",
+      "translation_ru": "сообщение",
+      "example_sr": "Послао сам ти поруку.",
+      "example_ru": "Я отправил тебе сообщение.",
+      "false_friend_note": "«Порука» это сообщение (СМС), а не «порука/поручительство»."
+    },
+    {
+      "sr_cyrillic": "послати",
+      "sr_latin": "poslati",
+      "pronunciation_ru": "пОслати",
+      "translation_ru": "отправить, послать",
+      "example_sr": "Можеш ли да ми пошаљеш адресу?",
+      "example_ru": "Можешь отправить мне адрес?",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "примити",
+      "sr_latin": "primiti",
+      "pronunciation_ru": "прИмити",
+      "translation_ru": "получить, принять",
+      "example_sr": "Нисам примио твоју поруку.",
+      "example_ru": "Я не получил твоё сообщение.",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "интернет",
+      "sr_latin": "internet",
+      "pronunciation_ru": "Интернет",
+      "translation_ru": "интернет",
+      "example_sr": "Немам интернет код куће.",
+      "example_ru": "У меня нет интернета дома.",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "вај-фај",
+      "sr_latin": "wi-fi",
+      "pronunciation_ru": "вАй-фАй",
+      "translation_ru": "вай-фай",
+      "example_sr": "Која је лозинка за вај-фај?",
+      "example_ru": "Какой пароль от вай-фая?",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "бежични интернет",
+      "sr_latin": "bežični internet",
+      "pronunciation_ru": "бЕжични Интернет",
+      "translation_ru": "беспроводной интернет",
+      "example_sr": "Је ли бежични интернет бесплатан?",
+      "example_ru": "Беспроводной интернет бесплатный?",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "мрежа",
+      "sr_latin": "mreža",
+      "pronunciation_ru": "мрЭжа",
+      "translation_ru": "сеть",
+      "example_sr": "Нема мреже у овом крају.",
+      "example_ru": "В этом районе нет сети.",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "сигнал",
+      "sr_latin": "signal",
+      "pronunciation_ru": "сИгнал",
+      "translation_ru": "сигнал",
+      "example_sr": "Сигнал је овде веома слаб.",
+      "example_ru": "Сигнал здесь очень слабый.",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "лозинка",
+      "sr_latin": "lozinka",
+      "pronunciation_ru": "лОзинка",
+      "translation_ru": "пароль",
+      "example_sr": "Заборавио сам лозинку.",
+      "example_ru": "Я забыл пароль.",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "шифра",
+      "sr_latin": "šifra",
+      "pronunciation_ru": "шИфра",
+      "translation_ru": "код, пароль, пин-код",
+      "example_sr": "Укуцајте шифру да откључате.",
+      "example_ru": "Введите код, чтобы разблокировать.",
+      "false_friend_note": "«Шифра» в быту чаще «пароль/пин-код», а не только «шифр»."
+    },
+    {
+      "sr_cyrillic": "рутер",
+      "sr_latin": "ruter",
+      "pronunciation_ru": "рУтер",
+      "translation_ru": "роутер",
+      "example_sr": "Рестартујте рутер ако нема интернета.",
+      "example_ru": "Перезагрузите роутер, если нет интернета.",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "оператер",
+      "sr_latin": "operater",
+      "pronunciation_ru": "оперАтер",
+      "translation_ru": "оператор (связи)",
+      "example_sr": "Који оператер има најбољи сигнал?",
+      "example_ru": "У какого оператора лучший сигнал?",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "тарифа",
+      "sr_latin": "tarifa",
+      "pronunciation_ru": "тарИфа",
+      "translation_ru": "тариф",
+      "example_sr": "Која тарифа је најповољнија?",
+      "example_ru": "Какой тариф самый выгодный?",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "пакет",
+      "sr_latin": "paket",
+      "pronunciation_ru": "пАкет",
+      "translation_ru": "пакет (минут, гигабайт)",
+      "example_sr": "Узео сам пакет са пет гигабајта.",
+      "example_ru": "Я взял пакет на пять гигабайт.",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "претплата",
+      "sr_latin": "pretplata",
+      "pronunciation_ru": "прЕтплата",
+      "translation_ru": "подписка, абонемент",
+      "example_sr": "Отказао сам претплату.",
+      "example_ru": "Я отменил подписку.",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "допуна",
+      "sr_latin": "dopuna",
+      "pronunciation_ru": "дОпуна",
+      "translation_ru": "пополнение (счёта)",
+      "example_sr": "Треба ми допуна за телефон.",
+      "example_ru": "Мне нужно пополнение для телефона.",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "допунити",
+      "sr_latin": "dopuniti",
+      "pronunciation_ru": "допУнити",
+      "translation_ru": "пополнить (счёт)",
+      "example_sr": "Где могу да допуним кредит?",
+      "example_ru": "Где я могу пополнить счёт?",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "кредит",
+      "sr_latin": "kredit",
+      "pronunciation_ru": "крЕдит",
+      "translation_ru": "баланс, деньги на счету",
+      "example_sr": "Остало ми је мало кредита.",
+      "example_ru": "У меня осталось мало денег на счету.",
+      "false_friend_note": "На телефоне «кредит» = баланс, деньги на счету, а не кредит-заём."
+    },
+    {
+      "sr_cyrillic": "рачун",
+      "sr_latin": "račun",
+      "pronunciation_ru": "рАчун",
+      "translation_ru": "счёт (к оплате)",
+      "example_sr": "Стигао ми је рачун за телефон.",
+      "example_ru": "Мне пришёл счёт за телефон.",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "роминг",
+      "sr_latin": "roming",
+      "pronunciation_ru": "рОминг",
+      "translation_ru": "роуминг",
+      "example_sr": "Искључи роминг у иностранству.",
+      "example_ru": "Отключи роуминг за границей.",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "апликација",
+      "sr_latin": "aplikacija",
+      "pronunciation_ru": "апликАција",
+      "translation_ru": "приложение",
+      "example_sr": "Преузми апликацију са Плеј стора.",
+      "example_ru": "Скачай приложение из Play Store.",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "преузети",
+      "sr_latin": "preuzeti",
+      "pronunciation_ru": "прЕузети",
+      "translation_ru": "скачать, загрузить",
+      "example_sr": "Не могу да преузмем ову апликацију.",
+      "example_ru": "Я не могу скачать это приложение.",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "инсталирати",
+      "sr_latin": "instalirati",
+      "pronunciation_ru": "инсталИрати",
+      "translation_ru": "установить, инсталлировать",
+      "example_sr": "Помозите ми да инсталирам ово.",
+      "example_ru": "Помогите мне это установить.",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "ажурирати",
+      "sr_latin": "ažurirati",
+      "pronunciation_ru": "ажурИрати",
+      "translation_ru": "обновить",
+      "example_sr": "Морам да ажурирам систем.",
+      "example_ru": "Мне надо обновить систему.",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "ажурирање",
+      "sr_latin": "ažuriranje",
+      "pronunciation_ru": "ажурИрање",
+      "translation_ru": "обновление",
+      "example_sr": "Ажурирање траје предуго.",
+      "example_ru": "Обновление идёт слишком долго.",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "подешавања",
+      "sr_latin": "podešavanja",
+      "pronunciation_ru": "подешАвања",
+      "translation_ru": "настройки",
+      "example_sr": "Отвори подешавања па нађи вај-фај.",
+      "example_ru": "Открой настройки и найди вай-фай.",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "подесити",
+      "sr_latin": "podesiti",
+      "pronunciation_ru": "подЕсити",
+      "translation_ru": "настроить",
+      "example_sr": "Можете ли да ми подесите интернет?",
+      "example_ru": "Можете настроить мне интернет?",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "налог",
+      "sr_latin": "nalog",
+      "pronunciation_ru": "нАлог",
+      "translation_ru": "аккаунт, учётная запись",
+      "example_sr": "Направите нови налог.",
+      "example_ru": "Создайте новый аккаунт.",
+      "false_friend_note": "Ложный друг: «налог» это аккаунт/учётная запись (и «поручение, приказ»), а НЕ налог. Налог по-сербски = «порез»."
+    },
+    {
+      "sr_cyrillic": "корисничко име",
+      "sr_latin": "korisničko ime",
+      "pronunciation_ru": "корИсничко Име",
+      "translation_ru": "логин, имя пользователя",
+      "example_sr": "Унесите корисничко име и лозинку.",
+      "example_ru": "Введите логин и пароль.",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "пренос података",
+      "sr_latin": "prenos podataka",
+      "pronunciation_ru": "прЕнос подАтака",
+      "translation_ru": "передача данных, мобильный интернет",
+      "example_sr": "Укључи пренос података.",
+      "example_ru": "Включи передачу данных.",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "мобилни интернет",
+      "sr_latin": "mobilni internet",
+      "pronunciation_ru": "мОбилни Интернет",
+      "translation_ru": "мобильный интернет",
+      "example_sr": "Мобилни интернет ми је спор.",
+      "example_ru": "Мобильный интернет у меня медленный.",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "гигабајт",
+      "sr_latin": "gigabajt",
+      "pronunciation_ru": "гигабАйт",
+      "translation_ru": "гигабайт",
+      "example_sr": "Потрошио сам све гигабајте.",
+      "example_ru": "Я израсходовал все гигабайты.",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "брзина",
+      "sr_latin": "brzina",
+      "pronunciation_ru": "брзИна",
+      "translation_ru": "скорость",
+      "example_sr": "Каква је брзина интернета?",
+      "example_ru": "Какая скорость интернета?",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "спор",
+      "sr_latin": "spor",
+      "pronunciation_ru": "спОр",
+      "translation_ru": "медленный",
+      "example_sr": "Интернет је данас баш спор.",
+      "example_ru": "Интернет сегодня очень медленный.",
+      "false_friend_note": "Ложный друг: «спор» здесь прилагательное «медленный», а не русский «спор» (ссора)."
+    },
+    {
+      "sr_cyrillic": "брз",
+      "sr_latin": "brz",
+      "pronunciation_ru": "брз",
+      "translation_ru": "быстрый",
+      "example_sr": "Треба ми брз интернет за посао.",
+      "example_ru": "Мне нужен быстрый интернет для работы.",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "повезати",
+      "sr_latin": "povezati",
+      "pronunciation_ru": "повЕзати",
+      "translation_ru": "подключить, соединить",
+      "example_sr": "Повежите ме на вај-фај, молим вас.",
+      "example_ru": "Подключите меня к вай-фаю, пожалуйста.",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "веза",
+      "sr_latin": "veza",
+      "pronunciation_ru": "вЕза",
+      "translation_ru": "связь, соединение",
+      "example_sr": "Веза стално пуца.",
+      "example_ru": "Связь постоянно обрывается.",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "прекид",
+      "sr_latin": "prekid",
+      "pronunciation_ru": "прЕкид",
+      "translation_ru": "обрыв, разрыв (связи)",
+      "example_sr": "Био је прекид сигнала.",
+      "example_ru": "Был обрыв сигнала.",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "прекинути",
+      "sr_latin": "prekinuti",
+      "pronunciation_ru": "прЕкинути",
+      "translation_ru": "прервать, оборвать",
+      "example_sr": "Разговор се прекинуо.",
+      "example_ru": "Разговор оборвался.",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "укључити",
+      "sr_latin": "uključiti",
+      "pronunciation_ru": "укљУчити",
+      "translation_ru": "включить",
+      "example_sr": "Укључи вај-фај на телефону.",
+      "example_ru": "Включи вай-фай на телефоне.",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "искључити",
+      "sr_latin": "isključiti",
+      "pronunciation_ru": "искљУчити",
+      "translation_ru": "выключить, отключить",
+      "example_sr": "Искључи па поново упали телефон.",
+      "example_ru": "Выключи и снова включи телефон.",
+      "false_friend_note": "Созвучно русскому «исключить», но значит «выключить, отключить». Включить = «укључити»."
+    },
+    {
+      "sr_cyrillic": "рестартовати",
+      "sr_latin": "restartovati",
+      "pronunciation_ru": "рестартОвати",
+      "translation_ru": "перезагрузить",
+      "example_sr": "Пробајте да рестартујете уређај.",
+      "example_ru": "Попробуйте перезагрузить устройство.",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "звучник",
+      "sr_latin": "zvučnik",
+      "pronunciation_ru": "звУчник",
+      "translation_ru": "динамик",
+      "example_sr": "Звучник ми не ради.",
+      "example_ru": "У меня не работает динамик.",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "слушалице",
+      "sr_latin": "slušalice",
+      "pronunciation_ru": "слУшалице",
+      "translation_ru": "наушники",
+      "example_sr": "Где могу да купим слушалице?",
+      "example_ru": "Где я могу купить наушники?",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "микрофон",
+      "sr_latin": "mikrofon",
+      "pronunciation_ru": "микрОфон",
+      "translation_ru": "микрофон",
+      "example_sr": "Не чујем те, провери микрофон.",
+      "example_ru": "Я тебя не слышу, проверь микрофон.",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "камера",
+      "sr_latin": "kamera",
+      "pronunciation_ru": "кАмера",
+      "translation_ru": "камера",
+      "example_sr": "Камера на телефону је одлична.",
+      "example_ru": "Камера на телефоне отличная.",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "слика",
+      "sr_latin": "slika",
+      "pronunciation_ru": "слИка",
+      "translation_ru": "фото, снимок, картинка",
+      "example_sr": "Пошаљи ми слику на Вајбер.",
+      "example_ru": "Пришли мне фото в Viber.",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "именик",
+      "sr_latin": "imenik",
+      "pronunciation_ru": "Именик",
+      "translation_ru": "контакты, телефонная книга",
+      "example_sr": "Сачувај број у именик.",
+      "example_ru": "Сохрани номер в контакты.",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "контакт",
+      "sr_latin": "kontakt",
+      "pronunciation_ru": "кОнтакт",
+      "translation_ru": "контакт",
+      "example_sr": "Обриши тај контакт.",
+      "example_ru": "Удали этот контакт.",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "блокирати",
+      "sr_latin": "blokirati",
+      "pronunciation_ru": "блокИрати",
+      "translation_ru": "заблокировать",
+      "example_sr": "Блокирао сам непознат број.",
+      "example_ru": "Я заблокировал незнакомый номер.",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "уговор",
+      "sr_latin": "ugovor",
+      "pronunciation_ru": "Уговор",
+      "translation_ru": "договор, контракт",
+      "example_sr": "Потписао сам уговор на две године.",
+      "example_ru": "Я подписал договор на два года.",
+      "false_friend_note": "«Уговор» это официальный договор/контракт, а не устные «уговоры»."
+    },
+    {
+      "sr_cyrillic": "служба за кориснике",
+      "sr_latin": "služba za korisnike",
+      "pronunciation_ru": "слУжба за корИснике",
+      "translation_ru": "служба поддержки",
+      "example_sr": "Позовите службу за кориснике.",
+      "example_ru": "Позвоните в службу поддержки.",
+      "false_friend_note": ""
+    }
+  ]
+}

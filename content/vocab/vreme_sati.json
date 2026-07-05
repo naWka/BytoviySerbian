@@ -2,6 +2,7 @@
   "id": "vreme_sati",
   "title_ru": "⏰ Время и часы",
   "title_sr": "Време",
+  "_note": "Черновик: сгенерировано AI и вычитано AI-корректором «как носитель». Не проверено носителем-человеком.",
   "words": [
     {
       "sr_cyrillic": "време",
@@ -379,6 +380,258 @@
       "translation_ru": "завтра",
       "example_sr": "Видимо се сутра.",
       "example_ru": "Увидимся завтра.",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "јутро",
+      "sr_latin": "jutro",
+      "pronunciation_ru": "йУтро",
+      "translation_ru": "утро",
+      "example_sr": "Добро јутро, како сте?",
+      "example_ru": "Доброе утро, как вы?",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "дан",
+      "sr_latin": "dan",
+      "pronunciation_ru": "дАн",
+      "translation_ru": "день",
+      "example_sr": "Данас је леп дан.",
+      "example_ru": "Сегодня хороший день.",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "вече",
+      "sr_latin": "veče",
+      "pronunciation_ru": "вЭче",
+      "translation_ru": "вечер",
+      "example_sr": "Добро вече!",
+      "example_ru": "Добрый вечер!",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "ноћ",
+      "sr_latin": "noć",
+      "pronunciation_ru": "нОч",
+      "translation_ru": "ночь",
+      "example_sr": "Лаку ноћ!",
+      "example_ru": "Спокойной ночи!",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "ноћу",
+      "sr_latin": "noću",
+      "pronunciation_ru": "нОчу",
+      "translation_ru": "ночью",
+      "example_sr": "Ноћу је улица тиха.",
+      "example_ru": "Ночью улица тихая.",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "дању",
+      "sr_latin": "danju",
+      "pronunciation_ru": "дАнью",
+      "translation_ru": "днём",
+      "example_sr": "Дању радим, ноћу спавам.",
+      "example_ru": "Днём работаю, ночью сплю.",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "преподне",
+      "sr_latin": "prepodne",
+      "pronunciation_ru": "прЭподне",
+      "translation_ru": "первая половина дня, до полудня",
+      "example_sr": "Преподне имам састанак.",
+      "example_ru": "До полудня у меня встреча.",
+      "false_friend_note": "«преподне» = до полудня; «поподне» = после полудня. Не путать."
+    },
+    {
+      "sr_cyrillic": "јуче",
+      "sr_latin": "juče",
+      "pronunciation_ru": "йУче",
+      "translation_ru": "вчера",
+      "example_sr": "Јуче сам био уморан.",
+      "example_ru": "Вчера я был уставший.",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "синоћ",
+      "sr_latin": "sinoć",
+      "pronunciation_ru": "сИноч",
+      "translation_ru": "вчера вечером, прошлым вечером",
+      "example_sr": "Синоћ смо гледали филм.",
+      "example_ru": "Вчера вечером мы смотрели фильм.",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "прекјуче",
+      "sr_latin": "prekjuče",
+      "pronunciation_ru": "прЭкйуче",
+      "translation_ru": "позавчера",
+      "example_sr": "Прекјуче сам стигао у Београд.",
+      "example_ru": "Позавчера я приехал в Белград.",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "прекосутра",
+      "sr_latin": "prekosutra",
+      "pronunciation_ru": "прЭкосутра",
+      "translation_ru": "послезавтра",
+      "example_sr": "Видимо се прекосутра.",
+      "example_ru": "Увидимся послезавтра.",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "зора",
+      "sr_latin": "zora",
+      "pronunciation_ru": "зОра",
+      "translation_ru": "рассвет, заря",
+      "example_sr": "Устали смо у зору.",
+      "example_ru": "Мы встали на рассвете.",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "сумрак",
+      "sr_latin": "sumrak",
+      "pronunciation_ru": "сУмрак",
+      "translation_ru": "сумерки",
+      "example_sr": "Враћамо се пред сумрак.",
+      "example_ru": "Возвращаемся к сумеркам.",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "распоред",
+      "sr_latin": "raspored",
+      "pronunciation_ru": "рАспоред",
+      "translation_ru": "расписание, распорядок",
+      "example_sr": "Какав ти је распоред данас?",
+      "example_ru": "Какое у тебя сегодня расписание?",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "кашњење",
+      "sr_latin": "kašnjenje",
+      "pronunciation_ru": "кАшнење",
+      "translation_ru": "опоздание, задержка",
+      "example_sr": "Извините због кашњења.",
+      "example_ru": "Извините за опоздание.",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "закаснити",
+      "sr_latin": "zakasniti",
+      "pronunciation_ru": "закАснити",
+      "translation_ru": "опоздать",
+      "example_sr": "Немој да закасниш!",
+      "example_ru": "Не опоздай!",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "будилник",
+      "sr_latin": "budilnik",
+      "pronunciation_ru": "будИлник",
+      "translation_ru": "будильник",
+      "example_sr": "Навио сам будилник за седам.",
+      "example_ru": "Я поставил будильник на семь.",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "навити",
+      "sr_latin": "naviti",
+      "pronunciation_ru": "нАвити",
+      "translation_ru": "завести (будильник, часы)",
+      "example_sr": "Навиј будилник да не закасниш.",
+      "example_ru": "Заведи будильник, чтобы не опоздать.",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "чекати",
+      "sr_latin": "čekati",
+      "pronunciation_ru": "чЭкати",
+      "translation_ru": "ждать",
+      "example_sr": "Чекам те испред зграде.",
+      "example_ru": "Жду тебя перед зданием.",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "сачекати",
+      "sr_latin": "sačekati",
+      "pronunciation_ru": "сАчекати",
+      "translation_ru": "подождать; встретить",
+      "example_sr": "Сачекај ме пет минута.",
+      "example_ru": "Подожди меня пять минут.",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "трајати",
+      "sr_latin": "trajati",
+      "pronunciation_ru": "трАјати",
+      "translation_ru": "длиться, продолжаться",
+      "example_sr": "Колико траје филм?",
+      "example_ru": "Сколько длится фильм?",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "почетак",
+      "sr_latin": "početak",
+      "pronunciation_ru": "пОчетак",
+      "translation_ru": "начало",
+      "example_sr": "На почетку недеље имам много посла.",
+      "example_ru": "В начале недели у меня много работы.",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "почети",
+      "sr_latin": "početi",
+      "pronunciation_ru": "пОчети",
+      "translation_ru": "начать, начаться",
+      "example_sr": "Кад почиње представа?",
+      "example_ru": "Когда начинается спектакль?",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "завршити",
+      "sr_latin": "završiti",
+      "pronunciation_ru": "зАвршити",
+      "translation_ru": "закончить, закончиться",
+      "example_sr": "Завршавам за пет минута.",
+      "example_ru": "Заканчиваю через пять минут.",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "крај",
+      "sr_latin": "kraj",
+      "pronunciation_ru": "крАй",
+      "translation_ru": "конец, окончание",
+      "example_sr": "При крају смо.",
+      "example_ru": "Мы почти закончили.",
+      "false_friend_note": "«крај» — это и «конец», и «район/часть города» (мој крај = мой район)."
+    },
+    {
+      "sr_cyrillic": "хитно",
+      "sr_latin": "hitno",
+      "pronunciation_ru": "хИтно",
+      "translation_ru": "срочно",
+      "example_sr": "Треба ми хитно.",
+      "example_ru": "Мне нужно срочно.",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "стално",
+      "sr_latin": "stalno",
+      "pronunciation_ru": "стАлно",
+      "translation_ru": "постоянно, всё время",
+      "example_sr": "Стално гледаш на сат.",
+      "example_ru": "Ты постоянно смотришь на часы.",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "понекад",
+      "sr_latin": "ponekad",
+      "pronunciation_ru": "пОнекад",
+      "translation_ru": "иногда",
+      "example_sr": "Понекад закасним на посао.",
+      "example_ru": "Иногда я опаздываю на работу.",
       "false_friend_note": ""
     }
   ]

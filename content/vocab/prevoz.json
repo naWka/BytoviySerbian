@@ -2,6 +2,7 @@
   "id": "prevoz",
   "title_ru": "🚍 Транспорт",
   "title_sr": "Превоз",
+  "_note": "Черновик: сгенерировано AI и вычитано AI-корректором «как носитель». Не проверено носителем-человеком.",
   "words": [
     {
       "sr_cyrillic": "аутобус",
@@ -379,6 +380,258 @@
       "translation_ru": "водитель",
       "example_sr": "Питај возача где да сиђеш.",
       "example_ru": "Спроси у водителя, где выходить.",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "авион",
+      "sr_latin": "avion",
+      "pronunciation_ru": "авИон",
+      "translation_ru": "самолёт",
+      "example_sr": "Авион полеће у подне.",
+      "example_ru": "Самолёт вылетает в полдень.",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "аеродром",
+      "sr_latin": "aerodrom",
+      "pronunciation_ru": "аэрОдром",
+      "translation_ru": "аэропорт",
+      "example_sr": "Такси до аеродрома кошта две хиљаде динара.",
+      "example_ru": "Такси до аэропорта стоит две тысячи динаров.",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "перон",
+      "sr_latin": "peron",
+      "pronunciation_ru": "пЭрон",
+      "translation_ru": "платформа, перрон",
+      "example_sr": "Путници чекају воз на перону.",
+      "example_ru": "Пассажиры ждут поезд на перроне.",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "полазак",
+      "sr_latin": "polazak",
+      "pronunciation_ru": "пОлазак",
+      "translation_ru": "отправление, отход",
+      "example_sr": "Полазак воза је у седам сати.",
+      "example_ru": "Отправление поезда в семь часов.",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "долазак",
+      "sr_latin": "dolazak",
+      "pronunciation_ru": "дОлазак",
+      "translation_ru": "прибытие, приезд",
+      "example_sr": "Долазак авиона касни сат времена.",
+      "example_ru": "Прибытие самолёта задерживается на час.",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "брзина",
+      "sr_latin": "brzina",
+      "pronunciation_ru": "брзИна",
+      "translation_ru": "скорость",
+      "example_sr": "Смањи брзину у насељу.",
+      "example_ru": "Сбавь скорость в жилой зоне.",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "гума",
+      "sr_latin": "guma",
+      "pronunciation_ru": "гУма",
+      "translation_ru": "шина, покрышка",
+      "example_sr": "Пукла ми је гума на путу.",
+      "example_ru": "У меня по дороге лопнуло колесо.",
+      "false_friend_note": "«Гума» — это автомобильная шина, но так же называют жвачку и ластик."
+    },
+    {
+      "sr_cyrillic": "волан",
+      "sr_latin": "volan",
+      "pronunciation_ru": "вОлан",
+      "translation_ru": "руль",
+      "example_sr": "Држи обе руке на волану.",
+      "example_ru": "Держи обе руки на руле.",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "кочница",
+      "sr_latin": "kočnica",
+      "pronunciation_ru": "кОчница",
+      "translation_ru": "тормоз",
+      "example_sr": "Провери кочнице пре пута.",
+      "example_ru": "Проверь тормоза перед поездкой.",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "мотор",
+      "sr_latin": "motor",
+      "pronunciation_ru": "мОтор",
+      "translation_ru": "мотоцикл; двигатель, мотор",
+      "example_sr": "Он иде на посао мотором.",
+      "example_ru": "Он ездит на работу на мотоцикле.",
+      "false_friend_note": "В разговоре «мотор» часто значит мотоцикл, а не только двигатель."
+    },
+    {
+      "sr_cyrillic": "бицикл",
+      "sr_latin": "bicikl",
+      "pronunciation_ru": "бИцикл",
+      "translation_ru": "велосипед",
+      "example_sr": "Возим бицикл до реке.",
+      "example_ru": "Я езжу на велосипеде до реки.",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "тротинет",
+      "sr_latin": "trotinet",
+      "pronunciation_ru": "тротинЭт",
+      "translation_ru": "самокат",
+      "example_sr": "Купио сам електрични тротинет.",
+      "example_ru": "Я купил электросамокат.",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "брод",
+      "sr_latin": "brod",
+      "pronunciation_ru": "брОд",
+      "translation_ru": "корабль, судно",
+      "example_sr": "Брод плови ка острву.",
+      "example_ru": "Корабль плывёт к острову.",
+      "false_friend_note": "По-русски «брод» — мелкое место в реке. По-сербски «брод» — корабль, судно."
+    },
+    {
+      "sr_cyrillic": "трајект",
+      "sr_latin": "trajekt",
+      "pronunciation_ru": "трАјект",
+      "translation_ru": "паром",
+      "example_sr": "Трајект за острво креће у подне.",
+      "example_ru": "Паром на остров отходит в полдень.",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "возачка дозвола",
+      "sr_latin": "vozačka dozvola",
+      "pronunciation_ru": "вОзачка дОзвола",
+      "translation_ru": "водительские права",
+      "example_sr": "Полиција је тражила возачку дозволу.",
+      "example_ru": "Полиция попросила водительские права.",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "саобраћајни знак",
+      "sr_latin": "saobraćajni znak",
+      "pronunciation_ru": "саобрАћајни знАк",
+      "translation_ru": "дорожный знак",
+      "example_sr": "Ниси видео саобраћајни знак?",
+      "example_ru": "Ты не видел дорожный знак?",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "кружни ток",
+      "sr_latin": "kružni tok",
+      "pronunciation_ru": "крУжни тОк",
+      "translation_ru": "круговое движение, кольцо (перекрёсток)",
+      "example_sr": "Код кружног тока скрени десно.",
+      "example_ru": "У кольца поверни направо.",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "трака",
+      "sr_latin": "traka",
+      "pronunciation_ru": "трАка",
+      "translation_ru": "полоса движения",
+      "example_sr": "Пређи у леву траку.",
+      "example_ru": "Перестройся в левый ряд.",
+      "false_friend_note": "По-сербски «трака» — это лента, а на дороге — полоса движения (не «ряд»)."
+    },
+    {
+      "sr_cyrillic": "мост",
+      "sr_latin": "most",
+      "pronunciation_ru": "мОст",
+      "translation_ru": "мост",
+      "example_sr": "Пређи преко моста и скрени лево.",
+      "example_ru": "Переезжай через мост и поверни налево.",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "тунел",
+      "sr_latin": "tunel",
+      "pronunciation_ru": "тУнел",
+      "translation_ru": "тоннель",
+      "example_sr": "У тунелу упали светла.",
+      "example_ru": "В тоннеле включи фары.",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "пруга",
+      "sr_latin": "pruga",
+      "pronunciation_ru": "прУга",
+      "translation_ru": "железная дорога, ж/д пути",
+      "example_sr": "Не прелази пругу док иде воз.",
+      "example_ru": "Не переходи пути, когда идёт поезд.",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "шалтер",
+      "sr_latin": "šalter",
+      "pronunciation_ru": "шАлтер",
+      "translation_ru": "касса, окошко (обслуживания)",
+      "example_sr": "Купи карту на шалтеру број три.",
+      "example_ru": "Купи билет в окошке номер три.",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "картица",
+      "sr_latin": "kartica",
+      "pronunciation_ru": "кАртица",
+      "translation_ru": "транспортная карта (пластиковая)",
+      "example_sr": "Допуни картицу на киоску.",
+      "example_ru": "Пополни транспортную карту в киоске.",
+      "false_friend_note": "«Картица» — пластиковая карта (например BusPlus), а «карта» — билет."
+    },
+    {
+      "sr_cyrillic": "допуна",
+      "sr_latin": "dopuna",
+      "pronunciation_ru": "дОпуна",
+      "translation_ru": "пополнение (счёта, карты)",
+      "example_sr": "Колико кошта допуна картице?",
+      "example_ru": "Сколько стоит пополнение карты?",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "пртљаг",
+      "sr_latin": "prtljag",
+      "pronunciation_ru": "пРтљаг",
+      "translation_ru": "багаж",
+      "example_sr": "Колико пртљага смем да понесем?",
+      "example_ru": "Сколько багажа можно взять с собой?",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "седиште",
+      "sr_latin": "sedište",
+      "pronunciation_ru": "сЭдиште",
+      "translation_ru": "сиденье, место",
+      "example_sr": "Ово седиште је заузето.",
+      "example_ru": "Это место занято.",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "тротоар",
+      "sr_latin": "trotoar",
+      "pronunciation_ru": "тротоАр",
+      "translation_ru": "тротуар",
+      "example_sr": "Немој да паркираш на тротоару.",
+      "example_ru": "Не паркуйся на тротуаре.",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "путарина",
+      "sr_latin": "putarina",
+      "pronunciation_ru": "путарИна",
+      "translation_ru": "плата за дорогу, дорожный сбор",
+      "example_sr": "Платили смо путарину на ауто-путу.",
+      "example_ru": "Мы заплатили за проезд на автомагистрали.",
       "false_friend_note": ""
     }
   ]

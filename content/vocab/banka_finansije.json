@@ -1,0 +1,638 @@
+{
+  "id": "banka_finansije",
+  "title_ru": "🏦 Банк и финансы",
+  "title_sr": "Банка и финансије",
+  "_note": "Черновик: сгенерировано AI и вычитано AI-корректором «как носитель». Не проверено носителем-человеком.",
+  "words": [
+    {
+      "sr_cyrillic": "банка",
+      "sr_latin": "banka",
+      "pronunciation_ru": "бАнка",
+      "translation_ru": "банк",
+      "example_sr": "Ова банка ради и суботом до подне.",
+      "example_ru": "Этот банк работает и по субботам до полудня.",
+      "false_friend_note": "Звучит как русская «банка» (стеклянная), но по-сербски банка — это банк (учреждение)."
+    },
+    {
+      "sr_cyrillic": "текући рачун",
+      "sr_latin": "tekući račun",
+      "pronunciation_ru": "тЭкучи рАчун",
+      "translation_ru": "расчётный (текущий) счёт",
+      "example_sr": "Отворио сам текући рачун у овој банци.",
+      "example_ru": "Я открыл текущий счёт в этом банке.",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "штедни рачун",
+      "sr_latin": "štedni račun",
+      "pronunciation_ru": "штЭдни рАчун",
+      "translation_ru": "сберегательный счёт",
+      "example_sr": "На штедном рачуну имате бољу камату.",
+      "example_ru": "На сберегательном счёте у вас процент выше.",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "девизни рачун",
+      "sr_latin": "devizni račun",
+      "pronunciation_ru": "дЭвизни рАчун",
+      "translation_ru": "валютный счёт",
+      "example_sr": "Евра можете држати на девизном рачуну.",
+      "example_ru": "Евро можно держать на валютном счёте.",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "штедња",
+      "sr_latin": "štednja",
+      "pronunciation_ru": "штЭдня",
+      "translation_ru": "сбережения, накопления",
+      "example_sr": "Држи мало штедње за сваки случај.",
+      "example_ru": "Держи немного сбережений на всякий случай.",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "извод",
+      "sr_latin": "izvod",
+      "pronunciation_ru": "Извод",
+      "translation_ru": "выписка (по счёту)",
+      "example_sr": "Треба ми извод из банке за визу.",
+      "example_ru": "Мне нужна выписка из банка для визы.",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "стање",
+      "sr_latin": "stanje",
+      "pronunciation_ru": "стАнье",
+      "translation_ru": "остаток на счёте, состояние счёта",
+      "example_sr": "Колико ми је тренутно стање на рачуну?",
+      "example_ru": "Какой у меня сейчас остаток на счёте?",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "платна картица",
+      "sr_latin": "platna kartica",
+      "pronunciation_ru": "плАтна кАртица",
+      "translation_ru": "платёжная карта",
+      "example_sr": "Да ли примате платне картице?",
+      "example_ru": "Вы принимаете платёжные карты?",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "дебитна картица",
+      "sr_latin": "debitna kartica",
+      "pronunciation_ru": "дЭбитна кАртица",
+      "translation_ru": "дебетовая карта",
+      "example_sr": "Ово плаћам дебитном картицом.",
+      "example_ru": "Это я оплачу дебетовой картой.",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "кредитна картица",
+      "sr_latin": "kreditna kartica",
+      "pronunciation_ru": "крЭдитна кАртица",
+      "translation_ru": "кредитная карта",
+      "example_sr": "Немам кредитну, само дебитну картицу.",
+      "example_ru": "У меня нет кредитной, только дебетовая карта.",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "ПИН",
+      "sr_latin": "PIN",
+      "pronunciation_ru": "пИн",
+      "translation_ru": "ПИН-код",
+      "example_sr": "Укуцајте ваш ПИН и притисните зелено дугме.",
+      "example_ru": "Введите ПИН и нажмите зелёную кнопку.",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "банкомат",
+      "sr_latin": "bankomat",
+      "pronunciation_ru": "банкОмат",
+      "translation_ru": "банкомат",
+      "example_sr": "Најближи банкомат је у тржном центру.",
+      "example_ru": "Ближайший банкомат в торговом центре.",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "подизање",
+      "sr_latin": "podizanje",
+      "pronunciation_ru": "подИзанье",
+      "translation_ru": "снятие (денег)",
+      "example_sr": "Постоји ли провизија за подизање на банкомату?",
+      "example_ru": "Есть ли комиссия за снятие в банкомате?",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "подигнути",
+      "sr_latin": "podignuti",
+      "pronunciation_ru": "подИгнути",
+      "translation_ru": "снять (деньги), поднять",
+      "example_sr": "Желим да подигнем нешто новца.",
+      "example_ru": "Я хочу снять немного денег.",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "уплата",
+      "sr_latin": "uplata",
+      "pronunciation_ru": "Уплата",
+      "translation_ru": "внесение денег, зачисление, платёж",
+      "example_sr": "Уплата је стигла на рачун.",
+      "example_ru": "Платёж поступил на счёт.",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "уплатити",
+      "sr_latin": "uplatiti",
+      "pronunciation_ru": "уплАтити",
+      "translation_ru": "внести (деньги на счёт), заплатить",
+      "example_sr": "Можете уплатити на шалтеру или преко апликације.",
+      "example_ru": "Можно внести на кассе или через приложение.",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "исплата",
+      "sr_latin": "isplata",
+      "pronunciation_ru": "Исплата",
+      "translation_ru": "выплата, выдача денег",
+      "example_sr": "Исплата плате је сваког петог у месецу.",
+      "example_ru": "Выплата зарплаты — пятого числа каждого месяца.",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "пренос",
+      "sr_latin": "prenos",
+      "pronunciation_ru": "прЭнос",
+      "translation_ru": "перевод (денег)",
+      "example_sr": "Урадио сам пренос на твој рачун.",
+      "example_ru": "Я сделал перевод на твой счёт.",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "пренети",
+      "sr_latin": "preneti",
+      "pronunciation_ru": "прЭнети",
+      "translation_ru": "перевести (деньги), перенести",
+      "example_sr": "Могу да ти пренесем паре одмах.",
+      "example_ru": "Я могу перевести тебе деньги прямо сейчас.",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "налог за пренос",
+      "sr_latin": "nalog za prenos",
+      "pronunciation_ru": "нАлог за прЭнос",
+      "translation_ru": "платёжное поручение (на перевод)",
+      "example_sr": "Попуните налог за пренос и потпишите.",
+      "example_ru": "Заполните платёжное поручение и подпишите.",
+      "false_friend_note": "«Налог» тут не сбор в казну — по-сербски налог это распоряжение, поручение (например, на перевод)."
+    },
+    {
+      "sr_cyrillic": "уплатница",
+      "sr_latin": "uplatnica",
+      "pronunciation_ru": "уплАтница",
+      "translation_ru": "платёжная квитанция (бланк для оплаты)",
+      "example_sr": "Донеси уплатницу за струју да платимо.",
+      "example_ru": "Принеси квитанцию за свет, оплатим.",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "позив на број",
+      "sr_latin": "poziv na broj",
+      "pronunciation_ru": "пОзив на брОй",
+      "translation_ru": "номер-ссылка в платёжке (код платежа)",
+      "example_sr": "Обавезно упишите позив на број са рачуна.",
+      "example_ru": "Обязательно впишите номер-ссылку со счёта.",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "сврха уплате",
+      "sr_latin": "svrha uplate",
+      "pronunciation_ru": "свРха Уплате",
+      "translation_ru": "назначение платежа",
+      "example_sr": "У сврху уплате напишите „кирија“.",
+      "example_ru": "В назначении платежа напишите «аренда».",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "прималац",
+      "sr_latin": "primalac",
+      "pronunciation_ru": "прИмалац",
+      "translation_ru": "получатель (платежа)",
+      "example_sr": "Прималац је власник стана.",
+      "example_ru": "Получатель — владелец квартиры.",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "пошиљалац",
+      "sr_latin": "pošiljalac",
+      "pronunciation_ru": "пошИлялац",
+      "translation_ru": "отправитель (платежа)",
+      "example_sr": "Пошиљалац сам ја, а прималац сте ви.",
+      "example_ru": "Отправитель — я, а получатель — вы.",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "провизија",
+      "sr_latin": "provizija",
+      "pronunciation_ru": "провИзийа",
+      "translation_ru": "комиссия (сбор)",
+      "example_sr": "Колика је провизија за девизни пренос?",
+      "example_ru": "Какая комиссия за валютный перевод?",
+      "false_friend_note": "Не «провизия/запас еды», а комиссия банка или обменника."
+    },
+    {
+      "sr_cyrillic": "накнада",
+      "sr_latin": "naknada",
+      "pronunciation_ru": "нАкнада",
+      "translation_ru": "сбор, плата, комиссия",
+      "example_sr": "Постоји месечна накнада за одржавање рачуна.",
+      "example_ru": "Есть ежемесячная плата за обслуживание счёта.",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "трошкови",
+      "sr_latin": "troškovi",
+      "pronunciation_ru": "трОшкови",
+      "translation_ru": "расходы, издержки",
+      "example_sr": "Банкарски трошкови су ове године већи.",
+      "example_ru": "Банковские расходы в этом году выше.",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "кредит",
+      "sr_latin": "kredit",
+      "pronunciation_ru": "крЭдит",
+      "translation_ru": "кредит, ссуда",
+      "example_sr": "Подигао сам кредит за реновирање стана.",
+      "example_ru": "Я взял кредит на ремонт квартиры.",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "зајам",
+      "sr_latin": "zajam",
+      "pronunciation_ru": "зАйам",
+      "translation_ru": "заём, ссуда",
+      "example_sr": "Банка ми је одобрила стамбени зајам.",
+      "example_ru": "Банк одобрил мне жилищный заём.",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "позајмица",
+      "sr_latin": "pozajmica",
+      "pronunciation_ru": "позАймица",
+      "translation_ru": "заём (разг.), одолженные деньги",
+      "example_sr": "Дај ми позајмицу до плате, вратићу ти.",
+      "example_ru": "Одолжи до зарплаты, я верну.",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "камата",
+      "sr_latin": "kamata",
+      "pronunciation_ru": "кАмата",
+      "translation_ru": "проценты (по кредиту или вкладу)",
+      "example_sr": "Камата на овај кредит је прилично висока.",
+      "example_ru": "Проценты по этому кредиту довольно высокие.",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "каматна стопа",
+      "sr_latin": "kamatna stopa",
+      "pronunciation_ru": "кАматна стОпа",
+      "translation_ru": "процентная ставка",
+      "example_sr": "Каматна стопа је фиксна првих пет година.",
+      "example_ru": "Процентная ставка фиксированная первые пять лет.",
+      "false_friend_note": "«Стопа» тут — ставка, уровень (процента), а не ступня."
+    },
+    {
+      "sr_cyrillic": "рата",
+      "sr_latin": "rata",
+      "pronunciation_ru": "рАта",
+      "translation_ru": "платёж по рассрочке/кредиту, взнос",
+      "example_sr": "Прву рату плаћате тек следећег месеца.",
+      "example_ru": "Первый взнос платите только в следующем месяце.",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "отплата",
+      "sr_latin": "otplata",
+      "pronunciation_ru": "Отплата",
+      "translation_ru": "погашение (кредита)",
+      "example_sr": "Отплата кредита траје још две године.",
+      "example_ru": "Погашение кредита длится ещё два года.",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "отплатити",
+      "sr_latin": "otplatiti",
+      "pronunciation_ru": "отплАтити",
+      "translation_ru": "погасить, выплатить (кредит)",
+      "example_sr": "Хоћу да отплатим кредит пре рока.",
+      "example_ru": "Я хочу погасить кредит досрочно.",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "хипотека",
+      "sr_latin": "hipoteka",
+      "pronunciation_ru": "хипотЭка",
+      "translation_ru": "ипотека, залог недвижимости",
+      "example_sr": "Стан је под хипотеком док не отплатимо.",
+      "example_ru": "Квартира в залоге, пока не выплатим.",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "јемац",
+      "sr_latin": "jemac",
+      "pronunciation_ru": "йЭмац",
+      "translation_ru": "поручитель",
+      "example_sr": "За овај кредит треба вам јемац.",
+      "example_ru": "Для этого кредита вам нужен поручитель.",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "кредитна способност",
+      "sr_latin": "kreditna sposobnost",
+      "pronunciation_ru": "крЭдитна спосОбност",
+      "translation_ru": "кредитоспособность",
+      "example_sr": "Проверавају вашу кредитну способност пре одобрења.",
+      "example_ru": "Проверяют вашу кредитоспособность перед одобрением.",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "одобрити",
+      "sr_latin": "odobriti",
+      "pronunciation_ru": "одОбрити",
+      "translation_ru": "одобрить",
+      "example_sr": "Банка још није одобрила захтев.",
+      "example_ru": "Банк ещё не одобрил заявку.",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "одобрен",
+      "sr_latin": "odobren",
+      "pronunciation_ru": "одОбрен",
+      "translation_ru": "одобрен",
+      "example_sr": "Ваш кредит је одобрен, честитамо.",
+      "example_ru": "Ваш кредит одобрен, поздравляем.",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "одбијен",
+      "sr_latin": "odbijen",
+      "pronunciation_ru": "одбИйен",
+      "translation_ru": "отклонён, отказано",
+      "example_sr": "Захтев за картицу је, нажалост, одбијен.",
+      "example_ru": "Заявка на карту, к сожалению, отклонена.",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "депозит",
+      "sr_latin": "depozit",
+      "pronunciation_ru": "дэпОзит",
+      "translation_ru": "депозит, вклад",
+      "example_sr": "Орочио сам депозит на годину дана.",
+      "example_ru": "Я разместил вклад на год.",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "орочена штедња",
+      "sr_latin": "oročena štednja",
+      "pronunciation_ru": "орОчена штЭдня",
+      "translation_ru": "срочный вклад",
+      "example_sr": "Орочена штедња носи вишу камату.",
+      "example_ru": "Срочный вклад даёт более высокий процент.",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "доспеће",
+      "sr_latin": "dospeće",
+      "pronunciation_ru": "дОспече",
+      "translation_ru": "срок погашения, наступление срока платежа",
+      "example_sr": "Датум доспећа рате је петнаести.",
+      "example_ru": "Дата платежа по взносу — пятнадцатое.",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "рок",
+      "sr_latin": "rok",
+      "pronunciation_ru": "рОк",
+      "translation_ru": "срок",
+      "example_sr": "Рок за уплату пореза истиче сутра.",
+      "example_ru": "Срок уплаты налога истекает завтра.",
+      "false_friend_note": "Не «рок» (судьба или рок-музыка) — по-сербски рок это срок."
+    },
+    {
+      "sr_cyrillic": "готовина",
+      "sr_latin": "gotovina",
+      "pronunciation_ru": "готОвина",
+      "translation_ru": "наличные",
+      "example_sr": "Уплату у готовини радимо на шалтеру.",
+      "example_ru": "Внесение наличными делаем на кассе.",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "безготовински",
+      "sr_latin": "bezgotovinski",
+      "pronunciation_ru": "безготОвински",
+      "translation_ru": "безналичный",
+      "example_sr": "Плаћање је само безготовинско, картицом.",
+      "example_ru": "Оплата только безналичная, картой.",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "мењачница",
+      "sr_latin": "menjačnica",
+      "pronunciation_ru": "меньАчница",
+      "translation_ru": "обменный пункт",
+      "example_sr": "У мењачници преко пута је бољи курс.",
+      "example_ru": "В обменнике напротив курс лучше.",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "курс",
+      "sr_latin": "kurs",
+      "pronunciation_ru": "кУрс",
+      "translation_ru": "курс валют",
+      "example_sr": "По ком курсу мењате евро данас?",
+      "example_ru": "По какому курсу меняете евро сегодня?",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "девизе",
+      "sr_latin": "devize",
+      "pronunciation_ru": "дЭвизе",
+      "translation_ru": "валюта (иностранная), инвалюта",
+      "example_sr": "Девизе можете подићи на овом шалтеру.",
+      "example_ru": "Валюту можно снять в этом окне.",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "валута",
+      "sr_latin": "valuta",
+      "pronunciation_ru": "валУта",
+      "translation_ru": "валюта",
+      "example_sr": "У којој валути желите рачун?",
+      "example_ru": "В какой валюте вы хотите счёт?",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "заменити",
+      "sr_latin": "zameniti",
+      "pronunciation_ru": "замЭнити",
+      "translation_ru": "обменять, поменять",
+      "example_sr": "Хоћу да заменим динаре за евре.",
+      "example_ru": "Я хочу обменять динары на евро.",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "евро",
+      "sr_latin": "evro",
+      "pronunciation_ru": "Эвро",
+      "translation_ru": "евро",
+      "example_sr": "Дајте ми педесет евра у ситним апоенима.",
+      "example_ru": "Дайте мне пятьдесят евро мелкими купюрами.",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "шалтер",
+      "sr_latin": "šalter",
+      "pronunciation_ru": "шАлтер",
+      "translation_ru": "окно, касса (в банке, на почте)",
+      "example_sr": "Идите на шалтер број два.",
+      "example_ru": "Идите к окну номер два.",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "благајник",
+      "sr_latin": "blagajnik",
+      "pronunciation_ru": "благАйник",
+      "translation_ru": "кассир",
+      "example_sr": "Благајник ће вам издати потврду.",
+      "example_ru": "Кассир выдаст вам квитанцию.",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "службеник",
+      "sr_latin": "službenik",
+      "pronunciation_ru": "службЭник",
+      "translation_ru": "служащий, сотрудник",
+      "example_sr": "Банкарски службеник ће вам све објаснити.",
+      "example_ru": "Банковский сотрудник вам всё объяснит.",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "клијент",
+      "sr_latin": "klijent",
+      "pronunciation_ru": "клИйент",
+      "translation_ru": "клиент",
+      "example_sr": "Да ли сте већ наш клијент?",
+      "example_ru": "Вы уже наш клиент?",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "фактура",
+      "sr_latin": "faktura",
+      "pronunciation_ru": "фактУра",
+      "translation_ru": "счёт-фактура, счёт на оплату",
+      "example_sr": "Пошаљите ми фактуру на мејл.",
+      "example_ru": "Пришлите мне счёт-фактуру на почту.",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "предрачун",
+      "sr_latin": "predračun",
+      "pronunciation_ru": "прЭдрачун",
+      "translation_ru": "предварительный счёт, проформа",
+      "example_sr": "Прво добијете предрачун, па онда платите.",
+      "example_ru": "Сначала получаете предварительный счёт, потом платите.",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "режије",
+      "sr_latin": "režije",
+      "pronunciation_ru": "рЭжийе",
+      "translation_ru": "коммунальные платежи",
+      "example_sr": "Режије ове зиме су огромне.",
+      "example_ru": "Коммуналка этой зимой огромная.",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "порез",
+      "sr_latin": "porez",
+      "pronunciation_ru": "пОрез",
+      "translation_ru": "налог",
+      "example_sr": "Порез на имовину плаћа се два пута годишње.",
+      "example_ru": "Налог на имущество платится дважды в год.",
+      "false_friend_note": "На слух как «порез/порезать», но порез — это налог."
+    },
+    {
+      "sr_cyrillic": "пореска пријава",
+      "sr_latin": "poreska prijava",
+      "pronunciation_ru": "пОреска прИйава",
+      "translation_ru": "налоговая декларация",
+      "example_sr": "Рок за пореску пријаву је крајем месеца.",
+      "example_ru": "Срок подачи налоговой декларации — в конце месяца.",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "плата",
+      "sr_latin": "plata",
+      "pronunciation_ru": "плАта",
+      "translation_ru": "зарплата",
+      "example_sr": "Плата ми легне на рачун сваког месеца.",
+      "example_ru": "Зарплата приходит мне на счёт каждый месяц.",
+      "false_friend_note": "По-русски «плата» — любой платёж, а по-сербски плата — именно зарплата."
+    },
+    {
+      "sr_cyrillic": "зарада",
+      "sr_latin": "zarada",
+      "pronunciation_ru": "зАрада",
+      "translation_ru": "заработок, доход",
+      "example_sr": "Од ове зараде једва састављам крај с крајем.",
+      "example_ru": "На этот заработок я еле свожу концы с концами.",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "уговор",
+      "sr_latin": "ugovor",
+      "pronunciation_ru": "Уговор",
+      "translation_ru": "договор, контракт",
+      "example_sr": "Пре потписа, пажљиво прочитајте уговор.",
+      "example_ru": "Перед подписью внимательно прочитайте договор.",
+      "false_friend_note": "«Уговор» — это официальный договор/контракт, а не устная договорённость или уговоры."
+    },
+    {
+      "sr_cyrillic": "потписати",
+      "sr_latin": "potpisati",
+      "pronunciation_ru": "потпИсати",
+      "translation_ru": "подписать",
+      "example_sr": "Овде треба да потпишете.",
+      "example_ru": "Здесь нужно подписать.",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "печат",
+      "sr_latin": "pečat",
+      "pronunciation_ru": "пЭчат",
+      "translation_ru": "печать, штамп",
+      "example_sr": "Треба ми потпис и печат на потврди.",
+      "example_ru": "Мне нужны подпись и печать на справке.",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "осигурање",
+      "sr_latin": "osiguranje",
+      "pronunciation_ru": "осигурАнье",
+      "translation_ru": "страховка, страхование",
+      "example_sr": "Уз кредит иде и обавезно осигурање.",
+      "example_ru": "К кредиту прилагается обязательная страховка.",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "лозинка",
+      "sr_latin": "lozinka",
+      "pronunciation_ru": "лОзинка",
+      "translation_ru": "пароль",
+      "example_sr": "Заборавио сам лозинку за апликацију.",
+      "example_ru": "Я забыл пароль от приложения.",
+      "false_friend_note": ""
+    }
+  ]
+}

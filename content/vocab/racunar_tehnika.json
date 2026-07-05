@@ -1,0 +1,638 @@
+{
+  "id": "racunar_tehnika",
+  "title_ru": "💻 Компьютер и техника",
+  "title_sr": "Рачунар и техника",
+  "_note": "Черновик: сгенерировано AI и вычитано AI-корректором «как носитель». Не проверено носителем-человеком.",
+  "words": [
+    {
+      "sr_cyrillic": "рачунар",
+      "sr_latin": "računar",
+      "pronunciation_ru": "рАчунар",
+      "translation_ru": "компьютер",
+      "example_sr": "Рачунар ми се успорио, мора да га однесем на сервис.",
+      "example_ru": "Компьютер стал тормозить, надо отнести его в сервис.",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "компјутер",
+      "sr_latin": "kompjuter",
+      "pronunciation_ru": "компьЮтэр",
+      "translation_ru": "компьютер (разг.)",
+      "example_sr": "Цео дан седим за компјутером на послу.",
+      "example_ru": "Целый день сижу за компьютером на работе.",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "лаптоп",
+      "sr_latin": "laptop",
+      "pronunciation_ru": "лАптоп",
+      "translation_ru": "ноутбук",
+      "example_sr": "Понео сам лаптоп у кафић да радим.",
+      "example_ru": "Взял ноутбук в кафе, чтобы поработать.",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "таблет",
+      "sr_latin": "tablet",
+      "pronunciation_ru": "тАблэт",
+      "translation_ru": "планшет",
+      "example_sr": "Дете гледа цртаће на таблету.",
+      "example_ru": "Ребёнок смотрит мультики на планшете.",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "екран",
+      "sr_latin": "ekran",
+      "pronunciation_ru": "экрАн",
+      "translation_ru": "экран",
+      "example_sr": "Екран ми је напукао кад ми је пао телефон.",
+      "example_ru": "Экран треснул, когда у меня упал телефон.",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "монитор",
+      "sr_latin": "monitor",
+      "pronunciation_ru": "монИтор",
+      "translation_ru": "монитор",
+      "example_sr": "Купио сам већи монитор за рачунар.",
+      "example_ru": "Купил монитор побольше для компьютера.",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "тастатура",
+      "sr_latin": "tastatura",
+      "pronunciation_ru": "тастатУра",
+      "translation_ru": "клавиатура",
+      "example_sr": "Заглавило ми се једно слово на тастатури.",
+      "example_ru": "У меня залипла одна буква на клавиатуре.",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "миш",
+      "sr_latin": "miš",
+      "pronunciation_ru": "мИш",
+      "translation_ru": "мышь (и компьютерная, и животное)",
+      "example_sr": "Миш ми не ради, мора да су батерије.",
+      "example_ru": "Мышь не работает, наверное дело в батарейках.",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "тастер",
+      "sr_latin": "taster",
+      "pronunciation_ru": "тАстэр",
+      "translation_ru": "клавиша, кнопка",
+      "example_sr": "Притисни овај тастер да упалиш.",
+      "example_ru": "Нажми эту кнопку, чтобы включить.",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "дугме",
+      "sr_latin": "dugme",
+      "pronunciation_ru": "дУгмэ",
+      "translation_ru": "кнопка",
+      "example_sr": "Које дугме се притиска за јачину?",
+      "example_ru": "Какую кнопку нажимать для громкости?",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "штампач",
+      "sr_latin": "štampač",
+      "pronunciation_ru": "штАмпач",
+      "translation_ru": "принтер",
+      "example_sr": "Штампач је остао без тонера.",
+      "example_ru": "В принтере закончился тонер.",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "принтер",
+      "sr_latin": "printer",
+      "pronunciation_ru": "прИнтэр",
+      "translation_ru": "принтер (разг.)",
+      "example_sr": "Можеш ли да ми одштампаш ово на принтеру?",
+      "example_ru": "Можешь распечатать мне это на принтере?",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "скенер",
+      "sr_latin": "skener",
+      "pronunciation_ru": "скЭнэр",
+      "translation_ru": "сканер",
+      "example_sr": "Скенирај ми документ на скенеру, молим те.",
+      "example_ru": "Отсканируй мне документ на сканере, пожалуйста.",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "слушалице",
+      "sr_latin": "slušalice",
+      "pronunciation_ru": "слУшалицэ",
+      "translation_ru": "наушники",
+      "example_sr": "Ставила сам слушалице да не сметам другима.",
+      "example_ru": "Надела наушники, чтобы не мешать другим.",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "звучник",
+      "sr_latin": "zvučnik",
+      "pronunciation_ru": "звУчник",
+      "translation_ru": "динамик, колонка",
+      "example_sr": "Појачај звучник, слабо се чује.",
+      "example_ru": "Сделай динамик погромче, плохо слышно.",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "микрофон",
+      "sr_latin": "mikrofon",
+      "pronunciation_ru": "микрофОн",
+      "translation_ru": "микрофон",
+      "example_sr": "На састанку ме нису чули, микрофон је био искључен.",
+      "example_ru": "На встрече меня не слышали, микрофон был выключен.",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "камера",
+      "sr_latin": "kamera",
+      "pronunciation_ru": "кАмэра",
+      "translation_ru": "камера",
+      "example_sr": "Укључи камеру да те видимо.",
+      "example_ru": "Включи камеру, чтобы мы тебя видели.",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "фајл",
+      "sr_latin": "fajl",
+      "pronunciation_ru": "фАйл",
+      "translation_ru": "файл",
+      "example_sr": "Пошаљи ми тај фајл на мејл.",
+      "example_ru": "Пришли мне этот файл на почту.",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "датотека",
+      "sr_latin": "datoteka",
+      "pronunciation_ru": "датотЭка",
+      "translation_ru": "файл (офиц.)",
+      "example_sr": "Не могу да отворим ову датотеку.",
+      "example_ru": "Не могу открыть этот файл.",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "фасцикла",
+      "sr_latin": "fascikla",
+      "pronunciation_ru": "фАсцикла",
+      "translation_ru": "папка (и бумажная, и на компьютере)",
+      "example_sr": "Сними слике у нову фасциклу.",
+      "example_ru": "Сохрани фотки в новую папку.",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "фолдер",
+      "sr_latin": "folder",
+      "pronunciation_ru": "фОлдэр",
+      "translation_ru": "папка (разг.)",
+      "example_sr": "Све фактуре су у овом фолдеру.",
+      "example_ru": "Все счета в этой папке.",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "документ",
+      "sr_latin": "dokument",
+      "pronunciation_ru": "докумЭнт",
+      "translation_ru": "документ",
+      "example_sr": "Изгубио сам документ, нисам га сачувао.",
+      "example_ru": "Потерял документ, не сохранил его.",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "програм",
+      "sr_latin": "program",
+      "pronunciation_ru": "прОграм",
+      "translation_ru": "программа",
+      "example_sr": "Овај програм ми стално пуца.",
+      "example_ru": "Эта программа у меня постоянно вылетает.",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "апликација",
+      "sr_latin": "aplikacija",
+      "pronunciation_ru": "апликАция",
+      "translation_ru": "приложение",
+      "example_sr": "Скини апликацију за превоз.",
+      "example_ru": "Скачай приложение для транспорта.",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "игрица",
+      "sr_latin": "igrica",
+      "pronunciation_ru": "Игрица",
+      "translation_ru": "игра (компьютерная)",
+      "example_sr": "Син по цео дан игра игрице.",
+      "example_ru": "Сын целый день играет в игры.",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "лозинка",
+      "sr_latin": "lozinka",
+      "pronunciation_ru": "лОзинка",
+      "translation_ru": "пароль",
+      "example_sr": "Заборавио сам лозинку за вајфај.",
+      "example_ru": "Забыл пароль от вай-фая.",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "шифра",
+      "sr_latin": "šifra",
+      "pronunciation_ru": "шИфра",
+      "translation_ru": "пароль, код (PIN)",
+      "example_sr": "Укуцај шифру да откључаш телефон.",
+      "example_ru": "Введи код, чтобы разблокировать телефон.",
+      "false_friend_note": "«Шифра» в быту — это чаще всего пароль или PIN-код, а не «шифр» как тайнопись."
+    },
+    {
+      "sr_cyrillic": "интернет",
+      "sr_latin": "internet",
+      "pronunciation_ru": "Интэрнэт",
+      "translation_ru": "интернет",
+      "example_sr": "Нема интернета, пао је.",
+      "example_ru": "Нет интернета, отвалился.",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "вајфај",
+      "sr_latin": "vajfaj",
+      "pronunciation_ru": "вАйфай",
+      "translation_ru": "вай-фай (Wi-Fi)",
+      "example_sr": "Која је шифра за вајфај код вас?",
+      "example_ru": "Какой у вас пароль от вай-фая?",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "мрежа",
+      "sr_latin": "mreža",
+      "pronunciation_ru": "мрЭжа",
+      "translation_ru": "сеть",
+      "example_sr": "Телефон не хвата мрежу у подруму.",
+      "example_ru": "Телефон не ловит сеть в подвале.",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "рутер",
+      "sr_latin": "ruter",
+      "pronunciation_ru": "рУтэр",
+      "translation_ru": "роутер",
+      "example_sr": "Ресетуј рутер ако нема интернета.",
+      "example_ru": "Перезагрузи роутер, если нет интернета.",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "сигнал",
+      "sr_latin": "signal",
+      "pronunciation_ru": "сИгнал",
+      "translation_ru": "сигнал",
+      "example_sr": "Слаб је сигнал, стално прекида.",
+      "example_ru": "Слабый сигнал, постоянно прерывается.",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "меморија",
+      "sr_latin": "memorija",
+      "pronunciation_ru": "мемОрия",
+      "translation_ru": "память",
+      "example_sr": "Нема више меморије на телефону.",
+      "example_ru": "На телефоне закончилась память.",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "ажурирање",
+      "sr_latin": "ažuriranje",
+      "pronunciation_ru": "ажурИраньэ",
+      "translation_ru": "обновление (софта)",
+      "example_sr": "Стигло је ново ажурирање за телефон.",
+      "example_ru": "Пришло новое обновление для телефона.",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "пуњач",
+      "sr_latin": "punjač",
+      "pronunciation_ru": "пУняч",
+      "translation_ru": "зарядка (устройство)",
+      "example_sr": "Заборавио сам пуњач код куће.",
+      "example_ru": "Забыл зарядку дома.",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "батерија",
+      "sr_latin": "baterija",
+      "pronunciation_ru": "батЭрия",
+      "translation_ru": "батарея, аккумулятор",
+      "example_sr": "Батерија ми је пала на десет посто.",
+      "example_ru": "Батарея упала до десяти процентов.",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "кабл",
+      "sr_latin": "kabl",
+      "pronunciation_ru": "кАбл",
+      "translation_ru": "кабель, провод",
+      "example_sr": "Овај кабл више не пуни.",
+      "example_ru": "Этот кабель больше не заряжает.",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "утичница",
+      "sr_latin": "utičnica",
+      "pronunciation_ru": "утИчница",
+      "translation_ru": "розетка",
+      "example_sr": "Укључи пуњач у утичницу поред кревета.",
+      "example_ru": "Воткни зарядку в розетку у кровати.",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "прекидач",
+      "sr_latin": "prekidač",
+      "pronunciation_ru": "прекИдач",
+      "translation_ru": "выключатель",
+      "example_sr": "Прекидач за светло је поред врата.",
+      "example_ru": "Выключатель света у двери.",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "продужни кабл",
+      "sr_latin": "produžni kabl",
+      "pronunciation_ru": "продУжни кАбл",
+      "translation_ru": "удлинитель",
+      "example_sr": "Треба ми продужни кабл, утичница је далеко.",
+      "example_ru": "Мне нужен удлинитель, розетка далеко.",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "струја",
+      "sr_latin": "struja",
+      "pronunciation_ru": "стрУя",
+      "translation_ru": "ток, электричество, свет",
+      "example_sr": "Нема струје у целој згради.",
+      "example_ru": "Нет света во всём доме.",
+      "false_friend_note": "Русское «струя» — это поток жидкости; сербское «струја» — это электрический ток. «Нема струје» = нет света."
+    },
+    {
+      "sr_cyrillic": "адаптер",
+      "sr_latin": "adapter",
+      "pronunciation_ru": "адАптэр",
+      "translation_ru": "адаптер, переходник",
+      "example_sr": "За овај утикач ти треба адаптер.",
+      "example_ru": "Для этой вилки нужен переходник.",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "флеш",
+      "sr_latin": "fleš",
+      "pronunciation_ru": "флЭш",
+      "translation_ru": "флешка (USB)",
+      "example_sr": "Пребаци ми фајлове на флеш.",
+      "example_ru": "Скинь мне файлы на флешку.",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "картица",
+      "sr_latin": "kartica",
+      "pronunciation_ru": "кАртица",
+      "translation_ru": "карта (памяти), карточка",
+      "example_sr": "Убаци меморијску картицу у фотоапарат.",
+      "example_ru": "Вставь карту памяти в фотоаппарат.",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "телевизор",
+      "sr_latin": "televizor",
+      "pronunciation_ru": "тэлэвИзор",
+      "translation_ru": "телевизор",
+      "example_sr": "Утишај мало телевизор.",
+      "example_ru": "Сделай телевизор потише.",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "даљински",
+      "sr_latin": "daljinski",
+      "pronunciation_ru": "дАльински",
+      "translation_ru": "пульт (ДУ)",
+      "example_sr": "Где је даљински, не могу да променим канал?",
+      "example_ru": "Где пульт, не могу переключить канал?",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "канал",
+      "sr_latin": "kanal",
+      "pronunciation_ru": "канАл",
+      "translation_ru": "канал (ТВ)",
+      "example_sr": "Пребаци на други канал, ово је досадно.",
+      "example_ru": "Переключи на другой канал, это скучно.",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "покварити се",
+      "sr_latin": "pokvariti se",
+      "pronunciation_ru": "поквАрити сэ",
+      "translation_ru": "сломаться",
+      "example_sr": "Веш машина се покварила усред прања.",
+      "example_ru": "Стиральная машина сломалась посреди стирки.",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "упалити",
+      "sr_latin": "upaliti",
+      "pronunciation_ru": "упАлити",
+      "translation_ru": "включить (свет, прибор)",
+      "example_sr": "Упали климу, врућина је.",
+      "example_ru": "Включи кондиционер, жарко.",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "угасити",
+      "sr_latin": "ugasiti",
+      "pronunciation_ru": "угАсити",
+      "translation_ru": "выключить, погасить",
+      "example_sr": "Угаси светло кад изађеш.",
+      "example_ru": "Выключи свет, когда выходишь.",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "укључити",
+      "sr_latin": "uključiti",
+      "pronunciation_ru": "уклЮчити",
+      "translation_ru": "включить, подключить",
+      "example_sr": "Укључи фрижидер у струју.",
+      "example_ru": "Подключи холодильник к сети.",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "искључити",
+      "sr_latin": "isključiti",
+      "pronunciation_ru": "исклЮчити",
+      "translation_ru": "выключить, отключить",
+      "example_sr": "Искључи пеглу да не изгори.",
+      "example_ru": "Выключи утюг, чтобы не сгорел.",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "рестартовати",
+      "sr_latin": "restartovati",
+      "pronunciation_ru": "рестартОвати",
+      "translation_ru": "перезагрузить",
+      "example_sr": "Рестартуј рачунар па пробај поново.",
+      "example_ru": "Перезагрузи компьютер и попробуй снова.",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "инсталирати",
+      "sr_latin": "instalirati",
+      "pronunciation_ru": "инсталИрати",
+      "translation_ru": "установить (программу)",
+      "example_sr": "Мораш да инсталираш нову верзију.",
+      "example_ru": "Надо установить новую версию.",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "сачувати",
+      "sr_latin": "sačuvati",
+      "pronunciation_ru": "сачУвати",
+      "translation_ru": "сохранить",
+      "example_sr": "Сачувај документ пре него што изађеш.",
+      "example_ru": "Сохрани документ, прежде чем выйти.",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "обрисати",
+      "sr_latin": "obrisati",
+      "pronunciation_ru": "обрИсати",
+      "translation_ru": "удалить, стереть",
+      "example_sr": "Обриши старе слике да ослободиш меморију.",
+      "example_ru": "Удали старые фото, чтобы освободить память.",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "преузети",
+      "sr_latin": "preuzeti",
+      "pronunciation_ru": "преУзэти",
+      "translation_ru": "скачать, загрузить",
+      "example_sr": "Преузми фајл са сајта.",
+      "example_ru": "Скачай файл с сайта.",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "напунити",
+      "sr_latin": "napuniti",
+      "pronunciation_ru": "напУнити",
+      "translation_ru": "зарядить, наполнить",
+      "example_sr": "Напуни телефон, скоро је празан.",
+      "example_ru": "Заряди телефон, он почти сел.",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "радити",
+      "sr_latin": "raditi",
+      "pronunciation_ru": "рАдити",
+      "translation_ru": "работать (в т.ч. о технике)",
+      "example_sr": "Даљински не ради, мораћу да мењам батерије.",
+      "example_ru": "Пульт не работает, придётся менять батарейки.",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "ресетовати",
+      "sr_latin": "resetovati",
+      "pronunciation_ru": "рэсэтОвати",
+      "translation_ru": "сбросить, обнулить",
+      "example_sr": "Ресетуј телефон на фабричка подешавања.",
+      "example_ru": "Сбрось телефон до заводских настроек.",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "фрижидер",
+      "sr_latin": "frižider",
+      "pronunciation_ru": "фрижИдэр",
+      "translation_ru": "холодильник",
+      "example_sr": "Фрижидер је празан, морамо у набавку.",
+      "example_ru": "Холодильник пустой, надо за продуктами.",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "веш машина",
+      "sr_latin": "veš mašina",
+      "pronunciation_ru": "вэш машИна",
+      "translation_ru": "стиральная машина",
+      "example_sr": "Стави веш у веш машину.",
+      "example_ru": "Загрузи бельё в стиральную машину.",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "усисивач",
+      "sr_latin": "usisivač",
+      "pronunciation_ru": "усИсивач",
+      "translation_ru": "пылесос",
+      "example_sr": "Усисивач ми се зачепио, не вуче више.",
+      "example_ru": "Пылесос засорился, больше не тянет.",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "пегла",
+      "sr_latin": "pegla",
+      "pronunciation_ru": "пЭгла",
+      "translation_ru": "утюг",
+      "example_sr": "Пегла је још врућа, пази.",
+      "example_ru": "Утюг ещё горячий, осторожно.",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "бојлер",
+      "sr_latin": "bojler",
+      "pronunciation_ru": "бОйлэр",
+      "translation_ru": "бойлер, водонагреватель",
+      "example_sr": "Упали бојлер да имамо топле воде.",
+      "example_ru": "Включи бойлер, чтобы была горячая вода.",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "клима",
+      "sr_latin": "klima",
+      "pronunciation_ru": "клИма",
+      "translation_ru": "кондиционер",
+      "example_sr": "Клима нешто не хлади добро.",
+      "example_ru": "Кондиционер что-то плохо охлаждает.",
+      "false_friend_note": "«Клима» в быту — это кондиционер (от «клима-уређај»), а не «климат» вообще."
+    },
+    {
+      "sr_cyrillic": "микроталасна",
+      "sr_latin": "mikrotalasna",
+      "pronunciation_ru": "микроталАсна",
+      "translation_ru": "микроволновка",
+      "example_sr": "Подгреј ручак у микроталасној.",
+      "example_ru": "Разогрей обед в микроволновке.",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "шпорет",
+      "sr_latin": "šporet",
+      "pronunciation_ru": "шпОрэт",
+      "translation_ru": "плита (кухонная)",
+      "example_sr": "Пази, шпорет је укључен.",
+      "example_ru": "Осторожно, плита включена.",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "рерна",
+      "sr_latin": "rerna",
+      "pronunciation_ru": "рЭрна",
+      "translation_ru": "духовка",
+      "example_sr": "Ставила сам пицу у рерну.",
+      "example_ru": "Поставила пиццу в духовку.",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "фен",
+      "sr_latin": "fen",
+      "pronunciation_ru": "фЭн",
+      "translation_ru": "фен",
+      "example_sr": "Дај ми фен да осушим косу.",
+      "example_ru": "Дай мне фен, чтобы высушить волосы.",
+      "false_friend_note": ""
+    }
+  ]
+}

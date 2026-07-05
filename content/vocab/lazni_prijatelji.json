@@ -1,0 +1,647 @@
+{
+  "id": "lazni_prijatelji",
+  "title_ru": "⚠️ Ложные друзья",
+  "title_sr": "Лажни пријатељи",
+  "_note": "Черновик: сгенерировано AI и вычитано AI-корректором «как носитель». Не проверено носителем-человеком.",
+  "words": [
+    {
+      "sr_cyrillic": "реч",
+      "sr_latin": "reč",
+      "pronunciation_ru": "рЭч",
+      "translation_ru": "слово",
+      "example_sr": "Не разумем ту реч.",
+      "example_ru": "Я не понимаю это слово.",
+      "false_friend_note": "По-русски «речь» — это разговор или выступление. По-сербски реч — это слово."
+    },
+    {
+      "sr_cyrillic": "слово",
+      "sr_latin": "slovo",
+      "pronunciation_ru": "слОво",
+      "translation_ru": "буква",
+      "example_sr": "Прво слово је велико.",
+      "example_ru": "Первая буква заглавная.",
+      "false_friend_note": "Коварно: сербское слово — это буква алфавита, а не «слово». Слово по-сербски — реч."
+    },
+    {
+      "sr_cyrillic": "буква",
+      "sr_latin": "bukva",
+      "pronunciation_ru": "бУква",
+      "translation_ru": "бук (дерево)",
+      "example_sr": "Иза куће расте велика буква.",
+      "example_ru": "За домом растёт большой бук.",
+      "false_friend_note": "По-сербски буква — это дерево бук. Русская «буква» по-сербски — слово."
+    },
+    {
+      "sr_cyrillic": "право",
+      "sr_latin": "pravo",
+      "pronunciation_ru": "прАво",
+      "translation_ru": "прямо",
+      "example_sr": "Идите право па скрените десно.",
+      "example_ru": "Идите прямо, потом поверните направо.",
+      "false_friend_note": "Самый частый обман: право значит «прямо», а не «направо» и не «право/закон»."
+    },
+    {
+      "sr_cyrillic": "правац",
+      "sr_latin": "pravac",
+      "pronunciation_ru": "прАвац",
+      "translation_ru": "направление, сторона",
+      "example_sr": "У ком правцу је центар?",
+      "example_ru": "В каком направлении центр?",
+      "false_friend_note": "Похоже на «правый», но правац — это направление движения."
+    },
+    {
+      "sr_cyrillic": "десно",
+      "sr_latin": "desno",
+      "pronunciation_ru": "дЭсно",
+      "translation_ru": "направо, справа",
+      "example_sr": "Скрените десно код банке.",
+      "example_ru": "Поверните направо у банка.",
+      "false_friend_note": "Русская «десна» — это ткань во рту. Сербское десно — «направо, справа»."
+    },
+    {
+      "sr_cyrillic": "понос",
+      "sr_latin": "ponos",
+      "pronunciation_ru": "пОнос",
+      "translation_ru": "гордость",
+      "example_sr": "Деца су мој понос.",
+      "example_ru": "Дети — моя гордость.",
+      "false_friend_note": "Не пугайтесь: понос по-сербски — это гордость, а не расстройство желудка."
+    },
+    {
+      "sr_cyrillic": "поносан",
+      "sr_latin": "ponosan",
+      "pronunciation_ru": "пОносан",
+      "translation_ru": "гордый",
+      "example_sr": "Поносан сам на тебе.",
+      "example_ru": "Я тобой горжусь.",
+      "false_friend_note": "От «понос» (гордость): поносан значит «гордый», ничего неприличного."
+    },
+    {
+      "sr_cyrillic": "вредан",
+      "sr_latin": "vredan",
+      "pronunciation_ru": "врЭдан",
+      "translation_ru": "трудолюбивый, прилежный; ценный",
+      "example_sr": "Он је вредан радник.",
+      "example_ru": "Он трудолюбивый работник.",
+      "false_friend_note": "Не «вредный»! Вредан — это старательный, работящий (или ценный)."
+    },
+    {
+      "sr_cyrillic": "вредност",
+      "sr_latin": "vrednost",
+      "pronunciation_ru": "врЭдност",
+      "translation_ru": "ценность, стоимость",
+      "example_sr": "Ово нема велику вредност.",
+      "example_ru": "Это не имеет большой ценности.",
+      "false_friend_note": "От «вредан» (ценный): значит «стоимость, ценность», а не «вредность»."
+    },
+    {
+      "sr_cyrillic": "искусан",
+      "sr_latin": "iskusan",
+      "pronunciation_ru": "Искусан",
+      "translation_ru": "опытный, бывалый",
+      "example_sr": "Тражимо искусног мајстора.",
+      "example_ru": "Ищем опытного мастера.",
+      "false_friend_note": "Не «искусный»! Искусан — это опытный, бывалый."
+    },
+    {
+      "sr_cyrillic": "искуство",
+      "sr_latin": "iskustvo",
+      "pronunciation_ru": "искУство",
+      "translation_ru": "опыт",
+      "example_sr": "Имам десет година искуства.",
+      "example_ru": "У меня десять лет опыта.",
+      "false_friend_note": "Ложный друг: искуство — это опыт, а «искусство» по-сербски — уметност."
+    },
+    {
+      "sr_cyrillic": "уморан",
+      "sr_latin": "umoran",
+      "pronunciation_ru": "Уморан",
+      "translation_ru": "усталый",
+      "example_sr": "Уморан сам после посла.",
+      "example_ru": "Я устал после работы.",
+      "false_friend_note": "Не про «умору/смех»: уморан значит «усталый»."
+    },
+    {
+      "sr_cyrillic": "храна",
+      "sr_latin": "hrana",
+      "pronunciation_ru": "хрАна",
+      "translation_ru": "еда, пища",
+      "example_sr": "Храна у овом ресторану је одлична.",
+      "example_ru": "Еда в этом ресторане отличная.",
+      "false_friend_note": "Похоже на «хранить», но храна — это еда, пища."
+    },
+    {
+      "sr_cyrillic": "хранити",
+      "sr_latin": "hraniti",
+      "pronunciation_ru": "хрАнити",
+      "translation_ru": "кормить",
+      "example_sr": "Треба нахранити дете.",
+      "example_ru": "Нужно покормить ребёнка.",
+      "false_friend_note": "Не «хранить»! Хранити — это кормить. «Хранить» по-сербски — чувати."
+    },
+    {
+      "sr_cyrillic": "недеља",
+      "sr_latin": "nedelja",
+      "pronunciation_ru": "нЭдэля",
+      "translation_ru": "воскресенье; неделя",
+      "example_sr": "У недељу се одмарамо.",
+      "example_ru": "В воскресенье мы отдыхаем.",
+      "false_friend_note": "Чаще всего недеља — это воскресенье, а не «неделя» (неделя = седмица)."
+    },
+    {
+      "sr_cyrillic": "позориште",
+      "sr_latin": "pozorište",
+      "pronunciation_ru": "пОзориштэ",
+      "translation_ru": "театр",
+      "example_sr": "Вечерас идемо у позориште.",
+      "example_ru": "Сегодня вечером идём в театр.",
+      "false_friend_note": "Ничего постыдного: позориште — это театр (от «призор» — зрелище)."
+    },
+    {
+      "sr_cyrillic": "позор",
+      "sr_latin": "pozor",
+      "pronunciation_ru": "пОзор",
+      "translation_ru": "внимание, осторожно",
+      "example_sr": "Позор, свеже офарбано!",
+      "example_ru": "Внимание, окрашено!",
+      "false_friend_note": "На табличках позор значит «внимание, осторожно», а не «позор/стыд»."
+    },
+    {
+      "sr_cyrillic": "столица",
+      "sr_latin": "stolica",
+      "pronunciation_ru": "стОлица",
+      "translation_ru": "стул",
+      "example_sr": "Седи на ову столицу.",
+      "example_ru": "Садись на этот стул.",
+      "false_friend_note": "Не «столица» (главный город)! Столица — это стул."
+    },
+    {
+      "sr_cyrillic": "сто",
+      "sr_latin": "sto",
+      "pronunciation_ru": "стО",
+      "translation_ru": "стол; сто (100)",
+      "example_sr": "Стави тањире на сто.",
+      "example_ru": "Поставь тарелки на стол.",
+      "false_friend_note": "По-русски «сто» — число 100. По-сербски сто — это чаще всего стол (число 100 тоже «сто»)."
+    },
+    {
+      "sr_cyrillic": "љубити",
+      "sr_latin": "ljubiti",
+      "pronunciation_ru": "лЮбити",
+      "translation_ru": "целовать",
+      "example_sr": "Мајка љуби дете.",
+      "example_ru": "Мать целует ребёнка.",
+      "false_friend_note": "Не «любить»! Љубити — это целовать. «Любить» по-сербски — волети."
+    },
+    {
+      "sr_cyrillic": "љубав",
+      "sr_latin": "ljubav",
+      "pronunciation_ru": "лЮбав",
+      "translation_ru": "любовь",
+      "example_sr": "То је права љубав.",
+      "example_ru": "Это настоящая любовь.",
+      "false_friend_note": "Похоже на «любовь» и вправду значит любовь, но глагол љубити — это «целовать»."
+    },
+    {
+      "sr_cyrillic": "кућа",
+      "sr_latin": "kuća",
+      "pronunciation_ru": "кУча",
+      "translation_ru": "дом",
+      "example_sr": "Идем кући.",
+      "example_ru": "Я иду домой.",
+      "false_friend_note": "Звучит как «куча», но кућа — это дом."
+    },
+    {
+      "sr_cyrillic": "живот",
+      "sr_latin": "život",
+      "pronunciation_ru": "жИвот",
+      "translation_ru": "жизнь",
+      "example_sr": "Живот је леп.",
+      "example_ru": "Жизнь прекрасна.",
+      "false_friend_note": "Не часть тела! Живот по-сербски — это жизнь. «Живот» (тело) — стомак/трбух."
+    },
+    {
+      "sr_cyrillic": "животиња",
+      "sr_latin": "životinja",
+      "pronunciation_ru": "живОтиня",
+      "translation_ru": "животное",
+      "example_sr": "Пас је домаћа животиња.",
+      "example_ru": "Собака — домашнее животное.",
+      "false_friend_note": "От «живот» (жизнь): животиња — это животное, ничего про живот-тело."
+    },
+    {
+      "sr_cyrillic": "сутра",
+      "sr_latin": "sutra",
+      "pronunciation_ru": "сУтра",
+      "translation_ru": "завтра",
+      "example_sr": "Видимо се сутра.",
+      "example_ru": "Увидимся завтра.",
+      "false_friend_note": "Не «с утра»: сутра значит «завтра»."
+    },
+    {
+      "sr_cyrillic": "диван",
+      "sr_latin": "divan",
+      "pronunciation_ru": "дИван",
+      "translation_ru": "замечательный, чудесный",
+      "example_sr": "Какав диван дан!",
+      "example_ru": "Какой чудесный день!",
+      "false_friend_note": "Чаще это прилагательное «замечательный», а не мебель. (Диван-мебель — кауч.)"
+    },
+    {
+      "sr_cyrillic": "дуван",
+      "sr_latin": "duvan",
+      "pronunciation_ru": "дУван",
+      "translation_ru": "табак",
+      "example_sr": "Не пушим, не купујем дуван.",
+      "example_ru": "Я не курю, табак не покупаю.",
+      "false_friend_note": "Похоже на «диван», но дуван — это табак."
+    },
+    {
+      "sr_cyrillic": "скупо",
+      "sr_latin": "skupo",
+      "pronunciation_ru": "скУпо",
+      "translation_ru": "дорого",
+      "example_sr": "То је прескупо за мене.",
+      "example_ru": "Это слишком дорого для меня.",
+      "false_friend_note": "Не «скупо/скудно»: скупо значит «дорого» (о цене)."
+    },
+    {
+      "sr_cyrillic": "скуп",
+      "sr_latin": "skup",
+      "pronunciation_ru": "скУп",
+      "translation_ru": "дорогой; собрание, съезд",
+      "example_sr": "Овај телефон је скуп.",
+      "example_ru": "Этот телефон дорогой.",
+      "false_friend_note": "Не «скупой»! Скуп — «дорогой» (о цене) или «собрание»."
+    },
+    {
+      "sr_cyrillic": "час",
+      "sr_latin": "čas",
+      "pronunciation_ru": "чАс",
+      "translation_ru": "урок, занятие; миг",
+      "example_sr": "Имам час српског у пет.",
+      "example_ru": "У меня урок сербского в пять.",
+      "false_friend_note": "Чаще всего час — это урок/занятие или «миг», а не 60 минут (это «сат»)."
+    },
+    {
+      "sr_cyrillic": "забаван",
+      "sr_latin": "zabavan",
+      "pronunciation_ru": "забАван",
+      "translation_ru": "весёлый, забавный",
+      "example_sr": "Он је баш забаван.",
+      "example_ru": "Он очень весёлый.",
+      "false_friend_note": "Близко к «забавный», но шире — «весёлый, развлекающий»."
+    },
+    {
+      "sr_cyrillic": "забава",
+      "sr_latin": "zabava",
+      "pronunciation_ru": "забАва",
+      "translation_ru": "вечеринка; развлечение",
+      "example_sr": "Синоћ је била добра забава.",
+      "example_ru": "Вчера была хорошая вечеринка.",
+      "false_friend_note": "Не только «потеха»: забава — это ещё и вечеринка, гулянка."
+    },
+    {
+      "sr_cyrillic": "пажња",
+      "sr_latin": "pažnja",
+      "pronunciation_ru": "пАжня",
+      "translation_ru": "внимание",
+      "example_sr": "Хвала на пажњи.",
+      "example_ru": "Спасибо за внимание.",
+      "false_friend_note": "Не «пашня»! Пажња — это внимание, забота."
+    },
+    {
+      "sr_cyrillic": "трудна",
+      "sr_latin": "trudna",
+      "pronunciation_ru": "трУдна",
+      "translation_ru": "беременная",
+      "example_sr": "Моја сестра је трудна.",
+      "example_ru": "Моя сестра беременна.",
+      "false_friend_note": "Классика: трудна значит «беременная», а не «трудная»."
+    },
+    {
+      "sr_cyrillic": "трудноћа",
+      "sr_latin": "trudnoća",
+      "pronunciation_ru": "труднОча",
+      "translation_ru": "беременность",
+      "example_sr": "Трудноћа траје девет месеци.",
+      "example_ru": "Беременность длится девять месяцев.",
+      "false_friend_note": "Не «трудность»! Трудноћа — это беременность."
+    },
+    {
+      "sr_cyrillic": "образ",
+      "sr_latin": "obraz",
+      "pronunciation_ru": "Образ",
+      "translation_ru": "щека",
+      "example_sr": "Пољубила га је у образ.",
+      "example_ru": "Она поцеловала его в щёку.",
+      "false_friend_note": "Не «образ/икона»: образ — это щека."
+    },
+    {
+      "sr_cyrillic": "јагода",
+      "sr_latin": "jagoda",
+      "pronunciation_ru": "йАгода",
+      "translation_ru": "клубника, земляника",
+      "example_sr": "Волим сладолед од јагоде.",
+      "example_ru": "Люблю клубничное мороженое.",
+      "false_friend_note": "Не «ягода» вообще, а именно клубника/земляника."
+    },
+    {
+      "sr_cyrillic": "хвала",
+      "sr_latin": "hvala",
+      "pronunciation_ru": "хвАла",
+      "translation_ru": "спасибо",
+      "example_sr": "Хвала вам пуно!",
+      "example_ru": "Большое вам спасибо!",
+      "false_friend_note": "Не «хвала/хвалить»: хвала — это «спасибо»."
+    },
+    {
+      "sr_cyrillic": "молим",
+      "sr_latin": "molim",
+      "pronunciation_ru": "мОлим",
+      "translation_ru": "пожалуйста; прошу",
+      "example_sr": "Молим вас, поновите.",
+      "example_ru": "Пожалуйста, повторите.",
+      "false_friend_note": "Не про молитву: молим — это «пожалуйста/прошу». (Молити — просить.)"
+    },
+    {
+      "sr_cyrillic": "мајка",
+      "sr_latin": "majka",
+      "pronunciation_ru": "мАйка",
+      "translation_ru": "мама, мать",
+      "example_sr": "Моја мајка кува ручак.",
+      "example_ru": "Моя мама готовит обед.",
+      "false_friend_note": "Не одежда! Мајка — это мать. Футболка по-сербски — мајица."
+    },
+    {
+      "sr_cyrillic": "мајица",
+      "sr_latin": "majica",
+      "pronunciation_ru": "мАйица",
+      "translation_ru": "футболка, майка",
+      "example_sr": "Купио сам нову мајицу.",
+      "example_ru": "Я купил новую футболку.",
+      "false_friend_note": "Похоже на «майку» и правда одежда, но именно футболка (а мајка — это мать!)."
+    },
+    {
+      "sr_cyrillic": "ствар",
+      "sr_latin": "stvar",
+      "pronunciation_ru": "ствАр",
+      "translation_ru": "вещь, штука",
+      "example_sr": "Узми своје ствари.",
+      "example_ru": "Возьми свои вещи.",
+      "false_friend_note": "Не «тварь»! Ствар — это вещь, предмет."
+    },
+    {
+      "sr_cyrillic": "глас",
+      "sr_latin": "glas",
+      "pronunciation_ru": "глАс",
+      "translation_ru": "голос",
+      "example_sr": "Има леп глас.",
+      "example_ru": "У него красивый голос.",
+      "false_friend_note": "Не «глаз»! Глас — это голос. Глаз по-сербски — око."
+    },
+    {
+      "sr_cyrillic": "око",
+      "sr_latin": "oko",
+      "pronunciation_ru": "Око",
+      "translation_ru": "глаз",
+      "example_sr": "Нешто ми је упало у око.",
+      "example_ru": "Мне что-то попало в глаз.",
+      "false_friend_note": "Не поэтическое «око»: это обычное повседневное слово «глаз» (мн. очи)."
+    },
+    {
+      "sr_cyrillic": "прозор",
+      "sr_latin": "prozor",
+      "pronunciation_ru": "прОзор",
+      "translation_ru": "окно",
+      "example_sr": "Отвори прозор, топло је.",
+      "example_ru": "Открой окно, жарко.",
+      "false_friend_note": "Не «прозорливый»: прозор — это окно."
+    },
+    {
+      "sr_cyrillic": "под",
+      "sr_latin": "pod",
+      "pronunciation_ru": "пОд",
+      "translation_ru": "пол (в комнате)",
+      "example_sr": "Под је мокар, пази.",
+      "example_ru": "Пол мокрый, осторожно.",
+      "false_friend_note": "Не предлог «под»: под — это пол, напольное покрытие."
+    },
+    {
+      "sr_cyrillic": "врата",
+      "sr_latin": "vrata",
+      "pronunciation_ru": "врАта",
+      "translation_ru": "дверь",
+      "example_sr": "Затвори врата, молим те.",
+      "example_ru": "Закрой дверь, пожалуйста.",
+      "false_friend_note": "По-русски «врата» — торжественные ворота. По-сербски врата — обычная дверь."
+    },
+    {
+      "sr_cyrillic": "соба",
+      "sr_latin": "soba",
+      "pronunciation_ru": "сОба",
+      "translation_ru": "комната",
+      "example_sr": "Моја соба је мала али удобна.",
+      "example_ru": "Моя комната маленькая, но уютная.",
+      "false_friend_note": "Не «собака» и не «соба»: соба — это комната."
+    },
+    {
+      "sr_cyrillic": "радити",
+      "sr_latin": "raditi",
+      "pronunciation_ru": "рАдити",
+      "translation_ru": "работать; делать",
+      "example_sr": "Где радиш?",
+      "example_ru": "Где ты работаешь?",
+      "false_friend_note": "Не «радеть/радовать»: радити — это работать или делать."
+    },
+    {
+      "sr_cyrillic": "журити",
+      "sr_latin": "žuriti",
+      "pronunciation_ru": "жУрити",
+      "translation_ru": "спешить, торопиться",
+      "example_sr": "Журим на аутобус.",
+      "example_ru": "Я спешу на автобус.",
+      "false_friend_note": "Не «журить»! Журити — это спешить, торопиться."
+    },
+    {
+      "sr_cyrillic": "стан",
+      "sr_latin": "stan",
+      "pronunciation_ru": "стАн",
+      "translation_ru": "квартира",
+      "example_sr": "Изнајмљујем стан у центру.",
+      "example_ru": "Я снимаю квартиру в центре.",
+      "false_friend_note": "Не «стан/лагерь» и не талия: стан — это квартира."
+    },
+    {
+      "sr_cyrillic": "палити",
+      "sr_latin": "paliti",
+      "pronunciation_ru": "пАлити",
+      "translation_ru": "включать, зажигать; заводить",
+      "example_sr": "Упали светло, молим те.",
+      "example_ru": "Включи свет, пожалуйста.",
+      "false_friend_note": "Не «палить/стрелять»: палити — это включать, зажигать (свет, машину)."
+    },
+    {
+      "sr_cyrillic": "наравно",
+      "sr_latin": "naravno",
+      "pronunciation_ru": "нАравно",
+      "translation_ru": "конечно, разумеется",
+      "example_sr": "Наравно да хоћу!",
+      "example_ru": "Конечно, хочу!",
+      "false_friend_note": "Не «нарочно»! Наравно — это «конечно, разумеется»."
+    },
+    {
+      "sr_cyrillic": "заправо",
+      "sr_latin": "zapravo",
+      "pronunciation_ru": "зАправо",
+      "translation_ru": "на самом деле, собственно",
+      "example_sr": "Заправо, не знам тачно.",
+      "example_ru": "На самом деле я точно не знаю.",
+      "false_friend_note": "Не «за право/направо»: заправо — это «на самом деле, собственно»."
+    },
+    {
+      "sr_cyrillic": "проба",
+      "sr_latin": "proba",
+      "pronunciation_ru": "прОба",
+      "translation_ru": "репетиция; примерка",
+      "example_sr": "Имамо пробу представе сутра.",
+      "example_ru": "У нас репетиция спектакля завтра.",
+      "false_friend_note": "Не только «проба/образец»: проба — это репетиция или примерка одежды."
+    },
+    {
+      "sr_cyrillic": "глумац",
+      "sr_latin": "glumac",
+      "pronunciation_ru": "глУмац",
+      "translation_ru": "актёр",
+      "example_sr": "Он је познат глумац.",
+      "example_ru": "Он известный актёр.",
+      "false_friend_note": "Не «глум/насмешник»: глумац — это актёр (глума — актёрская игра)."
+    },
+    {
+      "sr_cyrillic": "гурати",
+      "sr_latin": "gurati",
+      "pronunciation_ru": "гУрати",
+      "translation_ru": "толкать, пихать",
+      "example_sr": "На вратима пише: гурати.",
+      "example_ru": "На двери написано: от себя (толкать).",
+      "false_friend_note": "Смешное на слух, но полезное: гурати — «толкать» (на дверях «гурати» = от себя)."
+    },
+    {
+      "sr_cyrillic": "сат",
+      "sr_latin": "sat",
+      "pronunciation_ru": "сАт",
+      "translation_ru": "час; часы",
+      "example_sr": "Чекам те већ сат времена.",
+      "example_ru": "Я жду тебя уже час.",
+      "false_friend_note": "Не «сад»! Сат — это час (60 минут) или часы на руке."
+    },
+    {
+      "sr_cyrillic": "уживати",
+      "sr_latin": "uživati",
+      "pronunciation_ru": "ужИвати",
+      "translation_ru": "наслаждаться, получать удовольствие",
+      "example_sr": "Уживај у одмору!",
+      "example_ru": "Наслаждайся отдыхом!",
+      "false_friend_note": "Не «уживаться»! Уживати — это наслаждаться, кайфовать."
+    },
+    {
+      "sr_cyrillic": "мана",
+      "sr_latin": "mana",
+      "pronunciation_ru": "мАна",
+      "translation_ru": "недостаток, изъян",
+      "example_sr": "Свако има своје мане.",
+      "example_ru": "У каждого есть свои недостатки.",
+      "false_friend_note": "Не «манна/мания»: мана — это недостаток, изъян."
+    },
+    {
+      "sr_cyrillic": "страна",
+      "sr_latin": "strana",
+      "pronunciation_ru": "стрАна",
+      "translation_ru": "сторона; страница",
+      "example_sr": "Погледај на другу страну.",
+      "example_ru": "Посмотри на другую сторону.",
+      "false_friend_note": "Не «страна/государство»! Страна — это сторона или страница. Государство — држава."
+    },
+    {
+      "sr_cyrillic": "одело",
+      "sr_latin": "odelo",
+      "pronunciation_ru": "Одэло",
+      "translation_ru": "костюм (мужской)",
+      "example_sr": "Обукао је ново одело за венчање.",
+      "example_ru": "Он надел новый костюм на свадьбу.",
+      "false_friend_note": "Не «одеяло»! Одело — это костюм. Одеяло по-сербски — ћебе/јорган."
+    },
+    {
+      "sr_cyrillic": "новине",
+      "sr_latin": "novine",
+      "pronunciation_ru": "нОвинэ",
+      "translation_ru": "газета",
+      "example_sr": "Купујем новине сваког јутра.",
+      "example_ru": "Я покупаю газету каждое утро.",
+      "false_friend_note": "Не «новинка/новости»: новине — это газета."
+    },
+    {
+      "sr_cyrillic": "воз",
+      "sr_latin": "voz",
+      "pronunciation_ru": "вОз",
+      "translation_ru": "поезд",
+      "example_sr": "Воз касни двадесет минута.",
+      "example_ru": "Поезд опаздывает на двадцать минут.",
+      "false_friend_note": "По-русски «воз» — телега с грузом. По-сербски воз — это поезд."
+    },
+    {
+      "sr_cyrillic": "кола",
+      "sr_latin": "kola",
+      "pronunciation_ru": "кОла",
+      "translation_ru": "машина, автомобиль",
+      "example_sr": "Оставио сам кола на паркингу.",
+      "example_ru": "Я оставил машину на парковке.",
+      "false_friend_note": "По-русски «кола» — напиток. По-сербски кола — это легковой автомобиль."
+    },
+    {
+      "sr_cyrillic": "станица",
+      "sr_latin": "stanica",
+      "pronunciation_ru": "стАница",
+      "translation_ru": "станция, остановка, вокзал",
+      "example_sr": "Силазим на следећој станици.",
+      "example_ru": "Я выхожу на следующей остановке.",
+      "false_friend_note": "По-русски «станица» — казачье село. По-сербски станица — станция, остановка."
+    },
+    {
+      "sr_cyrillic": "карта",
+      "sr_latin": "karta",
+      "pronunciation_ru": "кАрта",
+      "translation_ru": "билет",
+      "example_sr": "Купи ми једну карту за воз.",
+      "example_ru": "Купи мне один билет на поезд.",
+      "false_friend_note": "По-русски «карта» — карта местности или игральная. По-сербски карта — прежде всего билет."
+    },
+    {
+      "sr_cyrillic": "ред",
+      "sr_latin": "red",
+      "pronunciation_ru": "рЭд",
+      "translation_ru": "очередь; порядок; ряд",
+      "example_sr": "Стани у ред, молим те.",
+      "example_ru": "Встань в очередь, пожалуйста.",
+      "false_friend_note": "«Ред» — это не только «ряд», но и очередь или порядок."
+    },
+    {
+      "sr_cyrillic": "пут",
+      "sr_latin": "put",
+      "pronunciation_ru": "пУт",
+      "translation_ru": "путь, дорога; раз",
+      "example_sr": "Ово је први пут да сам овде.",
+      "example_ru": "Это первый раз, что я здесь.",
+      "false_friend_note": "«Пут» — это не только путь/дорога, но и «раз»: «два пута» — два раза."
+    },
+    {
+      "sr_cyrillic": "паре",
+      "sr_latin": "pare",
+      "pronunciation_ru": "пАрэ",
+      "translation_ru": "деньги (разг.)",
+      "example_sr": "Немам пара код себе.",
+      "example_ru": "У меня нет денег с собой.",
+      "false_friend_note": "Слышится как «пары/пар», но паре — это деньги (разговорное)."
+    }
+  ]
+}

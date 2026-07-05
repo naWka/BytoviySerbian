@@ -2,6 +2,7 @@
   "id": "dani_meseci",
   "title_ru": "📅 Дни и месяцы",
   "title_sr": "Дани и месеци",
+  "_note": "Черновик: сгенерировано AI и вычитано AI-корректором «как носитель». Не проверено носителем-человеком.",
   "words": [
     {
       "sr_cyrillic": "понедељак",
@@ -379,6 +380,258 @@
       "translation_ru": "вечером",
       "example_sr": "Продавница ради до девет увече.",
       "example_ru": "Магазин работает до девяти вечера.",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "пролеће",
+      "sr_latin": "proleće",
+      "pronunciation_ru": "прОлэче",
+      "translation_ru": "весна",
+      "example_sr": "На пролеће све процвета.",
+      "example_ru": "Весной всё расцветает.",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "лето",
+      "sr_latin": "leto",
+      "pronunciation_ru": "лЭто",
+      "translation_ru": "лето",
+      "example_sr": "Лето је најтоплије годишње доба.",
+      "example_ru": "Лето — самое тёплое время года.",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "јесен",
+      "sr_latin": "jesen",
+      "pronunciation_ru": "Есэн",
+      "translation_ru": "осень",
+      "example_sr": "У јесен почиње школа.",
+      "example_ru": "Осенью начинается школа.",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "зима",
+      "sr_latin": "zima",
+      "pronunciation_ru": "зИма",
+      "translation_ru": "зима",
+      "example_sr": "Зими често пада снег.",
+      "example_ru": "Зимой часто идёт снег.",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "годишње доба",
+      "sr_latin": "godišnje doba",
+      "pronunciation_ru": "гОдишнье дОба",
+      "translation_ru": "время года, сезон",
+      "example_sr": "Које годишње доба највише волиш?",
+      "example_ru": "Какое время года ты больше всего любишь?",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "подне",
+      "sr_latin": "podne",
+      "pronunciation_ru": "пОднэ",
+      "translation_ru": "полдень",
+      "example_sr": "Наћи ћемо се у подне.",
+      "example_ru": "Встретимся в полдень.",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "поноћ",
+      "sr_latin": "ponoć",
+      "pronunciation_ru": "пОночь",
+      "translation_ru": "полночь",
+      "example_sr": "Воз креће у поноћ.",
+      "example_ru": "Поезд отправляется в полночь.",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "поподне",
+      "sr_latin": "popodne",
+      "pronunciation_ru": "попОднэ",
+      "translation_ru": "днём, во второй половине дня",
+      "example_sr": "Доћи ћу поподне.",
+      "example_ru": "Приду во второй половине дня.",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "преподне",
+      "sr_latin": "prepodne",
+      "pronunciation_ru": "прЭподнэ",
+      "translation_ru": "в первой половине дня, до полудня",
+      "example_sr": "Лекар прима преподне.",
+      "example_ru": "Врач принимает в первой половине дня.",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "ноћ",
+      "sr_latin": "noć",
+      "pronunciation_ru": "нОчь",
+      "translation_ru": "ночь",
+      "example_sr": "Ноћу је град миран.",
+      "example_ru": "Ночью город спокойный.",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "ноћас",
+      "sr_latin": "noćas",
+      "pronunciation_ru": "нОчас",
+      "translation_ru": "сегодня ночью",
+      "example_sr": "Ноћас нисам добро спавао.",
+      "example_ru": "Сегодня ночью я плохо спал.",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "зора",
+      "sr_latin": "zora",
+      "pronunciation_ru": "зОра",
+      "translation_ru": "рассвет, заря",
+      "example_sr": "Устали смо у зору.",
+      "example_ru": "Мы встали на рассвете.",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "сумрак",
+      "sr_latin": "sumrak",
+      "pronunciation_ru": "сУмрак",
+      "translation_ru": "сумерки",
+      "example_sr": "У сумрак се пале лампе.",
+      "example_ru": "В сумерках зажигают фонари.",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "сада",
+      "sr_latin": "sada",
+      "pronunciation_ru": "сАда",
+      "translation_ru": "сейчас",
+      "example_sr": "Сада немам времена.",
+      "example_ru": "Сейчас у меня нет времени.",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "одмах",
+      "sr_latin": "odmah",
+      "pronunciation_ru": "Одмах",
+      "translation_ru": "сразу, немедленно",
+      "example_sr": "Долазим одмах.",
+      "example_ru": "Иду немедленно.",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "касније",
+      "sr_latin": "kasnije",
+      "pronunciation_ru": "кАсније",
+      "translation_ru": "позже",
+      "example_sr": "Јавићу ти се касније.",
+      "example_ru": "Свяжусь с тобой позже.",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "ускоро",
+      "sr_latin": "uskoro",
+      "pronunciation_ru": "Ускоро",
+      "translation_ru": "скоро",
+      "example_sr": "Продавница се ускоро затвара.",
+      "example_ru": "Магазин скоро закрывается.",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "недавно",
+      "sr_latin": "nedavno",
+      "pronunciation_ru": "нЭдавно",
+      "translation_ru": "недавно",
+      "example_sr": "Уселили смо се недавно.",
+      "example_ru": "Мы недавно заселились.",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "увек",
+      "sr_latin": "uvek",
+      "pronunciation_ru": "Увэк",
+      "translation_ru": "всегда",
+      "example_sr": "Увек купујем овде.",
+      "example_ru": "Я всегда покупаю здесь.",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "понекад",
+      "sr_latin": "ponekad",
+      "pronunciation_ru": "пОнэкад",
+      "translation_ru": "иногда",
+      "example_sr": "Понекад радим суботом.",
+      "example_ru": "Иногда я работаю по субботам.",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "прошле године",
+      "sr_latin": "prošle godine",
+      "pronunciation_ru": "прОшле гОдинэ",
+      "translation_ru": "в прошлом году",
+      "example_sr": "Прошле године смо били у Грчкој.",
+      "example_ru": "В прошлом году мы были в Греции.",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "следеће године",
+      "sr_latin": "sledeće godine",
+      "pronunciation_ru": "слЭдэче гОдинэ",
+      "translation_ru": "в следующем году",
+      "example_sr": "Следеће године се селимо.",
+      "example_ru": "В следующем году переезжаем.",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "ове године",
+      "sr_latin": "ove godine",
+      "pronunciation_ru": "Овэ гОдинэ",
+      "translation_ru": "в этом году",
+      "example_sr": "Ове године је топла зима.",
+      "example_ru": "В этом году тёплая зима.",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "рок",
+      "sr_latin": "rok",
+      "pronunciation_ru": "рОк",
+      "translation_ru": "срок, крайний срок",
+      "example_sr": "Рок за плаћање је петнаести.",
+      "example_ru": "Срок оплаты — пятнадцатое число.",
+      "false_friend_note": "Сербское «рок» — это срок/дедлайн (а ещё рок-музыка), но НЕ «судьба». Русское «рок» (судьба) по-сербски — «судбина»."
+    },
+    {
+      "sr_cyrillic": "термин",
+      "sr_latin": "termin",
+      "pronunciation_ru": "тЭрмин",
+      "translation_ru": "запись, назначенное время (к врачу и т. п.)",
+      "example_sr": "Заказао сам термин код зубара.",
+      "example_ru": "Я записался к стоматологу (взял время).",
+      "false_friend_note": "В быту «термин» — это запись/назначенное время (у врача, в салоне). Русское значение «термин» (слово-понятие) тоже есть, но в разговоре почти всегда слышишь про время приёма."
+    },
+    {
+      "sr_cyrillic": "распоред",
+      "sr_latin": "raspored",
+      "pronunciation_ru": "рАспорэд",
+      "translation_ru": "расписание, график",
+      "example_sr": "Погледај распоред аутобуса.",
+      "example_ru": "Посмотри расписание автобусов.",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "радно време",
+      "sr_latin": "radno vreme",
+      "pronunciation_ru": "рАдно врЭмэ",
+      "translation_ru": "часы работы, режим работы",
+      "example_sr": "Које је радно време продавнице?",
+      "example_ru": "Какой режим работы у магазина?",
+      "false_friend_note": "Слово «време» в сербском значит и «время», и «погода». «Радно време» — именно «часы/режим работы»."
+    },
+    {
+      "sr_cyrillic": "крај месеца",
+      "sr_latin": "kraj meseca",
+      "pronunciation_ru": "крАй мЭсэца",
+      "translation_ru": "конец месяца",
+      "example_sr": "Плату добијам крајем месеца.",
+      "example_ru": "Зарплату получаю в конце месяца.",
       "false_friend_note": ""
     }
   ]

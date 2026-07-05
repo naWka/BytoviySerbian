@@ -2,6 +2,7 @@
   "id": "prodavnice_usluge",
   "title_ru": "🏪 Магазины и услуги",
   "title_sr": "Продавнице и услуге",
+  "_note": "Черновик: сгенерировано AI и вычитано AI-корректором «как носитель». Не проверено носителем-человеком.",
   "words": [
     {
       "sr_cyrillic": "продавница",
@@ -380,6 +381,258 @@
       "example_sr": "Треба ми хитно, може ли данас?",
       "example_ru": "Мне срочно нужно, можно сегодня?",
       "false_friend_note": "Не про «хитрость» — «хитно» значит срочно."
+    },
+    {
+      "sr_cyrillic": "пекара",
+      "sr_latin": "pekara",
+      "pronunciation_ru": "пЕкара",
+      "translation_ru": "пекарня",
+      "example_sr": "У пекари преко пута праве најбољи бурек.",
+      "example_ru": "В пекарне напротив делают лучший бурек.",
+      "false_friend_note": "«Пекара» это пекарня/булочная, а не пекарь (пекарь — «пекар»)."
+    },
+    {
+      "sr_cyrillic": "месара",
+      "sr_latin": "mesara",
+      "pronunciation_ru": "мЕсара",
+      "translation_ru": "мясная лавка",
+      "example_sr": "Свеже месо купујем у месари, не у маркету.",
+      "example_ru": "Свежее мясо покупаю в мясной лавке, а не в супермаркете.",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "пијаца",
+      "sr_latin": "pijaca",
+      "pronunciation_ru": "пИjаца",
+      "translation_ru": "рынок",
+      "example_sr": "Суботом идем на пијацу по воће и поврће.",
+      "example_ru": "По субботам хожу на рынок за фруктами и овощами.",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "шопинг центар",
+      "sr_latin": "šoping centar",
+      "pronunciation_ru": "шОпинг цЕнтар",
+      "translation_ru": "торговый центр",
+      "example_sr": "Нови шопинг центар има биоскоп и пуно продавница.",
+      "example_ru": "В новом торговом центре есть кинотеатр и много магазинов.",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "киоск",
+      "sr_latin": "kiosk",
+      "pronunciation_ru": "кИоск",
+      "translation_ru": "киоск",
+      "example_sr": "Купи ми новине на киоску, молим те.",
+      "example_ru": "Купи мне газету в киоске, пожалуйста.",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "трафика",
+      "sr_latin": "trafika",
+      "pronunciation_ru": "трАфика",
+      "translation_ru": "табачно-газетный киоск",
+      "example_sr": "Допуну за телефон можеш да купиш у трафици.",
+      "example_ru": "Пополнение для телефона можно купить в киоске.",
+      "false_friend_note": "Не «трафик/движение» — «трафика» это киоск (сигареты, газеты, билеты для транспорта)."
+    },
+    {
+      "sr_cyrillic": "излог",
+      "sr_latin": "izlog",
+      "pronunciation_ru": "Излог",
+      "translation_ru": "витрина",
+      "example_sr": "Видела сам лепу јакну у излогу.",
+      "example_ru": "Я видела красивую куртку на витрине.",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "полица",
+      "sr_latin": "polica",
+      "pronunciation_ru": "пОлица",
+      "translation_ru": "полка",
+      "example_sr": "Млеко је на доњој полици, лево.",
+      "example_ru": "Молоко на нижней полке, слева.",
+      "false_friend_note": "Не «полиция» — «полица» это полка."
+    },
+    {
+      "sr_cyrillic": "корпа",
+      "sr_latin": "korpa",
+      "pronunciation_ru": "кОрпа",
+      "translation_ru": "корзина",
+      "example_sr": "Узмите корпу на улазу.",
+      "example_ru": "Возьмите корзину на входе.",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "колица",
+      "sr_latin": "kolica",
+      "pronunciation_ru": "кОлица",
+      "translation_ru": "тележка (в магазине)",
+      "example_sr": "Требају ми колица, имам пуно ствари.",
+      "example_ru": "Мне нужна тележка, у меня много вещей.",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "кеса",
+      "sr_latin": "kesa",
+      "pronunciation_ru": "кЕса",
+      "translation_ru": "пакет",
+      "example_sr": "Треба ли вам кеса?",
+      "example_ru": "Вам нужен пакет?",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "цена",
+      "sr_latin": "cena",
+      "pronunciation_ru": "цЕна",
+      "translation_ru": "цена",
+      "example_sr": "Колика је цена овог сира?",
+      "example_ru": "Какая цена у этого сыра?",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "ценовник",
+      "sr_latin": "cenovnik",
+      "pronunciation_ru": "цЕновник",
+      "translation_ru": "прайс-лист, ценник",
+      "example_sr": "Ценовник је на зиду поред касе.",
+      "example_ru": "Прайс-лист на стене рядом с кассой.",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "вага",
+      "sr_latin": "vaga",
+      "pronunciation_ru": "вАга",
+      "translation_ru": "весы",
+      "example_sr": "Измерите поврће на ваги пре касе.",
+      "example_ru": "Взвесьте овощи на весах перед кассой.",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "пробна кабина",
+      "sr_latin": "probna kabina",
+      "pronunciation_ru": "прОбна кабИна",
+      "translation_ru": "примерочная",
+      "example_sr": "Где је пробна кабина? Хоћу да пробам панталоне.",
+      "example_ru": "Где примерочная? Хочу примерить брюки.",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "пробати",
+      "sr_latin": "probati",
+      "pronunciation_ru": "прОбати",
+      "translation_ru": "примерить, попробовать",
+      "example_sr": "Могу ли да пробам ове ципеле у већем броју?",
+      "example_ru": "Можно примерить эти туфли на размер больше?",
+      "false_friend_note": "«Пробати» это и примерить (одежду, обувь), и попробовать (на вкус)."
+    },
+    {
+      "sr_cyrillic": "величина",
+      "sr_latin": "veličina",
+      "pronunciation_ru": "велИчина",
+      "translation_ru": "размер",
+      "example_sr": "Која је ваша величина?",
+      "example_ru": "Какой у вас размер?",
+      "false_friend_note": "В магазине «величина» это размер (одежды). Для обуви размер чаще называют «број»."
+    },
+    {
+      "sr_cyrillic": "рекламација",
+      "sr_latin": "reklamacija",
+      "pronunciation_ru": "рекламАција",
+      "translation_ru": "претензия, рекламация (жалоба на товар)",
+      "example_sr": "Хоћу да уложим рекламацију на овај апарат.",
+      "example_ru": "Хочу подать претензию на этот прибор.",
+      "false_friend_note": "Не «реклама» — «рекламација» это жалоба/претензия по некачественному товару."
+    },
+    {
+      "sr_cyrillic": "гаранција",
+      "sr_latin": "garancija",
+      "pronunciation_ru": "гарАнција",
+      "translation_ru": "гарантия",
+      "example_sr": "Гаранција важи две године.",
+      "example_ru": "Гарантия действует два года.",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "замена",
+      "sr_latin": "zamena",
+      "pronunciation_ru": "зАмена",
+      "translation_ru": "обмен товара, замена",
+      "example_sr": "Да ли је могућа замена ако не одговара величина?",
+      "example_ru": "Возможен ли обмен, если размер не подойдёт?",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "повраћај новца",
+      "sr_latin": "povraćaj novca",
+      "pronunciation_ru": "пОвраћај нОвца",
+      "translation_ru": "возврат денег",
+      "example_sr": "Тражим повраћај новца, роба је неисправна.",
+      "example_ru": "Прошу возврат денег, товар неисправен.",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "поправка",
+      "sr_latin": "popravka",
+      "pronunciation_ru": "пОправка",
+      "translation_ru": "ремонт, починка",
+      "example_sr": "Однећу ципеле на поправку.",
+      "example_ru": "Отнесу туфли в ремонт.",
+      "false_friend_note": "Не «поправка/правка текста» — «поправка» это ремонт, починка вещи."
+    },
+    {
+      "sr_cyrillic": "сервис",
+      "sr_latin": "servis",
+      "pronunciation_ru": "сЕрвис",
+      "translation_ru": "сервис, мастерская",
+      "example_sr": "Телефон је још на сервису.",
+      "example_ru": "Телефон ещё в сервисе.",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "мајстор",
+      "sr_latin": "majstor",
+      "pronunciation_ru": "мАјстор",
+      "translation_ru": "мастер (ремонтник)",
+      "example_sr": "Мајстор ће поправити фрижидер сутра.",
+      "example_ru": "Мастер починит холодильник завтра.",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "хемијско чишћење",
+      "sr_latin": "hemijsko čišćenje",
+      "pronunciation_ru": "хЕмијско чИшћење",
+      "translation_ru": "химчистка",
+      "example_sr": "Однела сам капут на хемијско чишћење.",
+      "example_ru": "Я отнесла пальто в химчистку.",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "кројач",
+      "sr_latin": "krojač",
+      "pronunciation_ru": "кројАч",
+      "translation_ru": "портной",
+      "example_sr": "Кројач ће ми скратити панталоне.",
+      "example_ru": "Портной укоротит мне брюки.",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "фризер",
+      "sr_latin": "frizer",
+      "pronunciation_ru": "фризЕр",
+      "translation_ru": "парикмахер",
+      "example_sr": "Заказала сам термин код фризера за петак.",
+      "example_ru": "Записалась к парикмахеру на пятницу.",
+      "false_friend_note": "Не «фризер/морозилка» — «фризер» это парикмахер (морозилка — «замрзивач»)."
+    },
+    {
+      "sr_cyrillic": "обућар",
+      "sr_latin": "obućar",
+      "pronunciation_ru": "обућАр",
+      "translation_ru": "сапожник (ремонт обуви)",
+      "example_sr": "Обућар мења ђон на ципелама.",
+      "example_ru": "Сапожник меняет подошву на туфлях.",
+      "false_friend_note": ""
     }
   ]
 }

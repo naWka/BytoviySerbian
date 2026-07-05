@@ -2,6 +2,7 @@
   "id": "apoteka_lekovi",
   "title_ru": "💊 Аптека и лекарства",
   "title_sr": "Апотека",
+  "_note": "Черновик: сгенерировано AI и вычитано AI-корректором «как носитель». Не проверено носителем-человеком.",
   "words": [
     {
       "sr_cyrillic": "апотека",
@@ -380,6 +381,258 @@
       "example_sr": "Боли ме грло кад гутам.",
       "example_ru": "Болит горло, когда глотаю.",
       "false_friend_note": "«Грло» — это горло (буквы переставлены местами)."
+    },
+    {
+      "sr_cyrillic": "фармацеут",
+      "sr_latin": "farmaceut",
+      "pronunciation_ru": "фармацЭут",
+      "translation_ru": "фармацевт (аптекарь)",
+      "example_sr": "Питајте фармацеута за савет.",
+      "example_ru": "Спросите совета у фармацевта.",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "дежурна апотека",
+      "sr_latin": "dežurna apoteka",
+      "pronunciation_ru": "дЭжурна апотЭка",
+      "translation_ru": "дежурная (круглосуточная) аптека",
+      "example_sr": "Ноћу ради само дежурна апотека.",
+      "example_ru": "Ночью работает только дежурная аптека.",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "спреј",
+      "sr_latin": "sprej",
+      "pronunciation_ru": "спрЭй",
+      "translation_ru": "спрей",
+      "example_sr": "Имате ли спреј за грло?",
+      "example_ru": "Есть у вас спрей для горла?",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "инхалатор",
+      "sr_latin": "inhalator",
+      "pronunciation_ru": "инхалАтор",
+      "translation_ru": "ингалятор",
+      "example_sr": "Користим инхалатор за астму.",
+      "example_ru": "Я пользуюсь ингалятором от астмы.",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "чепић",
+      "sr_latin": "čepić",
+      "pronunciation_ru": "чЭпич",
+      "translation_ru": "свеча ректальная (суппозиторий)",
+      "example_sr": "За температуру детету дајте чепић.",
+      "example_ru": "При температуре дайте ребёнку свечку.",
+      "false_friend_note": "«Чепић» — ректальная свеча; буквально уменьшительное от «чеп» — пробка."
+    },
+    {
+      "sr_cyrillic": "таблете за смирење",
+      "sr_latin": "tablete za smirenje",
+      "pronunciation_ru": "таблЭте за смирЭње",
+      "translation_ru": "успокоительное (таблетки)",
+      "example_sr": "Треба ми нешто благо за смирење.",
+      "example_ru": "Мне нужно что-нибудь лёгкое успокоительное.",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "таблете за спавање",
+      "sr_latin": "tablete za spavanje",
+      "pronunciation_ru": "таблЭте за спАвање",
+      "translation_ru": "снотворное",
+      "example_sr": "Таблете за спавање се издају на рецепт.",
+      "example_ru": "Снотворное отпускают по рецепту.",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "пробиотик",
+      "sr_latin": "probiotik",
+      "pronunciation_ru": "пробиОтик",
+      "translation_ru": "пробиотик",
+      "example_sr": "Уз антибиотик узмите и пробиотик.",
+      "example_ru": "С антибиотиком принимайте и пробиотик.",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "магнезијум",
+      "sr_latin": "magnezijum",
+      "pronunciation_ru": "магнЭзијум",
+      "translation_ru": "магний (препарат)",
+      "example_sr": "Пијем магнезијум због грчева.",
+      "example_ru": "Пью магний из-за судорог.",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "гвожђе",
+      "sr_latin": "gvožđe",
+      "pronunciation_ru": "гвОждже",
+      "translation_ru": "железо (препарат)",
+      "example_sr": "Лекар ми је препоручио гвожђе.",
+      "example_ru": "Врач порекомендовал мне железо.",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "термометар",
+      "sr_latin": "termometar",
+      "pronunciation_ru": "тэрмОмэтар",
+      "translation_ru": "термометр (градусник)",
+      "example_sr": "Треба ми термометар за децу.",
+      "example_ru": "Мне нужен термометр для детей.",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "паковање",
+      "sr_latin": "pakovanje",
+      "pronunciation_ru": "пакОвање",
+      "translation_ru": "упаковка",
+      "example_sr": "Дајте ми веће паковање.",
+      "example_ru": "Дайте мне упаковку побольше.",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "кутија",
+      "sr_latin": "kutija",
+      "pronunciation_ru": "кУтија",
+      "translation_ru": "коробка (упаковка)",
+      "example_sr": "Колико таблета има у кутији?",
+      "example_ru": "Сколько таблеток в коробке?",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "бочица",
+      "sr_latin": "bočica",
+      "pronunciation_ru": "бОчица",
+      "translation_ru": "флакончик, пузырёк",
+      "example_sr": "Сируп долази у бочици од сто милилитара.",
+      "example_ru": "Сироп идёт во флаконе на сто миллилитров.",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "туба",
+      "sr_latin": "tuba",
+      "pronunciation_ru": "тУба",
+      "translation_ru": "тюбик",
+      "example_sr": "Крема је у малој туби.",
+      "example_ru": "Крем в маленьком тюбике.",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "алкохол",
+      "sr_latin": "alkohol",
+      "pronunciation_ru": "Алкохол",
+      "translation_ru": "спирт медицинский; алкоголь",
+      "example_sr": "Дајте ми алкохол за дезинфекцију.",
+      "example_ru": "Дайте мне спирт для дезинфекции.",
+      "false_friend_note": "«Алкохол» в аптеке — это медицинский спирт, а не напиток."
+    },
+    {
+      "sr_cyrillic": "хидроген",
+      "sr_latin": "hidrogen",
+      "pronunciation_ru": "хИдроген",
+      "translation_ru": "перекись водорода (разг.)",
+      "example_sr": "Ставите мало хидрогена на рану.",
+      "example_ru": "Нанесите немного перекиси на рану.",
+      "false_friend_note": "Разговорное «хидроген» — это перекись водорода, а не «водород»."
+    },
+    {
+      "sr_cyrillic": "маска",
+      "sr_latin": "maska",
+      "pronunciation_ru": "мАска",
+      "translation_ru": "маска (медицинская)",
+      "example_sr": "Треба ми паковање заштитних маски.",
+      "example_ru": "Мне нужна упаковка защитных масок.",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "влажне марамице",
+      "sr_latin": "vlažne maramice",
+      "pronunciation_ru": "влАжне марАмице",
+      "translation_ru": "влажные салфетки",
+      "example_sr": "Имате ли влажне марамице за бебе?",
+      "example_ru": "Есть у вас влажные салфетки для малышей?",
+      "false_friend_note": "«Марамица» — салфетка/платочек, а не «марка»."
+    },
+    {
+      "sr_cyrillic": "крема за сунчање",
+      "sr_latin": "krema za sunčanje",
+      "pronunciation_ru": "крЭма за сУнчање",
+      "translation_ru": "солнцезащитный крем",
+      "example_sr": "Дајте ми крему за сунчање, фактор педесет.",
+      "example_ru": "Дайте мне солнцезащитный крем, фактор пятьдесят.",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "хигијенски улошци",
+      "sr_latin": "higijenski ulošci",
+      "pronunciation_ru": "хигИјенски улОшци",
+      "translation_ru": "гигиенические прокладки",
+      "example_sr": "Где су код вас хигијенски улошци?",
+      "example_ru": "Где у вас гигиенические прокладки?",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "паста за зубе",
+      "sr_latin": "pasta za zube",
+      "pronunciation_ru": "пАста за зУбе",
+      "translation_ru": "зубная паста",
+      "example_sr": "Треба ми паста за осетљиве зубе.",
+      "example_ru": "Мне нужна паста для чувствительных зубов.",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "презерватив",
+      "sr_latin": "prezervativ",
+      "pronunciation_ru": "прэзэрвАтив",
+      "translation_ru": "презерватив",
+      "example_sr": "Дајте ми паковање презерватива.",
+      "example_ru": "Дайте мне упаковку презервативов.",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "тест за трудноћу",
+      "sr_latin": "test za trudnoću",
+      "pronunciation_ru": "тЭст за труднОчу",
+      "translation_ru": "тест на беременность",
+      "example_sr": "Треба ми тест за трудноћу.",
+      "example_ru": "Мне нужен тест на беременность.",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "пастиле за грло",
+      "sr_latin": "pastile za grlo",
+      "pronunciation_ru": "пАстиле за гЫрло",
+      "translation_ru": "пастилки (леденцы) от горла",
+      "example_sr": "Дајте ми пастиле за грло са медом.",
+      "example_ru": "Дайте мне пастилки от горла с мёдом.",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "капи за уши",
+      "sr_latin": "kapi za uši",
+      "pronunciation_ru": "кАпи за Уши",
+      "translation_ru": "ушные капли",
+      "example_sr": "Боли ме уво, требају ми капи за уши.",
+      "example_ru": "У меня болит ухо, мне нужны ушные капли.",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "цена",
+      "sr_latin": "cena",
+      "pronunciation_ru": "цЭна",
+      "translation_ru": "цена",
+      "example_sr": "Колика је цена овог лека?",
+      "example_ru": "Сколько стоит это лекарство?",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "препорука",
+      "sr_latin": "preporuka",
+      "pronunciation_ru": "прэпОрука",
+      "translation_ru": "рекомендация, совет",
+      "example_sr": "Дајте ми неку препоруку за кашаљ.",
+      "example_ru": "Посоветуйте что-нибудь от кашля.",
+      "false_friend_note": "«Препорука» — рекомендация/совет, а не «поручение»."
     }
   ]
 }

@@ -1,0 +1,638 @@
+{
+  "id": "praznici_proslave",
+  "title_ru": "🎉 Праздники",
+  "title_sr": "Празници и прославе",
+  "_note": "Черновик: сгенерировано AI и вычитано AI-корректором «как носитель». Не проверено носителем-человеком.",
+  "words": [
+    {
+      "sr_cyrillic": "празник",
+      "sr_latin": "praznik",
+      "pronunciation_ru": "прАзник",
+      "translation_ru": "праздник",
+      "example_sr": "Сутра је државни празник, не радимо.",
+      "example_ru": "Завтра государственный праздник, мы не работаем.",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "прослава",
+      "sr_latin": "proslava",
+      "pronunciation_ru": "прОслава",
+      "translation_ru": "празднование, торжество",
+      "example_sr": "Прослава рођендана је у суботу увече.",
+      "example_ru": "Празднование дня рождения в субботу вечером.",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "славље",
+      "sr_latin": "slavlje",
+      "pronunciation_ru": "слАвлье",
+      "translation_ru": "торжество, гуляние",
+      "example_sr": "Било је велико славље код комшија.",
+      "example_ru": "У соседей было большое гуляние.",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "рођендан",
+      "sr_latin": "rođendan",
+      "pronunciation_ru": "рОдьжендан",
+      "translation_ru": "день рождения",
+      "example_sr": "Кад ти је рођендан?",
+      "example_ru": "Когда у тебя день рождения?",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "слављеник",
+      "sr_latin": "slavljenik",
+      "pronunciation_ru": "слАвльеник",
+      "translation_ru": "именинник, виновник торжества",
+      "example_sr": "Слављеник дува свеће на торти.",
+      "example_ru": "Именинник задувает свечи на торте.",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "Нова година",
+      "sr_latin": "Nova godina",
+      "pronunciation_ru": "нОва гОдина",
+      "translation_ru": "Новый год",
+      "example_sr": "За Нову годину идемо код пријатеља.",
+      "example_ru": "На Новый год идём к друзьям.",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "дочек",
+      "sr_latin": "doček",
+      "pronunciation_ru": "дОчек",
+      "translation_ru": "встреча (Нового года), приём гостей",
+      "example_sr": "Како је прошао дочек Нове године?",
+      "example_ru": "Как прошла встреча Нового года?",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "Божић",
+      "sr_latin": "Božić",
+      "pronunciation_ru": "бОжичь",
+      "translation_ru": "Рождество",
+      "example_sr": "Божић славимо седмог јануара.",
+      "example_ru": "Рождество мы празднуем седьмого января.",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "Бадње вече",
+      "sr_latin": "Badnje veče",
+      "pronunciation_ru": "бАднье вЭче",
+      "translation_ru": "Сочельник, канун Рождества",
+      "example_sr": "На Бадње вече палимо бадњак.",
+      "example_ru": "В Сочельник мы жжём бадняк.",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "бадњак",
+      "sr_latin": "badnjak",
+      "pronunciation_ru": "бАдняк",
+      "translation_ru": "бадняк (дубовая ветвь, рождественское полено)",
+      "example_sr": "Купили смо бадњак испред цркве.",
+      "example_ru": "Мы купили бадняк перед церковью.",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "чесница",
+      "sr_latin": "česnica",
+      "pronunciation_ru": "чЭсница",
+      "translation_ru": "рождественский хлеб с монеткой",
+      "example_sr": "У чесници се крије новчић за срећу.",
+      "example_ru": "В чеснице спрятана монетка на счастье.",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "Ускрс",
+      "sr_latin": "Uskrs",
+      "pronunciation_ru": "Ускрс",
+      "translation_ru": "Пасха",
+      "example_sr": "За Ускрс фарбамо јаја.",
+      "example_ru": "На Пасху мы красим яйца.",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "Христос васкрсе",
+      "sr_latin": "Hristos vaskrse",
+      "pronunciation_ru": "хрИстос вАскрсе",
+      "translation_ru": "Христос воскресе (пасхальное приветствие)",
+      "example_sr": "Христос васкрсе! — Ваистину васкрсе!",
+      "example_ru": "Христос воскресе! — Воистину воскресе!",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "туцање јаја",
+      "sr_latin": "tucanje jaja",
+      "pronunciation_ru": "тУцанье йАйа",
+      "translation_ru": "битьё яиц (пасхальный обычай)",
+      "example_sr": "На Ускрс идемо на туцање јаја, чије је најјаче.",
+      "example_ru": "На Пасху бьёмся яйцами — чьё крепче.",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "слава",
+      "sr_latin": "slava",
+      "pronunciation_ru": "слАва",
+      "translation_ru": "слава (семейный праздник святого-покровителя)",
+      "example_sr": "Наша слава је Свети Никола.",
+      "example_ru": "Наш святой-покровитель (наша слава) — Святой Никола.",
+      "false_friend_note": "«Слава» здесь — семейный праздник святого-покровителя, а не только «слава/известность»."
+    },
+    {
+      "sr_cyrillic": "крсна слава",
+      "sr_latin": "krsna slava",
+      "pronunciation_ru": "крсна слАва",
+      "translation_ru": "крестная слава (день святого-покровителя семьи)",
+      "example_sr": "Крсна слава се преноси с оца на сина.",
+      "example_ru": "Крестная слава передаётся от отца к сыну.",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "славски колач",
+      "sr_latin": "slavski kolač",
+      "pronunciation_ru": "слАвски кОлач",
+      "translation_ru": "славский калач (обрядовый хлеб на славу)",
+      "example_sr": "Свештеник благосиља славски колач.",
+      "example_ru": "Священник благословляет славский калач.",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "кољиво",
+      "sr_latin": "koljivo",
+      "pronunciation_ru": "кОльиво",
+      "translation_ru": "коливо, кутья (варёная пшеница)",
+      "example_sr": "Кољиво се спрема од куваног жита.",
+      "example_ru": "Коливо готовят из варёной пшеницы.",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "свећа",
+      "sr_latin": "sveća",
+      "pronunciation_ru": "свЭча",
+      "translation_ru": "свеча",
+      "example_sr": "Упали свећу за славу.",
+      "example_ru": "Зажги свечу на славу.",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "домаћин",
+      "sr_latin": "domaćin",
+      "pronunciation_ru": "домАчин",
+      "translation_ru": "хозяин (дома, праздника)",
+      "example_sr": "Домаћин дочекује госте на вратима.",
+      "example_ru": "Хозяин встречает гостей у дверей.",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "гост",
+      "sr_latin": "gost",
+      "pronunciation_ru": "гОст",
+      "translation_ru": "гость",
+      "example_sr": "Вечерас имамо госте.",
+      "example_ru": "Сегодня вечером у нас гости.",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "гошћа",
+      "sr_latin": "gošća",
+      "pronunciation_ru": "гОшча",
+      "translation_ru": "гостья",
+      "example_sr": "Једна гошћа је донела цвеће.",
+      "example_ru": "Одна гостья принесла цветы.",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "позивница",
+      "sr_latin": "pozivnica",
+      "pronunciation_ru": "позИвница",
+      "translation_ru": "приглашение (пригласительная)",
+      "example_sr": "Добио сам позивницу за свадбу.",
+      "example_ru": "Я получил приглашение на свадьбу.",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "поклон",
+      "sr_latin": "poklon",
+      "pronunciation_ru": "пОклон",
+      "translation_ru": "подарок",
+      "example_sr": "Ово је поклон за тебе.",
+      "example_ru": "Это подарок для тебя.",
+      "false_friend_note": "«Поклон» по-сербски — подарок, а не наклон/поклон телом."
+    },
+    {
+      "sr_cyrillic": "дар",
+      "sr_latin": "dar",
+      "pronunciation_ru": "дАр",
+      "translation_ru": "дар, подарок",
+      "example_sr": "Најлепши дар је твоје присуство.",
+      "example_ru": "Лучший дар — твоё присутствие.",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "честитка",
+      "sr_latin": "čestitka",
+      "pronunciation_ru": "чЭститка",
+      "translation_ru": "открытка, поздравительная карточка",
+      "example_sr": "Написао сам ти честитку.",
+      "example_ru": "Я написал тебе поздравительную открытку.",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "честитати",
+      "sr_latin": "čestitati",
+      "pronunciation_ru": "чЭститати",
+      "translation_ru": "поздравлять",
+      "example_sr": "Дошли смо да ти честитамо.",
+      "example_ru": "Мы пришли тебя поздравить.",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "честитам",
+      "sr_latin": "čestitam",
+      "pronunciation_ru": "чЭститам",
+      "translation_ru": "поздравляю",
+      "example_sr": "Честитам ти рођендан!",
+      "example_ru": "Поздравляю тебя с днём рождения!",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "поздрав",
+      "sr_latin": "pozdrav",
+      "pronunciation_ru": "пОздрав",
+      "translation_ru": "привет, приветствие",
+      "example_sr": "Пренеси поздрав родитељима.",
+      "example_ru": "Передавай привет родителям.",
+      "false_friend_note": "«Поздрав» — привет/приветствие, а НЕ поздравление. Поздравлять — «честитати»."
+    },
+    {
+      "sr_cyrillic": "торта",
+      "sr_latin": "torta",
+      "pronunciation_ru": "тОрта",
+      "translation_ru": "торт",
+      "example_sr": "Торта је са чоколадом и вишњама.",
+      "example_ru": "Торт с шоколадом и вишней.",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "свећице",
+      "sr_latin": "svećice",
+      "pronunciation_ru": "свЭчице",
+      "translation_ru": "свечки (на торте)",
+      "example_sr": "Стави свећице на торту.",
+      "example_ru": "Поставь свечки на торт.",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "дувати свеће",
+      "sr_latin": "duvati sveće",
+      "pronunciation_ru": "дУвати свЭче",
+      "translation_ru": "задувать свечи",
+      "example_sr": "Пожели жељу и дувај свеће!",
+      "example_ru": "Загадай желание и задувай свечи!",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "жеља",
+      "sr_latin": "želja",
+      "pronunciation_ru": "жЭля",
+      "translation_ru": "желание",
+      "example_sr": "Испунила ми се жеља.",
+      "example_ru": "Моё желание сбылось.",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "изненађење",
+      "sr_latin": "iznenađenje",
+      "pronunciation_ru": "изненАдьженье",
+      "translation_ru": "сюрприз, неожиданность",
+      "example_sr": "Спремили смо ти изненађење!",
+      "example_ru": "Мы приготовили тебе сюрприз!",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "балон",
+      "sr_latin": "balon",
+      "pronunciation_ru": "балОн",
+      "translation_ru": "воздушный шарик",
+      "example_sr": "Деца су надувала балоне.",
+      "example_ru": "Дети надули воздушные шарики.",
+      "false_friend_note": "«Балон» — воздушный шарик, а не газовый баллон."
+    },
+    {
+      "sr_cyrillic": "украси",
+      "sr_latin": "ukrasi",
+      "pronunciation_ru": "Украси",
+      "translation_ru": "украшения, декор",
+      "example_sr": "Окитили смо собу разним украсима.",
+      "example_ru": "Мы украсили комнату разными украшениями.",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "окитити",
+      "sr_latin": "okititi",
+      "pronunciation_ru": "Окитити",
+      "translation_ru": "украсить, нарядить",
+      "example_sr": "Хајде да окитимо јелку.",
+      "example_ru": "Давай нарядим ёлку.",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "јелка",
+      "sr_latin": "jelka",
+      "pronunciation_ru": "йЭлка",
+      "translation_ru": "ёлка (новогодняя)",
+      "example_sr": "Купили смо велику јелку за дневну собу.",
+      "example_ru": "Мы купили большую ёлку в гостиную.",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "лампице",
+      "sr_latin": "lampice",
+      "pronunciation_ru": "лАмпице",
+      "translation_ru": "гирлянда (огоньки)",
+      "example_sr": "Јелка светли од лампица.",
+      "example_ru": "Ёлка светится от гирлянды.",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "Деда Мраз",
+      "sr_latin": "Deda Mraz",
+      "pronunciation_ru": "дЭда мрАз",
+      "translation_ru": "Дед Мороз",
+      "example_sr": "Деда Мраз доноси пакетиће деци.",
+      "example_ru": "Дед Мороз приносит детям подарки.",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "пакетић",
+      "sr_latin": "paketić",
+      "pronunciation_ru": "пакЭтичь",
+      "translation_ru": "новогодний подарок (детский пакет со сладостями)",
+      "example_sr": "Свако дете је добило пакетић.",
+      "example_ru": "Каждый ребёнок получил новогодний пакет.",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "ватромет",
+      "sr_latin": "vatromet",
+      "pronunciation_ru": "вАтромет",
+      "translation_ru": "фейерверк, салют",
+      "example_sr": "У поноћ је почео ватромет.",
+      "example_ru": "В полночь начался фейерверк.",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "петарде",
+      "sr_latin": "petarde",
+      "pronunciation_ru": "пЭтарде",
+      "translation_ru": "петарды",
+      "example_sr": "Деца пуцају петарде на улици.",
+      "example_ru": "Дети взрывают петарды на улице.",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "поноћ",
+      "sr_latin": "ponoć",
+      "pronunciation_ru": "пОночь",
+      "translation_ru": "полночь",
+      "example_sr": "Дочекали смо поноћ уз шампањац.",
+      "example_ru": "Мы встретили полночь с шампанским.",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "шампањац",
+      "sr_latin": "šampanjac",
+      "pronunciation_ru": "шампАньац",
+      "translation_ru": "шампанское",
+      "example_sr": "Отворили смо шампањац у поноћ.",
+      "example_ru": "Мы открыли шампанское в полночь.",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "наздравити",
+      "sr_latin": "nazdraviti",
+      "pronunciation_ru": "нАздравити",
+      "translation_ru": "поднять тост, чокнуться",
+      "example_sr": "Хајде да наздравимо за срећу!",
+      "example_ru": "Давайте выпьем за счастье!",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "здравица",
+      "sr_latin": "zdravica",
+      "pronunciation_ru": "здрАвица",
+      "translation_ru": "тост (застольная речь)",
+      "example_sr": "Кум је одржао лепу здравицу.",
+      "example_ru": "Кум произнёс красивый тост.",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "живели",
+      "sr_latin": "živeli",
+      "pronunciation_ru": "жИвели",
+      "translation_ru": "за здоровье!, будем! (застольный тост)",
+      "example_sr": "Живели, за наше госте!",
+      "example_ru": "За здоровье, за наших гостей!",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "забава",
+      "sr_latin": "zabava",
+      "pronunciation_ru": "зАбава",
+      "translation_ru": "вечеринка, праздничное веселье",
+      "example_sr": "Вечерас идемо на забаву.",
+      "example_ru": "Сегодня вечером идём на вечеринку.",
+      "false_friend_note": "«Забава» — вечеринка/развлечение (мероприятие), а не «забава/потеха» как в русском."
+    },
+    {
+      "sr_cyrillic": "журка",
+      "sr_latin": "žurka",
+      "pronunciation_ru": "жУрка",
+      "translation_ru": "вечеринка, тусовка (разг.)",
+      "example_sr": "Била је добра журка код Марка.",
+      "example_ru": "У Марко была хорошая вечеринка.",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "прославити",
+      "sr_latin": "proslaviti",
+      "pronunciation_ru": "прослАвити",
+      "translation_ru": "отпраздновать, отметить",
+      "example_sr": "Хоћемо да прославимо твој успех.",
+      "example_ru": "Мы хотим отпраздновать твой успех.",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "славити",
+      "sr_latin": "slaviti",
+      "pronunciation_ru": "слАвити",
+      "translation_ru": "праздновать, отмечать",
+      "example_sr": "Славимо Никољдан сваке године.",
+      "example_ru": "Мы каждый год празднуем Николин день.",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "трпеза",
+      "sr_latin": "trpeza",
+      "pronunciation_ru": "трпЭза",
+      "translation_ru": "накрытый праздничный стол, угощение",
+      "example_sr": "Трпеза је богата за славу.",
+      "example_ru": "Праздничный стол на славу богатый.",
+      "false_friend_note": "«Трпеза» — накрытый праздничный стол, а не «трапеза/приём пищи»."
+    },
+    {
+      "sr_cyrillic": "посластица",
+      "sr_latin": "poslastica",
+      "pronunciation_ru": "послАстица",
+      "translation_ru": "десерт, сладость",
+      "example_sr": "За крај следи посластица.",
+      "example_ru": "На десерт под конец будет сладкое.",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "колачи",
+      "sr_latin": "kolači",
+      "pronunciation_ru": "кОлачи",
+      "translation_ru": "сладкая выпечка, печенье, пирожные",
+      "example_sr": "Бака је испекла колаче за госте.",
+      "example_ru": "Бабушка напекла печенья для гостей.",
+      "false_friend_note": "«Колачи» — сладкая выпечка/печенье, а не «калач» (вид хлеба)."
+    },
+    {
+      "sr_cyrillic": "част",
+      "sr_latin": "čast",
+      "pronunciation_ru": "чАст",
+      "translation_ru": "честь; угощение за чей-то счёт",
+      "example_sr": "Пиће је на моју част!",
+      "example_ru": "Напитки за мой счёт!",
+      "false_friend_note": "«Част» — честь или угощение за чей-то счёт, а не «часть»."
+    },
+    {
+      "sr_cyrillic": "частити",
+      "sr_latin": "častiti",
+      "pronunciation_ru": "чАстити",
+      "translation_ru": "угощать, платить (за угощение)",
+      "example_sr": "Данас те ја частим кафом.",
+      "example_ru": "Сегодня я угощаю тебя кофе.",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "годишњица",
+      "sr_latin": "godišnjica",
+      "pronunciation_ru": "годИшньица",
+      "translation_ru": "годовщина",
+      "example_sr": "Славе годишњицу брака.",
+      "example_ru": "Они празднуют годовщину свадьбы.",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "свадба",
+      "sr_latin": "svadba",
+      "pronunciation_ru": "свАдба",
+      "translation_ru": "свадьба",
+      "example_sr": "Свадба је била у ресторану поред реке.",
+      "example_ru": "Свадьба была в ресторане у реки.",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "венчање",
+      "sr_latin": "venčanje",
+      "pronunciation_ru": "вЭнчанье",
+      "translation_ru": "венчание, бракосочетание",
+      "example_sr": "Венчање је у цркви у подне.",
+      "example_ru": "Венчание в церкви в полдень.",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "млада",
+      "sr_latin": "mlada",
+      "pronunciation_ru": "млАда",
+      "translation_ru": "невеста",
+      "example_sr": "Млада је носила белу венчаницу.",
+      "example_ru": "Невеста была в белом свадебном платье.",
+      "false_friend_note": "«Млада» — невеста, хотя дословно «молодая»."
+    },
+    {
+      "sr_cyrillic": "младожења",
+      "sr_latin": "mladoženja",
+      "pronunciation_ru": "младожЭнья",
+      "translation_ru": "жених",
+      "example_sr": "Младожења чека младу пред олтаром.",
+      "example_ru": "Жених ждёт невесту у алтаря.",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "венчаница",
+      "sr_latin": "venčanica",
+      "pronunciation_ru": "венчАница",
+      "translation_ru": "свадебное платье",
+      "example_sr": "Купила је венчаницу у центру града.",
+      "example_ru": "Она купила свадебное платье в центре города.",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "прстен",
+      "sr_latin": "prsten",
+      "pronunciation_ru": "прстЭн",
+      "translation_ru": "кольцо",
+      "example_sr": "Ставили су једно другом прстен.",
+      "example_ru": "Они надели друг другу кольца.",
+      "false_friend_note": "«Прстен» — любое кольцо, не только перстень."
+    },
+    {
+      "sr_cyrillic": "веридба",
+      "sr_latin": "veridba",
+      "pronunciation_ru": "вЭридба",
+      "translation_ru": "помолвка, обручение",
+      "example_sr": "Веридба је била прошлог месеца.",
+      "example_ru": "Помолвка была в прошлом месяце.",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "кум",
+      "sr_latin": "kum",
+      "pronunciation_ru": "кУм",
+      "translation_ru": "кум; свидетель на свадьбе, крёстный",
+      "example_sr": "Кум је потписао као сведок.",
+      "example_ru": "Кум расписался как свидетель.",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "кума",
+      "sr_latin": "kuma",
+      "pronunciation_ru": "кУма",
+      "translation_ru": "кума; свидетельница, крёстная",
+      "example_sr": "Кума је бацила пиринач на младенце.",
+      "example_ru": "Кума бросила рис на молодожёнов.",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "букет",
+      "sr_latin": "buket",
+      "pronunciation_ru": "букЭт",
+      "translation_ru": "букет",
+      "example_sr": "Младожења је донео букет ружа.",
+      "example_ru": "Жених принёс букет роз.",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "крштење",
+      "sr_latin": "krštenje",
+      "pronunciation_ru": "кршТЭнье",
+      "translation_ru": "крещение (обряд), крестины",
+      "example_sr": "Позвани смо на крштење бебе.",
+      "example_ru": "Нас позвали на крестины малыша.",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "свечаност",
+      "sr_latin": "svečanost",
+      "pronunciation_ru": "свечАност",
+      "translation_ru": "торжество, церемония",
+      "example_sr": "Свечаност је почела тачно у осам.",
+      "example_ru": "Торжество началось ровно в восемь.",
+      "false_friend_note": ""
+    }
+  ]
+}

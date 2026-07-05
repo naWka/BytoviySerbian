@@ -1,0 +1,638 @@
+{
+  "id": "pitanja_reci",
+  "title_ru": "❓ Вопросы и связки",
+  "title_sr": "Питања и везне речи",
+  "_note": "Черновик: сгенерировано AI и вычитано AI-корректором «как носитель». Не проверено носителем-человеком.",
+  "words": [
+    {
+      "sr_cyrillic": "ко",
+      "sr_latin": "ko",
+      "pronunciation_ru": "кО",
+      "translation_ru": "кто",
+      "example_sr": "Ко је на реду?",
+      "example_ru": "Кто следующий (в очереди)?",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "шта",
+      "sr_latin": "šta",
+      "pronunciation_ru": "штА",
+      "translation_ru": "что",
+      "example_sr": "Шта желите?",
+      "example_ru": "Что желаете?",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "где",
+      "sr_latin": "gde",
+      "pronunciation_ru": "гдЭ",
+      "translation_ru": "где",
+      "example_sr": "Где су кључеви?",
+      "example_ru": "Где ключи?",
+      "false_friend_note": "«Где си?» в разговоре — это приветствие «привет, как ты?», а не буквально «где ты?»."
+    },
+    {
+      "sr_cyrillic": "када",
+      "sr_latin": "kada",
+      "pronunciation_ru": "кАда",
+      "translation_ru": "когда",
+      "example_sr": "Када стиже аутобус?",
+      "example_ru": "Когда приедет автобус?",
+      "false_friend_note": "«када» — это ещё и «ванна». По фразе понятно, где «когда», а где «ванна»."
+    },
+    {
+      "sr_cyrillic": "зашто",
+      "sr_latin": "zašto",
+      "pronunciation_ru": "зАшто",
+      "translation_ru": "почему, зачем",
+      "example_sr": "Зашто не ради лифт?",
+      "example_ru": "Почему не работает лифт?",
+      "false_friend_note": "«зашто» = «почему/зачем», а не «за что» (за что = «због чега»)."
+    },
+    {
+      "sr_cyrillic": "колико",
+      "sr_latin": "koliko",
+      "pronunciation_ru": "кОлико",
+      "translation_ru": "сколько",
+      "example_sr": "Колико кошта?",
+      "example_ru": "Сколько стоит?",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "како",
+      "sr_latin": "kako",
+      "pronunciation_ru": "кАко",
+      "translation_ru": "как",
+      "example_sr": "Како се зовеш?",
+      "example_ru": "Как тебя зовут?",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "какав",
+      "sr_latin": "kakav",
+      "pronunciation_ru": "кАкав",
+      "translation_ru": "какой",
+      "example_sr": "Какав је ово сир?",
+      "example_ru": "Какой это сыр?",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "чији",
+      "sr_latin": "čiji",
+      "pronunciation_ru": "чИйи",
+      "translation_ru": "чей",
+      "example_sr": "Чији је ово ауто?",
+      "example_ru": "Чья это машина?",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "који",
+      "sr_latin": "koji",
+      "pronunciation_ru": "кОйи",
+      "translation_ru": "который, какой (из)",
+      "example_sr": "Који аутобус иде до центра?",
+      "example_ru": "Какой автобус идёт в центр?",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "куда",
+      "sr_latin": "kuda",
+      "pronunciation_ru": "кУда",
+      "translation_ru": "куда",
+      "example_sr": "Куда идеш?",
+      "example_ru": "Куда идёшь?",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "одакле",
+      "sr_latin": "odakle",
+      "pronunciation_ru": "Одакле",
+      "translation_ru": "откуда",
+      "example_sr": "Одакле си?",
+      "example_ru": "Откуда ты?",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "да ли",
+      "sr_latin": "da li",
+      "pronunciation_ru": "да лИ",
+      "translation_ru": "ли (вводит вопрос да/нет)",
+      "example_sr": "Да ли имате хлеба?",
+      "example_ru": "Есть ли у вас хлеб?",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "зар",
+      "sr_latin": "zar",
+      "pronunciation_ru": "зАр",
+      "translation_ru": "разве, неужели",
+      "example_sr": "Зар већ мораш да идеш?",
+      "example_ru": "Разве тебе уже надо идти?",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "ово",
+      "sr_latin": "ovo",
+      "pronunciation_ru": "Ово",
+      "translation_ru": "это (вот это)",
+      "example_sr": "Шта је ово?",
+      "example_ru": "Что это?",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "то",
+      "sr_latin": "to",
+      "pronunciation_ru": "тО",
+      "translation_ru": "это, то",
+      "example_sr": "То је тачно.",
+      "example_ru": "Это верно.",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "оно",
+      "sr_latin": "ono",
+      "pronunciation_ru": "Оно",
+      "translation_ru": "то (вон то), оно",
+      "example_sr": "Оно тамо је моја зграда.",
+      "example_ru": "Вон то — мой дом (здание).",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "овај",
+      "sr_latin": "ovaj",
+      "pronunciation_ru": "Овай",
+      "translation_ru": "этот",
+      "example_sr": "Овај је бољи од оног.",
+      "example_ru": "Этот лучше того.",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "тај",
+      "sr_latin": "taj",
+      "pronunciation_ru": "тАй",
+      "translation_ru": "тот",
+      "example_sr": "Тај аутобус не иде до центра.",
+      "example_ru": "Тот автобус не идёт в центр.",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "онај",
+      "sr_latin": "onaj",
+      "pronunciation_ru": "Онай",
+      "translation_ru": "тот (вон тот)",
+      "example_sr": "Дај ми онај нож, молим те.",
+      "example_ru": "Дай мне вон тот нож, пожалуйста.",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "такав",
+      "sr_latin": "takav",
+      "pronunciation_ru": "тАкав",
+      "translation_ru": "такой",
+      "example_sr": "Не треба ми такав телефон.",
+      "example_ru": "Мне не нужен такой телефон.",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "толико",
+      "sr_latin": "toliko",
+      "pronunciation_ru": "тОлико",
+      "translation_ru": "столько, настолько",
+      "example_sr": "Зашто толико кошта?",
+      "example_ru": "Почему столько стоит?",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "овде",
+      "sr_latin": "ovde",
+      "pronunciation_ru": "Овде",
+      "translation_ru": "здесь",
+      "example_sr": "Овде нема места.",
+      "example_ru": "Здесь нет места.",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "ту",
+      "sr_latin": "tu",
+      "pronunciation_ru": "тУ",
+      "translation_ru": "тут, здесь",
+      "example_sr": "Ту сам, одмах стижем.",
+      "example_ru": "Я тут, сейчас подойду.",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "тамо",
+      "sr_latin": "tamo",
+      "pronunciation_ru": "тАмо",
+      "translation_ru": "там, туда",
+      "example_sr": "Иди тамо и сачекај ме.",
+      "example_ru": "Иди туда и подожди меня.",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "овамо",
+      "sr_latin": "ovamo",
+      "pronunciation_ru": "Овамо",
+      "translation_ru": "сюда",
+      "example_sr": "Дођи овамо на тренутак.",
+      "example_ru": "Подойди сюда на минутку.",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "тако",
+      "sr_latin": "tako",
+      "pronunciation_ru": "тАко",
+      "translation_ru": "так",
+      "example_sr": "Немој тако да причаш са мном.",
+      "example_ru": "Не говори так со мной.",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "овако",
+      "sr_latin": "ovako",
+      "pronunciation_ru": "овАко",
+      "translation_ru": "вот так, таким образом",
+      "example_sr": "Уради то овако.",
+      "example_ru": "Сделай это вот так.",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "сада",
+      "sr_latin": "sada",
+      "pronunciation_ru": "сАда",
+      "translation_ru": "сейчас",
+      "example_sr": "Сада немам времена.",
+      "example_ru": "Сейчас у меня нет времени.",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "потом",
+      "sr_latin": "potom",
+      "pronunciation_ru": "пОтом",
+      "translation_ru": "потом, затем",
+      "example_sr": "Прво идемо у пекару, потом кући.",
+      "example_ru": "Сначала идём в пекарню, потом домой.",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "онда",
+      "sr_latin": "onda",
+      "pronunciation_ru": "Онда",
+      "translation_ru": "тогда, потом",
+      "example_sr": "Ако си уморан, онда се одмори.",
+      "example_ru": "Если устал, тогда отдохни.",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "после",
+      "sr_latin": "posle",
+      "pronunciation_ru": "пОсле",
+      "translation_ru": "после, потом, позже",
+      "example_sr": "Видимо се после.",
+      "example_ru": "Увидимся позже.",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "пре",
+      "sr_latin": "pre",
+      "pronunciation_ru": "прЭ",
+      "translation_ru": "раньше, до, перед",
+      "example_sr": "Дошао сам пре тебе.",
+      "example_ru": "Я пришёл раньше тебя.",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "већ",
+      "sr_latin": "već",
+      "pronunciation_ru": "вЭч",
+      "translation_ru": "уже",
+      "example_sr": "Већ сам ручао, хвала.",
+      "example_ru": "Я уже пообедал, спасибо.",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "још",
+      "sr_latin": "još",
+      "pronunciation_ru": "йОш",
+      "translation_ru": "ещё",
+      "example_sr": "Хоћеш ли још кафе?",
+      "example_ru": "Хочешь ещё кофе?",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "одмах",
+      "sr_latin": "odmah",
+      "pronunciation_ru": "Одмах",
+      "translation_ru": "сразу, немедленно",
+      "example_sr": "Долазим одмах.",
+      "example_ru": "Иду сейчас же.",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "ускоро",
+      "sr_latin": "uskoro",
+      "pronunciation_ru": "Ускоро",
+      "translation_ru": "скоро",
+      "example_sr": "Ускоро стижемо.",
+      "example_ru": "Скоро приедем.",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "увек",
+      "sr_latin": "uvek",
+      "pronunciation_ru": "Увек",
+      "translation_ru": "всегда",
+      "example_sr": "Он увек касни.",
+      "example_ru": "Он всегда опаздывает.",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "никад",
+      "sr_latin": "nikad",
+      "pronunciation_ru": "нИкад",
+      "translation_ru": "никогда",
+      "example_sr": "Никад нисам био у Нишу.",
+      "example_ru": "Я никогда не был в Нише.",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "понекад",
+      "sr_latin": "ponekad",
+      "pronunciation_ru": "пОнекад",
+      "translation_ru": "иногда",
+      "example_sr": "Понекад кувам код куће.",
+      "example_ru": "Иногда я готовлю дома.",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "често",
+      "sr_latin": "često",
+      "pronunciation_ru": "чЭсто",
+      "translation_ru": "часто",
+      "example_sr": "Често идем пешке.",
+      "example_ru": "Я часто хожу пешком.",
+      "false_friend_note": "«често» = «часто», а не «честно» (честно = «поштено»)."
+    },
+    {
+      "sr_cyrillic": "ретко",
+      "sr_latin": "retko",
+      "pronunciation_ru": "рЭтко",
+      "translation_ru": "редко",
+      "example_sr": "Ретко једем месо.",
+      "example_ru": "Я редко ем мясо.",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "опет",
+      "sr_latin": "opet",
+      "pronunciation_ru": "Опет",
+      "translation_ru": "опять, снова",
+      "example_sr": "Опет пада киша.",
+      "example_ru": "Опять идёт дождь.",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "поново",
+      "sr_latin": "ponovo",
+      "pronunciation_ru": "пОново",
+      "translation_ru": "снова, заново",
+      "example_sr": "Покушај поново.",
+      "example_ru": "Попробуй снова.",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "обично",
+      "sr_latin": "obično",
+      "pronunciation_ru": "Обично",
+      "translation_ru": "обычно",
+      "example_sr": "Обично устајем у седам.",
+      "example_ru": "Обычно я встаю в семь.",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "коначно",
+      "sr_latin": "konačno",
+      "pronunciation_ru": "конАчно",
+      "translation_ru": "наконец",
+      "example_sr": "Коначно смо стигли!",
+      "example_ru": "Наконец мы приехали!",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "такође",
+      "sr_latin": "takođe",
+      "pronunciation_ru": "тАкодже",
+      "translation_ru": "тоже, также",
+      "example_sr": "И ја бих такође једну кафу.",
+      "example_ru": "И я бы тоже одну кофе.",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "само",
+      "sr_latin": "samo",
+      "pronunciation_ru": "сАмо",
+      "translation_ru": "только",
+      "example_sr": "Имам само динаре.",
+      "example_ru": "У меня только динары.",
+      "false_friend_note": "«само» = «только», а не русское «само/сам»."
+    },
+    {
+      "sr_cyrillic": "можда",
+      "sr_latin": "možda",
+      "pronunciation_ru": "мОжда",
+      "translation_ru": "может быть, возможно",
+      "example_sr": "Можда дођем сутра.",
+      "example_ru": "Может быть, приду завтра.",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "наравно",
+      "sr_latin": "naravno",
+      "pronunciation_ru": "нАравно",
+      "translation_ru": "конечно",
+      "example_sr": "Наравно да могу да помогнем.",
+      "example_ru": "Конечно, я могу помочь.",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "вероватно",
+      "sr_latin": "verovatno",
+      "pronunciation_ru": "вЭроватно",
+      "translation_ru": "вероятно, наверное",
+      "example_sr": "Вероватно ће падати киша.",
+      "example_ru": "Наверное, будет дождь.",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "ваљда",
+      "sr_latin": "valjda",
+      "pronunciation_ru": "вАльда",
+      "translation_ru": "наверное, должно быть",
+      "example_sr": "Ваљда ће све бити у реду.",
+      "example_ru": "Наверное, всё будет хорошо.",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "зато",
+      "sr_latin": "zato",
+      "pronunciation_ru": "зАто",
+      "translation_ru": "поэтому",
+      "example_sr": "Касним, зато журим.",
+      "example_ru": "Опаздываю, поэтому тороплюсь.",
+      "false_friend_note": "«зато» = «поэтому», а не русское «зато» (в значении «но»); «потому что» = «зато што»."
+    },
+    {
+      "sr_cyrillic": "значи",
+      "sr_latin": "znači",
+      "pronunciation_ru": "знАчи",
+      "translation_ru": "значит",
+      "example_sr": "Значи, договорили смо се.",
+      "example_ru": "Значит, договорились.",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "дакле",
+      "sr_latin": "dakle",
+      "pronunciation_ru": "дАкле",
+      "translation_ru": "итак, значит",
+      "example_sr": "Дакле, кренимо.",
+      "example_ru": "Итак, пошли.",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "али",
+      "sr_latin": "ali",
+      "pronunciation_ru": "Али",
+      "translation_ru": "но, а",
+      "example_sr": "Хтео бих, али немам времена.",
+      "example_ru": "Хотел бы, но нет времени.",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "или",
+      "sr_latin": "ili",
+      "pronunciation_ru": "Или",
+      "translation_ru": "или",
+      "example_sr": "Чај или кафа?",
+      "example_ru": "Чай или кофе?",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "него",
+      "sr_latin": "nego",
+      "pronunciation_ru": "нЭго",
+      "translation_ru": "а (в противопоставлении), чем",
+      "example_sr": "Није црна, него плава.",
+      "example_ru": "Не чёрная, а синяя.",
+      "false_friend_note": "«него» = «а/но (в противопоставлении), чем», а не русское «него» (его)."
+    },
+    {
+      "sr_cyrillic": "јер",
+      "sr_latin": "jer",
+      "pronunciation_ru": "йЭр",
+      "translation_ru": "потому что, ведь",
+      "example_sr": "Не идем јер пада киша.",
+      "example_ru": "Не иду, потому что идёт дождь.",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "ако",
+      "sr_latin": "ako",
+      "pronunciation_ru": "Ако",
+      "translation_ru": "если",
+      "example_sr": "Ако можеш, јави ми.",
+      "example_ru": "Если можешь, дай знать.",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "иако",
+      "sr_latin": "iako",
+      "pronunciation_ru": "иАко",
+      "translation_ru": "хотя, несмотря на то что",
+      "example_sr": "Изашао је иако пада киша.",
+      "example_ru": "Он вышел, хотя идёт дождь.",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "ипак",
+      "sr_latin": "ipak",
+      "pronunciation_ru": "Ипак",
+      "translation_ru": "всё-таки, всё же",
+      "example_sr": "Уморан сам, али ипак идем.",
+      "example_ru": "Я устал, но всё-таки иду.",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "међутим",
+      "sr_latin": "međutim",
+      "pronunciation_ru": "мЭджутим",
+      "translation_ru": "однако",
+      "example_sr": "Хтео сам да дођем; међутим, нисам могао.",
+      "example_ru": "Я хотел прийти; однако не смог.",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "баш",
+      "sr_latin": "baš",
+      "pronunciation_ru": "бАш",
+      "translation_ru": "как раз, прямо, очень",
+      "example_sr": "Баш ми је драго.",
+      "example_ru": "Мне очень приятно.",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "чак",
+      "sr_latin": "čak",
+      "pronunciation_ru": "чАк",
+      "translation_ru": "даже",
+      "example_sr": "Чак и деца то знају.",
+      "example_ru": "Даже дети это знают.",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "бар",
+      "sr_latin": "bar",
+      "pronunciation_ru": "бАр",
+      "translation_ru": "хотя бы, по крайней мере",
+      "example_sr": "Дај ми бар мало.",
+      "example_ru": "Дай мне хотя бы немного.",
+      "false_friend_note": "«бар» — это и «хотя бы», и «бар (заведение)»."
+    },
+    {
+      "sr_cyrillic": "заиста",
+      "sr_latin": "zaista",
+      "pronunciation_ru": "заИста",
+      "translation_ru": "действительно, правда",
+      "example_sr": "Заиста ми је жао.",
+      "example_ru": "Мне действительно жаль.",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "стварно",
+      "sr_latin": "stvarno",
+      "pronunciation_ru": "ствАрно",
+      "translation_ru": "реально, действительно",
+      "example_sr": "Стварно? Не могу да верујем!",
+      "example_ru": "Реально? Не могу поверить!",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "уопште",
+      "sr_latin": "uopšte",
+      "pronunciation_ru": "уОпште",
+      "translation_ru": "вообще",
+      "example_sr": "То ме уопште не занима.",
+      "example_ru": "Меня это вообще не интересует.",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "у ствари",
+      "sr_latin": "u stvari",
+      "pronunciation_ru": "у ствАри",
+      "translation_ru": "на самом деле, в сущности",
+      "example_sr": "У ствари, ниси у праву.",
+      "example_ru": "На самом деле, ты не прав.",
+      "false_friend_note": ""
+    }
+  ]
+}

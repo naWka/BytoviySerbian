@@ -1,0 +1,638 @@
+{
+  "id": "hitni_slucajevi",
+  "title_ru": "🚨 Экстренные ситуации",
+  "title_sr": "Хитни случајеви",
+  "_note": "Черновик: сгенерировано AI и вычитано AI-корректором «как носитель». Не проверено носителем-человеком.",
+  "words": [
+    {
+      "sr_cyrillic": "полиција",
+      "sr_latin": "policija",
+      "pronunciation_ru": "полИция",
+      "translation_ru": "полиция",
+      "example_sr": "Зовите полицију, брзо!",
+      "example_ru": "Вызывайте полицию, быстро!",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "хитна помоћ",
+      "sr_latin": "hitna pomoć",
+      "pronunciation_ru": "хИтна пОмочь",
+      "translation_ru": "скорая помощь",
+      "example_sr": "Треба ми хитна помоћ!",
+      "example_ru": "Мне нужна скорая помощь!",
+      "false_friend_note": "«Хитна» созвучно русскому «хитрая», но значит «срочная, неотложная»."
+    },
+    {
+      "sr_cyrillic": "ватрогасци",
+      "sr_latin": "vatrogasci",
+      "pronunciation_ru": "ватрогАсци",
+      "translation_ru": "пожарные",
+      "example_sr": "Ватрогасци су већ стигли.",
+      "example_ru": "Пожарные уже приехали.",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "хитна служба",
+      "sr_latin": "hitna služba",
+      "pronunciation_ru": "хИтна слУжба",
+      "translation_ru": "экстренная служба",
+      "example_sr": "Позовите хитну службу.",
+      "example_ru": "Вызовите экстренную службу.",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "болница",
+      "sr_latin": "bolnica",
+      "pronunciation_ru": "бОлница",
+      "translation_ru": "больница",
+      "example_sr": "Морамо одмах у болницу.",
+      "example_ru": "Нам нужно немедленно в больницу.",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "полицајац",
+      "sr_latin": "policajac",
+      "pronunciation_ru": "полицАяц",
+      "translation_ru": "полицейский",
+      "example_sr": "Полицајац је записао моју изјаву.",
+      "example_ru": "Полицейский записал мои показания.",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "полицијска станица",
+      "sr_latin": "policijska stanica",
+      "pronunciation_ru": "полИцийска стАница",
+      "translation_ru": "полицейский участок",
+      "example_sr": "Идем у полицијску станицу да пријавим крађу.",
+      "example_ru": "Иду в полицейский участок заявить о краже.",
+      "false_friend_note": "«Станица» тут — участок/станция, а не казачья станица, как в русском."
+    },
+    {
+      "sr_cyrillic": "прва помоћ",
+      "sr_latin": "prva pomoć",
+      "pronunciation_ru": "пРва пОмочь",
+      "translation_ru": "первая помощь",
+      "example_sr": "Знате ли да пружите прву помоћ?",
+      "example_ru": "Вы умеете оказать первую помощь?",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "пожар",
+      "sr_latin": "požar",
+      "pronunciation_ru": "пОжар",
+      "translation_ru": "пожар",
+      "example_sr": "Пожар! Излазите напоље!",
+      "example_ru": "Пожар! Выходите на улицу!",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "несрећа",
+      "sr_latin": "nesreća",
+      "pronunciation_ru": "нЕсреча",
+      "translation_ru": "несчастный случай, беда",
+      "example_sr": "Догодила се несрећа на путу.",
+      "example_ru": "На дороге произошёл несчастный случай.",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "саобраћајна незгода",
+      "sr_latin": "saobraćajna nezgoda",
+      "pronunciation_ru": "саобрачАйна нЕзгода",
+      "translation_ru": "ДТП, авария на дороге",
+      "example_sr": "Пријавите саобраћајну незгоду.",
+      "example_ru": "Сообщите о ДТП.",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "судар",
+      "sr_latin": "sudar",
+      "pronunciation_ru": "сУдар",
+      "translation_ru": "столкновение (машин)",
+      "example_sr": "Био је судар два аутомобила.",
+      "example_ru": "Столкнулись две машины.",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "поплава",
+      "sr_latin": "poplava",
+      "pronunciation_ru": "пОплава",
+      "translation_ru": "наводнение",
+      "example_sr": "Село је под водом, поплава је.",
+      "example_ru": "Село под водой, наводнение.",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "земљотрес",
+      "sr_latin": "zemljotres",
+      "pronunciation_ru": "зЕмльотрес",
+      "translation_ru": "землетрясение",
+      "example_sr": "Осетили смо земљотрес ноћас.",
+      "example_ru": "Ночью мы почувствовали землетрясение.",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "експлозија",
+      "sr_latin": "eksplozija",
+      "pronunciation_ru": "эксплОзия",
+      "translation_ru": "взрыв",
+      "example_sr": "Чула се снажна експлозија.",
+      "example_ru": "Раздался сильный взрыв.",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "дим",
+      "sr_latin": "dim",
+      "pronunciation_ru": "дИм",
+      "translation_ru": "дым",
+      "example_sr": "Осећам дим, нешто гори.",
+      "example_ru": "Я чувствую дым, что-то горит.",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "ватра",
+      "sr_latin": "vatra",
+      "pronunciation_ru": "вАтра",
+      "translation_ru": "огонь",
+      "example_sr": "Ватра се брзо шири.",
+      "example_ru": "Огонь быстро распространяется.",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "цурење гаса",
+      "sr_latin": "curenje gasa",
+      "pronunciation_ru": "цУренье гАса",
+      "translation_ru": "утечка газа",
+      "example_sr": "Осећа се гас, могуће је цурење гаса.",
+      "example_ru": "Пахнет газом, возможна утечка газа.",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "крађа",
+      "sr_latin": "krađa",
+      "pronunciation_ru": "крАджа",
+      "translation_ru": "кража",
+      "example_sr": "Пријавио сам крађу телефона.",
+      "example_ru": "Я заявил о краже телефона.",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "лопов",
+      "sr_latin": "lopov",
+      "pronunciation_ru": "лОпов",
+      "translation_ru": "вор",
+      "example_sr": "Лопов! Држите га!",
+      "example_ru": "Вор! Держите его!",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "пљачка",
+      "sr_latin": "pljačka",
+      "pronunciation_ru": "пльАчка",
+      "translation_ru": "ограбление, грабёж",
+      "example_sr": "Десила се пљачка у продавници.",
+      "example_ru": "В магазине произошло ограбление.",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "напад",
+      "sr_latin": "napad",
+      "pronunciation_ru": "нАпад",
+      "translation_ru": "нападение",
+      "example_sr": "Пријавите напад полицији.",
+      "example_ru": "Сообщите о нападении в полицию.",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "насиље",
+      "sr_latin": "nasilje",
+      "pronunciation_ru": "нАсилье",
+      "translation_ru": "насилие",
+      "example_sr": "Пријављујем насиље у породици.",
+      "example_ru": "Заявляю о насилии в семье.",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "претња",
+      "sr_latin": "pretnja",
+      "pronunciation_ru": "прЕтня",
+      "translation_ru": "угроза",
+      "example_sr": "Добио сам претњу телефоном.",
+      "example_ru": "Мне поступила угроза по телефону.",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "повреда",
+      "sr_latin": "povreda",
+      "pronunciation_ru": "пОвреда",
+      "translation_ru": "травма, повреждение",
+      "example_sr": "Има тешку повреду главе.",
+      "example_ru": "У него тяжёлая травма головы.",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "повређен",
+      "sr_latin": "povređen",
+      "pronunciation_ru": "поврЕджен",
+      "translation_ru": "раненый, травмированный",
+      "example_sr": "Човек је повређен, крвари.",
+      "example_ru": "Человек ранен, у него кровотечение.",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "крв",
+      "sr_latin": "krv",
+      "pronunciation_ru": "кРв",
+      "translation_ru": "кровь",
+      "example_sr": "Има много крви, зовите хитну.",
+      "example_ru": "Много крови, вызывайте скорую.",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "крвари",
+      "sr_latin": "krvari",
+      "pronunciation_ru": "крвАри",
+      "translation_ru": "кровоточит, идёт кровь",
+      "example_sr": "Рана јако крвари.",
+      "example_ru": "Рана сильно кровоточит.",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "онесвестио се",
+      "sr_latin": "onesvestio se",
+      "pronunciation_ru": "онесвЕстио се",
+      "translation_ru": "потерял сознание, упал в обморок",
+      "example_sr": "Човек се онесвестио на улици.",
+      "example_ru": "Человек потерял сознание на улице.",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "не дише",
+      "sr_latin": "ne diše",
+      "pronunciation_ru": "не дИше",
+      "translation_ru": "не дышит",
+      "example_sr": "Не дише, потребна је помоћ!",
+      "example_ru": "Он не дышит, нужна помощь!",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "срчани удар",
+      "sr_latin": "srčani udar",
+      "pronunciation_ru": "сРчани Удар",
+      "translation_ru": "сердечный приступ, инфаркт",
+      "example_sr": "Мислим да има срчани удар.",
+      "example_ru": "Кажется, у него сердечный приступ.",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "бол",
+      "sr_latin": "bol",
+      "pronunciation_ru": "бОл",
+      "translation_ru": "боль",
+      "example_sr": "Осећам јак бол у грудима.",
+      "example_ru": "Я чувствую сильную боль в груди.",
+      "false_friend_note": "В сербском «бол» мужского рода: јак бол (сильная боль), а не «сильная боль» по-русски."
+    },
+    {
+      "sr_cyrillic": "опекотина",
+      "sr_latin": "opekotina",
+      "pronunciation_ru": "опекОтина",
+      "translation_ru": "ожог",
+      "example_sr": "Имам опекотину на руци.",
+      "example_ru": "У меня ожог на руке.",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "прелом",
+      "sr_latin": "prelom",
+      "pronunciation_ru": "прЕлом",
+      "translation_ru": "перелом",
+      "example_sr": "Изгледа да је прелом ноге.",
+      "example_ru": "Похоже, перелом ноги.",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "упомоћ",
+      "sr_latin": "upomoć",
+      "pronunciation_ru": "Упомочь",
+      "translation_ru": "на помощь! (крик о помощи)",
+      "example_sr": "Упомоћ! Неко ме напада!",
+      "example_ru": "На помощь! На меня напали!",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "помоћ",
+      "sr_latin": "pomoć",
+      "pronunciation_ru": "пОмочь",
+      "translation_ru": "помощь",
+      "example_sr": "Треба ми помоћ, молим вас!",
+      "example_ru": "Мне нужна помощь, пожалуйста!",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "помозите",
+      "sr_latin": "pomozite",
+      "pronunciation_ru": "помОзите",
+      "translation_ru": "помогите",
+      "example_sr": "Помозите ми, молим вас!",
+      "example_ru": "Помогите мне, пожалуйста!",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "спасите",
+      "sr_latin": "spasite",
+      "pronunciation_ru": "спАсите",
+      "translation_ru": "спасите",
+      "example_sr": "Спасите га, не дише!",
+      "example_ru": "Спасите его, он не дышит!",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "позовите",
+      "sr_latin": "pozovite",
+      "pronunciation_ru": "позОвите",
+      "translation_ru": "позовите, вызовите",
+      "example_sr": "Позовите хитну помоћ!",
+      "example_ru": "Вызовите скорую помощь!",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "зовите",
+      "sr_latin": "zovite",
+      "pronunciation_ru": "зОвите",
+      "translation_ru": "зовите, звоните",
+      "example_sr": "Зовите полицију одмах!",
+      "example_ru": "Звоните в полицию немедленно!",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "брзо",
+      "sr_latin": "brzo",
+      "pronunciation_ru": "бРзо",
+      "translation_ru": "быстро",
+      "example_sr": "Брзо, немамо времена!",
+      "example_ru": "Быстро, у нас нет времени!",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "хитно",
+      "sr_latin": "hitno",
+      "pronunciation_ru": "хИтно",
+      "translation_ru": "срочно",
+      "example_sr": "Ово је хитно, реагујте!",
+      "example_ru": "Это срочно, реагируйте!",
+      "false_friend_note": "Созвучно русскому «хитро», но значит «срочно», а не «хитро»."
+    },
+    {
+      "sr_cyrillic": "одмах",
+      "sr_latin": "odmah",
+      "pronunciation_ru": "Одмах",
+      "translation_ru": "немедленно, сейчас же",
+      "example_sr": "Дођите одмах, молим вас!",
+      "example_ru": "Приезжайте немедленно, пожалуйста!",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "пажња",
+      "sr_latin": "pažnja",
+      "pronunciation_ru": "пАжня",
+      "translation_ru": "внимание, осторожно",
+      "example_sr": "Пажња, опасно је!",
+      "example_ru": "Внимание, опасно!",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "опрез",
+      "sr_latin": "oprez",
+      "pronunciation_ru": "Опрез",
+      "translation_ru": "осторожность, осторожно",
+      "example_sr": "Опрез, под је клизав.",
+      "example_ru": "Осторожно, пол скользкий.",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "опасност",
+      "sr_latin": "opasnost",
+      "pronunciation_ru": "Опасност",
+      "translation_ru": "опасность",
+      "example_sr": "Ту постоји опасност од пожара.",
+      "example_ru": "Здесь есть опасность пожара.",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "опасно",
+      "sr_latin": "opasno",
+      "pronunciation_ru": "Опасно",
+      "translation_ru": "опасно",
+      "example_sr": "Не прилазите, опасно је!",
+      "example_ru": "Не подходите, опасно!",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "пожурите",
+      "sr_latin": "požurite",
+      "pronunciation_ru": "пожУрите",
+      "translation_ru": "поторопитесь, скорее",
+      "example_sr": "Пожурите, стање је озбиљно!",
+      "example_ru": "Поторопитесь, ситуация серьёзная!",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "документи",
+      "sr_latin": "dokumenti",
+      "pronunciation_ru": "докумЕнти",
+      "translation_ru": "документы",
+      "example_sr": "Украли су ми све документе.",
+      "example_ru": "У меня украли все документы.",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "пасош",
+      "sr_latin": "pasoš",
+      "pronunciation_ru": "пАсош",
+      "translation_ru": "паспорт (загран)",
+      "example_sr": "Изгубио сам пасош.",
+      "example_ru": "Я потерял паспорт.",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "лична карта",
+      "sr_latin": "lična karta",
+      "pronunciation_ru": "лИчна кАрта",
+      "translation_ru": "удостоверение личности (ID)",
+      "example_sr": "Немам личну карту код себе.",
+      "example_ru": "У меня нет с собой удостоверения.",
+      "false_friend_note": "«Карта» тут в значении «карточка, документ», а не географическая карта."
+    },
+    {
+      "sr_cyrillic": "сведок",
+      "sr_latin": "svedok",
+      "pronunciation_ru": "свЕдок",
+      "translation_ru": "свидетель",
+      "example_sr": "Има ли неко ко је сведок?",
+      "example_ru": "Есть ли свидетели?",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "пријава",
+      "sr_latin": "prijava",
+      "pronunciation_ru": "прИйава",
+      "translation_ru": "заявление (в полицию)",
+      "example_sr": "Желим да поднесем пријаву.",
+      "example_ru": "Я хочу подать заявление.",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "пријавити",
+      "sr_latin": "prijaviti",
+      "pronunciation_ru": "прийАвити",
+      "translation_ru": "заявить, сообщить (в полицию)",
+      "example_sr": "Морам да пријавим несрећу.",
+      "example_ru": "Мне нужно заявить о происшествии.",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "изјава",
+      "sr_latin": "izjava",
+      "pronunciation_ru": "Изйава",
+      "translation_ru": "показания, заявление (устное)",
+      "example_sr": "Дао сам изјаву полицији.",
+      "example_ru": "Я дал показания полиции.",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "новчаник",
+      "sr_latin": "novčanik",
+      "pronunciation_ru": "новчАник",
+      "translation_ru": "кошелёк, бумажник",
+      "example_sr": "Украли су ми новчаник у аутобусу.",
+      "example_ru": "У меня украли кошелёк в автобусе.",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "торба",
+      "sr_latin": "torba",
+      "pronunciation_ru": "тОрба",
+      "translation_ru": "сумка",
+      "example_sr": "Нестала ми је торба са документима.",
+      "example_ru": "У меня пропала сумка с документами.",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "телефон",
+      "sr_latin": "telefon",
+      "pronunciation_ru": "телефОн",
+      "translation_ru": "телефон",
+      "example_sr": "Украли су ми телефон.",
+      "example_ru": "У меня украли телефон.",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "адреса",
+      "sr_latin": "adresa",
+      "pronunciation_ru": "адрЕса",
+      "translation_ru": "адрес",
+      "example_sr": "Која је адреса? Пошаљите хитну.",
+      "example_ru": "Какой адрес? Отправьте скорую.",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "хитан случај",
+      "sr_latin": "hitan slučaj",
+      "pronunciation_ru": "хИтан слУчай",
+      "translation_ru": "экстренный случай",
+      "example_sr": "Ово је хитан случај!",
+      "example_ru": "Это экстренный случай!",
+      "false_friend_note": "«Хитан» — не «хитрый», а «срочный, неотложный»."
+    },
+    {
+      "sr_cyrillic": "дежурни",
+      "sr_latin": "dežurni",
+      "pronunciation_ru": "дежУрни",
+      "translation_ru": "дежурный",
+      "example_sr": "Питајте дежурног полицајца.",
+      "example_ru": "Спросите дежурного полицейского.",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "сирена",
+      "sr_latin": "sirena",
+      "pronunciation_ru": "сирЕна",
+      "translation_ru": "сирена",
+      "example_sr": "Чује се сирена хитне помоћи.",
+      "example_ru": "Слышно сирену скорой помощи.",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "упозорење",
+      "sr_latin": "upozorenje",
+      "pronunciation_ru": "упозорЕнье",
+      "translation_ru": "предупреждение",
+      "example_sr": "Издато је упозорење на невреме.",
+      "example_ru": "Объявлено штормовое предупреждение.",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "жртва",
+      "sr_latin": "žrtva",
+      "pronunciation_ru": "жРтва",
+      "translation_ru": "жертва, пострадавший",
+      "example_sr": "Има једна жртва у несрећи.",
+      "example_ru": "В аварии есть один пострадавший.",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "осумњичени",
+      "sr_latin": "osumnjičeni",
+      "pronunciation_ru": "осумнИчени",
+      "translation_ru": "подозреваемый",
+      "example_sr": "Полиција је ухватила осумњиченог.",
+      "example_ru": "Полиция задержала подозреваемого.",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "хапшење",
+      "sr_latin": "hapšenje",
+      "pronunciation_ru": "хАпшенье",
+      "translation_ru": "арест, задержание",
+      "example_sr": "Дошло је до хапшења лопова.",
+      "example_ru": "Произошёл арест вора.",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "нестала особа",
+      "sr_latin": "nestala osoba",
+      "pronunciation_ru": "нЕстала Особа",
+      "translation_ru": "пропавший человек",
+      "example_sr": "Пријављујем несталу особу.",
+      "example_ru": "Заявляю о пропавшем человеке.",
+      "false_friend_note": "«Особа» по-сербски — нейтральное «человек, лицо», без иронии как в русском."
+    },
+    {
+      "sr_cyrillic": "изгубио сам се",
+      "sr_latin": "izgubio sam se",
+      "pronunciation_ru": "изгУбио сам се",
+      "translation_ru": "я заблудился, я потерялся",
+      "example_sr": "Изгубио сам се, не знам где сам.",
+      "example_ru": "Я заблудился, не знаю где я.",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "украден",
+      "sr_latin": "ukraden",
+      "pronunciation_ru": "укрАден",
+      "translation_ru": "украденный, угнанный",
+      "example_sr": "Мој ауто је украден.",
+      "example_ru": "Мою машину угнали.",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "завој",
+      "sr_latin": "zavoj",
+      "pronunciation_ru": "зАвой",
+      "translation_ru": "бинт, повязка",
+      "example_sr": "Треба ми завој за рану.",
+      "example_ru": "Мне нужен бинт для раны.",
+      "false_friend_note": "«Завој» — это и бинт, и поворот дороги; в контексте помощи это повязка."
+    }
+  ]
+}

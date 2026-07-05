@@ -1,0 +1,638 @@
+{
+  "id": "uctivost",
+  "title_ru": "🙏 Вежливость и общение",
+  "title_sr": "Учтивост",
+  "_note": "Черновик: сгенерировано AI и вычитано AI-корректором «как носитель». Не проверено носителем-человеком.",
+  "words": [
+    {
+      "sr_cyrillic": "здраво",
+      "sr_latin": "zdravo",
+      "pronunciation_ru": "здрАво",
+      "translation_ru": "привет, здравствуй",
+      "example_sr": "Здраво, како си?",
+      "example_ru": "Привет, как ты?",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "добар дан",
+      "sr_latin": "dobar dan",
+      "pronunciation_ru": "дОбар дАн",
+      "translation_ru": "добрый день, здравствуйте",
+      "example_sr": "Добар дан, изволите?",
+      "example_ru": "Добрый день, чем могу помочь?",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "добро јутро",
+      "sr_latin": "dobro jutro",
+      "pronunciation_ru": "дОбро йУтро",
+      "translation_ru": "доброе утро",
+      "example_sr": "Добро јутро, како сте спавали?",
+      "example_ru": "Доброе утро, как спали?",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "добро вече",
+      "sr_latin": "dobro veče",
+      "pronunciation_ru": "дОбро вЭче",
+      "translation_ru": "добрый вечер",
+      "example_sr": "Добро вече, драго ми је.",
+      "example_ru": "Добрый вечер, приятно познакомиться.",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "ћао",
+      "sr_latin": "ćao",
+      "pronunciation_ru": "чАо",
+      "translation_ru": "чао, привет, пока",
+      "example_sr": "Ћао, видимо се сутра.",
+      "example_ru": "Пока, увидимся завтра.",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "довиђења",
+      "sr_latin": "doviđenja",
+      "pronunciation_ru": "довиджЭња",
+      "translation_ru": "до свидания",
+      "example_sr": "Довиђења и пријатно!",
+      "example_ru": "До свидания и всего доброго!",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "пријатно",
+      "sr_latin": "prijatno",
+      "pronunciation_ru": "прИятно",
+      "translation_ru": "всего доброго; приятного аппетита",
+      "example_sr": "Пријатно, доћи ћу опет.",
+      "example_ru": "Всего доброго, зайду ещё.",
+      "false_friend_note": "Похоже на «приятно». При прощании значит «всего доброго», а за столом «пријатно» = «приятного аппетита»."
+    },
+    {
+      "sr_cyrillic": "лаку ноћ",
+      "sr_latin": "laku noć",
+      "pronunciation_ru": "лАку нОч",
+      "translation_ru": "спокойной ночи",
+      "example_sr": "Лаку ноћ, лепо спавај.",
+      "example_ru": "Спокойной ночи, спи хорошо.",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "добродошли",
+      "sr_latin": "dobrodošli",
+      "pronunciation_ru": "добродОшли",
+      "translation_ru": "добро пожаловать (мн./вежл.)",
+      "example_sr": "Добродошли, уђите слободно.",
+      "example_ru": "Добро пожаловать, проходите.",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "хвала",
+      "sr_latin": "hvala",
+      "pronunciation_ru": "хвАла",
+      "translation_ru": "спасибо",
+      "example_sr": "Хвала на помоћи.",
+      "example_ru": "Спасибо за помощь.",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "хвала лепо",
+      "sr_latin": "hvala lepo",
+      "pronunciation_ru": "хвАла лЭпо",
+      "translation_ru": "большое спасибо",
+      "example_sr": "Хвала лепо, баш сте љубазни.",
+      "example_ru": "Большое спасибо, вы очень любезны.",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "молим",
+      "sr_latin": "molim",
+      "pronunciation_ru": "мОлим",
+      "translation_ru": "пожалуйста; прошу; не за что",
+      "example_sr": "Молим вас, сачекајте мало.",
+      "example_ru": "Пожалуйста, подождите немного.",
+      "false_friend_note": "Похоже на русское «молить/молюсь», но сербское «молим» = прошу / пожалуйста; ещё это вежливый переспрос «что, простите?»."
+    },
+    {
+      "sr_cyrillic": "изволите",
+      "sr_latin": "izvolite",
+      "pronunciation_ru": "извОлите",
+      "translation_ru": "пожалуйста (вот, возьмите); слушаю вас",
+      "example_sr": "Изволите, ово је ваше.",
+      "example_ru": "Пожалуйста, вот это ваше.",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "извините",
+      "sr_latin": "izvinite",
+      "pronunciation_ru": "извИните",
+      "translation_ru": "извините",
+      "example_sr": "Извините, где је излаз?",
+      "example_ru": "Извините, где выход?",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "извини",
+      "sr_latin": "izvini",
+      "pronunciation_ru": "извИни",
+      "translation_ru": "извини",
+      "example_sr": "Извини што касним.",
+      "example_ru": "Извини, что опаздываю.",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "опростите",
+      "sr_latin": "oprostite",
+      "pronunciation_ru": "опрОстите",
+      "translation_ru": "простите",
+      "example_sr": "Опростите на сметњи.",
+      "example_ru": "Простите за беспокойство.",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "нема на чему",
+      "sr_latin": "nema na čemu",
+      "pronunciation_ru": "нЭма на чЭму",
+      "translation_ru": "не за что",
+      "example_sr": "Хвала! — Нема на чему.",
+      "example_ru": "Спасибо! — Не за что.",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "да",
+      "sr_latin": "da",
+      "pronunciation_ru": "да",
+      "translation_ru": "да",
+      "example_sr": "Да, слажем се.",
+      "example_ru": "Да, согласен.",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "не",
+      "sr_latin": "ne",
+      "pronunciation_ru": "нэ",
+      "translation_ru": "нет",
+      "example_sr": "Не, хвала.",
+      "example_ru": "Нет, спасибо.",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "важи",
+      "sr_latin": "važi",
+      "pronunciation_ru": "вАжи",
+      "translation_ru": "ладно, договорились",
+      "example_sr": "Важи, видимо се у пет.",
+      "example_ru": "Договорились, увидимся в пять.",
+      "false_friend_note": "«важи» = ладно, договорились (не «важный»); «важный» по-сербски — «важан»."
+    },
+    {
+      "sr_cyrillic": "у реду",
+      "sr_latin": "u redu",
+      "pronunciation_ru": "у рЭду",
+      "translation_ru": "хорошо, в порядке",
+      "example_sr": "У реду, нема проблема.",
+      "example_ru": "Хорошо, без проблем.",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "наравно",
+      "sr_latin": "naravno",
+      "pronunciation_ru": "нАравно",
+      "translation_ru": "конечно",
+      "example_sr": "Наравно да могу да помогнем.",
+      "example_ru": "Конечно, могу помочь.",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "можда",
+      "sr_latin": "možda",
+      "pronunciation_ru": "мОжда",
+      "translation_ru": "может быть",
+      "example_sr": "Можда дођем касније.",
+      "example_ru": "Может быть, приду позже.",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "слажем се",
+      "sr_latin": "slažem se",
+      "pronunciation_ru": "слАжэм сэ",
+      "translation_ru": "я согласен",
+      "example_sr": "Потпуно се слажем.",
+      "example_ru": "Полностью согласен.",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "жао ми је",
+      "sr_latin": "žao mi je",
+      "pronunciation_ru": "жАо ми йэ",
+      "translation_ru": "мне жаль, сожалею",
+      "example_sr": "Жао ми је због тога.",
+      "example_ru": "Мне жаль из-за этого.",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "господин",
+      "sr_latin": "gospodin",
+      "pronunciation_ru": "гОсподин",
+      "translation_ru": "господин",
+      "example_sr": "Добар дан, господине!",
+      "example_ru": "Добрый день, господин!",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "госпођа",
+      "sr_latin": "gospođa",
+      "pronunciation_ru": "гОсподжа",
+      "translation_ru": "госпожа",
+      "example_sr": "Извините, госпођо.",
+      "example_ru": "Извините, госпожа.",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "госпођица",
+      "sr_latin": "gospođica",
+      "pronunciation_ru": "госпОджица",
+      "translation_ru": "барышня, девушка (обращение)",
+      "example_sr": "Госпођице, испао вам је шал.",
+      "example_ru": "Барышня, вы уронили шарф.",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "комшија",
+      "sr_latin": "komšija",
+      "pronunciation_ru": "кОмшия",
+      "translation_ru": "сосед",
+      "example_sr": "Наш комшија је баш фин.",
+      "example_ru": "Наш сосед очень приятный.",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "колега",
+      "sr_latin": "kolega",
+      "pronunciation_ru": "кОлега",
+      "translation_ru": "коллега",
+      "example_sr": "Здраво, колега!",
+      "example_ru": "Привет, коллега!",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "пријатељ",
+      "sr_latin": "prijatelj",
+      "pronunciation_ru": "прИятель",
+      "translation_ru": "друг",
+      "example_sr": "Он ми је добар пријатељ.",
+      "example_ru": "Он мой хороший друг.",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "како сте",
+      "sr_latin": "kako ste",
+      "pronunciation_ru": "кАко стэ",
+      "translation_ru": "как вы (поживаете)",
+      "example_sr": "Добар дан, како сте?",
+      "example_ru": "Добрый день, как вы?",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "како си",
+      "sr_latin": "kako si",
+      "pronunciation_ru": "кАко си",
+      "translation_ru": "как ты",
+      "example_sr": "Ћао, како си данас?",
+      "example_ru": "Привет, как ты сегодня?",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "добро сам",
+      "sr_latin": "dobro sam",
+      "pronunciation_ru": "дОбро сам",
+      "translation_ru": "у меня всё хорошо",
+      "example_sr": "Добро сам, хвала на питању.",
+      "example_ru": "Хорошо, спасибо, что спросили.",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "хвала на питању",
+      "sr_latin": "hvala na pitanju",
+      "pronunciation_ru": "хвАла на пИтању",
+      "translation_ru": "спасибо, что спросили",
+      "example_sr": "Одлично, хвала на питању.",
+      "example_ru": "Отлично, спасибо, что спросили.",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "шта има",
+      "sr_latin": "šta ima",
+      "pronunciation_ru": "штА Има",
+      "translation_ru": "что нового, как дела (неформ.)",
+      "example_sr": "Ћао, шта има ново?",
+      "example_ru": "Привет, что нового?",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "одлично",
+      "sr_latin": "odlično",
+      "pronunciation_ru": "Одлично",
+      "translation_ru": "отлично",
+      "example_sr": "Све је прошло одлично.",
+      "example_ru": "Всё прошло отлично.",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "пријатан дан",
+      "sr_latin": "prijatan dan",
+      "pronunciation_ru": "прИятан дАн",
+      "translation_ru": "хорошего дня",
+      "example_sr": "Пријатан дан желим!",
+      "example_ru": "Хорошего дня!",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "срећан пут",
+      "sr_latin": "srećan put",
+      "pronunciation_ru": "срЭчан пУт",
+      "translation_ru": "счастливого пути",
+      "example_sr": "Срећан пут и чувај се.",
+      "example_ru": "Счастливого пути и береги себя.",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "видимо се",
+      "sr_latin": "vidimo se",
+      "pronunciation_ru": "вИдимо сэ",
+      "translation_ru": "увидимся",
+      "example_sr": "Видимо се ускоро.",
+      "example_ru": "Увидимся скоро.",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "чувај се",
+      "sr_latin": "čuvaj se",
+      "pronunciation_ru": "чУвай сэ",
+      "translation_ru": "береги себя",
+      "example_sr": "Ћао, чувај се!",
+      "example_ru": "Пока, береги себя!",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "живели",
+      "sr_latin": "živeli",
+      "pronunciation_ru": "жИвэли",
+      "translation_ru": "будем здоровы (тост), за здоровье",
+      "example_sr": "Живели, за наше здравље!",
+      "example_ru": "Будем здоровы, за наше здоровье!",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "честитам",
+      "sr_latin": "čestitam",
+      "pronunciation_ru": "чЭститам",
+      "translation_ru": "поздравляю",
+      "example_sr": "Честитам на успеху!",
+      "example_ru": "Поздравляю с успехом!",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "све најбоље",
+      "sr_latin": "sve najbolje",
+      "pronunciation_ru": "свЭ нАйболье",
+      "translation_ru": "всего наилучшего",
+      "example_sr": "Желим ти све најбоље.",
+      "example_ru": "Желаю тебе всего наилучшего.",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "срећно",
+      "sr_latin": "srećno",
+      "pronunciation_ru": "срЭчно",
+      "translation_ru": "удачи, в добрый час",
+      "example_sr": "Срећно на испиту!",
+      "example_ru": "Удачи на экзамене!",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "поздрав",
+      "sr_latin": "pozdrav",
+      "pronunciation_ru": "пОздрав",
+      "translation_ru": "привет, приветствие; привет (передать)",
+      "example_sr": "Пренеси поздрав породици.",
+      "example_ru": "Передай привет семье.",
+      "false_friend_note": "Ложный друг: «поздрав» = привет / приветствие, а НЕ «поздравление». Поздравление — «честитка»."
+    },
+    {
+      "sr_cyrillic": "како молим",
+      "sr_latin": "kako molim",
+      "pronunciation_ru": "кАко мОлим",
+      "translation_ru": "простите?, что вы сказали? (переспрос)",
+      "example_sr": "Како молим? Можете ли да поновите?",
+      "example_ru": "Простите? Можете повторить?",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "разумем",
+      "sr_latin": "razumem",
+      "pronunciation_ru": "рАзумэм",
+      "translation_ru": "понимаю",
+      "example_sr": "Разумем вас потпуно.",
+      "example_ru": "Понимаю вас полностью.",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "не разумем",
+      "sr_latin": "ne razumem",
+      "pronunciation_ru": "нэ рАзумэм",
+      "translation_ru": "не понимаю",
+      "example_sr": "Извините, не разумем добро српски.",
+      "example_ru": "Извините, я плохо понимаю сербский.",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "полако",
+      "sr_latin": "polako",
+      "pronunciation_ru": "полАко",
+      "translation_ru": "потихоньку; спокойно, не спеши",
+      "example_sr": "Полако, имамо времена.",
+      "example_ru": "Спокойно, у нас есть время.",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "само тренутак",
+      "sr_latin": "samo trenutak",
+      "pronunciation_ru": "сАмо трЭнутак",
+      "translation_ru": "минутку, секунду",
+      "example_sr": "Само тренутак, одмах долазим.",
+      "example_ru": "Минутку, сейчас подойду.",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "са задовољством",
+      "sr_latin": "sa zadovoljstvom",
+      "pronunciation_ru": "са задовОльством",
+      "translation_ru": "с удовольствием",
+      "example_sr": "Помоћи ћу вам са задовољством.",
+      "example_ru": "Помогу вам с удовольствием.",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "нема проблема",
+      "sr_latin": "nema problema",
+      "pronunciation_ru": "нЭма проблЭма",
+      "translation_ru": "нет проблем",
+      "example_sr": "Наравно, нема проблема.",
+      "example_ru": "Конечно, нет проблем.",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "нема везе",
+      "sr_latin": "nema veze",
+      "pronunciation_ru": "нЭма вЭзе",
+      "translation_ru": "неважно, ничего страшного",
+      "example_sr": "Закаснио си? Нема везе.",
+      "example_ru": "Опоздал? Ничего страшного.",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "без бриге",
+      "sr_latin": "bez brige",
+      "pronunciation_ru": "бэз брИге",
+      "translation_ru": "не переживай, не беспокойся",
+      "example_sr": "Без бриге, средићу то.",
+      "example_ru": "Не переживай, я это улажу.",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "слободно",
+      "sr_latin": "slobodno",
+      "pronunciation_ru": "слобОдно",
+      "translation_ru": "пожалуйста, не стесняйтесь; можно",
+      "example_sr": "Слободно уђите.",
+      "example_ru": "Проходите, пожалуйста.",
+      "false_friend_note": "Похоже на «свободно». Как приглашение значит «пожалуйста, не стесняйтесь / можно»."
+    },
+    {
+      "sr_cyrillic": "молба",
+      "sr_latin": "molba",
+      "pronunciation_ru": "мОлба",
+      "translation_ru": "просьба",
+      "example_sr": "Имам једну молбу за вас.",
+      "example_ru": "У меня к вам одна просьба.",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "помоћ",
+      "sr_latin": "pomoć",
+      "pronunciation_ru": "пОмоч",
+      "translation_ru": "помощь",
+      "example_sr": "Треба ми ваша помоћ.",
+      "example_ru": "Мне нужна ваша помощь.",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "љубазан",
+      "sr_latin": "ljubazan",
+      "pronunciation_ru": "льУбазан",
+      "translation_ru": "любезный, вежливый",
+      "example_sr": "Продавац је био врло љубазан.",
+      "example_ru": "Продавец был очень любезен.",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "хвала унапред",
+      "sr_latin": "hvala unapred",
+      "pronunciation_ru": "хвАла унАпрэд",
+      "translation_ru": "спасибо заранее",
+      "example_sr": "Хвала унапред на одговору.",
+      "example_ru": "Спасибо заранее за ответ.",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "договорено",
+      "sr_latin": "dogovoreno",
+      "pronunciation_ru": "договОрэно",
+      "translation_ru": "договорились",
+      "example_sr": "Договорено, чекам те.",
+      "example_ru": "Договорились, жду тебя.",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "свакако",
+      "sr_latin": "svakako",
+      "pronunciation_ru": "свАкако",
+      "translation_ru": "конечно, безусловно, обязательно",
+      "example_sr": "Свакако ћу доћи.",
+      "example_ru": "Обязательно приду.",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "на здравље",
+      "sr_latin": "na zdravlje",
+      "pronunciation_ru": "на здрАвлье",
+      "translation_ru": "будьте здоровы (после чиха); на здоровье",
+      "example_sr": "Апћиха! — На здравље!",
+      "example_ru": "Апчхи! — Будьте здоровы!",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "добродошао",
+      "sr_latin": "dobrodošao",
+      "pronunciation_ru": "добродОшао",
+      "translation_ru": "добро пожаловать (одному мужчине)",
+      "example_sr": "Добродошао код нас!",
+      "example_ru": "Добро пожаловать к нам!",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "драго ми је",
+      "sr_latin": "drago mi je",
+      "pronunciation_ru": "дрАго ми йэ",
+      "translation_ru": "приятно (познакомиться), рад",
+      "example_sr": "Драго ми је што смо се упознали.",
+      "example_ru": "Приятно, что познакомились.",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "пажња",
+      "sr_latin": "pažnja",
+      "pronunciation_ru": "пАжња",
+      "translation_ru": "внимание",
+      "example_sr": "Пажња, врата се затварају.",
+      "example_ru": "Внимание, двери закрываются.",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "срдачан поздрав",
+      "sr_latin": "srdačan pozdrav",
+      "pronunciation_ru": "срдАчан пОздрав",
+      "translation_ru": "сердечный привет (в письмах)",
+      "example_sr": "Срдачан поздрав од све деце.",
+      "example_ru": "Сердечный привет от всех детей.",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "срећан рођендан",
+      "sr_latin": "srećan rođendan",
+      "pronunciation_ru": "срЭчан рОджэндан",
+      "translation_ru": "с днём рождения",
+      "example_sr": "Срећан рођендан, све најбоље!",
+      "example_ru": "С днём рождения, всего наилучшего!",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "срећан празник",
+      "sr_latin": "srećan praznik",
+      "pronunciation_ru": "срЭчан прАзник",
+      "translation_ru": "с праздником",
+      "example_sr": "Срећан празник свима!",
+      "example_ru": "С праздником всех!",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "тако је",
+      "sr_latin": "tako je",
+      "pronunciation_ru": "тАко йэ",
+      "translation_ru": "именно так, точно, верно",
+      "example_sr": "Тако је, потпуно сте у праву.",
+      "example_ru": "Именно так, вы совершенно правы.",
+      "false_friend_note": ""
+    }
+  ]
+}

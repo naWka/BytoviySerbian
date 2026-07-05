@@ -2,6 +2,7 @@
   "id": "simptomi",
   "title_ru": "🤒 Симптомы и болезни",
   "title_sr": "Симптоми",
+  "_note": "Черновик: сгенерировано AI и вычитано AI-корректором «как носитель». Не проверено носителем-человеком.",
   "words": [
     {
       "sr_cyrillic": "бол",
@@ -379,6 +380,258 @@
       "translation_ru": "рана",
       "example_sr": "Рану треба очистити и превити.",
       "example_ru": "Рану нужно промыть и перевязать.",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "зубобоља",
+      "sr_latin": "zubobolja",
+      "pronunciation_ru": "зубобОља",
+      "translation_ru": "зубная боль",
+      "example_sr": "Имам страшну зубобољу, морам код зубара.",
+      "example_ru": "У меня жуткая зубная боль, надо к стоматологу.",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "бол у уху",
+      "sr_latin": "bol u uhu",
+      "pronunciation_ru": "бОл у Уху",
+      "translation_ru": "боль в ухе, ушная боль",
+      "example_sr": "Дете има бол у уху и стално плаче.",
+      "example_ru": "У ребёнка болит ухо, всё время плачет.",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "бол у леђима",
+      "sr_latin": "bol u leđima",
+      "pronunciation_ru": "бОл у лЭджима",
+      "translation_ru": "боль в спине",
+      "example_sr": "После рада у башти имам бол у леђима.",
+      "example_ru": "После работы в саду у меня болит спина.",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "бол у грудима",
+      "sr_latin": "bol u grudima",
+      "pronunciation_ru": "бОл у грУдима",
+      "translation_ru": "боль в груди",
+      "example_sr": "Осећам бол у грудима кад дишем.",
+      "example_ru": "Чувствую боль в груди, когда дышу.",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "грчеви",
+      "sr_latin": "grčevi",
+      "pronunciation_ru": "гЫрчеви",
+      "translation_ru": "спазмы, колики",
+      "example_sr": "Имам грчеве у стомаку од синоћ.",
+      "example_ru": "У меня со вчерашнего вечера спазмы в животе.",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "грч",
+      "sr_latin": "grč",
+      "pronunciation_ru": "гЫрч",
+      "translation_ru": "судорога, спазм",
+      "example_sr": "Ухватио ме грч у листу док сам пливао.",
+      "example_ru": "У меня свело икру судорогой, пока я плыл.",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "жгаравица",
+      "sr_latin": "žgaravica",
+      "pronunciation_ru": "жгАравица",
+      "translation_ru": "изжога",
+      "example_sr": "После масне хране имам жгаравицу.",
+      "example_ru": "После жирной еды у меня изжога.",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "надутост",
+      "sr_latin": "nadutost",
+      "pronunciation_ru": "нАдутост",
+      "translation_ru": "вздутие живота",
+      "example_sr": "Осећам надутост и пун стомак после јела.",
+      "example_ru": "После еды чувствую вздутие и тяжесть в животе.",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "несвестица",
+      "sr_latin": "nesvestica",
+      "pronunciation_ru": "нЭсвестица",
+      "translation_ru": "обморок, дурнота",
+      "example_sr": "Ухватила ме несвестица, морам да седнем.",
+      "example_ru": "На меня накатила дурнота, надо присесть.",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "малаксалост",
+      "sr_latin": "malaksalost",
+      "pronunciation_ru": "малАксалост",
+      "translation_ru": "разбитость, недомогание",
+      "example_sr": "Осећам малаксалост целог дана.",
+      "example_ru": "Весь день чувствую разбитость.",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "утрнулост",
+      "sr_latin": "utrnulost",
+      "pronunciation_ru": "утырнУлост",
+      "translation_ru": "онемение",
+      "example_sr": "Имам утрнулост у прстима руке.",
+      "example_ru": "У меня онемение в пальцах руки.",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "трнци",
+      "sr_latin": "trnci",
+      "pronunciation_ru": "тЫрнци",
+      "translation_ru": "покалывание, мурашки",
+      "example_sr": "Осећам трнце у нози, као да су ме игле.",
+      "example_ru": "Чувствую покалывание в ноге, будто иголки.",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "модрица",
+      "sr_latin": "modrica",
+      "pronunciation_ru": "мОдрица",
+      "translation_ru": "синяк",
+      "example_sr": "Ударио сам се и остала ми је модрица.",
+      "example_ru": "Я ударился, и остался синяк.",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "посекотина",
+      "sr_latin": "posekotina",
+      "pronunciation_ru": "посекОтина",
+      "translation_ru": "порез",
+      "example_sr": "Имам посекотину на прсту од ножа.",
+      "example_ru": "У меня порез на пальце от ножа.",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "опекотина",
+      "sr_latin": "opekotina",
+      "pronunciation_ru": "опекОтина",
+      "translation_ru": "ожог",
+      "example_sr": "Добио сам опекотину од вреле воде.",
+      "example_ru": "Я получил ожог от кипятка.",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "плик",
+      "sr_latin": "plik",
+      "pronunciation_ru": "плИк",
+      "translation_ru": "волдырь, пузырь",
+      "example_sr": "Од опекотине ми се направио плик.",
+      "example_ru": "От ожога у меня вскочил волдырь.",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "отечене жлезде",
+      "sr_latin": "otečene žlezde",
+      "pronunciation_ru": "отЭчене жлЭзде",
+      "translation_ru": "опухшие (лимфо)узлы, увеличенные железы",
+      "example_sr": "Лекар је напипао отечене жлезде на врату.",
+      "example_ru": "Врач нащупал опухшие лимфоузлы на шее.",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "крварење",
+      "sr_latin": "krvarenje",
+      "pronunciation_ru": "крвАрење",
+      "translation_ru": "кровотечение",
+      "example_sr": "Крварење из носа никако да престане.",
+      "example_ru": "Кровотечение из носа никак не остановится.",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "гној",
+      "sr_latin": "gnoj",
+      "pronunciation_ru": "гнОй",
+      "translation_ru": "гной",
+      "example_sr": "Из ране излази гној, личи на инфекцију.",
+      "example_ru": "Из раны выходит гной, похоже на инфекцию.",
+      "false_friend_note": "Гној — это гной; вне медицины то же слово значит «навоз»."
+    },
+    {
+      "sr_cyrillic": "инфекција",
+      "sr_latin": "infekcija",
+      "pronunciation_ru": "инфЭкција",
+      "translation_ru": "инфекция",
+      "example_sr": "Рана се заразила, добио сам инфекцију.",
+      "example_ru": "Рана воспалилась, у меня инфекция.",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "вирус",
+      "sr_latin": "virus",
+      "pronunciation_ru": "вИрус",
+      "translation_ru": "вирус",
+      "example_sr": "По граду кружи неки стомачни вирус.",
+      "example_ru": "По городу ходит какой-то кишечный вирус.",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "зараза",
+      "sr_latin": "zaraza",
+      "pronunciation_ru": "зарАза",
+      "translation_ru": "инфекция, зараза",
+      "example_sr": "Мораш да се изолујеш да не ширимо заразу.",
+      "example_ru": "Тебе надо изолироваться, чтобы не разносить заразу.",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "симптом",
+      "sr_latin": "simptom",
+      "pronunciation_ru": "сИмптом",
+      "translation_ru": "симптом",
+      "example_sr": "Који симптоми вас муче?",
+      "example_ru": "Какие симптомы вас беспокоят?",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "дијагноза",
+      "sr_latin": "dijagnoza",
+      "pronunciation_ru": "дијагнОза",
+      "translation_ru": "диагноз",
+      "example_sr": "Још чекам дијагнозу од лекара.",
+      "example_ru": "Я ещё жду диагноз от врача.",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "хронична болест",
+      "sr_latin": "hronična bolest",
+      "pronunciation_ru": "хрОнична бОлест",
+      "translation_ru": "хроническое заболевание",
+      "example_sr": "Дијабетес је хронична болест.",
+      "example_ru": "Диабет — хроническое заболевание.",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "притисак",
+      "sr_latin": "pritisak",
+      "pronunciation_ru": "прИтисак",
+      "translation_ru": "давление (кровяное)",
+      "example_sr": "Скочио ми је притисак, боли ме глава.",
+      "example_ru": "У меня подскочило давление, болит голова.",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "несаница",
+      "sr_latin": "nesanica",
+      "pronunciation_ru": "нЭсаница",
+      "translation_ru": "бессонница",
+      "example_sr": "Мучи ме несаница, не могу да заспим.",
+      "example_ru": "Меня мучает бессонница, не могу заснуть.",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "пецкање",
+      "sr_latin": "peckanje",
+      "pronunciation_ru": "пЭцкање",
+      "translation_ru": "жжение, пощипывание",
+      "example_sr": "Осећам пецкање у грлу пре прехладе.",
+      "example_ru": "Чувствую пощипывание в горле перед простудой.",
       "false_friend_note": ""
     }
   ]

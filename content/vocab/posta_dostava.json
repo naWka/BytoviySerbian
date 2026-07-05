@@ -1,0 +1,638 @@
+{
+  "id": "posta_dostava",
+  "title_ru": "📮 Почта и доставка",
+  "title_sr": "Пошта и достава",
+  "_note": "Черновик: сгенерировано AI и вычитано AI-корректором «как носитель». Не проверено носителем-человеком.",
+  "words": [
+    {
+      "sr_cyrillic": "пошта",
+      "sr_latin": "pošta",
+      "pronunciation_ru": "пОшта",
+      "translation_ru": "почта, почтовое отделение",
+      "example_sr": "Идем у пошту да пошаљем пакет.",
+      "example_ru": "Иду на почту отправить посылку.",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "поштар",
+      "sr_latin": "poštar",
+      "pronunciation_ru": "пОштар",
+      "translation_ru": "почтальон",
+      "example_sr": "Поштар је донео пошиљку јутрос.",
+      "example_ru": "Почтальон принёс отправление утром.",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "пошиљка",
+      "sr_latin": "pošiljka",
+      "pronunciation_ru": "пОшиљка",
+      "translation_ru": "(почтовое) отправление, посылка",
+      "example_sr": "Имате једну пошиљку на шалтеру два.",
+      "example_ru": "Для вас есть отправление у окошка номер два.",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "пакет",
+      "sr_latin": "paket",
+      "pronunciation_ru": "пАкет",
+      "translation_ru": "посылка, пакет",
+      "example_sr": "Пакет је стигао оштећен.",
+      "example_ru": "Посылка пришла повреждённой.",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "писмо",
+      "sr_latin": "pismo",
+      "pronunciation_ru": "пИсмо",
+      "translation_ru": "письмо",
+      "example_sr": "Добио сам писмо из иностранства.",
+      "example_ru": "Я получил письмо из-за границы.",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "марка",
+      "sr_latin": "marka",
+      "pronunciation_ru": "мАрка",
+      "translation_ru": "(почтовая) марка",
+      "example_sr": "Треба ми једна марка за писмо.",
+      "example_ru": "Мне нужна одна марка для письма.",
+      "false_friend_note": "«Марка» — это и почтовая марка, и «бренд/фирма» (робна марка). Понимай по контексту."
+    },
+    {
+      "sr_cyrillic": "коверат",
+      "sr_latin": "koverat",
+      "pronunciation_ru": "кОверат",
+      "translation_ru": "конверт",
+      "example_sr": "Ставите писмо у коверат.",
+      "example_ru": "Положите письмо в конверт.",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "адреса",
+      "sr_latin": "adresa",
+      "pronunciation_ru": "Адреса",
+      "translation_ru": "адрес",
+      "example_sr": "Напишите тачну адресу примаоца.",
+      "example_ru": "Напишите точный адрес получателя.",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "поштански број",
+      "sr_latin": "poštanski broj",
+      "pronunciation_ru": "пОштански брОј",
+      "translation_ru": "почтовый индекс",
+      "example_sr": "Не заборавите поштански број.",
+      "example_ru": "Не забудьте почтовый индекс.",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "курир",
+      "sr_latin": "kurir",
+      "pronunciation_ru": "кУрир",
+      "translation_ru": "курьер",
+      "example_sr": "Курир ће доћи после подне.",
+      "example_ru": "Курьер придёт после обеда.",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "достава",
+      "sr_latin": "dostava",
+      "pronunciation_ru": "дОстава",
+      "translation_ru": "доставка",
+      "example_sr": "Достава на кућну адресу је бесплатна.",
+      "example_ru": "Доставка на домашний адрес бесплатная.",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "доставити",
+      "sr_latin": "dostaviti",
+      "pronunciation_ru": "дОставити",
+      "translation_ru": "доставить",
+      "example_sr": "Пакет ће вам доставити сутра.",
+      "example_ru": "Посылку вам доставят завтра.",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "достављач",
+      "sr_latin": "dostavljač",
+      "pronunciation_ru": "дОстављач",
+      "translation_ru": "курьер, доставщик",
+      "example_sr": "Достављач ме је звао да сиђем.",
+      "example_ru": "Курьер позвонил, чтобы я спустился.",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "праћење",
+      "sr_latin": "praćenje",
+      "pronunciation_ru": "прАчење",
+      "translation_ru": "отслеживание",
+      "example_sr": "Пратим пошиљку преко броја за праћење.",
+      "example_ru": "Отслеживаю отправление по номеру отслеживания.",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "пратити",
+      "sr_latin": "pratiti",
+      "pronunciation_ru": "прАтити",
+      "translation_ru": "отслеживать, следить",
+      "example_sr": "Можете да пратите пакет на сајту.",
+      "example_ru": "Вы можете отслеживать посылку на сайте.",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "прималац",
+      "sr_latin": "primalac",
+      "pronunciation_ru": "прИмалац",
+      "translation_ru": "получатель",
+      "example_sr": "Прималац мора да се потпише.",
+      "example_ru": "Получатель должен расписаться.",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "пошиљалац",
+      "sr_latin": "pošiljalac",
+      "pronunciation_ru": "пОшиљалац",
+      "translation_ru": "отправитель",
+      "example_sr": "Пошиљалац је написао погрешну адресу.",
+      "example_ru": "Отправитель написал неправильный адрес.",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "поузеће",
+      "sr_latin": "pouzeće",
+      "pronunciation_ru": "пОузече",
+      "translation_ru": "наложенный платёж (оплата при получении)",
+      "example_sr": "Плаћам поузећем кад преузмем пакет.",
+      "example_ru": "Плачу наложенным платежом, когда забираю посылку.",
+      "false_friend_note": "«Поузеће» — оплата при получении (наложенный платёж), а не «доверие»."
+    },
+    {
+      "sr_cyrillic": "преузети",
+      "sr_latin": "preuzeti",
+      "pronunciation_ru": "прЭузети",
+      "translation_ru": "забрать, получить",
+      "example_sr": "Дошао сам да преузмем пошиљку.",
+      "example_ru": "Я пришёл забрать отправление.",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "преузимање",
+      "sr_latin": "preuzimanje",
+      "pronunciation_ru": "преУзимање",
+      "translation_ru": "получение (на почте), забор",
+      "example_sr": "Преузимање је радним данима до седам.",
+      "example_ru": "Получение — по будням до семи.",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "потписати",
+      "sr_latin": "potpisati",
+      "pronunciation_ru": "пОтписати",
+      "translation_ru": "расписаться, подписать",
+      "example_sr": "Потпишите се овде, молим вас.",
+      "example_ru": "Распишитесь здесь, пожалуйста.",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "потпис",
+      "sr_latin": "potpis",
+      "pronunciation_ru": "пОтпис",
+      "translation_ru": "подпись",
+      "example_sr": "Треба ми ваш потпис за пријем.",
+      "example_ru": "Мне нужна ваша подпись за получение.",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "тискованица",
+      "sr_latin": "tiskovanica",
+      "pronunciation_ru": "тискОваница",
+      "translation_ru": "бандероль, печатное отправление",
+      "example_sr": "Књигу шаљем као тискованицу, јефтиније је.",
+      "example_ru": "Книгу отправляю бандеролью, так дешевле.",
+      "false_friend_note": "«Бандероль» по-сербски — тискованица (печатное отправление). А банДерола — это акцизная марка/бандероль-наклейка."
+    },
+    {
+      "sr_cyrillic": "тежина",
+      "sr_latin": "težina",
+      "pronunciation_ru": "тежИна",
+      "translation_ru": "вес",
+      "example_sr": "Цена зависи од тежине пакета.",
+      "example_ru": "Цена зависит от веса посылки.",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "рок",
+      "sr_latin": "rok",
+      "pronunciation_ru": "рОк",
+      "translation_ru": "срок",
+      "example_sr": "Рок испоруке је три до пет дана.",
+      "example_ru": "Срок доставки — от трёх до пяти дней.",
+      "false_friend_note": "«Рок» — это «срок». Совпадает по звучанию с русским «рок» (судьба/музыка), но значение другое."
+    },
+    {
+      "sr_cyrillic": "шалтер",
+      "sr_latin": "šalter",
+      "pronunciation_ru": "шАлтер",
+      "translation_ru": "окошко, касса (в отделении)",
+      "example_sr": "Приђите шалтеру број један.",
+      "example_ru": "Подойдите к окошку номер один.",
+      "false_friend_note": "«Шалтер» — это почтовое/банковское окошко, а не «выключатель»."
+    },
+    {
+      "sr_cyrillic": "ред",
+      "sr_latin": "red",
+      "pronunciation_ru": "рЭд",
+      "translation_ru": "очередь, ряд",
+      "example_sr": "Станите у ред, молим вас.",
+      "example_ru": "Встаньте в очередь, пожалуйста.",
+      "false_friend_note": "«Ред» — это «очередь/ряд/порядок», а не цвет (красный)."
+    },
+    {
+      "sr_cyrillic": "препоручено",
+      "sr_latin": "preporučeno",
+      "pronunciation_ru": "препорУчено",
+      "translation_ru": "заказное (отправление)",
+      "example_sr": "Пошаљите то као препоручено писмо.",
+      "example_ru": "Отправьте это как заказное письмо.",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "обично писмо",
+      "sr_latin": "obično pismo",
+      "pronunciation_ru": "Обично пИсмо",
+      "translation_ru": "обычное письмо",
+      "example_sr": "Обично писмо стиже спорије.",
+      "example_ru": "Обычное письмо идёт медленнее.",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "хитно",
+      "sr_latin": "hitno",
+      "pronunciation_ru": "хИтно",
+      "translation_ru": "срочно",
+      "example_sr": "Треба ми хитна достава.",
+      "example_ru": "Мне нужна срочная доставка.",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "потврда",
+      "sr_latin": "potvrda",
+      "pronunciation_ru": "пОтврда",
+      "translation_ru": "квитанция, подтверждение",
+      "example_sr": "Чувајте потврду о слању.",
+      "example_ru": "Сохраните квитанцию об отправке.",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "поштарина",
+      "sr_latin": "poštarina",
+      "pronunciation_ru": "поштарИна",
+      "translation_ru": "почтовый сбор, стоимость пересылки",
+      "example_sr": "Колика је поштарина за иностранство?",
+      "example_ru": "Сколько стоит пересылка за границу?",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "кутија",
+      "sr_latin": "kutija",
+      "pronunciation_ru": "кУтија",
+      "translation_ru": "коробка",
+      "example_sr": "Спакуј ствари у кутију.",
+      "example_ru": "Сложи вещи в коробку.",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "паковање",
+      "sr_latin": "pakovanje",
+      "pronunciation_ru": "пАковање",
+      "translation_ru": "упаковка",
+      "example_sr": "Паковање мора да буде чврсто.",
+      "example_ru": "Упаковка должна быть крепкой.",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "упаковати",
+      "sr_latin": "upakovati",
+      "pronunciation_ru": "упАковати",
+      "translation_ru": "упаковать",
+      "example_sr": "Упакуј пакет добро да се не оштети.",
+      "example_ru": "Упакуй посылку хорошо, чтобы не повредилась.",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "налепница",
+      "sr_latin": "nalepnica",
+      "pronunciation_ru": "налЭпница",
+      "translation_ru": "наклейка, этикетка",
+      "example_sr": "Залепите налепницу са адресом.",
+      "example_ru": "Наклейте этикетку с адресом.",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "поштанско сандуче",
+      "sr_latin": "poštansko sanduče",
+      "pronunciation_ru": "пОштанско сАндуче",
+      "translation_ru": "почтовый ящик",
+      "example_sr": "Убацио сам писмо у поштанско сандуче.",
+      "example_ru": "Я бросил письмо в почтовый ящик.",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "пуномоћје",
+      "sr_latin": "punomoćje",
+      "pronunciation_ru": "пуномОчје",
+      "translation_ru": "доверенность",
+      "example_sr": "Без пуномоћја не могу да преузмем туђи пакет.",
+      "example_ru": "Без доверенности я не могу забрать чужую посылку.",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "лично",
+      "sr_latin": "lično",
+      "pronunciation_ru": "лИчно",
+      "translation_ru": "лично",
+      "example_sr": "Пошиљку морате преузети лично.",
+      "example_ru": "Отправление нужно забрать лично.",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "испорука",
+      "sr_latin": "isporuka",
+      "pronunciation_ru": "испОрука",
+      "translation_ru": "доставка, поставка",
+      "example_sr": "Испорука је могућа и суботом.",
+      "example_ru": "Доставка возможна и по субботам.",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "послати",
+      "sr_latin": "poslati",
+      "pronunciation_ru": "пОслати",
+      "translation_ru": "отправить, послать",
+      "example_sr": "Хоћу да пошаљем пакет за Нови Сад.",
+      "example_ru": "Хочу отправить посылку в Нови-Сад.",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "примити",
+      "sr_latin": "primiti",
+      "pronunciation_ru": "прИмити",
+      "translation_ru": "получить, принять",
+      "example_sr": "Нисам стигао да примим пошиљку.",
+      "example_ru": "Я не успел получить отправление.",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "поручити",
+      "sr_latin": "poručiti",
+      "pronunciation_ru": "порУчити",
+      "translation_ru": "заказать",
+      "example_sr": "Поручио сам ципеле преко интернета.",
+      "example_ru": "Я заказал обувь через интернет.",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "поруџбина",
+      "sr_latin": "porudžbina",
+      "pronunciation_ru": "порУџбина",
+      "translation_ru": "заказ",
+      "example_sr": "Моја поруџбина још није стигла.",
+      "example_ru": "Мой заказ ещё не пришёл.",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "наручити",
+      "sr_latin": "naručiti",
+      "pronunciation_ru": "нарУчити",
+      "translation_ru": "заказать (оформить заказ)",
+      "example_sr": "Наручила сам хаљину из иностранства.",
+      "example_ru": "Я заказала платье из-за границы.",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "онлајн куповина",
+      "sr_latin": "onlajn kupovina",
+      "pronunciation_ru": "Онлајн кУповина",
+      "translation_ru": "онлайн-покупка",
+      "example_sr": "Онлајн куповина ми штеди време.",
+      "example_ru": "Онлайн-покупки экономят мне время.",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "царина",
+      "sr_latin": "carina",
+      "pronunciation_ru": "цАрина",
+      "translation_ru": "таможня, таможенная пошлина",
+      "example_sr": "На пакет из иностранства плаћаш царину.",
+      "example_ru": "За посылку из-за границы платишь таможенную пошлину.",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "иностранство",
+      "sr_latin": "inostranstvo",
+      "pronunciation_ru": "инОстранство",
+      "translation_ru": "заграница",
+      "example_sr": "Наручио сам делове из иностранства.",
+      "example_ru": "Я заказал детали из-за границы.",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "ломљиво",
+      "sr_latin": "lomljivo",
+      "pronunciation_ru": "лОмљиво",
+      "translation_ru": "хрупкое, бьющееся",
+      "example_sr": "Означите кутију са „ломљиво”.",
+      "example_ru": "Пометьте коробку «хрупкое».",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "оштећено",
+      "sr_latin": "oštećeno",
+      "pronunciation_ru": "оштЭчено",
+      "translation_ru": "повреждено",
+      "example_sr": "Пакет ми је стигао оштећен.",
+      "example_ru": "Посылка пришла ко мне повреждённой.",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "кашњење",
+      "sr_latin": "kašnjenje",
+      "pronunciation_ru": "кАшњење",
+      "translation_ru": "задержка, опоздание",
+      "example_sr": "Због празника има кашњења у достави.",
+      "example_ru": "Из-за праздников есть задержки в доставке.",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "каснити",
+      "sr_latin": "kasniti",
+      "pronunciation_ru": "кАснити",
+      "translation_ru": "опаздывать, задерживаться",
+      "example_sr": "Пошиљка касни већ три дана.",
+      "example_ru": "Отправление опаздывает уже три дня.",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "рекламација",
+      "sr_latin": "reklamacija",
+      "pronunciation_ru": "рекламАција",
+      "translation_ru": "рекламация, претензия, жалоба",
+      "example_sr": "Уложио сам рекламацију због оштећене робе.",
+      "example_ru": "Я подал претензию из-за повреждённого товара.",
+      "false_friend_note": "«Рекламација» — это жалоба/претензия, а не «реклама» (реклама = реклама/reklama)."
+    },
+    {
+      "sr_cyrillic": "вратити",
+      "sr_latin": "vratiti",
+      "pronunciation_ru": "врАтити",
+      "translation_ru": "вернуть",
+      "example_sr": "Желим да вратим наручену робу.",
+      "example_ru": "Я хочу вернуть заказанный товар.",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "поврат",
+      "sr_latin": "povrat",
+      "pronunciation_ru": "пОврат",
+      "translation_ru": "возврат (денег, товара)",
+      "example_sr": "Тражим поврат новца за пакет који није стигао.",
+      "example_ru": "Я требую возврат денег за посылку, которая не пришла.",
+      "false_friend_note": "«Поврат» = возврат. Не путай с «повраћање» — это «рвота»."
+    },
+    {
+      "sr_cyrillic": "роба",
+      "sr_latin": "roba",
+      "pronunciation_ru": "рОба",
+      "translation_ru": "товар",
+      "example_sr": "Роба мора бити у оригиналном паковању.",
+      "example_ru": "Товар должен быть в оригинальной упаковке.",
+      "false_friend_note": "«Роба» — это «товар», а не «рабочая одежда/спецовка», как в русском."
+    },
+    {
+      "sr_cyrillic": "гаранција",
+      "sr_latin": "garancija",
+      "pronunciation_ru": "гарАнција",
+      "translation_ru": "гарантия",
+      "example_sr": "На уређај имате две године гаранције.",
+      "example_ru": "На устройство у вас два года гарантии.",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "рачун",
+      "sr_latin": "račun",
+      "pronunciation_ru": "рАчун",
+      "translation_ru": "чек, счёт",
+      "example_sr": "Приложите рачун уз рекламацију.",
+      "example_ru": "Приложите чек к рекламации.",
+      "false_friend_note": "«Рачун» — это «чек/счёт» (за покупку), а не «расчёт»."
+    },
+    {
+      "sr_cyrillic": "плаћање",
+      "sr_latin": "plaćanje",
+      "pronunciation_ru": "плАчање",
+      "translation_ru": "оплата",
+      "example_sr": "Плаћање је могуће картицом или поузећем.",
+      "example_ru": "Оплата возможна картой или наложенным платежом.",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "платити",
+      "sr_latin": "platiti",
+      "pronunciation_ru": "плАтити",
+      "translation_ru": "оплатить, заплатить",
+      "example_sr": "Платићу картицом при преузимању.",
+      "example_ru": "Оплачу картой при получении.",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "бесплатно",
+      "sr_latin": "besplatno",
+      "pronunciation_ru": "бЭсплатно",
+      "translation_ru": "бесплатно",
+      "example_sr": "Достава је бесплатна преко три хиљаде динара.",
+      "example_ru": "Доставка бесплатная от трёх тысяч динаров.",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "кућна достава",
+      "sr_latin": "kućna dostava",
+      "pronunciation_ru": "кУчна дОстава",
+      "translation_ru": "доставка на дом",
+      "example_sr": "Нудите ли кућну доставу?",
+      "example_ru": "Вы предлагаете доставку на дом?",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "пакетомат",
+      "sr_latin": "paketomat",
+      "pronunciation_ru": "пакетОмат",
+      "translation_ru": "постамат (автомат выдачи посылок)",
+      "example_sr": "Пакет можете преузети из пакетомата.",
+      "example_ru": "Посылку можно забрать из постамата.",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "обавештење",
+      "sr_latin": "obaveštenje",
+      "pronunciation_ru": "обавЭштење",
+      "translation_ru": "уведомление, извещение",
+      "example_sr": "Добио сам обавештење да пакет чека у пошти.",
+      "example_ru": "Я получил извещение, что посылка ждёт на почте.",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "број пошиљке",
+      "sr_latin": "broj pošiljke",
+      "pronunciation_ru": "брОј пОшиљке",
+      "translation_ru": "номер отправления",
+      "example_sr": "Пошаљите ми број пошиљке за праћење.",
+      "example_ru": "Пришлите мне номер отправления для отслеживания.",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "статус",
+      "sr_latin": "status",
+      "pronunciation_ru": "стАтус",
+      "translation_ru": "статус (отслеживания)",
+      "example_sr": "Статус пошиљке се није променио данима.",
+      "example_ru": "Статус отправления не менялся несколько дней.",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "документ",
+      "sr_latin": "dokument",
+      "pronunciation_ru": "дОкумент",
+      "translation_ru": "документ",
+      "example_sr": "Понесите лични документ ради преузимања.",
+      "example_ru": "Возьмите документ, удостоверяющий личность, для получения.",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "велики",
+      "sr_latin": "veliki",
+      "pronunciation_ru": "вЭлики",
+      "translation_ru": "большой",
+      "example_sr": "Ово је превелик пакет за сандуче.",
+      "example_ru": "Это слишком большая посылка для ящика.",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "тежак",
+      "sr_latin": "težak",
+      "pronunciation_ru": "тЭжак",
+      "translation_ru": "тяжёлый",
+      "example_sr": "Пакет је сувише тежак за једну особу.",
+      "example_ru": "Посылка слишком тяжёлая для одного человека.",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "брзо",
+      "sr_latin": "brzo",
+      "pronunciation_ru": "бРзо",
+      "translation_ru": "быстро",
+      "example_sr": "Пошиљка је стигла врло брзо.",
+      "example_ru": "Отправление пришло очень быстро.",
+      "false_friend_note": ""
+    }
+  ]
+}

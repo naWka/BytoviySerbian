@@ -2,6 +2,7 @@
   "id": "namestaj",
   "title_ru": "🛋 Мебель",
   "title_sr": "Намештај",
+  "_note": "Черновик: сгенерировано AI и вычитано AI-корректором «как носитель». Не проверено носителем-человеком.",
   "words": [
     {
       "sr_cyrillic": "намештај",
@@ -380,6 +381,258 @@
       "example_sr": "Продајем полован намештај, све је очувано.",
       "example_ru": "Продаю б/у мебель, всё в хорошем состоянии.",
       "false_friend_note": "«Полован/половно» = подержанный, б/у — не «половина» и не «половой». В объявлениях «половно» = second-hand."
+    },
+    {
+      "sr_cyrillic": "витрина",
+      "sr_latin": "vitrina",
+      "pronunciation_ru": "вИтрина",
+      "translation_ru": "витрина, застеклённый сервант",
+      "example_sr": "У витрину ставите чаше и сервис за кафу.",
+      "example_ru": "В витрину поставьте бокалы и кофейный сервиз.",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "библиотека",
+      "sr_latin": "biblioteka",
+      "pronunciation_ru": "библиотЭка",
+      "translation_ru": "книжный шкаф, стеллаж для книг",
+      "example_sr": "Купили смо библиотеку од пода до плафона.",
+      "example_ru": "Мы купили книжный шкаф от пола до потолка.",
+      "false_friend_note": "«Библиотека» — это и библиотека (учреждение), и книжный шкаф как мебель. По контексту: «купити библиотеку» — купить книжный шкаф."
+    },
+    {
+      "sr_cyrillic": "ципеларник",
+      "sr_latin": "cipelarnik",
+      "pronunciation_ru": "ципЭларник",
+      "translation_ru": "обувница, тумба для обуви",
+      "example_sr": "У ходнику је ципеларник за десетак пари.",
+      "example_ru": "В коридоре обувница на десяток пар.",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "кревет на спрат",
+      "sr_latin": "krevet na sprat",
+      "pronunciation_ru": "крЭвэт на спрАт",
+      "translation_ru": "двухъярусная кровать",
+      "example_sr": "За две девојчице узели смо кревет на спрат.",
+      "example_ru": "Для двух девочек мы взяли двухъярусную кровать.",
+      "false_friend_note": "«Спрат» = этаж; «кревет на спрат» — двухъярусная кровать (буквально «кровать в два этажа»)."
+    },
+    {
+      "sr_cyrillic": "креветац",
+      "sr_latin": "krevetac",
+      "pronunciation_ru": "крэвЭтац",
+      "translation_ru": "детская кроватка",
+      "example_sr": "Беби смо купили креветац са решеткама.",
+      "example_ru": "Малышу мы купили кроватку с решётками.",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "висећи елементи",
+      "sr_latin": "viseći elementi",
+      "pronunciation_ru": "висЭчи элЭмэнти",
+      "translation_ru": "навесные шкафчики (кухонные)",
+      "example_sr": "Висеће елементе окачите на носаче у зиду.",
+      "example_ru": "Навесные шкафчики повесьте на кронштейны в стене.",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "вратанца",
+      "sr_latin": "vratanca",
+      "pronunciation_ru": "вратАнца",
+      "translation_ru": "дверца (шкафа, тумбы)",
+      "example_sr": "Вратанца ормарића се не затварају добро.",
+      "example_ru": "Дверца шкафчика плохо закрывается.",
+      "false_friend_note": "«Врата» по-сербски = дверь; «вратанца» — маленькая дверца (у шкафа, тумбы)."
+    },
+    {
+      "sr_cyrillic": "наслон",
+      "sr_latin": "naslon",
+      "pronunciation_ru": "нАслон",
+      "translation_ru": "спинка (стула, дивана)",
+      "example_sr": "Наслон столице је превисок за ово дете.",
+      "example_ru": "Спинка стула слишком высокая для этого ребёнка.",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "наслон за руке",
+      "sr_latin": "naslon za ruke",
+      "pronunciation_ru": "нАслон за рУкэ",
+      "translation_ru": "подлокотник",
+      "example_sr": "Фотеља има широке наслоне за руке.",
+      "example_ru": "У кресла широкие подлокотники.",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "седиште",
+      "sr_latin": "sedište",
+      "pronunciation_ru": "сЭдиштэ",
+      "translation_ru": "сиденье",
+      "example_sr": "Седиште кауча се извлачи и претвара у лежај.",
+      "example_ru": "Сиденье дивана выдвигается и превращается в спальное место.",
+      "false_friend_note": "«Седиште» — сиденье; то же слово значит «головной офис, штаб-квартира» (седиште фирме). По контексту понятно."
+    },
+    {
+      "sr_cyrillic": "ногица",
+      "sr_latin": "nogica",
+      "pronunciation_ru": "нОгица",
+      "translation_ru": "ножка (стола, стула, шкафа)",
+      "example_sr": "Једна ногица стола је краћа, сто се клима.",
+      "example_ru": "Одна ножка стола короче, стол шатается.",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "ручка",
+      "sr_latin": "ručka",
+      "pronunciation_ru": "рУчка",
+      "translation_ru": "ручка (мебельная, дверная), рукоятка",
+      "example_sr": "Ручке на фиокама су металне, не пластичне.",
+      "example_ru": "Ручки на ящиках металлические, не пластиковые.",
+      "false_friend_note": "Ложный друг: сербская «ручка» — это ручка-рукоятка (дверная, мебельная), а НЕ ручка для письма. Шариковая ручка — «хемијска (оловка)»."
+    },
+    {
+      "sr_cyrillic": "шарка",
+      "sr_latin": "šarka",
+      "pronunciation_ru": "шАрка",
+      "translation_ru": "петля (дверная, мебельная), шарнир",
+      "example_sr": "Шарке на вратима ормана треба подмазати.",
+      "example_ru": "Петли на дверце шкафа надо смазать.",
+      "false_friend_note": "Не путать с русским «шарик»: «шарка» — это дверная/мебельная петля, шарнир."
+    },
+    {
+      "sr_cyrillic": "точкић",
+      "sr_latin": "točkić",
+      "pronunciation_ru": "тОчкич",
+      "translation_ru": "колёсико, ролик (мебельный)",
+      "example_sr": "Фотеља је на точкићима, лако се помера.",
+      "example_ru": "Кресло на колёсиках, легко двигается.",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "клизач",
+      "sr_latin": "klizač",
+      "pronunciation_ru": "клИзач",
+      "translation_ru": "направляющая (выдвижного ящика), полозья",
+      "example_sr": "Клизачи фиоке су се истрошили, фиока запиње.",
+      "example_ru": "Направляющие ящика износились, ящик заедает.",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "дрво",
+      "sr_latin": "drvo",
+      "pronunciation_ru": "дРво",
+      "translation_ru": "дерево, древесина (материал)",
+      "example_sr": "Овај сто је од правог дрвета, не од иверице.",
+      "example_ru": "Этот стол из настоящего дерева, не из ДСП.",
+      "false_friend_note": "«Дрво» = и дерево (растение), и древесина (материал). Мебель «од дрвета» — из дерева."
+    },
+    {
+      "sr_cyrillic": "иверица",
+      "sr_latin": "iverica",
+      "pronunciation_ru": "ивЭрица",
+      "translation_ru": "ДСП, древесно-стружечная плита",
+      "example_sr": "Јефтинији плакари су од иверице.",
+      "example_ru": "Шкафы подешевле делают из ДСП.",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "медијапан",
+      "sr_latin": "medijapan",
+      "pronunciation_ru": "медијАпан",
+      "translation_ru": "МДФ (плита)",
+      "example_sr": "Врата кухиње су од медијапана, глатка су.",
+      "example_ru": "Дверцы кухни из МДФ, гладкие.",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "масив",
+      "sr_latin": "masiv",
+      "pronunciation_ru": "мАсив",
+      "translation_ru": "массив (цельное дерево)",
+      "example_sr": "Кревет је од храстовог масива, веома тежак.",
+      "example_ru": "Кровать из массива дуба, очень тяжёлая.",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "стакло",
+      "sr_latin": "staklo",
+      "pronunciation_ru": "стАкло",
+      "translation_ru": "стекло",
+      "example_sr": "Врата витрине су од каљеног стакла.",
+      "example_ru": "Дверцы витрины из закалённого стекла.",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "фурнир",
+      "sr_latin": "furnir",
+      "pronunciation_ru": "фУрнир",
+      "translation_ru": "шпон (тонкий слой дерева на поверхности)",
+      "example_sr": "Плоча је у фурниру ораха.",
+      "example_ru": "Панель отделана шпоном ореха.",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "штоф",
+      "sr_latin": "štof",
+      "pronunciation_ru": "штОф",
+      "translation_ru": "ткань, обивочная материя",
+      "example_sr": "Кауч у штофу се лакше запрља него у кожи.",
+      "example_ru": "Тканевый диван пачкается легче, чем кожаный.",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "тапацирунг",
+      "sr_latin": "tapacirung",
+      "pronunciation_ru": "тапацИрунг",
+      "translation_ru": "обивка (мягкая), обивочный материал",
+      "example_sr": "Тапацирунг фотеље је поцепан на једном месту.",
+      "example_ru": "Обивка кресла порвана в одном месте.",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "монтажа",
+      "sr_latin": "montaža",
+      "pronunciation_ru": "монтАжа",
+      "translation_ru": "сборка, монтаж",
+      "example_sr": "Монтажа намештаја се плаћа посебно.",
+      "example_ru": "Сборка мебели оплачивается отдельно.",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "упутство",
+      "sr_latin": "uputstvo",
+      "pronunciation_ru": "Упутство",
+      "translation_ru": "инструкция, руководство",
+      "example_sr": "Пратите упутство за састављање корак по корак.",
+      "example_ru": "Следуйте инструкции по сборке шаг за шагом.",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "шрафцигер",
+      "sr_latin": "šrafciger",
+      "pronunciation_ru": "шрАфцигер",
+      "translation_ru": "отвёртка",
+      "example_sr": "Треба ми крстасти шрафцигер за ове шрафове.",
+      "example_ru": "Мне нужна крестовая отвёртка для этих шурупов.",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "дневна соба",
+      "sr_latin": "dnevna soba",
+      "pronunciation_ru": "днЭвна сОба",
+      "translation_ru": "гостиная",
+      "example_sr": "Кауч и тросед иду у дневну собу.",
+      "example_ru": "Диван и трёхместный диван идут в гостиную.",
+      "false_friend_note": "«Дневна соба» — гостиная (дословно «дневная комната»); «соба» = комната, а не «собака»."
+    },
+    {
+      "sr_cyrillic": "спаваћа соба",
+      "sr_latin": "spavaća soba",
+      "pronunciation_ru": "спАвача сОба",
+      "translation_ru": "спальня",
+      "example_sr": "У спаваћу собу стаје само кревет и орман.",
+      "example_ru": "В спальню помещаются только кровать и шкаф.",
+      "false_friend_note": ""
     }
   ]
 }

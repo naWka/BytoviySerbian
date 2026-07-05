@@ -2,6 +2,7 @@
   "id": "restoran_meni",
   "title_ru": "🍽 Меню и ресторан",
   "title_sr": "Мени",
+  "_note": "Черновик: сгенерировано AI и вычитано AI-корректором «как носитель». Не проверено носителем-человеком.",
   "words": [
     {
       "sr_cyrillic": "јеловник",
@@ -380,6 +381,258 @@
       "example_sr": "Долазимо на ручак око подне.",
       "example_ru": "Мы придём на обед около полудня.",
       "false_friend_note": "«Ручак» — это обед, ничего общего с «ручкой»."
+    },
+    {
+      "sr_cyrillic": "ћевапи",
+      "sr_latin": "ćevapi",
+      "pronunciation_ru": "чЭвапи",
+      "translation_ru": "чевапи (жареные мясные колбаски без оболочки)",
+      "example_sr": "Дајте ми десет ћевапа са луком.",
+      "example_ru": "Дайте мне десять чевапи с луком.",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "пљескавица",
+      "sr_latin": "pljeskavica",
+      "pronunciation_ru": "пльЭскавица",
+      "translation_ru": "плескавица (большая мясная котлета на гриле)",
+      "example_sr": "Наручио бих плескавицу у лепињи.",
+      "example_ru": "Я бы заказал плескавицу в лепёшке.",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "карађорђева шницла",
+      "sr_latin": "karađorđeva šnicla",
+      "pronunciation_ru": "караджОрджева шнИцла",
+      "translation_ru": "карагеоргиевский шницель (рулет с каймаком в панировке)",
+      "example_sr": "Карађорђева шницла је пуњена кајмаком.",
+      "example_ru": "Карагеоргиевский шницель фарширован каймаком.",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "сарма",
+      "sr_latin": "sarma",
+      "pronunciation_ru": "сАрма",
+      "translation_ru": "сарма (голубцы в квашеной капусте)",
+      "example_sr": "Зими често спремамо сарму.",
+      "example_ru": "Зимой мы часто готовим сарму.",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "ајвар",
+      "sr_latin": "ajvar",
+      "pronunciation_ru": "Айвар",
+      "translation_ru": "айвар (паста из печёного красного перца)",
+      "example_sr": "Уз месо обавезно иде ајвар.",
+      "example_ru": "К мясу обязательно идёт айвар.",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "кајмак",
+      "sr_latin": "kajmak",
+      "pronunciation_ru": "кАймак",
+      "translation_ru": "каймак (солёные молодые сливки, вроде мягкого сыра)",
+      "example_sr": "Хлеб са кајмаком је прави доручак.",
+      "example_ru": "Хлеб с каймаком — настоящий завтрак.",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "бурек",
+      "sr_latin": "burek",
+      "pronunciation_ru": "бУрек",
+      "translation_ru": "бурек (слоёный пирог с мясом или сыром)",
+      "example_sr": "Ујутру купим бурек и јогурт.",
+      "example_ru": "Утром покупаю бурек и йогурт.",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "гибаница",
+      "sr_latin": "gibanica",
+      "pronunciation_ru": "гИбаница",
+      "translation_ru": "гибаница (слоёный пирог с сыром и яйцами)",
+      "example_sr": "Бака прави најбољу гибаницу.",
+      "example_ru": "Бабушка готовит лучшую гибаницу.",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "пасуљ",
+      "sr_latin": "pasulj",
+      "pronunciation_ru": "пАсуль",
+      "translation_ru": "фасоль; густой суп из фасоли",
+      "example_sr": "Пасуљ са сувим месом је зимско јело.",
+      "example_ru": "Фасоль с копчёным мясом — зимнее блюдо.",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "јунетина",
+      "sr_latin": "junetina",
+      "pronunciation_ru": "юнЭтина",
+      "translation_ru": "говядина (мясо молодого бычка)",
+      "example_sr": "Ова супа је од јунетине.",
+      "example_ru": "Этот бульон из говядины.",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "јагњетина",
+      "sr_latin": "jagnjetina",
+      "pronunciation_ru": "ягньЭтина",
+      "translation_ru": "молодая баранина, ягнятина",
+      "example_sr": "Печена јагњетина је специјалитет куће.",
+      "example_ru": "Запечённая ягнятина — фирменное блюдо.",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "кобасица",
+      "sr_latin": "kobasica",
+      "pronunciation_ru": "кобАсица",
+      "translation_ru": "колбаса, колбаска",
+      "example_sr": "На роштиљу имамо и домаће кобасице.",
+      "example_ru": "На гриле есть и домашние колбаски.",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "на жару",
+      "sr_latin": "na žaru",
+      "pronunciation_ru": "на жАру",
+      "translation_ru": "на углях, на гриле (способ приготовления)",
+      "example_sr": "Желим пилетину на жару.",
+      "example_ru": "Хочу курицу на гриле.",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "динстано",
+      "sr_latin": "dinstano",
+      "pronunciation_ru": "дИнстано",
+      "translation_ru": "тушёное (способ приготовления)",
+      "example_sr": "Волим динстано поврће.",
+      "example_ru": "Люблю тушёные овощи.",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "кувано",
+      "sr_latin": "kuvano",
+      "pronunciation_ru": "кУвано",
+      "translation_ru": "варёное, отварное",
+      "example_sr": "За децу може кувано јаје.",
+      "example_ru": "Для детей можно варёное яйцо.",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "пржено",
+      "sr_latin": "prženo",
+      "pronunciation_ru": "пРжено",
+      "translation_ru": "жареное (на масле, способ приготовления)",
+      "example_sr": "Више волим пржено него кувано.",
+      "example_ru": "Больше люблю жареное, чем варёное.",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "димљено",
+      "sr_latin": "dimljeno",
+      "pronunciation_ru": "дИмльено",
+      "translation_ru": "копчёное",
+      "example_sr": "Дај ми мало димљеног сира.",
+      "example_ru": "Дай мне немного копчёного сыра.",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "ракија",
+      "sr_latin": "rakija",
+      "pronunciation_ru": "рАкия",
+      "translation_ru": "ракия (крепкий фруктовый самогон)",
+      "example_sr": "За почетак једну ракију од шљиве.",
+      "example_ru": "Для начала одну сливовую ракию.",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "црно вино",
+      "sr_latin": "crno vino",
+      "pronunciation_ru": "цРно вИно",
+      "translation_ru": "красное вино (дословно «чёрное»)",
+      "example_sr": "Уз месо препоручујем црно вино.",
+      "example_ru": "К мясу рекомендую красное вино.",
+      "false_friend_note": "«Црно вино» дословно «чёрное вино», но по-сербски так называют красное вино."
+    },
+    {
+      "sr_cyrillic": "бело вино",
+      "sr_latin": "belo vino",
+      "pronunciation_ru": "бЭло вИно",
+      "translation_ru": "белое вино",
+      "example_sr": "Чашу белог вина, молим.",
+      "example_ru": "Бокал белого вина, пожалуйста.",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "чај",
+      "sr_latin": "čaj",
+      "pronunciation_ru": "чАй",
+      "translation_ru": "чай",
+      "example_sr": "Може ли један топли чај?",
+      "example_ru": "Можно один горячий чай?",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "сир",
+      "sr_latin": "sir",
+      "pronunciation_ru": "сИр",
+      "translation_ru": "сыр (свежий «бели сир» ближе к брынзе/творогу)",
+      "example_sr": "Бурек са сиром, молим.",
+      "example_ru": "Бурек с сыром, пожалуйста.",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "бибер",
+      "sr_latin": "biber",
+      "pronunciation_ru": "бИбер",
+      "translation_ru": "перец (чёрный молотый, приправа)",
+      "example_sr": "Можете ли ми додати бибер?",
+      "example_ru": "Можете передать мне перец?",
+      "false_friend_note": "«Бибер» — это чёрный перец-приправа, а сладкий перец-овощ — «паприка»."
+    },
+    {
+      "sr_cyrillic": "шећер",
+      "sr_latin": "šećer",
+      "pronunciation_ru": "шЭчер",
+      "translation_ru": "сахар",
+      "example_sr": "Пијем кафу без шећера.",
+      "example_ru": "Я пью кофе без сахара.",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "доручак",
+      "sr_latin": "doručak",
+      "pronunciation_ru": "дОручак",
+      "translation_ru": "завтрак",
+      "example_sr": "Доручак служимо до једанаест сати.",
+      "example_ru": "Завтрак подаём до одиннадцати.",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "вечера",
+      "sr_latin": "večera",
+      "pronunciation_ru": "вЭчера",
+      "translation_ru": "ужин",
+      "example_sr": "Хоћемо ли на вечеру у осам?",
+      "example_ru": "Пойдём на ужин в восемь?",
+      "false_friend_note": "«Вечера» — это ужин, а «вечер» по-сербски «вече»."
+    },
+    {
+      "sr_cyrillic": "нож",
+      "sr_latin": "nož",
+      "pronunciation_ru": "нОж",
+      "translation_ru": "нож",
+      "example_sr": "Недостаје ми нож.",
+      "example_ru": "Мне не хватает ножа.",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "резервација",
+      "sr_latin": "rezervacija",
+      "pronunciation_ru": "резервАция",
+      "translation_ru": "бронь, резерв (столика)",
+      "example_sr": "Имам резервацију на име Марко.",
+      "example_ru": "У меня бронь на имя Марко.",
+      "false_friend_note": ""
     }
   ]
 }

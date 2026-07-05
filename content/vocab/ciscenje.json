@@ -2,6 +2,7 @@
   "id": "ciscenje",
   "title_ru": "🧹 Уборка и чистота",
   "title_sr": "Чишћење",
+  "_note": "Черновик: сгенерировано AI и вычитано AI-корректором «как носитель». Не проверено носителем-человеком.",
   "words": [
     {
       "sr_cyrillic": "чистити",
@@ -380,6 +381,258 @@
       "example_sr": "Држи ђубровник док ја метем.",
       "example_ru": "Держи совок, пока я подметаю.",
       "false_friend_note": "Звучит как город Дубровник, но в быту «ђубровник» — это совок для мусора."
+    },
+    {
+      "sr_cyrillic": "усисати",
+      "sr_latin": "usisati",
+      "pronunciation_ru": "усИсати",
+      "translation_ru": "пропылесосить",
+      "example_sr": "Треба само да усисам дневну собу.",
+      "example_ru": "Нужно только пропылесосить гостиную.",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "обрисати",
+      "sr_latin": "obrisati",
+      "pronunciation_ru": "обрИсати",
+      "translation_ru": "вытереть, протереть",
+      "example_sr": "Обриши сто, пролила сам сок.",
+      "example_ru": "Протри стол, я пролила сок.",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "помести",
+      "sr_latin": "pomesti",
+      "pronunciation_ru": "помЕсти",
+      "translation_ru": "подмести",
+      "example_sr": "Помети мрвице испод стола.",
+      "example_ru": "Подмети крошки под столом.",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "испрати",
+      "sr_latin": "isprati",
+      "pronunciation_ru": "Испрати",
+      "translation_ru": "прополоскать, ополоснуть",
+      "example_sr": "Испери чаше под млазом воде.",
+      "example_ru": "Ополосни стаканы под струёй воды.",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "потопити",
+      "sr_latin": "potopiti",
+      "pronunciation_ru": "потОпити",
+      "translation_ru": "замочить, погрузить в воду",
+      "example_sr": "Потопи шерпу да се одлепи запечено.",
+      "example_ru": "Замочи кастрюлю, чтобы отошло пригоревшее.",
+      "false_friend_note": "По-русски «потопить» — утопить или затопить. Сербское «потопити» чаще значит «замочить, погрузить в воду»."
+    },
+    {
+      "sr_cyrillic": "исцедити",
+      "sr_latin": "iscediti",
+      "pronunciation_ru": "исцЕдити",
+      "translation_ru": "отжать, выжать",
+      "example_sr": "Исцеди крпу пре него што обришеш под.",
+      "example_ru": "Отожми тряпку, прежде чем протирать пол.",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "блистати",
+      "sr_latin": "blistati",
+      "pronunciation_ru": "блИстати",
+      "translation_ru": "блестеть, сиять",
+      "example_sr": "После чишћења купатило просто блиста.",
+      "example_ru": "После уборки ванная просто блестит.",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "прашак за веш",
+      "sr_latin": "prašak za veš",
+      "pronunciation_ru": "прАшак за вЕш",
+      "translation_ru": "стиральный порошок",
+      "example_sr": "Купи прашак за веш, скоро га нема.",
+      "example_ru": "Купи стиральный порошок, он почти закончился.",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "омекшивач",
+      "sr_latin": "omekšivač",
+      "pronunciation_ru": "омекшИвач",
+      "translation_ru": "кондиционер для белья",
+      "example_sr": "Сипај мало омекшивача да веш буде мекши.",
+      "example_ru": "Налей немного кондиционера, чтобы бельё было мягче.",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "средство за прање судова",
+      "sr_latin": "sredstvo za pranje sudova",
+      "pronunciation_ru": "срЕдство за прАње сУдова",
+      "translation_ru": "средство для мытья посуды",
+      "example_sr": "Нестало нам је средство за прање судова.",
+      "example_ru": "У нас закончилось средство для мытья посуды.",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "варикина",
+      "sr_latin": "varikina",
+      "pronunciation_ru": "варикИна",
+      "translation_ru": "отбеливатель, белизна (хлорка)",
+      "example_sr": "Пази с варикином, јака је и може да избели.",
+      "example_ru": "Осторожно с белизной, она сильная и может обесцветить.",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "освеживач",
+      "sr_latin": "osveživač",
+      "pronunciation_ru": "освежИвач",
+      "translation_ru": "освежитель воздуха",
+      "example_sr": "Прсни мало освеживача у купатилу.",
+      "example_ru": "Пшикни немного освежителя в ванной.",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "машина за суђе",
+      "sr_latin": "mašina za suđe",
+      "pronunciation_ru": "машИна за сУдже",
+      "translation_ru": "посудомоечная машина",
+      "example_sr": "Стави тањире у машину за суђе.",
+      "example_ru": "Поставь тарелки в посудомоечную машину.",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "судопера",
+      "sr_latin": "sudopera",
+      "pronunciation_ru": "судОпера",
+      "translation_ru": "кухонная мойка, раковина",
+      "example_sr": "Судопера је пуна прљавог посуђа.",
+      "example_ru": "Мойка полна грязной посуды.",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "лавабо",
+      "sr_latin": "lavabo",
+      "pronunciation_ru": "лавАбо",
+      "translation_ru": "раковина (в ванной)",
+      "example_sr": "Лавабо у купатилу је зачепљен.",
+      "example_ru": "Раковина в ванной засорилась.",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "славина",
+      "sr_latin": "slavina",
+      "pronunciation_ru": "слАвина",
+      "translation_ru": "кран (водопроводный)",
+      "example_sr": "Из славине цури вода.",
+      "example_ru": "Из крана капает вода.",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "сушилица",
+      "sr_latin": "sušilica",
+      "pronunciation_ru": "сушИлица",
+      "translation_ru": "сушильная машина (для белья)",
+      "example_sr": "Пребаци веш из машине у сушилицу.",
+      "example_ru": "Переложи бельё из стиралки в сушилку.",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "моп",
+      "sr_latin": "mop",
+      "pronunciation_ru": "мОп",
+      "translation_ru": "швабра",
+      "example_sr": "Обриши под мопом, брже је.",
+      "example_ru": "Протри пол шваброй, так быстрее.",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "пешкир",
+      "sr_latin": "peškir",
+      "pronunciation_ru": "пешкИр",
+      "translation_ru": "полотенце",
+      "example_sr": "Дај ми чист пешкир, овај је мокар.",
+      "example_ru": "Дай мне чистое полотенце, это мокрое.",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "салвета",
+      "sr_latin": "salveta",
+      "pronunciation_ru": "салвЕта",
+      "translation_ru": "салфетка (столовая)",
+      "example_sr": "Стави салвете на сто.",
+      "example_ru": "Положи салфетки на стол.",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "корпа за веш",
+      "sr_latin": "korpa za veš",
+      "pronunciation_ru": "кОрпа за вЕш",
+      "translation_ru": "корзина для белья",
+      "example_sr": "Баци чарапе у корпу за веш.",
+      "example_ru": "Кинь носки в корзину для белья.",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "штипаљка",
+      "sr_latin": "štipaljka",
+      "pronunciation_ru": "штИпаљка",
+      "translation_ru": "прищепка",
+      "example_sr": "Закачи веш штипаљкама да не падне.",
+      "example_ru": "Прицепи бельё прищепками, чтобы не упало.",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "даска за пеглање",
+      "sr_latin": "daska za peglanje",
+      "pronunciation_ru": "дАска за пЕглање",
+      "translation_ru": "гладильная доска",
+      "example_sr": "Расклопи даску за пеглање.",
+      "example_ru": "Разложи гладильную доску.",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "чистачица",
+      "sr_latin": "čistačica",
+      "pronunciation_ru": "чистАчица",
+      "translation_ru": "уборщица",
+      "example_sr": "Чистачица долази сваког петка.",
+      "example_ru": "Уборщица приходит каждую пятницу.",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "неред",
+      "sr_latin": "nered",
+      "pronunciation_ru": "нЕред",
+      "translation_ru": "беспорядок, бардак",
+      "example_sr": "У соби је прави неред.",
+      "example_ru": "В комнате настоящий беспорядок.",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "уредан",
+      "sr_latin": "uredan",
+      "pronunciation_ru": "Уредан",
+      "translation_ru": "аккуратный, опрятный",
+      "example_sr": "Он је веома уредан, све му је на месту.",
+      "example_ru": "Он очень аккуратный, всё у него на месте.",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "мокар",
+      "sr_latin": "mokar",
+      "pronunciation_ru": "мОкар",
+      "translation_ru": "мокрый, влажный",
+      "example_sr": "Крпа је потпуно мокра, исцеди је.",
+      "example_ru": "Тряпка совсем мокрая, отожми её.",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "сув",
+      "sr_latin": "suv",
+      "pronunciation_ru": "сУв",
+      "translation_ru": "сухой",
+      "example_sr": "Веш је већ сув, можеш да га склониш.",
+      "example_ru": "Бельё уже сухое, можно его убрать.",
+      "false_friend_note": ""
     }
   ]
 }

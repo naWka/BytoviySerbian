@@ -2,6 +2,7 @@
   "id": "boje",
   "title_ru": "🎨 Цвета",
   "title_sr": "Боје",
+  "_note": "Черновик: сгенерировано AI и вычитано AI-корректором «как носитель». Не проверено носителем-человеком.",
   "words": [
     {
       "sr_cyrillic": "боја",
@@ -379,6 +380,258 @@
       "translation_ru": "выцвело, полиняло",
       "example_sr": "Од сунца је све избледело.",
       "example_ru": "От солнца всё выцвело.",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "тамноплава",
+      "sr_latin": "tamnoplava",
+      "pronunciation_ru": "тАмноплава",
+      "translation_ru": "тёмно-синий",
+      "example_sr": "Тамноплаво одело за венчање.",
+      "example_ru": "Тёмно-синий костюм на свадьбу.",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "светлоплава",
+      "sr_latin": "svetloplava",
+      "pronunciation_ru": "свЭтлоплава",
+      "translation_ru": "светло-голубой",
+      "example_sr": "Соба је окречена светлоплаво.",
+      "example_ru": "Комната покрашена в светло-голубой.",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "тамнозелена",
+      "sr_latin": "tamnozelena",
+      "pronunciation_ru": "тАмнозелена",
+      "translation_ru": "тёмно-зелёный",
+      "example_sr": "Тамнозелена торба, скоро црна.",
+      "example_ru": "Тёмно-зелёная сумка, почти чёрная.",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "светлозелена",
+      "sr_latin": "svetlozelena",
+      "pronunciation_ru": "свЭтлозелена",
+      "translation_ru": "светло-зелёный",
+      "example_sr": "Свежа, светлозелена трава.",
+      "example_ru": "Свежая, светло-зелёная трава.",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "лимун жута",
+      "sr_latin": "limun žuta",
+      "pronunciation_ru": "лИмун жУта",
+      "translation_ru": "лимонно-жёлтый",
+      "example_sr": "Лимун жута мајица јако упада у очи.",
+      "example_ru": "Лимонно-жёлтая футболка сильно бросается в глаза.",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "корална",
+      "sr_latin": "koralna",
+      "pronunciation_ru": "корАлна",
+      "translation_ru": "коралловый",
+      "example_sr": "Корална је нешто између розе и наранџасте.",
+      "example_ru": "Коралловый — что-то между розовым и оранжевым.",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "фуксија",
+      "sr_latin": "fuksija",
+      "pronunciation_ru": "фУксия",
+      "translation_ru": "фуксия (ярко-розовый)",
+      "example_sr": "Фуксија је јако розе, скоро љубичаста.",
+      "example_ru": "Фуксия — очень розовый, почти фиолетовый.",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "лила",
+      "sr_latin": "lila",
+      "pronunciation_ru": "лИла",
+      "translation_ru": "сиреневый, лиловый",
+      "example_sr": "Лила је светла љубичаста.",
+      "example_ru": "Лиловый — светло-фиолетовый.",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "циклама",
+      "sr_latin": "ciklama",
+      "pronunciation_ru": "цИклама",
+      "translation_ru": "цикламеновый (ярко розово-фиолетовый)",
+      "example_sr": "Обукла је хаљину боје циклама.",
+      "example_ru": "Она надела платье цвета цикламена.",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "пинк",
+      "sr_latin": "pink",
+      "pronunciation_ru": "пИнк",
+      "translation_ru": "ярко-розовый, «пинк»",
+      "example_sr": "Деца обожавају пинк.",
+      "example_ru": "Дети обожают ярко-розовый.",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "кестењаста",
+      "sr_latin": "kestenjasta",
+      "pronunciation_ru": "кестЭньаста",
+      "translation_ru": "каштановый (о волосах)",
+      "example_sr": "Има лепу кестењасту косу.",
+      "example_ru": "У неё красивые каштановые волосы.",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "риђа",
+      "sr_latin": "riđa",
+      "pronunciation_ru": "рИджа",
+      "translation_ru": "рыжий",
+      "example_sr": "Риђа коса и пеге иду заједно.",
+      "example_ru": "Рыжие волосы и веснушки идут вместе.",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "плавуша",
+      "sr_latin": "plavuša",
+      "pronunciation_ru": "плавУша",
+      "translation_ru": "блондинка",
+      "example_sr": "Природна је плавуша.",
+      "example_ru": "Она натуральная блондинка.",
+      "false_friend_note": "От «плава коса» (светлые волосы): «плавуша» = блондинка, а не «синяя»."
+    },
+    {
+      "sr_cyrillic": "црнка",
+      "sr_latin": "crnka",
+      "pronunciation_ru": "цРнка",
+      "translation_ru": "брюнетка, темноволосая",
+      "example_sr": "Није плавуша, него црнка.",
+      "example_ru": "Не блондинка, а брюнетка.",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "слоновача",
+      "sr_latin": "slonovača",
+      "pronunciation_ru": "слонОвача",
+      "translation_ru": "цвет слоновой кости, айвори",
+      "example_sr": "Зидови су у боји слоноваче.",
+      "example_ru": "Стены цвета слоновой кости.",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "топла",
+      "sr_latin": "topla",
+      "pronunciation_ru": "тОпла",
+      "translation_ru": "тёплый (о цвете)",
+      "example_sr": "Топле боје греју простор.",
+      "example_ru": "Тёплые цвета согревают пространство.",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "хладна",
+      "sr_latin": "hladna",
+      "pronunciation_ru": "хлАдна",
+      "translation_ru": "холодный (о цвете)",
+      "example_sr": "Плава је хладна боја.",
+      "example_ru": "Синий — холодный цвет.",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "загасита",
+      "sr_latin": "zagasita",
+      "pronunciation_ru": "загАсита",
+      "translation_ru": "приглушённый, тусклый (о цвете)",
+      "example_sr": "Више волим загасите, мирне тонове.",
+      "example_ru": "Больше люблю приглушённые, спокойные тона.",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "упадљива",
+      "sr_latin": "upadljiva",
+      "pronunciation_ru": "упАдльива",
+      "translation_ru": "броский, бросающийся в глаза",
+      "example_sr": "Ова боја је превише упадљива.",
+      "example_ru": "Этот цвет слишком броский.",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "дискретна",
+      "sr_latin": "diskretna",
+      "pronunciation_ru": "дискрЭтна",
+      "translation_ru": "сдержанный, неброский",
+      "example_sr": "Волим дискретне боје за посао.",
+      "example_ru": "Люблю сдержанные цвета для работы.",
+      "false_friend_note": "«Дискретан» = сдержанный, неброский, скромный — не «дискретный/прерывистый», как в русском."
+    },
+    {
+      "sr_cyrillic": "непрозирна",
+      "sr_latin": "neprozirna",
+      "pronunciation_ru": "непрозИрна",
+      "translation_ru": "непрозрачный",
+      "example_sr": "Завеса је дебела и непрозирна.",
+      "example_ru": "Штора плотная и непрозрачная.",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "дезен",
+      "sr_latin": "dezen",
+      "pronunciation_ru": "дЭзен",
+      "translation_ru": "узор, рисунок (на ткани)",
+      "example_sr": "Свиђа ми се дезен на овој кошуљи.",
+      "example_ru": "Мне нравится узор на этой рубашке.",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "цветна",
+      "sr_latin": "cvetna",
+      "pronunciation_ru": "цвЭтна",
+      "translation_ru": "цветочный, в цветочек",
+      "example_sr": "Цветна хаљина за лето.",
+      "example_ru": "Платье в цветочек на лето.",
+      "false_friend_note": "«Цветна» = цветочный, в цветочек (от «цвет» = цветок), а не «цветной». «Цветной» по-сербски — «у боји»."
+    },
+    {
+      "sr_cyrillic": "ребраста",
+      "sr_latin": "rebrasta",
+      "pronunciation_ru": "рЭбраста",
+      "translation_ru": "в рубчик (о ткани)",
+      "example_sr": "Ребрасти џемпер лепо стоји.",
+      "example_ru": "Свитер в рубчик хорошо сидит.",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "фарба",
+      "sr_latin": "farba",
+      "pronunciation_ru": "фАрба",
+      "translation_ru": "краска",
+      "example_sr": "Купила сам фарбу за косу.",
+      "example_ru": "Купила краску для волос.",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "прелив",
+      "sr_latin": "preliv",
+      "pronunciation_ru": "прЭлив",
+      "translation_ru": "перелив, отлив, градиент",
+      "example_sr": "Коса има бакарни прелив.",
+      "example_ru": "У волос медный отлив.",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "контраст",
+      "sr_latin": "kontrast",
+      "pronunciation_ru": "кОнтраст",
+      "translation_ru": "контраст",
+      "example_sr": "Црно и бело — јак контраст.",
+      "example_ru": "Чёрное и белое — сильный контраст.",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "тон",
+      "sr_latin": "ton",
+      "pronunciation_ru": "тОн",
+      "translation_ru": "тон",
+      "example_sr": "Потражите нијансу тон светлије.",
+      "example_ru": "Поищите оттенок на тон светлее.",
       "false_friend_note": ""
     }
   ]

@@ -1,0 +1,638 @@
+{
+  "id": "porodica_ljudi",
+  "title_ru": "👨‍👩‍👧 Семья и люди",
+  "title_sr": "Породица и људи",
+  "_note": "Черновик: сгенерировано AI и вычитано AI-корректором «как носитель». Не проверено носителем-человеком.",
+  "words": [
+    {
+      "sr_cyrillic": "породица",
+      "sr_latin": "porodica",
+      "pronunciation_ru": "порОдица",
+      "translation_ru": "семья",
+      "example_sr": "Моја породица живи у Београду.",
+      "example_ru": "Моя семья живёт в Белграде.",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "фамилија",
+      "sr_latin": "familija",
+      "pronunciation_ru": "фамИлија",
+      "translation_ru": "семья, родня",
+      "example_sr": "Цела фамилија се окупила за славу.",
+      "example_ru": "Вся родня собралась на славу.",
+      "false_friend_note": "«Фамилија» = семья/родня, а НЕ фамилия. Фамилия (последнее имя) по-сербски «презиме»."
+    },
+    {
+      "sr_cyrillic": "мама",
+      "sr_latin": "mama",
+      "pronunciation_ru": "мАма",
+      "translation_ru": "мама",
+      "example_sr": "Мама ми је спремила ручак.",
+      "example_ru": "Мама приготовила мне обед.",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "тата",
+      "sr_latin": "tata",
+      "pronunciation_ru": "тАта",
+      "translation_ru": "папа",
+      "example_sr": "Тата долази кући у шест.",
+      "example_ru": "Папа приходит домой в шесть.",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "отац",
+      "sr_latin": "otac",
+      "pronunciation_ru": "Отац",
+      "translation_ru": "отец",
+      "example_sr": "Његов отац ради у болници.",
+      "example_ru": "Его отец работает в больнице.",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "мајка",
+      "sr_latin": "majka",
+      "pronunciation_ru": "мАйка",
+      "translation_ru": "мать",
+      "example_sr": "Она је мајка троје деце.",
+      "example_ru": "Она мать троих детей.",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "родитељи",
+      "sr_latin": "roditelji",
+      "pronunciation_ru": "родИтэльи",
+      "translation_ru": "родители",
+      "example_sr": "Моји родитељи живе на селу.",
+      "example_ru": "Мои родители живут в деревне.",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "муж",
+      "sr_latin": "muž",
+      "pronunciation_ru": "мУж",
+      "translation_ru": "муж",
+      "example_sr": "Мој муж је отишао на посао.",
+      "example_ru": "Мой муж ушёл на работу.",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "жена",
+      "sr_latin": "žena",
+      "pronunciation_ru": "жЭна",
+      "translation_ru": "жена, женщина",
+      "example_sr": "Његова жена је лекар.",
+      "example_ru": "Его жена врач.",
+      "false_friend_note": "«Жена» значит и «жена», и «женщина» — смотри по контексту."
+    },
+    {
+      "sr_cyrillic": "супруг",
+      "sr_latin": "suprug",
+      "pronunciation_ru": "сУпруг",
+      "translation_ru": "супруг",
+      "example_sr": "Дошла је са супругом.",
+      "example_ru": "Она пришла с супругом.",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "супруга",
+      "sr_latin": "supruga",
+      "pronunciation_ru": "сУпруга",
+      "translation_ru": "супруга",
+      "example_sr": "Представио нам је своју супругу.",
+      "example_ru": "Он представил нам свою супругу.",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "син",
+      "sr_latin": "sin",
+      "pronunciation_ru": "сИн",
+      "translation_ru": "сын",
+      "example_sr": "Имам сина и ћерку.",
+      "example_ru": "У меня есть сын и дочь.",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "ћерка",
+      "sr_latin": "ćerka",
+      "pronunciation_ru": "чЭрка",
+      "translation_ru": "дочь",
+      "example_sr": "Њихова ћерка иде у школу.",
+      "example_ru": "Их дочь ходит в школу.",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "кћи",
+      "sr_latin": "kći",
+      "pronunciation_ru": "кчИ",
+      "translation_ru": "дочь",
+      "example_sr": "То је моја најстарија кћи.",
+      "example_ru": "Это моя старшая дочь.",
+      "false_friend_note": "Более книжный вариант слова «ћерка» (дочь)."
+    },
+    {
+      "sr_cyrillic": "брат",
+      "sr_latin": "brat",
+      "pronunciation_ru": "брАт",
+      "translation_ru": "брат",
+      "example_sr": "Мој брат је старији од мене.",
+      "example_ru": "Мой брат старше меня.",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "сестра",
+      "sr_latin": "sestra",
+      "pronunciation_ru": "сЭстра",
+      "translation_ru": "сестра",
+      "example_sr": "Сестра ми живи у Новом Саду.",
+      "example_ru": "Сестра живёт в Нови-Саде.",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "бака",
+      "sr_latin": "baka",
+      "pronunciation_ru": "бАка",
+      "translation_ru": "бабушка",
+      "example_sr": "Бака прави најбољи колач.",
+      "example_ru": "Бабушка делает лучший пирог.",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "деда",
+      "sr_latin": "deda",
+      "pronunciation_ru": "дЭда",
+      "translation_ru": "дедушка",
+      "example_sr": "Деда воли да чита новине.",
+      "example_ru": "Дедушка любит читать газеты.",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "унук",
+      "sr_latin": "unuk",
+      "pronunciation_ru": "Унук",
+      "translation_ru": "внук",
+      "example_sr": "Дошао им је унук у госте.",
+      "example_ru": "К ним приехал внук в гости.",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "унука",
+      "sr_latin": "unuka",
+      "pronunciation_ru": "Унука",
+      "translation_ru": "внучка",
+      "example_sr": "Унука им се управо родила.",
+      "example_ru": "Внучка у них только что родилась.",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "дете",
+      "sr_latin": "dete",
+      "pronunciation_ru": "дЭтэ",
+      "translation_ru": "ребёнок",
+      "example_sr": "Дете спава у соби.",
+      "example_ru": "Ребёнок спит в комнате.",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "деца",
+      "sr_latin": "deca",
+      "pronunciation_ru": "дЭца",
+      "translation_ru": "дети",
+      "example_sr": "Деца се играју напољу.",
+      "example_ru": "Дети играют на улице.",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "беба",
+      "sr_latin": "beba",
+      "pronunciation_ru": "бЭба",
+      "translation_ru": "младенец, малыш",
+      "example_sr": "Беба је заспала.",
+      "example_ru": "Малыш заснул.",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "дечак",
+      "sr_latin": "dečak",
+      "pronunciation_ru": "дЭчак",
+      "translation_ru": "мальчик",
+      "example_sr": "Онај дечак игра фудбал.",
+      "example_ru": "Тот мальчик играет в футбол.",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "девојчица",
+      "sr_latin": "devojčica",
+      "pronunciation_ru": "дЭвойчица",
+      "translation_ru": "девочка",
+      "example_sr": "Мала девојчица плаче.",
+      "example_ru": "Маленькая девочка плачет.",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "момак",
+      "sr_latin": "momak",
+      "pronunciation_ru": "мОмак",
+      "translation_ru": "парень, молодой человек",
+      "example_sr": "Она има новог момка.",
+      "example_ru": "У неё новый парень.",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "девојка",
+      "sr_latin": "devojka",
+      "pronunciation_ru": "дЭвойка",
+      "translation_ru": "девушка",
+      "example_sr": "То је његова девојка.",
+      "example_ru": "Это его девушка.",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "човек",
+      "sr_latin": "čovek",
+      "pronunciation_ru": "чОвэк",
+      "translation_ru": "человек, мужчина",
+      "example_sr": "Тамо стоји неки човек.",
+      "example_ru": "Там стоит какой-то человек.",
+      "false_friend_note": "Обычно «человек», но в разговоре может значить «мужчина/муж»."
+    },
+    {
+      "sr_cyrillic": "особа",
+      "sr_latin": "osoba",
+      "pronunciation_ru": "Особа",
+      "translation_ru": "человек, лицо, особа",
+      "example_sr": "Она је веома драга особа.",
+      "example_ru": "Она очень милый человек.",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "људи",
+      "sr_latin": "ljudi",
+      "pronunciation_ru": "лЮди",
+      "translation_ru": "люди",
+      "example_sr": "Испред радње има много људи.",
+      "example_ru": "Перед магазином много людей.",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "ташта",
+      "sr_latin": "tašta",
+      "pronunciation_ru": "тАшта",
+      "translation_ru": "тёща",
+      "example_sr": "Ташта ми често помаже око деце.",
+      "example_ru": "Тёща часто помогает мне с детьми.",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "таст",
+      "sr_latin": "tast",
+      "pronunciation_ru": "тАст",
+      "translation_ru": "тесть",
+      "example_sr": "Таст ми је поклонио сат.",
+      "example_ru": "Тесть подарил мне часы.",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "свекрва",
+      "sr_latin": "svekrva",
+      "pronunciation_ru": "свЭкрва",
+      "translation_ru": "свекровь",
+      "example_sr": "Свекрва долази на ручак у недељу.",
+      "example_ru": "Свекровь приходит на обед в воскресенье.",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "свекар",
+      "sr_latin": "svekar",
+      "pronunciation_ru": "свЭкар",
+      "translation_ru": "свёкор",
+      "example_sr": "Свекар воли да ради у башти.",
+      "example_ru": "Свёкор любит работать в саду.",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "зет",
+      "sr_latin": "zet",
+      "pronunciation_ru": "зЭт",
+      "translation_ru": "зять",
+      "example_sr": "Зет ми помаже око кола.",
+      "example_ru": "Зять помогает мне с машиной.",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "снаја",
+      "sr_latin": "snaja",
+      "pronunciation_ru": "снАйа",
+      "translation_ru": "невестка, сноха",
+      "example_sr": "Снаја прави одличну сарму.",
+      "example_ru": "Невестка делает отличную сарму.",
+      "false_friend_note": "Может значить и жену сына, и жену брата."
+    },
+    {
+      "sr_cyrillic": "девер",
+      "sr_latin": "dever",
+      "pronunciation_ru": "дЭвэр",
+      "translation_ru": "деверь (брат мужа)",
+      "example_sr": "Девер живи у истом крају.",
+      "example_ru": "Деверь живёт в том же районе.",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "заова",
+      "sr_latin": "zaova",
+      "pronunciation_ru": "зАова",
+      "translation_ru": "золовка (сестра мужа)",
+      "example_sr": "Заова ми је дошла у посету.",
+      "example_ru": "Золовка пришла ко мне в гости.",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "шурак",
+      "sr_latin": "šurak",
+      "pronunciation_ru": "шУрак",
+      "translation_ru": "шурин (брат жены)",
+      "example_sr": "Идем на пиво са шураком.",
+      "example_ru": "Иду на пиво с шурином.",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "стриц",
+      "sr_latin": "stric",
+      "pronunciation_ru": "стрИц",
+      "translation_ru": "дядя (брат отца)",
+      "example_sr": "Стриц ми живи у Нишу.",
+      "example_ru": "Дядя (по отцу) живёт в Нише.",
+      "false_friend_note": "«Стриц» — только дядя по отцу; дядя по матери — «ујак»."
+    },
+    {
+      "sr_cyrillic": "ујак",
+      "sr_latin": "ujak",
+      "pronunciation_ru": "Уйак",
+      "translation_ru": "дядя (брат матери)",
+      "example_sr": "Ујак ме је одвео на утакмицу.",
+      "example_ru": "Дядя (по матери) отвёл меня на матч.",
+      "false_friend_note": "«Ујак» — только дядя по матери; дядя по отцу — «стриц»."
+    },
+    {
+      "sr_cyrillic": "тетка",
+      "sr_latin": "tetka",
+      "pronunciation_ru": "тЭтка",
+      "translation_ru": "тётя",
+      "example_sr": "Тетка нам је дошла из Немачке.",
+      "example_ru": "Тётя приехала к нам из Германии.",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "братанац",
+      "sr_latin": "bratanac",
+      "pronunciation_ru": "братАнац",
+      "translation_ru": "племянник (сын брата)",
+      "example_sr": "Братанац ми је завршио факултет.",
+      "example_ru": "Племянник окончил университет.",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "сестрић",
+      "sr_latin": "sestrić",
+      "pronunciation_ru": "сэстрИч",
+      "translation_ru": "племянник (сын сестры)",
+      "example_sr": "Чувам сестрића преко викенда.",
+      "example_ru": "Присматриваю за племянником на выходных.",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "рођак",
+      "sr_latin": "rođak",
+      "pronunciation_ru": "рОджак",
+      "translation_ru": "родственник, двоюродный брат",
+      "example_sr": "Он ми је рођак по мајци.",
+      "example_ru": "Он мой родственник по матери.",
+      "false_friend_note": "Часто значит именно «двоюродный брат», а не любой родственник."
+    },
+    {
+      "sr_cyrillic": "рођака",
+      "sr_latin": "rođaka",
+      "pronunciation_ru": "рОджака",
+      "translation_ru": "родственница, двоюродная сестра",
+      "example_sr": "Рођака ми се удала прошле године.",
+      "example_ru": "Родственница вышла замуж в прошлом году.",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "рођаци",
+      "sr_latin": "rođaci",
+      "pronunciation_ru": "рОджаци",
+      "translation_ru": "родственники, родня",
+      "example_sr": "Сви рођаци долазе на славу.",
+      "example_ru": "Все родственники приходят на славу.",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "предак",
+      "sr_latin": "predak",
+      "pronunciation_ru": "прЭдак",
+      "translation_ru": "предок",
+      "example_sr": "Наш далеки предак је живео овде.",
+      "example_ru": "Наш далёкий предок жил здесь.",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "потомак",
+      "sr_latin": "potomak",
+      "pronunciation_ru": "потОмак",
+      "translation_ru": "потомок",
+      "example_sr": "Он је потомак старе породице.",
+      "example_ru": "Он потомок старинного рода.",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "близанци",
+      "sr_latin": "blizanci",
+      "pronunciation_ru": "близАнци",
+      "translation_ru": "близнецы",
+      "example_sr": "Родили су им се близанци.",
+      "example_ru": "У них родились близнецы.",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "пар",
+      "sr_latin": "par",
+      "pronunciation_ru": "пАр",
+      "translation_ru": "пара",
+      "example_sr": "Они су леп пар.",
+      "example_ru": "Они красивая пара.",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "пријатељ",
+      "sr_latin": "prijatelj",
+      "pronunciation_ru": "прийАтэль",
+      "translation_ru": "друг",
+      "example_sr": "Он ми је најбољи пријатељ.",
+      "example_ru": "Он мой лучший друг.",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "пријатељица",
+      "sr_latin": "prijateljica",
+      "pronunciation_ru": "прийатЭљица",
+      "translation_ru": "подруга",
+      "example_sr": "Идем у биоскоп са пријатељицом.",
+      "example_ru": "Иду в кино с подругой.",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "другар",
+      "sr_latin": "drugar",
+      "pronunciation_ru": "другАр",
+      "translation_ru": "друг, приятель",
+      "example_sr": "Он ми је добар другар с посла.",
+      "example_ru": "Он мой хороший приятель с работы.",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "другарица",
+      "sr_latin": "drugarica",
+      "pronunciation_ru": "другАрица",
+      "translation_ru": "подруга",
+      "example_sr": "Моја другарица ради у школи.",
+      "example_ru": "Моя подруга работает в школе.",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "комшија",
+      "sr_latin": "komšija",
+      "pronunciation_ru": "комшИйа",
+      "translation_ru": "сосед",
+      "example_sr": "Комшија ми је помогао да преселим ормар.",
+      "example_ru": "Сосед помог мне передвинуть шкаф.",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "комшиница",
+      "sr_latin": "komšinica",
+      "pronunciation_ru": "комшинИца",
+      "translation_ru": "соседка",
+      "example_sr": "Комшиница ми чува кључеве.",
+      "example_ru": "Соседка хранит мои ключи.",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "познаник",
+      "sr_latin": "poznanik",
+      "pronunciation_ru": "познАник",
+      "translation_ru": "знакомый",
+      "example_sr": "Срео сам једног познаника у граду.",
+      "example_ru": "Встретил одного знакомого в городе.",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "странац",
+      "sr_latin": "stranac",
+      "pronunciation_ru": "стрАнац",
+      "translation_ru": "иностранец, чужак, незнакомец",
+      "example_sr": "Он је странац, не говори српски.",
+      "example_ru": "Он иностранец, не говорит по-сербски.",
+      "false_friend_note": "«Странац» = иностранец/чужак, а не «странник»."
+    },
+    {
+      "sr_cyrillic": "веза",
+      "sr_latin": "veza",
+      "pronunciation_ru": "вЭза",
+      "translation_ru": "отношения, связь",
+      "example_sr": "Они су у вези већ две године.",
+      "example_ru": "Они встречаются уже два года.",
+      "false_friend_note": "«Бити у вези» = быть в отношениях (о паре)."
+    },
+    {
+      "sr_cyrillic": "однос",
+      "sr_latin": "odnos",
+      "pronunciation_ru": "Однос",
+      "translation_ru": "отношение",
+      "example_sr": "Имамо добар однос са комшијама.",
+      "example_ru": "У нас хорошие отношения с соседями.",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "брак",
+      "sr_latin": "brak",
+      "pronunciation_ru": "брАк",
+      "translation_ru": "брак",
+      "example_sr": "Њихов брак траје двадесет година.",
+      "example_ru": "Их брак длится двадцать лет.",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "свадба",
+      "sr_latin": "svadba",
+      "pronunciation_ru": "свАдба",
+      "translation_ru": "свадьба",
+      "example_sr": "Свадба је следеће суботе.",
+      "example_ru": "Свадьба в следующую субботу.",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "венчање",
+      "sr_latin": "venčanje",
+      "pronunciation_ru": "вЭнчанье",
+      "translation_ru": "венчание, бракосочетание",
+      "example_sr": "Венчање је било у цркви.",
+      "example_ru": "Венчание было в церкви.",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "вереник",
+      "sr_latin": "verenik",
+      "pronunciation_ru": "вэрЭник",
+      "translation_ru": "жених (обручённый)",
+      "example_sr": "Упознала сам њеног вереника.",
+      "example_ru": "Я познакомилась с её женихом.",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "вереница",
+      "sr_latin": "verenica",
+      "pronunciation_ru": "вэрЭница",
+      "translation_ru": "невеста (обручённая)",
+      "example_sr": "Дошао је са вереницом.",
+      "example_ru": "Он пришёл с невестой.",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "младенци",
+      "sr_latin": "mladenci",
+      "pronunciation_ru": "младЭнци",
+      "translation_ru": "молодожёны",
+      "example_sr": "Честитамо младенцима!",
+      "example_ru": "Поздравляем молодожёнов!",
+      "false_friend_note": "«Младенци» = молодожёны, а НЕ младенцы! Ребёнок — «беба/дете»."
+    },
+    {
+      "sr_cyrillic": "удовица",
+      "sr_latin": "udovica",
+      "pronunciation_ru": "удОвица",
+      "translation_ru": "вдова",
+      "example_sr": "Она је удовица већ десет година.",
+      "example_ru": "Она вдова уже десять лет.",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "кум",
+      "sr_latin": "kum",
+      "pronunciation_ru": "кУм",
+      "translation_ru": "крёстный, свидетель на свадьбе",
+      "example_sr": "Он ми је кум на венчању.",
+      "example_ru": "Он мой свидетель на свадьбе.",
+      "false_friend_note": "В Сербии «кум» — очень близкая роль: крёстный или свидетель на свадьбе, ближе, чем русский «кум»."
+    },
+    {
+      "sr_cyrillic": "кума",
+      "sr_latin": "kuma",
+      "pronunciation_ru": "кУма",
+      "translation_ru": "крёстная, кума",
+      "example_sr": "Кума нам је крстила дете.",
+      "example_ru": "Кума крестила нашего ребёнка.",
+      "false_friend_note": ""
+    }
+  ]
+}

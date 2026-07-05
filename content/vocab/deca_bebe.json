@@ -1,0 +1,638 @@
+{
+  "id": "deca_bebe",
+  "title_ru": "👶 Дети и малыши",
+  "title_sr": "Деца и бебе",
+  "_note": "Черновик: сгенерировано AI и вычитано AI-корректором «как носитель». Не проверено носителем-человеком.",
+  "words": [
+    {
+      "sr_cyrillic": "беба",
+      "sr_latin": "beba",
+      "pronunciation_ru": "бЭба",
+      "translation_ru": "малыш, грудной ребёнок",
+      "example_sr": "Беба спава, будите тихи.",
+      "example_ru": "Малыш спит, ведите себя тихо.",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "новорођенче",
+      "sr_latin": "novorođenče",
+      "pronunciation_ru": "новорОдженче",
+      "translation_ru": "новорождённый",
+      "example_sr": "Новорођенче спава већи део дана.",
+      "example_ru": "Новорождённый спит бо́льшую часть дня.",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "одојче",
+      "sr_latin": "odojče",
+      "pronunciation_ru": "Одойче",
+      "translation_ru": "грудничок, младенец на грудном вскармливании",
+      "example_sr": "Одојче се храни мајчиним млеком.",
+      "example_ru": "Грудничок питается материнским молоком.",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "дете",
+      "sr_latin": "dete",
+      "pronunciation_ru": "дЭте",
+      "translation_ru": "ребёнок",
+      "example_sr": "Дете је порасло за месец дана.",
+      "example_ru": "Ребёнок вырос за месяц.",
+      "false_friend_note": "Экавица: «дете» (не «дијете»); множественное — «деца» (собирательное)."
+    },
+    {
+      "sr_cyrillic": "пелена",
+      "sr_latin": "pelena",
+      "pronunciation_ru": "пэлЭна",
+      "translation_ru": "подгузник, пелёнка",
+      "example_sr": "Морам да променим беби пелену.",
+      "example_ru": "Мне нужно поменять малышу подгузник.",
+      "false_friend_note": "«Пелена» — это и подгузник, и пелёнка; одноразовые «пелене» и есть памперсы."
+    },
+    {
+      "sr_cyrillic": "колица",
+      "sr_latin": "kolica",
+      "pronunciation_ru": "кОлица",
+      "translation_ru": "коляска",
+      "example_sr": "Гурам колица кроз парк.",
+      "example_ru": "Катаю коляску по парку.",
+      "false_friend_note": "«Колица» — всегда множественное: детская коляска или тележка."
+    },
+    {
+      "sr_cyrillic": "цуцла",
+      "sr_latin": "cucla",
+      "pronunciation_ru": "цУцла",
+      "translation_ru": "соска, пустышка",
+      "example_sr": "Беба је испустила цуцлу.",
+      "example_ru": "Малыш выронил соску.",
+      "false_friend_note": "«Цуцла» — это и соска-пустышка, и резиновая соска на бутылочке."
+    },
+    {
+      "sr_cyrillic": "дуда варалица",
+      "sr_latin": "duda varalica",
+      "pronunciation_ru": "дУда варАлица",
+      "translation_ru": "пустышка, соска-обманка",
+      "example_sr": "Дај му дуду варалицу да се смири.",
+      "example_ru": "Дай ему пустышку, чтобы успокоился.",
+      "false_friend_note": "«Варалица» буквально «обманщица»: пустышка «обманывает» сосательный рефлекс."
+    },
+    {
+      "sr_cyrillic": "флашица",
+      "sr_latin": "flašica",
+      "pronunciation_ru": "флАшица",
+      "translation_ru": "бутылочка",
+      "example_sr": "Загрејала сам флашицу млека.",
+      "example_ru": "Я подогрела бутылочку молока.",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "адаптирано млеко",
+      "sr_latin": "adaptirano mleko",
+      "pronunciation_ru": "адаптИрано млЭко",
+      "translation_ru": "молочная смесь",
+      "example_sr": "Кад нема дојења, дајемо адаптирано млеко.",
+      "example_ru": "Когда нет грудного, даём смесь.",
+      "false_friend_note": "Смесь для младенцев — «адаптирано млеко» (или «формула»), а не «смеша»."
+    },
+    {
+      "sr_cyrillic": "креветац",
+      "sr_latin": "krevetac",
+      "pronunciation_ru": "крЭвэтац",
+      "translation_ru": "кроватка (детская)",
+      "example_sr": "Спусти бебу у креветац.",
+      "example_ru": "Положи малыша в кроватку.",
+      "false_friend_note": "«Креветац» — детская кроватка (уменьш. от «кревет» — кровать)."
+    },
+    {
+      "sr_cyrillic": "играчка",
+      "sr_latin": "igračka",
+      "pronunciation_ru": "Играчка",
+      "translation_ru": "игрушка",
+      "example_sr": "Омиљена играчка му је меда.",
+      "example_ru": "Любимая игрушка у него — плюшевый мишка.",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "игралиште",
+      "sr_latin": "igralište",
+      "pronunciation_ru": "игралИште",
+      "translation_ru": "детская площадка",
+      "example_sr": "Идемо на игралиште после ручка.",
+      "example_ru": "Идём на площадку после обеда.",
+      "false_friend_note": "«Игралиште» — площадка для игр (детская или спортивная), место, где играют."
+    },
+    {
+      "sr_cyrillic": "педијатар",
+      "sr_latin": "pedijatar",
+      "pronunciation_ru": "пэдИйатар",
+      "translation_ru": "педиатр",
+      "example_sr": "Педијатар нам је заказао преглед.",
+      "example_ru": "Педиатр назначил нам осмотр.",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "вакцина",
+      "sr_latin": "vakcina",
+      "pronunciation_ru": "вакцИна",
+      "translation_ru": "вакцина, прививка",
+      "example_sr": "Данас беба прима прву вакцину.",
+      "example_ru": "Сегодня малышу делают первую прививку.",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "кашица",
+      "sr_latin": "kašica",
+      "pronunciation_ru": "кАшица",
+      "translation_ru": "детское пюре, кашка",
+      "example_sr": "Беба је појела целу кашицу.",
+      "example_ru": "Малыш съел всё пюре.",
+      "false_friend_note": "«Кашица» — детское пюре или жидкая кашка (уменьш. от «каша»)."
+    },
+    {
+      "sr_cyrillic": "портикла",
+      "sr_latin": "portikla",
+      "pronunciation_ru": "пОртикла",
+      "translation_ru": "слюнявчик, нагрудник",
+      "example_sr": "Стави му портиклу пре јела.",
+      "example_ru": "Надень ему слюнявчик перед едой.",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "спавање",
+      "sr_latin": "spavanje",
+      "pronunciation_ru": "спАванье",
+      "translation_ru": "сон",
+      "example_sr": "Ритам спавања се полако успоставља.",
+      "example_ru": "Режим сна постепенно налаживается.",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "дремка",
+      "sr_latin": "dremka",
+      "pronunciation_ru": "дрЭмка",
+      "translation_ru": "дневной сон, дрёма",
+      "example_sr": "Беба је на јутарњој дремци.",
+      "example_ru": "Малыш на утреннем сне.",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "плач",
+      "sr_latin": "plač",
+      "pronunciation_ru": "плАч",
+      "translation_ru": "плач",
+      "example_sr": "Плач усред ноћи буди целу кућу.",
+      "example_ru": "Плач среди ночи будит весь дом.",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "шетња",
+      "sr_latin": "šetnja",
+      "pronunciation_ru": "шЭтня",
+      "translation_ru": "прогулка",
+      "example_sr": "Идемо у шетњу с колицима.",
+      "example_ru": "Идём на прогулку с коляской.",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "дојење",
+      "sr_latin": "dojenje",
+      "pronunciation_ru": "дОйэнье",
+      "translation_ru": "грудное вскармливание",
+      "example_sr": "Дојење им још увек добро иде.",
+      "example_ru": "Грудное вскармливание у них пока идёт хорошо.",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "дојка",
+      "sr_latin": "dojka",
+      "pronunciation_ru": "дОйка",
+      "translation_ru": "грудь (женская)",
+      "example_sr": "Беба је одмах прихватила дојку.",
+      "example_ru": "Малыш сразу взял грудь.",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "храњење",
+      "sr_latin": "hranjenje",
+      "pronunciation_ru": "хрАньэнье",
+      "translation_ru": "кормление",
+      "example_sr": "Ноћно храњење ме исцрпљује.",
+      "example_ru": "Ночные кормления меня выматывают.",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "подригивање",
+      "sr_latin": "podrigivanje",
+      "pronunciation_ru": "подрИгиванье",
+      "translation_ru": "срыгивание, отрыжка",
+      "example_sr": "Сачекај подригивање после оброка.",
+      "example_ru": "Дождись отрыжки после кормления.",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "колике",
+      "sr_latin": "kolike",
+      "pronunciation_ru": "кОликэ",
+      "translation_ru": "колики",
+      "example_sr": "Беба ноћу плаче од колика.",
+      "example_ru": "Малыш ночью плачет от колик.",
+      "false_friend_note": "«Колике» (мн.) — младенческие колики, вздутие животика."
+    },
+    {
+      "sr_cyrillic": "температура",
+      "sr_latin": "temperatura",
+      "pronunciation_ru": "тэмпэратУра",
+      "translation_ru": "температура, жар",
+      "example_sr": "Измери беби температуру.",
+      "example_ru": "Измерь малышу температуру.",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "грозница",
+      "sr_latin": "groznica",
+      "pronunciation_ru": "грОзница",
+      "translation_ru": "жар, лихорадка",
+      "example_sr": "Дете има грозницу, зовите лекара.",
+      "example_ru": "У ребёнка жар, вызовите врача.",
+      "false_friend_note": "«Грозница» — это жар/лихорадка, а не «гроза» (гроза по-сербски — олуја, невреме)."
+    },
+    {
+      "sr_cyrillic": "осмех",
+      "sr_latin": "osmeh",
+      "pronunciation_ru": "Осмэх",
+      "translation_ru": "улыбка",
+      "example_sr": "Први осмех отопи срце.",
+      "example_ru": "Первая улыбка растопит сердце.",
+      "false_friend_note": "Экавица: «осмех» (улыбка), а не «осмијех»."
+    },
+    {
+      "sr_cyrillic": "пузати",
+      "sr_latin": "puzati",
+      "pronunciation_ru": "пУзати",
+      "translation_ru": "ползать",
+      "example_sr": "Беба већ пузи по поду.",
+      "example_ru": "Малыш уже ползает по полу.",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "проходати",
+      "sr_latin": "prohodati",
+      "pronunciation_ru": "прохОдати",
+      "translation_ru": "начать ходить",
+      "example_sr": "Беба је проходала са годину дана.",
+      "example_ru": "Малыш начал ходить в год.",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "зубић",
+      "sr_latin": "zubić",
+      "pronunciation_ru": "зУбич",
+      "translation_ru": "зубик (молочный)",
+      "example_sr": "Никао му је први зубић.",
+      "example_ru": "У него прорезался первый зубик.",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "ницање зуба",
+      "sr_latin": "nicanje zuba",
+      "pronunciation_ru": "нИцанье зУба",
+      "translation_ru": "прорезывание зубов",
+      "example_sr": "Ноћу је нервозан због ницања зуба.",
+      "example_ru": "Ночью капризничает из-за прорезывания зубов.",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "гризалица",
+      "sr_latin": "grizalica",
+      "pronunciation_ru": "грИзалица",
+      "translation_ru": "прорезыватель, грызунок",
+      "example_sr": "Дај му гризалицу да гризе.",
+      "example_ru": "Дай ему прорезыватель погрызть.",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "боди",
+      "sr_latin": "bodi",
+      "pronunciation_ru": "бОди",
+      "translation_ru": "боди (детское)",
+      "example_sr": "Обуци му чисто боди.",
+      "example_ru": "Надень ему чистое боди.",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "влажне марамице",
+      "sr_latin": "vlažne maramice",
+      "pronunciation_ru": "влАжнэ марАмицэ",
+      "translation_ru": "влажные салфетки",
+      "example_sr": "Обриши га влажним марамицама.",
+      "example_ru": "Протри его влажными салфетками.",
+      "false_friend_note": "«Марамица» — салфетка или платочек (марама — платок, косынка)."
+    },
+    {
+      "sr_cyrillic": "купање",
+      "sr_latin": "kupanje",
+      "pronunciation_ru": "кУпанье",
+      "translation_ru": "купание, мытьё",
+      "example_sr": "Вечерње купање бебу опушта.",
+      "example_ru": "Вечернее купание расслабляет малыша.",
+      "false_friend_note": "«Купање» — это купание/мытьё; «куповина» — покупки (не путать)."
+    },
+    {
+      "sr_cyrillic": "кадица",
+      "sr_latin": "kadica",
+      "pronunciation_ru": "кАдица",
+      "translation_ru": "ванночка",
+      "example_sr": "Напуни кадицу млаком водом.",
+      "example_ru": "Наполни ванночку тёплой водой.",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "пешкир",
+      "sr_latin": "peškir",
+      "pronunciation_ru": "пЭшкир",
+      "translation_ru": "полотенце",
+      "example_sr": "Умотај бебу у меки пешкир.",
+      "example_ru": "Заверни малыша в мягкое полотенце.",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "осип",
+      "sr_latin": "osip",
+      "pronunciation_ru": "Осип",
+      "translation_ru": "сыпь, раздражение на коже",
+      "example_sr": "Појавио се осип од пелена.",
+      "example_ru": "Появилась сыпь от подгузника.",
+      "false_friend_note": "«Осип» — это сыпь/высыпание на коже (созвучно имени Осип, но не связано)."
+    },
+    {
+      "sr_cyrillic": "крема",
+      "sr_latin": "krema",
+      "pronunciation_ru": "крЭма",
+      "translation_ru": "крем, мазь",
+      "example_sr": "Намажи задњицу кремом против осипа.",
+      "example_ru": "Намажь попу кремом от опрелостей.",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "пудер",
+      "sr_latin": "puder",
+      "pronunciation_ru": "пУдэр",
+      "translation_ru": "присыпка, пудра",
+      "example_sr": "Стави мало пудера при пресвлачењу.",
+      "example_ru": "Насыпь немного присыпки при переодевании.",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "превијање",
+      "sr_latin": "previjanje",
+      "pronunciation_ru": "прэвИйанье",
+      "translation_ru": "пеленание, смена подгузника",
+      "example_sr": "Сто за превијање је поред креветца.",
+      "example_ru": "Пеленальный столик рядом с кроваткой.",
+      "false_friend_note": "«Превијање» — пеленание/перевязка, а «пресвлачење» — переодевание."
+    },
+    {
+      "sr_cyrillic": "пресвлачење",
+      "sr_latin": "presvlačenje",
+      "pronunciation_ru": "прэсвлАчэнье",
+      "translation_ru": "переодевание",
+      "example_sr": "Време је за пресвлачење.",
+      "example_ru": "Пора переодеваться.",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "ноша",
+      "sr_latin": "noša",
+      "pronunciation_ru": "нОша",
+      "translation_ru": "горшок (детский)",
+      "example_sr": "Учимо дете да користи ношу.",
+      "example_ru": "Учим ребёнка ходить на горшок.",
+      "false_friend_note": "«Ноша» здесь — детский горшок; по-русски «ноша» — это груз, значение другое."
+    },
+    {
+      "sr_cyrillic": "столица",
+      "sr_latin": "stolica",
+      "pronunciation_ru": "стОлица",
+      "translation_ru": "стул (кал); стул (мебель)",
+      "example_sr": "Беба има ретку столицу.",
+      "example_ru": "У малыша жидкий стул.",
+      "false_friend_note": "«Столица» — это стул (мебель) и стул (кал); столица страны — «престоница / главни град»."
+    },
+    {
+      "sr_cyrillic": "аутоседиште",
+      "sr_latin": "autosedište",
+      "pronunciation_ru": "аутосЭдиште",
+      "translation_ru": "автокресло",
+      "example_sr": "Вежи бебу у аутоседиште.",
+      "example_ru": "Пристегни малыша в автокресле.",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "носиљка",
+      "sr_latin": "nosiljka",
+      "pronunciation_ru": "нОсилька",
+      "translation_ru": "переноска, слинг для ношения",
+      "example_sr": "Носим бебу у носиљки.",
+      "example_ru": "Ношу малыша в переноске.",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "столица за храњење",
+      "sr_latin": "stolica za hranjenje",
+      "pronunciation_ru": "стОлица за хрАньэнье",
+      "translation_ru": "стульчик для кормления",
+      "example_sr": "Дете седи у столици за храњење.",
+      "example_ru": "Ребёнок сидит на стульчике для кормления.",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "љуљашка",
+      "sr_latin": "ljuljaška",
+      "pronunciation_ru": "люлЯшка",
+      "translation_ru": "качели, качалка",
+      "example_sr": "Беба ужива на љуљашки.",
+      "example_ru": "Малыш обожает качели.",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "термометар",
+      "sr_latin": "termometar",
+      "pronunciation_ru": "тэрмОмэтар",
+      "translation_ru": "термометр, градусник",
+      "example_sr": "Стави термометар испод пазуха.",
+      "example_ru": "Поставь градусник под мышку.",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "пупак",
+      "sr_latin": "pupak",
+      "pronunciation_ru": "пУпак",
+      "translation_ru": "пупок",
+      "example_sr": "Пупак се још није осушио.",
+      "example_ru": "Пупок ещё не подсох.",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "фонтанела",
+      "sr_latin": "fontanela",
+      "pronunciation_ru": "фонтанЭла",
+      "translation_ru": "родничок",
+      "example_sr": "Фонтанела се затвара до годину дана.",
+      "example_ru": "Родничок закрывается к году.",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "систематски преглед",
+      "sr_latin": "sistematski pregled",
+      "pronunciation_ru": "систэмАтски прЭглэд",
+      "translation_ru": "плановый (профилактический) осмотр",
+      "example_sr": "Заказали смо систематски преглед.",
+      "example_ru": "Мы записались на плановый осмотр.",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "развој",
+      "sr_latin": "razvoj",
+      "pronunciation_ru": "рАзвой",
+      "translation_ru": "развитие",
+      "example_sr": "Развој бебе прати педијатар.",
+      "example_ru": "Развитие малыша отслеживает педиатр.",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "нахранити",
+      "sr_latin": "nahraniti",
+      "pronunciation_ru": "нахрАнити",
+      "translation_ru": "накормить",
+      "example_sr": "Морам да нахраним бебу.",
+      "example_ru": "Мне нужно накормить малыша.",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "успавати",
+      "sr_latin": "uspavati",
+      "pronunciation_ru": "успАвати",
+      "translation_ru": "усыпить, уложить спать",
+      "example_sr": "Тешко га је успавати увече.",
+      "example_ru": "Его трудно уложить спать вечером.",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "успаванка",
+      "sr_latin": "uspavanka",
+      "pronunciation_ru": "успАванка",
+      "translation_ru": "колыбельная",
+      "example_sr": "Певам му успаванку сваке вечери.",
+      "example_ru": "Пою ему колыбельную каждый вечер.",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "ћебе",
+      "sr_latin": "ćebe",
+      "pronunciation_ru": "чЭбэ",
+      "translation_ru": "одеяло, плед",
+      "example_sr": "Покриј бебу ћебетом.",
+      "example_ru": "Укрой малыша одеялом.",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "дадиља",
+      "sr_latin": "dadilja",
+      "pronunciation_ru": "дАдиля",
+      "translation_ru": "няня",
+      "example_sr": "Дадиља чува дете преподне.",
+      "example_ru": "Няня сидит с ребёнком до обеда.",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "вртић",
+      "sr_latin": "vrtić",
+      "pronunciation_ru": "вртИч",
+      "translation_ru": "детский сад",
+      "example_sr": "Дете креће у вртић у септембру.",
+      "example_ru": "Ребёнок пойдёт в садик в сентябре.",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "јаслице",
+      "sr_latin": "jaslice",
+      "pronunciation_ru": "йАслицэ",
+      "translation_ru": "ясли (для самых маленьких)",
+      "example_sr": "Беба иде у јаслице од годину дана.",
+      "example_ru": "Малыш ходит в ясли с года.",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "порођај",
+      "sr_latin": "porođaj",
+      "pronunciation_ru": "порОджай",
+      "translation_ru": "роды",
+      "example_sr": "Порођај је прошао без компликација.",
+      "example_ru": "Роды прошли без осложнений.",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "породилиште",
+      "sr_latin": "porodilište",
+      "pronunciation_ru": "породилИште",
+      "translation_ru": "роддом",
+      "example_sr": "Провели су три дана у породилишту.",
+      "example_ru": "Провели три дня в роддоме.",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "близанци",
+      "sr_latin": "blizanci",
+      "pronunciation_ru": "близАнци",
+      "translation_ru": "близнецы",
+      "example_sr": "Добили су близанце.",
+      "example_ru": "У них родились близнецы.",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "издајалица",
+      "sr_latin": "izdajalica",
+      "pronunciation_ru": "издАйалица",
+      "translation_ru": "молокоотсос",
+      "example_sr": "Измлазам млеко издајалицом.",
+      "example_ru": "Сцеживаю молоко молокоотсосом.",
+      "false_friend_note": "Звучит как «предательница» (издаја — измена), но это молокоотсос."
+    },
+    {
+      "sr_cyrillic": "уморан",
+      "sr_latin": "umoran",
+      "pronunciation_ru": "Уморан",
+      "translation_ru": "усталый",
+      "example_sr": "Дете је уморно и нервозно.",
+      "example_ru": "Ребёнок устал и капризничает.",
+      "false_friend_note": "«Уморан» — уставший, а не «умерший» (умерший по-сербски — мртав, умро)."
+    },
+    {
+      "sr_cyrillic": "гладан",
+      "sr_latin": "gladan",
+      "pronunciation_ru": "глАдан",
+      "translation_ru": "голодный",
+      "example_sr": "Беба плаче јер је гладна.",
+      "example_ru": "Малыш плачет, потому что голодный.",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "сит",
+      "sr_latin": "sit",
+      "pronunciation_ru": "сИт",
+      "translation_ru": "сытый, наевшийся",
+      "example_sr": "Беба је сита и задовољна.",
+      "example_ru": "Малыш сыт и доволен.",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "звечка",
+      "sr_latin": "zvečka",
+      "pronunciation_ru": "звЭчка",
+      "translation_ru": "погремушка",
+      "example_sr": "Беба тресе звечку.",
+      "example_ru": "Малыш трясёт погремушку.",
+      "false_friend_note": ""
+    }
+  ]
+}

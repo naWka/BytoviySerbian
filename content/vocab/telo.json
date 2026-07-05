@@ -2,6 +2,7 @@
   "id": "telo",
   "title_ru": "🫀 Части тела",
   "title_sr": "Делови тела",
+  "_note": "Черновик: сгенерировано AI и вычитано AI-корректором «как носитель». Не проверено носителем-человеком.",
   "words": [
     {
       "sr_cyrillic": "глава",
@@ -379,6 +380,258 @@
       "translation_ru": "лёгкие",
       "example_sr": "Доктор ми је прегледао плућа.",
       "example_ru": "Врач осмотрел мне лёгкие.",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "обрва",
+      "sr_latin": "obrva",
+      "pronunciation_ru": "Обрва",
+      "translation_ru": "бровь",
+      "example_sr": "Подигла је обрву у чуду.",
+      "example_ru": "Она удивлённо подняла бровь.",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "трепавица",
+      "sr_latin": "trepavica",
+      "pronunciation_ru": "трэпАвица",
+      "translation_ru": "ресница",
+      "example_sr": "Упала ми је трепавица у око.",
+      "example_ru": "Мне попала ресница в глаз.",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "капак",
+      "sr_latin": "kapak",
+      "pronunciation_ru": "кАпак",
+      "translation_ru": "веко",
+      "example_sr": "Трза ми се капак већ данима.",
+      "example_ru": "У меня уже несколько дней дёргается веко.",
+      "false_friend_note": "«Капак» — это веко, но так же называют крышку/ставню. По контексту про глаз — веко."
+    },
+    {
+      "sr_cyrillic": "ноздрва",
+      "sr_latin": "nozdrva",
+      "pronunciation_ru": "нОздрва",
+      "translation_ru": "ноздря",
+      "example_sr": "Запушена ми је једна ноздрва.",
+      "example_ru": "У меня заложена одна ноздря.",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "десни",
+      "sr_latin": "desni",
+      "pronunciation_ru": "дЭсни",
+      "translation_ru": "дёсны",
+      "example_sr": "Крваре ми десни кад перем зубе.",
+      "example_ru": "Дёсны кровоточат, когда чищу зубы.",
+      "false_friend_note": "«Десни» — это дёсны. То же слово значит «правый», так что по контексту про рот — дёсны."
+    },
+    {
+      "sr_cyrillic": "слепоочница",
+      "sr_latin": "slepoočnica",
+      "pronunciation_ru": "слэпоОчница",
+      "translation_ru": "висок",
+      "example_sr": "Пулсира ми у слепоочници.",
+      "example_ru": "У меня пульсирует в виске.",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "јагодица",
+      "sr_latin": "jagodica",
+      "pronunciation_ru": "йАгодица",
+      "translation_ru": "скула",
+      "example_sr": "Има високе јагодице.",
+      "example_ru": "У неё высокие скулы.",
+      "false_friend_note": "«Јагодица» — это скула; так же называют подушечку пальца («јагодица прста»). С ягодой не путать."
+    },
+    {
+      "sr_cyrillic": "бркови",
+      "sr_latin": "brkovi",
+      "pronunciation_ru": "бРкови",
+      "translation_ru": "усы",
+      "example_sr": "Пустио је бркове преко зиме.",
+      "example_ru": "Он отпустил усы за зиму.",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "мозак",
+      "sr_latin": "mozak",
+      "pronunciation_ru": "мОзак",
+      "translation_ru": "мозг",
+      "example_sr": "Мозак ми не ради ујутру без кафе.",
+      "example_ru": "Утром без кофе мозг у меня не работает.",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "јетра",
+      "sr_latin": "jetra",
+      "pronunciation_ru": "йЭтра",
+      "translation_ru": "печень",
+      "example_sr": "Не пијем, чувам јетру.",
+      "example_ru": "Я не пью, берегу печень.",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "бубрег",
+      "sr_latin": "bubreg",
+      "pronunciation_ru": "бУбрег",
+      "translation_ru": "почка",
+      "example_sr": "Боли ме бубрег, можда је камен.",
+      "example_ru": "У меня болит почка, может, камень.",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "желудац",
+      "sr_latin": "želudac",
+      "pronunciation_ru": "жЭлудац",
+      "translation_ru": "желудок",
+      "example_sr": "Тешко ми је у желуцу после масне хране.",
+      "example_ru": "Тяжесть в желудке после жирной еды.",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "црева",
+      "sr_latin": "creva",
+      "pronunciation_ru": "цРэва",
+      "translation_ru": "кишки, кишечник",
+      "example_sr": "Кркоре ми црева од глади.",
+      "example_ru": "У меня урчит в животе от голода.",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "бешика",
+      "sr_latin": "bešika",
+      "pronunciation_ru": "бЭшика",
+      "translation_ru": "мочевой пузырь",
+      "example_sr": "Пуна ми је бешика, где је тоалет?",
+      "example_ru": "У меня полный мочевой пузырь, где туалет?",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "жуч",
+      "sr_latin": "žuč",
+      "pronunciation_ru": "жУч",
+      "translation_ru": "желчь, жёлчный",
+      "example_sr": "Извадили су јој жуч.",
+      "example_ru": "Ей удалили жёлчный пузырь.",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "слезина",
+      "sr_latin": "slezina",
+      "pronunciation_ru": "слЭзина",
+      "translation_ru": "селезёнка",
+      "example_sr": "Пробада ме слезина кад трчим.",
+      "example_ru": "У меня колет в боку, когда бегу.",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "материца",
+      "sr_latin": "materica",
+      "pronunciation_ru": "матЭрица",
+      "translation_ru": "матка",
+      "example_sr": "Лекар јој је прегледао материцу.",
+      "example_ru": "Врач осмотрел ей матку.",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "мишић",
+      "sr_latin": "mišić",
+      "pronunciation_ru": "мИшич",
+      "translation_ru": "мышца",
+      "example_sr": "Истегао сам мишић на тренингу.",
+      "example_ru": "Я потянул мышцу на тренировке.",
+      "false_friend_note": "«Мишић» — это мышца, а не «мышка». Мышь по-сербски — «миш»."
+    },
+    {
+      "sr_cyrillic": "живац",
+      "sr_latin": "živac",
+      "pronunciation_ru": "жИвац",
+      "translation_ru": "нерв",
+      "example_sr": "Иде ми на живце та бука.",
+      "example_ru": "Этот шум действует мне на нервы.",
+      "false_friend_note": "«Живац» — это нерв. Созвучно русскому «живец», но значение другое."
+    },
+    {
+      "sr_cyrillic": "жила",
+      "sr_latin": "žila",
+      "pronunciation_ru": "жИла",
+      "translation_ru": "вена, кровеносный сосуд",
+      "example_sr": "Искочиле су ми жиле на рукама.",
+      "example_ru": "У меня вздулись вены на руках.",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "зглоб",
+      "sr_latin": "zglob",
+      "pronunciation_ru": "зглОб",
+      "translation_ru": "сустав",
+      "example_sr": "Укочили су ми се зглобови ујутру.",
+      "example_ru": "Утром у меня скованны суставы.",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "ребро",
+      "sr_latin": "rebro",
+      "pronunciation_ru": "рЭбро",
+      "translation_ru": "ребро",
+      "example_sr": "Мислим да сам напукао ребро.",
+      "example_ru": "Кажется, я треснул ребро.",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "кључна кост",
+      "sr_latin": "ključna kost",
+      "pronunciation_ru": "клЮчна кОст",
+      "translation_ru": "ключица",
+      "example_sr": "Сломио је кључну кост на бициклу.",
+      "example_ru": "Он сломал ключицу на велосипеде.",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "бут",
+      "sr_latin": "but",
+      "pronunciation_ru": "бУт",
+      "translation_ru": "бедро (верхняя часть ноги), ляжка",
+      "example_sr": "Заболео ме је мишић у буту.",
+      "example_ru": "У меня заболела мышца в бедре.",
+      "false_friend_note": "«Бут» — это бедро/ляжка; так же называют окорочок («пилећи бут» — куриная ножка)."
+    },
+    {
+      "sr_cyrillic": "палац",
+      "sr_latin": "palac",
+      "pronunciation_ru": "пАлац",
+      "translation_ru": "большой палец",
+      "example_sr": "Ударио сам палац о кревет.",
+      "example_ru": "Я ударился большим пальцем о кровать.",
+      "false_friend_note": "«Палац» — это только большой палец, а не палец вообще. Любой палец — «прст»."
+    },
+    {
+      "sr_cyrillic": "бора",
+      "sr_latin": "bora",
+      "pronunciation_ru": "бОра",
+      "translation_ru": "морщина",
+      "example_sr": "Појавиле су ми се боре око очију.",
+      "example_ru": "У меня появились морщины вокруг глаз.",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "младеж",
+      "sr_latin": "mladež",
+      "pronunciation_ru": "млАдэж",
+      "translation_ru": "родинка",
+      "example_sr": "Прегледао сам младеж код дерматолога.",
+      "example_ru": "Я показал родинку дерматологу.",
+      "false_friend_note": "«Младеж» — это родинка; но то же слово значит и «молодёжь». По контексту про кожу — родинка."
+    },
+    {
+      "sr_cyrillic": "ожиљак",
+      "sr_latin": "ožiljak",
+      "pronunciation_ru": "Ожильак",
+      "translation_ru": "шрам, рубец",
+      "example_sr": "Остао ми је ожиљак од операције.",
+      "example_ru": "У меня остался шрам от операции.",
       "false_friend_note": ""
     }
   ]

@@ -2,6 +2,7 @@
   "id": "mleko_pekara",
   "title_ru": "🥖 Молочное и выпечка",
   "title_sr": "Млеко и пекара",
+  "_note": "Черновик: сгенерировано AI и вычитано AI-корректором «как носитель». Не проверено носителем-человеком.",
   "words": [
     {
       "sr_cyrillic": "млеко",
@@ -380,6 +381,258 @@
       "example_sr": "Хоћете упаковано или свеже са пулта?",
       "example_ru": "Хотите упакованное или свежее с прилавка?",
       "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "кефир",
+      "sr_latin": "kefir",
+      "pronunciation_ru": "кЭфир",
+      "translation_ru": "кефир",
+      "example_sr": "Имате ли кефир у флаши?",
+      "example_ru": "У вас есть кефир в бутылке?",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "урда",
+      "sr_latin": "urda",
+      "pronunciation_ru": "Урда",
+      "translation_ru": "урда — мягкий сывороточный сыр (типа рикотты)",
+      "example_sr": "Урда је благ, млад сир.",
+      "example_ru": "Урда — мягкий, молодой сыр.",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "топљени сир",
+      "sr_latin": "topljeni sir",
+      "pronunciation_ru": "тОпльени сИр",
+      "translation_ru": "плавленый сыр",
+      "example_sr": "Дај један топљени сир у троуглићима.",
+      "example_ru": "Дай один плавленый сыр в треугольничках.",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "обрано млеко",
+      "sr_latin": "obrano mleko",
+      "pronunciation_ru": "Обрано млЭко",
+      "translation_ru": "обезжиренное молоко",
+      "example_sr": "Пијем обрано млеко, мање је масно.",
+      "example_ru": "Пью обезжиренное молоко, оно менее жирное.",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "пуномасно млеко",
+      "sr_latin": "punomasno mleko",
+      "pronunciation_ru": "пунОмасно млЭко",
+      "translation_ru": "цельное (жирное) молоко",
+      "example_sr": "За кафу волим пуномасно млеко.",
+      "example_ru": "Для кофе люблю цельное молоко.",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "млечни производи",
+      "sr_latin": "mlečni proizvodi",
+      "pronunciation_ru": "млЭчни прОизводи",
+      "translation_ru": "молочные продукты",
+      "example_sr": "Млечни производи су у последњем реду.",
+      "example_ru": "Молочные продукты в последнем ряду.",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "сладолед",
+      "sr_latin": "sladoled",
+      "pronunciation_ru": "слАдолед",
+      "translation_ru": "мороженое",
+      "example_sr": "Деца хоће сладолед на штапићу.",
+      "example_ru": "Дети хотят мороженое на палочке.",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "пудинг",
+      "sr_latin": "puding",
+      "pronunciation_ru": "пУдинг",
+      "translation_ru": "пудинг (молочный десерт)",
+      "example_sr": "Направила сам пудинг од ваниле.",
+      "example_ru": "Я сделала ванильный пудинг.",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "пита",
+      "sr_latin": "pita",
+      "pronunciation_ru": "пИта",
+      "translation_ru": "пита — слоёный пирог из тонкого теста",
+      "example_sr": "Пита са јабукама је фантастична.",
+      "example_ru": "Пирог с яблоками потрясающий.",
+      "false_friend_note": "‘Пита’ — сербский слоёный пирог из тонкого теста (родня буреку и гибанице), а не арабская лепёшка. Также совпадает с формой глагола ‘пита’ (спрашивает)."
+    },
+    {
+      "sr_cyrillic": "штрудла",
+      "sr_latin": "štrudla",
+      "pronunciation_ru": "штрУдла",
+      "translation_ru": "штрудель, рулет с начинкой",
+      "example_sr": "Узећу штрудлу са маком.",
+      "example_ru": "Возьму штрудель с маком.",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "кроасан",
+      "sr_latin": "kroasan",
+      "pronunciation_ru": "кроАсан",
+      "translation_ru": "круассан",
+      "example_sr": "Један кроасан са чоколадом, молим.",
+      "example_ru": "Один круассан с шоколадом, пожалуйста.",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "земичка",
+      "sr_latin": "zemička",
+      "pronunciation_ru": "зЭмичка",
+      "translation_ru": "булочка (мягкая белая)",
+      "example_sr": "Дајте ми две земичке за сендвич.",
+      "example_ru": "Дайте мне две булочки для сэндвича.",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "интегрални хлеб",
+      "sr_latin": "integralni hleb",
+      "pronunciation_ru": "интегрАлни хлЭб",
+      "translation_ru": "цельнозерновой хлеб",
+      "example_sr": "Имате ли интегрални хлеб?",
+      "example_ru": "У вас есть цельнозерновой хлеб?",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "лепиња",
+      "sr_latin": "lepinja",
+      "pronunciation_ru": "лЭпиња",
+      "translation_ru": "лепёшка (круглая булка, к чевапам)",
+      "example_sr": "Две лепиње уз ћевапе.",
+      "example_ru": "Две лепёшки к чевапам.",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "погача",
+      "sr_latin": "pogača",
+      "pronunciation_ru": "пОгача",
+      "translation_ru": "погача — круглый праздничный хлеб",
+      "example_sr": "За славу правимо погачу.",
+      "example_ru": "На славу печём погачу.",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "ђеврек",
+      "sr_latin": "đevrek",
+      "pronunciation_ru": "джЭврек",
+      "translation_ru": "джеврек — бублик с кунжутом",
+      "example_sr": "Купи ђеврек са сусамом.",
+      "example_ru": "Купи джеврек с кунжутом.",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "тесто",
+      "sr_latin": "testo",
+      "pronunciation_ru": "тЭсто",
+      "translation_ru": "тесто",
+      "example_sr": "Тесто мора мало да одстоји.",
+      "example_ru": "Тесто должно немного постоять.",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "надев",
+      "sr_latin": "nadev",
+      "pronunciation_ru": "нАдев",
+      "translation_ru": "начинка",
+      "example_sr": "Какав надев има ова пита?",
+      "example_ru": "Какая начинка у этого пирога?",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "торта",
+      "sr_latin": "torta",
+      "pronunciation_ru": "тОрта",
+      "translation_ru": "торт",
+      "example_sr": "Наручила сам торту за рођендан.",
+      "example_ru": "Я заказала торт на день рождения.",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "кекс",
+      "sr_latin": "keks",
+      "pronunciation_ru": "кЭкс",
+      "translation_ru": "печенье, крекеры",
+      "example_sr": "Узми кекс уз кафу.",
+      "example_ru": "Возьми печенье к кофе.",
+      "false_friend_note": "‘Кекс’ по-сербски — это ПЕЧЕНЬЕ/крекеры, а не кекс-выпечка, как в русском."
+    },
+    {
+      "sr_cyrillic": "колачићи",
+      "sr_latin": "kolačići",
+      "pronunciation_ru": "колАчичи",
+      "translation_ru": "печенье (домашнее, маленькое)",
+      "example_sr": "Испекла сам колачиће за госте.",
+      "example_ru": "Я испекла печенье для гостей.",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "сендвич",
+      "sr_latin": "sendvič",
+      "pronunciation_ru": "сЭндвич",
+      "translation_ru": "сэндвич, бутерброд",
+      "example_sr": "Направите ми сендвич са качкаваљем.",
+      "example_ru": "Сделайте мне сэндвич с качкавалем.",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "парче",
+      "sr_latin": "parče",
+      "pronunciation_ru": "пАрче",
+      "translation_ru": "кусок, кусочек",
+      "example_sr": "Дајте једно парче гибанице.",
+      "example_ru": "Дайте один кусок гибаницы.",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "сусам",
+      "sr_latin": "susam",
+      "pronunciation_ru": "сУсам",
+      "translation_ru": "кунжут, сезам",
+      "example_sr": "Хлеб је посут сусамом.",
+      "example_ru": "Хлеб посыпан кунжутом.",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "џем",
+      "sr_latin": "džem",
+      "pronunciation_ru": "джЭм",
+      "translation_ru": "джем, повидло",
+      "example_sr": "Намажи џем на хлеб.",
+      "example_ru": "Намажь джем на хлеб.",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "мед",
+      "sr_latin": "med",
+      "pronunciation_ru": "мЭд",
+      "translation_ru": "мёд",
+      "example_sr": "Волим топло млеко са медом.",
+      "example_ru": "Люблю тёплое молоко с мёдом.",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "литар",
+      "sr_latin": "litar",
+      "pronunciation_ru": "лИтар",
+      "translation_ru": "литр",
+      "example_sr": "Један литар млека, молим.",
+      "example_ru": "Один литр молока, пожалуйста.",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "пола",
+      "sr_latin": "pola",
+      "pronunciation_ru": "пОла",
+      "translation_ru": "половина, пол-",
+      "example_sr": "Дајте пола хлеба.",
+      "example_ru": "Дайте полбуханки.",
+      "false_friend_note": "‘Пола’ = половина (пола хлеба = полбуханки), а не ‘пол/поле’, как в русском."
     }
   ]
 }

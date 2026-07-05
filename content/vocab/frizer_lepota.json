@@ -1,0 +1,638 @@
+{
+  "id": "frizer_lepota",
+  "title_ru": "💇 Парикмахер и красота",
+  "title_sr": "Фризер и лепота",
+  "_note": "Черновик: сгенерировано AI и вычитано AI-корректором «как носитель». Не проверено носителем-человеком.",
+  "words": [
+    {
+      "sr_cyrillic": "коса",
+      "sr_latin": "kosa",
+      "pronunciation_ru": "кОса",
+      "translation_ru": "волосы",
+      "example_sr": "Имам масну косу, шта ми препоручујете?",
+      "example_ru": "У меня жирные волосы, что посоветуете?",
+      "false_friend_note": "По-русски «коса» — это заплетённые волосы; по-сербски коса — это волосы вообще."
+    },
+    {
+      "sr_cyrillic": "фризер",
+      "sr_latin": "frizer",
+      "pronunciation_ru": "фрИзер",
+      "translation_ru": "парикмахер, мастер",
+      "example_sr": "Мој фризер ради само уз заказивање.",
+      "example_ru": "Мой парикмахер работает только по записи.",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "фризерка",
+      "sr_latin": "frizerka",
+      "pronunciation_ru": "фрИзерка",
+      "translation_ru": "парикмахер (женщина)",
+      "example_sr": "Питаћу фризерку да ми среди косу.",
+      "example_ru": "Спрошу парикмахершу, чтобы уложила мне волосы.",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "фризерски салон",
+      "sr_latin": "frizerski salon",
+      "pronunciation_ru": "фрИзерски сАлон",
+      "translation_ru": "парикмахерская",
+      "example_sr": "Отворио се нови фризерски салон у комшилуку.",
+      "example_ru": "В районе открылся новый парикмахерский салон.",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "салон лепоте",
+      "sr_latin": "salon lepote",
+      "pronunciation_ru": "сАлон лЭпотэ",
+      "translation_ru": "салон красоты",
+      "example_sr": "У салону лепоте раде и маникир и педикир.",
+      "example_ru": "В салоне красоты делают и маникюр, и педикюр.",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "заказати",
+      "sr_latin": "zakazati",
+      "pronunciation_ru": "закАзати",
+      "translation_ru": "записаться, назначить",
+      "example_sr": "Хтео бих да закажем шишање за сутра.",
+      "example_ru": "Я хотел бы записаться на стрижку на завтра.",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "заказивање",
+      "sr_latin": "zakazivanje",
+      "pronunciation_ru": "заказИвање",
+      "translation_ru": "запись (на приём)",
+      "example_sr": "Заказивање иде преко телефона или Инстаграма.",
+      "example_ru": "Запись идёт по телефону или через Инстаграм.",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "термин",
+      "sr_latin": "termin",
+      "pronunciation_ru": "тЭрмин",
+      "translation_ru": "назначенное время, запись",
+      "example_sr": "Имате ли слободан термин у петак?",
+      "example_ru": "Есть ли у вас свободное время в пятницу?",
+      "false_friend_note": "Не «термин» (слово/понятие), а назначенное время, запись."
+    },
+    {
+      "sr_cyrillic": "шишање",
+      "sr_latin": "šišanje",
+      "pronunciation_ru": "шИшање",
+      "translation_ru": "стрижка",
+      "example_sr": "Само шишање, без прања, молим вас.",
+      "example_ru": "Только стрижка, без мытья, пожалуйста.",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "ошишати",
+      "sr_latin": "ošišati",
+      "pronunciation_ru": "ошИшати",
+      "translation_ru": "постричь",
+      "example_sr": "Можете ли да ме ошишате мало краће?",
+      "example_ru": "Можете постричь меня немного короче?",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "фризура",
+      "sr_latin": "frizura",
+      "pronunciation_ru": "фризУра",
+      "translation_ru": "причёска",
+      "example_sr": "Ова фризура ми стоји одлично.",
+      "example_ru": "Эта причёска мне отлично идёт.",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "скратити",
+      "sr_latin": "skratiti",
+      "pronunciation_ru": "скрАтити",
+      "translation_ru": "укоротить",
+      "example_sr": "Скратите ми само врхове, молим.",
+      "example_ru": "Укоротите мне только кончики, пожалуйста.",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "дужина",
+      "sr_latin": "dužina",
+      "pronunciation_ru": "дужИна",
+      "translation_ru": "длина",
+      "example_sr": "Не дирајте дужину, само поравнајте врхове.",
+      "example_ru": "Не трогайте длину, только подравняйте кончики.",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "врхови",
+      "sr_latin": "vrhovi",
+      "pronunciation_ru": "вРхови",
+      "translation_ru": "кончики (волос)",
+      "example_sr": "Врхови су ми се исекли, треба их поравнати.",
+      "example_ru": "Кончики секутся, нужно подровнять.",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "корен",
+      "sr_latin": "koren",
+      "pronunciation_ru": "кОрен",
+      "translation_ru": "корень (волос)",
+      "example_sr": "Нарасли су ми корени, треба офарбати.",
+      "example_ru": "Отросли корни, нужно покрасить.",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "шишке",
+      "sr_latin": "šiške",
+      "pronunciation_ru": "шИшке",
+      "translation_ru": "чёлка",
+      "example_sr": "Хоћу шишке, али не прекратке.",
+      "example_ru": "Хочу чёлку, но не слишком короткую.",
+      "false_friend_note": "Звучит как русское «шишки», но значит чёлку."
+    },
+    {
+      "sr_cyrillic": "реп",
+      "sr_latin": "rep",
+      "pronunciation_ru": "рЭп",
+      "translation_ru": "хвост, хвостик (из волос)",
+      "example_sr": "Направите ми обичан реп, идем на посао.",
+      "example_ru": "Сделайте мне обычный хвост, я иду на работу.",
+      "false_friend_note": "Звучит как «рэп» (музыка), но значит хвост (волос)."
+    },
+    {
+      "sr_cyrillic": "плетеница",
+      "sr_latin": "pletenica",
+      "pronunciation_ru": "плетЭница",
+      "translation_ru": "коса (заплетённая)",
+      "example_sr": "Направите девојчици плетеницу, молим вас.",
+      "example_ru": "Заплетите девочке косу, пожалуйста.",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "локне",
+      "sr_latin": "lokne",
+      "pronunciation_ru": "лОкне",
+      "translation_ru": "локоны, кудри",
+      "example_sr": "Хоћу меке локне за венчање.",
+      "example_ru": "Хочу мягкие локоны на свадьбу.",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "фен",
+      "sr_latin": "fen",
+      "pronunciation_ru": "фЭн",
+      "translation_ru": "фен",
+      "example_sr": "Осушите ми косу феном, али не превише.",
+      "example_ru": "Высушите мне волосы феном, но не слишком.",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "фенирање",
+      "sr_latin": "feniranje",
+      "pronunciation_ru": "фенИрање",
+      "translation_ru": "укладка феном",
+      "example_sr": "Прање и фенирање кошта хиљаду динара.",
+      "example_ru": "Мытьё и укладка феном стоят тысячу динаров.",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "прање косе",
+      "sr_latin": "pranje kose",
+      "pronunciation_ru": "прАње кОсе",
+      "translation_ru": "мытьё волос",
+      "example_sr": "Прање косе је укључено у цену.",
+      "example_ru": "Мытьё волос включено в цену.",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "шампон",
+      "sr_latin": "šampon",
+      "pronunciation_ru": "шампОн",
+      "translation_ru": "шампунь",
+      "example_sr": "Којим шампоном перете косу код куће?",
+      "example_ru": "Каким шампунем моете волосы дома?",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "регенератор",
+      "sr_latin": "regenerator",
+      "pronunciation_ru": "регенерАтор",
+      "translation_ru": "кондиционер (для волос)",
+      "example_sr": "После шампона ставите регенератор.",
+      "example_ru": "После шампуня нанесите кондиционер.",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "маска за косу",
+      "sr_latin": "maska za kosu",
+      "pronunciation_ru": "мАска за кОсу",
+      "translation_ru": "маска для волос",
+      "example_sr": "Маска за косу је за оштећену косу.",
+      "example_ru": "Маска для волос — для повреждённых волос.",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "фарбање",
+      "sr_latin": "farbanje",
+      "pronunciation_ru": "фАрбање",
+      "translation_ru": "покраска, окрашивание",
+      "example_sr": "Фарбање траје око два сата.",
+      "example_ru": "Покраска занимает около двух часов.",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "фарба",
+      "sr_latin": "farba",
+      "pronunciation_ru": "фАрба",
+      "translation_ru": "краска",
+      "example_sr": "Која фарба вам најдуже траје?",
+      "example_ru": "Какая краска у вас дольше всего держится?",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "офарбати",
+      "sr_latin": "ofarbati",
+      "pronunciation_ru": "офАрбати",
+      "translation_ru": "покрасить",
+      "example_sr": "Хоћу да офарбам косу у тамно смеђу.",
+      "example_ru": "Хочу покрасить волосы в тёмно-каштановый.",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "боја",
+      "sr_latin": "boja",
+      "pronunciation_ru": "бОя",
+      "translation_ru": "цвет",
+      "example_sr": "Ова боја је мало пресветла за мене.",
+      "example_ru": "Этот цвет для меня немного слишком светлый.",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "нијанса",
+      "sr_latin": "nijansa",
+      "pronunciation_ru": "нијАнса",
+      "translation_ru": "оттенок, тон",
+      "example_sr": "Може ли за нијансу тамније?",
+      "example_ru": "Можно на тон темнее?",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "праменови",
+      "sr_latin": "pramenovi",
+      "pronunciation_ru": "прАменови",
+      "translation_ru": "пряди, мелирование",
+      "example_sr": "Хоћу светле праменове, не целу главу.",
+      "example_ru": "Хочу светлые пряди (мелирование), не всю голову.",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "пегла за косу",
+      "sr_latin": "pegla za kosu",
+      "pronunciation_ru": "пЭгла за кОсу",
+      "translation_ru": "утюжок для волос",
+      "example_sr": "Са пеглом за косу коса брзо буде равна.",
+      "example_ru": "С утюжком волосы быстро становятся прямыми.",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "увијач",
+      "sr_latin": "uvijač",
+      "pronunciation_ru": "увИяч",
+      "translation_ru": "плойка",
+      "example_sr": "Увијачем ћу вам направити локне.",
+      "example_ru": "Плойкой я сделаю вам локоны.",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "машиница",
+      "sr_latin": "mašinica",
+      "pronunciation_ru": "машИница",
+      "translation_ru": "машинка (для стрижки)",
+      "example_sr": "На страни ме ошишајте машиницом.",
+      "example_ru": "По бокам постригите меня машинкой.",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "маказе",
+      "sr_latin": "makaze",
+      "pronunciation_ru": "мАказе",
+      "translation_ru": "ножницы",
+      "example_sr": "Фризер узе маказе и поче да шиша.",
+      "example_ru": "Парикмахер взял ножницы и начал стричь.",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "брада",
+      "sr_latin": "brada",
+      "pronunciation_ru": "брАда",
+      "translation_ru": "борода; подбородок",
+      "example_sr": "Средите ми и браду, молим вас.",
+      "example_ru": "Приведите в порядок и бороду, пожалуйста.",
+      "false_friend_note": "Значит и «борода», и «подбородок»."
+    },
+    {
+      "sr_cyrillic": "бркови",
+      "sr_latin": "brkovi",
+      "pronunciation_ru": "бркОви",
+      "translation_ru": "усы",
+      "example_sr": "Само поткрешите бркове.",
+      "example_ru": "Только подстригите усы.",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "бријање",
+      "sr_latin": "brijanje",
+      "pronunciation_ru": "брИяње",
+      "translation_ru": "бритьё",
+      "example_sr": "Бријање је укључено уз шишање.",
+      "example_ru": "Бритьё включено в стрижку.",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "обријати",
+      "sr_latin": "obrijati",
+      "pronunciation_ru": "обрИяти",
+      "translation_ru": "побрить",
+      "example_sr": "Обријте ме на нулу, молим вас.",
+      "example_ru": "Побрейте меня под ноль, пожалуйста.",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "бријач",
+      "sr_latin": "brijač",
+      "pronunciation_ru": "брИяч",
+      "translation_ru": "бритва",
+      "example_sr": "Овим бријачем се лепо брије.",
+      "example_ru": "Этой бритвой хорошо бреется.",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "маникир",
+      "sr_latin": "manikir",
+      "pronunciation_ru": "манИкир",
+      "translation_ru": "маникюр",
+      "example_sr": "Заказала сам маникир за суботу.",
+      "example_ru": "Я записалась на маникюр на субботу.",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "педикир",
+      "sr_latin": "pedikir",
+      "pronunciation_ru": "педИкир",
+      "translation_ru": "педикюр",
+      "example_sr": "Педикир ми треба пред лето.",
+      "example_ru": "Педикюр мне нужен перед летом.",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "нокти",
+      "sr_latin": "nokti",
+      "pronunciation_ru": "нОкти",
+      "translation_ru": "ногти",
+      "example_sr": "Нокти су ми кратки, само их обликујте.",
+      "example_ru": "Ногти у меня короткие, просто придайте им форму.",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "лак за нокте",
+      "sr_latin": "lak za nokte",
+      "pronunciation_ru": "лАк за нОкте",
+      "translation_ru": "лак для ногтей",
+      "example_sr": "Изаберите боју лака за нокте.",
+      "example_ru": "Выберите цвет лака для ногтей.",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "турпија",
+      "sr_latin": "turpija",
+      "pronunciation_ru": "тУрпия",
+      "translation_ru": "пилка (для ногтей)",
+      "example_sr": "Турпијом ће вам обликовати нокте.",
+      "example_ru": "Пилкой вам придадут форму ногтям.",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "гел",
+      "sr_latin": "gel",
+      "pronunciation_ru": "гЭл",
+      "translation_ru": "гель",
+      "example_sr": "Гел нокти трају дуже од обичног лака.",
+      "example_ru": "Гелевые ногти держатся дольше обычного лака.",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "надоградња ноктију",
+      "sr_latin": "nadogradnja noktiju",
+      "pronunciation_ru": "надогрАдња нОктију",
+      "translation_ru": "наращивание ногтей",
+      "example_sr": "Надоградња ноктију траје сат и по.",
+      "example_ru": "Наращивание ногтей занимает полтора часа.",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "козметика",
+      "sr_latin": "kozmetika",
+      "pronunciation_ru": "козмЭтика",
+      "translation_ru": "косметика",
+      "example_sr": "Купујем природну козметику.",
+      "example_ru": "Покупаю натуральную косметику.",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "крема",
+      "sr_latin": "krema",
+      "pronunciation_ru": "крЭма",
+      "translation_ru": "крем",
+      "example_sr": "Ставите крему на лице после туширања.",
+      "example_ru": "Наносите крем на лицо после душа.",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "хидратантна крема",
+      "sr_latin": "hidratantna krema",
+      "pronunciation_ru": "хидратАнтна крЭма",
+      "translation_ru": "увлажняющий крем",
+      "example_sr": "Хидратантна крема ми штити кожу зими.",
+      "example_ru": "Увлажняющий крем защищает мою кожу зимой.",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "пилинг",
+      "sr_latin": "piling",
+      "pronunciation_ru": "пИлинг",
+      "translation_ru": "пилинг, скраб",
+      "example_sr": "Пилинг лица радим једном недељно.",
+      "example_ru": "Пилинг лица делаю раз в неделю.",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "чишћење лица",
+      "sr_latin": "čišćenje lica",
+      "pronunciation_ru": "чИшчење лИца",
+      "translation_ru": "чистка лица",
+      "example_sr": "Чишћење лица код козметичарке ми је помогло.",
+      "example_ru": "Чистка лица у косметолога мне помогла.",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "маска за лице",
+      "sr_latin": "maska za lice",
+      "pronunciation_ru": "мАска за лИце",
+      "translation_ru": "маска для лица",
+      "example_sr": "Маска за лице делује двадесет минута.",
+      "example_ru": "Маска для лица действует двадцать минут.",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "шминка",
+      "sr_latin": "šminka",
+      "pronunciation_ru": "шмИнка",
+      "translation_ru": "макияж",
+      "example_sr": "Волим лагану, природну шминку.",
+      "example_ru": "Люблю лёгкий, натуральный макияж.",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "шминкање",
+      "sr_latin": "šminkanje",
+      "pronunciation_ru": "шмИнкање",
+      "translation_ru": "нанесение макияжа",
+      "example_sr": "Шминкање за венчање се посебно плаћа.",
+      "example_ru": "Макияж на свадьбу оплачивается отдельно.",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "руж",
+      "sr_latin": "ruž",
+      "pronunciation_ru": "рУж",
+      "translation_ru": "губная помада",
+      "example_sr": "Овај црвени руж ти лепо стоји.",
+      "example_ru": "Эта красная помада тебе идёт.",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "маскара",
+      "sr_latin": "maskara",
+      "pronunciation_ru": "маскАра",
+      "translation_ru": "тушь для ресниц",
+      "example_sr": "Маскара ми продужава трепавице.",
+      "example_ru": "Тушь удлиняет мне ресницы.",
+      "false_friend_note": "По-сербски маскара — это тушь для ресниц."
+    },
+    {
+      "sr_cyrillic": "пудер",
+      "sr_latin": "puder",
+      "pronunciation_ru": "пУдер",
+      "translation_ru": "пудра; тональная основа",
+      "example_sr": "Стави мало пудера да не сијаш.",
+      "example_ru": "Нанеси немного пудры, чтобы не блестеть.",
+      "false_friend_note": "В Сербии пудер часто значит и тональную основу, не только рассыпчатую пудру."
+    },
+    {
+      "sr_cyrillic": "обрве",
+      "sr_latin": "obrve",
+      "pronunciation_ru": "Обрве",
+      "translation_ru": "брови",
+      "example_sr": "Средите ми обрве, молим вас.",
+      "example_ru": "Приведите мне брови в порядок, пожалуйста.",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "обликовање обрва",
+      "sr_latin": "oblikovanje obrva",
+      "pronunciation_ru": "обликОвање Обрва",
+      "translation_ru": "оформление бровей",
+      "example_sr": "Обликовање обрва радим воском.",
+      "example_ru": "Оформление бровей делаю воском.",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "трепавице",
+      "sr_latin": "trepavice",
+      "pronunciation_ru": "трепАвице",
+      "translation_ru": "ресницы",
+      "example_sr": "Природне трепавице су ми ретке.",
+      "example_ru": "Свои ресницы у меня редкие.",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "депилација",
+      "sr_latin": "depilacija",
+      "pronunciation_ru": "депилАция",
+      "translation_ru": "депиляция",
+      "example_sr": "Депилација ногу траје кратко.",
+      "example_ru": "Депиляция ног занимает мало времени.",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "воскирање",
+      "sr_latin": "voskiranje",
+      "pronunciation_ru": "воскИрање",
+      "translation_ru": "депиляция воском",
+      "example_sr": "Воскирање боли, али дуже траје.",
+      "example_ru": "Депиляция воском болезненная, но держится дольше.",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "масажа",
+      "sr_latin": "masaža",
+      "pronunciation_ru": "масАжа",
+      "translation_ru": "массаж",
+      "example_sr": "После масаже леђа осећам се одлично.",
+      "example_ru": "После массажа спины чувствую себя отлично.",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "масер",
+      "sr_latin": "maser",
+      "pronunciation_ru": "мАсер",
+      "translation_ru": "массажист",
+      "example_sr": "Масер ми је опустио мишиће.",
+      "example_ru": "Массажист расслабил мне мышцы.",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "огледало",
+      "sr_latin": "ogledalo",
+      "pronunciation_ru": "оглэдАло",
+      "translation_ru": "зеркало",
+      "example_sr": "Погледајте се у огледало, како вам стоји?",
+      "example_ru": "Посмотрите в зеркало, как вам?",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "пешкир",
+      "sr_latin": "peškir",
+      "pronunciation_ru": "пЭшкир",
+      "translation_ru": "полотенце",
+      "example_sr": "Фризер ми стави пешкир око врата.",
+      "example_ru": "Парикмахер положил мне полотенце вокруг шеи.",
+      "false_friend_note": ""
+    },
+    {
+      "sr_cyrillic": "препарат",
+      "sr_latin": "preparat",
+      "pronunciation_ru": "препарАт",
+      "translation_ru": "средство (косметическое)",
+      "example_sr": "Овим препаратом се коса опоравља.",
+      "example_ru": "Этим средством волосы восстанавливаются.",
+      "false_friend_note": "Здесь не лекарство, а косметическое средство."
+    },
+    {
+      "sr_cyrillic": "изглед",
+      "sr_latin": "izgled",
+      "pronunciation_ru": "Изглед",
+      "translation_ru": "внешний вид, облик",
+      "example_sr": "Задовољна сам новим изгледом.",
+      "example_ru": "Я довольна новым внешним видом.",
+      "false_friend_note": "Похоже на «взгляд», но значит внешний вид, облик."
+    },
+    {
+      "sr_cyrillic": "освежити",
+      "sr_latin": "osvežiti",
+      "pronunciation_ru": "освЭжити",
+      "translation_ru": "освежить, обновить",
+      "example_sr": "Дошла сам само да освежим фризуру.",
+      "example_ru": "Я пришла только освежить причёску.",
+      "false_friend_note": ""
+    }
+  ]
+}
