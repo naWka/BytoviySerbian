@@ -87,10 +87,15 @@ export function choicesFor(card: Card, count = 4): string[] {
   return options;
 }
 
-/** Можно ли собирать слово из букв (BS-30): одно слово, не слишком длинное. */
+/**
+ * Можно ли собирать слово из букв (BS-30): одно короткое слово.
+ * Лимит 8 символов (фидбек владельца: длинные слова собирать неприятно) —
+ * длиннее уходит на «выбор из 4».
+ */
+export const ASSEMBLE_MAX_LEN = 8;
 export function canAssemble(word: string): boolean {
   const w = word.trim();
-  return w.length >= 2 && w.length <= 14 && !/\s/.test(w);
+  return w.length >= 2 && w.length <= ASSEMBLE_MAX_LEN && !/\s/.test(w);
 }
 
 /**
