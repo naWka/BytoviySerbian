@@ -52,6 +52,11 @@ export default function BrowseDeckScreen() {
     setRevealed(false);
     setI((x) => x + 1);
   };
+  // Безопасный выход: есть история — назад, иначе на хаб (web/refresh без стека).
+  const goHome = () => {
+    if (router.canGoBack()) router.back();
+    else router.replace('/(tabs)/learn');
+  };
   const restart = () => {
     setQueue(build());
     setI(0);
@@ -85,7 +90,7 @@ export default function BrowseDeckScreen() {
       <Screen>
         <Stack.Screen options={{ title }} />
         <EmptyState icon="checkmark-done-circle-outline" title="Всё пересмотрено" subtitle="Слова уже в словаре или отмечены «знаю»." />
-        <Button label="Назад" icon="arrow-back" variant="soft" onPress={() => router.back()} />
+        <Button label="Назад" icon="arrow-back" variant="soft" onPress={goHome} />
       </Screen>
     );
   }
@@ -100,7 +105,7 @@ export default function BrowseDeckScreen() {
           <Txt variant="body" muted center>Взято в словарь: {added}</Txt>
           <Button label="Учить сейчас" icon="school" onPress={() => router.replace('/study')} style={{ marginTop: Spacing.lg, alignSelf: 'stretch' }} />
           <Button label="Ещё слова" icon="refresh" variant="soft" onPress={restart} style={{ alignSelf: 'stretch' }} />
-          <Button label="В меню" variant="ghost" onPress={() => router.back()} />
+          <Button label="В меню" variant="ghost" onPress={goHome} />
         </Animated.View>
       </Screen>
     );
@@ -123,7 +128,7 @@ export default function BrowseDeckScreen() {
           <View style={{ flex: 1 }}>
             <ProgressBar value={i / queue.length} />
           </View>
-          <Pressable onPress={() => router.back()} hitSlop={8} style={{ flexDirection: 'row', alignItems: 'center', gap: 4 }}>
+          <Pressable onPress={goHome} hitSlop={8} style={{ flexDirection: 'row', alignItems: 'center', gap: 4 }}>
             <Ionicons name="close" size={18} color={c.textMuted} />
             <Txt variant="small" muted>Выйти</Txt>
           </Pressable>

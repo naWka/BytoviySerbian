@@ -78,6 +78,12 @@ export default function StudyScreen() {
     setI((x) => x + 1);
   };
 
+  // Безопасный выход: есть куда назад — назад, иначе на хаб (web/refresh без истории).
+  const goHome = () => {
+    if (router.canGoBack()) router.back();
+    else router.replace('/(tabs)/learn');
+  };
+
   // Опенер «пары» завершён — оцениваем каждую карточку и уходим в одиночные упражнения.
   const onPairsDone = (results: { id: string; correct: boolean }[]) => {
     const extra: string[] = [];
@@ -101,7 +107,7 @@ export default function StudyScreen() {
           subtitle="Загляни в «Смотрю» — набери слова, потом возвращайся сюда учить."
         />
         <Button label="Смотрю" icon="eye" onPress={() => router.replace('/browse')} />
-        <Button label="Назад" variant="soft" onPress={() => router.back()} style={{ marginTop: Spacing.sm }} />
+        <Button label="Назад" variant="soft" onPress={goHome} style={{ marginTop: Spacing.sm }} />
       </Screen>
     );
   }
@@ -112,7 +118,7 @@ export default function StudyScreen() {
       <Screen padded={false} edges={['bottom']}>
         <Stack.Screen options={{ title: 'Учу · пары' }} />
         <View style={{ paddingHorizontal: Spacing.lg, paddingTop: Spacing.md, alignItems: 'flex-end' }}>
-          <Pressable onPress={() => router.back()} hitSlop={8} style={styles.exit}>
+          <Pressable onPress={goHome} hitSlop={8} style={styles.exit}>
             <Ionicons name="close" size={18} color={c.textMuted} />
             <Txt variant="small" muted>Выйти</Txt>
           </Pressable>
@@ -138,7 +144,7 @@ export default function StudyScreen() {
             <Ionicons name="flame" size={18} color={c.warning} />
             <Txt variant="h3">Серия: {currentStreak(stats)}</Txt>
           </View>
-          <Button label="Закончить" icon="checkmark" onPress={() => router.back()} style={{ marginTop: Spacing.lg, alignSelf: 'stretch' }} />
+          <Button label="Закончить" icon="checkmark" onPress={goHome} style={{ marginTop: Spacing.lg, alignSelf: 'stretch' }} />
         </Animated.View>
       </Screen>
     );
@@ -171,7 +177,6 @@ export default function StudyScreen() {
     const requeue = statusOf(useStore.getState().progress[card.id]) === 'learning';
     advance(card.id, requeue);
   };
-  const exit = () => router.back();
 
   return (
     <Screen padded={false} edges={['bottom']}>
@@ -181,7 +186,7 @@ export default function StudyScreen() {
           <View style={{ flex: 1 }}>
             <ProgressBar value={i / queue.length} />
           </View>
-          <Pressable onPress={exit} hitSlop={8} style={styles.exit}>
+          <Pressable onPress={goHome} hitSlop={8} style={styles.exit}>
             <Ionicons name="close" size={18} color={c.textMuted} />
             <Txt variant="small" muted>Выйти</Txt>
           </Pressable>
