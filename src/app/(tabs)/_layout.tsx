@@ -1,6 +1,7 @@
 import { Ionicons } from '@expo/vector-icons';
 import { Tabs } from 'expo-router';
 import type { ColorValue } from 'react-native';
+import { useSafeAreaInsets } from 'react-native-safe-area-context';
 
 import { Colors, Font } from '@/constants/theme';
 import { useColorScheme } from '@/hooks/use-color-scheme';
@@ -19,17 +20,25 @@ function tabIcon(base: IoniconName, filled: IoniconName) {
 export default function TabsLayout() {
   const scheme = useColorScheme();
   const c = Colors[scheme === 'dark' ? 'dark' : 'light'];
+  const insets = useSafeAreaInsets();
 
   return (
     <Tabs
       screenOptions={{
-        headerStyle: { backgroundColor: c.background },
-        headerTitleStyle: { color: c.text, fontFamily: Font.extrabold, fontSize: 18 },
-        headerShadowVisible: false,
+        // Хедер навигатора убран: каждый экран рисует свой заголовок сам.
+        headerShown: false,
         tabBarActiveTintColor: c.primary,
         tabBarInactiveTintColor: c.textMuted,
         tabBarLabelStyle: { fontFamily: Font.bold, fontSize: 11 },
-        tabBarStyle: { backgroundColor: c.surface, borderTopColor: c.border },
+        // Высота + нижний отступ учитывают safe-area (home indicator / панель Safari),
+        // иначе подписи вкладок обрезаются снизу.
+        tabBarStyle: {
+          backgroundColor: c.surface,
+          borderTopColor: c.border,
+          height: 58 + insets.bottom,
+          paddingTop: 8,
+          paddingBottom: insets.bottom + 10,
+        },
       }}>
       <Tabs.Screen
         name="learn"
