@@ -164,17 +164,23 @@ export default function BrowseDeckScreen() {
 
       <View style={{ padding: Spacing.lg, paddingTop: 0, gap: Spacing.sm }}>
         {revealed ? (
-          // После перевода: решаю — брать в словарь или пропустить.
-          <View style={{ flexDirection: 'row', gap: Spacing.sm }}>
+          // После перевода: беру учить / уже знаю / пропустить.
+          <>
             <Pressable onPress={onAdd} style={({ pressed }) => [styles.btn, { backgroundColor: c.say }, pressed && { opacity: 0.85 }]}>
               <Ionicons name="add-circle" size={20} color={c.onPrimary} />
               <Txt variant="body" color={c.onPrimary} style={{ fontWeight: '800' }}>В словарь</Txt>
             </Pressable>
-            <Pressable onPress={next} style={({ pressed }) => [styles.btn, { backgroundColor: c.snoozeSoft }, pressed && { opacity: 0.82 }]}>
-              <Ionicons name="play-skip-forward" size={20} color={c.snooze} />
-              <Txt variant="body" color={c.snooze} style={{ fontWeight: '800' }}>Пропустить</Txt>
-            </Pressable>
-          </View>
+            <View style={{ flexDirection: 'row', gap: Spacing.sm }}>
+              <Pressable onPress={onKnow} style={({ pressed }) => [styles.btn, { backgroundColor: c.saySoft }, pressed && { opacity: 0.82 }]}>
+                <Ionicons name="checkmark-circle" size={20} color={c.say} />
+                <Txt variant="body" color={c.say} style={{ fontWeight: '800' }}>Знаю</Txt>
+              </Pressable>
+              <Pressable onPress={next} style={({ pressed }) => [styles.btn, { backgroundColor: c.snoozeSoft }, pressed && { opacity: 0.82 }]}>
+                <Ionicons name="play-skip-forward" size={20} color={c.snooze} />
+                <Txt variant="body" color={c.snooze} style={{ fontWeight: '800' }}>Пропустить</Txt>
+              </Pressable>
+            </View>
+          </>
         ) : (
           // Лицо: знаю слово или нет.
           <View style={{ flexDirection: 'row', gap: Spacing.sm }}>
