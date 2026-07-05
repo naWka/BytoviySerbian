@@ -88,5 +88,10 @@ export interface CardProgress {
 /** Статус карточки для отображения прогресса. */
 export type CardStatus = 'new' | 'learning' | 'review' | 'mastered';
 
-/** Сторона тренировки карточки (BS-18): узнавание (серб→рус) или говорение (рус→серб). */
-export type CardSide = 'recognize' | 'produce';
+/**
+ * Сторона тренировки карточки:
+ *  - recognize (BS-18): узнавание — серб. слово → перевод;
+ *  - produce   (BS-18): говорение — русский → вспомни серб. (BS-27: с выбором ответа);
+ *  - listen    (BS-25): аудирование — слышишь серб. слово (текст скрыт) → вспомни смысл.
+ */
+export type CardSide = 'recognize' | 'produce' | 'listen';

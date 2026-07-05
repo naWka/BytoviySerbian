@@ -6,6 +6,7 @@ import {
   Pressable,
   ScrollView,
   StyleSheet,
+  type StyleProp,
   Text,
   type TextStyle,
   View,
@@ -16,6 +17,7 @@ import Svg, { Circle } from 'react-native-svg';
 
 import { elevation, Font, Fonts, MaxContentWidth, Radius, Spacing } from '@/constants/theme';
 import { useGradients, useTheme } from '@/hooks/use-theme';
+import { speak } from '@/lib/speech';
 import { useStore } from '@/lib/store';
 
 // --- Экран ---
@@ -83,7 +85,7 @@ export function Txt({
   color?: string;
   muted?: boolean;
   center?: boolean;
-  style?: TextStyle;
+  style?: StyleProp<TextStyle>;
   numberOfLines?: number;
 }) {
   const c = useTheme();
@@ -330,6 +332,41 @@ export function SegmentedControl({
         );
       })}
     </View>
+  );
+}
+
+// --- Кнопка «слушать» (BS-25: озвучка сербского слова) ---
+
+export function SpeakButton({
+  text,
+  latin,
+  size = 22,
+  soft = true,
+}: {
+  text: string;
+  latin?: string;
+  size?: number;
+  soft?: boolean;
+}) {
+  const c = useTheme();
+  const dim = size + 16;
+  return (
+    <Pressable
+      onPress={() => speak(text, { latin })}
+      hitSlop={8}
+      style={({ pressed }) => [
+        {
+          width: dim,
+          height: dim,
+          borderRadius: dim / 2,
+          alignItems: 'center',
+          justifyContent: 'center',
+          backgroundColor: soft ? c.primarySoft : 'transparent',
+        },
+        pressed && { opacity: 0.7 },
+      ]}>
+      <Ionicons name="volume-high" size={size} color={c.primary} />
+    </Pressable>
   );
 }
 

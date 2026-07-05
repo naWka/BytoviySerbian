@@ -10,7 +10,7 @@ import { statusOf } from '@/lib/srs';
 import { useStore } from '@/lib/store';
 import type { Card } from '@/lib/types';
 
-import { Mono, SaveButton, Txt } from './ui';
+import { Mono, SaveButton, SpeakButton, Txt } from './ui';
 
 // Подписи форм спряжения (BS-16). Порядок совпадает с массивами present/past в JSON.
 const PRESENT_LABELS = ['ја', 'ти', 'он/она', 'ми', 'ви', 'они'];
@@ -65,7 +65,10 @@ export function WordRow({ card }: { card: Card }) {
       ]}>
       <View style={styles.top}>
         <View style={{ flex: 1 }}>
-          <Txt variant="h3">{card.sr}</Txt>
+          <View style={{ flexDirection: 'row', alignItems: 'center', gap: Spacing.sm }}>
+            <Txt variant="h3">{card.sr}</Txt>
+            <SpeakButton text={card.sr} latin={card.srLatin} size={16} soft={false} />
+          </View>
           <Mono style={{ fontSize: 13, marginTop: 2 }}>{card.pron}</Mono>
           <Txt variant="small" muted style={{ marginTop: 2 }}>
             {card.ru}

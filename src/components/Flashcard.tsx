@@ -6,7 +6,7 @@ import { elevation, Font, Radius, Spacing } from '@/constants/theme';
 import { useTheme } from '@/hooks/use-theme';
 import type { Card } from '@/lib/types';
 
-import { Mono, Pill, SaveButton, Txt } from './ui';
+import { Mono, Pill, SaveButton, SpeakButton, Txt } from './ui';
 
 export function Flashcard({
   card,
@@ -28,7 +28,10 @@ export function Flashcard({
       </View>
 
       <View style={styles.bodyPad}>
-        <Txt color={c.text} style={styles.sr}>{card.sr}</Txt>
+        <View style={{ flexDirection: 'row', alignItems: 'center', gap: Spacing.sm }}>
+          <Txt color={c.text} style={[styles.sr, { flexShrink: 1 }]}>{card.sr}</Txt>
+          <SpeakButton text={card.sr} latin={card.srLatin} size={20} />
+        </View>
         <Txt variant="small" muted style={{ marginTop: 2 }}>
           {card.srLatin}
         </Txt>

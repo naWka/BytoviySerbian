@@ -73,6 +73,7 @@ export default function RootLayout() {
               <Stack.Screen name="review/[mode]" options={{ title: 'Повторение' }} />
               <Stack.Screen name="session" options={{ title: 'Занятие' }} />
               <Stack.Screen name="suspended" options={{ title: 'Убранные' }} />
+              <Stack.Screen name="grammar" options={{ title: 'Грамматика' }} />
             </Stack>
           )}
         </ThemeProvider>

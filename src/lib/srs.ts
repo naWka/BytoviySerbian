@@ -2,6 +2,16 @@
 // Чистые функции, без побочных эффектов.
 import type { Card, CardProgress, CardSide, CardStatus, Grade } from './types';
 
+// BS-25: детерминированный хеш id → доля карточек узнавания идёт «на слух».
+function idHash(id: string): number {
+  let h = 2166136261;
+  for (let i = 0; i < id.length; i++) {
+    h ^= id.charCodeAt(i);
+    h = Math.imul(h, 16777619);
+  }
+  return h >>> 0;
+}
+
 const MIN = 60 * 1000;
 const DAY = 24 * 60 * 60 * 1000;
 
@@ -128,15 +138,18 @@ export function statusOf(p: CardProgress | undefined): CardStatus {
 }
 
 /**
- * Сторона тренировки (BS-18):
- * - новые/свежие/забытые — узнавание (серб → перевод);
- * - зрелые (reps ≥ 2 и интервал ≥ 3 дней) — говорение (русский → вспомни серб.).
- * Провал (again) роняет слово в учебные шаги → оно снова тренируется на узнавание.
+ * Сторона тренировки:
+ * - зрелые (reps ≥ 2 и интервал ≥ 3 дней) — говорение (русский → вспомни серб., BS-27 выбором);
+ * - остальные (новые/свежие/забытые) — узнавание, но ~треть из них (по хешу id, BS-25)
+ *   идёт «на слух»: слышишь слово, текст скрыт → вспомни смысл.
+ * Провал (again) роняет слово в учебные шаги → оно снова тренируется на узнавание/слух.
+ * `id` нужен для стабильного распределения «на слух»; без него — обычное узнавание.
  */
-export function sideOf(p: CardProgress | undefined): CardSide {
-  if (!p) return 'recognize';
-  if (phaseOf(p) === 'learning') return 'recognize';
-  return p.reps >= MATURE_REPS && p.intervalDays >= MATURE_INTERVAL_DAYS ? 'produce' : 'recognize';
+export function sideOf(p: CardProgress | undefined, id?: string): CardSide {
+  const mature = !!p && phaseOf(p) === 'review' && p.reps >= MATURE_REPS && p.intervalDays >= MATURE_INTERVAL_DAYS;
+  if (mature) return 'produce';
+  if (id && idHash(id) % 3 === 0) return 'listen';
+  return 'recognize';
 }
 
 /** Карточка «пора повторить»: есть прогресс и срок наступил. */

@@ -21,6 +21,17 @@ export default function VocabScreen() {
         Учи по темам: числа, еда, документы, здоровье и другое.
       </Txt>
 
+      {/* BS-28: вход в мини-грамматику */}
+      <View style={{ marginTop: Spacing.lg }}>
+        <ListRow
+          title="Грамматика"
+          subtitle="Падежи, времена, вид — паттернами"
+          accent={c.hear}
+          icon="school"
+          onPress={() => router.push('/grammar')}
+        />
+      </View>
+
       {content.decks.length === 0 ? (
         <View style={{ marginTop: Spacing.xxl }}>
           <EmptyState icon="hourglass-outline" title="Колоды готовятся" subtitle="Скоро здесь появятся слова." />

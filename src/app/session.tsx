@@ -1,5 +1,8 @@
 // Единое занятие (BS-18): один поток из просроченных + новых слов, перемешанных по темам.
-// Активное вспоминание: вопрос → «Показать» → ответ → оценка. Две стороны (узнавание/говорение).
+// Три стороны:
+//   узнавание (серб→рус) и «на слух» (BS-25) — вспоминаешь сам → «Показать» → оценка;
+//   говорение (рус→серб, BS-27) — выбираешь ответ из вариантов, приложение проверяет
+//   (BS-26: если у слова есть пример — вопрос идёт фразой с пропуском).
 // Новые/забытые проходят короткие учебные шаги; «Не помню» — слово вернётся в конце занятия.
 import { Ionicons } from '@expo/vector-icons';
 import { Stack, router } from 'expo-router';
@@ -8,6 +11,7 @@ import { Platform, Pressable, StyleSheet, View } from 'react-native';
 import * as Haptics from 'expo-haptics';
 import Animated, { FadeIn, SlideInRight } from 'react-native-reanimated';
 
+import { ChoiceGrid } from '@/components/ChoiceGrid';
 import { Confetti } from '@/components/Confetti';
 import { FlipWordCard } from '@/components/FlipWordCard';
 import { GradeBar } from '@/components/GradeBar';
@@ -15,6 +19,7 @@ import { Button, EmptyState, ProgressBar, Screen, Txt } from '@/components/ui';
 import { Spacing } from '@/constants/theme';
 import { useTheme } from '@/hooks/use-theme';
 import { content } from '@/lib/content';
+import { choicesFor, clozeFor } from '@/lib/exercise';
 import { sessionQueue } from '@/lib/learn';
 import { sideOf, statusOf } from '@/lib/srs';
 import { currentStreak, newToday, useStore } from '@/lib/store';
@@ -35,17 +40,36 @@ export default function SessionScreen() {
   });
   const [i, setI] = useState(0);
   const [revealed, setRevealed] = useState(false);
+  const [picked, setPicked] = useState<string | null>(null); // BS-27: выбранный вариант на говорении
   const [done, setDone] = useState(0); // слов завершено в этом занятии (не считая повторных заходов)
 
+  const advance = (id: string, requeue: boolean) => {
+    if (requeue) setQueue((q) => [...q, id]);
+    else setDone((x) => x + 1);
+    setRevealed(false);
+    setPicked(null);
+    setI((x) => x + 1);
+  };
+
+  // Узнавание / на слух: оценка после показа ответа.
   const onGrade = (g: Grade) => {
     const id = queue[i];
     gradeFn(id, g);
-    // Слово ещё на учебных шагах (в т.ч. «Не помню») → вернуть в конец занятия.
     const stillLearning = statusOf(useStore.getState().progress[id]) === 'learning';
-    if (stillLearning) setQueue((q) => [...q, id]);
-    else setDone((x) => x + 1);
-    setRevealed(false);
-    setI((x) => x + 1);
+    advance(id, stillLearning);
+  };
+
+  // BS-27: выбор варианта на говорении — сразу проверяем и переворачиваем на ответ.
+  const onPick = (opt: string, correct: string) => {
+    const id = queue[i];
+    gradeFn(id, opt === correct ? 'good' : 'again');
+    setPicked(opt);
+    setRevealed(true);
+  };
+  const onNext = () => {
+    const id = queue[i];
+    const stillLearning = statusOf(useStore.getState().progress[id]) === 'learning';
+    advance(id, stillLearning);
   };
 
   const onSuspend = () => {
@@ -53,6 +77,7 @@ export default function SessionScreen() {
     if (Platform.OS !== 'web') Haptics.impactAsync(Haptics.ImpactFeedbackStyle.Medium).catch(() => {});
     suspendFn(id);
     setRevealed(false);
+    setPicked(null);
     setI((x) => x + 1);
   };
 
@@ -63,6 +88,7 @@ export default function SessionScreen() {
     markKnownFn(id);
     setDone((x) => x + 1);
     setRevealed(false);
+    setPicked(null);
     setI((x) => x + 1);
   };
 
@@ -73,6 +99,7 @@ export default function SessionScreen() {
     skipFn(id);
     setQueue((q) => [...q, id]); // в самый конец очереди
     setRevealed(false);
+    setPicked(null);
     setI((x) => x + 1);
   };
 
@@ -116,7 +143,10 @@ export default function SessionScreen() {
     );
   }
 
-  const side = sideOf(progress[card.id]);
+  const side = sideOf(progress[card.id], card.id);
+  const produce = side === 'produce';
+  const cloze = produce ? clozeFor(card) : null;
+  const options = produce ? choicesFor(card) : null;
 
   return (
     <Screen padded={false} edges={['bottom']}>
@@ -136,16 +166,34 @@ export default function SessionScreen() {
 
       <View style={{ flex: 1, padding: Spacing.lg }}>
         <Animated.View key={`${card.id}-${side}`} entering={SlideInRight.duration(260)} style={{ flex: 1 }}>
-          <FlipWordCard card={card} side={side} revealed={revealed} onFlip={() => setRevealed(true)} />
+          <FlipWordCard
+            card={card}
+            side={side}
+            cloze={cloze}
+            revealed={revealed}
+            hideHint={produce}
+            onFlip={produce ? () => {} : () => setRevealed(true)}
+          />
         </Animated.View>
       </View>
 
       <View style={{ padding: Spacing.lg, paddingTop: 0 }}>
-        {revealed ? (
+        {produce && options ? (
+          <View style={{ gap: Spacing.sm }}>
+            <ChoiceGrid options={options} correct={card.sr} picked={picked} onPick={(opt) => onPick(opt, card.sr)} />
+            {picked === null ? (
+              <Pressable onPress={onSkip} hitSlop={6} style={{ alignSelf: 'center', paddingVertical: 6 }}>
+                <Txt variant="small" color={c.snooze} style={{ fontWeight: '700' }}>Пропустить</Txt>
+              </Pressable>
+            ) : (
+              <Button label="Дальше" icon="arrow-forward" onPress={onNext} />
+            )}
+          </View>
+        ) : revealed ? (
           <GradeBar prev={progress[card.id]} onGrade={onGrade} />
         ) : (
           <View style={{ gap: Spacing.sm }}>
-            <Button label={side === 'produce' ? 'Показать ответ' : 'Показать перевод'} icon="eye" onPress={() => setRevealed(true)} />
+            <Button label={side === 'listen' ? 'Показать ответ' : 'Показать перевод'} icon="eye" onPress={() => setRevealed(true)} />
             <View style={{ flexDirection: 'row', gap: Spacing.sm }}>
               <Pressable
                 onPress={onKnow}
