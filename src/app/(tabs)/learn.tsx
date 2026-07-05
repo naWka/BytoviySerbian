@@ -38,19 +38,22 @@ export default function LearnScreen() {
         Сначала «Смотрю» — набираешь слова в свой словарь. Потом «Учу» — заучиваешь упражнениями.
       </Txt>
 
-      {/* Смотрю */}
+      {/* Смотрю — перемешанный поток из всех тем */}
       <Animated.View entering={FadeInDown.duration(320)} style={{ marginTop: Spacing.lg }}>
         <Pressable
-          onPress={() => router.push('/browse')}
+          onPress={() => router.push('/browse/all')}
           style={({ pressed }) => [styles.action, { backgroundColor: c.surface, borderColor: c.border }, pressed && { transform: [{ scale: 0.98 }] }]}>
           <View style={[styles.iconWrap, { backgroundColor: c.hearSoft }]}>
             <Ionicons name="eye" size={26} color={c.hear} />
           </View>
           <View style={{ flex: 1 }}>
             <Txt variant="h2">Смотрю</Txt>
-            <Txt variant="small" muted style={{ marginTop: 2 }}>листаю слова, беру в словарь</Txt>
+            <Txt variant="small" muted style={{ marginTop: 2 }}>случайные слова из всех тем → в словарь</Txt>
           </View>
           <Ionicons name="chevron-forward" size={22} color={c.textMuted} />
+        </Pressable>
+        <Pressable onPress={() => router.push('/browse')} hitSlop={6} style={{ alignSelf: 'flex-end', paddingVertical: 8, paddingHorizontal: 4 }}>
+          <Txt variant="small" color={c.hear} style={{ fontWeight: '700' }}>выбрать тему →</Txt>
         </Pressable>
       </Animated.View>
 

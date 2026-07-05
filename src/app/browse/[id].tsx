@@ -1,6 +1,6 @@
-// BS-29 «Смотрю»: листание пула слов темы.
-// Сначала вижу сербское слово. Тап по карточке = «не знаю» → показать перевод
-// И сразу добавить слово в личный словарь (одним касанием). «Знаю» / «Пропустить» — не добавляем.
+// BS-29 «Смотрю»: листание пула слов. id='all' → перемешанный поток из всех тем.
+// Сначала вижу сербское слово. «Показать перевод» (или тап по карточке) = не знаю →
+// перевод + слово сразу в личный словарь. «Знаю» / «Пропустить» — не добавляем.
 import { Ionicons } from '@expo/vector-icons';
 import { Stack, router, useLocalSearchParams } from 'expo-router';
 import { useMemo, useState } from 'react';
@@ -12,21 +12,37 @@ import { Button, EmptyState, Mono, ProgressBar, Screen, SpeakButton, Txt } from 
 import { Radius, Spacing } from '@/constants/theme';
 import { useTheme } from '@/hooks/use-theme';
 import { content } from '@/lib/content';
-import { browsePool } from '@/lib/learn';
+import { browseCandidates } from '@/lib/learn';
 import { speak } from '@/lib/speech';
 import { useStore } from '@/lib/store';
+
+const POOL = 20;
+
+function shuffled<T>(arr: T[]): T[] {
+  const a = [...arr];
+  for (let i = a.length - 1; i > 0; i--) {
+    const j = Math.floor(Math.random() * (i + 1));
+    [a[i], a[j]] = [a[j], a[i]];
+  }
+  return a;
+}
 
 export default function BrowseDeckScreen() {
   const c = useTheme();
   const { id } = useLocalSearchParams<{ id: string }>();
+  const mixed = id === 'all';
   const addToDictionary = useStore((s) => s.addToDictionary);
   const markKnown = useStore((s) => s.markKnown);
 
-  const deck = id ? content.getDeck(id) : undefined;
-  const [queue] = useState<string[]>(() => {
+  const deck = !mixed && id ? content.getDeck(id) : undefined;
+  const title = mixed ? 'Смотрю' : (deck?.titleRu ?? 'Смотрю');
+
+  const build = () => {
     const s = useStore.getState();
-    return browsePool(id!, s.dictionary, s.progress).map((w) => w.id);
-  });
+    return shuffled(browseCandidates(mixed ? null : id!, s.dictionary, s.progress)).slice(0, POOL).map((w) => w.id);
+  };
+
+  const [queue, setQueue] = useState<string[]>(build);
   const [i, setI] = useState(0);
   const [revealed, setRevealed] = useState(false);
   const [added, setAdded] = useState(0);
@@ -37,8 +53,14 @@ export default function BrowseDeckScreen() {
     setRevealed(false);
     setI((x) => x + 1);
   };
+  const restart = () => {
+    setQueue(build());
+    setI(0);
+    setAdded(0);
+    setRevealed(false);
+  };
 
-  // Тап по слову = не знаю → перевод + в словарь.
+  // «Не знаю» → перевод + в словарь.
   const onReveal = () => {
     if (!card) return;
     addToDictionary(card.id);
@@ -53,14 +75,13 @@ export default function BrowseDeckScreen() {
     if (Platform.OS !== 'web') Haptics.impactAsync(Haptics.ImpactFeedbackStyle.Light).catch(() => {});
     next();
   };
-  const onSkip = () => next();
 
   if (queue.length === 0) {
     return (
       <Screen>
-        <Stack.Screen options={{ title: deck?.titleRu ?? 'Смотрю' }} />
-        <EmptyState icon="checkmark-done-circle-outline" title="Тема пересмотрена" subtitle="Все слова этой темы уже в словаре или отмечены «знаю»." />
-        <Button label="К темам" icon="arrow-back" variant="soft" onPress={() => router.back()} />
+        <Stack.Screen options={{ title }} />
+        <EmptyState icon="checkmark-done-circle-outline" title="Всё пересмотрено" subtitle="Слова уже в словаре или отмечены «знаю»." />
+        <Button label="Назад" icon="arrow-back" variant="soft" onPress={() => router.back()} />
       </Screen>
     );
   }
@@ -71,15 +92,11 @@ export default function BrowseDeckScreen() {
         <Stack.Screen options={{ title: 'Готово' }} />
         <Animated.View entering={FadeIn.duration(400)} style={{ flex: 1, alignItems: 'center', justifyContent: 'center', gap: Spacing.md }}>
           <Ionicons name="albums" size={64} color={c.primary} />
-          <Txt variant="title" center>Тема пройдена</Txt>
+          <Txt variant="title" center>Пул пройден</Txt>
           <Txt variant="body" muted center>Взято в словарь: {added}</Txt>
-          <Button
-            label="Учить сейчас"
-            icon="school"
-            onPress={() => router.replace('/study')}
-            style={{ marginTop: Spacing.lg, alignSelf: 'stretch' }}
-          />
-          <Button label="Ещё тема" icon="albums-outline" variant="soft" onPress={() => router.back()} style={{ alignSelf: 'stretch' }} />
+          <Button label="Учить сейчас" icon="school" onPress={() => router.replace('/study')} style={{ marginTop: Spacing.lg, alignSelf: 'stretch' }} />
+          <Button label="Ещё слова" icon="refresh" variant="soft" onPress={restart} style={{ alignSelf: 'stretch' }} />
+          <Button label="В меню" variant="ghost" onPress={() => router.back()} />
         </Animated.View>
       </Screen>
     );
@@ -88,7 +105,7 @@ export default function BrowseDeckScreen() {
   if (!card) {
     return (
       <Screen>
-        <Stack.Screen options={{ title: 'Смотрю' }} />
+        <Stack.Screen options={{ title }} />
         <Button label="Дальше" onPress={next} />
       </Screen>
     );
@@ -96,7 +113,7 @@ export default function BrowseDeckScreen() {
 
   return (
     <Screen padded={false} edges={['bottom']}>
-      <Stack.Screen options={{ title: deck?.titleRu ?? 'Смотрю' }} />
+      <Stack.Screen options={{ title }} />
       <View style={{ paddingHorizontal: Spacing.lg, paddingTop: Spacing.md, gap: 6 }}>
         <ProgressBar value={i / queue.length} />
         <Txt variant="small" muted>Осталось: {queue.length - i}</Txt>
@@ -133,35 +150,34 @@ export default function BrowseDeckScreen() {
                     </View>
                   ) : null}
                   <View style={[styles.addedTag, { backgroundColor: c.saySoft }]}>
-                    <Ionicons name="add-circle" size={16} color={c.say} />
-                    <Txt variant="small" color={c.say} style={{ fontWeight: '800' }}>В словаре</Txt>
+                    <Ionicons name="checkmark-circle" size={16} color={c.say} />
+                    <Txt variant="small" color={c.say} style={{ fontWeight: '800' }}>Добавлено в словарь</Txt>
                   </View>
                 </>
-              ) : (
-                <View style={styles.hint}>
-                  <Ionicons name="hand-left-outline" size={16} color={c.textMuted} />
-                  <Txt variant="small" muted>Тапни — перевод + в словарь</Txt>
-                </View>
-              )}
+              ) : null}
             </View>
           </Pressable>
         </Animated.View>
       </View>
 
-      <View style={{ padding: Spacing.lg, paddingTop: 0 }}>
+      <View style={{ padding: Spacing.lg, paddingTop: 0, gap: Spacing.sm }}>
         {revealed ? (
           <Button label="Дальше" icon="arrow-forward" onPress={next} />
         ) : (
-          <View style={{ flexDirection: 'row', gap: Spacing.sm }}>
-            <Pressable onPress={onKnow} style={({ pressed }) => [styles.btn, { backgroundColor: c.saySoft }, pressed && { opacity: 0.82 }]}>
-              <Ionicons name="checkmark-circle" size={20} color={c.say} />
-              <Txt variant="body" color={c.say} style={{ fontWeight: '800' }}>Знаю</Txt>
-            </Pressable>
-            <Pressable onPress={onSkip} style={({ pressed }) => [styles.btn, { backgroundColor: c.snoozeSoft }, pressed && { opacity: 0.82 }]}>
-              <Ionicons name="play-skip-forward" size={20} color={c.snooze} />
-              <Txt variant="body" color={c.snooze} style={{ fontWeight: '800' }}>Пропустить</Txt>
-            </Pressable>
-          </View>
+          <>
+            <Button label="Показать перевод" icon="eye" onPress={onReveal} />
+            <Txt variant="small" muted center>Открыл перевод — слово идёт в мой словарь</Txt>
+            <View style={{ flexDirection: 'row', gap: Spacing.sm }}>
+              <Pressable onPress={onKnow} style={({ pressed }) => [styles.btn, { backgroundColor: c.saySoft }, pressed && { opacity: 0.82 }]}>
+                <Ionicons name="checkmark-circle" size={20} color={c.say} />
+                <Txt variant="body" color={c.say} style={{ fontWeight: '800' }}>Знаю</Txt>
+              </Pressable>
+              <Pressable onPress={next} style={({ pressed }) => [styles.btn, { backgroundColor: c.snoozeSoft }, pressed && { opacity: 0.82 }]}>
+                <Ionicons name="play-skip-forward" size={20} color={c.snooze} />
+                <Txt variant="body" color={c.snooze} style={{ fontWeight: '800' }}>Пропустить</Txt>
+              </Pressable>
+            </View>
+          </>
         )}
       </View>
     </Screen>
@@ -171,7 +187,7 @@ export default function BrowseDeckScreen() {
 const styles = StyleSheet.create({
   card: {
     flex: 1,
-    minHeight: 340,
+    minHeight: 300,
     borderRadius: Radius.xl,
     borderWidth: StyleSheet.hairlineWidth,
     padding: Spacing.xl,
@@ -182,6 +198,5 @@ const styles = StyleSheet.create({
   pron: { flexDirection: 'row', alignItems: 'center', gap: Spacing.sm, paddingVertical: 8, paddingHorizontal: Spacing.md, borderRadius: Radius.md },
   sub: { borderRadius: Radius.md, padding: Spacing.md, alignSelf: 'stretch', alignItems: 'center' },
   addedTag: { flexDirection: 'row', alignItems: 'center', gap: 4, paddingHorizontal: 12, paddingVertical: 5, borderRadius: Radius.pill },
-  hint: { flexDirection: 'row', alignItems: 'center', justifyContent: 'center', gap: Spacing.sm },
   btn: { flex: 1, flexDirection: 'row', alignItems: 'center', justifyContent: 'center', gap: 6, paddingVertical: 14, borderRadius: Radius.md },
 });

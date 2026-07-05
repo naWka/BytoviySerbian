@@ -113,13 +113,17 @@ export function dictionaryCards(dictionary: IdSet): Card[] {
 }
 
 /**
- * BS-29 «Смотрю»: пул слов темы для листания — те, что ещё НЕ в словаре
- * и не помечены «знаю навсегда». Ограничиваем размером пула.
+ * BS-29 «Смотрю»: кандидаты для листания — слова, которых ещё НЕТ в словаре
+ * и которые не помечены «знаю навсегда». deckId=null → из всех тем (перемешанный поток).
  */
+export function browseCandidates(deckId: string | null, dictionary: IdSet, progress: Progress): Card[] {
+  const src = deckId ? content.cardsOf('deck', deckId) : content.words;
+  return src.filter((card) => !dictionary[card.id] && !progress[card.id]?.known);
+}
+
+/** Пул одной темы (для счётчиков/совместимости). */
 export function browsePool(deckId: string, dictionary: IdSet, progress: Progress, size = 20): Card[] {
-  const cards = content.cardsOf('deck', deckId);
-  const pool = cards.filter((card) => !dictionary[card.id] && !progress[card.id]?.known);
-  return pool.slice(0, size);
+  return browseCandidates(deckId, dictionary, progress).slice(0, size);
 }
 
 /** Сколько в теме ещё можно «насмотреть» (не в словаре, не «знаю»). */
