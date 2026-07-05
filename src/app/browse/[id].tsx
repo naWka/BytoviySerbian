@@ -60,18 +60,24 @@ export default function BrowseDeckScreen() {
     setRevealed(false);
   };
 
-  // «Не знаю» → перевод + в словарь.
+  // «Не знаю» → просто показать перевод (решение «брать/нет» — уже после перевода).
   const onReveal = () => {
     if (!card) return;
-    addToDictionary(card.id);
-    setAdded((x) => x + 1);
     speak(card.sr, { latin: card.srLatin });
-    if (Platform.OS !== 'web') Haptics.impactAsync(Haptics.ImpactFeedbackStyle.Light).catch(() => {});
     setRevealed(true);
   };
+  // На лице: «Знаю» — не добавляем, помечаем известным (больше не покажем).
   const onKnow = () => {
     if (!card) return;
     markKnown(card.id);
+    if (Platform.OS !== 'web') Haptics.impactAsync(Haptics.ImpactFeedbackStyle.Light).catch(() => {});
+    next();
+  };
+  // После перевода: «В словарь» — беру учить.
+  const onAdd = () => {
+    if (!card) return;
+    addToDictionary(card.id);
+    setAdded((x) => x + 1);
     if (Platform.OS !== 'web') Haptics.impactAsync(Haptics.ImpactFeedbackStyle.Light).catch(() => {});
     next();
   };
@@ -149,10 +155,6 @@ export default function BrowseDeckScreen() {
                       <Txt variant="small" center style={{ marginTop: 2 }}>{card.note}</Txt>
                     </View>
                   ) : null}
-                  <View style={[styles.addedTag, { backgroundColor: c.saySoft }]}>
-                    <Ionicons name="checkmark-circle" size={16} color={c.say} />
-                    <Txt variant="small" color={c.say} style={{ fontWeight: '800' }}>Добавлено в словарь</Txt>
-                  </View>
                 </>
               ) : null}
             </View>
@@ -162,22 +164,29 @@ export default function BrowseDeckScreen() {
 
       <View style={{ padding: Spacing.lg, paddingTop: 0, gap: Spacing.sm }}>
         {revealed ? (
-          <Button label="Дальше" icon="arrow-forward" onPress={next} />
+          // После перевода: решаю — брать в словарь или пропустить.
+          <View style={{ flexDirection: 'row', gap: Spacing.sm }}>
+            <Pressable onPress={onAdd} style={({ pressed }) => [styles.btn, { backgroundColor: c.say }, pressed && { opacity: 0.85 }]}>
+              <Ionicons name="add-circle" size={20} color={c.onPrimary} />
+              <Txt variant="body" color={c.onPrimary} style={{ fontWeight: '800' }}>В словарь</Txt>
+            </Pressable>
+            <Pressable onPress={next} style={({ pressed }) => [styles.btn, { backgroundColor: c.snoozeSoft }, pressed && { opacity: 0.82 }]}>
+              <Ionicons name="play-skip-forward" size={20} color={c.snooze} />
+              <Txt variant="body" color={c.snooze} style={{ fontWeight: '800' }}>Пропустить</Txt>
+            </Pressable>
+          </View>
         ) : (
-          <>
-            <Button label="Показать перевод" icon="eye" onPress={onReveal} />
-            <Txt variant="small" muted center>Открыл перевод — слово идёт в мой словарь</Txt>
-            <View style={{ flexDirection: 'row', gap: Spacing.sm }}>
-              <Pressable onPress={onKnow} style={({ pressed }) => [styles.btn, { backgroundColor: c.saySoft }, pressed && { opacity: 0.82 }]}>
-                <Ionicons name="checkmark-circle" size={20} color={c.say} />
-                <Txt variant="body" color={c.say} style={{ fontWeight: '800' }}>Знаю</Txt>
-              </Pressable>
-              <Pressable onPress={next} style={({ pressed }) => [styles.btn, { backgroundColor: c.snoozeSoft }, pressed && { opacity: 0.82 }]}>
-                <Ionicons name="play-skip-forward" size={20} color={c.snooze} />
-                <Txt variant="body" color={c.snooze} style={{ fontWeight: '800' }}>Пропустить</Txt>
-              </Pressable>
-            </View>
-          </>
+          // Лицо: знаю слово или нет.
+          <View style={{ flexDirection: 'row', gap: Spacing.sm }}>
+            <Pressable onPress={onKnow} style={({ pressed }) => [styles.btn, { backgroundColor: c.saySoft }, pressed && { opacity: 0.82 }]}>
+              <Ionicons name="checkmark-circle" size={20} color={c.say} />
+              <Txt variant="body" color={c.say} style={{ fontWeight: '800' }}>Знаю</Txt>
+            </Pressable>
+            <Pressable onPress={onReveal} style={({ pressed }) => [styles.btn, { backgroundColor: c.primary }, pressed && { opacity: 0.85 }]}>
+              <Ionicons name="eye" size={20} color={c.onPrimary} />
+              <Txt variant="body" color={c.onPrimary} style={{ fontWeight: '800' }}>Не знаю</Txt>
+            </Pressable>
+          </View>
         )}
       </View>
     </Screen>
