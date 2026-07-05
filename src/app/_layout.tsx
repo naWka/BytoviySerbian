@@ -9,11 +9,15 @@ import {
 } from '@expo-google-fonts/nunito';
 import { DarkTheme, DefaultTheme, Stack, ThemeProvider } from 'expo-router';
 import { StatusBar } from 'expo-status-bar';
+import { useEffect } from 'react';
 import { ActivityIndicator, useColorScheme, View } from 'react-native';
 import { GestureHandlerRootView } from 'react-native-gesture-handler';
 import { SafeAreaProvider } from 'react-native-safe-area-context';
 
+import LoginScreen from '@/components/LoginScreen';
 import { Colors } from '@/constants/theme';
+import { useAuth } from '@/lib/auth';
+import { setupPWA } from '@/lib/pwa';
 import { useStore } from '@/lib/store';
 
 export default function RootLayout() {
@@ -21,6 +25,17 @@ export default function RootLayout() {
   const dark = scheme === 'dark';
   const colors = dark ? Colors.dark : Colors.light;
   const hydrated = useStore((s) => s._hydrated);
+
+  // BS-22: вход/облачный прогресс. init один раз проверяет сессию и слушает изменения.
+  const authInit = useAuth((s) => s.init);
+  const authReady = useAuth((s) => s.ready);
+  const needsAuth = useAuth((s) => s.needsAuth);
+  const session = useAuth((s) => s.session);
+  useEffect(() => {
+    setupPWA(); // web: manifest + service worker + iOS-теги
+    authInit();
+  }, [authInit]);
+
   const [fontsLoaded] = useFonts({
     Nunito_400Regular,
     Nunito_500Medium,
@@ -29,7 +44,8 @@ export default function RootLayout() {
     Nunito_800ExtraBold,
     Nunito_900Black,
   });
-  const ready = hydrated && fontsLoaded;
+  const ready = hydrated && fontsLoaded && authReady;
+  const showLogin = needsAuth && !session;
 
   return (
     <GestureHandlerRootView style={{ flex: 1 }}>
@@ -40,6 +56,8 @@ export default function RootLayout() {
             <View style={{ flex: 1, alignItems: 'center', justifyContent: 'center', backgroundColor: colors.background }}>
               <ActivityIndicator color={colors.primary} />
             </View>
+          ) : showLogin ? (
+            <LoginScreen />
           ) : (
             <Stack
               screenOptions={{

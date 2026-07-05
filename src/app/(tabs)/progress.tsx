@@ -4,6 +4,7 @@ import { StatTile } from '@/components/lists';
 import { Button, Ring, Screen, Surface, Txt } from '@/components/ui';
 import { Font, Radius, Spacing } from '@/constants/theme';
 import { useTheme } from '@/hooks/use-theme';
+import { useAuth } from '@/lib/auth';
 import { content } from '@/lib/content';
 import { summarize } from '@/lib/srs';
 import { currentStreak, useStore } from '@/lib/store';
@@ -21,6 +22,9 @@ export default function ProgressScreen() {
   const progress = useStore((s) => s.progress);
   const stats = useStore((s) => s.stats);
   const reset = useStore((s) => s.resetProgress);
+  const session = useAuth((s) => s.session);
+  const needsAuth = useAuth((s) => s.needsAuth);
+  const signOut = useAuth((s) => s.signOut);
   const now = Date.now();
 
   const sum = summarize(content.all, progress, now);
@@ -97,6 +101,15 @@ export default function ProgressScreen() {
       </Surface>
 
       <Button label="Сбросить прогресс" variant="ghost" color={c.sos} onPress={confirmReset} style={{ marginTop: Spacing.xl }} />
+
+      {needsAuth && session ? (
+        <View style={{ marginTop: Spacing.xl, gap: Spacing.xs, alignItems: 'center' }}>
+          <Txt variant="small" muted>
+            Вход: {session.user.email} · прогресс сохраняется в облаке
+          </Txt>
+          <Button label="Выйти" variant="ghost" color={c.textSecondary} onPress={() => void signOut()} />
+        </View>
+      ) : null}
     </Screen>
   );
 }

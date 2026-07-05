@@ -31,12 +31,21 @@ export function newToday(stats: Stats, now = Date.now()): number {
   return stats.newByDay?.[dayKey(now)] ?? 0;
 }
 
+/** Часть состояния, которая синкается в облако (BS-22). */
+export interface CloudState {
+  progress: Record<string, CardProgress>;
+  saved: Record<string, true>;
+  suspended: Record<string, true>;
+  stats: Stats;
+}
+
 interface AppState {
   progress: Record<string, CardProgress>;
   saved: Record<string, true>;
   suspended: Record<string, true>; // BS-18: слова, убранные из учёбы (можно вернуть)
   stats: Stats;
   _hydrated: boolean;
+  hydrateFromCloud: (data: CloudState) => void; // BS-22: применить состояние из облака
   grade: (cardId: string, g: Grade) => void;
   markKnown: (cardId: string) => void;
   unmarkKnown: (cardId: string) => void;
@@ -56,6 +65,14 @@ export const useStore = create<AppState>()(
       suspended: {},
       stats: emptyStats,
       _hydrated: false,
+
+      hydrateFromCloud: (data) =>
+        set({
+          progress: data.progress ?? {},
+          saved: data.saved ?? {},
+          suspended: data.suspended ?? {},
+          stats: { ...emptyStats, ...(data.stats ?? {}) },
+        }),
 
       grade: (cardId, g) => {
         const now = Date.now();

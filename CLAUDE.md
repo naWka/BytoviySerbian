@@ -27,7 +27,7 @@
 
 ## Стек
 
-Expo SDK 57, React Native 0.86, expo-router (файловые табы), TypeScript. Состояние — zustand + AsyncStorage (прогресс SRS, сохранённое). Контент — JSON в `content/vocab/` (колоды слов), собирается в `content/index.ts` скриптом. Без бэкенда и авторизации. Задел под AI-репетитора (BS-13) — на будущее.
+Expo SDK 57, React Native 0.86, expo-router (файловые табы), TypeScript. Цель поставки — **PWA** (web-экспорт через react-native-web, ставится на телефон, офлайн через service worker). Состояние — zustand; локально AsyncStorage/localStorage (офлайн-кэш), в облаке — **Supabase** (auth email+пароль + `profiles.state jsonb` с RLS, источник правды на пользователя, синк debounce-апсертом). Контент — JSON в `content/vocab/` (колоды слов), собирается в `content/index.ts` скриптом. Хостинг — GitHub Pages, деплой — GitHub Actions; своего бэкенд-сервера нет (браузер ходит в Supabase напрямую). Пивот в PWA — BS-22 (DECISIONS). Задел под AI-репетитора (BS-13) — на будущее.
 
 ## Команды
 
