@@ -86,3 +86,24 @@ export function choicesFor(card: Card, count = 4): string[] {
   options.sort((a, b) => (seed(a + card.id) % 100000) - (seed(b + card.id) % 100000));
   return options;
 }
+
+/** Можно ли собирать слово из букв (BS-30): одно слово, не слишком длинное. */
+export function canAssemble(word: string): boolean {
+  const w = word.trim();
+  return w.length >= 2 && w.length <= 14 && !/\s/.test(w);
+}
+
+/**
+ * BS-30 «сборка из букв»: буквы слова в стабильно перемешанном порядке.
+ * Регистр приводим к нижнему (плитки), кроме случаев — оставляем как есть в слове.
+ * Возвращает массив букв (с повторами). Детерминированно (порядок из самого слова).
+ */
+export function letterTiles(word: string): string[] {
+  const letters = Array.from(word.trim());
+  const s = seed(word);
+  // стабильная перестановка: сортируем по хешу «буква+позиция+seed»
+  return letters
+    .map((ch, i) => ({ ch, k: seed(`${ch}#${i}#${s}`) }))
+    .sort((a, b) => a.k - b.k)
+    .map((x) => x.ch);
+}

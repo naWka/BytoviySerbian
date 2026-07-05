@@ -74,6 +74,10 @@ export default function RootLayout() {
               <Stack.Screen name="session" options={{ title: 'Занятие' }} />
               <Stack.Screen name="suspended" options={{ title: 'Убранные' }} />
               <Stack.Screen name="grammar" options={{ title: 'Грамматика' }} />
+              <Stack.Screen name="browse" options={{ title: 'Смотрю' }} />
+              <Stack.Screen name="browse/[id]" options={{ title: 'Смотрю' }} />
+              <Stack.Screen name="study" options={{ title: 'Учу' }} />
+              <Stack.Screen name="dictionary" options={{ title: 'Мой словарь' }} />
             </Stack>
           )}
         </ThemeProvider>

@@ -103,6 +103,98 @@ export function suspendedWords(suspended: IdSet): Card[] {
   return content.words.filter((card) => suspended[card.id]);
 }
 
+// ─────────────────────────────────────────────────────────────────────────
+// BS-29/BS-30: режимы «Смотрю» (набор словаря) и «Учу» (упражнения по словарю).
+// ─────────────────────────────────────────────────────────────────────────
+
+/** Слова личного словаря (BS-29). */
+export function dictionaryCards(dictionary: IdSet): Card[] {
+  return content.words.filter((card) => dictionary[card.id]);
+}
+
+/**
+ * BS-29 «Смотрю»: пул слов темы для листания — те, что ещё НЕ в словаре
+ * и не помечены «знаю навсегда». Ограничиваем размером пула.
+ */
+export function browsePool(deckId: string, dictionary: IdSet, progress: Progress, size = 20): Card[] {
+  const cards = content.cardsOf('deck', deckId);
+  const pool = cards.filter((card) => !dictionary[card.id] && !progress[card.id]?.known);
+  return pool.slice(0, size);
+}
+
+/** Сколько в теме ещё можно «насмотреть» (не в словаре, не «знаю»). */
+export function browseRemaining(deckId: string, dictionary: IdSet, progress: Progress): number {
+  return content.cardsOf('deck', deckId).filter((card) => !dictionary[card.id] && !progress[card.id]?.known).length;
+}
+
+/**
+ * BS-30 «Учу»: очередь занятия ТОЛЬКО из личного словаря.
+ * Просроченные (due) + новые слова словаря (в пределах дневного лимита), перемешаны по темам.
+ * Слова «Знаю ✓» (known) не берём.
+ */
+export function studyQueue(
+  dictionary: IdSet,
+  progress: Progress,
+  newDoneToday: number,
+  now: number,
+  newLimit = NEW_PER_DAY,
+): Card[] {
+  const cards = dictionaryCards(dictionary);
+  const newAllowed = Math.max(0, newLimit - newDoneToday);
+
+  const fresh: Card[] = [];
+  const due: { card: Card; due: number }[] = [];
+  for (const card of cards) {
+    const p = progress[card.id];
+    if (!p) fresh.push(card);
+    else if (!p.known && p.due <= now) due.push({ card, due: p.due });
+  }
+  due.sort((a, b) => a.due - b.due);
+  return interleaveByGroup([...due.map((d) => d.card), ...fresh.slice(0, newAllowed)]);
+}
+
+export interface StudyCounts {
+  inDict: number; // всего в личном словаре
+  due: number; // пора повторить
+  newAvailable: number; // новых из словаря доступно сегодня
+  newDoneToday: number;
+  newLimit: number;
+  sessionSize: number; // due + newAvailable
+  learning: number; // учу (не выучено)
+  mastered: number; // выучено
+}
+
+/** Сводка для «Учу» по личному словарю (BS-30). */
+export function studyCounts(dictionary: IdSet, progress: Progress, newDoneToday: number, now: number): StudyCounts {
+  const cards = dictionaryCards(dictionary);
+  let due = 0;
+  let learning = 0;
+  let mastered = 0;
+  let totalNew = 0;
+  for (const card of cards) {
+    const p = progress[card.id];
+    if (!p) {
+      totalNew += 1;
+      continue;
+    }
+    if (statusOf(p) === 'mastered') mastered += 1;
+    else learning += 1;
+    if (!p.known && p.due <= now) due += 1;
+  }
+  const newRemaining = Math.max(0, NEW_PER_DAY - newDoneToday);
+  const newAvailable = Math.min(totalNew, newRemaining);
+  return {
+    inDict: cards.length,
+    due,
+    newAvailable,
+    newDoneToday,
+    newLimit: NEW_PER_DAY,
+    sessionSize: due + newAvailable,
+    learning,
+    mastered,
+  };
+}
+
 export interface LearnCounts {
   totalWords: number;
   due: number; // пора повторить

@@ -12,7 +12,7 @@ let applyingRemote = false; // не пушить обратно то, что т�
 
 function snapshot(): CloudState {
   const s = useStore.getState();
-  return { progress: s.progress, saved: s.saved, suspended: s.suspended, skipped: s.skipped, stats: s.stats };
+  return { progress: s.progress, saved: s.saved, suspended: s.suspended, skipped: s.skipped, dictionary: s.dictionary, stats: s.stats };
 }
 
 async function pushNow() {

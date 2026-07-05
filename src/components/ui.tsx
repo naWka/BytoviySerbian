@@ -370,6 +370,27 @@ export function SpeakButton({
   );
 }
 
+// --- Уровень владения словом (BS-30): 4 сегмента + подпись, без интервалов ---
+
+export function LevelBar({ idx, label }: { idx: number; label: string }) {
+  const c = useTheme();
+  const colors = [c.textMuted, c.gradeHard, c.gradeEasy, c.say];
+  const tint = colors[Math.min(idx, 3)];
+  return (
+    <View style={{ flexDirection: 'row', alignItems: 'center', gap: Spacing.sm }}>
+      <View style={{ flexDirection: 'row', gap: 3 }}>
+        {[0, 1, 2, 3].map((n) => (
+          <View
+            key={n}
+            style={{ width: 16, height: 5, borderRadius: 3, backgroundColor: n <= idx ? tint : c.surfaceAlt }}
+          />
+        ))}
+      </View>
+      <Text style={{ fontFamily: Font.bold, fontSize: 12, color: tint }}>{label}</Text>
+    </View>
+  );
+}
+
 // --- Звезда «сохранить» ---
 
 export function SaveButton({ cardId, size = 26 }: { cardId: string; size?: number }) {

@@ -37,6 +37,7 @@ export interface CloudState {
   saved: Record<string, true>;
   suspended: Record<string, true>;
   skipped: Record<string, true>;
+  dictionary: Record<string, true>; // BS-29: личный словарь (что учу в «Учу»)
   stats: Stats;
 }
 
@@ -45,6 +46,7 @@ interface AppState {
   saved: Record<string, true>;
   suspended: Record<string, true>; // BS-18: слова, убранные из учёбы (можно вернуть)
   skipped: Record<string, true>; // BS-23: «пропустить» — уходят в хвост очереди
+  dictionary: Record<string, true>; // BS-29: личный словарь — источник для «Учу» (BS-30)
   stats: Stats;
   _hydrated: boolean;
   hydrateFromCloud: (data: CloudState) => void; // BS-22: применить состояние из облака
@@ -54,6 +56,8 @@ interface AppState {
   suspend: (cardId: string) => void; // «убрать слово» из учёбы
   unsuspend: (cardId: string) => void; // вернуть в учёбу
   skip: (cardId: string) => void; // BS-23: пропустить слово в занятии (в хвост)
+  addToDictionary: (cardId: string) => void; // BS-29: взять слово в личный словарь
+  removeFromDictionary: (cardId: string) => void; // BS-29: убрать из словаря
   toggleSaved: (cardId: string) => void;
   savedIds: () => string[];
   resetProgress: () => void;
@@ -67,6 +71,7 @@ export const useStore = create<AppState>()(
       saved: {},
       suspended: {},
       skipped: {},
+      dictionary: {},
       stats: emptyStats,
       _hydrated: false,
 
@@ -76,6 +81,7 @@ export const useStore = create<AppState>()(
           saved: data.saved ?? {},
           suspended: data.suspended ?? {},
           skipped: data.skipped ?? {},
+          dictionary: data.dictionary ?? {},
           stats: { ...emptyStats, ...(data.stats ?? {}) },
         }),
 
@@ -138,6 +144,21 @@ export const useStore = create<AppState>()(
 
       skip: (cardId) => set((s) => ({ skipped: { ...s.skipped, [cardId]: true } })),
 
+      // BS-29: взять слово в личный словарь (снимаем «пропущено», если было).
+      addToDictionary: (cardId) =>
+        set((s) => {
+          const skipped = { ...s.skipped };
+          delete skipped[cardId];
+          return { dictionary: { ...s.dictionary, [cardId]: true }, skipped };
+        }),
+
+      removeFromDictionary: (cardId) =>
+        set((s) => {
+          const dictionary = { ...s.dictionary };
+          delete dictionary[cardId];
+          return { dictionary };
+        }),
+
       toggleSaved: (cardId) =>
         set((s) => {
           const saved = { ...s.saved };
@@ -148,14 +169,14 @@ export const useStore = create<AppState>()(
 
       savedIds: () => Object.keys(get().saved),
 
-      resetProgress: () => set({ progress: {}, suspended: {}, skipped: {}, stats: emptyStats }),
+      resetProgress: () => set({ progress: {}, suspended: {}, skipped: {}, dictionary: {}, stats: emptyStats }),
 
       setHydrated: (v) => set({ _hydrated: v }),
     }),
     {
       name: 'bs-store-v1',
       storage: createJSONStorage(() => AsyncStorage),
-      partialize: (s) => ({ progress: s.progress, saved: s.saved, suspended: s.suspended, skipped: s.skipped, stats: s.stats }),
+      partialize: (s) => ({ progress: s.progress, saved: s.saved, suspended: s.suspended, skipped: s.skipped, dictionary: s.dictionary, stats: s.stats }),
       onRehydrateStorage: () => (state) => state?.setHydrated(true),
     },
   ),

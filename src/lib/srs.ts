@@ -129,6 +129,21 @@ export function makeKnown(now: number): CardProgress {
   return { ease: 2.6, intervalDays: FAR, reps: 6, lapses: 0, phase: 'review', step: 0, known: true, due: now + FAR * DAY, last: now };
 }
 
+/**
+ * BS-30: уровень владения словом (интервалы спрятаны, показываем «насколько выучил»).
+ * Новое → Закрепляю → Уверенно → Выучено. idx 0..3 для полоски/значка.
+ */
+export interface Level {
+  idx: 0 | 1 | 2 | 3;
+  label: string;
+}
+export function levelOf(p: CardProgress | undefined): Level {
+  if (!p) return { idx: 0, label: 'Новое' };
+  if (p.known || p.intervalDays >= MASTER_INTERVAL) return { idx: 3, label: 'Выучено' };
+  if (phaseOf(p) === 'review' && p.reps >= 3) return { idx: 2, label: 'Уверенно' };
+  return { idx: 1, label: 'Закрепляю' };
+}
+
 export function statusOf(p: CardProgress | undefined): CardStatus {
   if (!p) return 'new';
   if (p.known) return 'mastered'; // BS-23: «Знаю ✓» — всегда выучено
