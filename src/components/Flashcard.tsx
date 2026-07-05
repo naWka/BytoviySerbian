@@ -46,7 +46,18 @@ export function Flashcard({
               {card.ru}
             </Txt>
 
-            {card.exampleSr ? (
+            {/* Примеры: у глаголов — весь массив с «когда» (как в словаре, BS-24); у слов — один */}
+            {card.examples && card.examples.length > 0 ? (
+              card.examples.map((ex, i) => (
+                <View key={i} style={[styles.sub, { backgroundColor: c.surfaceAlt }]}>
+                  <Txt style={{ fontStyle: 'italic' }}>{ex.sr}</Txt>
+                  <Txt variant="small" muted style={{ marginTop: 4 }}>{ex.ru}</Txt>
+                  {ex.when ? (
+                    <Txt variant="small" color={c.primary} style={{ marginTop: 6 }}>💬 когда: {ex.when}</Txt>
+                  ) : null}
+                </View>
+              ))
+            ) : card.exampleSr ? (
               <View style={[styles.sub, { backgroundColor: c.surfaceAlt }]}>
                 <Txt style={{ fontStyle: 'italic' }}>{card.exampleSr}</Txt>
                 {card.exampleRu ? (
