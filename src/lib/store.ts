@@ -36,6 +36,7 @@ export interface CloudState {
   progress: Record<string, CardProgress>;
   saved: Record<string, true>;
   suspended: Record<string, true>;
+  skipped: Record<string, true>;
   stats: Stats;
 }
 
@@ -43,6 +44,7 @@ interface AppState {
   progress: Record<string, CardProgress>;
   saved: Record<string, true>;
   suspended: Record<string, true>; // BS-18: слова, убранные из учёбы (можно вернуть)
+  skipped: Record<string, true>; // BS-23: «пропустить» — уходят в хвост очереди
   stats: Stats;
   _hydrated: boolean;
   hydrateFromCloud: (data: CloudState) => void; // BS-22: применить состояние из облака
@@ -51,6 +53,7 @@ interface AppState {
   unmarkKnown: (cardId: string) => void;
   suspend: (cardId: string) => void; // «убрать слово» из учёбы
   unsuspend: (cardId: string) => void; // вернуть в учёбу
+  skip: (cardId: string) => void; // BS-23: пропустить слово в занятии (в хвост)
   toggleSaved: (cardId: string) => void;
   savedIds: () => string[];
   resetProgress: () => void;
@@ -63,6 +66,7 @@ export const useStore = create<AppState>()(
       progress: {},
       saved: {},
       suspended: {},
+      skipped: {},
       stats: emptyStats,
       _hydrated: false,
 
@@ -71,6 +75,7 @@ export const useStore = create<AppState>()(
           progress: data.progress ?? {},
           saved: data.saved ?? {},
           suspended: data.suspended ?? {},
+          skipped: data.skipped ?? {},
           stats: { ...emptyStats, ...(data.stats ?? {}) },
         }),
 
@@ -95,14 +100,19 @@ export const useStore = create<AppState>()(
           stats.lastDay = today;
         }
 
-        set({ progress: { ...state.progress, [cardId]: next }, stats });
+        // Пользователь занялся словом → снимаем метку «пропущено» (BS-23).
+        const skipped = { ...state.skipped };
+        delete skipped[cardId];
+        set({ progress: { ...state.progress, [cardId]: next }, stats, skipped });
       },
 
       markKnown: (cardId) =>
         set((s) => {
           const suspended = { ...s.suspended };
           delete suspended[cardId];
-          return { progress: { ...s.progress, [cardId]: makeKnown(Date.now()) }, suspended };
+          const skipped = { ...s.skipped };
+          delete skipped[cardId];
+          return { progress: { ...s.progress, [cardId]: makeKnown(Date.now()) }, suspended, skipped };
         }),
 
       unmarkKnown: (cardId) =>
@@ -112,7 +122,12 @@ export const useStore = create<AppState>()(
           return { progress };
         }),
 
-      suspend: (cardId) => set((s) => ({ suspended: { ...s.suspended, [cardId]: true } })),
+      suspend: (cardId) =>
+        set((s) => {
+          const skipped = { ...s.skipped };
+          delete skipped[cardId];
+          return { suspended: { ...s.suspended, [cardId]: true }, skipped };
+        }),
 
       unsuspend: (cardId) =>
         set((s) => {
@@ -120,6 +135,8 @@ export const useStore = create<AppState>()(
           delete suspended[cardId];
           return { suspended };
         }),
+
+      skip: (cardId) => set((s) => ({ skipped: { ...s.skipped, [cardId]: true } })),
 
       toggleSaved: (cardId) =>
         set((s) => {
@@ -131,14 +148,14 @@ export const useStore = create<AppState>()(
 
       savedIds: () => Object.keys(get().saved),
 
-      resetProgress: () => set({ progress: {}, suspended: {}, stats: emptyStats }),
+      resetProgress: () => set({ progress: {}, suspended: {}, skipped: {}, stats: emptyStats }),
 
       setHydrated: (v) => set({ _hydrated: v }),
     }),
     {
       name: 'bs-store-v1',
       storage: createJSONStorage(() => AsyncStorage),
-      partialize: (s) => ({ progress: s.progress, saved: s.saved, suspended: s.suspended, stats: s.stats }),
+      partialize: (s) => ({ progress: s.progress, saved: s.saved, suspended: s.suspended, skipped: s.skipped, stats: s.stats }),
       onRehydrateStorage: () => (state) => state?.setHydrated(true),
     },
   ),

@@ -4,7 +4,7 @@
 import { Ionicons } from '@expo/vector-icons';
 import { Stack, router } from 'expo-router';
 import { useState } from 'react';
-import { Platform, Pressable, View } from 'react-native';
+import { Platform, Pressable, StyleSheet, View } from 'react-native';
 import * as Haptics from 'expo-haptics';
 import Animated, { FadeIn, SlideInRight } from 'react-native-reanimated';
 
@@ -26,10 +26,12 @@ export default function SessionScreen() {
   const stats = useStore((s) => s.stats);
   const gradeFn = useStore((s) => s.grade);
   const suspendFn = useStore((s) => s.suspend);
+  const markKnownFn = useStore((s) => s.markKnown);
+  const skipFn = useStore((s) => s.skip);
 
   const [queue, setQueue] = useState<string[]>(() => {
     const s = useStore.getState();
-    return sessionQueue(s.progress, s.suspended, newToday(s.stats), Date.now()).map((w) => w.id);
+    return sessionQueue(s.progress, s.suspended, s.skipped, newToday(s.stats), Date.now()).map((w) => w.id);
   });
   const [i, setI] = useState(0);
   const [revealed, setRevealed] = useState(false);
@@ -50,6 +52,26 @@ export default function SessionScreen() {
     const id = queue[i];
     if (Platform.OS !== 'web') Haptics.impactAsync(Haptics.ImpactFeedbackStyle.Medium).catch(() => {});
     suspendFn(id);
+    setRevealed(false);
+    setI((x) => x + 1);
+  };
+
+  // BS-23: «Знаю ✓» на лице карточки — слово известно навсегда, из учёбы уходит.
+  const onKnow = () => {
+    const id = queue[i];
+    if (Platform.OS !== 'web') Haptics.impactAsync(Haptics.ImpactFeedbackStyle.Medium).catch(() => {});
+    markKnownFn(id);
+    setDone((x) => x + 1);
+    setRevealed(false);
+    setI((x) => x + 1);
+  };
+
+  // BS-23: «Пропустить» — слово помечается пропущенным и уходит в хвост занятия.
+  const onSkip = () => {
+    const id = queue[i];
+    if (Platform.OS !== 'web') Haptics.impactAsync(Haptics.ImpactFeedbackStyle.Light).catch(() => {});
+    skipFn(id);
+    setQueue((q) => [...q, id]); // в самый конец очереди
     setRevealed(false);
     setI((x) => x + 1);
   };
@@ -122,9 +144,37 @@ export default function SessionScreen() {
         {revealed ? (
           <GradeBar prev={progress[card.id]} onGrade={onGrade} />
         ) : (
-          <Button label={side === 'produce' ? 'Показать ответ' : 'Показать перевод'} icon="eye" onPress={() => setRevealed(true)} />
+          <View style={{ gap: Spacing.sm }}>
+            <Button label={side === 'produce' ? 'Показать ответ' : 'Показать перевод'} icon="eye" onPress={() => setRevealed(true)} />
+            <View style={{ flexDirection: 'row', gap: Spacing.sm }}>
+              <Pressable
+                onPress={onKnow}
+                style={({ pressed }) => [styles.faceBtn, { backgroundColor: c.saySoft }, pressed && { opacity: 0.82 }]}>
+                <Ionicons name="checkmark-circle" size={20} color={c.say} />
+                <Txt variant="body" color={c.say} style={{ fontWeight: '800' }}>Знаю</Txt>
+              </Pressable>
+              <Pressable
+                onPress={onSkip}
+                style={({ pressed }) => [styles.faceBtn, { backgroundColor: c.snoozeSoft }, pressed && { opacity: 0.82 }]}>
+                <Ionicons name="play-skip-forward" size={20} color={c.snooze} />
+                <Txt variant="body" color={c.snooze} style={{ fontWeight: '800' }}>Пропустить</Txt>
+              </Pressable>
+            </View>
+          </View>
         )}
       </View>
     </Screen>
   );
 }
+
+const styles = StyleSheet.create({
+  faceBtn: {
+    flex: 1,
+    flexDirection: 'row',
+    alignItems: 'center',
+    justifyContent: 'center',
+    gap: 6,
+    paddingVertical: 14,
+    borderRadius: 14,
+  },
+});

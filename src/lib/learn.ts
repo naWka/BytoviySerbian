@@ -63,10 +63,13 @@ function interleaveByGroup(cards: Card[]): Card[] {
 /**
  * Единая очередь занятия (BS-18): просроченные (due) + новые слова
  * (не больше остатка дневного лимита), перемешанные по темам.
+ * BS-23: слова, помеченные «Знаю ✓» (progress.known), в очередь не попадают вовсе;
+ * «пропущенные» (skipped) уходят стабильно в самый хвост — показываются последними.
  */
 export function sessionQueue(
   progress: Progress,
   suspended: IdSet,
+  skipped: IdSet,
   newDoneToday: number,
   now: number,
   newLimit = NEW_PER_DAY,
@@ -77,17 +80,22 @@ export function sessionQueue(
   const newByDeck = content.decks.map((d) => d.cards.filter((card) => isNewCandidate(card.id, progress, suspended)));
   const fresh = roundRobin(newByDeck, newAllowed);
 
-  // Просроченные (без убранных), самые давние первыми.
+  // Просроченные (без убранных и без «Знаю ✓»), самые давние первыми.
   const due: { card: Card; due: number }[] = [];
   for (const card of content.words) {
     if (suspended[card.id]) continue;
     const p = progress[card.id];
-    if (p && p.due <= now) due.push({ card, due: p.due });
+    if (p && !p.known && p.due <= now) due.push({ card, due: p.due });
   }
   due.sort((a, b) => a.due - b.due);
 
   // Внутри темы сперва идёт повторение, затем новые; всё перемешиваем по темам.
-  return interleaveByGroup([...due.map((d) => d.card), ...fresh]);
+  const queue = interleaveByGroup([...due.map((d) => d.card), ...fresh]);
+
+  // BS-23: пропущенные — в хвост очереди (самый низкий приоритет), порядок сохраняем.
+  const active = queue.filter((card) => !skipped[card.id]);
+  const later = queue.filter((card) => skipped[card.id]);
+  return [...active, ...later];
 }
 
 /** Убранные из учёбы слова (BS-18). */

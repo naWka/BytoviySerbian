@@ -108,13 +108,20 @@ export function gradeCard(prev: CardProgress | undefined, grade: Grade, now: num
   return reviewResult(intervalDays); // недостижимо, для полноты типов
 }
 
-/** «Знаю ✓»: сразу пометить карточку выученной (следующий повтор — нескоро). */
+/**
+ * «Знаю ✓» (BS-23): пометить карточку известной навсегда.
+ * `known: true` — отдельное состояние от «выучено через повторения»: такое слово
+ * в занятиях больше не показывается совсем (due уводим далеко в будущее),
+ * тогда как SRS-выученное (intervalDays ≥ 21) изредка возвращается по сроку.
+ */
 export function makeKnown(now: number): CardProgress {
-  return { ease: 2.6, intervalDays: 30, reps: 6, lapses: 0, phase: 'review', step: 0, due: now + 30 * DAY, last: now };
+  const FAR = 3650; // ~10 лет: практически «никогда»
+  return { ease: 2.6, intervalDays: FAR, reps: 6, lapses: 0, phase: 'review', step: 0, known: true, due: now + FAR * DAY, last: now };
 }
 
 export function statusOf(p: CardProgress | undefined): CardStatus {
   if (!p) return 'new';
+  if (p.known) return 'mastered'; // BS-23: «Знаю ✓» — всегда выучено
   if (phaseOf(p) === 'learning') return 'learning';
   if (p.intervalDays >= MASTER_INTERVAL) return 'mastered';
   return 'review';
