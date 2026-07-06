@@ -1,6 +1,7 @@
 // BS-30: упражнение «собери слово из букв». Вопрос — перевод (рус), собираешь серб.
 // Тап по букве внизу — добавляет в ответ; тап по букве в ответе — возвращает вниз.
-// Когда собрано на всю длину — автопроверка. Результат отдаём через onResult (один раз).
+// «Стереть» убирает последнюю; проверка — только по кнопке «Проверить» (без автопроверки,
+// чтобы случайный тап по последней букве не засчитывал неверный ответ). onResult — один раз.
 import { Ionicons } from '@expo/vector-icons';
 import * as Haptics from 'expo-haptics';
 import { useMemo, useState } from 'react';
@@ -11,7 +12,7 @@ import { useTheme } from '@/hooks/use-theme';
 import { letterTiles } from '@/lib/exercise';
 import type { Card } from '@/lib/types';
 
-import { Mono, SpeakButton, Txt } from './ui';
+import { Button, Mono, SpeakButton, Txt } from './ui';
 
 export function AssembleWord({ card, onResult }: { card: Card; onResult: (correct: boolean) => void }) {
   const c = useTheme();
@@ -20,11 +21,12 @@ export function AssembleWord({ card, onResult }: { card: Card; onResult: (correc
   const [used, setUsed] = useState<number[]>([]); // индексы плиток в порядке набора
   const [checked, setChecked] = useState<null | boolean>(null);
 
-  const built = used.map((idx) => tiles[idx]).join('');
+  const targetLen = Array.from(target).length;
+  const isFull = used.length === targetLen;
 
-  const check = (next: number[]) => {
-    if (next.length !== Array.from(target).length) return;
-    const answer = next.map((idx) => tiles[idx]).join('');
+  const check = () => {
+    if (checked !== null || used.length !== targetLen) return;
+    const answer = used.map((idx) => tiles[idx]).join('');
     const correct = answer === target;
     setChecked(correct);
     if (Platform.OS !== 'web') {
@@ -36,13 +38,15 @@ export function AssembleWord({ card, onResult }: { card: Card; onResult: (correc
 
   const addTile = (idx: number) => {
     if (checked !== null || used.includes(idx)) return;
-    const next = [...used, idx];
-    setUsed(next);
-    check(next);
+    setUsed([...used, idx]);
   };
   const removeAt = (pos: number) => {
     if (checked !== null) return;
     setUsed(used.filter((_, i) => i !== pos));
+  };
+  const removeLast = () => {
+    if (checked !== null || used.length === 0) return;
+    setUsed(used.slice(0, -1));
   };
 
   const answerBorder = checked === null ? c.border : checked ? c.say : c.sos;
@@ -69,6 +73,25 @@ export function AssembleWord({ card, onResult }: { card: Card; onResult: (correc
           </View>
         )}
       </View>
+
+      {/* Управление: стереть последнюю / проверить. Без автопроверки — случайный тап не засчитается. */}
+      {checked === null ? (
+        <View style={{ flexDirection: 'row', gap: Spacing.sm }}>
+          <Button
+            label="Стереть"
+            icon="backspace-outline"
+            variant="soft"
+            onPress={removeLast}
+            style={{ flex: 1, opacity: used.length === 0 ? 0.4 : 1 }}
+          />
+          <Button
+            label="Проверить"
+            icon="checkmark"
+            onPress={check}
+            style={{ flex: 1, opacity: isFull ? 1 : 0.4 }}
+          />
+        </View>
+      ) : null}
 
       {checked === false ? (
         <View style={{ flexDirection: 'row', alignItems: 'center', justifyContent: 'center', gap: Spacing.sm }}>
